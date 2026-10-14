@@ -1,0 +1,143 @@
+{
+ "run_id": "20261014_ABC_verified120_B",
+ "tier": "S",
+ "mode": "DEEP",
+ "n_files": 81,
+ "n_questions": 120,
+ "top_k_files": 5,
+ "work_path": "/poc_runs/20261014_ABC_verified120_B/work",
+ "image": "modelscope-registry.us-west-1.cr.aliyuncs.com/modelscope-repo/sirchmunk:ubuntu22.04-py312-0.0.7",
+ "image_id": "sha256:d3a08d8cd3a738362ebf662ebf3dd261b63a12854c5fdb8c27fc58b95364927d",
+ "model": "gpt-5.4",
+ "cluster_sim_threshold": "0.85",
+ "started": "2026-10-14T14:20:17+08:00",
+ "questions_sha256": "84f8a790551fabc154b74f9f59e0e13dde0eff7f06b38de9eb3afb27d341fb11",
+ "runner_sha256": "0d93e25207c84a5d1fe352c7b8156dcb32cefcfc47a55bd00e9125a436706e7f",
+ "question_timeout_s": 600,
+ "state": "running",
+ "usage_accounting": "successful llm.achat response usage; logical calls include failures, internal retries may add HTTP attempts"
+}
+[warmup] rga cache warm pass: 0.4s
+[1/120] INV-01 answered 27.1s tokens=16385 evidence=1
+[2/120] INV-02 NO_RESULT 36.9s tokens=56583 evidence=5
+[3/120] INV-03 answered 24.7s tokens=28492 evidence=3
+[4/120] INV-04 answered 38.2s tokens=53557 evidence=5
+[5/120] INV-05 answered 32.2s tokens=31716 evidence=2
+[6/120] INV-06 answered 35.3s tokens=42684 evidence=3
+[7/120] INV-07 NO_RESULT 38.2s tokens=51195 evidence=5
+[8/120] INV-08 NO_RESULT 40.3s tokens=48385 evidence=4
+[9/120] INV-09 answered 38.6s tokens=52231 evidence=4
+[10/120] INV-10 answered 39.6s tokens=55181 evidence=5
+[11/120] INV-11 answered 30.3s tokens=54002 evidence=5
+[12/120] INV-12 answered 45.8s tokens=51740 evidence=5
+[13/120] INV-13 answered 38.6s tokens=35232 evidence=5
+[14/120] INV-14 NO_RESULT 45.0s tokens=50183 evidence=5
+[15/120] INV-15 answered 26.6s tokens=32994 evidence=2
+[16/120] INV-16 answered 38.2s tokens=58126 evidence=5
+[17/120] INV-17 answered 41.2s tokens=59757 evidence=5
+[18/120] INV-18 NO_RESULT 33.5s tokens=55184 evidence=5
+[19/120] INV-19 answered 46.5s tokens=63634 evidence=5
+[20/120] INV-20 answered 28.1s tokens=61470 evidence=5
+[21/120] INV-21 answered 47.4s tokens=47607 evidence=5
+[22/120] INV-22 NO_RESULT 33.3s tokens=45330 evidence=4
+[23/120] INV-23 NO_RESULT 37.9s tokens=51678 evidence=5
+[24/120] INV-24 answered 46.5s tokens=57274 evidence=5
+[25/120] SVC-01 answered 24.2s tokens=18380 evidence=2
+[26/120] SVC-02 answered 27.2s tokens=21156 evidence=2
+[27/120] SVC-03 NO_RESULT 33.7s tokens=36409 evidence=5
+[28/120] SVC-04 NO_RESULT 46.4s tokens=69362 evidence=5
+[29/120] SVC-05 answered 38.9s tokens=43189 evidence=4
+[30/120] SVC-06 answered 42.3s tokens=51516 evidence=4
+[31/120] SVC-07 NO_RESULT 42.4s tokens=59738 evidence=5
+[32/120] SVC-08 answered 38.2s tokens=51810 evidence=5
+[33/120] SVC-09 answered 29.6s tokens=62847 evidence=5
+[34/120] SVC-10 answered 34.6s tokens=58709 evidence=5
+[35/120] SVC-11 NO_RESULT 34.8s tokens=67759 evidence=5
+[36/120] SVC-12 answered 35.1s tokens=63702 evidence=5
+[37/120] SVC-13 answered 44.3s tokens=51641 evidence=5
+[38/120] SVC-14 answered 42.7s tokens=48606 evidence=5
+[39/120] SVC-15 NO_RESULT 41.4s tokens=61376 evidence=5
+[40/120] SVC-16 NO_RESULT 38.7s tokens=45822 evidence=5
+[41/120] SVC-17 NO_RESULT 31.5s tokens=68011 evidence=5
+[42/120] SVC-18 NO_RESULT 41.9s tokens=40597 evidence=5
+[43/120] SVC-19 answered 48.1s tokens=53438 evidence=5
+[44/120] SVC-20 NO_RESULT 43.9s tokens=49773 evidence=5
+[45/120] SVC-21 answered 59.4s tokens=53555 evidence=4
+[46/120] SVC-22 answered 48.4s tokens=57355 evidence=5
+[47/120] SVC-23 answered 64.6s tokens=58022 evidence=5
+[48/120] SVC-24 answered 54.0s tokens=65220 evidence=5
+[49/120] XD-01 answered 34.8s tokens=131584 evidence=5
+[50/120] XD-02 NO_RESULT 41.4s tokens=36738 evidence=5
+[51/120] XD-03 NO_RESULT 41.3s tokens=63329 evidence=5
+[52/120] XD-04 answered 33.9s tokens=48290 evidence=5
+[53/120] XD-05 answered 39.6s tokens=58277 evidence=5
+[54/120] XD-06 answered 39.3s tokens=52478 evidence=5
+[55/120] XD-07 answered 40.3s tokens=50807 evidence=5
+[56/120] XD-08 answered 39.8s tokens=54247 evidence=5
+[57/120] XD-09 answered 39.3s tokens=55620 evidence=5
+[58/120] XD-10 NO_RESULT 41.4s tokens=68153 evidence=5
+[59/120] XD-11 answered 43.1s tokens=66316 evidence=5
+[60/120] XD-12 answered 55.2s tokens=61196 evidence=5
+[61/120] XD-13 answered 49.6s tokens=71904 evidence=5
+[62/120] XD-14 answered 44.1s tokens=83390 evidence=5
+[63/120] XD-15 answered 46.8s tokens=57821 evidence=5
+[64/120] XD-16 NO_RESULT 45.5s tokens=41870 evidence=5
+[65/120] XD-17 answered 45.9s tokens=82515 evidence=5
+[66/120] XD-18 answered 37.7s tokens=34099 evidence=2
+[67/120] XD-19 NO_RESULT 41.5s tokens=52807 evidence=5
+[68/120] XD-20 answered 32.8s tokens=73361 evidence=5
+[69/120] XD-21 NO_RESULT 41.4s tokens=42852 evidence=5
+[70/120] XD-22 NO_RESULT 41.7s tokens=64873 evidence=5
+[71/120] XD-23 NO_RESULT 38.6s tokens=47750 evidence=5
+[72/120] XD-24 NO_RESULT 46.1s tokens=71513 evidence=5
+[73/120] CONS-01 answered 25.9s tokens=57708 evidence=5
+[74/120] CONS-02 NO_RESULT 40.2s tokens=46681 evidence=5
+[75/120] CONS-03 answered 40.8s tokens=64221 evidence=5
+[76/120] CONS-04 answered 40.2s tokens=71958 evidence=5
+[77/120] CONS-05 answered 28.4s tokens=59506 evidence=5
+[78/120] CONS-06 answered 42.8s tokens=45963 evidence=5
+[79/120] CONS-07 answered 31.5s tokens=53885 evidence=5
+[80/120] CONS-08 answered 47.4s tokens=55516 evidence=5
+[81/120] CONS-09 answered 32.3s tokens=53637 evidence=5
+[82/120] CONS-10 NO_RESULT 42.8s tokens=55904 evidence=5
+[83/120] CONS-11 NO_RESULT 31.4s tokens=53324 evidence=5
+[84/120] CONS-12 answered 32.1s tokens=51179 evidence=5
+[85/120] CONS-13 NO_RESULT 43.0s tokens=66723 evidence=5
+[86/120] CONS-14 answered 55.4s tokens=58030 evidence=5
+[87/120] CONS-15 answered 41.0s tokens=10579 evidence=2
+[88/120] CONS-16 answered 6.9s tokens=13147 evidence=0
+[89/120] DDQ-01 answered 36.3s tokens=51534 evidence=5
+[90/120] DDQ-02 NO_RESULT 51.8s tokens=65617 evidence=5
+[91/120] DDQ-03 answered 41.1s tokens=50195 evidence=5
+[92/120] DDQ-04 answered 39.6s tokens=23341 evidence=4
+[93/120] DDQ-05 answered 25.2s tokens=33313 evidence=2
+[94/120] DDQ-06 answered 40.6s tokens=66964 evidence=5
+[95/120] DDQ-07 NO_RESULT 40.3s tokens=17546 evidence=1
+[96/120] DDQ-08 answered 26.0s tokens=9707 evidence=2
+[97/120] DDQ-09 answered 33.6s tokens=10934 evidence=2
+[98/120] DDQ-10 answered 52.4s tokens=70246 evidence=5
+[99/120] DDQ-11 answered 25.0s tokens=14025 evidence=0
+[100/120] DDQ-12 NO_RESULT 29.6s tokens=47317 evidence=5
+[101/120] DDQ-13 NO_RESULT 29.9s tokens=54528 evidence=4
+[102/120] DDQ-14 NO_RESULT 41.7s tokens=56677 evidence=5
+[103/120] OTH-01 answered 27.7s tokens=24655 evidence=3
+[104/120] OTH-02 answered 37.8s tokens=51538 evidence=5
+[105/120] OTH-03 answered 35.6s tokens=14808 evidence=2
+[106/120] OTH-04 answered 37.3s tokens=38546 evidence=5
+[107/120] OTH-05 answered 40.8s tokens=45725 evidence=5
+[108/120] OTH-06 answered 40.1s tokens=58241 evidence=5
+[109/120] OTH-07 answered 41.3s tokens=41429 evidence=5
+[110/120] OTH-08 answered 41.2s tokens=41806 evidence=5
+[111/120] OTH-09 NO_RESULT 31.0s tokens=65544 evidence=5
+[112/120] OTH-10 answered 36.9s tokens=61383 evidence=5
+[113/120] OTH-11 NO_RESULT 41.9s tokens=67518 evidence=5
+[114/120] OTH-12 NO_RESULT 39.7s tokens=62039 evidence=5
+[115/120] OTH-13 NO_RESULT 42.5s tokens=51792 evidence=5
+[116/120] OTH-14 NO_RESULT 39.5s tokens=62780 evidence=5
+[117/120] OTH-15 NO_RESULT 38.6s tokens=51254 evidence=5
+[118/120] OTH-16 answered 39.6s tokens=55152 evidence=5
+[119/120] OTH-17 answered 46.7s tokens=64625 evidence=5
+[120/120] OTH-18 answered 44.9s tokens=55798 evidence=5
+
+Run 20261014_ABC_verified120_B: 120 questions, 80 answered; median latency 39.7s
+Results: C:\Users\XUJI\OneDrive - Capco\Desktop\Sirchmunk_PoC\poc\results\20261014_ABC_verified120\B\results.csv

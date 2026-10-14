@@ -1,0 +1,1557 @@
+﻿id,type,pair_id,question,gold_source_file,gold_answer,answer,no_result,gate_should_answer,gold_in_candidates,gold_rank_in_candidates,gold_in_sampled,gold_in_evidence,n_candidates,rga_timeout,evidence_files,reused_cluster,latency_s,llm_calls,total_tokens,prompt_tokens,completion_tokens,error,pre_gate_answer
+CONS-01,detail,,"In the Grand Rapids General Retirement System investment consultant RFP, what was the total market value of the General Retirement System and as of what date?",Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf,"Approximately $437 million as of June 30, 2023 (the separate Grand Rapids Police and Fire Retirement System covered by the same RFP was approximately $479 million).","## Markdown Briefing
+
+### Grand Rapids General Retirement System: Total Market Value
+
+- **Total market value:** Approximately **$437 million**
+- **Valuation date:** **June 30, 2023**
+
+### Summary
+The RFP for the **City of Grand Rapids General Retirement System** states that the system’s total market value was **approximately $437 million as of June 30, 2023**.",False,True,True,1,True,True,37,False,Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf;Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf;TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf;IMRF__sample-investment-consulting-rfp.pdf;Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf,,22.77,4,47884,47484,400,,"## Markdown Briefing
+
+### Grand Rapids General Retirement System: Total Market Value
+
+- **Total market value:** Approximately **$437 million**
+- **Valuation date:** **June 30, 2023**
+
+### Summary
+The RFP for the **City of Grand Rapids General Retirement System** states that the system’s total market value was **approximately $437 million as of June 30, 2023**."
+CONS-02,detail,,"In the NYC Board of Education Retirement System (BERS) RFP 2024-003 for investment consulting services, how many maximum evaluation points are assigned to the annual fee proposal?",NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf,"28 points (out of 100). Full breakdown: Program Plan/Narrative 18, Organizational Capacity/Knowledge and Experience 23, Demonstrated Effectiveness 22, Fee Proposal - Annual Fee 28, Fee Proposal - Hourly Rate 9.",No results found.,True,False,True,1,True,True,31,False,NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf;COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf;Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf;Anchorage_PFRS__RFP_2025_Final.pdf;Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf,,38.58,19,59566,58053,1513,,"# Markdown Briefing
+
+## Question
+**In the NYC Board of Education Retirement System (BERS) RFP 2024-003 for investment consulting services, how many maximum evaluation points are assigned to the annual fee proposal?**
+
+## Finding
+**Cannot be determined from the provided evidence.**
+
+## Basis
+- The supplied excerpts confirm only part of the evaluation criteria table, including:
+  - **Program Plan/Narrative:** 18 points
+  - **Organizational Capacity / Knowledge and Experience:** 23 points
+- The evidence also notes that **Section 4.4** addresses the **fee proposal requirements**.
+- However, the specific **evaluation table row for the annual fee proposal** is **not included** in the provided materials.
+
+## Conclusion
+Based strictly on the supplied fragments, the **maximum evaluation points for the annual fee proposal are not shown** and therefore **cannot be determined**."
+CONS-03,detail,,"In the Anchorage Police and Fire Retirement System 2025 investment consultant RFP, what is the minimum amount of assets under management a firm must have?",Anchorage_PFRS__RFP_2025_Final.pdf,At least $2 billion under management.,"# Markdown Briefing
+
+## Minimum AUM Requirement
+In the **Anchorage Police and Fire Retirement System 2025 investment consultant RFP**, a firm must have at least **$2 billion** in assets under management.
+
+## Source Detail
+This requirement appears in **Section 3, subsection A, “Minimum Consultant Requirements,”** which states:
+
+> “The firm must have at least **$2 Billion** under management.”
+
+## Related Minimum Requirements
+The same section also indicates that the firm must:
+- work with **public pension funds**;
+- assign a **lead consultant with at least 10 years of investment experience**;
+- agree to act as a **fiduciary to APFRS** under Alaska and other applicable law; and
+- be registered as an **Investment Advisor under the Investment Advisers Act of 1940**.",False,True,True,1,True,True,63,False,Anchorage_PFRS__RFP_2025_Final.pdf;SAA__SAA-Investment-Manager-Database-Questionnaire.docx;INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf;Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf;MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf,,34.78,21,43115,41449,1666,,"# Markdown Briefing
+
+## Minimum AUM Requirement
+In the **Anchorage Police and Fire Retirement System 2025 investment consultant RFP**, a firm must have at least **$2 billion** in assets under management.
+
+## Source Detail
+This requirement appears in **Section 3, subsection A, “Minimum Consultant Requirements,”** which states:
+
+> “The firm must have at least **$2 Billion** under management.”
+
+## Related Minimum Requirements
+The same section also indicates that the firm must:
+- work with **public pension funds**;
+- assign a **lead consultant with at least 10 years of investment experience**;
+- agree to act as a **fiduciary to APFRS** under Alaska and other applicable law; and
+- be registered as an **Investment Advisor under the Investment Advisers Act of 1940**."
+CONS-04,detail,,"According to the San Bernardino County Employees' Retirement Association (SBCERA) investment consultant RFP, approximately how large is SBCERA's investment portfolio?",SBCERA__investment_consultant_-_request_for_proposals.pdf,Approximately $12.0 billion in assets.,"## Briefing: SBCERA Portfolio Size
+
+- **Approximate portfolio size:** **$12.0 billion**
+- **Source:** SBCERA **Investment Consulting Services RFP**
+- **Context:** The figure is listed in the **Background** section of the RFP.
+- **Additional detail:** The RFP describes the portfolio as **globally diversified across all asset classes**.
+
+### Direct Answer
+According to the SBCERA investment consultant RFP, SBCERA’s investment portfolio is approximately **$12.0 billion in assets**.",False,True,True,1,True,True,41,False,SBCERA__investment_consultant_-_request_for_proposals.pdf;Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf;Anchorage_PFRS__RFP_2025_Final.pdf;OCERS__investment_consultant_services_rfp.pdf;COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf,,22.99,4,68227,67806,421,,"## Briefing: SBCERA Portfolio Size
+
+- **Approximate portfolio size:** **$12.0 billion**
+- **Source:** SBCERA **Investment Consulting Services RFP**
+- **Context:** The figure is listed in the **Background** section of the RFP.
+- **Additional detail:** The RFP describes the portfolio as **globally diversified across all asset classes**.
+
+### Direct Answer
+According to the SBCERA investment consultant RFP, SBCERA’s investment portfolio is approximately **$12.0 billion in assets**."
+CONS-05,detail,,"In the Shrewsbury Contributory Retirement System RFP for investment consultant services, how long is the chosen consultant expected to be retained?",Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf,"For five (5) years, not to exceed seven (7) years including any renewal, extension or option. The Board can terminate on thirty (30) days written notice.","## Briefing
+
+- **Expected retention period:** The chosen investment consultant is expected to be retained for **five (5) years**.
+- **Maximum possible term:** The total contract term may not exceed **seven (7) years**, including any **renewals, extensions, or options**.
+- **Termination rights:**  
+  - The **Board** may terminate the contract **for any reason** upon **thirty (30) days’ written notice**.  
+  - The contract must also allow **either party** to terminate on **thirty (30) days’ written notice**.
+
+### Direct Answer
+The consultant is expected to be retained for **five years**.",False,True,True,1,True,True,41,False,Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf;Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf;Anchorage_PFRS__RFP_2025_Final.pdf;TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf;TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf,,36.17,20,50859,49314,1545,,"## Briefing
+
+- **Expected retention period:** The chosen investment consultant is expected to be retained for **five (5) years**.
+- **Maximum possible term:** The total contract term may not exceed **seven (7) years**, including any **renewals, extensions, or options**.
+- **Termination rights:**  
+  - The **Board** may terminate the contract **for any reason** upon **thirty (30) days’ written notice**.  
+  - The contract must also allow **either party** to terminate on **thirty (30) days’ written notice**.
+
+### Direct Answer
+The consultant is expected to be retained for **five years**."
+CONS-06,detail,,Which retirement system's general investment consultant RFP requires respondents to currently provide non-discretionary general investment advice to at least 5 public pension plans larger than $5 billion and at least 2 public plans over $20 billion?,TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf,Texas Municipal Retirement System (TMRS).,"# Briefing
+
+## Answer
+The retirement system is **Texas Municipal Retirement System (TMRS)**.
+
+## Basis
+- The RFP is titled **“Request for Proposal (RFP) Non-Discretionary General Investment Consulting Services.”**
+- In **Section IV: General Information & Minimum Requirements**, TMRS states it is seeking qualified general investment consultants providing **non-discretionary** advice to public pension plans larger than **$5 billion**.
+- **Section IV.I.1** specifically requires that the respondent:
+  - currently provide **general investment advice on a non-discretionary basis** to at least **5 public pension plans larger than $5 billion**, and
+  - at least **2 public plans over $20 billion**.
+
+## Conclusion
+Based on the cited RFP language, the retirement system is **TMRS**.",False,True,True,1,True,True,53,False,TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf;SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf;Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf;Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf;Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf,,36.96,17,46146,44466,1680,,"# Briefing
+
+## Answer
+The retirement system is **Texas Municipal Retirement System (TMRS)**.
+
+## Basis
+- The RFP is titled **“Request for Proposal (RFP) Non-Discretionary General Investment Consulting Services.”**
+- In **Section IV: General Information & Minimum Requirements**, TMRS states it is seeking qualified general investment consultants providing **non-discretionary** advice to public pension plans larger than **$5 billion**.
+- **Section IV.I.1** specifically requires that the respondent:
+  - currently provide **general investment advice on a non-discretionary basis** to at least **5 public pension plans larger than $5 billion**, and
+  - at least **2 public plans over $20 billion**.
+
+## Conclusion
+Based on the cited RFP language, the retirement system is **TMRS**."
+CONS-07,detail,,"Which pension system's investment consultant RFP requires respondents to have at least five defined benefit pension plan clients, two of which are public pension plans with total plan assets of at least $15 billion each?",OCERS__investment_consultant_services_rfp.pdf,"Orange County Employees Retirement System (OCERS), in its 2021 investment consultant services RFP (Appendix E, Minimum Qualifications Certification).",No results found.,True,False,True,6,False,False,38,False,SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf;IMRF__sample-investment-consulting-rfp.pdf;Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf;TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf;Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf,,32.98,4,50380,49368,1012,,"# Briefing
+
+## Conclusion
+**The provided evidence does not identify a pension system with the exact RFP requirement described.** Based on the search results, **no exact match was found** for an investment consultant RFP requiring:
+
+- **at least five defined benefit pension plan clients**, and
+- **two public pension plan clients with total plan assets of at least $15 billion each**.
+
+## What the Evidence Shows
+The available RFP examples contain **similar but not identical** qualification standards:
+
+- **San Diego City Employees’ Retirement System (SDCERS)**
+  - Requires substantial experience advising multi-billion-dollar public pension systems.
+  - Requires at least five years of consulting experience.
+  - **Does not include** the exact client-count and asset-threshold language.
+
+- **Illinois Municipal Retirement Fund (IMRF)**
+  - Requires experience with large public pension plans.
+  - Includes at least one client with **$10 billion** in assets.
+  - **Does not match** the stated requirement.
+
+- **Employees’ Retirement System of the State of Hawaii (ERS)**
+  - For real assets/real estate consulting, requires at least one public retirement system defined benefit client with assets greater than **$5 billion**.
+  - **Not the same requirement**.
+
+- **Texas Municipal Retirement System (TMRS)**
+  - Requires at least **5 public pension plans larger than $5 billion**.
+  - Requires at least **2 public plans over $20 billion**.
+  - This is the **closest structural match**, but it is **not the same wording or thresholds** as the question.
+
+## Assessment
+Because the evidence set does not contain the exact requirement, **the pension system cannot be confirmed from the provided materials alone**.
+
+## Bottom Line
+**Answer cannot be determined from the supplied evidence.**  
+The closest comparable RFP is **TMRS**, but it **does not satisfy the exact requirement in the question**."
+CONS-08,detail,,"Which retirement plan's investment consulting RFP requires that, as of December 31, 2024, the firm have at least three public fund clients each with at least $1B in assets and have been in business at least ten years?",CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf,"The Retirement Plan for CTA Employees (Chicago Transit Authority), in its April 29, 2025 investment consulting RFP.","# Markdown Briefing
+
+## Answer
+The retirement plan is **Retirement Plan for CTA Employees**.
+
+## Basis
+The provided evidence identifies this requirement in the plan’s **Investment Consulting Request for Proposals** and states that, under **Qualifications**, respondents must meet both of the following as of **December 31, 2024**:
+
+- **Have at least three public fund clients, each with at least $1 billion in assets**
+- **Have been in business at least ten years**
+
+## Supporting Identifiers
+- The plan covers employees of the **Chicago Transit Authority**
+- The RFP is for **Investment Consulting Services**
+- Reported invested assets were approximately **$2.0 billion as of April 1, 2025**
+- Proposals were due **May 30, 2025**
+
+## Conclusion
+Based on the evidence, the RFP belongs to the **Retirement Plan for CTA Employees**.",False,True,True,2,True,True,21,False,Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf;CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf;SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf;OCERS__custodian_rfp_2022-2023.pdf;Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf,,40.38,20,51248,49106,2142,,"# Markdown Briefing
+
+## Answer
+The retirement plan is **Retirement Plan for CTA Employees**.
+
+## Basis
+The provided evidence identifies this requirement in the plan’s **Investment Consulting Request for Proposals** and states that, under **Qualifications**, respondents must meet both of the following as of **December 31, 2024**:
+
+- **Have at least three public fund clients, each with at least $1 billion in assets**
+- **Have been in business at least ten years**
+
+## Supporting Identifiers
+- The plan covers employees of the **Chicago Transit Authority**
+- The RFP is for **Investment Consulting Services**
+- Reported invested assets were approximately **$2.0 billion as of April 1, 2025**
+- Proposals were due **May 30, 2025**
+
+## Conclusion
+Based on the evidence, the RFP belongs to the **Retirement Plan for CTA Employees**."
+CONS-09,detail,,Which retirement system's investment consultant RFP requires firms to certify that they currently provide investment consulting services to clients whose combined assets total at least $50 billion?,TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf,"Teachers' Retirement System of the State of Illinois (TRS Illinois), in its FY23 investment consultant RFP (Appendix B, Statement of Minimum Qualifications).","# Markdown Briefing
+
+## Answer
+**Texas Municipal Retirement System (TMRS)**
+
+## Basis
+The evidence identifies TMRS as the retirement system whose **investment consultant RFP** requires firms to demonstrate service to **very large public pension clients**, consistent with the question’s **$50 billion combined assets** threshold.
+
+## Supporting Evidence
+- The relevant document is TMRS’s **“Request for Proposal (RFP) Non-Discretionary General Investment Consulting Services.”**
+- TMRS’s minimum eligibility requirements include:
+  - **At least 5 public pension plans larger than $5 billion**
+  - **At least 2 public pension plans over $20 billion**
+
+## Why TMRS Matches
+These unusually high client-size thresholds distinguish TMRS from the other cited retirement system RFPs and align with the requirement to certify investment consulting services for clients with a **combined asset base of at least $50 billion**.
+
+## Comparison to Other RFPs
+- **Illinois Municipal Retirement Fund (IMRF):** Requires large-plan experience, including at least one client with **$10 billion** in assets, but not **$50 billion combined**.
+- **Employees’ Retirement System of the State of Hawaii (ERS):** Requires at least one defined benefit public retirement client over **$5 billion**, but not **$50 billion combined**.
+
+## Conclusion
+The retirement system is **Texas Municipal Retirement System (TMRS)**.",False,True,True,48,False,False,61,False,IMRF__sample-investment-consulting-rfp.pdf;Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf;TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf;Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf;SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf,,30.31,4,49917,49113,804,,"# Markdown Briefing
+
+## Answer
+**Texas Municipal Retirement System (TMRS)**
+
+## Basis
+The evidence identifies TMRS as the retirement system whose **investment consultant RFP** requires firms to demonstrate service to **very large public pension clients**, consistent with the question’s **$50 billion combined assets** threshold.
+
+## Supporting Evidence
+- The relevant document is TMRS’s **“Request for Proposal (RFP) Non-Discretionary General Investment Consulting Services.”**
+- TMRS’s minimum eligibility requirements include:
+  - **At least 5 public pension plans larger than $5 billion**
+  - **At least 2 public pension plans over $20 billion**
+
+## Why TMRS Matches
+These unusually high client-size thresholds distinguish TMRS from the other cited retirement system RFPs and align with the requirement to certify investment consulting services for clients with a **combined asset base of at least $50 billion**.
+
+## Comparison to Other RFPs
+- **Illinois Municipal Retirement Fund (IMRF):** Requires large-plan experience, including at least one client with **$10 billion** in assets, but not **$50 billion combined**.
+- **Employees’ Retirement System of the State of Hawaii (ERS):** Requires at least one defined benefit public retirement client over **$5 billion**, but not **$50 billion combined**.
+
+## Conclusion
+The retirement system is **Texas Municipal Retirement System (TMRS)**."
+CONS-10,pair_a,P1,What is the proposal submission deadline in the Oklahoma Public Employees Retirement System (OPERS) investment consulting services RFP?,Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf,"4:30 p.m. Central Time on March 25, 2022.",No results found.,True,False,True,6,False,False,35,False,KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf;SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf;DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf;CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf;SBCERA__investment_consultant_-_request_for_proposals.pdf,,36.36,46,53734,50591,3143,,"# Markdown Briefing
+
+## Finding
+**The proposal submission deadline for the Oklahoma Public Employees Retirement System (OPERS) investment consulting services RFP cannot be determined from the provided evidence.**
+
+## Evidence Assessment
+- The supplied evidence **does not include a confirmed OPERS deadline**.
+- The deadlines mentioned in the evidence belong to **other organizations**, not OPERS:
+  - **December 1, 2016 at 5:00 p.m. EST** — South Carolina Retirement System Investment Commission (**RSIC**)
+  - **May 25, 2018 at 5:00 p.m. PT** — **CCCERA**
+- Additional references are to the **District of Columbia Retirement Board** and **SBCERA**, which are also **unrelated to OPERS**.
+
+## Conclusion
+Based on the provided materials, **the OPERS proposal submission deadline is not available and cannot be stated with confidence**.
+
+## What Is Needed
+To answer the question accurately, evidence must come from the **specific OPERS investment consulting services RFP** or an official OPERS procurement source."
+CONS-11,pair_b,P1,What is the proposal submission deadline in the Teachers' Retirement System of Oklahoma investment consultant RFP?,Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf,"4:00 p.m. Central Time on January 14, 2026.",No results found.,True,False,False,,False,False,10,False,SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf;TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf;Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf;Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf;IMRF__sample-investment-consulting-rfp.pdf,,27.59,4,49578,48915,663,,"# Briefing
+
+## Conclusion
+**The proposal submission deadline for the Teachers' Retirement System of Oklahoma investment consultant RFP is not available in the provided evidence.**
+
+## Evidence Assessment
+- The retrieved materials **do not include** the relevant **Teachers' Retirement System of Oklahoma** RFP.
+- Therefore, the specific deadline **cannot be confirmed** from the provided sources.
+
+## Related Deadlines Found in the Evidence
+The evidence only includes deadlines for other organizations:
+- **San Diego City Employees' Retirement System (SDCERS):** September 22, 2026, by 5:00 PM PDT
+- **Texas Municipal Retirement System (TMRS):** March 3, 2022, by 5:00 p.m. CST
+- **Employees’ Retirement System of the State of Hawaii (ERS):** November 30, 2022, by 4:30 p.m. HST
+
+## Bottom Line
+**No confirmed proposal submission deadline for the Teachers' Retirement System of Oklahoma investment consultant RFP is provided in the retrieved evidence.**"
+CONS-12,pair_a,P2,How many printed copies of the proposal must be submitted in the Boston Retirement System 2022 investment consulting services RFP?,Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf,Seven (7) printed copies plus one (1) electronic version.,"# Markdown Briefing
+
+## Proposal Copy Requirement
+The **Boston Retirement System 2022 Investment Consulting Services RFP** requires **seven (7) printed copies** of the proposal.
+
+## Supporting Details
+- The **timeline section** states that prospective consultants must submit **seven (7) complete printed copies** and **one electronic version**.
+- **Section V: Terms and Conditions for Submitting Proposals** repeats the same requirement.
+- Of the printed copies, **one must be labeled “Master Copy.”**
+
+## Conclusion
+**Required printed copies:** **7**",False,True,True,2,True,True,69,False,Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf;Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf;Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf;SBCERS__2020-Private-Equity-RFP.pdf;Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf,,25.1,4,41749,41232,517,,"# Markdown Briefing
+
+## Proposal Copy Requirement
+The **Boston Retirement System 2022 Investment Consulting Services RFP** requires **seven (7) printed copies** of the proposal.
+
+## Supporting Details
+- The **timeline section** states that prospective consultants must submit **seven (7) complete printed copies** and **one electronic version**.
+- **Section V: Terms and Conditions for Submitting Proposals** repeats the same requirement.
+- Of the printed copies, **one must be labeled “Master Copy.”**
+
+## Conclusion
+**Required printed copies:** **7**"
+CONS-13,pair_b,P2,How many printed copies of the proposal must be submitted in the San Francisco Employees' Retirement System (SFERS) general investment consultant RFP?,SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf,Three (3) paper (hard) copies plus one full electronic copy.,No results found.,True,False,True,29,False,False,40,False,SBCERS__2020-Private-Equity-RFP.pdf;Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf;Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf;Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf;Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf,,38.09,33,51316,49226,2090,,"# Briefing
+
+## Conclusion
+**The number of printed copies required for the SFERS general investment consultant RFP cannot be determined from the provided evidence.**
+
+## Basis
+- The evidence **does not include** the actual **San Francisco Employees' Retirement System (SFERS)** general investment consultant RFP.
+- The materials referenced are for **other retirement systems and procurements**, including:
+  - **SBCERS**
+  - **Boston Retirement System**
+  - **Firefighters’ Pension Investment Fund**
+
+## Why the Evidence Is Insufficient
+- These cited RFPs have **different submission requirements**.
+- Their copy-count instructions are **not transferable** to SFERS.
+- Using them to infer SFERS requirements would be **unreliable and unsupported**.
+
+## Bottom Line
+**No verified printed-copy count for the SFERS proposal can be established from the provided materials.**"
+CONS-14,medium,,What are all the minimum requirements a proposer must meet in the City of Hartford Municipal Employees' Retirement Fund (MERF) general investment consultant RFP?,Hartford_MERF__file.pdf,"(1) In business at least 10 years providing general consulting services; (2) senior members (top leadership) have worked together at least 3 years; (3) no subcontracting of account management, and all account personnel must be employees of the proposer; (4) currently serve as consultant for at least five public pension funds each with over $1.5 billion in assets; (5) the primary consultant for MERF and OPEB has at least 5 years of consulting experience with DB public pension plans and has been employed by the proposer at least 3 years; (6) serve as a fiduciary to MERF and OPEB and acknowledge in writing compliance with their investment policies and guidelines. All must be met as of March 15, 2024, 5:00 p.m. ET.","# Markdown Briefing: Hartford MERF General Investment Consultant RFP Minimum Requirements
+
+## Visible Minimum Qualifications
+Based on the provided evidence, a proposer must meet these **visible minimum requirements**:
+
+1. **Registered investment adviser / fiduciary status**
+   - Must be a **registered investment adviser** under the **Investment Advisers Act of 1940**.
+   - Must serve as a **fiduciary** to **MERF and OPEB**.
+
+2. **Minimum firm experience**
+   - Must have been in business for at least **10 years** providing **general consultant services**.
+
+3. **Relevant public pension client experience**
+   - Must have advised at least **five public pension fund clients**.
+   - Each such client must have at least **$1.5 billion** in total plan assets.
+
+4. **Team stability**
+   - Senior members of the proposer’s team must have worked together for at least **3 years**.
+
+5. **Direct responsibility for the account**
+   - The proposer must be **directly responsible** for management of the account.
+   - All personnel responsible for the account must be **employees of the firm**.
+
+6. **Primary consultant qualifications**
+   - The primary consultant assigned to the City Treasurer’s Office must have at least **5 years** of consulting experience with **defined benefit public pension plans**.
+   - That consultant must also have at least **3 years** of employment with the proposer.
+
+## Mandatory Compliance Condition
+- Failure to satisfy **each minimum qualification**, in the **City Treasurer’s Office’s sole judgment**, will result in **immediate rejection** of the proposal.
+- **Appendix A, Minimum Qualifications Certification**, must be signed by an **authorized representative** certifying that all minimum qualifications have been met.
+
+## Mandatory Proposal Submission Conditions
+These are not substantive qualifications, but they appear to function as **mandatory responsiveness requirements**:
+
+### Cover Letter
+- Must include a **cover letter signed** by a person authorized to **bind the proposer contractually**.
+- An **unsigned cover letter** will result in **rejection**.
+- The cover letter must acknowledge that submitted documents become **public record**.
+
+### Required Cover Letter Information
+- Proposer name, address, phone, fax, and email
+- Federal Employer Identification Number and Corporate Identification Number, if applicable
+- Signer’s name, title/position, phone, and email
+- Statement that the signer is authorized to bind the proposer
+- Primary contact/account administrator information, if different
+- Statement that the proposal is a **firm and irrevocable offer**, valid for **five years** with **two one-year extension options**
+- Statement of willingness to perform the services described in the RFP
+- Statement confirming availability of staff and resources to meet required timeframes
+- **Signed and completed Appendix B, Representations and Warranties**
+
+## Important Limitation
+- The provided excerpt appears **truncated after item 6**.
+- Accordingly, this is the **full set of minimum requirements visible in the supplied evidence**, but it **may not be the complete list** from the full Hartford MERF RFP.",False,True,True,1,True,True,35,False,Hartford_MERF__file.pdf;SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf;TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf;COAERS__COAERS_General_Investment_Consultant_RFP.pdf;SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf,,48.14,28,56351,52503,3848,,"# Markdown Briefing: Hartford MERF General Investment Consultant RFP Minimum Requirements
+
+## Visible Minimum Qualifications
+Based on the provided evidence, a proposer must meet these **visible minimum requirements**:
+
+1. **Registered investment adviser / fiduciary status**
+   - Must be a **registered investment adviser** under the **Investment Advisers Act of 1940**.
+   - Must serve as a **fiduciary** to **MERF and OPEB**.
+
+2. **Minimum firm experience**
+   - Must have been in business for at least **10 years** providing **general consultant services**.
+
+3. **Relevant public pension client experience**
+   - Must have advised at least **five public pension fund clients**.
+   - Each such client must have at least **$1.5 billion** in total plan assets.
+
+4. **Team stability**
+   - Senior members of the proposer’s team must have worked together for at least **3 years**.
+
+5. **Direct responsibility for the account**
+   - The proposer must be **directly responsible** for management of the account.
+   - All personnel responsible for the account must be **employees of the firm**.
+
+6. **Primary consultant qualifications**
+   - The primary consultant assigned to the City Treasurer’s Office must have at least **5 years** of consulting experience with **defined benefit public pension plans**.
+   - That consultant must also have at least **3 years** of employment with the proposer.
+
+## Mandatory Compliance Condition
+- Failure to satisfy **each minimum qualification**, in the **City Treasurer’s Office’s sole judgment**, will result in **immediate rejection** of the proposal.
+- **Appendix A, Minimum Qualifications Certification**, must be signed by an **authorized representative** certifying that all minimum qualifications have been met.
+
+## Mandatory Proposal Submission Conditions
+These are not substantive qualifications, but they appear to function as **mandatory responsiveness requirements**:
+
+### Cover Letter
+- Must include a **cover letter signed** by a person authorized to **bind the proposer contractually**.
+- An **unsigned cover letter** will result in **rejection**.
+- The cover letter must acknowledge that submitted documents become **public record**.
+
+### Required Cover Letter Information
+- Proposer name, address, phone, fax, and email
+- Federal Employer Identification Number and Corporate Identification Number, if applicable
+- Signer’s name, title/position, phone, and email
+- Statement that the signer is authorized to bind the proposer
+- Primary contact/account administrator information, if different
+- Statement that the proposal is a **firm and irrevocable offer**, valid for **five years** with **two one-year extension options**
+- Statement of willingness to perform the services described in the RFP
+- Statement confirming availability of staff and resources to meet required timeframes
+- **Signed and completed Appendix B, Representations and Warranties**
+
+## Important Limitation
+- The provided excerpt appears **truncated after item 6**.
+- Accordingly, this is the **full set of minimum requirements visible in the supplied evidence**, but it **may not be the complete list** from the full Hartford MERF RFP."
+CONS-15,medium,,List the core functions that the City of Creve Coeur Employee Pension Plan expects from its pension fund consultant in its May 2020 RFP.,Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf,"(1) Help develop and maintain the investment policy statement; (2) plan asset allocations annually and monitor regularly; (3) recommend changes when markets change significantly and flag concerns; (4) provide research and recommendations for investments in each asset class; (5) follow recommended investments closely and meet the Pension Board quarterly in person, or monthly or as needed by phone; (6) provide monthly reporting of portfolio performance and statements; (7) work with City staff on sourcing funds, opening new accounts and tracking liquidity for pension payments; (8) work with investment managers, funds and custodians to ensure timely year-end and quarterly reporting.","# Markdown Briefing
+
+## Core Functions Expected of the Pension Fund Consultant
+The **City of Creve Coeur Employee Pension Plan** expects its pension fund consultant, under the **May 2020 RFP**, to provide the following core services:
+
+- **Investment Policy Support**
+  - Help the Pension Board develop the **investment policy statement (IPS)**.
+  - Assist in keeping the IPS **current and updated** over time.
+
+- **Asset Allocation Planning and Monitoring**
+  - Plan the fund’s **asset allocation annually**.
+  - Monitor allocations regularly to keep the portfolio aligned with **plan objectives**.
+
+- **Strategic Change Recommendations**
+  - Recommend changes when there are **significant market developments**.
+  - Alert the Board to concerns or needed changes in **strategy, structure, or approach**.
+
+- **Investment Research and Selection**
+  - Provide **investment research** across asset classes.
+  - Recommend **specific investments** within those asset classes.
+
+- **Ongoing Monitoring and Board Communication**
+  - Closely monitor recommended investments.
+  - Meet with the Pension Board **quarterly in person**.
+  - Remain available **monthly or as needed by phone**.
+
+- **Performance Reporting**
+  - Provide **monthly portfolio performance reports**.
+  - Deliver **monthly statements**.
+
+- **Operational and Liquidity Support**
+  - Work with City staff on **sourcing funds**.
+  - Assist with **opening new accounts** when needed.
+  - Monitor **liquidity** to ensure pension payments can be made on time.
+
+- **Coordination with External Parties**
+  - Coordinate with **investment managers, funds, and custodians** for timely reporting.
+  - Support **year-end financial reporting** and **quarterly updates**.
+
+## Additional RFP Context
+The RFP Q&A indicates the Board also wanted broader **consulting advice on plan structure and management**, including whether to revise:
+
+- the **current asset allocation**,
+- the **benchmark structure**, and
+- the plan’s **overall investment setup**.",False,True,True,1,True,True,69,False,Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf;Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf;SBCERS__2020-Private-Equity-RFP.pdf;COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf;INPRS__RFP24-05_AuditServices.pdf,,32.62,4,52331,51280,1051,,"# Markdown Briefing
+
+## Core Functions Expected of the Pension Fund Consultant
+The **City of Creve Coeur Employee Pension Plan** expects its pension fund consultant, under the **May 2020 RFP**, to provide the following core services:
+
+- **Investment Policy Support**
+  - Help the Pension Board develop the **investment policy statement (IPS)**.
+  - Assist in keeping the IPS **current and updated** over time.
+
+- **Asset Allocation Planning and Monitoring**
+  - Plan the fund’s **asset allocation annually**.
+  - Monitor allocations regularly to keep the portfolio aligned with **plan objectives**.
+
+- **Strategic Change Recommendations**
+  - Recommend changes when there are **significant market developments**.
+  - Alert the Board to concerns or needed changes in **strategy, structure, or approach**.
+
+- **Investment Research and Selection**
+  - Provide **investment research** across asset classes.
+  - Recommend **specific investments** within those asset classes.
+
+- **Ongoing Monitoring and Board Communication**
+  - Closely monitor recommended investments.
+  - Meet with the Pension Board **quarterly in person**.
+  - Remain available **monthly or as needed by phone**.
+
+- **Performance Reporting**
+  - Provide **monthly portfolio performance reports**.
+  - Deliver **monthly statements**.
+
+- **Operational and Liquidity Support**
+  - Work with City staff on **sourcing funds**.
+  - Assist with **opening new accounts** when needed.
+  - Monitor **liquidity** to ensure pension payments can be made on time.
+
+- **Coordination with External Parties**
+  - Coordinate with **investment managers, funds, and custodians** for timely reporting.
+  - Support **year-end financial reporting** and **quarterly updates**.
+
+## Additional RFP Context
+The RFP Q&A indicates the Board also wanted broader **consulting advice on plan structure and management**, including whether to revise:
+
+- the **current asset allocation**,
+- the **benchmark structure**, and
+- the plan’s **overall investment setup**."
+CONS-16,broad,,"Across the investment consultant RFPs in the corpus that set a minimum number of years in business or experience for the consulting firm, what is the most common minimum requirement?",OCERS__investment_consultant_services_rfp.pdf;COAERS__COAERS_General_Investment_Consultant_RFP.pdf;SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf;Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf;CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf;SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf;Hartford_MERF__file.pdf;SBCERA__investment_consultant_-_request_for_proposals.pdf;NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf;Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf,"Five years is the most common (4 RFPs), followed by ten years (3 RFPs). Per file: OCERS 5 years of continuous operation; COAERS 5 years in business (or senior principals with 10 years); SDCERS 5 years of continuous general investment consulting experience; Grand Rapids 5 years of institutional consulting experience; CTA 10 years in business; SC RSIC 10 years; Hartford MERF 10 years; SBCERA 7 years in existence; NYC BERS 7 years of experience; Boston BRS 3 years of experience. Several others (e.g. TMRS, Oklahoma TRS, Arizona PSPRS, IMRF, SFERS, Anchorage) set no firm-level years minimum; any year thresholds there apply only to individual consultants.","## Answer
+
+Based on the provided excerpts, **no common minimum number of years in business or experience can be determined** from the investment consultant RFPs in the corpus.
+
+### Why
+Among the relevant **investment consultant RFPs** provided:
+
+- **Arizona PSPRS – Non-Discretionary Investment Consultant Services**
+  - The excerpted text does **not show a stated minimum years-in-business or experience requirement** for the consulting firm.
+
+- **Anchorage Police & Fire Retirement System – Investment Consultant**
+  - The excerpted text also does **not show a stated minimum years-in-business or experience requirement**.
+
+### Important limitation
+The corpus includes **sampled content markers** (`[...content sampled...]`), so this analysis is based only on the excerpts provided and **may miss requirements stated in omitted sections**.
+
+## Conclusion
+
+**From the provided excerpts, there is no identifiable “most common” minimum years requirement, because no such minimum is explicitly stated in the visible investment consultant RFP text.**",False,,False,,False,False,0,False,,,6.37,2,13023,12799,224,,
+DDQ-01,detail,,"Which due diligence questionnaire in the corpus asks the manager 'What kills a deal for your team?', and who published it?",AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf,The Private Markets Due Diligence Questionnaire ('Your Resource for Evaluating Private Market Partners') published by Calamos Investments with Aksia (file AC_Private_Markets). The question appears under General Questions > Investment Strategy and asks the manager to describe a recent example.,"# Markdown Briefing
+
+## Identified Questionnaire
+- **Questionnaire:** **ILPA Due Diligence Questionnaire (DDQ)**
+
+## Publisher
+- **Published by:** **Institutional Limited Partners Association (ILPA)**
+
+## Supporting Evidence
+- The closest matching prompt appears in the ILPA DDQ, **Detailed Questions, section 3.9**:
+  - *“Describe any investments that will not be considered. Are there any factors that would automatically end a potential deal? If so, explain.”*
+- This directly aligns with the user’s phrasing: **“What kills a deal for your team?”**
+- The document also explicitly identifies **Institutional Limited Partners Association (ILPA)** as the publisher.
+
+## Conclusion
+The due diligence questionnaire in the corpus that asks the manager, in substance, **“What kills a deal for your team?”** is the **ILPA Due Diligence Questionnaire**, published by the **Institutional Limited Partners Association (ILPA)**.",False,True,True,8,False,False,12,False,ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf;INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf;ILPA__ILPA-DDQ-2.0.pdf;TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf;INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx,,37.01,36,62658,60068,2590,,"# Markdown Briefing
+
+## Identified Questionnaire
+- **Questionnaire:** **ILPA Due Diligence Questionnaire (DDQ)**
+
+## Publisher
+- **Published by:** **Institutional Limited Partners Association (ILPA)**
+
+## Supporting Evidence
+- The closest matching prompt appears in the ILPA DDQ, **Detailed Questions, section 3.9**:
+  - *“Describe any investments that will not be considered. Are there any factors that would automatically end a potential deal? If so, explain.”*
+- This directly aligns with the user’s phrasing: **“What kills a deal for your team?”**
+- The document also explicitly identifies **Institutional Limited Partners Association (ILPA)** as the publisher.
+
+## Conclusion
+The due diligence questionnaire in the corpus that asks the manager, in substance, **“What kills a deal for your team?”** is the **ILPA Due Diligence Questionnaire**, published by the **Institutional Limited Partners Association (ILPA)**."
+DDQ-02,detail,,Which due diligence questionnaire asks respondents what percentage of their current portfolio companies are located in New Jersey and what percentage are Life Science/Healthcare companies?,NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf,"The NJEDA Appendix A Due Diligence Questionnaire (NJEDA Life Science Seed Fund notice of investment opportunity, 2023), question 4.6 under '4.0 Proposed Fund Investment Strategy'.","## Briefing
+
+The due diligence questionnaire is **Appendix A – Due Diligence Questionnaire** from a **New Jersey-focused fund solicitation/proposal request**.
+
+### Key Identification
+- **Document title:** **Appendix A – Due Diligence Questionnaire**
+- **Relevant section:** **Section 4.0 – Proposed Fund Investment Strategy**
+- **Specific question:** **Question 4.6**
+
+### What Question 4.6 Asks
+Question 4.6 asks respondents to address:
+- how the fund will invest in **New Jersey-based Life Science/Healthcare companies**;
+- **what percentage of the respondent’s current portfolio companies are located in New Jersey**; and
+- **what percentage of the current portfolio companies are Life Science/Healthcare companies**.
+
+### Conclusion
+The best match is **Appendix A – Due Diligence Questionnaire**, specifically the **New Jersey LS/HC** questionnaire containing **Section 4.6** under **Proposed Fund Investment Strategy**.",False,True,True,4,True,True,12,False,AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf;OCERS__investment_consultant_services_rfp.pdf;Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf;NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf;Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf,,26.01,4,43161,42438,723,,"## Briefing
+
+The due diligence questionnaire is **Appendix A – Due Diligence Questionnaire** from a **New Jersey-focused fund solicitation/proposal request**.
+
+### Key Identification
+- **Document title:** **Appendix A – Due Diligence Questionnaire**
+- **Relevant section:** **Section 4.0 – Proposed Fund Investment Strategy**
+- **Specific question:** **Question 4.6**
+
+### What Question 4.6 Asks
+Question 4.6 asks respondents to address:
+- how the fund will invest in **New Jersey-based Life Science/Healthcare companies**;
+- **what percentage of the respondent’s current portfolio companies are located in New Jersey**; and
+- **what percentage of the current portfolio companies are Life Science/Healthcare companies**.
+
+### Conclusion
+The best match is **Appendix A – Due Diligence Questionnaire**, specifically the **New Jersey LS/HC** questionnaire containing **Section 4.6** under **Proposed Fund Investment Strategy**."
+DDQ-03,detail,,"In the SAA investment manager questionnaire for fixed income investment management services, which services is the firm asked to indicate whether it offers, along with any additional fee?",SAA__SAA-Investment-Manager-Database-Questionnaire.docx,"Five services: Schedule D investment accounting; asset/liability management (dynamic financial analysis); performance attribution; daily internet access of portfolio information; and SVO filing. For each, the firm marks Yes/No and gives an approximate fee.","# Markdown Briefing
+
+## Services the Firm Must Address in the Questionnaire
+
+In the **SAA fixed income investment manager questionnaire**, the firm is asked to indicate for each of the following services:
+
+- **Whether the service is offered** (**Yes/No**)
+- **The approximate additional fee**, if any
+
+### Listed Services
+- **Schedule D investment accounting**
+- **Asset/liability management (dynamic financial analysis)**
+- **Performance attribution**
+- **Daily internet access of portfolio information**
+- **SVO filing**
+
+## Questionnaire Format
+The questionnaire presents these items in a table with the following columns:
+
+- **Service**
+- **Service Offered? (Yes/No)**
+- **Approximate Fee**
+
+## Key Point
+The firm is being asked to disclose both **service availability** and any **additional fee amount** associated with each of the five listed services.",False,True,True,1,True,True,25,False,SAA__SAA-Investment-Manager-Database-Questionnaire.docx;INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf;Temple_City_CA__Recordkeeping-RFP.pdf;SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf;TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf,,36.76,52,55173,51086,4087,,"# Markdown Briefing
+
+## Services the Firm Must Address in the Questionnaire
+
+In the **SAA fixed income investment manager questionnaire**, the firm is asked to indicate for each of the following services:
+
+- **Whether the service is offered** (**Yes/No**)
+- **The approximate additional fee**, if any
+
+### Listed Services
+- **Schedule D investment accounting**
+- **Asset/liability management (dynamic financial analysis)**
+- **Performance attribution**
+- **Daily internet access of portfolio information**
+- **SVO filing**
+
+## Questionnaire Format
+The questionnaire presents these items in a table with the following columns:
+
+- **Service**
+- **Service Offered? (Yes/No)**
+- **Approximate Fee**
+
+## Key Point
+The firm is being asked to disclose both **service availability** and any **additional fee amount** associated with each of the five listed services."
+DDQ-04,detail,,"Under the ILPA ESG Assessment Framework, how often does a GP review its ESG policy at the 'Intermediate' and at the 'Advanced' level of the 'Approach to Policy Review' component?",ILPA__ILPA-ESG-Assessment-Framework.pdf,"Intermediate: the GP reviews its ESG policy periodically, i.e. every 2-3 years, and can share recent findings and updates. Advanced: the GP reviews its ESG policy annually and can comment on its evolution.","## Markdown Briefing
+
+### ILPA ESG Assessment Framework: Policy Review Timing
+
+For the **“Approach to Policy Review”** component under the **ILPA ESG Assessment Framework**:
+
+- **Intermediate level:** the GP reviews its ESG policy **every 2–3 years**
+- **Advanced level:** the GP reviews its ESG policy **annually**
+
+### Key Distinction
+
+- **Intermediate:** periodic review on a **2–3 year cycle**
+- **Advanced:** **annual** review, reflecting a more frequent and evolving policy oversight approach",False,True,True,1,True,True,27,False,ILPA__ILPA-ESG-Assessment-Framework.pdf;ILPA__ESG-Assessment-Framework-FAQ.pdf;ILPA__240901-ESG-Assessment-Framework-FAQ.pdf;TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf;NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf,,29.0,21,32975,31572,1403,,"## Markdown Briefing
+
+### ILPA ESG Assessment Framework: Policy Review Timing
+
+For the **“Approach to Policy Review”** component under the **ILPA ESG Assessment Framework**:
+
+- **Intermediate level:** the GP reviews its ESG policy **every 2–3 years**
+- **Advanced level:** the GP reviews its ESG policy **annually**
+
+### Key Distinction
+
+- **Intermediate:** periodic review on a **2–3 year cycle**
+- **Advanced:** **annual** review, reflecting a more frequent and evolving policy oversight approach"
+DDQ-05,detail,,"According to the INREV Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles, when was the questionnaire first launched and in which years was it updated?",INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf,"It was first launched in April 2007 and updated in 2010, 2014 and most recently in 2018. The 2018 version introduced a phased approach with Preliminary, Advanced and Supplementary stages.","## Markdown Briefing
+
+**INREV Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles**
+
+- **First launched:** **April 2007**
+- **Updated in:**  
+  - **2010**
+  - **2014**
+  - **2018**
+
+### Conclusion
+According to the provided evidence, the questionnaire was **first launched in April 2007** and was **subsequently updated in 2010, 2014, and 2018**.",False,True,True,2,True,True,2,False,INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx;INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf,,22.04,4,29556,29103,453,,"## Markdown Briefing
+
+**INREV Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles**
+
+- **First launched:** **April 2007**
+- **Updated in:**  
+  - **2010**
+  - **2014**
+  - **2018**
+
+### Conclusion
+According to the provided evidence, the questionnaire was **first launched in April 2007** and was **subsequently updated in 2010, 2014, and 2018**."
+DDQ-06,pair_a,P6,"How many fund diligence topics does the ILPA Due Diligence Questionnaire v1.2 (2018) list in its Overview, and what is the last one?",ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf,"14 topics, numbered 1-14. The last is 14. Diversity and Inclusion, which was added in v1.2. The others are General Firm Information, General Fund Information, Investment Strategy, Investment Process, Team, Alignment of Interest, Market Environment, Fund Terms, Firm Governance/Risk/Compliance, ESG, Track Record, Accounting/Valuation/Reporting and Legal/Administration.","# Briefing
+
+The **ILPA Due Diligence Questionnaire v1.2 (2018)** lists **14 fund diligence topics** in its Overview.
+
+## Last Topic
+- **14. Diversity and Inclusion**
+
+## Supporting Note
+- The evidence also indicates that **Version 1.2** added **Section 14 (Diversity and Inclusion)** to both the **Basic Questions** and **Detailed Questions** sections, which confirms it is the final topic in the Overview.",False,True,True,2,True,True,46,False,ILPA__ILPA-DDQ-2.0.pdf;ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf;Anchorage_PFRS__RFP_2025_Final.pdf;INPRS__RFP24-05_AuditServices.pdf;INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf,,33.17,16,70298,68824,1474,,"# Briefing
+
+The **ILPA Due Diligence Questionnaire v1.2 (2018)** lists **14 fund diligence topics** in its Overview.
+
+## Last Topic
+- **14. Diversity and Inclusion**
+
+## Supporting Note
+- The evidence also indicates that **Version 1.2** added **Section 14 (Diversity and Inclusion)** to both the **Basic Questions** and **Detailed Questions** sections, which confirms it is the final topic in the Overview."
+DDQ-07,pair_b,P6,"How many fund diligence topics does the ILPA Due Diligence Questionnaire 2.0 (2021) list in its Overview, and what is the last one?",ILPA__ILPA-DDQ-2.0.pdf,"20 topics, numbered 1-20. The last is 20. Diversity, Equity and Inclusion. New compared with v1.2 are topics such as Succession Planning / Key Persons, Co-Investments, GP-Led Secondaries / Continuation Funds, Credit Facilities, a separate Reporting topic, and Data Security / Technology / Third-Party(s). ESG is topic 19.","# Briefing
+
+## Key Finding
+The **ILPA Due Diligence Questionnaire 2.0 (2021)** Overview lists **14 fund diligence topics**.
+
+## Last Topic
+The **14th and final topic** is **“Diversity and Inclusion.”**
+
+## Supporting Detail
+The overview presents the topics in a numbered sequence from **1 to 14**, ending with:
+- **14. Diversity and Inclusion**",False,True,True,36,False,False,46,False,Anchorage_PFRS__RFP_2025_Final.pdf;SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf;INPRS__RFP24-05_AuditServices.pdf;INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf;ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf,,31.69,20,66731,65386,1345,,"# Briefing
+
+## Key Finding
+The **ILPA Due Diligence Questionnaire 2.0 (2021)** Overview lists **14 fund diligence topics**.
+
+## Last Topic
+The **14th and final topic** is **“Diversity and Inclusion.”**
+
+## Supporting Detail
+The overview presents the topics in a numbered sequence from **1 to 14**, ending with:
+- **14. Diversity and Inclusion**"
+DDQ-08,pair_a,P7,"In the 2021 version of ILPA's ESG Assessment Framework FAQ, how many resources are listed in answer to 'Where can I find additional resources pertaining to ESG?', and what are they?",ILPA__ESG-Assessment-Framework-FAQ.pdf,6 resources: ILPA's ESG Roadmap; ILPA's Diversity in Action Initiative; UNPRI's Private Equity Page; Sustainability Accounting Standards Board (SASB); Task Force on Climate Related Financial Disclosures (TCFD); The Institutional Investors Group on Climate Change (IIGCC).,"# Markdown Briefing
+
+## Answer
+In the **2021 version** of ILPA’s **ESG Assessment Framework FAQ**, the answer to **“Where can I find additional resources pertaining to ESG?”** lists **6 resources**.
+
+## Listed Resources
+1. **ILPA’s ESG Roadmap**
+2. **ILPA’s Diversity in Action Initiative**
+3. **UNPRI's Private Equity Page**
+4. **Sustainability Accounting Standards Board (SASB)**
+5. **Task Force on Climate Related Financial Disclosures (TCFD)**
+6. **The Institutional Investors Group on Climate Change (IIGCC)**
+
+## Note
+- The evidence indicates that a **later revised FAQ** contains a different and expanded list.
+- For the **2021 version specifically**, the correct count is **6** and the above are the listed resources.",False,True,True,1,True,True,4,False,ILPA__ESG-Assessment-Framework-FAQ.pdf;ILPA__240901-ESG-Assessment-Framework-FAQ.pdf;ILPA__ILPA-DDQ-2.0.pdf;OCERS__investment_consultant_services_rfp.pdf,,32.04,20,31335,29728,1607,,"# Markdown Briefing
+
+## Answer
+In the **2021 version** of ILPA’s **ESG Assessment Framework FAQ**, the answer to **“Where can I find additional resources pertaining to ESG?”** lists **6 resources**.
+
+## Listed Resources
+1. **ILPA’s ESG Roadmap**
+2. **ILPA’s Diversity in Action Initiative**
+3. **UNPRI's Private Equity Page**
+4. **Sustainability Accounting Standards Board (SASB)**
+5. **Task Force on Climate Related Financial Disclosures (TCFD)**
+6. **The Institutional Investors Group on Climate Change (IIGCC)**
+
+## Note
+- The evidence indicates that a **later revised FAQ** contains a different and expanded list.
+- For the **2021 version specifically**, the correct count is **6** and the above are the listed resources."
+DDQ-09,pair_b,P7,"In the 2024 version of ILPA's ESG Assessment Framework FAQ, how many resources are listed in answer to 'Where can I find additional resources pertaining to ESG?', and what are they?",ILPA__240901-ESG-Assessment-Framework-FAQ.pdf,"8 resources: ILPA's ESG and Sustainable Investing Hub; ILPA's Diversity, Equity, and Inclusion Hub; UNPRI's Private Equity Page; The ESG Data Convergence Initiative; The Private Markets Decarbonization Roadmap; IFRS's International Sustainability Standards Board (ISSB), noting SASB is now part of the IFRS Foundation; Task Force on Climate-Related Financial Disclosures, noting TCFD has disbanded after its 2023 status report; The Institutional Investors Group on Climate Change (IIGCC).","# Markdown Briefing
+
+## ILPA ESG Assessment Framework FAQ (2024)
+
+In the **2024 version** of ILPA’s ESG Assessment Framework FAQ, the answer to **“Where can I find additional resources pertaining to ESG?”** lists **8 resources**.
+
+### Listed Resources
+1. **ILPA’s ESG and Sustainable Investing Hub**
+2. **ILPA’s Diversity, Equity, and Inclusion Hub**
+3. **UNPRI's Private Equity Page**
+4. **The ESG Data Convergence Initiative**
+5. **The Private Markets Decarbonization Roadmap**
+6. **IFRS’s International Sustainability Standards Board (ISSB)**
+   - Note: **SASB**, previously listed in the FAQ, is now part of the **IFRS Foundation**.
+7. **Task Force on Climate-Related Financial Disclosures (TCFD)**
+   - Note: Following its **2023 status report**, **TCFD** fulfilled its remit and disbanded; the **IFRS Foundation** was asked to take over monitoring climate-related disclosure progress.
+8. **The Institutional Investors Group on Climate Change (IIGCC)**
+
+## Key Takeaway
+The relevant **September 2024-revised FAQ** identifies **8 ESG resources**, and this list differs from older versions.",False,True,True,1,True,True,11,False,ILPA__240901-ESG-Assessment-Framework-FAQ.pdf;ILPA__ESG-Assessment-Framework-FAQ.pdf;OCERS__investment_consultant_services_rfp.pdf;ILPA__ILPA-DDQ-2.0.pdf;Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf,,35.64,19,42993,41237,1756,,"# Markdown Briefing
+
+## ILPA ESG Assessment Framework FAQ (2024)
+
+In the **2024 version** of ILPA’s ESG Assessment Framework FAQ, the answer to **“Where can I find additional resources pertaining to ESG?”** lists **8 resources**.
+
+### Listed Resources
+1. **ILPA’s ESG and Sustainable Investing Hub**
+2. **ILPA’s Diversity, Equity, and Inclusion Hub**
+3. **UNPRI's Private Equity Page**
+4. **The ESG Data Convergence Initiative**
+5. **The Private Markets Decarbonization Roadmap**
+6. **IFRS’s International Sustainability Standards Board (ISSB)**
+   - Note: **SASB**, previously listed in the FAQ, is now part of the **IFRS Foundation**.
+7. **Task Force on Climate-Related Financial Disclosures (TCFD)**
+   - Note: Following its **2023 status report**, **TCFD** fulfilled its remit and disbanded; the **IFRS Foundation** was asked to take over monitoring climate-related disclosure progress.
+8. **The Institutional Investors Group on Climate Change (IIGCC)**
+
+## Key Takeaway
+The relevant **September 2024-revised FAQ** identifies **8 ESG resources**, and this list differs from older versions."
+DDQ-10,medium,,What topics does the ILPA DDQ 2.0 cover under its ESG section?,ILPA__ILPA-DDQ-2.0.pdf,"Section 19 (Environmental, Social and Governance, per PRI's Limited Partners Private Equity Responsible Investment DDQ) has six subsections: 19.1 Policy (ESG-related policies, governance and oversight, e.g. responsible investment policy, standards/frameworks, oversight and implementation responsibilities, ESG in compensation, staff training); 19.2 Fundraising (ESG commitments in fund documentation/LPA); 19.3 Pre-investment (ESG materiality analysis and due diligence, effect on investment selection, reporting to the decision-making body, deal documentation); 19.4 Post-investment (ESG value creation plans, portfolio company competence, board oversight, ESG KPIs, exit preparation, financial impact, sustainability outcomes); 19.5 Reporting and Disclosure (reporting ESG progress to LPs, LPAC/AGM coverage, material ESG incidents); 19.6 Climate Change (GHG emissions measurement and reporting, climate commitments/targets).",No results found.,True,False,True,1,True,True,2,False,ILPA__ILPA-DDQ-2.0.pdf;PRI__PRI-DDQ-ILPA-Covering-Note.pdf,,35.59,16,12672,11134,1538,,"# Markdown Briefing: ILPA DDQ 2.0 ESG Section
+
+## Summary
+Based on the provided evidence, **ILPA DDQ 2.0 includes ESG as a dedicated standalone section, identified as Section 19**.
+
+## What the evidence confirms
+- **ESG is explicitly covered in ILPA DDQ 2.0**
+- It appears as **Section 19**
+- The section was **updated in 2021**
+- The update was **aligned with ILPA’s broader DDQ revision**
+- The ESG section was developed with input from **LPs and GPs**
+- **PRI provides supporting guidance** for completing this ESG section
+
+## What the evidence does *not* confirm
+- The evidence **does not list the specific topics, questions, or subtopics** included in Section 19
+- As a result, it is **not possible from the supplied material** to identify exactly what ESG topics ILPA DDQ 2.0 covers within that section
+
+## Bottom line
+The most accurate conclusion from the available evidence is that **ILPA DDQ 2.0 covers ESG under a dedicated Section 19**, but **the detailed contents of that ESG section are not specified in the provided material**."
+DDQ-11,broad,,What common areas do the due diligence questionnaires in the corpus cover?,ILPA__ILPA-DDQ-2.0.pdf;ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf;INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf;NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf;AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf;SAA__SAA-Investment-Manager-Database-Questionnaire.docx,"Across the ILPA DDQ (v1.2 and 2.0), the INREV DDQ for non-listed real estate vehicles, the NJEDA Appendix A DDQ, the Calamos/Aksia Private Markets DDQ and the SAA fixed income manager questionnaire, the recurring areas are: (1) general firm information, ownership and organization; (2) team/staff, key persons and succession; (3) investment strategy and investment process/decision-making; (4) fees, expenses and fund terms; (5) track record/performance; (6) reporting, accounting and valuation; (7) risk management, compliance, governance, legal/regulatory and litigation; (8) ESG/responsible investment, which appears in ILPA, INREV and NJEDA, and diversity & inclusion, which appears in ILPA and NJEDA. Operations/IT/business continuity and service providers also appear in ILPA 2.0, INREV and AC.","# Common Due Diligence Areas Covered Across the Corpus
+
+Across the documents, the due diligence questionnaires/RFPs commonly cover the following areas:
+
+## 1. **Organization / Firm Background**
+- Firm history, years in business, ownership, locations, principals
+- Number of employees and qualifications of staff
+- Client base and relevant experience
+- References from similar clients
+
+**Seen in:**
+- American Academy of Actuaries RFP
+- Private Markets Due Diligence Questionnaire
+- Arizona PSPRS RFP
+- AVFPD actuarial services RFP
+- Anchorage PFRS RFP
+
+## 2. **Scope of Services / Capabilities**
+- Description of services the provider can perform
+- Ability to support plan administration, actuarial work, consulting, research, reporting, or investment advisory services
+- Breadth and comprehensiveness of offerings
+
+**Seen in:**
+- American Academy of Actuaries RFP
+- Arizona PSPRS RFP
+- AVFPD RFP
+- Anchorage PFRS RFP
+
+## 3. **Investment or Strategy Approach**
+- Investment opportunity or market focus
+- Portfolio construction, allocation, pacing, exposures, and benchmarks
+- Deal sourcing, underwriting, and decision-making processes
+
+**Seen in:**
+- Private Markets Due Diligence Questionnaire
+- Arizona PSPRS RFP
+- Anchorage PFRS RFP
+
+## 4. **Risk Management**
+- Stress testing and scenario analysis
+- Leverage use
+- Concentration limits and diversification
+- Monitoring of risks and warning indicators
+- Performance monitoring and evaluation
+
+**Seen in:**
+- Private Markets Due Diligence Questionnaire
+- Arizona PSPRS RFP
+- Anchorage PFRS RFP
+
+## 5. **Operations / Administration**
+- Recordkeeping, administration, trust accounting, reporting
+- Fund administration and NAV-related controls
+- Subscription/redemption processing or participant transactions
+- Data requirements and workflow support
+
+**Seen in:**
+- American Academy of Actuaries RFP
+- Private Markets Due Diligence Questionnaire
+- AVFPD RFP
+
+## 6. **Compliance / Regulatory / Reporting**
+- IRS, DOL, PBGC, Form 5500, tax filings
+- GASB compliance and financial statement support
+- Required licenses, registration status, and legal compliance
+- Service organization reports or audit-related materials
+
+**Seen in:**
+- American Academy of Actuaries RFP
+- AVFPD RFP
+- Arizona PSPRS RFP
+- Anchorage PFRS RFP
+
+## 7. **Fees and Compensation**
+- Fee schedules and expense ratios
+- Incentive fees, redemption fees, leverage costs
+- All-inclusive or not-to-exceed pricing
+- Restrictions on indirect compensation
+
+**Seen in:**
+- Private Markets Due Diligence Questionnaire
+- AVFPD RFP
+- Anchorage PFRS RFP
+
+## 8. **Governance and Decision-Making**
+- Investment committee or governance process
+- Interaction with boards, staff, or committees
+- Fiduciary role and responsibilities
+- Succession planning and key person risk
+
+**Seen in:**
+- Private Markets Due Diligence Questionnaire
+- Arizona PSPRS RFP
+- Anchorage PFRS RFP
+- American Academy of Actuaries RFP
+
+## 9. **Valuation / Performance Measurement**
+- Actuarial valuations or fund valuation methodology
+- NAV determination and audit oversight
+- Performance calculation standards and benchmark comparison
+- Reporting of plan or portfolio statistics
+
+**Seen in:**
+- Private Markets Due Diligence Questionnaire
+- AVFPD RFP
+- Anchorage PFRS RFP
+- American Academy of Actuaries RFP
+
+## 10. **Service Team and Responsiveness**
+- Dedicated personnel and credentials
+- Responsiveness to client and participant needs
+- Collaboration with staff and stakeholders
+- Ongoing education and communication support
+
+**Seen in:**
+- American Academy of Actuaries RFP
+- AVFPD RFP
+- Arizona PSPRS RFP
+
+## 11. **Conflicts, Independence, and Red Flags**
+- Complaints, litigation, regulatory actions
+- Independence from managers or other compensation sources
+- Background checks, fraud exposure, or operational failure history
+
+**Seen in:**
+- Private Markets Due Diligence Questionnaire
+- Anchorage PFRS RFP
+
+## 12. **Liquidity / Transition / Implementation**
+- Redemption terms and liquidity constraints
+- Capital deployment and cash flow management
+- Plan consolidation, installation, termination, or transition support
+- Implementation plans and commitment pacing
+
+**Seen in:**
+- Private Markets Due Diligence Questionnaire
+- American Academy of Actuaries RFP
+- Arizona PSPRS RFP
+
+## Note on Document Sampling
+Some documents include **`[...content sampled...]`** markers, so this summary is based on excerpts and may not capture every due diligence area mentioned in the full documents.
+
+## Bottom Line
+The corpus consistently focuses on a core due diligence framework covering:
+
+- **firm background**
+- **service capabilities**
+- **strategy/investment approach**
+- **risk management**
+- **operations**
+- **compliance/reporting**
+- **fees**
+- **governance**
+- **valuation/performance**
+- **staffing/client service**
+- **conflicts/red flags**
+- **liquidity/implementation**",False,,False,,False,False,0,False,,,16.54,2,13880,12757,1123,,
+DDQ-12,unanswerable,,"Which bucket (Not Present, Developing, Intermediate or Advanced) did ILPA assign to KKR under the ILPA ESG Assessment Framework, and what numerical score did KKR receive?",,NOT IN CORPUS,"# Briefing: ILPA ESG Assessment Framework and KKR
+
+## Conclusion
+Based on the provided evidence, **ILPA did not publicly assign KKR**:
+- a specific **bucket** under the ILPA ESG Assessment Framework; or
+- an official **numerical score**.
+
+## What the evidence shows
+- ILPA’s ESG Assessment Framework is a **general tool** for LPs to assess GPs.
+- The framework uses four maturity buckets:
+  - **Not Present**
+  - **Developing**
+  - **Intermediate**
+  - **Advanced**
+- However, the evidence includes **no KKR-specific assessment** or placement into any of these buckets.
+
+## Numerical scoring
+- ILPA explicitly states that it **did not create standardized numerical scores** for the framework.
+- Any scoring derived from the worksheet would be **created by individual LPs**, not by ILPA itself.
+
+## Direct answer to the question
+- **Bucket assigned to KKR by ILPA:** **Not provided**
+- **Numerical score received by KKR:** **None from ILPA**",False,True,,,,,4,False,ILPA__ILPA-ESG-Assessment-Framework.pdf;ILPA__ESG-Assessment-Framework-FAQ.pdf;ILPA__240901-ESG-Assessment-Framework-FAQ.pdf;SBCERS__2020-Private-Equity-RFP.pdf,,26.12,4,24347,23679,668,,"# Briefing: ILPA ESG Assessment Framework and KKR
+
+## Conclusion
+Based on the provided evidence, **ILPA did not publicly assign KKR**:
+- a specific **bucket** under the ILPA ESG Assessment Framework; or
+- an official **numerical score**.
+
+## What the evidence shows
+- ILPA’s ESG Assessment Framework is a **general tool** for LPs to assess GPs.
+- The framework uses four maturity buckets:
+  - **Not Present**
+  - **Developing**
+  - **Intermediate**
+  - **Advanced**
+- However, the evidence includes **no KKR-specific assessment** or placement into any of these buckets.
+
+## Numerical scoring
+- ILPA explicitly states that it **did not create standardized numerical scores** for the framework.
+- Any scoring derived from the worksheet would be **created by individual LPs**, not by ILPA itself.
+
+## Direct answer to the question
+- **Bucket assigned to KKR by ILPA:** **Not provided**
+- **Numerical score received by KKR:** **None from ILPA**"
+DDQ-13,unanswerable,,"Which venture capital manager did NJEDA select to run its Life Science Seed Fund, and how much capital did NJEDA commit to it?",,NOT IN CORPUS,No results found.,True,False,,,,,3,False,Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf;Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf;Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf,,25.82,4,46658,46091,567,,"# Briefing
+
+## Assessment
+The provided evidence is **not relevant** to the question about **NJEDA’s Life Science Seed Fund**.
+
+## What the Evidence Covers
+The retrieved documents relate to unrelated **pension investment consulting RFPs** involving:
+- **Hawaii Employees’ Retirement System**
+- **Illinois Firefighters’ Pension Investment Fund**
+- **Baltimore Employees’ Retirement System and OPEB Trust**
+
+## Missing Information
+None of the supplied evidence identifies:
+- the **venture capital manager** selected by **NJEDA** to run its **Life Science Seed Fund**
+- the **amount of capital** NJEDA committed to that fund
+
+## Conclusion
+Based **strictly on the provided evidence**, the question **cannot be answered**."
+DDQ-14,unanswerable,,How many general partners had adopted the ILPA DDQ 2.0 by 2024?,,NOT IN CORPUS,No results found.,True,False,,,,,22,False,ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf;SBCERS__2020-Private-Equity-RFP.pdf;SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf;TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf;OCERS__investment_consultant_services_rfp.pdf,,35.01,38,63276,60820,2456,,"# Markdown Briefing
+
+## Question
+**How many general partners had adopted the ILPA DDQ 2.0 by 2024?**
+
+## Findings
+- The provided evidence **does not report a 2024 adoption count** for **ILPA DDQ 2.0**.
+- It states that the **ILPA Due Diligence Questionnaire (DDQ)** was created to reduce the burden of customized due diligence requests.
+- The evidence also makes clear that **use of the ILPA DDQ is voluntary**:
+  - The FAQ says the industry is **not required** to use it.
+  - The overview states it is **not intended to be a required document that all GPs must adopt**.
+
+## Evidence Limitations
+- The materials reference **earlier versions** such as **1.1** and **1.2**, but **do not provide adoption statistics for version 2.0**.
+- Other retrieved documents mention ILPA-related due diligence practices, but **none give a numeric count of GP adoption by 2024**.
+
+## Conclusion
+**The number of general partners that had adopted ILPA DDQ 2.0 by 2024 cannot be determined from the provided evidence.**"
+OTH-01,detail,,"In the Oklahoma Public Employees Retirement System (OPERS) July 2023 RFP for index investment management services, what was the market value of the OPERS Russell 1000 Index mandate as of May 31, 2023, and what is its policy weight?",Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf,"$1,859,650,910 (policy weight 17.00%).","## Markdown Briefing
+
+### OPERS Russell 1000 Index Mandate
+In the **July 2023 OPERS RFP for index investment management services**, the **OPERS Russell 1000 Index** mandate was reported as follows as of **May 31, 2023**:
+
+- **Market Value:** **$1,859,650,910**
+- **Policy Weight:** **17.00%**
+
+### Context
+This information appears in the RFP table listing OPERS mandates under **U.S. Equity**.",False,True,True,2,True,True,3,False,Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf;Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf;Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf,,22.59,4,20832,20258,574,,"## Markdown Briefing
+
+### OPERS Russell 1000 Index Mandate
+In the **July 2023 OPERS RFP for index investment management services**, the **OPERS Russell 1000 Index** mandate was reported as follows as of **May 31, 2023**:
+
+- **Market Value:** **$1,859,650,910**
+- **Policy Weight:** **17.00%**
+
+### Context
+This information appears in the RFP table listing OPERS mandates under **U.S. Equity**."
+OTH-02,detail,,"How many Core Plus Fixed Income managers does INPRS anticipate hiring under RFP 22-04, what is the combined mandate size, and what benchmark will be used?",INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf,"Two managers, combined mandate size of approximately $185 million, benchmarked against the Bloomberg U.S. Aggregate Bond Index.","## Briefing: RFP 22-04 Core Plus Fixed Income Mandate
+
+- **Number of managers anticipated:** **2** Core Plus Fixed Income managers  
+- **Combined mandate size:** **Approximately $185 million**  
+- **Benchmark:** **Bloomberg U.S. Aggregate Bond Index**
+
+### Source Note
+- These details are referenced from **Section 3, Scope of Services** of the **RFP 22-04** material.",False,True,True,1,True,True,3,False,INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf;MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf;INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf,,29.62,45,22229,19496,2733,,"## Briefing: RFP 22-04 Core Plus Fixed Income Mandate
+
+- **Number of managers anticipated:** **2** Core Plus Fixed Income managers  
+- **Combined mandate size:** **Approximately $185 million**  
+- **Benchmark:** **Bloomberg U.S. Aggregate Bond Index**
+
+### Source Note
+- These details are referenced from **Section 3, Scope of Services** of the **RFP 22-04** material."
+OTH-03,detail,,"In Rice University's 2021 RFP for audit services for its retirement plans, how many participants did the 401(a) plan and the 403(b) plan have as of December 31, 2020?",Rice_University__2021_Benefit_Plan_RFP_-_final.pdf,"401(a) plan: 8,828 participants; 403(b) plan: 7,533 participants (as of December 31, 2020).",No results found.,True,False,False,,False,False,1,False,Delaware__TRE21101-RECDKEEPR-rfp.pdf,,30.89,12,9126,7728,1398,,"## Markdown Briefing
+
+### Rice University Retirement Plan Participants as of December 31, 2020
+
+- **403(b) plan:**  
+  - **7,002 participants** with accounts on the vendor platform.  
+  - Of these, **5,626 were active contributors**.  
+  - The evidence also mentions **6,863 legacy accounts**, but these are listed separately and should not be treated as the main participant count.
+
+- **401(a) plan (Match Plan):**  
+  - **Participant count not stated** in the provided evidence.
+
+### Bottom Line
+
+From the available evidence, **only the 403(b) plan participant count is provided**. The **401(a) plan count cannot be determined** from the cited material."
+OTH-04,detail,,"According to the Santa Barbara County Employees' Retirement System (SBCERS) custody RFP, how much in assets did SBCERS have as of September 30, 2023?",SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf,Approximately $4.06 billion (the OPEB Plan separately had approximately $53 million).,"# Briefing: SBCERS Assets as of September 30, 2023
+
+## Answer
+According to the **SBCERS Global Custody and Related Services RFP Addendum I**, the **Santa Barbara County Employees' Retirement System (SBCERS)** had **$4,112,337,498.26** in total assets as of **September 30, 2023**.
+
+## Supporting Evidence
+The cited table, **“Accounts and Assets at September 30, 2023,”** reports:
+
+- **Total Accounts:** 33
+- **Total Assets:** **$4,112,337,498.26**
+
+## Asset Breakdown
+- **Cash Accounts:** $57,223,039.65
+- **Domestic Separate Accounts:** $708,161,794.76
+- **Global Separate Accounts:** $341,676,532.73
+- **Single Line Commingled Funds:** $1,496,774,362.02
+- **Multi Line Commingled Funds:** $1,502,851,575.98
+- **Residuals Accounts:** $5,650,193.12
+
+## Conclusion
+**SBCERS total assets as of September 30, 2023: $4,112,337,498.26**",False,True,True,1,True,True,69,False,SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf;INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf;ILPA__ILPA-DDQ-2.0.pdf;COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf;Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf,,35.81,43,52164,49072,3092,,"# Briefing: SBCERS Assets as of September 30, 2023
+
+## Answer
+According to the **SBCERS Global Custody and Related Services RFP Addendum I**, the **Santa Barbara County Employees' Retirement System (SBCERS)** had **$4,112,337,498.26** in total assets as of **September 30, 2023**.
+
+## Supporting Evidence
+The cited table, **“Accounts and Assets at September 30, 2023,”** reports:
+
+- **Total Accounts:** 33
+- **Total Assets:** **$4,112,337,498.26**
+
+## Asset Breakdown
+- **Cash Accounts:** $57,223,039.65
+- **Domestic Separate Accounts:** $708,161,794.76
+- **Global Separate Accounts:** $341,676,532.73
+- **Single Line Commingled Funds:** $1,496,774,362.02
+- **Multi Line Commingled Funds:** $1,502,851,575.98
+- **Residuals Accounts:** $5,650,193.12
+
+## Conclusion
+**SBCERS total assets as of September 30, 2023: $4,112,337,498.26**"
+OTH-05,detail,,"Under Missouri LAGERS' private markets consultant RFP, how many public fund clients of what minimum size must a respondent provide non-discretionary private market investment consulting to?",Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf,"At least three public fund clients with assets of at least $10 billion (as of March 31, 2024).","# Markdown Briefing
+
+## Missouri LAGERS Private Markets Consultant RFP: Minimum Client Requirement
+
+Under **Section 3, “Minimum Requirements,”** of the Missouri LAGERS **Private Market Consulting Services RFP**, a respondent must, as of **March 31, 2024**:
+
+- Provide **non-discretionary private market investment consulting**
+- To at least **3 public fund clients**
+- Where **each client** has at least **$10 billion in assets**
+
+## Concise Answer
+
+- **Minimum number of public fund clients:** **3**
+- **Minimum size of each client:** **$10 billion in assets**",False,True,True,1,True,True,26,False,Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf;IMRF__sample-investment-consulting-rfp.pdf;SBCERS__2020-Private-Equity-RFP.pdf;OCERS__custodian_rfp_2022-2023.pdf;CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf,,35.77,19,47839,46289,1550,,"# Markdown Briefing
+
+## Missouri LAGERS Private Markets Consultant RFP: Minimum Client Requirement
+
+Under **Section 3, “Minimum Requirements,”** of the Missouri LAGERS **Private Market Consulting Services RFP**, a respondent must, as of **March 31, 2024**:
+
+- Provide **non-discretionary private market investment consulting**
+- To at least **3 public fund clients**
+- Where **each client** has at least **$10 billion in assets**
+
+## Concise Answer
+
+- **Minimum number of public fund clients:** **3**
+- **Minimum size of each client:** **$10 billion in assets**"
+OTH-06,detail,,"In Clark County, Washington's RFP 955 for a deferred compensation 457 plan administrator, how much was held in the 457 Plans as of December 31, 2025, and who is the current provider?",Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf,Approximately $167 million; the current provider is Lincoln Financial.,"# Briefing: Clark County, Washington RFP 955 — 457 Plan Snapshot
+
+## Key Findings
+- **Assets held as of December 31, 2025:** Approximately **$167 million**
+- **Current provider:** **Lincoln Financial**
+
+## Supporting Notes
+- The RFP states that Lincoln Financial currently provides:
+  - **Basic administration**
+  - **Enrollment**
+  - **Participant communication and education**
+  - **Investment management**
+  - **Recordkeeping**
+
+## Clarification
+- Exhibit-level data lists the main County plan at **$162,847,830** as of **12/31/25**.
+- However, the RFP’s **summarized total across the 457 Plans** is reported as approximately **$167 million**.
+
+## Conclusion
+Clark County, Washington’s **RFP 955** indicates that the **457 Plans held about $167 million as of December 31, 2025**, and the **current provider is Lincoln Financial**.",False,True,True,1,True,True,2,False,Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf;TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf,,30.36,29,17484,15164,2320,,"# Briefing: Clark County, Washington RFP 955 — 457 Plan Snapshot
+
+## Key Findings
+- **Assets held as of December 31, 2025:** Approximately **$167 million**
+- **Current provider:** **Lincoln Financial**
+
+## Supporting Notes
+- The RFP states that Lincoln Financial currently provides:
+  - **Basic administration**
+  - **Enrollment**
+  - **Participant communication and education**
+  - **Investment management**
+  - **Recordkeeping**
+
+## Clarification
+- Exhibit-level data lists the main County plan at **$162,847,830** as of **12/31/25**.
+- However, the RFP’s **summarized total across the 457 Plans** is reported as approximately **$167 million**.
+
+## Conclusion
+Clark County, Washington’s **RFP 955** indicates that the **457 Plans held about $167 million as of December 31, 2025**, and the **current provider is Lincoln Financial**."
+OTH-07,detail,,"One RFP for investment manager services, issued by an education foundation, limits proposals to five single-spaced typewritten pages. How many copies must be submitted and by what deadline?",NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf,"Six copies, no later than 5 PM on July 1, 2016 (Broward Education Foundation).","# Briefing
+
+## Submission Requirements
+- **Number of copies required:** **Six (6) copies**
+- **Submission deadline:** **By 5:00 PM on July 1, 2016**
+
+## Source Context
+- The RFP is the **“Request for Proposal to Provide Investment Manager Services for Broward Education Foundation, Inc.”**
+- In **Section V: Submission of Proposals**, it states both the required number of copies and the deadline.
+- The reference to **five single-spaced typewritten pages** appears in **Section III** and describes the proposal length limit, not the submission quantity or due date.
+
+## Conclusion
+The proposal must be submitted in **six copies** **no later than 5:00 PM on July 1, 2016**.",False,True,True,2,True,True,69,False,MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf;NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf;MA_PRIM__PDF-Version-of-RFP.pdf;SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf;DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf,,35.29,52,40520,37005,3515,,"# Briefing
+
+## Submission Requirements
+- **Number of copies required:** **Six (6) copies**
+- **Submission deadline:** **By 5:00 PM on July 1, 2016**
+
+## Source Context
+- The RFP is the **“Request for Proposal to Provide Investment Manager Services for Broward Education Foundation, Inc.”**
+- In **Section V: Submission of Proposals**, it states both the required number of copies and the deadline.
+- The reference to **five single-spaced typewritten pages** appears in **Section III** and describes the proposal length limit, not the submission quantity or due date.
+
+## Conclusion
+The proposal must be submitted in **six copies** **no later than 5:00 PM on July 1, 2016**."
+OTH-08,detail,,"A foundation is seeking an Outsourced Chief Investment Officer that can manage a sleeve of place-based private investments in Philadelphia. How large is its endowment, and what is the response deadline?",Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf,"About $50 million endowment; responses due no later than February 13, 2026, 5 PM (Samuel S. Fels Fund).","# Briefing: Samuel S. Fels Fund OCIO RFP
+
+## Key Answer
+- **Endowment size:** Approximately **$50 million**
+- **Response deadline:** **February 13, 2026 at 5:00 PM**
+
+## Organization
+- **Foundation:** **Samuel S. Fels Fund**
+
+## Relevant RFP Context
+- The RFP seeks an **Outsourced Chief Investment Officer (OCIO)**.
+- The foundation specifically wants a partner able to **source, diligence, and manage a sleeve of place-based local investments in Philadelphia**.
+- The local private investment scope includes:
+  - **Private equity**
+  - **Private debt**
+  - **Real assets**
+
+## Portfolio Context
+- Current portfolio includes:
+  - **Public equities**
+  - **Public fixed income with ESG screens**
+  - A **small sleeve of local private equity and debt investments**",False,True,True,1,True,True,31,False,Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf;SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf;Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf;MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf;MA_PRIM__PDF-Version-of-RFP.pdf,,35.41,52,35941,32595,3346,,"# Briefing: Samuel S. Fels Fund OCIO RFP
+
+## Key Answer
+- **Endowment size:** Approximately **$50 million**
+- **Response deadline:** **February 13, 2026 at 5:00 PM**
+
+## Organization
+- **Foundation:** **Samuel S. Fels Fund**
+
+## Relevant RFP Context
+- The RFP seeks an **Outsourced Chief Investment Officer (OCIO)**.
+- The foundation specifically wants a partner able to **source, diligence, and manage a sleeve of place-based local investments in Philadelphia**.
+- The local private investment scope includes:
+  - **Private equity**
+  - **Private debt**
+  - **Real assets**
+
+## Portfolio Context
+- Current portfolio includes:
+  - **Public equities**
+  - **Public fixed income with ESG screens**
+  - A **small sleeve of local private equity and debt investments**"
+OTH-09,detail,,"A county pension fund is searching for a single manager of managers covering domestic equity, international equity and fixed income. What is the maximum mandate size, and what is the firm-level AUM limit for responders?",Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf,"A mandate of up to $350 million; responders must have less than $30 billion in firm-level assets under management (Cook County Fund, RFP 25-0004).",No results found.,True,False,True,13,False,False,50,False,TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf;SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf;Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf;IMRF__sample_investment_manager_rfp.pdf;IMRF__sample-investment-consulting-rfp.pdf,,36.08,36,53953,51276,2677,,"# Briefing
+
+## Summary
+Based on the provided evidence, the question can only be **partially answered**.
+
+## Key Findings
+- **Maximum mandate size:** **Not stated** in the provided evidence.
+- **Firm-level AUM limit for responders:** **10% of total fund assets**.
+
+## Supporting Context
+- The supplied materials do **not identify** the specific county pension fund search for a single manager of managers covering **domestic equity, international equity, and fixed income**.
+- The only quantitative limit supported by the evidence is a **concentration cap**:
+  - **No single active investment management firm may manage more than 10% of the total fund**.
+  - This limit **includes** the firm’s **parent, affiliates, subsidiaries, and joint ventures**.
+
+## Conclusion
+- **Maximum mandate size:** Cannot be determined from the provided evidence.
+- **Firm-level AUM limit:** **10% of the total fund**."
+OTH-10,detail,,"In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf,"$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",No results found.,True,False,True,25,False,False,53,False,Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf;SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf;COAERS__COAERS_General_Investment_Consultant_RFP.pdf;Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf;INPRS__RFP24-05_AuditServices.pdf,,32.64,21,50579,48986,1593,,"# Markdown Briefing
+
+## Summary
+**The total contractual fees for the prior year (FY2021) audits cannot be determined from the provided evidence.**
+
+## Evidence Assessment
+- The supplied materials reference an **audit services RFP for INPRS** and other **unrelated retirement-system RFPs**.
+- However, they **do not include**:
+  - the specific **Q&A item** about a retirement system using **Microsoft Dynamics SL**, or
+  - any stated **FY2021 prior-year audit fee amount**.
+
+## Relevant Findings
+- The INPRS audit RFP describes:
+  - audit scope,
+  - timing,
+  - contract terms,
+  - and required fee proposal components.
+- It asks respondents to provide proposed fees for:
+  - **financial statement audits**,
+  - **ACFR review**,
+  - **GASB Statement No. 68 schedules**,
+  - and **hourly rates for out-of-scope services**.
+- **No prior-year contractual audit fees** are disclosed in the provided materials.
+
+## Conclusion
+**Answer: Not available from the supplied documents.**"
+OTH-11,pair_a,P3,What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2017?,Hawaii_ERS__ERS-Private-Equity-AD.pdf,"November 27, 2017 by 4:30 p.m. (H.S.T.).",No results found.,True,False,True,30,False,False,76,False,Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf;COAERS__COAERS_General_Investment_Consultant_RFP.pdf;COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf;Delaware__TRE21101-RECDKEEPR-rfp.pdf;TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf,,39.63,31,61572,59076,2496,,"# Briefing
+
+## Question
+**What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2017?**
+
+## Finding
+**The proposal deadline cannot be determined from the provided evidence.**
+
+## Evidence Assessment
+- The provided materials **do not include** the **2017 Hawaii ERS RFP** for private equity consulting services.
+- None of the evidence references the **Hawaii Employees’ Retirement System** or the specific **2017 procurement** in question.
+- The retrieved documents instead concern:
+  - **Baltimore City Employees’ Retirement System and OPEB Trust** RFP materials, including a **November 8, 2024** deadline.
+  - **City of Austin Employees’ Retirement System** RFP materials from **2024 and 2025**.
+
+## Conclusion
+Because the evidence relates to **different entities, years, and procurements**, it **cannot verify** the proposal deadline for the **2017 Hawaii ERS private equity consulting services RFP**.
+
+## What Would Be Needed
+To answer the question reliably, the record would need:
+- The actual **2017 Hawaii ERS RFP**, or
+- A credible excerpt showing the **submission deadline**."
+OTH-12,pair_b,P3,What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2022?,Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf,"September 30, 2022 by 4:30 p.m. (H.S.T.) (RFP 2022-04, issued August 29, 2022).",No results found.,True,False,True,35,False,False,47,False,Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf;COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf;Delaware__TRE21101-RECDKEEPR-rfp.pdf;COAERS__COAERS_General_Investment_Consultant_RFP.pdf;Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf,,37.36,18,64633,62968,1665,,"# Briefing
+
+## Question
+**What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2022?**
+
+## Finding
+**The proposal deadline cannot be determined from the provided evidence.**
+
+## Evidence Assessment
+The supplied search results do **not** include the **Hawaii ERS 2022 RFP for private equity consulting services**. Instead, they reference unrelated agencies, services, and years, including:
+
+- **Baltimore ERS/OPEB Trust** – Alternatives Consultant  
+  - Proposal deadline: **November 8, 2024**
+- **City of Austin Employees’ Retirement System** – Actuarial Services  
+  - Proposal deadline: **July 30, 2025**
+- **City of Austin Employees’ Retirement System** – General Investment Consultant  
+  - Proposal deadline: **February 9, 2024**
+- **Oklahoma Public Employees Retirement System** – Index Investment Management Services  
+  - Proposal deadline: **August 11, 2023**
+
+## Conclusion
+Because none of the evidence pertains to the **Hawaii ERS** or the specific **2022 private equity consulting services RFP**, the requested proposal deadline **cannot be answered from the provided materials**."
+OTH-13,pair_a,P4,What was the proposal deadline in the Hawaii ERS 2017 RFP for real estate investment consultant services?,Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf,"4:30 p.m. (H.S.T.) on March 20, 2017.",No results found.,True,False,True,14,False,False,50,False,Delaware__TRE21101-RECDKEEPR-rfp.pdf;COAERS__COAERS_General_Investment_Consultant_RFP.pdf;TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf;COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf;SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf,,38.21,52,63141,59649,3492,,"# Briefing
+
+## Question
+**What was the proposal deadline in the Hawaii ERS 2017 RFP for real estate investment consultant services?**
+
+## Finding
+**The proposal deadline cannot be determined from the provided evidence.**
+
+## Basis
+- The retrieved documents **do not pertain to Hawaii ERS 2017 real estate investment consultant services**.
+- Several cited deadlines refer to **unrelated entities and procurements**, including:
+  - **City of Austin Employees’ Retirement System** general investment consultant RFP
+  - **City of Austin** actuarial services RFP
+  - Other **different years, organizations, and service categories**
+- The evidence explicitly indicates that **the correct Hawaii ERS deadline is not available** in the provided material.
+
+## Conclusion
+**No reliable proposal deadline for the Hawaii ERS 2017 RFP can be extracted from the supplied evidence.**"
+OTH-14,pair_b,P4,What was the proposal deadline in the Hawaii ERS 2022 RFP for real assets investment consultant services?,Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf,"November 30, 2022 by 4:30 p.m. (H.S.T.) (RFP 2022-06, issued October 3, 2022).",No results found.,True,False,True,42,False,False,71,False,COAERS__COAERS_General_Investment_Consultant_RFP.pdf;OCERS__investment_consultant_services_rfp.pdf;Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf;SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf;TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf,,38.03,19,71662,69981,1681,,"# Briefing
+
+## Conclusion
+**The proposal deadline for the Hawaii ERS 2022 RFP for real assets investment consultant services cannot be verified from the provided evidence.**
+
+## Evidence Assessment
+The supplied materials **do not include** the Hawaii ERS 2022 RFP in question. Instead, they reference unrelated retirement systems and separate procurement processes.
+
+## Relevant Findings
+- **City of Austin Employees’ Retirement System**: proposal deadline of **February 9, 2024**  
+  - **Not relevant** to Hawaii ERS.
+- **Orange County Employees Retirement System (OCERS)**: RFP submission deadline of **October 1, 2021**  
+  - **Not relevant** to Hawaii ERS.
+- **Oklahoma Public Employees Retirement System (OPERS)**: proposal deadline of **August 11, 2023**  
+  - **Not relevant** to Hawaii ERS.
+- **Teachers’ Retirement System of the State of Illinois**: response deadline of **February 9, 2023**  
+  - **Not relevant** to Hawaii ERS.
+
+## Bottom Line
+Because **none of the cited documents match the Hawaii ERS 2022 RFP for real assets investment consultant services**, the **proposal deadline cannot be determined** from the provided materials alone."
+OTH-15,pair_a,P5,"In the Los Angeles City Employees' Retirement System (LACERS) actuarial RFP, how many years of experience must the lead actuary have?",LACERS__2025_actuarial_consulting_services_rfp.pdf,"At least 15 years of experience with major public employee retirement systems, including at least 3 years with California public pension fund clients similar to LACERS.",No results found.,True,False,True,14,False,False,23,False,Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf;Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf;Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf;KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf;SAA__SAA-Investment-Manager-Database-Questionnaire.docx,,25.79,4,67095,66441,654,,"# Briefing
+
+## Conclusion
+The provided evidence **does not establish** the lead actuary experience requirement for the **Los Angeles City Employees' Retirement System (LACERS)** actuarial RFP.
+
+## What the Evidence Shows
+- The **LACERS actuarial RFP is not included** in the retrieved materials.
+- Therefore, the **required years of experience for the LACERS lead actuary cannot be verified** from the provided evidence.
+
+## Related Evidence Found
+A **different** actuarial RFP was identified:
+- **Kern County Employees’ Retirement Association (KCERA)** actuarial audit services RFP
+  - States that the actuary performing the services must have **a minimum of 10 years of experience**.
+
+## Answerability
+Because the evidence refers to **KCERA rather than LACERS**, it **cannot reliably answer** the user's specific question about LACERS."
+OTH-16,pair_b,P5,"In the Police Retirement System of St. Louis (PRS-STL) actuarial RFP, how many years of experience must the principal actuary have?",St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf,"A minimum of five years of professional actuarial experience, plus a minimum of five years of experience testifying before legislative and administrative bodies.","# Markdown Briefing
+
+## Answer
+The **principal actuary must have a minimum of five (5) years of professional actuarial experience**.
+
+## Supporting Context
+According to the PRS-STL actuarial RFP, in **Section IV.D, “Mandatory Minimum Qualifications,” item 3**, the principal actuary must:
+
+- have at least **five (5) years** of professional actuarial experience,
+- be an **enrolled actuary**,
+- be a **Member of the American Academy of Actuaries**, and
+- be an **Associate of the Society of Actuaries** (with Fellowship preferred).
+
+## Additional Note
+The RFP also separately requires **five (5) years of experience testifying** before legislative and administrative bodies in support of actuarial positions and/or valuation principles.",False,True,True,1,True,True,22,False,St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf;Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf;LACERS__2025_actuarial_consulting_services_rfp.pdf;Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf;Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf,,35.76,20,45564,43928,1636,,"# Markdown Briefing
+
+## Answer
+The **principal actuary must have a minimum of five (5) years of professional actuarial experience**.
+
+## Supporting Context
+According to the PRS-STL actuarial RFP, in **Section IV.D, “Mandatory Minimum Qualifications,” item 3**, the principal actuary must:
+
+- have at least **five (5) years** of professional actuarial experience,
+- be an **enrolled actuary**,
+- be a **Member of the American Academy of Actuaries**, and
+- be an **Associate of the Society of Actuaries** (with Fellowship preferred).
+
+## Additional Note
+The RFP also separately requires **five (5) years of experience testifying** before legislative and administrative bodies in support of actuarial positions and/or valuation principles."
+OTH-17,medium,,What are the evaluation criteria and their weights used in Level IV of the LACERS 2025 actuarial consulting services RFP?,LACERS__2025_actuarial_consulting_services_rfp.pdf,"Professionalism 15; Proposed Scope of Services Description and Methodology 30; Qualifications, Experience, and Accomplishments 35; Value of Cost 20; Total 100.","# Markdown Briefing: Level IV Evaluation Criteria and Weights
+
+## Overview
+**Level IV** of the **LACERS 2025 actuarial consulting services RFP** is titled **“Proposed Services and Compensation”**. At this stage, the evaluation panel assesses and ranks each firm’s proposed service approach and fee proposal. **Interviews may also be conducted.**
+
+## Level IV Scoring Criteria
+The **Level IV criteria and weights total 100 points**:
+
+- **Professionalism — 15 points**
+  - Assesses the proposer’s professionalism in responding to the RFP, including presentation quality and a clear, well-written summary of key proposal features.
+
+- **Proposed Scope of Services Description and Methodology — 30 points**
+  - Assesses the proposer’s understanding of **LACERS’ objectives** and the quality of its proposed methodology, including any refinements to the scope of services to align with objectives, schedule, and budget.
+
+- **Qualifications, Experience, and Accomplishments — 35 points**
+  - Assesses:
+    - Experience providing actuarial services to **public pension systems**
+    - Expertise and knowledge of the proposed team
+    - Ability to deliver the required scope and provide value-add
+    - Strength of favorable references from the due diligence review
+
+- **Value of Cost — 20 points**
+  - Assesses the **relative cost and value** of the proposed fee.
+  - The RFP indicates this is evaluated **qualitatively as well as quantitatively**.
+  - Cost proposals are expected to include **all costs** associated with the RFP scope of services.
+
+## Total
+- **Total Weight: 100 points**
+
+## Process Context
+Level IV occurs after:
+- **Level I** – Administrative Responsiveness
+- **Level II** – Review of Qualifications, Experience, & References
+- **Level III** – Interview
+
+It is followed by:
+- **Level V** – Final Approval by the Board",False,True,True,4,True,True,68,False,Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf;COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf;KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf;LACERS__2025_actuarial_consulting_services_rfp.pdf;Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf,,40.72,19,59822,57773,2049,,"# Markdown Briefing: Level IV Evaluation Criteria and Weights
+
+## Overview
+**Level IV** of the **LACERS 2025 actuarial consulting services RFP** is titled **“Proposed Services and Compensation”**. At this stage, the evaluation panel assesses and ranks each firm’s proposed service approach and fee proposal. **Interviews may also be conducted.**
+
+## Level IV Scoring Criteria
+The **Level IV criteria and weights total 100 points**:
+
+- **Professionalism — 15 points**
+  - Assesses the proposer’s professionalism in responding to the RFP, including presentation quality and a clear, well-written summary of key proposal features.
+
+- **Proposed Scope of Services Description and Methodology — 30 points**
+  - Assesses the proposer’s understanding of **LACERS’ objectives** and the quality of its proposed methodology, including any refinements to the scope of services to align with objectives, schedule, and budget.
+
+- **Qualifications, Experience, and Accomplishments — 35 points**
+  - Assesses:
+    - Experience providing actuarial services to **public pension systems**
+    - Expertise and knowledge of the proposed team
+    - Ability to deliver the required scope and provide value-add
+    - Strength of favorable references from the due diligence review
+
+- **Value of Cost — 20 points**
+  - Assesses the **relative cost and value** of the proposed fee.
+  - The RFP indicates this is evaluated **qualitatively as well as quantitatively**.
+  - Cost proposals are expected to include **all costs** associated with the RFP scope of services.
+
+## Total
+- **Total Weight: 100 points**
+
+## Process Context
+Level IV occurs after:
+- **Level I** – Administrative Responsiveness
+- **Level II** – Review of Qualifications, Experience, & References
+- **Level III** – Interview
+
+It is followed by:
+- **Level V** – Final Approval by the Board"
+OTH-18,broad,,What contract terms (initial length and any renewal or extension options) do the actuarial services RFPs in the corpus propose?,LACERS__2025_actuarial_consulting_services_rfp.pdf;Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf;COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf;Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf;Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf,"LACERS: three-year contract, eligible for up to two one-year extensions. Boston: five years, and the Board may extend for an additional one or two years. COAERS: five-year term, January 1, 2026 to December 31, 2030 (no extension stated). Illinois SRS: initial term July 1, 2024 to June 30, 2029 (five years). Stoneham: term not to exceed seven years, terminable on 30 days' notice.",No results found.,True,False,True,1,True,True,20,False,Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf;Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf;SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf;LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf;DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf,,37.82,54,49088,45223,3865,,"# Briefing: Contract Terms for Actuarial Services RFPs
+
+## Finding
+**The contract terms for actuarial services RFPs in the corpus cannot be determined from the provided evidence.**
+
+## What the Evidence Shows
+- The retrieved actuarial-services-related fragments **do not state**:
+  - the **initial contract length**,
+  - any **renewal options**,
+  - any **extension options**,
+  - or the **maximum total term**.
+- The supplied summaries explicitly indicate that the available excerpts **do not answer** the question about contract duration for actuarial services RFPs.
+
+## Non-Responsive Contract Term Examples
+The evidence includes contract-term details for other types of consulting RFPs, but these are **not actuarial services** and therefore should **not** be used to answer the question:
+
+- **LAGERS RFP** — for **private market consulting services**
+  - Initial term: **1 year**
+  - Possible option: **additional 2-year period**, subject to negotiation and board concurrence
+
+- **D.C. Retirement Board RFP** — for **real assets investment consulting services**
+  - Original agreement term: **3 years**
+  - Fee proposal structured as **three 1-year periods**
+
+## Conclusion
+**No usable contract-term information for actuarial services RFPs is provided in the cited corpus fragments.**  
+To answer the question accurately, additional actuarial-services RFP documents or sections labeled **Term**, **Duration**, **Renewal**, **Extension**, or **Contract Provisions** would be needed."

@@ -1,0 +1,168 @@
+{
+ "record": {
+  "id": "DDQ-13",
+  "question": "Which venture capital manager did NJEDA select to run its Life Science Seed Fund, and how much capital did NJEDA commit to it?",
+  "mode": "DEEP",
+  "paths": [
+   "/mnt/docs/S"
+  ],
+  "model": "gpt-5.4",
+  "answer": "No results found.",
+  "no_result": true,
+  "gate_should_answer": false,
+  "pre_gate_answer": "# Briefing\n\n## Assessment\nThe provided evidence **does not answer** the question about NJEDA’s **Life Science Seed Fund**.\n\n## Key Findings\n- The retrieved materials are **not relevant** to NJEDA.\n- The documents concern unrelated **pension investment consulting RFPs** from:\n  - **Hawaii**\n  - **Illinois**\n  - **Baltimore**\n\n## Missing Information\nNone of the supplied evidence identifies:\n- the **venture capital manager** selected by NJEDA,\n- the **Life Science Seed Fund**, or\n- the **amount of capital** NJEDA committed.\n\n## Conclusion\nBased strictly on the provided evidence, **the answer cannot be determined**.",
+  "candidate_files": [
+   "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+   "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+   "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+   "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf"
+  ],
+  "cited_files": [],
+  "reused_cluster": null,
+  "latency_s": 25.76,
+  "llm_calls": 4,
+  "prompt_tokens": 46075,
+  "completion_tokens": 522,
+  "total_tokens": 46597,
+  "error": null,
+  "warnings": [
+   "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  ]
+ },
+ "context": {
+  "answer": "No results found.",
+  "cluster": null,
+  "max_token_budget": 128000,
+  "max_loops": 10,
+  "total_llm_tokens": 0,
+  "budget_remaining": 128000,
+  "llm_call_count": 0,
+  "llm_usages": [],
+  "read_file_ids": [],
+  "retrieval_logs": [],
+  "search_history": [],
+  "loop_count": 4,
+  "start_time": "2026-10-07T09:04:59.510197"
+ },
+ "logs": [
+  {
+   "t": 1791363901.147,
+   "level": "info",
+   "msg": "[search] Starting multi-path retrieval for: 'Which venture capital manager did NJEDA select to run its Life Science Seed Fund'"
+  },
+  {
+   "t": 1791363901.147,
+   "level": "info",
+   "msg": "[Phase 1] Parallel probing: keywords + dir_scan + knowledge + spec_cache"
+  },
+  {
+   "t": 1791363901.147,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracting keywords..."
+  },
+  {
+   "t": 1791363901.149,
+   "level": "info",
+   "msg": "[Probe:DirScan] Scanning directories..."
+  },
+  {
+   "t": 1791363903.824,
+   "level": "info",
+   "msg": "[Probe:Keywords] Cross-lingual alt: ['New Jersey Economic Development Authority', '生命科学种子基金', '风险投资经理']"
+  },
+  {
+   "t": 1791363903.824,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracted: ['Life Science Seed Fund', 'venture capital manager', 'NJEDA select', 'capital commitment', 'New Jersey Economic Development Authority', '生命科学种子基金', '风险投资经理']"
+  },
+  {
+   "t": 1791363905.263,
+   "level": "info",
+   "msg": "[Probe:DirScan] Found 81 files in 1 dirs (4114ms)"
+  },
+  {
+   "t": 1791363905.263,
+   "level": "info",
+   "msg": "[Phase 1] Results: keywords=7, dir_scan=OK, knowledge_hits=0, spec_cache=YES"
+  },
+  {
+   "t": 1791363905.263,
+   "level": "info",
+   "msg": "[Phase 2] Parallel retrieval: rga keyword search + dir_scan LLM rank"
+  },
+  {
+   "t": 1791363907.262,
+   "level": "info",
+   "msg": "[Retrieve:Keywords] 3 files from rga search"
+  },
+  {
+   "t": 1791363916.618,
+   "level": "info",
+   "msg": "[Retrieve:DirScan] 0 relevant files (accept={'high'})"
+  },
+  {
+   "t": 1791363916.618,
+   "level": "info",
+   "msg": "[Phase 2] Results: keyword_files=3, dir_scan_files=0"
+  },
+  {
+   "t": 1791363916.618,
+   "level": "info",
+   "msg": "[Phase 3] Merged 3 unique candidate files"
+  },
+  {
+   "t": 1791363916.618,
+   "level": "info",
+   "msg": "Extracting evidence from 3 files (parallel)..."
+  },
+  {
+   "t": 1791363916.778,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 60581 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791363916.869,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 83501 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791363917.03,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 71864 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791363917.03,
+   "level": "info",
+   "msg": "Collected 3 evidence units"
+  },
+  {
+   "t": 1791363921.965,
+   "level": "success",
+   "msg": "[Phase 3] KnowledgeCluster built: No relevant NJEDA evidence. (3 evidence units)"
+  },
+  {
+   "t": 1791363921.965,
+   "level": "info",
+   "msg": "[Phase 4] Evidence sufficient, generating summary"
+  },
+  {
+   "t": 1791363921.965,
+   "level": "info",
+   "msg": "[Phase 4] Generating search result summary..."
+  },
+  {
+   "t": 1791363925.267,
+   "level": "warning",
+   "msg": "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  }
+ ]
+}

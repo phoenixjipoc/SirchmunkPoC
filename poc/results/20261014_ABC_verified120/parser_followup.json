@@ -1,0 +1,9 @@
+{
+  "file": "INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+  "method": "Read-only fast_extract in the running Sirchmunk 0.0.7 container",
+  "extracted_chars": 63927,
+  "replacement_characters": 240,
+  "contains_pri_phrase": true,
+  "finding": "Returned content is partly readable but its opening text has substantial mojibake. Nonempty extraction is not proof of correct parsing. rga preflight returned a binary match.",
+  "treatment": "Keep raw source and runtime unchanged throughout A/B/C; disclose as an end-to-end parser limitation. Do not silently substitute independently extracted audit text."
+}

@@ -1,0 +1,330 @@
+{
+ "record": {
+  "id": "OTH-11",
+  "question": "What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2017?",
+  "mode": "DEEP",
+  "paths": [
+   "/mnt/docs/S"
+  ],
+  "model": "gpt-5.4",
+  "answer": "No results found.",
+  "no_result": true,
+  "gate_should_answer": false,
+  "pre_gate_answer": "# Briefing\n\n## Question\n**What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2017?**\n\n## Assessment\nThe provided evidence **does not establish the proposal deadline** for the **2017 Hawaii ERS RFP for private equity consulting services**.\n\n## Key Findings\n- **No responsive document** for the **2017 Hawaii Employees’ Retirement System (ERS)** private equity consulting services RFP is included in the evidence.\n- The retrieved materials instead reference **unrelated RFPs** from other entities:\n  - **Baltimore City Employees’ Retirement System** — proposal deadline **November 8, 2024**\n  - **City of Austin Employees’ Retirement System** — proposal deadline **July 30, 2025**\n  - **Oklahoma Public Employees Retirement System** — proposal deadline **August 11, 2023**\n- These documents concern **different organizations, years, and service categories**, so they **cannot be used** to verify the Hawaii ERS 2017 deadline.\n\n## Conclusion\n**The proposal deadline cannot be determined from the provided evidence.**  \nA definitive answer would require the actual **2017 Hawaii ERS RFP for private equity consulting services** or a reliable source directly citing its deadline.",
+  "candidate_files": [
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+   "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+   "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+   "/mnt/docs/S/Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+   "/mnt/docs/S/Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+   "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+   "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+   "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+   "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+   "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+   "/mnt/docs/S/CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+   "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+   "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+   "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+   "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+   "/mnt/docs/S/Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+   "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+   "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+   "/mnt/docs/S/Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf"
+  ],
+  "cited_files": [],
+  "reused_cluster": null,
+  "latency_s": 40.97,
+  "llm_calls": 33,
+  "prompt_tokens": 57012,
+  "completion_tokens": 2650,
+  "total_tokens": 59662,
+  "error": null,
+  "warnings": [
+   "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  ]
+ },
+ "context": {
+  "answer": "No results found.",
+  "cluster": null,
+  "max_token_budget": 128000,
+  "max_loops": 10,
+  "total_llm_tokens": 0,
+  "budget_remaining": 128000,
+  "llm_call_count": 0,
+  "llm_usages": [],
+  "read_file_ids": [],
+  "retrieval_logs": [],
+  "search_history": [],
+  "loop_count": 4,
+  "start_time": "2026-10-07T08:12:46.772805"
+ },
+ "logs": [
+  {
+   "t": 1791360768.104,
+   "level": "info",
+   "msg": "Searching for similar knowledge clusters..."
+  },
+  {
+   "t": 1791360768.195,
+   "level": "info",
+   "msg": "No similar clusters found, performing new search..."
+  },
+  {
+   "t": 1791360768.195,
+   "level": "info",
+   "msg": "[search] Starting multi-path retrieval for: 'What was the proposal deadline in the Hawaii ERS RFP for private equity consulti'"
+  },
+  {
+   "t": 1791360768.195,
+   "level": "info",
+   "msg": "[Phase 1] Parallel probing: keywords + dir_scan + knowledge + spec_cache"
+  },
+  {
+   "t": 1791360768.195,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracting keywords..."
+  },
+  {
+   "t": 1791360768.197,
+   "level": "info",
+   "msg": "[Probe:DirScan] Scanning directories..."
+  },
+  {
+   "t": 1791360770.723,
+   "level": "info",
+   "msg": "[Probe:Keywords] Cross-lingual alt: ['征求建议书', '私募股权', 'Hawaii ERS']"
+  },
+  {
+   "t": 1791360770.723,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracted: ['Hawaii ERS RFP', 'private equity consulting services', 'proposal deadline', 'published in 2017', '征求建议书', '私募股权', 'Hawaii ERS']"
+  },
+  {
+   "t": 1791360772.761,
+   "level": "info",
+   "msg": "[Probe:DirScan] Found 81 files in 1 dirs (4563ms)"
+  },
+  {
+   "t": 1791360772.761,
+   "level": "info",
+   "msg": "[Phase 1] Results: keywords=7, dir_scan=OK, knowledge_hits=0, spec_cache=YES"
+  },
+  {
+   "t": 1791360772.761,
+   "level": "info",
+   "msg": "[Phase 2] Parallel retrieval: rga keyword search + dir_scan LLM rank"
+  },
+  {
+   "t": 1791360775.076,
+   "level": "info",
+   "msg": "[Retrieve:Keywords] 15 files from rga search"
+  },
+  {
+   "t": 1791360784.284,
+   "level": "info",
+   "msg": "[Retrieve:DirScan] 1 relevant files (accept={'high'})"
+  },
+  {
+   "t": 1791360784.284,
+   "level": "info",
+   "msg": "[Phase 2] Results: keyword_files=15, dir_scan_files=1"
+  },
+  {
+   "t": 1791360784.284,
+   "level": "info",
+   "msg": "[Phase 3] Merged 16 unique candidate files"
+  },
+  {
+   "t": 1791360784.284,
+   "level": "info",
+   "msg": "Extracting evidence from 5 files (parallel)..."
+  },
+  {
+   "t": 1791360784.573,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 43247 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791360784.725,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 60581 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791360785.257,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 81491 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791360787.203,
+   "level": "info",
+   "msg": "  [Pos  19250 | Src: fuzz    ] Score: 2.0 | The snippet mentions an RFP an..."
+  },
+  {
+   "t": 1791360787.203,
+   "level": "info",
+   "msg": "  [Pos   1750 | Src: fuzz    ] Score: 4.0 | The snippet is from the RFP an..."
+  },
+  {
+   "t": 1791360787.203,
+   "level": "info",
+   "msg": "  [Pos   2000 | Src: fuzz    ] Score: 4.0 | The snippet is from the RFP an..."
+  },
+  {
+   "t": 1791360787.203,
+   "level": "info",
+   "msg": "  [Pos  19500 | Src: fuzz    ] Score: 1.0 | The snippet is about Delaware ..."
+  },
+  {
+   "t": 1791360787.203,
+   "level": "info",
+   "msg": "  [Pos  16500 | Src: fuzz    ] Score: 4.0 | The snippet mentions proposal ..."
+  },
+  {
+   "t": 1791360787.203,
+   "level": "info",
+   "msg": "  [Pos   3373 | Src: stratified] Score: 2.0 | The snippet is about a differe..."
+  },
+  {
+   "t": 1791360787.203,
+   "level": "info",
+   "msg": "  [Pos 173682 | Src: stratified] Score: 0.0 | The snippet is about employee ..."
+  },
+  {
+   "t": 1791360788.375,
+   "level": "info",
+   "msg": "  [Pos 109000 | Src: fuzz    ] Score: 4.0 | The snippet is about an RFP fe..."
+  },
+  {
+   "t": 1791360788.375,
+   "level": "info",
+   "msg": "  [Pos    250 | Src: fuzz    ] Score: 0.0 | The snippet is about a South C..."
+  },
+  {
+   "t": 1791360788.375,
+   "level": "info",
+   "msg": "  [Pos    500 | Src: fuzz    ] Score: 1.0 | The snippet is about South Car..."
+  },
+  {
+   "t": 1791360788.375,
+   "level": "info",
+   "msg": "  [Pos    750 | Src: fuzz    ] Score: 0.0 | The snippet is about an RSIC R..."
+  },
+  {
+   "t": 1791360788.375,
+   "level": "info",
+   "msg": "  [Pos  17750 | Src: fuzz    ] Score: 2.0 | The snippet discusses South Ca..."
+  },
+  {
+   "t": 1791360788.375,
+   "level": "info",
+   "msg": "  [Pos  53585 | Src: stratified] Score: 2.0 | The snippet discusses a South ..."
+  },
+  {
+   "t": 1791360788.375,
+   "level": "info",
+   "msg": "  [Pos 110320 | Src: stratified] Score: 1.0 | The snippet is about a South C..."
+  },
+  {
+   "t": 1791360789.292,
+   "level": "info",
+   "msg": "  [Pos      0 | Src: gaussian] Score: 2.0 | The snippet is about a deferre..."
+  },
+  {
+   "t": 1791360789.292,
+   "level": "info",
+   "msg": "  [Pos   5631 | Src: gaussian] Score: 2.0 | The snippet discusses DC retir..."
+  },
+  {
+   "t": 1791360789.292,
+   "level": "info",
+   "msg": "  [Pos    320 | Src: gaussian] Score: 0.0 | The snippet is about Delaware'..."
+  },
+  {
+   "t": 1791360790.845,
+   "level": "info",
+   "msg": "  [Pos 110516 | Src: gaussian] Score: 1.0 | The snippet is about a South C..."
+  },
+  {
+   "t": 1791360790.845,
+   "level": "info",
+   "msg": "  [Pos 107465 | Src: gaussian] Score: 4.0 | The snippet appears to be from..."
+  },
+  {
+   "t": 1791360790.845,
+   "level": "info",
+   "msg": "  [Pos 115857 | Src: gaussian] Score: 0.0 | The snippet is about RSIC data..."
+  },
+  {
+   "t": 1791360790.845,
+   "level": "info",
+   "msg": "  [Pos 105423 | Src: gaussian] Score: 4.0 | The snippet appears to come fr..."
+  },
+  {
+   "t": 1791360790.846,
+   "level": "info",
+   "msg": "  [Pos 108185 | Src: gaussian] Score: 1.0 | The snippet discusses a South ..."
+  },
+  {
+   "t": 1791360791.259,
+   "level": "info",
+   "msg": "  [Pos    544 | Src: gaussian] Score: 1.0 | The snippet is about a Delawar..."
+  },
+  {
+   "t": 1791360791.259,
+   "level": "info",
+   "msg": "  [Pos   3171 | Src: gaussian] Score: 2.0 | The snippet discusses an RFP t..."
+  },
+  {
+   "t": 1791360793.054,
+   "level": "info",
+   "msg": "  [Pos 106926 | Src: gaussian] Score: 4.0 | The snippet is from an RFP/pro..."
+  },
+  {
+   "t": 1791360793.054,
+   "level": "info",
+   "msg": "  [Pos 108491 | Src: gaussian] Score: 4.0 | The snippet appears to be from..."
+  },
+  {
+   "t": 1791360793.054,
+   "level": "info",
+   "msg": "  [Pos 109825 | Src: gaussian] Score: 1.0 | The snippet is about a South C..."
+  },
+  {
+   "t": 1791360797.842,
+   "level": "info",
+   "msg": "Collected 5 evidence units"
+  },
+  {
+   "t": 1791360803.082,
+   "level": "success",
+   "msg": "[Phase 3] KnowledgeCluster built: Deadline not evidenced. (5 evidence units)"
+  },
+  {
+   "t": 1791360803.082,
+   "level": "info",
+   "msg": "[Phase 4] Evidence sufficient, generating summary"
+  },
+  {
+   "t": 1791360803.083,
+   "level": "info",
+   "msg": "[Phase 4] Generating search result summary..."
+  },
+  {
+   "t": 1791360807.74,
+   "level": "warning",
+   "msg": "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  }
+ ]
+}

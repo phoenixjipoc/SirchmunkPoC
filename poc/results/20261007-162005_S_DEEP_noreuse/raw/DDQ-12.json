@@ -1,0 +1,173 @@
+{
+ "record": {
+  "id": "DDQ-12",
+  "question": "Which bucket (Not Present, Developing, Intermediate or Advanced) did ILPA assign to KKR under the ILPA ESG Assessment Framework, and what numerical score did KKR receive?",
+  "mode": "DEEP",
+  "paths": [
+   "/mnt/docs/S"
+  ],
+  "model": "gpt-5.4",
+  "answer": "# Briefing: ILPA ESG Assessment Framework and KKR\n\n## Conclusion\nBased on the provided evidence, **ILPA did not publicly assign KKR**:\n- a specific **bucket** under the ILPA ESG Assessment Framework; or\n- an official **numerical score**.\n\n## What the evidence shows\n- ILPA’s ESG Assessment Framework is a **general tool** for LPs to assess GPs.\n- The framework uses four maturity buckets:\n  - **Not Present**\n  - **Developing**\n  - **Intermediate**\n  - **Advanced**\n- However, the evidence includes **no KKR-specific assessment** or placement into any of these buckets.\n\n## Numerical scoring\n- ILPA explicitly states that it **did not create standardized numerical scores** for the framework.\n- Any scoring derived from the worksheet would be **created by individual LPs**, not by ILPA itself.\n\n## Direct answer to the question\n- **Bucket assigned to KKR by ILPA:** **Not provided**\n- **Numerical score received by KKR:** **None from ILPA**",
+  "no_result": false,
+  "gate_should_answer": true,
+  "pre_gate_answer": "# Briefing: ILPA ESG Assessment Framework and KKR\n\n## Conclusion\nBased on the provided evidence, **ILPA did not publicly assign KKR**:\n- a specific **bucket** under the ILPA ESG Assessment Framework; or\n- an official **numerical score**.\n\n## What the evidence shows\n- ILPA’s ESG Assessment Framework is a **general tool** for LPs to assess GPs.\n- The framework uses four maturity buckets:\n  - **Not Present**\n  - **Developing**\n  - **Intermediate**\n  - **Advanced**\n- However, the evidence includes **no KKR-specific assessment** or placement into any of these buckets.\n\n## Numerical scoring\n- ILPA explicitly states that it **did not create standardized numerical scores** for the framework.\n- Any scoring derived from the worksheet would be **created by individual LPs**, not by ILPA itself.\n\n## Direct answer to the question\n- **Bucket assigned to KKR by ILPA:** **Not provided**\n- **Numerical score received by KKR:** **None from ILPA**",
+  "candidate_files": [
+   "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+   "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+   "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+   "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf"
+  ],
+  "cited_files": [],
+  "reused_cluster": null,
+  "latency_s": 26.12,
+  "llm_calls": 4,
+  "prompt_tokens": 23679,
+  "completion_tokens": 668,
+  "total_tokens": 24347,
+  "error": null,
+  "warnings": []
+ },
+ "context": {
+  "answer": "# Briefing: ILPA ESG Assessment Framework and KKR\n\n## Conclusion\nBased on the provided evidence, **ILPA did not publicly assign KKR**:\n- a specific **bucket** under the ILPA ESG Assessment Framework; or\n- an official **numerical score**.\n\n## What the evidence shows\n- ILPA’s ESG Assessment Framework is a **general tool** for LPs to assess GPs.\n- The framework uses four maturity buckets:\n  - **Not Present**\n  - **Developing**\n  - **Intermediate**\n  - **Advanced**\n- However, the evidence includes **no KKR-specific assessment** or placement into any of these buckets.\n\n## Numerical scoring\n- ILPA explicitly states that it **did not create standardized numerical scores** for the framework.\n- Any scoring derived from the worksheet would be **created by individual LPs**, not by ILPA itself.\n\n## Direct answer to the question\n- **Bucket assigned to KKR by ILPA:** **Not provided**\n- **Numerical score received by KKR:** **None from ILPA**",
+  "to_dict_error": "TypeError: 'NoneType' object is not iterable"
+ },
+ "logs": [
+  {
+   "t": 1791362056.809,
+   "level": "info",
+   "msg": "[search] Starting multi-path retrieval for: 'Which bucket (Not Present, Developing, Intermediate or Advanced) did ILPA assign'"
+  },
+  {
+   "t": 1791362056.809,
+   "level": "info",
+   "msg": "[Phase 1] Parallel probing: keywords + dir_scan + knowledge + spec_cache"
+  },
+  {
+   "t": 1791362056.81,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracting keywords..."
+  },
+  {
+   "t": 1791362056.812,
+   "level": "info",
+   "msg": "[Probe:DirScan] Scanning directories..."
+  },
+  {
+   "t": 1791362059.168,
+   "level": "info",
+   "msg": "[Probe:Keywords] Cross-lingual alt: ['环境、社会和治理', 'assessment framework', 'numerical score']"
+  },
+  {
+   "t": 1791362059.168,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracted: ['ILPA ESG Assessment Framework', 'ILPA assign bucket', 'KKR numerical score', 'Not Present Developing Intermediate Advanced', '环境、社会和治理', 'assessment framework', 'numerical score']"
+  },
+  {
+   "t": 1791362060.892,
+   "level": "info",
+   "msg": "[Probe:DirScan] Found 81 files in 1 dirs (4081ms)"
+  },
+  {
+   "t": 1791362060.893,
+   "level": "info",
+   "msg": "[Phase 1] Results: keywords=7, dir_scan=OK, knowledge_hits=0, spec_cache=YES"
+  },
+  {
+   "t": 1791362060.893,
+   "level": "info",
+   "msg": "[Phase 2] Parallel retrieval: rga keyword search + dir_scan LLM rank"
+  },
+  {
+   "t": 1791362062.725,
+   "level": "info",
+   "msg": "[Retrieve:Keywords] 3 files from rga search"
+  },
+  {
+   "t": 1791362072.791,
+   "level": "info",
+   "msg": "[Retrieve:DirScan] 1 relevant files (accept={'high'})"
+  },
+  {
+   "t": 1791362072.791,
+   "level": "info",
+   "msg": "[Phase 2] Results: keyword_files=3, dir_scan_files=1"
+  },
+  {
+   "t": 1791362072.791,
+   "level": "info",
+   "msg": "[Phase 3] Merged 4 unique candidate files"
+  },
+  {
+   "t": 1791362072.791,
+   "level": "info",
+   "msg": "Extracting evidence from 4 files (parallel)..."
+  },
+  {
+   "t": 1791362072.816,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 8195 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791362072.834,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 8755 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791362072.922,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 59779 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791362072.964,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 26257 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791362072.964,
+   "level": "info",
+   "msg": "Collected 4 evidence units"
+  },
+  {
+   "t": 1791362077.797,
+   "level": "success",
+   "msg": "[Phase 3] KnowledgeCluster built: No KKR score from ILPA. (4 evidence units)"
+  },
+  {
+   "t": 1791362077.797,
+   "level": "info",
+   "msg": "[Phase 4] Evidence sufficient, generating summary"
+  },
+  {
+   "t": 1791362077.797,
+   "level": "info",
+   "msg": "[Phase 4] Generating search result summary..."
+  },
+  {
+   "t": 1791362081.384,
+   "level": "info",
+   "msg": "[Phase 5] Quality gate: low-quality answer, skipping cluster save"
+  },
+  {
+   "t": 1791362081.387,
+   "level": "debug",
+   "msg": "[SpecCache] Saved spec for /mnt/docs/S -> 142cc5198d86eb45.json (81 file entries)"
+  },
+  {
+   "t": 1791362081.387,
+   "level": "success",
+   "msg": "[search] Complete: phases=4/10 llm_tokens=24347/128000 llm_calls=4 files_read=0 searches=0"
+  }
+ ]
+}

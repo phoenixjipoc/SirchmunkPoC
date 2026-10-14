@@ -1,0 +1,21 @@
+{
+  "mode": "DEEP",
+  "top_k_files": {
+    "A": 10,
+    "B": 5,
+    "C": 10
+  },
+  "max_loops": 10,
+  "max_token_budget": 128000,
+  "max_depth": 5,
+  "enable_dir_scan": true,
+  "return_context": true,
+  "llm_fallback": false,
+  "question_timeout_s": 600,
+  "cluster_similarity_threshold": 0.85,
+  "cluster_similarity_top_k": 3,
+  "search_question_concurrency": 1,
+  "per_file_evidence_parallelism": "Sirchmunk built-in default",
+  "temperature": "not overridden; provider/model default",
+  "random_seed": "not fixed by existing runtime"
+}

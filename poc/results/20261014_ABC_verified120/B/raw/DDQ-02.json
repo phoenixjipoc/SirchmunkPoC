@@ -1,0 +1,1022 @@
+{
+ "record": {
+  "id": "DDQ-02",
+  "question": "Which due diligence questionnaire asks respondents what percentage of their current portfolio companies are located in New Jersey and what percentage are Life Science/Healthcare companies?",
+  "mode": "DEEP",
+  "paths": [
+   "/mnt/docs/S"
+  ],
+  "model": "gpt-5.4",
+  "answer": "No results found.",
+  "no_result": true,
+  "gate_should_answer": false,
+  "pre_gate_answer": "# Briefing\n\n## Likely Questionnaire Identified\nThe evidence suggests the question most likely comes from a **New Jersey-focused private equity due diligence questionnaire**, likely used by a **New Jersey state investment program or pension/investment authority**.\n\n## Basis for This Conclusion\nThe strongest clue is the combination of two specific portfolio-company metrics:\n- **Percentage of current portfolio companies located in New Jersey**\n- **Percentage of current portfolio companies in Life Science/Healthcare**\n\nThis pairing appears designed to assess:\n- **In-state economic exposure**\n- **Sector concentration or specialization**\n\n## What the Evidence Rules Out\nThe cited materials do **not** appear to contain this exact question:\n\n- **ILPA Due Diligence Questionnaire**: broad private equity DDQ, but no visible NJ/Life Science question\n- **INREV Due Diligence Questionnaire**: focused on non-listed real estate, not relevant\n- **OCERS Investment Consultant Services RFP**: consultant selection document, not a GP portfolio exposure DDQ\n- **Calamos/Aksia Private Markets DDQ**: general manager-evaluation questionnaire, but no visible exact match\n\n## Confidence and Limitation\nThe identification is **probable, not definitive**.  \nThe excerpts do **not** show the exact questionnaire title or the exact line containing the question.\n\n## Bottom Line\nThe most likely source is a **New Jersey private equity due diligence questionnaire**, rather than ILPA, INREV, OCERS, or the Calamos/Aksia private markets DDQ.",
+  "candidate_files": [
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+   "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+   "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+   "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+   "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+   "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+   "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+   "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+   "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+   "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+  ],
+  "evidence_found_files": [
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+   "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+   "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+  ],
+  "cited_files": [],
+  "cited_found_files": [],
+  "reused_cluster": null,
+  "reused_cluster_id": null,
+  "reused_cluster_queries": [],
+  "cluster_id": null,
+  "latency_s": 51.84,
+  "llm_calls": 21,
+  "llm_failed_calls": 0,
+  "prompt_tokens": 62363,
+  "completion_tokens": 3254,
+  "total_tokens": 65617,
+  "error": null,
+  "serialization_error": null,
+  "warnings": [
+   "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  ]
+ },
+ "context": {
+  "answer": "No results found.",
+  "cluster": null,
+  "max_token_budget": 128000,
+  "max_loops": 10,
+  "total_llm_tokens": 0,
+  "budget_remaining": 128000,
+  "llm_call_count": 0,
+  "llm_usages": [],
+  "read_file_ids": [],
+  "retrieval_logs": [],
+  "search_history": [],
+  "loop_count": 4,
+  "start_time": "2026-10-14T07:18:36.258210"
+ },
+ "logs": [
+  {
+   "t": 1791962317.882,
+   "level": "info",
+   "msg": "[search] Starting multi-path retrieval for: 'Which due diligence questionnaire asks respondents what percentage of their curr'"
+  },
+  {
+   "t": 1791962317.882,
+   "level": "info",
+   "msg": "[Phase 1] Parallel probing: keywords + dir_scan + knowledge + spec_cache"
+  },
+  {
+   "t": 1791962317.882,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracting keywords..."
+  },
+  {
+   "t": 1791962317.883,
+   "level": "info",
+   "msg": "[Probe:DirScan] Scanning directories..."
+  },
+  {
+   "t": 1791962321.036,
+   "level": "info",
+   "msg": "[Probe:Keywords] Cross-lingual alt: ['尽职调查问卷', '投资组合公司', 'Life Science/Healthcare companies', 'New Jersey']"
+  },
+  {
+   "t": 1791962321.036,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracted: ['due diligence questionnaire', 'current portfolio companies', 'New Jersey percentage', 'Life Science/Healthcare companies', '尽职调查问卷', '投资组合公司', 'New Jersey']"
+  },
+  {
+   "t": 1791962322.323,
+   "level": "info",
+   "msg": "[Probe:DirScan] Found 81 files in 1 dirs (4439ms)"
+  },
+  {
+   "t": 1791962322.323,
+   "level": "info",
+   "msg": "[Phase 1] Results: keywords=7, dir_scan=OK, knowledge_hits=0, spec_cache=YES"
+  },
+  {
+   "t": 1791962322.323,
+   "level": "info",
+   "msg": "[Phase 2] Parallel retrieval: rga keyword search + dir_scan LLM rank"
+  },
+  {
+   "t": 1791962325.681,
+   "level": "info",
+   "msg": "[Retrieve:Keywords] 11 files from rga search"
+  },
+  {
+   "t": 1791962336.695,
+   "level": "info",
+   "msg": "[Retrieve:DirScan] 2 relevant files (accept={'high'})"
+  },
+  {
+   "t": 1791962336.695,
+   "level": "info",
+   "msg": "[Phase 2] Results: keyword_files=11, dir_scan_files=2"
+  },
+  {
+   "t": 1791962336.695,
+   "level": "info",
+   "msg": "[Phase 3] Merged 11 unique candidate files"
+  },
+  {
+   "t": 1791962336.695,
+   "level": "info",
+   "msg": "Extracting evidence from 5 files (parallel)..."
+  },
+  {
+   "t": 1791962336.736,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 12406 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791962336.953,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 55109 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791962337.156,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 80410 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791962337.363,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 92534 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791962340.197,
+   "level": "info",
+   "msg": "  [Pos 143000 | Src: fuzz    ] Score: 0.0 | The snippet discusses the Offi..."
+  },
+  {
+   "t": 1791962340.197,
+   "level": "info",
+   "msg": "  [Pos 161750 | Src: fuzz    ] Score: 2.0 | The snippet mentions private m..."
+  },
+  {
+   "t": 1791962340.197,
+   "level": "info",
+   "msg": "  [Pos  46500 | Src: fuzz    ] Score: 4.0 | The snippet appears to be from..."
+  },
+  {
+   "t": 1791962340.197,
+   "level": "info",
+   "msg": "  [Pos 207750 | Src: fuzz    ] Score: 0.0 | The snippet discusses sustaina..."
+  },
+  {
+   "t": 1791962340.197,
+   "level": "info",
+   "msg": "  [Pos  97750 | Src: fuzz    ] Score: 0.0 | The snippet only mentions gene..."
+  },
+  {
+   "t": 1791962340.197,
+   "level": "info",
+   "msg": "  [Pos  39216 | Src: stratified] Score: 4.0 | The snippet appears to be from..."
+  },
+  {
+   "t": 1791962340.197,
+   "level": "info",
+   "msg": "  [Pos 229054 | Src: stratified] Score: 0.0 | The snippet discusses board in..."
+  },
+  {
+   "t": 1791962342.48,
+   "level": "info",
+   "msg": "  [Pos  47773 | Src: gaussian] Score: 2.0 | The snippet discusses fees and..."
+  },
+  {
+   "t": 1791962342.48,
+   "level": "info",
+   "msg": "  [Pos  45969 | Src: gaussian] Score: 2.0 | The snippet discusses due dili..."
+  },
+  {
+   "t": 1791962342.48,
+   "level": "info",
+   "msg": "  [Pos  48033 | Src: gaussian] Score: 2.0 | The snippet discusses fees, an..."
+  },
+  {
+   "t": 1791962342.48,
+   "level": "info",
+   "msg": "  [Pos  34025 | Src: gaussian] Score: 2.0 | The snippet discusses legal/re..."
+  },
+  {
+   "t": 1791962344.525,
+   "level": "info",
+   "msg": "  [Pos  45660 | Src: gaussian] Score: 2.0 | The snippet discusses reportin..."
+  },
+  {
+   "t": 1791962344.525,
+   "level": "info",
+   "msg": "  [Pos  46823 | Src: gaussian] Score: 2.0 | The snippet discusses due dili..."
+  },
+  {
+   "t": 1791962344.525,
+   "level": "info",
+   "msg": "  [Pos  44263 | Src: gaussian] Score: 2.0 | The snippet is from a due dili..."
+  },
+  {
+   "t": 1791962344.525,
+   "level": "info",
+   "msg": "  [Pos  42477 | Src: gaussian] Score: 2.0 | The snippet discusses sourcing..."
+  },
+  {
+   "t": 1791962351.037,
+   "level": "info",
+   "msg": "Collected 5 evidence units"
+  },
+  {
+   "t": 1791962362.177,
+   "level": "success",
+   "msg": "[Phase 3] KnowledgeCluster built: Likely NJ PE DDQ (5 evidence units)"
+  },
+  {
+   "t": 1791962362.177,
+   "level": "info",
+   "msg": "[Phase 4] Evidence sufficient, generating summary"
+  },
+  {
+   "t": 1791962362.177,
+   "level": "info",
+   "msg": "[Phase 4] Generating search result summary..."
+  },
+  {
+   "t": 1791962368.101,
+   "level": "warning",
+   "msg": "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  }
+ ],
+ "llm_call_records": [
+  {
+   "elapsed_s": 1.621,
+   "error": null,
+   "usage": {
+    "completion_tokens": 9,
+    "prompt_tokens": 188,
+    "total_tokens": 197,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 3.154,
+   "error": null,
+   "usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 638,
+    "total_tokens": 781,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 14.368,
+   "error": null,
+   "usage": {
+    "completion_tokens": 1116,
+    "prompt_tokens": 2727,
+    "total_tokens": 3843,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.584,
+   "error": null,
+   "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 307,
+    "total_tokens": 361,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.737,
+   "error": null,
+   "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 304,
+    "total_tokens": 350,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.828,
+   "error": null,
+   "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 302,
+    "total_tokens": 346,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.89,
+   "error": null,
+   "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 307,
+    "total_tokens": 354,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.901,
+   "error": null,
+   "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 312,
+    "total_tokens": 360,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.325,
+   "error": null,
+   "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 314,
+    "total_tokens": 375,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.391,
+   "error": null,
+   "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 305,
+    "total_tokens": 370,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.999,
+   "error": null,
+   "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 314,
+    "total_tokens": 369,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.004,
+   "error": null,
+   "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 309,
+    "total_tokens": 365,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.112,
+   "error": null,
+   "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 303,
+    "total_tokens": 360,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.282,
+   "error": null,
+   "usage": {
+    "completion_tokens": 42,
+    "prompt_tokens": 310,
+    "total_tokens": 352,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.873,
+   "error": null,
+   "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 310,
+    "total_tokens": 364,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.877,
+   "error": null,
+   "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 312,
+    "total_tokens": 364,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.984,
+   "error": null,
+   "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 315,
+    "total_tokens": 373,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.043,
+   "error": null,
+   "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 316,
+    "total_tokens": 366,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 6.511,
+   "error": null,
+   "usage": {
+    "completion_tokens": 347,
+    "prompt_tokens": 2019,
+    "total_tokens": 2366,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 11.139,
+   "error": null,
+   "usage": {
+    "completion_tokens": 505,
+    "prompt_tokens": 50828,
+    "total_tokens": 51333,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 5.924,
+   "error": null,
+   "usage": {
+    "completion_tokens": 345,
+    "prompt_tokens": 1323,
+    "total_tokens": 1668,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  }
+ ],
+ "library_usage_records": [
+  {
+   "completion_tokens": 9,
+   "prompt_tokens": 188,
+   "total_tokens": 197,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 143,
+   "prompt_tokens": 638,
+   "total_tokens": 781,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 54,
+   "prompt_tokens": 307,
+   "total_tokens": 361,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 46,
+   "prompt_tokens": 304,
+   "total_tokens": 350,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 44,
+   "prompt_tokens": 302,
+   "total_tokens": 346,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 47,
+   "prompt_tokens": 307,
+   "total_tokens": 354,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 48,
+   "prompt_tokens": 312,
+   "total_tokens": 360,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 61,
+   "prompt_tokens": 314,
+   "total_tokens": 375,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 65,
+   "prompt_tokens": 305,
+   "total_tokens": 370,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 55,
+   "prompt_tokens": 314,
+   "total_tokens": 369,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 56,
+   "prompt_tokens": 309,
+   "total_tokens": 365,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 57,
+   "prompt_tokens": 303,
+   "total_tokens": 360,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 42,
+   "prompt_tokens": 310,
+   "total_tokens": 352,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 54,
+   "prompt_tokens": 310,
+   "total_tokens": 364,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 52,
+   "prompt_tokens": 312,
+   "total_tokens": 364,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 58,
+   "prompt_tokens": 315,
+   "total_tokens": 373,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 50,
+   "prompt_tokens": 316,
+   "total_tokens": 366,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 347,
+   "prompt_tokens": 2019,
+   "total_tokens": 2366,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 505,
+   "prompt_tokens": 50828,
+   "total_tokens": 51333,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 345,
+   "prompt_tokens": 1323,
+   "total_tokens": 1668,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  }
+ ],
+ "trace": {
+  "reused_cluster": null,
+  "reused_cluster_id": null,
+  "reused_cluster_queries": [],
+  "candidate_files": [
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+   "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+   "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+   "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+   "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+   "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+   "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+   "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+   "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+   "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+  ],
+  "evidence_found_files": [
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+   "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+   "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+  ],
+  "gate": [
+   {
+    "should_answer": false,
+    "should_save": false,
+    "summary": "# Briefing\n\n## Likely Questionnaire Identified\nThe evidence suggests the question most likely comes from a **New Jersey-focused private equity due diligence questionnaire**, likely used by a **New Jersey state investment program or pension/investment authority**.\n\n## Basis for This Conclusion\nThe strongest clue is the combination of two specific portfolio-company metrics:\n- **Percentage of current portfolio companies located in New Jersey**\n- **Percentage of current portfolio companies in Life Science/Healthcare**\n\nThis pairing appears designed to assess:\n- **In-state economic exposure**\n- **Sector concentration or specialization**\n\n## What the Evidence Rules Out\nThe cited materials do **not** appear to contain this exact question:\n\n- **ILPA Due Diligence Questionnaire**: broad private equity DDQ, but no visible NJ/Life Science question\n- **INREV Due Diligence Questionnaire**: focused on non-listed real estate, not relevant\n- **OCERS Investment Consultant Services RFP**: consultant selection document, not a GP portfolio exposure DDQ\n- **Calamos/Aksia Private Markets DDQ**: general manager-evaluation questionnaire, but no visible exact match\n\n## Confidence and Limitation\nThe identification is **probable, not definitive**.  \nThe excerpts do **not** show the exact questionnaire title or the exact line containing the question.\n\n## Bottom Line\nThe most likely source is a **New Jersey private equity due diligence questionnaire**, rather than ILPA, INREV, OCERS, or the Calamos/Aksia private markets DDQ."
+   }
+  ]
+ }
+}

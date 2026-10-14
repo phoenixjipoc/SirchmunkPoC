@@ -1,0 +1,383 @@
+{
+ "record": {
+  "id": "DDQ-13",
+  "question": "Which venture capital manager did NJEDA select to run its Life Science Seed Fund, and how much capital did NJEDA commit to it?",
+  "mode": "DEEP",
+  "paths": [
+   "/mnt/docs/S"
+  ],
+  "model": "gpt-5.4",
+  "answer": "No results found.",
+  "no_result": true,
+  "gate_should_answer": false,
+  "pre_gate_answer": "# Briefing\n\n## Overview\nThe provided search results **do not contain relevant evidence** to answer the question about NJEDA’s **Life Science Seed Fund**.\n\n## Findings\n- None of the retrieved materials identifies:\n  - **the venture capital manager** selected by NJEDA to run the fund, or\n  - **the amount of capital** NJEDA committed.\n- The cited documents are largely **unrelated** to the NJEDA question and instead concern:\n  - pension investment consulting RFPs,\n  - private markets/OCIO advisory services, and\n  - a generic due diligence questionnaire.\n\n## Assessment\nBased on the evidence provided, the question **cannot be answered reliably**.\n\n## Recommended Next Sources\nTo answer the question, more relevant sources would be needed, such as:\n- an **NJEDA press release**,\n- an **NJEDA board approval document**,\n- or a **news article** specifically discussing the **Life Science Seed Fund**.",
+  "candidate_files": [
+   "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+   "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+   "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+   "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf"
+  ],
+  "evidence_found_files": [
+   "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+   "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf"
+  ],
+  "cited_files": [],
+  "cited_found_files": [],
+  "reused_cluster": null,
+  "reused_cluster_id": null,
+  "reused_cluster_queries": [],
+  "cluster_id": null,
+  "latency_s": 29.88,
+  "llm_calls": 5,
+  "llm_failed_calls": 0,
+  "prompt_tokens": 52748,
+  "completion_tokens": 1780,
+  "total_tokens": 54528,
+  "error": null,
+  "serialization_error": null,
+  "warnings": [
+   "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  ]
+ },
+ "context": {
+  "answer": "No results found.",
+  "cluster": null,
+  "max_token_budget": 128000,
+  "max_loops": 10,
+  "total_llm_tokens": 0,
+  "budget_remaining": 128000,
+  "llm_call_count": 0,
+  "llm_usages": [],
+  "read_file_ids": [],
+  "retrieval_logs": [],
+  "search_history": [],
+  "loop_count": 4,
+  "start_time": "2026-10-14T07:25:21.578201"
+ },
+ "logs": [
+  {
+   "t": 1791962722.984,
+   "level": "info",
+   "msg": "[search] Starting multi-path retrieval for: 'Which venture capital manager did NJEDA select to run its Life Science Seed Fund'"
+  },
+  {
+   "t": 1791962722.984,
+   "level": "info",
+   "msg": "[Phase 1] Parallel probing: keywords + dir_scan + knowledge + spec_cache"
+  },
+  {
+   "t": 1791962722.984,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracting keywords..."
+  },
+  {
+   "t": 1791962722.985,
+   "level": "info",
+   "msg": "[Probe:DirScan] Scanning directories..."
+  },
+  {
+   "t": 1791962726.342,
+   "level": "info",
+   "msg": "[Probe:Keywords] Cross-lingual alt: ['新泽西经济发展局', 'Life Science Seed Fund', 'venture capital manager']"
+  },
+  {
+   "t": 1791962726.342,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracted: ['Life Science Seed Fund', 'venture capital manager', 'NJEDA select', 'capital commitment', '新泽西经济发展局']"
+  },
+  {
+   "t": 1791962727.242,
+   "level": "info",
+   "msg": "[Probe:DirScan] Found 81 files in 1 dirs (4256ms)"
+  },
+  {
+   "t": 1791962727.242,
+   "level": "info",
+   "msg": "[Phase 1] Results: keywords=5, dir_scan=OK, knowledge_hits=0, spec_cache=YES"
+  },
+  {
+   "t": 1791962727.242,
+   "level": "info",
+   "msg": "[Phase 2] Parallel retrieval: rga keyword search + dir_scan LLM rank"
+  },
+  {
+   "t": 1791962729.05,
+   "level": "info",
+   "msg": "[Retrieve:Keywords] 3 files from rga search"
+  },
+  {
+   "t": 1791962740.241,
+   "level": "info",
+   "msg": "[Retrieve:DirScan] 1 relevant files (accept={'high'})"
+  },
+  {
+   "t": 1791962740.242,
+   "level": "info",
+   "msg": "[Phase 2] Results: keyword_files=3, dir_scan_files=1"
+  },
+  {
+   "t": 1791962740.242,
+   "level": "info",
+   "msg": "[Phase 3] Merged 4 unique candidate files"
+  },
+  {
+   "t": 1791962740.242,
+   "level": "info",
+   "msg": "Extracting evidence from 4 files (parallel)..."
+  },
+  {
+   "t": 1791962740.521,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 60581 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791962740.549,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 19557 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791962740.728,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 83501 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791962740.969,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 71864 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791962740.97,
+   "level": "info",
+   "msg": "Collected 4 evidence units"
+  },
+  {
+   "t": 1791962746.805,
+   "level": "success",
+   "msg": "[Phase 3] KnowledgeCluster built: No relevant NJEDA match. (4 evidence units)"
+  },
+  {
+   "t": 1791962746.805,
+   "level": "info",
+   "msg": "[Phase 4] Evidence sufficient, generating summary"
+  },
+  {
+   "t": 1791962746.806,
+   "level": "info",
+   "msg": "[Phase 4] Generating search result summary..."
+  },
+  {
+   "t": 1791962751.461,
+   "level": "warning",
+   "msg": "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  }
+ ],
+ "llm_call_records": [
+  {
+   "elapsed_s": 1.404,
+   "error": null,
+   "usage": {
+    "completion_tokens": 9,
+    "prompt_tokens": 187,
+    "total_tokens": 196,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 3.358,
+   "error": null,
+   "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 637,
+    "total_tokens": 793,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 12.995,
+   "error": null,
+   "usage": {
+    "completion_tokens": 1138,
+    "prompt_tokens": 2725,
+    "total_tokens": 3863,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 5.835,
+   "error": null,
+   "usage": {
+    "completion_tokens": 244,
+    "prompt_tokens": 48399,
+    "total_tokens": 48643,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 4.656,
+   "error": null,
+   "usage": {
+    "completion_tokens": 233,
+    "prompt_tokens": 800,
+    "total_tokens": 1033,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  }
+ ],
+ "library_usage_records": [
+  {
+   "completion_tokens": 9,
+   "prompt_tokens": 187,
+   "total_tokens": 196,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 156,
+   "prompt_tokens": 637,
+   "total_tokens": 793,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 244,
+   "prompt_tokens": 48399,
+   "total_tokens": 48643,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 233,
+   "prompt_tokens": 800,
+   "total_tokens": 1033,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  }
+ ],
+ "trace": {
+  "reused_cluster": null,
+  "reused_cluster_id": null,
+  "reused_cluster_queries": [],
+  "candidate_files": [
+   "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+   "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+   "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+   "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf"
+  ],
+  "evidence_found_files": [
+   "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+   "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf"
+  ],
+  "gate": [
+   {
+    "should_answer": false,
+    "should_save": false,
+    "summary": "# Briefing\n\n## Overview\nThe provided search results **do not contain relevant evidence** to answer the question about NJEDA’s **Life Science Seed Fund**.\n\n## Findings\n- None of the retrieved materials identifies:\n  - **the venture capital manager** selected by NJEDA to run the fund, or\n  - **the amount of capital** NJEDA committed.\n- The cited documents are largely **unrelated** to the NJEDA question and instead concern:\n  - pension investment consulting RFPs,\n  - private markets/OCIO advisory services, and\n  - a generic due diligence questionnaire.\n\n## Assessment\nBased on the evidence provided, the question **cannot be answered reliably**.\n\n## Recommended Next Sources\nTo answer the question, more relevant sources would be needed, such as:\n- an **NJEDA press release**,\n- an **NJEDA board approval document**,\n- or a **news article** specifically discussing the **Life Science Seed Fund**."
+   }
+  ]
+ }
+}

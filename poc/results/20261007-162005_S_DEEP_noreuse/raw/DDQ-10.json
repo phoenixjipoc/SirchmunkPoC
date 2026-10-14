@@ -1,0 +1,210 @@
+{
+ "record": {
+  "id": "DDQ-10",
+  "question": "What topics does the ILPA DDQ 2.0 cover under its ESG section?",
+  "mode": "DEEP",
+  "paths": [
+   "/mnt/docs/S"
+  ],
+  "model": "gpt-5.4",
+  "answer": "No results found.",
+  "no_result": true,
+  "gate_should_answer": false,
+  "pre_gate_answer": "# Markdown Briefing: ILPA DDQ 2.0 ESG Section\n\n## Summary\nBased on the provided evidence, **ILPA DDQ 2.0 includes ESG as a dedicated standalone section, identified as Section 19**.\n\n## What the evidence confirms\n- **ESG is explicitly covered in ILPA DDQ 2.0**\n- It appears as **Section 19**\n- The section was **updated in 2021**\n- The update was **aligned with ILPA’s broader DDQ revision**\n- The ESG section was developed with input from **LPs and GPs**\n- **PRI provides supporting guidance** for completing this ESG section\n\n## What the evidence does *not* confirm\n- The evidence **does not list the specific topics, questions, or subtopics** included in Section 19\n- As a result, it is **not possible from the supplied material** to identify exactly what ESG topics ILPA DDQ 2.0 covers within that section\n\n## Bottom line\nThe most accurate conclusion from the available evidence is that **ILPA DDQ 2.0 covers ESG under a dedicated Section 19**, but **the detailed contents of that ESG section are not specified in the provided material**.",
+  "candidate_files": [
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf"
+  ],
+  "cited_files": [],
+  "reused_cluster": null,
+  "latency_s": 35.59,
+  "llm_calls": 16,
+  "prompt_tokens": 11134,
+  "completion_tokens": 1538,
+  "total_tokens": 12672,
+  "error": null,
+  "warnings": [
+   "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  ]
+ },
+ "context": {
+  "answer": "No results found.",
+  "cluster": null,
+  "max_token_budget": 128000,
+  "max_loops": 10,
+  "total_llm_tokens": 0,
+  "budget_remaining": 128000,
+  "llm_call_count": 0,
+  "llm_usages": [],
+  "read_file_ids": [],
+  "retrieval_logs": [],
+  "search_history": [],
+  "loop_count": 4,
+  "start_time": "2026-10-07T08:33:23.130861"
+ },
+ "logs": [
+  {
+   "t": 1791362004.684,
+   "level": "info",
+   "msg": "[search] Starting multi-path retrieval for: 'What topics does the ILPA DDQ 2.0 cover under its ESG section?'"
+  },
+  {
+   "t": 1791362004.684,
+   "level": "info",
+   "msg": "[Phase 1] Parallel probing: keywords + dir_scan + knowledge + spec_cache"
+  },
+  {
+   "t": 1791362004.684,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracting keywords..."
+  },
+  {
+   "t": 1791362004.686,
+   "level": "info",
+   "msg": "[Probe:DirScan] Scanning directories..."
+  },
+  {
+   "t": 1791362007.352,
+   "level": "info",
+   "msg": "[Probe:Keywords] Cross-lingual alt: ['ESG（环境、社会和治理）', 'ILPA尽职调查问卷2.0']"
+  },
+  {
+   "t": 1791362007.352,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracted: ['ILPA DDQ 2.0', 'ESG section', 'topics covered', 'DDQ 2.0 cover', 'ESG（环境、社会和治理）', 'ILPA尽职调查问卷2.0']"
+  },
+  {
+   "t": 1791362008.81,
+   "level": "info",
+   "msg": "[Probe:DirScan] Found 81 files in 1 dirs (4123ms)"
+  },
+  {
+   "t": 1791362008.81,
+   "level": "info",
+   "msg": "[Phase 1] Results: keywords=6, dir_scan=OK, knowledge_hits=0, spec_cache=YES"
+  },
+  {
+   "t": 1791362008.81,
+   "level": "info",
+   "msg": "[Phase 2] Parallel retrieval: rga keyword search + dir_scan LLM rank"
+  },
+  {
+   "t": 1791362010.39,
+   "level": "info",
+   "msg": "[Retrieve:Keywords] 1 files from rga search"
+  },
+  {
+   "t": 1791362020.556,
+   "level": "info",
+   "msg": "[Retrieve:DirScan] 2 relevant files (accept={'high'})"
+  },
+  {
+   "t": 1791362020.556,
+   "level": "info",
+   "msg": "[Phase 2] Results: keyword_files=1, dir_scan_files=2"
+  },
+  {
+   "t": 1791362020.556,
+   "level": "info",
+   "msg": "[Phase 3] Merged 2 unique candidate files"
+  },
+  {
+   "t": 1791362020.556,
+   "level": "info",
+   "msg": "Extracting evidence from 2 files (parallel)..."
+  },
+  {
+   "t": 1791362020.865,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 3003 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791362022.914,
+   "level": "info",
+   "msg": "  [Pos   5000 | Src: fuzz    ] Score: 7.0 | The snippet shows that the ILP..."
+  },
+  {
+   "t": 1791362022.914,
+   "level": "info",
+   "msg": "  [Pos   6250 | Src: fuzz    ] Score: 7.0 | The snippet mentions the ESG s..."
+  },
+  {
+   "t": 1791362022.914,
+   "level": "info",
+   "msg": "  [Pos   6500 | Src: fuzz    ] Score: 4.0 | The snippet mentions the ESG s..."
+  },
+  {
+   "t": 1791362022.914,
+   "level": "info",
+   "msg": "  [Pos  38000 | Src: fuzz    ] Score: 2.0 | The snippet mentions the ILPA ..."
+  },
+  {
+   "t": 1791362022.914,
+   "level": "info",
+   "msg": "  [Pos   5250 | Src: fuzz    ] Score: 4.0 | The snippet mentions the ILPA ..."
+  },
+  {
+   "t": 1791362022.914,
+   "level": "info",
+   "msg": "  [Pos  13063 | Src: stratified] Score: 2.0 | The snippet only mentions orga..."
+  },
+  {
+   "t": 1791362022.914,
+   "level": "info",
+   "msg": "  [Pos 103075 | Src: stratified] Score: 1.0 | The snippet discusses IT respo..."
+  },
+  {
+   "t": 1791362024.959,
+   "level": "info",
+   "msg": "  [Pos      0 | Src: gaussian] Score: 4.0 | The snippet identifies the doc..."
+  },
+  {
+   "t": 1791362024.959,
+   "level": "info",
+   "msg": "  [Pos   2295 | Src: gaussian] Score: 3.0 | The snippet mentions ILPA Due ..."
+  },
+  {
+   "t": 1791362024.959,
+   "level": "info",
+   "msg": "  [Pos   4766 | Src: gaussian] Score: 8.0 | The snippet directly shows tha..."
+  },
+  {
+   "t": 1791362024.959,
+   "level": "info",
+   "msg": "  [Pos   3712 | Src: gaussian] Score: 2.0 | The snippet mentions the ILPA ..."
+  },
+  {
+   "t": 1791362028.736,
+   "level": "info",
+   "msg": "Collected 2 evidence units"
+  },
+  {
+   "t": 1791362033.986,
+   "level": "success",
+   "msg": "[Phase 3] KnowledgeCluster built: ILPA DDQ 2.0 ESG (2 evidence units)"
+  },
+  {
+   "t": 1791362033.986,
+   "level": "info",
+   "msg": "[Phase 4] Evidence sufficient, generating summary"
+  },
+  {
+   "t": 1791362033.986,
+   "level": "info",
+   "msg": "[Phase 4] Generating search result summary..."
+  },
+  {
+   "t": 1791362038.724,
+   "level": "warning",
+   "msg": "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  }
+ ]
+}

@@ -1,0 +1,954 @@
+{
+ "record": {
+  "id": "OTH-12",
+  "question": "What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2022?",
+  "mode": "DEEP",
+  "paths": [
+   "/mnt/docs/S"
+  ],
+  "model": "gpt-5.4",
+  "answer": "No results found.",
+  "no_result": true,
+  "gate_should_answer": false,
+  "pre_gate_answer": "# Briefing\n\n## Question\n**What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2022?**\n\n## Finding\n**The proposal deadline cannot be determined from the provided evidence.**\n\n## Evidence Assessment\n- The supplied materials **do not include** the **Hawaii ERS 2022 RFP** for private equity consulting services.\n- The evidence instead references **unrelated RFPs** from:\n  - **Baltimore City Employees’ Retirement System/OPEB Trust**\n  - **Rice University**\n  - **City of Austin Employees’ Retirement System**\n- These documents involve **different organizations, different service categories, and mostly different years**.\n\n## Conclusion\n**Based solely on the provided evidence, the Hawaii ERS 2022 private equity consulting services proposal deadline is not available.**",
+  "candidate_files": [
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+   "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+   "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+   "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+   "/mnt/docs/S/Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+   "/mnt/docs/S/CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+   "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+   "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+   "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+   "/mnt/docs/S/Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+   "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+   "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+   "/mnt/docs/S/Hawaii_ERS__ERS-Private-Equity-AD.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+   "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+   "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+   "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+   "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+   "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+   "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+  ],
+  "evidence_found_files": [
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+   "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+   "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+   "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+  ],
+  "cited_files": [],
+  "cited_found_files": [],
+  "reused_cluster": null,
+  "reused_cluster_id": null,
+  "reused_cluster_queries": [],
+  "cluster_id": null,
+  "latency_s": 39.73,
+  "llm_calls": 19,
+  "llm_failed_calls": 0,
+  "prompt_tokens": 59372,
+  "completion_tokens": 2667,
+  "total_tokens": 62039,
+  "error": null,
+  "serialization_error": null,
+  "warnings": [
+   "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  ]
+ },
+ "context": {
+  "answer": "No results found.",
+  "cluster": null,
+  "max_token_budget": 128000,
+  "max_loops": 10,
+  "total_llm_tokens": 0,
+  "budget_remaining": 128000,
+  "llm_call_count": 0,
+  "llm_usages": [],
+  "read_file_ids": [],
+  "retrieval_logs": [],
+  "search_history": [],
+  "loop_count": 4,
+  "start_time": "2026-10-14T07:33:25.023871"
+ },
+ "logs": [
+  {
+   "t": 1791963206.545,
+   "level": "info",
+   "msg": "[search] Starting multi-path retrieval for: 'What was the proposal deadline in the Hawaii ERS RFP for private equity consulti'"
+  },
+  {
+   "t": 1791963206.545,
+   "level": "info",
+   "msg": "[Phase 1] Parallel probing: keywords + dir_scan + knowledge + spec_cache"
+  },
+  {
+   "t": 1791963206.545,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracting keywords..."
+  },
+  {
+   "t": 1791963206.546,
+   "level": "info",
+   "msg": "[Probe:DirScan] Scanning directories..."
+  },
+  {
+   "t": 1791963209.311,
+   "level": "info",
+   "msg": "[Probe:Keywords] Cross-lingual alt: ['招标请求书', 'private equity consulting services', '夏威夷雇员退休系统']"
+  },
+  {
+   "t": 1791963209.311,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracted: ['Hawaii ERS RFP', 'private equity consulting services', 'proposal deadline', 'published in 2022', '招标请求书', '夏威夷雇员退休系统']"
+  },
+  {
+   "t": 1791963211.256,
+   "level": "info",
+   "msg": "[Probe:DirScan] Found 81 files in 1 dirs (4710ms)"
+  },
+  {
+   "t": 1791963211.256,
+   "level": "info",
+   "msg": "[Phase 1] Results: keywords=6, dir_scan=OK, knowledge_hits=0, spec_cache=YES"
+  },
+  {
+   "t": 1791963211.256,
+   "level": "info",
+   "msg": "[Phase 2] Parallel retrieval: rga keyword search + dir_scan LLM rank"
+  },
+  {
+   "t": 1791963214.189,
+   "level": "info",
+   "msg": "[Retrieve:Keywords] 14 files from rga search"
+  },
+  {
+   "t": 1791963224.251,
+   "level": "info",
+   "msg": "[Retrieve:DirScan] 2 relevant files (accept={'high'})"
+  },
+  {
+   "t": 1791963224.251,
+   "level": "info",
+   "msg": "[Phase 2] Results: keyword_files=14, dir_scan_files=2"
+  },
+  {
+   "t": 1791963224.251,
+   "level": "info",
+   "msg": "[Phase 3] Merged 16 unique candidate files"
+  },
+  {
+   "t": 1791963224.251,
+   "level": "info",
+   "msg": "Extracting evidence from 5 files (parallel)..."
+  },
+  {
+   "t": 1791963224.277,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 14545 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791963224.417,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 60581 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791963224.523,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 66189 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791963224.971,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 81491 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791963226.927,
+   "level": "info",
+   "msg": "  [Pos  19250 | Src: fuzz    ] Score: 2.0 | The snippet mentions an RFP an..."
+  },
+  {
+   "t": 1791963226.927,
+   "level": "info",
+   "msg": "  [Pos   1750 | Src: fuzz    ] Score: 5.0 | The snippet is from an RFP and..."
+  },
+  {
+   "t": 1791963226.927,
+   "level": "info",
+   "msg": "  [Pos   2000 | Src: fuzz    ] Score: 4.0 | The snippet is from the RFP an..."
+  },
+  {
+   "t": 1791963226.927,
+   "level": "info",
+   "msg": "  [Pos  19500 | Src: fuzz    ] Score: 1.0 | The snippet is about Delaware ..."
+  },
+  {
+   "t": 1791963226.927,
+   "level": "info",
+   "msg": "  [Pos  16500 | Src: fuzz    ] Score: 4.0 | The snippet mentions proposal ..."
+  },
+  {
+   "t": 1791963226.927,
+   "level": "info",
+   "msg": "  [Pos    668 | Src: stratified] Score: 2.0 | The snippet is about a differe..."
+  },
+  {
+   "t": 1791963226.927,
+   "level": "info",
+   "msg": "  [Pos 103563 | Src: stratified] Score: 1.0 | The snippet discusses reports,..."
+  },
+  {
+   "t": 1791963229.279,
+   "level": "info",
+   "msg": "  [Pos    881 | Src: gaussian] Score: 4.0 | The snippet includes an RFP ti..."
+  },
+  {
+   "t": 1791963229.279,
+   "level": "info",
+   "msg": "  [Pos  10074 | Src: gaussian] Score: 0.0 | The snippet discusses a Deferr..."
+  },
+  {
+   "t": 1791963229.279,
+   "level": "info",
+   "msg": "  [Pos   7440 | Src: gaussian] Score: 1.0 | The snippet discusses permitte..."
+  },
+  {
+   "t": 1791963229.279,
+   "level": "info",
+   "msg": "  [Pos   2182 | Src: gaussian] Score: 4.0 | The snippet is from an RFP and..."
+  },
+  {
+   "t": 1791963231.504,
+   "level": "info",
+   "msg": "  [Pos      0 | Src: gaussian] Score: 2.0 | The snippet is about a deferre..."
+  },
+  {
+   "t": 1791963231.504,
+   "level": "info",
+   "msg": "  [Pos    423 | Src: gaussian] Score: 0.0 | The snippet is about Delaware’..."
+  },
+  {
+   "t": 1791963235.888,
+   "level": "info",
+   "msg": "Collected 5 evidence units"
+  },
+  {
+   "t": 1791963241.394,
+   "level": "success",
+   "msg": "[Phase 3] KnowledgeCluster built: Deadline not evidenced. (5 evidence units)"
+  },
+  {
+   "t": 1791963241.394,
+   "level": "info",
+   "msg": "[Phase 4] Evidence sufficient, generating summary"
+  },
+  {
+   "t": 1791963241.394,
+   "level": "info",
+   "msg": "[Phase 4] Generating search result summary..."
+  },
+  {
+   "t": 1791963244.755,
+   "level": "warning",
+   "msg": "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  }
+ ],
+ "llm_call_records": [
+  {
+   "elapsed_s": 1.519,
+   "error": null,
+   "usage": {
+    "completion_tokens": 9,
+    "prompt_tokens": 183,
+    "total_tokens": 192,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.766,
+   "error": null,
+   "usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 633,
+    "total_tokens": 776,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 12.988,
+   "error": null,
+   "usage": {
+    "completion_tokens": 1124,
+    "prompt_tokens": 2950,
+    "total_tokens": 4074,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.74,
+   "error": null,
+   "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 307,
+    "total_tokens": 372,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.736,
+   "error": null,
+   "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 305,
+    "total_tokens": 352,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.796,
+   "error": null,
+   "usage": {
+    "completion_tokens": 41,
+    "prompt_tokens": 314,
+    "total_tokens": 355,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.824,
+   "error": null,
+   "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 335,
+    "total_tokens": 384,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.88,
+   "error": null,
+   "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 299,
+    "total_tokens": 350,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.895,
+   "error": null,
+   "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 312,
+    "total_tokens": 355,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.068,
+   "error": null,
+   "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 295,
+    "total_tokens": 348,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.725,
+   "error": null,
+   "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 313,
+    "total_tokens": 356,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.788,
+   "error": null,
+   "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 319,
+    "total_tokens": 379,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.907,
+   "error": null,
+   "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 311,
+    "total_tokens": 363,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.352,
+   "error": null,
+   "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 330,
+    "total_tokens": 401,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.714,
+   "error": null,
+   "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 322,
+    "total_tokens": 366,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.224,
+   "error": null,
+   "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 329,
+    "total_tokens": 401,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 4.384,
+   "error": null,
+   "usage": {
+    "completion_tokens": 242,
+    "prompt_tokens": 4762,
+    "total_tokens": 5004,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 5.505,
+   "error": null,
+   "usage": {
+    "completion_tokens": 250,
+    "prompt_tokens": 45945,
+    "total_tokens": 46195,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 11008
+    }
+   }
+  },
+  {
+   "elapsed_s": 3.361,
+   "error": null,
+   "usage": {
+    "completion_tokens": 208,
+    "prompt_tokens": 808,
+    "total_tokens": 1016,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  }
+ ],
+ "library_usage_records": [
+  {
+   "completion_tokens": 9,
+   "prompt_tokens": 183,
+   "total_tokens": 192,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 143,
+   "prompt_tokens": 633,
+   "total_tokens": 776,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 65,
+   "prompt_tokens": 307,
+   "total_tokens": 372,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 47,
+   "prompt_tokens": 305,
+   "total_tokens": 352,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 41,
+   "prompt_tokens": 314,
+   "total_tokens": 355,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 49,
+   "prompt_tokens": 335,
+   "total_tokens": 384,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 51,
+   "prompt_tokens": 299,
+   "total_tokens": 350,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 43,
+   "prompt_tokens": 312,
+   "total_tokens": 355,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 53,
+   "prompt_tokens": 295,
+   "total_tokens": 348,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 43,
+   "prompt_tokens": 313,
+   "total_tokens": 356,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 60,
+   "prompt_tokens": 319,
+   "total_tokens": 379,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 52,
+   "prompt_tokens": 311,
+   "total_tokens": 363,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 71,
+   "prompt_tokens": 330,
+   "total_tokens": 401,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 44,
+   "prompt_tokens": 322,
+   "total_tokens": 366,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 72,
+   "prompt_tokens": 329,
+   "total_tokens": 401,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 242,
+   "prompt_tokens": 4762,
+   "total_tokens": 5004,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 250,
+   "prompt_tokens": 45945,
+   "total_tokens": 46195,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 11008
+   }
+  },
+  {
+   "completion_tokens": 208,
+   "prompt_tokens": 808,
+   "total_tokens": 1016,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  }
+ ],
+ "trace": {
+  "reused_cluster": null,
+  "reused_cluster_id": null,
+  "reused_cluster_queries": [],
+  "candidate_files": [
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+   "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+   "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+   "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+   "/mnt/docs/S/Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+   "/mnt/docs/S/CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+   "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+   "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+   "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+   "/mnt/docs/S/Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+   "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+   "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+   "/mnt/docs/S/Hawaii_ERS__ERS-Private-Equity-AD.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+   "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+   "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+   "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+   "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+   "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+   "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+  ],
+  "evidence_found_files": [
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+   "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+   "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+   "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+  ],
+  "gate": [
+   {
+    "should_answer": false,
+    "should_save": false,
+    "summary": "# Briefing\n\n## Question\n**What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2022?**\n\n## Finding\n**The proposal deadline cannot be determined from the provided evidence.**\n\n## Evidence Assessment\n- The supplied materials **do not include** the **Hawaii ERS 2022 RFP** for private equity consulting services.\n- The evidence instead references **unrelated RFPs** from:\n  - **Baltimore City Employees’ Retirement System/OPEB Trust**\n  - **Rice University**\n  - **City of Austin Employees’ Retirement System**\n- These documents involve **different organizations, different service categories, and mostly different years**.\n\n## Conclusion\n**Based solely on the provided evidence, the Hawaii ERS 2022 private equity consulting services proposal deadline is not available.**"
+   }
+  ]
+ }
+}

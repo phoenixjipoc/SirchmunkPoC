@@ -1,0 +1,22 @@
+{
+ "run_id": "20261007-154909_S_DEEP_smoke2",
+ "tier": "S",
+ "mode": "DEEP",
+ "n_files": 81,
+ "n_questions": 1,
+ "top_k_files": null,
+ "work_path": "/poc_runs/20261007-154909_S_DEEP_smoke2/work",
+ "image": "modelscope-registry.us-west-1.cr.aliyuncs.com/modelscope-repo/sirchmunk:ubuntu22.04-py312-0.0.7",
+ "model": "gpt-5.4",
+ "cluster_sim_threshold": "0.85",
+ "started": "2026-10-07T15:49:11",
+ "wall_clock_s": 58.0,
+ "finished": "2026-10-07T15:50:09",
+ "runner_exit_code": 0,
+ "warmup": {
+  "rga_cache": "/poc_cache/rga_S",
+  "rga_cache_was_empty": true,
+  "rga_warmup_s": 4.8,
+  "embedding_load_s": 8.9
+ }
+}

@@ -1,0 +1,8 @@
+﻿stage,group,n,correct,correct_refusal,partial,wrong,hallucinated,no_answer,error,overall_correct_pct,initial_correct_pct,review_overrides,independently_reviewed,secondary_model_reviewed,mechanically_checked,answerable_correct_pct,unanswerable_refusal_pct,unanswerable_hallucination_pct,p50_s,p95_s,mean_s,total_search_s,total_tokens,mean_tokens,cluster_reuse_hits,rga_timeouts,serialization_errors,citation_trace_incomplete_count,cited_coverage_observations,gold_source_coverage_candidates,gold_source_coverage_sampled,gold_source_coverage_evidence,gold_source_coverage_found_evidence,gold_source_coverage_cited
+A,search_or_other,118,65,9,7,11,0,26,0,62.71,62.71,2,54,13,11,59.63,100.0,0.0,38.81,47.93,39.42,4650.99,11089977,93982.86,0,0,5,5,107,0.9037,0.7736,0.7736,0.7698,0.7247
+A,direct_document,2,0,0,1,1,0,0,0,0.0,0.0,0,2,0,0,0.0,,,16.77,26.93,16.77,33.55,27371,13685.5,0,0,0,2,0,0.0,0.0,0.0,0.0,
+B,search_or_other,118,59,9,8,10,0,32,0,57.63,55.93,7,21,16,33,54.13,100.0,0.0,39.74,51.84,39.36,4644.11,6167769,52269.23,0,0,2,2,107,0.9182,0.6691,0.6691,0.6691,0.6277
+B,direct_document,2,0,0,1,1,0,0,0,0.0,0.0,0,2,0,0,0.0,,,15.98,25.01,15.98,31.95,27172,13586,0,0,0,2,0,0.0,0.0,0.0,0.0,
+C,search_or_other,109,66,9,6,7,0,21,0,68.81,67.89,2,27,16,21,66.0,100.0,0.0,41.61,58.76,42.91,4676.81,9238229,84754.39,0,0,3,3,99,0.9225,0.771,0.771,0.7693,0.7274
+C,direct_document,2,0,0,1,1,0,0,0,0.0,0.0,0,2,0,0,0.0,,,15.95,25.38,15.95,31.89,27356,13678,0,0,0,2,0,0.0,0.0,0.0,0.0,
+C,cluster_reuse,9,0,0,0,9,0,0,0,0.0,0.0,0,9,0,0,0.0,,,1.72,2.05,1.72,15.47,1808,200.89,9,0,0,0,9,0.0,0.0,0.0,0.0,0.5556

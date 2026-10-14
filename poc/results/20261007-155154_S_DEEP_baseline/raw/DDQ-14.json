@@ -1,0 +1,362 @@
+{
+ "record": {
+  "id": "DDQ-14",
+  "question": "How many general partners had adopted the ILPA DDQ 2.0 by 2024?",
+  "mode": "DEEP",
+  "paths": [
+   "/mnt/docs/S"
+  ],
+  "model": "gpt-5.4",
+  "answer": "No results found.",
+  "no_result": true,
+  "gate_should_answer": false,
+  "pre_gate_answer": "# Briefing\n\n## Question\n**How many general partners had adopted the ILPA DDQ 2.0 by 2024?**\n\n## Finding\n**The provided evidence does not give a numeric adoption count.**  \nBased on the supplied materials, the question **cannot be answered**.\n\n## Key Evidence\n- The ILPA DDQ materials describe the questionnaire’s **purpose**: reducing the burden of multiple customized due diligence requests.\n- They state that the DDQ is intended to improve **efficiency** and **standardization**.\n- The evidence explicitly notes that the ILPA DDQ is **optional** and that general partners are **not required** to adopt it.\n- The cited materials include questionnaire content, FAQs, and related ESG framework material, but **none provides a 2024 adoption statistic or total**.\n- The Baltimore RFP excerpt mentions general partner due diligence in another context, but **does not report ILPA DDQ 2.0 adoption levels**.\n\n## Conclusion\n**No exact number of general partners adopting ILPA DDQ 2.0 by 2024 is provided in the evidence.**  \nTherefore, the adoption count **cannot be determined from these sources alone**.",
+  "candidate_files": [
+   "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+   "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+   "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+   "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+   "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+   "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+   "/mnt/docs/S/CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+   "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+   "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+   "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+   "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf"
+  ],
+  "cited_files": [],
+  "reused_cluster": null,
+  "latency_s": 38.71,
+  "llm_calls": 35,
+  "prompt_tokens": 51698,
+  "completion_tokens": 2627,
+  "total_tokens": 54325,
+  "error": null,
+  "warnings": [
+   "No high-value regions found, attempting global random sampling again...",
+   "No high-value regions found, attempting global random sampling again...",
+   "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  ]
+ },
+ "context": {
+  "answer": "No results found.",
+  "cluster": null,
+  "max_token_budget": 128000,
+  "max_loops": 10,
+  "total_llm_tokens": 0,
+  "budget_remaining": 128000,
+  "llm_call_count": 0,
+  "llm_usages": [],
+  "read_file_ids": [],
+  "retrieval_logs": [],
+  "search_history": [],
+  "loop_count": 4,
+  "start_time": "2026-10-07T08:06:37.151750"
+ },
+ "logs": [
+  {
+   "t": 1791360398.759,
+   "level": "info",
+   "msg": "Searching for similar knowledge clusters..."
+  },
+  {
+   "t": 1791360398.847,
+   "level": "info",
+   "msg": "No similar clusters found, performing new search..."
+  },
+  {
+   "t": 1791360398.847,
+   "level": "info",
+   "msg": "[search] Starting multi-path retrieval for: 'How many general partners had adopted the ILPA DDQ 2.0 by 2024?'"
+  },
+  {
+   "t": 1791360398.847,
+   "level": "info",
+   "msg": "[Phase 1] Parallel probing: keywords + dir_scan + knowledge + spec_cache"
+  },
+  {
+   "t": 1791360398.847,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracting keywords..."
+  },
+  {
+   "t": 1791360398.849,
+   "level": "info",
+   "msg": "[Probe:DirScan] Scanning directories..."
+  },
+  {
+   "t": 1791360401.729,
+   "level": "info",
+   "msg": "[Probe:Keywords] Cross-lingual alt: ['尽职调查问卷', 'general partners', 'ILPA']"
+  },
+  {
+   "t": 1791360401.729,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracted: ['general partners', 'ILPA DDQ 2.0', 'adopted by 2024', 'adoption of ILPA DDQ 2.0', '尽职调查问卷', 'ILPA']"
+  },
+  {
+   "t": 1791360402.869,
+   "level": "info",
+   "msg": "[Probe:DirScan] Found 81 files in 1 dirs (4020ms)"
+  },
+  {
+   "t": 1791360402.869,
+   "level": "info",
+   "msg": "[Phase 1] Results: keywords=6, dir_scan=OK, knowledge_hits=0, spec_cache=YES"
+  },
+  {
+   "t": 1791360402.869,
+   "level": "info",
+   "msg": "[Phase 2] Parallel retrieval: rga keyword search + dir_scan LLM rank"
+  },
+  {
+   "t": 1791360404.409,
+   "level": "info",
+   "msg": "[Retrieve:Keywords] 21 files from rga search"
+  },
+  {
+   "t": 1791360414.741,
+   "level": "info",
+   "msg": "[Retrieve:DirScan] 0 relevant files (accept={'high'})"
+  },
+  {
+   "t": 1791360414.741,
+   "level": "info",
+   "msg": "[Phase 2] Results: keyword_files=21, dir_scan_files=0"
+  },
+  {
+   "t": 1791360414.741,
+   "level": "info",
+   "msg": "[Phase 3] Merged 21 unique candidate files"
+  },
+  {
+   "t": 1791360414.742,
+   "level": "info",
+   "msg": "Extracting evidence from 5 files (parallel)..."
+  },
+  {
+   "t": 1791360414.81,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 26257 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791360414.962,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 60581 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791360415.139,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 80410 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791360417.565,
+   "level": "info",
+   "msg": "  [Pos   2000 | Src: fuzz    ] Score: 4.0 | The snippet mentions ILPA Due ..."
+  },
+  {
+   "t": 1791360417.565,
+   "level": "info",
+   "msg": "  [Pos   2250 | Src: fuzz    ] Score: 4.0 | The snippet mentions ILPA Due ..."
+  },
+  {
+   "t": 1791360417.565,
+   "level": "info",
+   "msg": "  [Pos   3500 | Src: fuzz    ] Score: 4.0 | The snippet mentions ILPA, GPs..."
+  },
+  {
+   "t": 1791360417.565,
+   "level": "info",
+   "msg": "  [Pos   3750 | Src: fuzz    ] Score: 4.0 | It mentions adoption of the IL..."
+  },
+  {
+   "t": 1791360417.565,
+   "level": "info",
+   "msg": "  [Pos 122000 | Src: fuzz    ] Score: 4.0 | The snippet mentions 'ILPA Due..."
+  },
+  {
+   "t": 1791360417.565,
+   "level": "info",
+   "msg": "  [Pos  34532 | Src: stratified] Score: 3.0 | The snippet appears to be a se..."
+  },
+  {
+   "t": 1791360417.565,
+   "level": "info",
+   "msg": "  [Pos 127381 | Src: stratified] Score: 1.0 | The snippet discusses diversit..."
+  },
+  {
+   "t": 1791360417.936,
+   "level": "info",
+   "msg": "  [Pos  78250 | Src: fuzz    ] Score: 0.0 | The snippet discusses accounti..."
+  },
+  {
+   "t": 1791360417.936,
+   "level": "info",
+   "msg": "  [Pos  65500 | Src: fuzz    ] Score: 0.0 | The snippet is about performan..."
+  },
+  {
+   "t": 1791360417.936,
+   "level": "info",
+   "msg": "  [Pos  67000 | Src: fuzz    ] Score: 3.0 | The snippet discusses performa..."
+  },
+  {
+   "t": 1791360417.936,
+   "level": "info",
+   "msg": "  [Pos  78500 | Src: fuzz    ] Score: 1.0 | The snippet discusses operatio..."
+  },
+  {
+   "t": 1791360417.936,
+   "level": "info",
+   "msg": "  [Pos  38750 | Src: fuzz    ] Score: 2.0 | The snippet mentions general p..."
+  },
+  {
+   "t": 1791360417.936,
+   "level": "info",
+   "msg": "  [Pos  29855 | Src: stratified] Score: 0.0 | The snippet is about confident..."
+  },
+  {
+   "t": 1791360417.936,
+   "level": "info",
+   "msg": "  [Pos 111960 | Src: stratified] Score: 0.0 | The snippet discusses technolo..."
+  },
+  {
+   "t": 1791360417.936,
+   "level": "warning",
+   "msg": "No high-value regions found, attempting global random sampling again..."
+  },
+  {
+   "t": 1791360419.406,
+   "level": "info",
+   "msg": "  [Pos   6113 | Src: gaussian] Score: 4.0 | The snippet mentions ILPA DDQ ..."
+  },
+  {
+   "t": 1791360419.406,
+   "level": "info",
+   "msg": "  [Pos    947 | Src: gaussian] Score: 2.0 | The snippet only lists appendi..."
+  },
+  {
+   "t": 1791360419.406,
+   "level": "info",
+   "msg": "  [Pos   8494 | Src: gaussian] Score: 1.0 | The snippet discusses investme..."
+  },
+  {
+   "t": 1791360419.406,
+   "level": "info",
+   "msg": "  [Pos      0 | Src: gaussian] Score: 4.0 | The snippet is about the ILPA ..."
+  },
+  {
+   "t": 1791360420.336,
+   "level": "info",
+   "msg": "  [Pos   5658 | Src: stratified] Score: 0.0 | The snippet is about an OCERS ..."
+  },
+  {
+   "t": 1791360420.336,
+   "level": "info",
+   "msg": "  [Pos  45601 | Src: stratified] Score: 2.0 | The snippet appears to be a du..."
+  },
+  {
+   "t": 1791360420.336,
+   "level": "info",
+   "msg": "  [Pos  72113 | Src: stratified] Score: 1.0 | The snippet discusses complian..."
+  },
+  {
+   "t": 1791360420.336,
+   "level": "info",
+   "msg": "  [Pos  90125 | Src: stratified] Score: 0.0 | The snippet is about securitie..."
+  },
+  {
+   "t": 1791360420.336,
+   "level": "info",
+   "msg": "  [Pos 105835 | Src: stratified] Score: 0.0 | The snippet is about OCERS, cu..."
+  },
+  {
+   "t": 1791360420.337,
+   "level": "warning",
+   "msg": "No high-value regions found, attempting global random sampling again..."
+  },
+  {
+   "t": 1791360421.42,
+   "level": "info",
+   "msg": "  [Pos   3187 | Src: gaussian] Score: 4.0 | The snippet mentions DDQs and ..."
+  },
+  {
+   "t": 1791360421.42,
+   "level": "info",
+   "msg": "  [Pos   2601 | Src: gaussian] Score: 4.0 | The snippet mentions due dilig..."
+  },
+  {
+   "t": 1791360422.178,
+   "level": "info",
+   "msg": "  [Pos  15418 | Src: stratified] Score: 0.0 | The snippet is about securitie..."
+  },
+  {
+   "t": 1791360422.178,
+   "level": "info",
+   "msg": "  [Pos  32836 | Src: stratified] Score: 0.0 | The snippet is about contract ..."
+  },
+  {
+   "t": 1791360422.178,
+   "level": "info",
+   "msg": "  [Pos  70533 | Src: stratified] Score: 0.0 | The snippet discusses risk man..."
+  },
+  {
+   "t": 1791360422.178,
+   "level": "info",
+   "msg": "  [Pos  76059 | Src: stratified] Score: 0.0 | The snippet is about reporting..."
+  },
+  {
+   "t": 1791360422.178,
+   "level": "info",
+   "msg": "  [Pos 116336 | Src: stratified] Score: 0.0 | The snippet discusses OCERS cu..."
+  },
+  {
+   "t": 1791360425.875,
+   "level": "info",
+   "msg": "Collected 5 evidence units"
+  },
+  {
+   "t": 1791360431.618,
+   "level": "success",
+   "msg": "[Phase 3] KnowledgeCluster built: No adoption count found. (5 evidence units)"
+  },
+  {
+   "t": 1791360431.618,
+   "level": "info",
+   "msg": "[Phase 4] Evidence sufficient, generating summary"
+  },
+  {
+   "t": 1791360431.618,
+   "level": "info",
+   "msg": "[Phase 4] Generating search result summary..."
+  },
+  {
+   "t": 1791360435.862,
+   "level": "warning",
+   "msg": "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  }
+ ]
+}

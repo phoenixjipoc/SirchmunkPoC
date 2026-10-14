@@ -1,0 +1,354 @@
+{
+ "record": {
+  "id": "INV-01",
+  "question": "In the CAJPA sample investment management RFP (Appendix Z, 'Sample Investment Management Request for Proposal'), how many copies of the proposal must be sent?",
+  "mode": "DEEP",
+  "paths": [
+   "/mnt/docs/S"
+  ],
+  "model": "gpt-5.4",
+  "answer": "No results found.",
+  "no_result": true,
+  "gate_should_answer": false,
+  "pre_gate_answer": "# Briefing\n\n## Finding\nThe provided evidence indicates that **no hard copies are required**.\n\n## Key Details\n- The RFP states that **submissions must be made via email**.\n- It explicitly says **only email submissions will be accepted**.\n- Proposals must be submitted **in Adobe Acrobat format by email**.\n- An **additional emailed copy** must be sent to the listed consultants.\n\n## Conclusion\nBased on the evidence provided, the proposal requires **electronic submission only**, with **no mailed or printed copies**.\n\n## Limitation\nThe evidence **does not specifically confirm** the wording from **CAJPA Appendix Z** itself, so this conclusion is based on the sample RFP text provided rather than the exact appendix document.",
+  "candidate_files": [
+   "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+  ],
+  "evidence_found_files": [
+   "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+  ],
+  "cited_files": [],
+  "cited_found_files": [],
+  "reused_cluster": null,
+  "reused_cluster_id": null,
+  "reused_cluster_queries": [],
+  "cluster_id": null,
+  "latency_s": 31.23,
+  "llm_calls": 5,
+  "llm_failed_calls": 0,
+  "prompt_tokens": 21927,
+  "completion_tokens": 1655,
+  "total_tokens": 23582,
+  "error": null,
+  "serialization_error": null,
+  "warnings": [
+   "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  ]
+ },
+ "context": {
+  "answer": "No results found.",
+  "cluster": null,
+  "max_token_budget": 128000,
+  "max_loops": 10,
+  "total_llm_tokens": 0,
+  "budget_remaining": 128000,
+  "llm_call_count": 0,
+  "llm_usages": [],
+  "read_file_ids": [],
+  "retrieval_logs": [],
+  "search_history": [],
+  "loop_count": 4,
+  "start_time": "2026-10-14T07:43:23.537904"
+ },
+ "logs": [
+  {
+   "t": 1791963805.621,
+   "level": "info",
+   "msg": "Searching for similar knowledge clusters..."
+  },
+  {
+   "t": 1791963805.686,
+   "level": "info",
+   "msg": "No similar clusters found, performing new search..."
+  },
+  {
+   "t": 1791963805.686,
+   "level": "info",
+   "msg": "[search] Starting multi-path retrieval for: 'In the CAJPA sample investment management RFP (Appendix Z, 'Sample Investment Ma'"
+  },
+  {
+   "t": 1791963805.686,
+   "level": "info",
+   "msg": "[Phase 1] Parallel probing: keywords + dir_scan + knowledge + spec_cache"
+  },
+  {
+   "t": 1791963805.686,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracting keywords..."
+  },
+  {
+   "t": 1791963805.864,
+   "level": "info",
+   "msg": "[Probe:DirScan] Scanning directories..."
+  },
+  {
+   "t": 1791963808.987,
+   "level": "info",
+   "msg": "[Probe:Keywords] Cross-lingual alt: ['投资管理征求建议书', '附录Z', 'proposal copies']"
+  },
+  {
+   "t": 1791963808.987,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracted: ['sample investment management RFP', 'investment management request for proposal', 'CAJPA appendix Z', 'proposal copies', '投资管理征求建议书', '附录Z']"
+  },
+  {
+   "t": 1791963810.447,
+   "level": "info",
+   "msg": "[Probe:DirScan] Found 81 files in 1 dirs (4583ms)"
+  },
+  {
+   "t": 1791963810.447,
+   "level": "info",
+   "msg": "[Phase 1] Results: keywords=6, dir_scan=OK, knowledge_hits=0, spec_cache=NO"
+  },
+  {
+   "t": 1791963810.447,
+   "level": "info",
+   "msg": "[Phase 2] Parallel retrieval: rga keyword search + dir_scan LLM rank"
+  },
+  {
+   "t": 1791963813.526,
+   "level": "info",
+   "msg": "[Retrieve:Keywords] 0 files from rga search"
+  },
+  {
+   "t": 1791963825.075,
+   "level": "info",
+   "msg": "[Retrieve:DirScan] 1 relevant files (accept={'high'})"
+  },
+  {
+   "t": 1791963825.075,
+   "level": "info",
+   "msg": "[Phase 2] Results: keyword_files=0, dir_scan_files=1"
+  },
+  {
+   "t": 1791963825.075,
+   "level": "info",
+   "msg": "[Phase 3] Merged 1 unique candidate files"
+  },
+  {
+   "t": 1791963825.075,
+   "level": "info",
+   "msg": "Extracting evidence from 1 files (parallel)..."
+  },
+  {
+   "t": 1791963825.3,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 86248 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791963825.3,
+   "level": "info",
+   "msg": "Collected 1 evidence units"
+  },
+  {
+   "t": 1791963830.575,
+   "level": "success",
+   "msg": "[Phase 3] KnowledgeCluster built: No hard copies required. (1 evidence units)"
+  },
+  {
+   "t": 1791963830.575,
+   "level": "info",
+   "msg": "[Phase 4] Evidence sufficient, generating summary"
+  },
+  {
+   "t": 1791963830.575,
+   "level": "info",
+   "msg": "[Phase 4] Generating search result summary..."
+  },
+  {
+   "t": 1791963834.77,
+   "level": "warning",
+   "msg": "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  }
+ ],
+ "llm_call_records": [
+  {
+   "elapsed_s": 2.078,
+   "error": null,
+   "usage": {
+    "completion_tokens": 9,
+    "prompt_tokens": 193,
+    "total_tokens": 202,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 3.3,
+   "error": null,
+   "usage": {
+    "completion_tokens": 138,
+    "prompt_tokens": 643,
+    "total_tokens": 781,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 14.572,
+   "error": null,
+   "usage": {
+    "completion_tokens": 1112,
+    "prompt_tokens": 2582,
+    "total_tokens": 3694,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 5.275,
+   "error": null,
+   "usage": {
+    "completion_tokens": 207,
+    "prompt_tokens": 17777,
+    "total_tokens": 17984,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 4.194,
+   "error": null,
+   "usage": {
+    "completion_tokens": 189,
+    "prompt_tokens": 732,
+    "total_tokens": 921,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  }
+ ],
+ "library_usage_records": [
+  {
+   "completion_tokens": 9,
+   "prompt_tokens": 193,
+   "total_tokens": 202,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 138,
+   "prompt_tokens": 643,
+   "total_tokens": 781,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 207,
+   "prompt_tokens": 17777,
+   "total_tokens": 17984,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 189,
+   "prompt_tokens": 732,
+   "total_tokens": 921,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  }
+ ],
+ "trace": {
+  "reused_cluster": null,
+  "reused_cluster_id": null,
+  "reused_cluster_queries": [],
+  "candidate_files": [
+   "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+  ],
+  "evidence_found_files": [
+   "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+  ],
+  "gate": [
+   {
+    "should_answer": false,
+    "should_save": false,
+    "summary": "# Briefing\n\n## Finding\nThe provided evidence indicates that **no hard copies are required**.\n\n## Key Details\n- The RFP states that **submissions must be made via email**.\n- It explicitly says **only email submissions will be accepted**.\n- Proposals must be submitted **in Adobe Acrobat format by email**.\n- An **additional emailed copy** must be sent to the listed consultants.\n\n## Conclusion\nBased on the evidence provided, the proposal requires **electronic submission only**, with **no mailed or printed copies**.\n\n## Limitation\nThe evidence **does not specifically confirm** the wording from **CAJPA Appendix Z** itself, so this conclusion is based on the sample RFP text provided rather than the exact appendix document."
+   }
+  ]
+ }
+}

@@ -1,0 +1,2367 @@
+{
+ "record": {
+  "id": "XD-21",
+  "question": "How many comments did the PRI receive from LPs and GPs during the 2021 update of its Limited Partners Private Equity Responsible Investment DDQ?",
+  "mode": "DEEP",
+  "paths": [
+   "/mnt/docs/S"
+  ],
+  "model": "gpt-5.4",
+  "answer": "# Briefing\n\n## Answer\n**PRI did not disclose an exact number of comments** received from LPs and GPs during the 2021 update of its Limited Partners Private Equity Responsible Investment DDQ.\n\n## What the evidence shows\n- PRI formed a **working group of signatories** in early 2021 to gather industry feedback on updating the DDQ.\n- Over the prior **four months**, LPs and GPs provided **“significant amounts of comments.”**\n- Feedback was submitted **both in writing and verbally**.\n- PRI says these comments were **discussed and incorporated where appropriate**.\n\n## Conclusion\nThe **specific comment count is not provided** in the available evidence. The most accurate response is that PRI received **an unspecified but significant volume of comments**.",
+  "no_result": false,
+  "gate_should_answer": true,
+  "pre_gate_answer": "# Briefing\n\n## Answer\n**PRI did not disclose an exact number of comments** received from LPs and GPs during the 2021 update of its Limited Partners Private Equity Responsible Investment DDQ.\n\n## What the evidence shows\n- PRI formed a **working group of signatories** in early 2021 to gather industry feedback on updating the DDQ.\n- Over the prior **four months**, LPs and GPs provided **“significant amounts of comments.”**\n- Feedback was submitted **both in writing and verbally**.\n- PRI says these comments were **discussed and incorporated where appropriate**.\n\n## Conclusion\nThe **specific comment count is not provided** in the available evidence. The most accurate response is that PRI received **an unspecified but significant volume of comments**.",
+  "candidate_files": [
+   "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+   "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+   "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+   "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+   "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+   "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+   "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+   "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+   "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+   "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+   "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+   "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+   "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf"
+  ],
+  "evidence_found_files": [
+   "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+   "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+   "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf"
+  ],
+  "cited_files": [],
+  "cited_found_files": [],
+  "reused_cluster": null,
+  "reused_cluster_id": null,
+  "reused_cluster_queries": [],
+  "cluster_id": "DS2396a9e9",
+  "latency_s": 39.72,
+  "llm_calls": 54,
+  "llm_failed_calls": 0,
+  "prompt_tokens": 91231,
+  "completion_tokens": 4546,
+  "total_tokens": 95777,
+  "error": null,
+  "serialization_error": "TypeError: 'NoneType' object is not iterable",
+  "warnings": [
+   "No high-value regions found, attempting global random sampling again...",
+   "No high-value regions found, attempting global random sampling again...",
+   "No high-value regions found, attempting global random sampling again...",
+   "No high-value regions found, attempting global random sampling again..."
+  ]
+ },
+ "context": {
+  "answer": "# Briefing\n\n## Answer\n**PRI did not disclose an exact number of comments** received from LPs and GPs during the 2021 update of its Limited Partners Private Equity Responsible Investment DDQ.\n\n## What the evidence shows\n- PRI formed a **working group of signatories** in early 2021 to gather industry feedback on updating the DDQ.\n- Over the prior **four months**, LPs and GPs provided **“significant amounts of comments.”**\n- Feedback was submitted **both in writing and verbally**.\n- PRI says these comments were **discussed and incorporated where appropriate**.\n\n## Conclusion\nThe **specific comment count is not provided** in the available evidence. The most accurate response is that PRI received **an unspecified but significant volume of comments**.",
+  "to_dict_error": "TypeError: 'NoneType' object is not iterable"
+ },
+ "logs": [
+  {
+   "t": 1791966694.038,
+   "level": "info",
+   "msg": "Searching for similar knowledge clusters..."
+  },
+  {
+   "t": 1791966694.241,
+   "level": "info",
+   "msg": "No similar clusters found, performing new search..."
+  },
+  {
+   "t": 1791966694.241,
+   "level": "info",
+   "msg": "[search] Starting multi-path retrieval for: 'How many comments did the PRI receive from LPs and GPs during the 2021 update of'"
+  },
+  {
+   "t": 1791966694.241,
+   "level": "info",
+   "msg": "[Phase 1] Parallel probing: keywords + dir_scan + knowledge + spec_cache"
+  },
+  {
+   "t": 1791966694.241,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracting keywords..."
+  },
+  {
+   "t": 1791966694.243,
+   "level": "info",
+   "msg": "[Probe:DirScan] Scanning directories..."
+  },
+  {
+   "t": 1791966697.916,
+   "level": "info",
+   "msg": "[Probe:Keywords] Cross-lingual alt: ['尽职调查问卷', '有限合伙人', '普通合伙人', 'responsible investment']"
+  },
+  {
+   "t": 1791966697.916,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracted: ['2021 update', 'Limited Partners Private Equity Responsible Investment DDQ', 'comments from LPs and GPs', 'PRI receive', '尽职调查问卷', '有限合伙人', '普通合伙人', 'responsible investment']"
+  },
+  {
+   "t": 1791966698.579,
+   "level": "info",
+   "msg": "[Probe:DirScan] Found 81 files in 1 dirs (4335ms)"
+  },
+  {
+   "t": 1791966698.579,
+   "level": "info",
+   "msg": "[Phase 1] Results: keywords=8, dir_scan=OK, knowledge_hits=0, spec_cache=YES"
+  },
+  {
+   "t": 1791966698.579,
+   "level": "info",
+   "msg": "[Phase 2] Parallel retrieval: rga keyword search + dir_scan LLM rank"
+  },
+  {
+   "t": 1791966700.99,
+   "level": "info",
+   "msg": "[Retrieve:Keywords] 9 files from rga search"
+  },
+  {
+   "t": 1791966711.55,
+   "level": "info",
+   "msg": "[Retrieve:DirScan] 1 relevant files (accept={'high'})"
+  },
+  {
+   "t": 1791966711.55,
+   "level": "info",
+   "msg": "[Phase 2] Results: keyword_files=9, dir_scan_files=1"
+  },
+  {
+   "t": 1791966711.55,
+   "level": "info",
+   "msg": "[Phase 3] Merged 9 unique candidate files"
+  },
+  {
+   "t": 1791966711.551,
+   "level": "info",
+   "msg": "Extracting evidence from 9 files (parallel)..."
+  },
+  {
+   "t": 1791966711.589,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 3003 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791966711.631,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 67825 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791966711.815,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 80410 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791966712.627,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 86248 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791966712.63,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 19557 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791966713.082,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 55109 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791966714.763,
+   "level": "info",
+   "msg": "  [Pos 105500 | Src: fuzz    ] Score: 0.0 | The snippet is about analyst a..."
+  },
+  {
+   "t": 1791966714.763,
+   "level": "info",
+   "msg": "  [Pos  61750 | Src: fuzz    ] Score: 0.0 | The snippet is about investmen..."
+  },
+  {
+   "t": 1791966714.763,
+   "level": "info",
+   "msg": "  [Pos 105750 | Src: fuzz    ] Score: 0.0 | The snippet is about investmen..."
+  },
+  {
+   "t": 1791966714.763,
+   "level": "info",
+   "msg": "  [Pos  42750 | Src: fuzz    ] Score: 0.0 | The snippet is about investmen..."
+  },
+  {
+   "t": 1791966714.763,
+   "level": "info",
+   "msg": "  [Pos  43000 | Src: fuzz    ] Score: 0.0 | The snippet is about investmen..."
+  },
+  {
+   "t": 1791966714.763,
+   "level": "info",
+   "msg": "  [Pos  11598 | Src: stratified] Score: 0.0 | The snippet is unrelated to th..."
+  },
+  {
+   "t": 1791966714.763,
+   "level": "info",
+   "msg": "  [Pos  95905 | Src: stratified] Score: 0.0 | The snippet is about fee arran..."
+  },
+  {
+   "t": 1791966714.763,
+   "level": "warning",
+   "msg": "No high-value regions found, attempting global random sampling again..."
+  },
+  {
+   "t": 1791966715.363,
+   "level": "info",
+   "msg": "  [Pos 103750 | Src: fuzz    ] Score: 4.0 | The snippet mentions the PRI’s..."
+  },
+  {
+   "t": 1791966715.363,
+   "level": "info",
+   "msg": "  [Pos   6000 | Src: fuzz    ] Score: 4.0 | The snippet mentions the PRI/I..."
+  },
+  {
+   "t": 1791966715.363,
+   "level": "info",
+   "msg": "  [Pos 103500 | Src: fuzz    ] Score: 4.0 | The snippet mentions the PRI’s..."
+  },
+  {
+   "t": 1791966715.363,
+   "level": "info",
+   "msg": "  [Pos   6250 | Src: fuzz    ] Score: 4.0 | The snippet mentions the PRI L..."
+  },
+  {
+   "t": 1791966715.363,
+   "level": "info",
+   "msg": "  [Pos   8750 | Src: fuzz    ] Score: 0.0 | The snippet does not mention t..."
+  },
+  {
+   "t": 1791966715.363,
+   "level": "info",
+   "msg": "  [Pos  72030 | Src: stratified] Score: 2.0 | The snippet appears to be from..."
+  },
+  {
+   "t": 1791966715.363,
+   "level": "info",
+   "msg": "  [Pos 104404 | Src: stratified] Score: 4.0 | The snippet mentions responsib..."
+  },
+  {
+   "t": 1791966716.95,
+   "level": "info",
+   "msg": "  [Pos  18155 | Src: stratified] Score: 0.0 | The snippet is about an RFP fe..."
+  },
+  {
+   "t": 1791966716.95,
+   "level": "info",
+   "msg": "  [Pos  30209 | Src: stratified] Score: 0.0 | The snippet is about legal and..."
+  },
+  {
+   "t": 1791966716.95,
+   "level": "info",
+   "msg": "  [Pos  56539 | Src: stratified] Score: 0.0 | The snippet is about a managem..."
+  },
+  {
+   "t": 1791966716.95,
+   "level": "info",
+   "msg": "  [Pos  84223 | Src: stratified] Score: 0.0 | The snippet is from a manageme..."
+  },
+  {
+   "t": 1791966716.95,
+   "level": "info",
+   "msg": "  [Pos 122609 | Src: stratified] Score: 2.0 | The snippet appears to be part..."
+  },
+  {
+   "t": 1791966716.95,
+   "level": "warning",
+   "msg": "No high-value regions found, attempting global random sampling again..."
+  },
+  {
+   "t": 1791966717.043,
+   "level": "info",
+   "msg": "  [Pos  65000 | Src: fuzz    ] Score: 0.0 | The snippet is about investmen..."
+  },
+  {
+   "t": 1791966717.043,
+   "level": "info",
+   "msg": "  [Pos  96500 | Src: fuzz    ] Score: 0.0 | The snippet is about manager r..."
+  },
+  {
+   "t": 1791966717.043,
+   "level": "info",
+   "msg": "  [Pos 139000 | Src: fuzz    ] Score: 0.0 | The snippet is about a pension..."
+  },
+  {
+   "t": 1791966717.043,
+   "level": "info",
+   "msg": "  [Pos   8750 | Src: fuzz    ] Score: 0.0 | The snippet is about a PRIT Fu..."
+  },
+  {
+   "t": 1791966717.043,
+   "level": "info",
+   "msg": "  [Pos 106750 | Src: fuzz    ] Score: 0.0 | The snippet is about manager l..."
+  },
+  {
+   "t": 1791966717.043,
+   "level": "info",
+   "msg": "  [Pos  52701 | Src: stratified] Score: 0.0 | The snippet is unrelated to th..."
+  },
+  {
+   "t": 1791966717.043,
+   "level": "info",
+   "msg": "  [Pos 135259 | Src: stratified] Score: 0.0 | The snippet is unrelated to th..."
+  },
+  {
+   "t": 1791966717.043,
+   "level": "warning",
+   "msg": "No high-value regions found, attempting global random sampling again..."
+  },
+  {
+   "t": 1791966717.426,
+   "level": "info",
+   "msg": "  [Pos 106011 | Src: gaussian] Score: 2.0 | The snippet mentions ESG commi..."
+  },
+  {
+   "t": 1791966717.426,
+   "level": "info",
+   "msg": "  [Pos 106991 | Src: gaussian] Score: 3.0 | The snippet mentions ESG due d..."
+  },
+  {
+   "t": 1791966717.426,
+   "level": "info",
+   "msg": "  [Pos 107589 | Src: gaussian] Score: 2.0 | The snippet discusses ESG/clim..."
+  },
+  {
+   "t": 1791966717.426,
+   "level": "info",
+   "msg": "  [Pos   6520 | Src: gaussian] Score: 4.0 | The snippet is about the ILPA ..."
+  },
+  {
+   "t": 1791966718.816,
+   "level": "info",
+   "msg": "  [Pos  36971 | Src: stratified] Score: 0.0 | The snippet is unrelated to th..."
+  },
+  {
+   "t": 1791966718.816,
+   "level": "info",
+   "msg": "  [Pos  70883 | Src: stratified] Score: 0.0 | The snippet is unrelated to th..."
+  },
+  {
+   "t": 1791966718.816,
+   "level": "info",
+   "msg": "  [Pos  95299 | Src: stratified] Score: 0.0 | The snippet is about managed a..."
+  },
+  {
+   "t": 1791966718.816,
+   "level": "info",
+   "msg": "  [Pos 111379 | Src: stratified] Score: 0.0 | The snippet is unrelated to th..."
+  },
+  {
+   "t": 1791966719.245,
+   "level": "info",
+   "msg": "  [Pos  25370 | Src: stratified] Score: 0.0 | The snippet appears to be a ge..."
+  },
+  {
+   "t": 1791966719.245,
+   "level": "info",
+   "msg": "  [Pos  44466 | Src: stratified] Score: 0.0 | The snippet discusses product ..."
+  },
+  {
+   "t": 1791966719.245,
+   "level": "info",
+   "msg": "  [Pos  55805 | Src: stratified] Score: 0.0 | The snippet is about boards, c..."
+  },
+  {
+   "t": 1791966719.246,
+   "level": "info",
+   "msg": "  [Pos 104746 | Src: stratified] Score: 0.0 | The snippet is about an agreem..."
+  },
+  {
+   "t": 1791966719.246,
+   "level": "info",
+   "msg": "  [Pos 114948 | Src: stratified] Score: 0.0 | The snippet is about notice pr..."
+  },
+  {
+   "t": 1791966719.246,
+   "level": "warning",
+   "msg": "No high-value regions found, attempting global random sampling again..."
+  },
+  {
+   "t": 1791966719.497,
+   "level": "info",
+   "msg": "  [Pos 106719 | Src: gaussian] Score: 4.0 | The snippet is about the PRI L..."
+  },
+  {
+   "t": 1791966719.497,
+   "level": "info",
+   "msg": "  [Pos 104982 | Src: gaussian] Score: 2.0 | The snippet mentions ESG/DDQ-r..."
+  },
+  {
+   "t": 1791966719.497,
+   "level": "info",
+   "msg": "  [Pos   3773 | Src: gaussian] Score: 2.0 | The snippet mentions ILPA DDQ ..."
+  },
+  {
+   "t": 1791966719.497,
+   "level": "info",
+   "msg": "  [Pos   7326 | Src: gaussian] Score: 2.0 | The snippet discusses investme..."
+  },
+  {
+   "t": 1791966721.148,
+   "level": "info",
+   "msg": "  [Pos   2638 | Src: stratified] Score: 0.0 | The snippet is about PRIM and ..."
+  },
+  {
+   "t": 1791966721.148,
+   "level": "info",
+   "msg": "  [Pos  47038 | Src: stratified] Score: 0.0 | The snippet discusses exhibits..."
+  },
+  {
+   "t": 1791966721.148,
+   "level": "info",
+   "msg": "  [Pos  78714 | Src: stratified] Score: 0.0 | The snippet is about data brea..."
+  },
+  {
+   "t": 1791966721.148,
+   "level": "info",
+   "msg": "  [Pos  84779 | Src: stratified] Score: 0.0 | The snippet is unrelated to th..."
+  },
+  {
+   "t": 1791966721.148,
+   "level": "info",
+   "msg": "  [Pos 128611 | Src: stratified] Score: 0.0 | The snippet is about an agreem..."
+  },
+  {
+   "t": 1791966723.705,
+   "level": "info",
+   "msg": "Collected 9 evidence units"
+  },
+  {
+   "t": 1791966728.446,
+   "level": "success",
+   "msg": "[Phase 3] KnowledgeCluster built: No exact comment count. (9 evidence units)"
+  },
+  {
+   "t": 1791966728.446,
+   "level": "info",
+   "msg": "[Phase 4] Evidence sufficient, generating summary"
+  },
+  {
+   "t": 1791966728.446,
+   "level": "info",
+   "msg": "[Phase 4] Generating search result summary..."
+  },
+  {
+   "t": 1791966732.589,
+   "level": "info",
+   "msg": "[Phase 5] Quality gate: low-quality answer, skipping cluster save"
+  },
+  {
+   "t": 1791966732.593,
+   "level": "debug",
+   "msg": "[SpecCache] Saved spec for /mnt/docs/S -> 142cc5198d86eb45.json (81 file entries)"
+  },
+  {
+   "t": 1791966732.594,
+   "level": "success",
+   "msg": "[search] Complete: phases=4/10 llm_tokens=92176/128000 llm_calls=53 files_read=0 searches=0"
+  }
+ ],
+ "llm_call_records": [
+  {
+   "elapsed_s": 1.16,
+   "error": null,
+   "usage": {
+    "completion_tokens": 9,
+    "prompt_tokens": 190,
+    "total_tokens": 199,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 3.674,
+   "error": null,
+   "usage": {
+    "completion_tokens": 176,
+    "prompt_tokens": 640,
+    "total_tokens": 816,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 12.967,
+   "error": null,
+   "usage": {
+    "completion_tokens": 1086,
+    "prompt_tokens": 2515,
+    "total_tokens": 3601,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.628,
+   "error": null,
+   "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 314,
+    "total_tokens": 361,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.692,
+   "error": null,
+   "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 316,
+    "total_tokens": 367,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.821,
+   "error": null,
+   "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 324,
+    "total_tokens": 374,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.864,
+   "error": null,
+   "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 311,
+    "total_tokens": 364,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.934,
+   "error": null,
+   "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 312,
+    "total_tokens": 368,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.318,
+   "error": null,
+   "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 302,
+    "total_tokens": 352,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.66,
+   "error": null,
+   "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 315,
+    "total_tokens": 368,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.664,
+   "error": null,
+   "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 318,
+    "total_tokens": 369,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.516,
+   "error": null,
+   "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 324,
+    "total_tokens": 388,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.515,
+   "error": null,
+   "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 325,
+    "total_tokens": 390,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.04,
+   "error": null,
+   "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 346,
+    "total_tokens": 398,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.039,
+   "error": null,
+   "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 314,
+    "total_tokens": 360,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.513,
+   "error": null,
+   "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 314,
+    "total_tokens": 370,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.037,
+   "error": null,
+   "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 325,
+    "total_tokens": 372,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.513,
+   "error": null,
+   "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 317,
+    "total_tokens": 374,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.036,
+   "error": null,
+   "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 310,
+    "total_tokens": 360,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.044,
+   "error": null,
+   "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 323,
+    "total_tokens": 374,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.517,
+   "error": null,
+   "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 330,
+    "total_tokens": 390,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.052,
+   "error": null,
+   "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 323,
+    "total_tokens": 383,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.926,
+   "error": null,
+   "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 330,
+    "total_tokens": 394,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.945,
+   "error": null,
+   "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 324,
+    "total_tokens": 370,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.952,
+   "error": null,
+   "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 322,
+    "total_tokens": 373,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.943,
+   "error": null,
+   "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 308,
+    "total_tokens": 358,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.059,
+   "error": null,
+   "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 310,
+    "total_tokens": 373,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.586,
+   "error": null,
+   "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 328,
+    "total_tokens": 393,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.184,
+   "error": null,
+   "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 322,
+    "total_tokens": 377,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 4.131,
+   "error": null,
+   "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 322,
+    "total_tokens": 380,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.842,
+   "error": null,
+   "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 321,
+    "total_tokens": 379,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.913,
+   "error": null,
+   "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 313,
+    "total_tokens": 366,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.057,
+   "error": null,
+   "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 329,
+    "total_tokens": 393,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.48,
+   "error": null,
+   "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 311,
+    "total_tokens": 355,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.749,
+   "error": null,
+   "usage": {
+    "completion_tokens": 41,
+    "prompt_tokens": 319,
+    "total_tokens": 360,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.77,
+   "error": null,
+   "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 322,
+    "total_tokens": 386,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.682,
+   "error": null,
+   "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 318,
+    "total_tokens": 373,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.769,
+   "error": null,
+   "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 390,
+    "total_tokens": 440,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.864,
+   "error": null,
+   "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 329,
+    "total_tokens": 380,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.806,
+   "error": null,
+   "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 321,
+    "total_tokens": 375,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.752,
+   "error": null,
+   "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 318,
+    "total_tokens": 391,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.781,
+   "error": null,
+   "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 302,
+    "total_tokens": 355,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.177,
+   "error": null,
+   "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 314,
+    "total_tokens": 366,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.196,
+   "error": null,
+   "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 324,
+    "total_tokens": 387,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.05,
+   "error": null,
+   "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 316,
+    "total_tokens": 373,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.068,
+   "error": null,
+   "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 317,
+    "total_tokens": 372,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.654,
+   "error": null,
+   "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 335,
+    "total_tokens": 386,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.794,
+   "error": null,
+   "usage": {
+    "completion_tokens": 38,
+    "prompt_tokens": 323,
+    "total_tokens": 361,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.854,
+   "error": null,
+   "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 322,
+    "total_tokens": 377,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.901,
+   "error": null,
+   "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 323,
+    "total_tokens": 380,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.9,
+   "error": null,
+   "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 316,
+    "total_tokens": 375,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 4.205,
+   "error": null,
+   "usage": {
+    "completion_tokens": 235,
+    "prompt_tokens": 4643,
+    "total_tokens": 4878,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 4.738,
+   "error": null,
+   "usage": {
+    "completion_tokens": 226,
+    "prompt_tokens": 67064,
+    "total_tokens": 67290,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 4.142,
+   "error": null,
+   "usage": {
+    "completion_tokens": 196,
+    "prompt_tokens": 767,
+    "total_tokens": 963,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  }
+ ],
+ "library_usage_records": [
+  {
+   "completion_tokens": 9,
+   "prompt_tokens": 190,
+   "total_tokens": 199,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 176,
+   "prompt_tokens": 640,
+   "total_tokens": 816,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 47,
+   "prompt_tokens": 314,
+   "total_tokens": 361,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 51,
+   "prompt_tokens": 316,
+   "total_tokens": 367,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 50,
+   "prompt_tokens": 324,
+   "total_tokens": 374,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 53,
+   "prompt_tokens": 311,
+   "total_tokens": 364,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 56,
+   "prompt_tokens": 312,
+   "total_tokens": 368,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 53,
+   "prompt_tokens": 315,
+   "total_tokens": 368,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 51,
+   "prompt_tokens": 318,
+   "total_tokens": 369,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 46,
+   "prompt_tokens": 324,
+   "total_tokens": 370,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 51,
+   "prompt_tokens": 322,
+   "total_tokens": 373,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 50,
+   "prompt_tokens": 308,
+   "total_tokens": 358,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 63,
+   "prompt_tokens": 310,
+   "total_tokens": 373,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 55,
+   "prompt_tokens": 322,
+   "total_tokens": 377,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 44,
+   "prompt_tokens": 311,
+   "total_tokens": 355,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 41,
+   "prompt_tokens": 319,
+   "total_tokens": 360,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 64,
+   "prompt_tokens": 322,
+   "total_tokens": 386,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 51,
+   "prompt_tokens": 329,
+   "total_tokens": 380,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 52,
+   "prompt_tokens": 346,
+   "total_tokens": 398,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 46,
+   "prompt_tokens": 314,
+   "total_tokens": 360,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 47,
+   "prompt_tokens": 325,
+   "total_tokens": 372,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 50,
+   "prompt_tokens": 310,
+   "total_tokens": 360,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 51,
+   "prompt_tokens": 323,
+   "total_tokens": 374,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 60,
+   "prompt_tokens": 323,
+   "total_tokens": 383,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 58,
+   "prompt_tokens": 322,
+   "total_tokens": 380,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 55,
+   "prompt_tokens": 318,
+   "total_tokens": 373,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 50,
+   "prompt_tokens": 390,
+   "total_tokens": 440,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 54,
+   "prompt_tokens": 321,
+   "total_tokens": 375,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 52,
+   "prompt_tokens": 314,
+   "total_tokens": 366,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 63,
+   "prompt_tokens": 324,
+   "total_tokens": 387,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 51,
+   "prompt_tokens": 335,
+   "total_tokens": 386,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 38,
+   "prompt_tokens": 323,
+   "total_tokens": 361,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 55,
+   "prompt_tokens": 322,
+   "total_tokens": 377,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 57,
+   "prompt_tokens": 323,
+   "total_tokens": 380,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 59,
+   "prompt_tokens": 316,
+   "total_tokens": 375,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 50,
+   "prompt_tokens": 302,
+   "total_tokens": 352,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 64,
+   "prompt_tokens": 324,
+   "total_tokens": 388,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 65,
+   "prompt_tokens": 325,
+   "total_tokens": 390,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 56,
+   "prompt_tokens": 314,
+   "total_tokens": 370,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 57,
+   "prompt_tokens": 317,
+   "total_tokens": 374,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 60,
+   "prompt_tokens": 330,
+   "total_tokens": 390,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 64,
+   "prompt_tokens": 330,
+   "total_tokens": 394,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 65,
+   "prompt_tokens": 328,
+   "total_tokens": 393,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 58,
+   "prompt_tokens": 321,
+   "total_tokens": 379,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 53,
+   "prompt_tokens": 313,
+   "total_tokens": 366,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 64,
+   "prompt_tokens": 329,
+   "total_tokens": 393,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 73,
+   "prompt_tokens": 318,
+   "total_tokens": 391,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 53,
+   "prompt_tokens": 302,
+   "total_tokens": 355,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 57,
+   "prompt_tokens": 316,
+   "total_tokens": 373,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 55,
+   "prompt_tokens": 317,
+   "total_tokens": 372,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 235,
+   "prompt_tokens": 4643,
+   "total_tokens": 4878,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 226,
+   "prompt_tokens": 67064,
+   "total_tokens": 67290,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 196,
+   "prompt_tokens": 767,
+   "total_tokens": 963,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  }
+ ],
+ "trace": {
+  "reused_cluster": null,
+  "reused_cluster_id": null,
+  "reused_cluster_queries": [],
+  "candidate_files": [
+   "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+   "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+   "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+   "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+   "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+   "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+   "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+   "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+   "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+   "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+   "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+   "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+   "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf"
+  ],
+  "evidence_found_files": [
+   "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+   "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+   "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf"
+  ],
+  "gate": [
+   {
+    "should_answer": true,
+    "should_save": false,
+    "summary": "# Briefing\n\n## Answer\n**PRI did not disclose an exact number of comments** received from LPs and GPs during the 2021 update of its Limited Partners Private Equity Responsible Investment DDQ.\n\n## What the evidence shows\n- PRI formed a **working group of signatories** in early 2021 to gather industry feedback on updating the DDQ.\n- Over the prior **four months**, LPs and GPs provided **“significant amounts of comments.”**\n- Feedback was submitted **both in writing and verbally**.\n- PRI says these comments were **discussed and incorporated where appropriate**.\n\n## Conclusion\nThe **specific comment count is not provided** in the available evidence. The most accurate response is that PRI received **an unspecified but significant volume of comments**."
+   }
+  ]
+ }
+}

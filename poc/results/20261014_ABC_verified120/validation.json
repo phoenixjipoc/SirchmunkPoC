@@ -1,0 +1,56 @@
+{
+  "validated_at": "2026-10-14T17:12:01+08:00",
+  "passed": true,
+  "records": 360,
+  "raw_corpus_files": 81,
+  "raw_corpus_hashes_unchanged": true,
+  "independent_work_paths": true,
+  "same_image_model_questions": true,
+  "stages": [
+    {
+      "stage": "A",
+      "questions": 120,
+      "clusters": 82,
+      "labels": {
+        "correct": 65,
+        "wrong": 12,
+        "no_answer": 26,
+        "partial": 8,
+        "correct_refusal": 9
+      },
+      "search_tokens": 11117348,
+      "reuse_hits": 0
+    },
+    {
+      "stage": "B",
+      "questions": 120,
+      "clusters": 76,
+      "labels": {
+        "wrong": 11,
+        "no_answer": 32,
+        "correct": 59,
+        "partial": 9,
+        "correct_refusal": 9
+      },
+      "search_tokens": 6194941,
+      "reuse_hits": 0
+    },
+    {
+      "stage": "C",
+      "questions": 120,
+      "clusters": 80,
+      "labels": {
+        "no_answer": 21,
+        "correct": 66,
+        "wrong": 17,
+        "partial": 7,
+        "correct_refusal": 9
+      },
+      "search_tokens": 9267393,
+      "reuse_hits": 9
+    }
+  ],
+  "search_input_contains_only_id_and_question": true,
+  "answers_and_usage_preserved": true,
+  "note": "Structural/data-integrity checks; does not prove all semantic grades are correct."
+}

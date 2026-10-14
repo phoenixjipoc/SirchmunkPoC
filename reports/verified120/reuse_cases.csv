@@ -1,0 +1,262 @@
+﻿id,source_question_id,cluster_id,logged_similarity,question,source_question,gold_answer,answer,source_answer,same_answer_as_origin,final_label,review_note,latency_s,total_tokens,reused_cluster_queries,publication_translation_note
+INV-12,INV-11,C0b2ebddca4,0.882,"In the Illinois Municipal Retirement Fund (IMRF) sample RFP for domestic equity small cap growth investment management, on what factors are respondents evaluated and ranked during the selection process?","In the Illinois Municipal Retirement Fund (IMRF) sample RFP for investment consulting, real estate consulting and performance measurement services, on what factors are respondents evaluated and ranked during the selection process?","Four primary factors: (a) People - stability of the organization, ownership structure and documented experience of key professionals; (b) Process - clearly defined, reasonable and repeatable investment strategy; (c) Performance - documented ability to meet investment performance benchmarks; (d) Pricing - fee schedule and associated costs.","According to Part 8, Section 8.1 of the IMRF sample RFP, all respondents are evaluated and ranked based on the following factors:
+
+1. **Organization**
+   - Stability of the firm
+   - Ownership
+   - Documented experience of key professionals
+
+2. **Consulting Skill**
+   - Investment philosophy
+   - Investment manager information collection and monitoring systems
+   - Risk management tools
+   - Performance measurement systems
+   - Breadth of consulting expertise and experience
+
+3. **Fees**
+   - Consulting fees for the services requested
+   - Associated costs
+
+The RFP also states that staff objectively review proposals to identify qualified candidates based solely on the criteria presented in the RFP, and staff and board members may also conduct interviews, site visits, and other due diligence as appropriate.","# Markdown Briefing
+
+## IMRF RFP Ranking Factors
+
+Under **Part 8, Section 8.1** of the IMRF sample RFP, respondents are evaluated and ranked based on **three primary factors**:
+
+1. **Organization**
+   - Stability of the firm
+   - Ownership
+   - Documented experience of key professionals
+
+2. **Consulting Skill**
+   - Investment philosophy
+   - Investment manager information collection and monitoring systems
+   - Risk management tools
+   - Performance measurement systems
+   - Breadth of consulting expertise and experience
+
+3. **Fees**
+   - Consulting fees for the services requested
+   - Associated costs
+
+## Additional Selection Process Notes
+
+- IMRF staff review proposals **objectively** using only the criteria stated in the RFP.
+- To support final selection, staff and board members may also conduct:
+  - **Interviews**
+  - **Site visits**
+  - Other appropriate **due diligence**
+
+## Bottom Line
+
+Respondents are ranked on **organization, consulting skill, and fees**, with further review potentially informed by interviews, site visits, and additional due diligence.",False,wrong,"Confirmed cache contamination: reused cluster C0b2ebddca4 created for INV-11 and returned its three consultant-selection factors, while this manager RFP requires People, Process, Performance and Pricing. Reused-cluster queries explicitly contain both questions; A and B answered this question correctly.",1.55,204,"[""In the Illinois Municipal Retirement Fund (IMRF) sample RFP for investment consulting, real estate consulting and performance measurement services, on what factors are respondents evaluated and ranked during the selection process?"", ""In the Illinois Municipal Retirement Fund (IMRF) sample RFP for domestic equity small cap growth investment management, on what factors are respondents evaluated and ranked during the selection process?""]",
+INV-14,INV-13,C0a48a84aba,0.928,"In the Massachusetts PRIM Board's September 2026 RFP for Active Global Core Equity investment management services, what minimum total firm assets under management must a respondent have?","In the Massachusetts PRIM Board's October 2023 RFP for Multi-Asset Credit investment management services, what minimum total firm assets under management must a respondent have?","At least $5 billion in total firm assets under management as of June 30, 2026.","In Section VI, “Minimum Qualifications,” the Massachusetts PRIM Board’s October 2023 RFP states that a responding firm must have at least $10 billion in total firm assets under management as of September 30, 2023. The evidence also clarifies that this is one of two alternative ways to qualify: a firm may instead qualify by having at least $2 billion in multi-asset credit strategy assets under management. Since the question asks specifically for the minimum total firm assets under management, the required amount is $10 billion.","# Markdown Briefing
+
+## Massachusetts PRIM Board RFP: Minimum Total Firm AUM
+
+- Under the **Massachusetts PRIM Board’s October 2023 RFP** for **Multi-Asset Credit investment management services**, a respondent must have at least **$10 billion in total firm assets under management**.
+- This threshold applies **as of September 30, 2023**.
+- The RFP also provides an **alternative qualification path**: at least **$2 billion in multi-asset credit strategy assets under management**.
+
+## Direct Answer
+
+**Minimum total firm AUM required:** **$10 billion**",False,wrong,"Confirmed paired cache error: reused INV-13 cluster C0a48a84aba and gives October2023 multi-asset-credit $10bn/alternative$2bn answer. Asked September2026 active global core equity; correct total-firm minimum is $5bn as of June30,2026.",1.92,203,"[""In the Massachusetts PRIM Board's October 2023 RFP for Multi-Asset Credit investment management services, what minimum total firm assets under management must a respondent have?"", ""In the Massachusetts PRIM Board's September 2026 RFP for Active Global Core Equity investment management services, what minimum total firm assets under management must a respondent have?""]",
+SVC-20,SVC-15,Ce61cf390e3,0.862,What scope of services does the Kern County Employees' Retirement Association (KCERA) 2024 actuarial audit services RFP require?,"What contract term, including any extension options, does the Kern County Employees' Retirement Association (KCERA) RFP for audit services contemplate?","A full actuarial audit of the assumptions, methods, calculations and experience used in KCERA's valuation, in two parts: (1) a peer review audit of the Actuarial Experience Study for July 1, 2019 - June 30, 2022 and the Review of Economic Actuarial Assumptions as of June 30, 2022 - evaluating the data (including comparison of census data), reconciling discrepancies with the consulting actuary, and evaluating the recommended economic and non-economic assumptions; and (2) a parallel valuation (independent reproduction) of the June 30, 2023 valuation, including the SRBR valuation and GASB 67 valuation, using the consulting actuary's assumptions and methods and reproducing all work without relying on the consulting actuary, with reconciliation of discrepancies. Results of both are to be communicated to the consulting actuary before completion of the June 30, 2024 valuation.","The relevant KCERA document is the “Kern County Employees’ Retirement Association Request for Proposal ACTUARIAL AUDIT SERVICES” dated March 29, 2024. In Section Four, “Length of Contract,” it states: “The contract term shall be for a period of one year beginning on the date of final contract execution.”
+
+The sample agreement attached to the RFP is consistent with that structure. It provides that the agreement shall commence on a specified date and terminate on a specified date, and also says either party may terminate without cause upon thirty days’ prior written notice. However, the RFP text provided does not specify any renewal or extension option beyond the one-year term.
+
+So, based on the KCERA RFP evidence shown:
+- Initial contract term: 1 year
+- Start: on the date of final contract execution
+- Extension/renewal options: none stated in the provided KCERA RFP text","## Markdown Briefing
+
+### KCERA RFP Contract Term
+
+Based on the provided KCERA RFP evidence, the contemplated contract term is **one year**.
+
+- **Initial term:** **1 year**
+- **Start date:** **Begins on the date of final contract execution**
+- **Extension or renewal options:** **None stated in the provided RFP text**
+
+### Supporting Evidence
+
+The relevant document is the **Kern County Employees’ Retirement Association Request for Proposal – Actuarial Audit Services**, dated **March 29, 2024**.
+
+- **Section Four, “Length of Contract,”** states:  
+  **“The contract term shall be for a period of one year beginning on the date of final contract execution.”**
+
+### Additional Context
+
+The attached sample agreement appears consistent with this structure:
+
+- It provides for a defined **commencement date** and **termination date**
+- It allows **either party to terminate without cause upon thirty days’ prior written notice**
+
+However, **no renewal or extension options are identified** in the provided KCERA RFP text.
+
+### Conclusion
+
+The KCERA RFP for audit services contemplates a **one-year contract term starting upon final contract execution**, with **no stated extension or renewal options** in the evidence provided.",False,wrong,"Confirmed reuse of Ce61cf390e3 from SVC-15: answers KCERA actuarial contract length (one year), while this question asks the actuarial audit scope. Omits experience-study peer review and independent 2023 parallel valuation/SRBR/GASB67 work. Same-document, different-question reuse outside the preselected pairs.",1.48,196,"[""What contract term, including any extension options, does the Kern County Employees' Retirement Association (KCERA) RFP for audit services contemplate?"", ""What scope of services does the Kern County Employees' Retirement Association (KCERA) 2024 actuarial audit services RFP require?""]",
+XD-10,XD-09,Ceffd116adc,0.994,"How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?","How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?","Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.","The ILPA Due Diligence Questionnaire v1.2 lists **5 lettered appendices** in its table of contents:
+
+1. **Appendix A - Requested Documents**  
+2. **Appendix B - Templates: Team Members**  
+3. **Appendix C - Templates: References**  
+4. **Appendix D - Templates: Fund**  
+5. **Appendix E - Templates: Portfolio Investments**
+
+This count comes directly from the table of contents, which lists appendices **A, B, C, D, and E** and no additional lettered appendices.","# Briefing: ILPA Due Diligence Questionnaire v1.2 Appendices
+
+## Answer
+The **ILPA Due Diligence Questionnaire v1.2** lists **5 lettered appendices** in its table of contents.
+
+## Appendices Listed
+1. **Appendix A — Requested Documents**
+2. **Appendix B — Templates: Team Members**
+3. **Appendix C — Templates: References**
+4. **Appendix D — Templates: Fund**
+5. **Appendix E — Templates: Portfolio Investments**
+
+## Conclusion
+The table of contents shows **Appendices A through E only**, with **no additional lettered appendices**.",False,wrong,"Confirmed paired reuse error: reuses XD-09 cluster Ceffd116adc and returns v1.2 five A-E appendices for the v2.0 question, which requires eight A-H including third-party/technology, GP-led secondaries and credit facilities. Reused-query list explicitly contains both versions.",1.5,200,"[""How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?"", ""How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?""]",
+CONS-07,CONS-06,Ca3d531d9a4,0.889,"Which pension system's investment consultant RFP requires respondents to have at least five defined benefit pension plan clients, two of which are public pension plans with total plan assets of at least $15 billion each?",Which retirement system's general investment consultant RFP requires respondents to currently provide non-discretionary general investment advice to at least 5 public pension plans larger than $5 billion and at least 2 public plans over $20 billion?,"Orange County Employees Retirement System (OCERS), in its 2021 investment consultant services RFP (Appendix E, Minimum Qualifications Certification).","The retirement system is the Texas Municipal Retirement System (TMRS).
+
+Relevant evidence from the RFP:
+- The document is titled “Request for Proposal (RFP) Non-Discretionary General Investment Consulting Services.”
+- It states that TMRS is issuing the RFP: “This Request for Proposal (‘RFP’) is being issued by the Texas Municipal Retirement System (‘TMRS’).”
+- In Section IV, “General Information & Minimum Requirements,” under “Minimum Eligibility Requirements,” item 1 states:
+  “Respondent must be currently providing general investment advice on a non-discretionary basis to at least 5 public pension plans larger than $5 billion and at least 2 public plans over $20 billion.”
+
+Additional confirming context:
+- TMRS is described in the RFP as a $36 billion statewide hybrid cash balance retirement system.
+- The RFP issue date is February 3, 2022.
+- The consulting mandate is specifically for non-discretionary general investment consulting services.
+
+So, the answer is: Texas Municipal Retirement System (TMRS).","# Briefing
+
+## Answer
+The retirement system is the **Texas Municipal Retirement System (TMRS)**.
+
+## Basis
+- The RFP is titled **“Request for Proposal (RFP) Non-Discretionary General Investment Consulting Services.”**
+- The document explicitly states that it is issued by the **Texas Municipal Retirement System (TMRS)**.
+- In the **Minimum Eligibility Requirements**, it requires that a respondent:
+  - currently provide **non-discretionary general investment advice**
+  - to at least **5 public pension plans larger than $5 billion**
+  - and at least **2 public plans over $20 billion**
+
+## Supporting Context
+- TMRS is described in the RFP as a **$36 billion statewide hybrid cash balance retirement system**.
+- The **RFP issue date** is **February 3, 2022**.
+
+## Conclusion
+Based on the cited RFP language, the retirement system is **TMRS**.",False,wrong,"Confirmed reuse of CONS-06 cluster Ca3d531d9a4: returns TMRS and its $5bn/$20bn client thresholds, while the current question requires OCERS and two public DB clients with at least $15bn each. This additional cross-document reuse error is outside the 15 preselected pairs.",1.75,209,"[""Which retirement system's general investment consultant RFP requires respondents to currently provide non-discretionary general investment advice to at least 5 public pension plans larger than $5 billion and at least 2 public plans over $20 billion?"", ""Which pension system's investment consultant RFP requires respondents to have at least five defined benefit pension plan clients, two of which are public pension plans with total plan assets of at least $15 billion each?""]",
+CONS-11,CONS-10,Cb59c8eb7cf,0.854,What is the proposal submission deadline in the Teachers' Retirement System of Oklahoma investment consultant RFP?,What is the proposal submission deadline in the Oklahoma Public Employees Retirement System (OPERS) investment consulting services RFP?,"4:00 p.m. Central Time on January 14, 2026.","In the Oklahoma Public Employees Retirement System (OPERS) Request for Proposal #515-22-200 for Investment Consulting Services, the proposal submission deadline is listed as <b>4:30 p.m. Central Time on March 25, 2022</b>.
+
+Relevant evidence from the RFP includes:
+- On the Proposal Cover Sheet: “Proposal Deadline must be received by 4:30 pm CT March 25, 2022.”
+- In Section II.B, Mandatory Requirements for Submitting a Proposal: “The deadline for receipt of proposals is 4:30 p.m. Central Time, on March 25, 2022.”
+- In Section VI, Timeline: “Proposals due (no later than 4:30 p.m. Central Time) March 25, 2022.”
+
+So the proposal submission deadline was <b>March 25, 2022 at 4:30 p.m. CT</b>.","# Markdown Briefing
+
+## Proposal Submission Deadline
+
+For the **Oklahoma Public Employees Retirement System (OPERS) Request for Proposal #515-22-200** for **Investment Consulting Services**, the proposal submission deadline was:
+
+- **March 25, 2022**
+- **4:30 p.m. Central Time (CT)**
+
+## Supporting Evidence
+
+The RFP states this deadline in multiple places:
+
+- **Proposal Cover Sheet**: “Proposal Deadline must be received by **4:30 pm CT March 25, 2022**.”
+- **Section II.B – Mandatory Requirements for Submitting a Proposal**: “The deadline for receipt of proposals is **4:30 p.m. Central Time, on March 25, 2022**.”
+- **Section VI – Timeline**: “Proposals due (**no later than 4:30 p.m. Central Time**) **March 25, 2022**.”
+
+## Conclusion
+
+The proposal submission deadline was **March 25, 2022 at 4:30 p.m. CT**.",False,wrong,"Reuses CONS-10 OPERS deadline cluster Cb59c8eb7cf. Current question is Oklahoma Teachers retirement RFP, due January 14, 2026 at 4pm CT, not OPERS March 25, 2022 at 4:30pm.",1.7,188,"[""What is the proposal submission deadline in the Oklahoma Public Employees Retirement System (OPERS) investment consulting services RFP?"", ""What is the proposal submission deadline in the Teachers' Retirement System of Oklahoma investment consultant RFP?""]",
+CONS-13,CONS-12,C10fbff2327,0.866,How many printed copies of the proposal must be submitted in the San Francisco Employees' Retirement System (SFERS) general investment consultant RFP?,How many printed copies of the proposal must be submitted in the Boston Retirement System 2022 investment consulting services RFP?,Three (3) paper (hard) copies plus one full electronic copy.,"In the Boston Retirement System 2022 investment consulting services RFP, proposers must submit seven (7) complete printed copies of the proposal. The RFP also requires one (1) electronic version.
+
+Relevant language in the RFP includes:
+- “Prospective Consultants must submit seven (7) complete printed copies of their Proposal, and one electronic version.”
+- “Submit seven (7) printed copies of your Proposal in a sealed package and one (1) version electronically.”
+
+So, the required number of printed copies is 7.","# Markdown Briefing
+
+## Answer
+The Boston Retirement System’s 2022 investment consulting services RFP requires **seven (7) printed copies** of the proposal.
+
+## Key Submission Requirement
+- **Printed copies required:** **7**
+- **Electronic copies required:** **1**
+
+## Supporting Evidence
+The provided RFP language states:
+- **“Prospective Consultants must submit seven (7) complete printed copies of their Proposal, and one electronic version.”**
+- **“Submit seven (7) printed copies of your Proposal in a sealed package and one (1) version electronically.”**
+
+## Conclusion
+The required number of printed proposal copies is **7**.",False,wrong,Reuses Boston CONS-12 cluster C10fbff2327 and answers seven copies. SFERS requires three paper copies. Explicitly answering the other institution does not satisfy the current question.,1.72,197,"[""How many printed copies of the proposal must be submitted in the Boston Retirement System 2022 investment consulting services RFP?"", ""How many printed copies of the proposal must be submitted in the San Francisco Employees' Retirement System (SFERS) general investment consultant RFP?""]",
+DDQ-07,DDQ-06,C008a365182,0.993,"How many fund diligence topics does the ILPA Due Diligence Questionnaire 2.0 (2021) list in its Overview, and what is the last one?","How many fund diligence topics does the ILPA Due Diligence Questionnaire v1.2 (2018) list in its Overview, and what is the last one?","20 topics, numbered 1-20. The last is 20. Diversity, Equity and Inclusion. New compared with v1.2 are topics such as Succession Planning / Key Persons, Co-Investments, GP-Led Secondaries / Continuation Funds, Credit Facilities, a separate Reporting topic, and Data Security / Technology / Third-Party(s). ESG is topic 19.","In the Overview, the ILPA Due Diligence Questionnaire v1.2 (2018) states that it covers “many topics related to fund diligence” and then lists them explicitly as numbered items 1 through 14.
+
+The total number of fund diligence topics listed is 14.
+
+The list ends with item 14:
+“Diversity and Inclusion.”
+
+The full sequence shown in the evidence is:
+1. General Firm Information
+2. General Fund Information
+3. Investment Strategy
+4. Investment Process
+5. Team
+6. Alignment of Interest
+7. Market Environment
+8. Fund Terms
+9. Firm Governance/Risk/Compliance
+10. ESG
+11. Track Record
+12. Accounting/Valuation/Reporting
+13. Legal/Administration
+14. Diversity and Inclusion
+
+So the answer is: 14 topics, and the last one is Diversity and Inclusion.","# Markdown Briefing
+
+## Answer
+The **ILPA Due Diligence Questionnaire v1.2 (2018)** lists **14 fund diligence topics** in its Overview.
+
+## Last Topic
+The **14th and final topic** is **Diversity and Inclusion**.
+
+## Supporting Detail
+The Overview explicitly enumerates topics **1 through 14**, ending with:
+- **14. Diversity and Inclusion**",False,wrong,"Reuses DDQ-06 cluster C008a365182 and gives v1.2 14 topics and Diversity and Inclusion. Current 2.0 asks 20 topics and final Diversity, Equity and Inclusion.",2.05,203,"[""How many fund diligence topics does the ILPA Due Diligence Questionnaire v1.2 (2018) list in its Overview, and what is the last one?"", ""How many fund diligence topics does the ILPA Due Diligence Questionnaire 2.0 (2021) list in its Overview, and what is the last one?""]",
+DDQ-09,DDQ-08,C85f93a6dd0,0.989,"In the 2024 version of ILPA's ESG Assessment Framework FAQ, how many resources are listed in answer to 'Where can I find additional resources pertaining to ESG?', and what are they?","In the 2021 version of ILPA's ESG Assessment Framework FAQ, how many resources are listed in answer to 'Where can I find additional resources pertaining to ESG?', and what are they?","8 resources: ILPA's ESG and Sustainable Investing Hub; ILPA's Diversity, Equity, and Inclusion Hub; UNPRI's Private Equity Page; The ESG Data Convergence Initiative; The Private Markets Decarbonization Roadmap; IFRS's International Sustainability Standards Board (ISSB), noting SASB is now part of the IFRS Foundation; Task Force on Climate-Related Financial Disclosures, noting TCFD has disbanded after its 2023 status report; The Institutional Investors Group on Climate Change (IIGCC).","The 2021 version of ILPA’s ESG Assessment Framework FAQ lists 6 resources in response to “Where can I find additional resources pertaining to ESG?”
+
+They are:
+1. ILPA’s ESG Roadmap
+2. ILPA’s Diversity in Action Initiative
+3. UNPRI's Private Equity Page
+4. Sustainability Accounting Standards Board (SASB)
+5. Task Force on Climate Related Financial Disclosures (TCFD)
+6. The Institutional Investors Group on Climate Change (IIGCC)
+
+So, the total number of listed resources is 6.","# Markdown Briefing
+
+## Answer
+The **2021 version of ILPA’s ESG Assessment Framework FAQ** lists **6 resources** in response to the question: **“Where can I find additional resources pertaining to ESG?”**
+
+## Listed Resources
+1. **ILPA’s ESG Roadmap**
+2. **ILPA’s Diversity in Action Initiative**
+3. **UNPRI’s Private Equity Page**
+4. **Sustainability Accounting Standards Board (SASB)**
+5. **Task Force on Climate Related Financial Disclosures (TCFD)**
+6. **The Institutional Investors Group on Climate Change (IIGCC)**
+
+## Conclusion
+- **Total number of resources:** **6**
+- The provided evidence is **explicit and sufficient** to identify both the **count** and the **names** of the resources.",False,wrong,"Reuses DDQ-08 cluster C85f93a6dd0 and gives six resources from the 2021 FAQ instead of eight in the 2024 FAQ, including changed names and new EDCI/decarbonization roadmap resources.",1.8,208,"[""In the 2021 version of ILPA's ESG Assessment Framework FAQ, how many resources are listed in answer to 'Where can I find additional resources pertaining to ESG?', and what are they?"", ""In the 2024 version of ILPA's ESG Assessment Framework FAQ, how many resources are listed in answer to 'Where can I find additional resources pertaining to ESG?', and what are they?""]",

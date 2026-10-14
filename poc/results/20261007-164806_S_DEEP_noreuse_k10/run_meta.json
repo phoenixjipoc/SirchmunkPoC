@@ -1,0 +1,26 @@
+{
+ "run_id": "20261007-164806_S_DEEP_noreuse_k10",
+ "tier": "S",
+ "mode": "DEEP",
+ "n_files": 81,
+ "n_questions": 48,
+ "top_k_files": 10,
+ "work_path": "/poc_runs/20261007-164806_S_DEEP_noreuse_k10/work",
+ "image": "modelscope-registry.us-west-1.cr.aliyuncs.com/modelscope-repo/sirchmunk:ubuntu22.04-py312-0.0.7",
+ "model": "gpt-5.4",
+ "cluster_sim_threshold": "0.85",
+ "started": "2026-10-07T16:48:08",
+ "cluster_reuse": false,
+ "wall_clock_s": 1831.7,
+ "finished": "2026-10-07T17:18:39",
+ "runner_exit_code": 0,
+ "warmup": {
+  "rga_cache": "/poc_cache/rga_S",
+  "rga_cache_was_empty": false,
+  "rga_warmup_s": 0.3
+ },
+ "judge": {
+  "model": "gpt-5.4",
+  "base_url": "https://api.openai.com/v1"
+ }
+}

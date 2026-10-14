@@ -1,0 +1,16 @@
+1080:                max_depth=max_depth, top_k_files=top_k_files,
+1081:                enable_dir_scan=enable_dir_scan,
+1082:                include=include, exclude=exclude,
+1083:                spec_stale_hours=spec_stale_hours,
+1084:                llm_fallback=llm_fallback,
+1085:            )
+1086:
+1087:        # ---- Unified return wrapping ----
+1088:        if return_context:
+1089:            prefix = "FS" if mode == "FAST" else "DS"
+1090:            context.answer = answer
+1091:            if (answer or "").strip().lower() == _NO_RESULTS_MESSAGE.lower():
+1092:                context.cluster = cluster
+1093:                return context
+1094:            # Use read_file_ids from context if available, otherwise empty
+1095:            fallback_files = list(context.read_file_ids) if context.read_file_ids else None

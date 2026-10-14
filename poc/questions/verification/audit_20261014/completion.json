@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-14",
+  "reviewed": 120,
+  "ready_for_evaluation": 120,
+  "statuses": {
+    "verified": 109,
+    "corrected": 11
+  },
+  "source_documents": 81,
+  "blind_batches": 3,
+  "source_inventory": "audit_20261014/source_inventory.json",
+  "questions_sha256": "84f8a790551fabc154b74f9f59e0e13dde0eff7f06b38de9eb3afb27d341fb11",
+  "verified_subset_sha256": "84f8a790551fabc154b74f9f59e0e13dde0eff7f06b38de9eb3afb27d341fb11",
+  "corrected_ids": [
+    "INV-22",
+    "SVC-10",
+    "CONS-16",
+    "INV-23",
+    "XD-17",
+    "CONS-14",
+    "DDQ-10",
+    "SVC-24",
+    "XD-03",
+    "CONS-15",
+    "OTH-18"
+  ],
+  "excluded_ids": [],
+  "human_reviewed": false,
+  "limitations": "Independent AI blind verification, not human review. Original evaluation scores are not regraded."
+}

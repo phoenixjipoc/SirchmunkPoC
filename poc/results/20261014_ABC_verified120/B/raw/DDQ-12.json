@@ -1,0 +1,410 @@
+{
+ "record": {
+  "id": "DDQ-12",
+  "question": "Which bucket (Not Present, Developing, Intermediate or Advanced) did ILPA assign to KKR under the ILPA ESG Assessment Framework, and what numerical score did KKR receive?",
+  "mode": "DEEP",
+  "paths": [
+   "/mnt/docs/S"
+  ],
+  "model": "gpt-5.4",
+  "answer": "No results found.",
+  "no_result": true,
+  "gate_should_answer": false,
+  "pre_gate_answer": "# Markdown Briefing\n\n## Conclusion\nBased on the provided evidence, **ILPA did not assign a verified bucket or numerical score to KKR** in the materials shown.\n\n## Key Findings\n- ILPA’s ESG Assessment Framework includes four maturity buckets:\n  - **Not Present**\n  - **Developing**\n  - **Intermediate**\n  - **Advanced**\n- However, the evidence **does not include a KKR-specific assessment** under this framework.\n- The evidence explicitly states that ILPA **did not assign numerical scores or grades** as part of the framework.\n- While LPs may create their own scoring methods, those would be **non-ILPA, organization-specific scores**.\n\n## Direct Answer\n- **Bucket assigned to KKR by ILPA:** Not available in the provided evidence\n- **Numerical score received by KKR:** None officially assigned by ILPA\n\n## Assessment of Evidence\nThe materials describe **how the ILPA framework works**, but they **do not provide a KKR result**. Therefore, the user’s specific question cannot be definitively answered from the evidence beyond stating that **no verified ILPA bucket or score for KKR is shown**.",
+  "candidate_files": [
+   "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+   "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+   "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+   "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf"
+  ],
+  "evidence_found_files": [
+   "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf"
+  ],
+  "cited_files": [],
+  "cited_found_files": [],
+  "reused_cluster": null,
+  "reused_cluster_id": null,
+  "reused_cluster_queries": [],
+  "cluster_id": null,
+  "latency_s": 29.63,
+  "llm_calls": 5,
+  "llm_failed_calls": 0,
+  "prompt_tokens": 45509,
+  "completion_tokens": 1808,
+  "total_tokens": 47317,
+  "error": null,
+  "serialization_error": null,
+  "warnings": [
+   "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  ]
+ },
+ "context": {
+  "answer": "No results found.",
+  "cluster": null,
+  "max_token_budget": 128000,
+  "max_loops": 10,
+  "total_llm_tokens": 0,
+  "budget_remaining": 128000,
+  "llm_call_count": 0,
+  "llm_usages": [],
+  "read_file_ids": [],
+  "retrieval_logs": [],
+  "search_history": [],
+  "loop_count": 4,
+  "start_time": "2026-10-14T07:24:51.952057"
+ },
+ "logs": [
+  {
+   "t": 1791962693.29,
+   "level": "info",
+   "msg": "[search] Starting multi-path retrieval for: 'Which bucket (Not Present, Developing, Intermediate or Advanced) did ILPA assign'"
+  },
+  {
+   "t": 1791962693.29,
+   "level": "info",
+   "msg": "[Phase 1] Parallel probing: keywords + dir_scan + knowledge + spec_cache"
+  },
+  {
+   "t": 1791962693.29,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracting keywords..."
+  },
+  {
+   "t": 1791962693.292,
+   "level": "info",
+   "msg": "[Probe:DirScan] Scanning directories..."
+  },
+  {
+   "t": 1791962696.335,
+   "level": "info",
+   "msg": "[Probe:Keywords] Cross-lingual alt: ['ESG评估框架', '数值分数', 'ILPA', 'KKR']"
+  },
+  {
+   "t": 1791962696.335,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracted: ['ILPA ESG Assessment Framework', 'KKR numerical score', 'ILPA assign bucket', 'Developing Intermediate Advanced', 'ESG评估框架', '数值分数', 'ILPA', 'KKR']"
+  },
+  {
+   "t": 1791962697.786,
+   "level": "info",
+   "msg": "[Probe:DirScan] Found 81 files in 1 dirs (4494ms)"
+  },
+  {
+   "t": 1791962697.786,
+   "level": "info",
+   "msg": "[Phase 1] Results: keywords=8, dir_scan=OK, knowledge_hits=0, spec_cache=YES"
+  },
+  {
+   "t": 1791962697.786,
+   "level": "info",
+   "msg": "[Phase 2] Parallel retrieval: rga keyword search + dir_scan LLM rank"
+  },
+  {
+   "t": 1791962700.93,
+   "level": "info",
+   "msg": "[Retrieve:Keywords] 12 files from rga search"
+  },
+  {
+   "t": 1791962710.481,
+   "level": "info",
+   "msg": "[Retrieve:DirScan] 1 relevant files (accept={'high'})"
+  },
+  {
+   "t": 1791962710.481,
+   "level": "info",
+   "msg": "[Phase 2] Results: keyword_files=12, dir_scan_files=1"
+  },
+  {
+   "t": 1791962710.481,
+   "level": "info",
+   "msg": "[Phase 3] Merged 12 unique candidate files"
+  },
+  {
+   "t": 1791962710.481,
+   "level": "info",
+   "msg": "Extracting evidence from 5 files (parallel)..."
+  },
+  {
+   "t": 1791962710.501,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 8195 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791962710.518,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 8755 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791962710.64,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 71146 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791962710.685,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 26257 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791962710.878,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 80410 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791962710.878,
+   "level": "info",
+   "msg": "Collected 5 evidence units"
+  },
+  {
+   "t": 1791962716.542,
+   "level": "success",
+   "msg": "[Phase 3] KnowledgeCluster built: No KKR ILPA score found. (5 evidence units)"
+  },
+  {
+   "t": 1791962716.542,
+   "level": "info",
+   "msg": "[Phase 4] Evidence sufficient, generating summary"
+  },
+  {
+   "t": 1791962716.542,
+   "level": "info",
+   "msg": "[Phase 4] Generating search result summary..."
+  },
+  {
+   "t": 1791962721.577,
+   "level": "warning",
+   "msg": "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  }
+ ],
+ "llm_call_records": [
+  {
+   "elapsed_s": 1.337,
+   "error": null,
+   "usage": {
+    "completion_tokens": 9,
+    "prompt_tokens": 196,
+    "total_tokens": 205,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 3.044,
+   "error": null,
+   "usage": {
+    "completion_tokens": 145,
+    "prompt_tokens": 646,
+    "total_tokens": 791,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 12.69,
+   "error": null,
+   "usage": {
+    "completion_tokens": 1114,
+    "prompt_tokens": 2873,
+    "total_tokens": 3987,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 5.663,
+   "error": null,
+   "usage": {
+    "completion_tokens": 264,
+    "prompt_tokens": 40945,
+    "total_tokens": 41209,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 5.034,
+   "error": null,
+   "usage": {
+    "completion_tokens": 276,
+    "prompt_tokens": 849,
+    "total_tokens": 1125,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  }
+ ],
+ "library_usage_records": [
+  {
+   "completion_tokens": 9,
+   "prompt_tokens": 196,
+   "total_tokens": 205,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 145,
+   "prompt_tokens": 646,
+   "total_tokens": 791,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 264,
+   "prompt_tokens": 40945,
+   "total_tokens": 41209,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 276,
+   "prompt_tokens": 849,
+   "total_tokens": 1125,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  }
+ ],
+ "trace": {
+  "reused_cluster": null,
+  "reused_cluster_id": null,
+  "reused_cluster_queries": [],
+  "candidate_files": [
+   "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+   "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+   "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+   "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf"
+  ],
+  "evidence_found_files": [
+   "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf"
+  ],
+  "gate": [
+   {
+    "should_answer": false,
+    "should_save": false,
+    "summary": "# Markdown Briefing\n\n## Conclusion\nBased on the provided evidence, **ILPA did not assign a verified bucket or numerical score to KKR** in the materials shown.\n\n## Key Findings\n- ILPA’s ESG Assessment Framework includes four maturity buckets:\n  - **Not Present**\n  - **Developing**\n  - **Intermediate**\n  - **Advanced**\n- However, the evidence **does not include a KKR-specific assessment** under this framework.\n- The evidence explicitly states that ILPA **did not assign numerical scores or grades** as part of the framework.\n- While LPs may create their own scoring methods, those would be **non-ILPA, organization-specific scores**.\n\n## Direct Answer\n- **Bucket assigned to KKR by ILPA:** Not available in the provided evidence\n- **Numerical score received by KKR:** None officially assigned by ILPA\n\n## Assessment of Evidence\nThe materials describe **how the ILPA framework works**, but they **do not provide a KKR result**. Therefore, the user’s specific question cannot be definitively answered from the evidence beyond stating that **no verified ILPA bucket or score for KKR is shown**."
+   }
+  ]
+ }
+}

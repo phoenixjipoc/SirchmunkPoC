@@ -1,0 +1,958 @@
+{
+ "record": {
+  "id": "DDQ-07",
+  "question": "How many fund diligence topics does the ILPA Due Diligence Questionnaire 2.0 (2021) list in its Overview, and what is the last one?",
+  "mode": "DEEP",
+  "paths": [
+   "/mnt/docs/S"
+  ],
+  "model": "gpt-5.4",
+  "answer": "No results found.",
+  "no_result": true,
+  "gate_should_answer": false,
+  "pre_gate_answer": "# Briefing\n\n## Assessment\nThe provided evidence **does not allow a definitive answer** to how many fund diligence topics are listed in the **Overview** of the **ILPA Due Diligence Questionnaire 2.0 (2021)**.\n\n## What the evidence supports\n- The supplied excerpts show the questionnaire has numbered sections **at least through Section 19**.\n- The **last visible topic** in the excerpts is **Section 19 – ESG**.\n- The ESG material shown includes:\n  - **19.2 Fundraising** – Establishing ESG commitments within fund documentation\n  - **19.3 Pre-investment** – Identifying material ESG risks and opportunities\n\n## Conclusion\n- **Number of fund diligence topics in the Overview:** **Not determinable from the provided evidence**\n- **Last visible topic:** **Topic 19 – ESG**\n\n## Limitation\nBecause the **Overview page itself is not included**, any claim about the exact total number of topics would **not be supported** by the provided evidence.",
+  "candidate_files": [
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "evidence_found_files": [
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "cited_files": [],
+  "cited_found_files": [],
+  "reused_cluster": null,
+  "reused_cluster_id": null,
+  "reused_cluster_queries": [],
+  "cluster_id": null,
+  "latency_s": 40.28,
+  "llm_calls": 21,
+  "llm_failed_calls": 0,
+  "prompt_tokens": 14622,
+  "completion_tokens": 2924,
+  "total_tokens": 17546,
+  "error": null,
+  "serialization_error": null,
+  "warnings": [
+   "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  ]
+ },
+ "context": {
+  "answer": "No results found.",
+  "cluster": null,
+  "max_token_budget": 128000,
+  "max_loops": 10,
+  "total_llm_tokens": 0,
+  "budget_remaining": 128000,
+  "llm_call_count": 0,
+  "llm_usages": [],
+  "read_file_ids": [],
+  "retrieval_logs": [],
+  "search_history": [],
+  "loop_count": 4,
+  "start_time": "2026-10-14T07:21:54.631034"
+ },
+ "logs": [
+  {
+   "t": 1791962515.874,
+   "level": "info",
+   "msg": "[search] Starting multi-path retrieval for: 'How many fund diligence topics does the ILPA Due Diligence Questionnaire 2.0 (20'"
+  },
+  {
+   "t": 1791962515.874,
+   "level": "info",
+   "msg": "[Phase 1] Parallel probing: keywords + dir_scan + knowledge + spec_cache"
+  },
+  {
+   "t": 1791962515.874,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracting keywords..."
+  },
+  {
+   "t": 1791962515.875,
+   "level": "info",
+   "msg": "[Probe:DirScan] Scanning directories..."
+  },
+  {
+   "t": 1791962519.085,
+   "level": "info",
+   "msg": "[Probe:Keywords] Cross-lingual alt: ['尽职调查问卷', 'ILPA尽职调查问卷2.0', 'fund diligence topics']"
+  },
+  {
+   "t": 1791962519.085,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracted: ['ILPA Due Diligence Questionnaire 2.0', 'fund diligence topics', 'Due Diligence Questionnaire 2.0 (2021)', 'Overview section', '尽职调查问卷', 'ILPA尽职调查问卷2.0']"
+  },
+  {
+   "t": 1791962520.166,
+   "level": "info",
+   "msg": "[Probe:DirScan] Found 81 files in 1 dirs (4290ms)"
+  },
+  {
+   "t": 1791962520.166,
+   "level": "info",
+   "msg": "[Phase 1] Results: keywords=6, dir_scan=OK, knowledge_hits=0, spec_cache=YES"
+  },
+  {
+   "t": 1791962520.166,
+   "level": "info",
+   "msg": "[Phase 2] Parallel retrieval: rga keyword search + dir_scan LLM rank"
+  },
+  {
+   "t": 1791962522.894,
+   "level": "info",
+   "msg": "[Retrieve:Keywords] 0 files from rga search"
+  },
+  {
+   "t": 1791962532.725,
+   "level": "info",
+   "msg": "[Retrieve:DirScan] 1 relevant files (accept={'high'})"
+  },
+  {
+   "t": 1791962532.725,
+   "level": "info",
+   "msg": "[Phase 2] Results: keyword_files=0, dir_scan_files=1"
+  },
+  {
+   "t": 1791962532.725,
+   "level": "info",
+   "msg": "[Phase 3] Merged 1 unique candidate files"
+  },
+  {
+   "t": 1791962532.725,
+   "level": "info",
+   "msg": "Extracting evidence from 1 files (parallel)..."
+  },
+  {
+   "t": 1791962535.497,
+   "level": "info",
+   "msg": "  [Pos  88000 | Src: fuzz    ] Score: 4.0 | The snippet clearly refers to ..."
+  },
+  {
+   "t": 1791962535.497,
+   "level": "info",
+   "msg": "  [Pos  53250 | Src: fuzz    ] Score: 4.0 | The snippet mentions the ILPA ..."
+  },
+  {
+   "t": 1791962535.497,
+   "level": "info",
+   "msg": "  [Pos  53500 | Src: fuzz    ] Score: 4.0 | The snippet is from the ILPA D..."
+  },
+  {
+   "t": 1791962535.497,
+   "level": "info",
+   "msg": "  [Pos 106250 | Src: fuzz    ] Score: 4.0 | The snippet clearly refers to ..."
+  },
+  {
+   "t": 1791962535.497,
+   "level": "info",
+   "msg": "  [Pos   1750 | Src: fuzz    ] Score: 3.0 | The snippet mentions the ILPA ..."
+  },
+  {
+   "t": 1791962535.497,
+   "level": "info",
+   "msg": "  [Pos  67577 | Src: stratified] Score: 2.0 | The snippet appears to be from..."
+  },
+  {
+   "t": 1791962535.497,
+   "level": "info",
+   "msg": "  [Pos 101395 | Src: stratified] Score: 2.0 | The snippet is about disaster ..."
+  },
+  {
+   "t": 1791962537.69,
+   "level": "info",
+   "msg": "  [Pos  85946 | Src: gaussian] Score: 3.0 | The snippet is from a later se..."
+  },
+  {
+   "t": 1791962537.69,
+   "level": "info",
+   "msg": "  [Pos  83845 | Src: gaussian] Score: 2.0 | The snippet mentions parts of ..."
+  },
+  {
+   "t": 1791962537.69,
+   "level": "info",
+   "msg": "  [Pos  91844 | Src: gaussian] Score: 4.0 | The snippet is from the ILPA D..."
+  },
+  {
+   "t": 1791962537.69,
+   "level": "info",
+   "msg": "  [Pos  52720 | Src: gaussian] Score: 4.0 | The snippet is from the ILPA D..."
+  },
+  {
+   "t": 1791962539.982,
+   "level": "info",
+   "msg": "  [Pos  88353 | Src: gaussian] Score: 2.0 | The snippet is from later audi..."
+  },
+  {
+   "t": 1791962539.982,
+   "level": "info",
+   "msg": "  [Pos  87614 | Src: gaussian] Score: 4.0 | The snippet clearly references..."
+  },
+  {
+   "t": 1791962539.982,
+   "level": "info",
+   "msg": "  [Pos  53707 | Src: gaussian] Score: 4.0 | The snippet is from the ILPA D..."
+  },
+  {
+   "t": 1791962539.982,
+   "level": "info",
+   "msg": "  [Pos  55824 | Src: gaussian] Score: 2.0 | The snippet appears to be from..."
+  },
+  {
+   "t": 1791962545.335,
+   "level": "info",
+   "msg": "Collected 1 evidence units"
+  },
+  {
+   "t": 1791962550.556,
+   "level": "success",
+   "msg": "[Phase 3] KnowledgeCluster built: Overview count unclear. (1 evidence units)"
+  },
+  {
+   "t": 1791962550.556,
+   "level": "info",
+   "msg": "[Phase 4] Evidence sufficient, generating summary"
+  },
+  {
+   "t": 1791962550.556,
+   "level": "info",
+   "msg": "[Phase 4] Generating search result summary..."
+  },
+  {
+   "t": 1791962554.907,
+   "level": "warning",
+   "msg": "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  }
+ ],
+ "llm_call_records": [
+  {
+   "elapsed_s": 1.241,
+   "error": null,
+   "usage": {
+    "completion_tokens": 9,
+    "prompt_tokens": 194,
+    "total_tokens": 203,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 3.211,
+   "error": null,
+   "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 644,
+    "total_tokens": 801,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 12.555,
+   "error": null,
+   "usage": {
+    "completion_tokens": 1144,
+    "prompt_tokens": 2760,
+    "total_tokens": 3904,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.791,
+   "error": null,
+   "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 325,
+    "total_tokens": 378,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.977,
+   "error": null,
+   "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 332,
+    "total_tokens": 386,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.988,
+   "error": null,
+   "usage": {
+    "completion_tokens": 40,
+    "prompt_tokens": 326,
+    "total_tokens": 366,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.078,
+   "error": null,
+   "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 315,
+    "total_tokens": 365,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.111,
+   "error": null,
+   "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 328,
+    "total_tokens": 391,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.114,
+   "error": null,
+   "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 326,
+    "total_tokens": 379,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.374,
+   "error": null,
+   "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 343,
+    "total_tokens": 411,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.641,
+   "error": null,
+   "usage": {
+    "completion_tokens": 45,
+    "prompt_tokens": 314,
+    "total_tokens": 359,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.989,
+   "error": null,
+   "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 313,
+    "total_tokens": 375,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.997,
+   "error": null,
+   "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 332,
+    "total_tokens": 392,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.192,
+   "error": null,
+   "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 329,
+    "total_tokens": 382,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.944,
+   "error": null,
+   "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 329,
+    "total_tokens": 381,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.953,
+   "error": null,
+   "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 323,
+    "total_tokens": 377,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.017,
+   "error": null,
+   "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 343,
+    "total_tokens": 399,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.287,
+   "error": null,
+   "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 312,
+    "total_tokens": 359,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 5.351,
+   "error": null,
+   "usage": {
+    "completion_tokens": 259,
+    "prompt_tokens": 4553,
+    "total_tokens": 4812,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 5.221,
+   "error": null,
+   "usage": {
+    "completion_tokens": 301,
+    "prompt_tokens": 660,
+    "total_tokens": 961,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 4.351,
+   "error": null,
+   "usage": {
+    "completion_tokens": 244,
+    "prompt_tokens": 921,
+    "total_tokens": 1165,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  }
+ ],
+ "library_usage_records": [
+  {
+   "completion_tokens": 9,
+   "prompt_tokens": 194,
+   "total_tokens": 203,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 157,
+   "prompt_tokens": 644,
+   "total_tokens": 801,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 53,
+   "prompt_tokens": 325,
+   "total_tokens": 378,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 54,
+   "prompt_tokens": 332,
+   "total_tokens": 386,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 40,
+   "prompt_tokens": 326,
+   "total_tokens": 366,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 50,
+   "prompt_tokens": 315,
+   "total_tokens": 365,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 63,
+   "prompt_tokens": 328,
+   "total_tokens": 391,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 53,
+   "prompt_tokens": 326,
+   "total_tokens": 379,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 68,
+   "prompt_tokens": 343,
+   "total_tokens": 411,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 45,
+   "prompt_tokens": 314,
+   "total_tokens": 359,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 62,
+   "prompt_tokens": 313,
+   "total_tokens": 375,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 60,
+   "prompt_tokens": 332,
+   "total_tokens": 392,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 53,
+   "prompt_tokens": 329,
+   "total_tokens": 382,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 52,
+   "prompt_tokens": 329,
+   "total_tokens": 381,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 54,
+   "prompt_tokens": 323,
+   "total_tokens": 377,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 56,
+   "prompt_tokens": 343,
+   "total_tokens": 399,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 47,
+   "prompt_tokens": 312,
+   "total_tokens": 359,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 259,
+   "prompt_tokens": 4553,
+   "total_tokens": 4812,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 301,
+   "prompt_tokens": 660,
+   "total_tokens": 961,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 244,
+   "prompt_tokens": 921,
+   "total_tokens": 1165,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  }
+ ],
+ "trace": {
+  "reused_cluster": null,
+  "reused_cluster_id": null,
+  "reused_cluster_queries": [],
+  "candidate_files": [
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "evidence_found_files": [
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "gate": [
+   {
+    "should_answer": false,
+    "should_save": false,
+    "summary": "# Briefing\n\n## Assessment\nThe provided evidence **does not allow a definitive answer** to how many fund diligence topics are listed in the **Overview** of the **ILPA Due Diligence Questionnaire 2.0 (2021)**.\n\n## What the evidence supports\n- The supplied excerpts show the questionnaire has numbered sections **at least through Section 19**.\n- The **last visible topic** in the excerpts is **Section 19 – ESG**.\n- The ESG material shown includes:\n  - **19.2 Fundraising** – Establishing ESG commitments within fund documentation\n  - **19.3 Pre-investment** – Identifying material ESG risks and opportunities\n\n## Conclusion\n- **Number of fund diligence topics in the Overview:** **Not determinable from the provided evidence**\n- **Last visible topic:** **Topic 19 – ESG**\n\n## Limitation\nBecause the **Overview page itself is not included**, any claim about the exact total number of topics would **not be supported** by the provided evidence."
+   }
+  ]
+ }
+}

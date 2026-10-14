@@ -1,0 +1,182 @@
+{
+ "record": {
+  "id": "OTH-03",
+  "question": "In Rice University's 2021 RFP for audit services for its retirement plans, how many participants did the 401(a) plan and the 403(b) plan have as of December 31, 2020?",
+  "mode": "DEEP",
+  "paths": [
+   "/mnt/docs/S"
+  ],
+  "model": "gpt-5.4",
+  "answer": "No results found.",
+  "no_result": true,
+  "gate_should_answer": false,
+  "pre_gate_answer": "## Markdown Briefing\n\n### Rice University Retirement Plan Participants as of December 31, 2020\n\n- **403(b) plan:**  \n  - **7,002 participants** with accounts on the vendor platform.  \n  - Of these, **5,626 were active contributors**.  \n  - The evidence also mentions **6,863 legacy accounts**, but these are listed separately and should not be treated as the main participant count.\n\n- **401(a) plan (Match Plan):**  \n  - **Participant count not stated** in the provided evidence.\n\n### Bottom Line\n\nFrom the available evidence, **only the 403(b) plan participant count is provided**. The **401(a) plan count cannot be determined** from the cited material.",
+  "candidate_files": [
+   "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+  ],
+  "cited_files": [],
+  "reused_cluster": null,
+  "latency_s": 30.89,
+  "llm_calls": 12,
+  "prompt_tokens": 7728,
+  "completion_tokens": 1398,
+  "total_tokens": 9126,
+  "error": null,
+  "warnings": [
+   "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  ]
+ },
+ "context": {
+  "answer": "No results found.",
+  "cluster": null,
+  "max_token_budget": 128000,
+  "max_loops": 10,
+  "total_llm_tokens": 0,
+  "budget_remaining": 128000,
+  "llm_call_count": 0,
+  "llm_usages": [],
+  "read_file_ids": [],
+  "retrieval_logs": [],
+  "search_history": [],
+  "loop_count": 4,
+  "start_time": "2026-10-07T08:36:34.436869"
+ },
+ "logs": [
+  {
+   "t": 1791362195.734,
+   "level": "info",
+   "msg": "[search] Starting multi-path retrieval for: 'In Rice University's 2021 RFP for audit services for its retirement plans, how m'"
+  },
+  {
+   "t": 1791362195.734,
+   "level": "info",
+   "msg": "[Phase 1] Parallel probing: keywords + dir_scan + knowledge + spec_cache"
+  },
+  {
+   "t": 1791362195.734,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracting keywords..."
+  },
+  {
+   "t": 1791362195.736,
+   "level": "info",
+   "msg": "[Probe:DirScan] Scanning directories..."
+  },
+  {
+   "t": 1791362198.089,
+   "level": "info",
+   "msg": "[Probe:Keywords] Cross-lingual alt: ['退休计划审计服务', '401(a)计划', '403(b)计划', '征求建议书']"
+  },
+  {
+   "t": 1791362198.089,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracted: ['Rice University 2021 RFP', 'audit services retirement plans', '401(a) plan participants', '403(b) plan participants', 'December 31 2020', '退休计划审计服务', '401(a)计划', '403(b)计划', '征求建议书']"
+  },
+  {
+   "t": 1791362200.028,
+   "level": "info",
+   "msg": "[Probe:DirScan] Found 81 files in 1 dirs (4292ms)"
+  },
+  {
+   "t": 1791362200.028,
+   "level": "info",
+   "msg": "[Phase 1] Results: keywords=9, dir_scan=OK, knowledge_hits=0, spec_cache=YES"
+  },
+  {
+   "t": 1791362200.028,
+   "level": "info",
+   "msg": "[Phase 2] Parallel retrieval: rga keyword search + dir_scan LLM rank"
+  },
+  {
+   "t": 1791362202.57,
+   "level": "info",
+   "msg": "[Retrieve:Keywords] 0 files from rga search"
+  },
+  {
+   "t": 1791362210.892,
+   "level": "info",
+   "msg": "[Retrieve:DirScan] 1 relevant files (accept={'high'})"
+  },
+  {
+   "t": 1791362210.892,
+   "level": "info",
+   "msg": "[Phase 2] Results: keyword_files=0, dir_scan_files=1"
+  },
+  {
+   "t": 1791362210.892,
+   "level": "info",
+   "msg": "[Phase 3] Merged 1 unique candidate files"
+  },
+  {
+   "t": 1791362210.892,
+   "level": "info",
+   "msg": "Extracting evidence from 1 files (parallel)..."
+  },
+  {
+   "t": 1791362213.312,
+   "level": "info",
+   "msg": "  [Pos  11000 | Src: fuzz    ] Score: 8.0 | The snippet directly provides ..."
+  },
+  {
+   "t": 1791362213.312,
+   "level": "info",
+   "msg": "  [Pos 160500 | Src: fuzz    ] Score: 2.0 | The snippet mentions retiremen..."
+  },
+  {
+   "t": 1791362213.312,
+   "level": "info",
+   "msg": "  [Pos  55250 | Src: fuzz    ] Score: 2.0 | The snippet mentions 403(b) ve..."
+  },
+  {
+   "t": 1791362213.312,
+   "level": "info",
+   "msg": "  [Pos  50500 | Src: fuzz    ] Score: 4.0 | The snippet is about 403(b) an..."
+  },
+  {
+   "t": 1791362213.312,
+   "level": "info",
+   "msg": "  [Pos  17000 | Src: fuzz    ] Score: 4.0 | The snippet is related to the ..."
+  },
+  {
+   "t": 1791362213.312,
+   "level": "info",
+   "msg": "  [Pos  66386 | Src: stratified] Score: 2.0 | The snippet mentions participa..."
+  },
+  {
+   "t": 1791362213.312,
+   "level": "info",
+   "msg": "  [Pos 118859 | Src: stratified] Score: 0.0 | The snippet is about confident..."
+  },
+  {
+   "t": 1791362217.488,
+   "level": "info",
+   "msg": "Collected 1 evidence units"
+  },
+  {
+   "t": 1791362221.9,
+   "level": "success",
+   "msg": "[Phase 3] KnowledgeCluster built: Plan counts summary. (1 evidence units)"
+  },
+  {
+   "t": 1791362221.9,
+   "level": "info",
+   "msg": "[Phase 4] Evidence sufficient, generating summary"
+  },
+  {
+   "t": 1791362221.9,
+   "level": "info",
+   "msg": "[Phase 4] Generating search result summary..."
+  },
+  {
+   "t": 1791362225.331,
+   "level": "warning",
+   "msg": "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  }
+ ]
+}

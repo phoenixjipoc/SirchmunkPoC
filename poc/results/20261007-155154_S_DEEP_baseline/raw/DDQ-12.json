@@ -1,0 +1,178 @@
+{
+ "record": {
+  "id": "DDQ-12",
+  "question": "Which bucket (Not Present, Developing, Intermediate or Advanced) did ILPA assign to KKR under the ILPA ESG Assessment Framework, and what numerical score did KKR receive?",
+  "mode": "DEEP",
+  "paths": [
+   "/mnt/docs/S"
+  ],
+  "model": "gpt-5.4",
+  "answer": "No results found.",
+  "no_result": true,
+  "gate_should_answer": false,
+  "pre_gate_answer": "# Markdown Briefing\n\n## ILPA ESG Assessment Framework: KKR Result\n\n- **KKR bucket assignment:** **Not established in the provided evidence**\n- **KKR numerical score:** **None officially assigned by ILPA**\n\n## Key Findings\n\n- The **ILPA ESG Assessment Framework** includes four buckets:\n  - **Not Present**\n  - **Developing**\n  - **Intermediate**\n  - **Advanced**\n\n- The provided evidence **describes the framework only** and **does not show any KKR-specific assessment**.\n\n- ILPA explicitly states that it has **not assigned fixed numerical scores** to the framework categories.\n\n- While individual LPs may create their own scoring methods, any such score would be **organization-specific** and **not an official ILPA score**.\n\n## Conclusion\n\nBased on the provided evidence, **ILPA did not document a bucket assignment for KKR**, and **KKR did not receive an official numerical score from ILPA**.",
+  "candidate_files": [
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+   "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+   "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+   "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf"
+  ],
+  "cited_files": [],
+  "reused_cluster": null,
+  "latency_s": 26.96,
+  "llm_calls": 4,
+  "prompt_tokens": 11230,
+  "completion_tokens": 654,
+  "total_tokens": 11884,
+  "error": null,
+  "warnings": [
+   "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  ]
+ },
+ "context": {
+  "answer": "No results found.",
+  "cluster": null,
+  "max_token_budget": 128000,
+  "max_loops": 10,
+  "total_llm_tokens": 0,
+  "budget_remaining": 128000,
+  "llm_call_count": 0,
+  "llm_usages": [],
+  "read_file_ids": [],
+  "retrieval_logs": [],
+  "search_history": [],
+  "loop_count": 4,
+  "start_time": "2026-10-07T08:05:43.135500"
+ },
+ "logs": [
+  {
+   "t": 1791360345.202,
+   "level": "info",
+   "msg": "Searching for similar knowledge clusters..."
+  },
+  {
+   "t": 1791360345.4,
+   "level": "info",
+   "msg": "No similar clusters found, performing new search..."
+  },
+  {
+   "t": 1791360345.4,
+   "level": "info",
+   "msg": "[search] Starting multi-path retrieval for: 'Which bucket (Not Present, Developing, Intermediate or Advanced) did ILPA assign'"
+  },
+  {
+   "t": 1791360345.4,
+   "level": "info",
+   "msg": "[Phase 1] Parallel probing: keywords + dir_scan + knowledge + spec_cache"
+  },
+  {
+   "t": 1791360345.4,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracting keywords..."
+  },
+  {
+   "t": 1791360345.402,
+   "level": "info",
+   "msg": "[Probe:DirScan] Scanning directories..."
+  },
+  {
+   "t": 1791360348.161,
+   "level": "info",
+   "msg": "[Probe:Keywords] Cross-lingual alt: ['环境、社会和治理', '评估框架', 'bucket assignment', 'numerical score']"
+  },
+  {
+   "t": 1791360348.161,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracted: ['ILPA ESG Assessment Framework', 'KKR numerical score', 'ILPA bucket assignment', 'Developing Intermediate Advanced', '环境、社会和治理', '评估框架', 'bucket assignment', 'numerical score']"
+  },
+  {
+   "t": 1791360350.039,
+   "level": "info",
+   "msg": "[Probe:DirScan] Found 81 files in 1 dirs (4637ms)"
+  },
+  {
+   "t": 1791360350.04,
+   "level": "info",
+   "msg": "[Phase 1] Results: keywords=8, dir_scan=OK, knowledge_hits=0, spec_cache=YES"
+  },
+  {
+   "t": 1791360350.04,
+   "level": "info",
+   "msg": "[Phase 2] Parallel retrieval: rga keyword search + dir_scan LLM rank"
+  },
+  {
+   "t": 1791360352.897,
+   "level": "info",
+   "msg": "[Retrieve:Keywords] 3 files from rga search"
+  },
+  {
+   "t": 1791360361.745,
+   "level": "info",
+   "msg": "[Retrieve:DirScan] 2 relevant files (accept={'high'})"
+  },
+  {
+   "t": 1791360361.745,
+   "level": "info",
+   "msg": "[Phase 2] Results: keyword_files=3, dir_scan_files=2"
+  },
+  {
+   "t": 1791360361.745,
+   "level": "info",
+   "msg": "[Phase 3] Merged 3 unique candidate files"
+  },
+  {
+   "t": 1791360361.745,
+   "level": "info",
+   "msg": "Extracting evidence from 3 files (parallel)..."
+  },
+  {
+   "t": 1791360361.77,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 8195 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791360361.789,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 8755 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791360361.835,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 26257 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791360361.836,
+   "level": "info",
+   "msg": "Collected 3 evidence units"
+  },
+  {
+   "t": 1791360366.474,
+   "level": "success",
+   "msg": "[Phase 3] KnowledgeCluster built: KKR ILPA result unavailable. (3 evidence units)"
+  },
+  {
+   "t": 1791360366.474,
+   "level": "info",
+   "msg": "[Phase 4] Evidence sufficient, generating summary"
+  },
+  {
+   "t": 1791360366.474,
+   "level": "info",
+   "msg": "[Phase 4] Generating search result summary..."
+  },
+  {
+   "t": 1791360370.093,
+   "level": "warning",
+   "msg": "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  }
+ ]
+}

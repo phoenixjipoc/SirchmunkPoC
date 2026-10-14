@@ -1,0 +1,100 @@
+{
+ "record": {
+  "id": "CONS-16",
+  "question": "Across the investment consultant RFPs in the corpus that set a minimum number of years in business or experience for the consulting firm, what is the most common minimum requirement?",
+  "mode": "DEEP",
+  "paths": [
+   "/mnt/docs/S"
+  ],
+  "model": "gpt-5.4",
+  "answer": "## Answer\n\nBased on the provided excerpts, **no common minimum number of years in business or experience can be determined** from the investment consultant RFPs in the corpus.\n\n### Why\nAmong the documents that are clearly **investment consultant RFPs**:\n\n- **Arizona PSPRS – Investment Consultant RFP**: the excerpt provided does **not show** a stated minimum years-in-business or experience requirement.\n- **Anchorage Police & Fire Retirement System – Investment Consultant RFP**: the excerpt provided does **not show** a stated minimum years-in-business or experience requirement.\n\n### Important limitation\nThe document set also includes non-investment-consultant RFPs (for retirement plan administration, private markets due diligence questions, and OPEB actuarial services), which are not directly responsive to your question.\n\nBecause some documents contain **`[...content sampled...]`** markers, this analysis is **based only on excerpts** and may miss requirements that appear in omitted sections.",
+  "no_result": false,
+  "gate_should_answer": null,
+  "pre_gate_answer": null,
+  "candidate_files": [],
+  "sampled_files": [],
+  "evidence_files": [],
+  "cited_files": [
+   "/mnt/docs/S"
+  ],
+  "reused_cluster": null,
+  "latency_s": 6.22,
+  "llm_calls": 2,
+  "prompt_tokens": 12799,
+  "completion_tokens": 216,
+  "total_tokens": 13015,
+  "error": null,
+  "warnings": []
+ },
+ "context": {
+  "answer": "## Answer\n\nBased on the provided excerpts, **no common minimum number of years in business or experience can be determined** from the investment consultant RFPs in the corpus.\n\n### Why\nAmong the documents that are clearly **investment consultant RFPs**:\n\n- **Arizona PSPRS – Investment Consultant RFP**: the excerpt provided does **not show** a stated minimum years-in-business or experience requirement.\n- **Anchorage Police & Fire Retirement System – Investment Consultant RFP**: the excerpt provided does **not show** a stated minimum years-in-business or experience requirement.\n\n### Important limitation\nThe document set also includes non-investment-consultant RFPs (for retirement plan administration, private markets due diligence questions, and OPEB actuarial services), which are not directly responsive to your question.\n\nBecause some documents contain **`[...content sampled...]`** markers, this analysis is **based only on excerpts** and may miss requirements that appear in omitted sections.",
+  "cluster": {
+   "id": "DQ74923e42",
+   "name": "Across the investment consultant RFPs in the corpus that set",
+   "description": [
+    "Search result for: Across the investment consultant RFPs in the corpus that set a minimum number of years in business or experience for the consulting firm, what is the most common minimum requirement?"
+   ],
+   "content": "## Answer\n\nBased on the provided excerpts, **no common minimum number of years in business or experience can be determined** from the investment consultant RFPs in the corpus.\n\n### Why\nAmong the documents that are clearly **investment consultant RFPs**:\n\n- **Arizona PSPRS – Investment Consultant RFP**: the excerpt provided does **not show** a stated minimum years-in-business or experience requirement.\n- **Anchorage Police & Fire Retirement System – Investment Consultant RFP**: the excerpt provided does **not show** a stated minimum years-in-business or experience requirement.\n\n### Important limitation\nThe document set also includes non-investment-consultant RFPs (for retirement plan administration, private markets due diligence questions, and OPEB actuarial services), which are not directly responsive to your question.\n\nBecause some documents contain **`[...content sampled...]`** markers, this analysis is **based only on excerpts** and may miss requirements that appear in omitted sections.",
+   "scripts": null,
+   "resources": [
+    {
+     "type": "file",
+     "value": "/mnt/docs/S"
+    }
+   ],
+   "patterns": [],
+   "constraints": [],
+   "evidences": [
+    {
+     "doc_id": "142cc5198d86",
+     "file_or_url": "/mnt/docs/S",
+     "summary": "## Answer\n\nBased on the provided excerpts, **no common minimum number of years in business or experience can be determined** from the investment consultant RFPs in the corpus.\n\n### Why\nAmong the documents that are clearly **investment consultant RFPs**:\n\n- **Arizona PSPRS – Investment Consultant RFP**: the excerpt provided does **not show** a stated minimum years-in-business or experience requirement.\n- **Anchorage Police & Fire Retirement System – Investment Consultant RFP**: the excerpt provided does **not show** a stated minimum years-in-business or experience requirement.\n\n### Important limitation\nThe document set also includes non-investment-consultant RFPs (for retirement plan administration, private markets due diligence questions, and OPEB actuarial services), which are not directly responsive to your question.\n\nBecause some documents contain **`[...content sampled...]`** markers, this analysis is **based only on excerpts** and may miss requirements that appear in omitted sections.",
+     "is_found": true,
+     "snippets": [
+      "## Answer\n\nBased on the provided excerpts, **no common minimum number of years in business or experience can be determined** from the investment consultant RFPs in the corpus.\n\n### Why\nAmong the documents that are clearly **investment consultant RFPs**:\n\n- **Arizona PSPRS – Investment Consultant RFP**: the excerpt provided does **not show** a stated minimum years-in-business or experience requirement.\n- **Anchorage Police & Fire Retirement System – Investment Consultant RFP**: the excerpt provided does **not show** a stated minimum years-in-business or experience requirement.\n\n### Important limitation\nThe document set also includes non-investment-consultant RFPs (for retirement plan administration, private markets due diligence questions, and OPEB actuarial services), which are not directly responsive to your question.\n\nBecause some documents contain **`[...content sampled...]`** markers, this analysis is **based only on excerpts** and may miss requirements that appear in omitted sections."
+     ],
+     "extracted_at": "2026-10-07T08:00:45.675860+00:00",
+     "conflict_group": null
+    }
+   ],
+   "confidence": 0.5,
+   "abstraction_level": "TECHNIQUE",
+   "landmark_potential": null,
+   "hotness": 0.5,
+   "lifecycle": "EMERGING",
+   "create_time": "2026-10-07T08:00:45.675896+00:00",
+   "last_modified": "2026-10-07T08:00:45.675898+00:00",
+   "version": 0,
+   "related_clusters": [],
+   "search_results": [
+    "/mnt/docs/S"
+   ],
+   "queries": [
+    "Across the investment consultant RFPs in the corpus that set a minimum number of years in business or experience for the consulting firm, what is the most common minimum requirement?"
+   ]
+  },
+  "max_token_budget": 128000,
+  "max_loops": 10,
+  "total_llm_tokens": 0,
+  "budget_remaining": 128000,
+  "llm_call_count": 0,
+  "llm_usages": [],
+  "read_file_ids": [],
+  "retrieval_logs": [],
+  "search_history": [],
+  "loop_count": 0,
+  "start_time": "2026-10-07T08:00:39.459964"
+ },
+ "logs": [
+  {
+   "t": 1791360041.179,
+   "level": "info",
+   "msg": "[DocQA] Intent 'analyze' detected — loading 5 file(s) for direct analysis: American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf, AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf, Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf, AVFPD__RFP-Actuatial-Services-2024.pdf, Anchorage_PFRS__RFP_2025_Final.pdf"
+  },
+  {
+   "t": 1791360045.676,
+   "level": "success",
+   "msg": "[DocQA] Direct document analysis complete"
+  }
+ ]
+}

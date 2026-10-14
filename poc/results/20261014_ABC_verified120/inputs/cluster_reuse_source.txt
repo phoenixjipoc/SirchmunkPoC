@@ -1,0 +1,107 @@
+355:    async def _try_reuse_cluster(self, query: str, paths: Optional[List[str]] = None) -> Optional[KnowledgeCluster]:
+356:        """Try to reuse existing knowledge cluster based on semantic similarity.
+357:
+358:        The method waits (non-blocking) for the embedding model to become
+359:        ready so that reuse works reliably even on the first search call
+360:        within a process.
+361:
+362:        Args:
+363:            query: The search query string.
+364:            paths: Optional list of file paths to filter cluster search scope.
+365:
+366:        Returns:
+367:            KnowledgeCluster if a suitable cached cluster is found, None otherwise.
+368:        """
+369:        if not self.embedding_client:
+370:            return None
+371:
+372:        try:
+373:            # Wait briefly for the model so reuse can work when it's already loading.
+374:            # Use a short timeout to avoid blocking the first request (e.g. in Docker
+375:            # the model may take 30–60s to load; we skip reuse and do full search instead).
+376:            if not self.embedding_client.is_ready():
+377:                self.embedding_client.start_loading()
+378:                try:
+379:                    await self.embedding_client._ensure_model_async(timeout=5)
+380:                except Exception:
+381:                    await self._logger.debug(
+382:                        "Embedding model not ready yet, skipping cluster reuse"
+383:                    )
+384:                    return None
+385:
+386:            await self._logger.info("Searching for similar knowledge clusters...")
+387:
+388:            query_embedding = (await self.embedding_client.embed([query]))[0]
+389:
+390:            similar_clusters = await self.knowledge_storage.search_similar_clusters(
+391:                query_embedding=query_embedding,
+392:                top_k=self.cluster_sim_top_k,
+393:                similarity_threshold=self.cluster_sim_threshold,
+394:                search_paths=paths,
+395:            )
+396:
+397:            if not similar_clusters:
+398:                await self._logger.info("No similar clusters found, performing new search...")
+399:                return None
+400:
+401:            best_match = similar_clusters[0]
+402:            await self._logger.success(
+403:                f"Found similar cluster: {best_match['name']} "
+404:                f"(similarity: {best_match['similarity']:.3f})"
+405:            )
+406:
+407:            existing_cluster = await self.knowledge_storage.get(best_match["id"])
+408:            if not existing_cluster:
+409:                await self._logger.warning("Failed to retrieve cluster, falling back to new search")
+410:                return None
+411:
+412:            # Validate cluster has usable content BEFORE mutating it
+413:            content = existing_cluster.content
+414:            if isinstance(content, list):
+415:                content = "\n".join(content)
+416:            if not content:
+417:                await self._logger.warning(
+418:                    f"Cluster {existing_cluster.id} has empty content, falling back to full search"
+419:                )
+420:                return None
+421:
+422:            # Mutate only after validation passes
+423:            self._add_query_to_cluster(existing_cluster, query)
+424:            existing_cluster.hotness = min(1.0, (existing_cluster.hotness or 0.5) + 0.1)
+425:            existing_cluster.last_modified = datetime.now(timezone.utc)
+426:
+427:            # Recompute embedding with updated queries list
+428:            try:
+429:                from sirchmunk.utils.embedding_util import compute_text_hash
+430:
+431:                combined_text = self.knowledge_storage.combine_cluster_fields(
+432:                    existing_cluster.queries
+433:                )
+434:                text_hash = compute_text_hash(combined_text)
+435:                embedding_vector = (await self.embedding_client.embed([combined_text]))[0]
+436:
+437:                await self.knowledge_storage.store_embedding(
+438:                    cluster_id=existing_cluster.id,
+439:                    embedding_vector=embedding_vector,
+440:                    embedding_model=self.embedding_client.model_id,
+441:                    embedding_text_hash=text_hash,
+442:                )
+443:            except Exception as emb_error:
+444:                await self._logger.warning(f"Failed to update embedding: {emb_error}")
+445:
+446:            await self.knowledge_storage.update(existing_cluster)
+447:
+448:            # Flush to parquet so the updated cluster is visible to future searches
+449:            try:
+450:                self.knowledge_storage.force_sync()
+451:            except Exception as sync_err:
+452:                await self._logger.warning(f"Parquet force_sync failed: {sync_err}")
+453:
+454:            await self._logger.success("Reused existing knowledge cluster")
+455:            return existing_cluster
+456:
+457:        except Exception as e:
+458:            await self._logger.warning(
+459:                f"Failed to search similar clusters: {e}. Falling back to full search."
+460:            )
+461:            return None

@@ -1,0 +1,173 @@
+{
+  "acceptance": {
+    "INV-02": "Accept 2pm September 1, 2025 and original plus five copies/six total. Address, sealing and late-return treatment are optional.",
+    "INV-05": "Require aggregate client private-equity assets of at least $10bn and firm/principal consulting experience. Do not require $10bn for each client or personnel tenure.",
+    "INV-08": "Accept equivalent 5% single-issuer at purchase, 20% foreign listed on specified US exchanges, 10% cash, and Russell 2000 Growth net-of-fee target. Preserve material exceptions; issuer identification is optional.",
+    "INV-11": "Three factors with substantively equivalent descriptions suffice; exact wording and order are unnecessary.",
+    "INV-14": "At least $5bn total firm AUM as of June 30, 2026. Do not confuse firm AUM with product assets.",
+    "INV-17": "Accept concise synonymous descriptions of all four criteria at 25/30/25/20; sublists need not reproduce every phrase verbatim.",
+    "INV-20": "All seven meeting categories and about 60 days/year. Frequent telephone calls and principal-attendance details are optional.",
+    "INV-23": "Accept concise initial-plus-extension terms per named specialist RFP. Baltimore five years plus two possible two-year options is essential; do not accept 'no term'. Missouri one plus an additional two years is explicitly supported by p7. Hawaii search-completion extensions and INPRS temporary month-to-month continuation are supplementary, not mandatory. Naming the exact RFP set avoids treating every general-consultant RFP as required.",
+    "SVC-02": "Accept amounts mapped correctly to Money Purchase, 401(k), and Defined Benefit; profit-sharing description is optional.",
+    "SVC-05": "RSM, since 2014, ten-year maximum and rebidding at least every ten years. Prior SBOA history is optional.",
+    "SVC-08": "$20bn DC assets under administration and CAPTRUST suffice. Issuer, contract number and date are optional.",
+    "SVC-11": "46 participants and $1,894,729 as of March 31, 2020. Active/inactive split and recordkeepers are helpful but optional.",
+    "SVC-14": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "SVC-17": "Five categories with 10/20/30/30/10 points, correctly distinguishing plan-sponsor from participant services. Exhaustive examples within categories are optional.",
+    "SVC-20": "Require both experience-study peer review and independent June 30, 2023 parallel valuation, including SRBR/GASB67 and discrepancy reconciliation. A concise account may group data and assumption checks; sample-agreement delivery details are optional.",
+    "SVC-23": "Include the four identified audit-procurement documents and the nature of each GASB68 schedule audit. Detailed OPERS hours, weeks and staffing are optional; the remote-work fact identifies its Q&A contribution.",
+    "XD-02": "2015, ILPA, early 2021 and preceding four months. Signatory composition, written/verbal distinction and section19 identifier are optional.",
+    "XD-05": "September 2016 plus the three substantive revision groups; concise paraphrases accepted.",
+    "XD-08": "TGER; forward estimate for unlaunched versus historical for existing; NAV/GAV and with/without performance fees. Equivalent description of INREV-compatible fallback accepted.",
+    "XD-11": "All fourteen topics may be grouped in prose. Preserve three-year incident lookback and six-month outstanding high-risk findings; no need to reproduce every question verbatim.",
+    "XD-14": "Eight topics 10.1–10.8 required in substance, including portfolio-company ESG assistance and monitoring. Exact question wording and numbering are optional.",
+    "XD-17": "Accept three RFPs with operative Iran provisions plus an explicit LAFPP exemption caveat. Four documents containing Iran text is acceptable only if LAFPP is not described as imposing PSC-36 under this RFP. State-law legality outside document interpretation is not assessed.",
+    "XD-20": "Accept NOT IN CORPUS or 'no minimum pass score is specified', preferably explaining the premise and the questionnaire's no-score alternative. Do not invent a threshold; do not claim that the INREV questionnaire itself is absent.",
+    "XD-23": "Accept NOT IN CORPUS/cannot determine from supplied documents. Do not substitute LACERS or LAFPP deadlines, or claim no LACERA RFP exists anywhere.",
+    "CONS-02": "28 points alone is sufficient. Other scoring categories and fee formula are optional.",
+    "CONS-05": "Five years and seven-year total ceiling including renewals/extensions/options. Thirty-day termination is optional.",
+    "CONS-08": "Retirement Plan for CTA/Chicago Transit Authority Employees; publication date is optional.",
+    "CONS-11": "January 14, 2026, 4pm Central Time. CT or CST acceptable for the January date.",
+    "CONS-14": "Require all ten Section2 bullet requirements and five insurance limits when asking 'all'. If the question retains whole-document scope, allow explanation of Section2 versus AppendixA differences rather than forcing a single contradictory date or >/$1.5bn threshold.",
+    "DDQ-01": "AC Private Markets / Calamos with Aksia accepted. Subtitle, copyright year and recent-example follow-up are optional.",
+    "DDQ-04": "Intermediate every 2–3 years; Advanced annually. Sharing findings and explaining evolution are optional because question asks frequency.",
+    "DDQ-07": "20 and Diversity, Equity and Inclusion. Version-comparison commentary and topic19 label are optional.",
+    "DDQ-10": "Seven subsection groups, including Additional Information and management company's own ESG. Examples under each group are optional; do not treat six as the complete count.",
+    "DDQ-13": "Accept NOT IN CORPUS or explicit inability to identify selected manager/commitment from an unfilled DDQ. Do not treat requested fund size or an applicant question as an award.",
+    "OTH-02": "Two, approximately $185m combined, Bloomberg U.S. Aggregate Bond Index.",
+    "OTH-05": "At least three public-fund clients with at least $10bn each. March31,2024 is a useful qualifier, not a separately asked fact.",
+    "OTH-08": "Approximately $50m and February13,2026 at 5pm. Foundation name is optional; no timezone is specified or required.",
+    "OTH-11": "November27,2017 at 4:30pm HST; equivalent date/time format accepted.",
+    "OTH-14": "November30,2022 at 4:30pm HST; issue date and RFP number optional.",
+    "OTH-17": "Professionalism15, proposed scope/method30, qualifications/experience35, value/cost20. Points or percentages accepted because weights total100."
+  },
+  "overrides": {
+    "INV-23": {
+      "status": "needs_correction",
+      "note": "Gold wrongly says Baltimore BCERS states no contract term: p24 expressly describes the five-year contract with two two-year options and p27 provides the fee schedule. Add Baltimore to gold sources. Rechecking Missouri p7 resolves my blind uncertainty: it explicitly says an additional two years, so gold is correct there; p19 is less precise. Arizona p8 supports gold's 3+1+1 and was omitted from my initial specialist-file scope. The broad question should name the documents to make expected coverage finite. No asserted no-term finding should be extended to all general consultant RFPs.",
+      "proposed_changes": {
+        "question": "For the specialist consultant RFPs from DCRB (real assets), Hawaii ERS (2022 private equity and real assets), INPRS (23-09 alternatives), Missouri LAGERS (private markets), TRS Illinois (FY25 private equity), Arizona PSPRS (non-discretionary), Baltimore BCERS (alternatives), SBCERS (2020 private equity) and Illinois FPIF (2023 private markets), what initial contract terms and renewal or extension options are stated?",
+        "gold_answer": "DCRB real assets: three-year original agreement. Hawaii ERS 2022 real assets: about three years ending June 30, 2026, with optional three-year extension through June 30, 2029. Hawaii ERS 2022 private equity: three years plus optional two-year extension. INPRS 23-09 alternatives: initial five years, optional renewals under the same terms up to another five years, total at most ten. Missouri LAGERS: initial one year, then the right but not obligation to enter an additional two-year agreement with services and fees agreed by both parties. TRS Illinois FY25 PE: execution to December 31, 2029, at most five years, no extension. Arizona PSPRS: initial three years with two possible one-year extensions. Baltimore BCERS: five-year contract and asks agreement/fee quotes for two two-year options. SBCERS 2020 PE and Illinois FPIF 2023 private markets: no fixed engagement term or renewal option found in these RFPs.",
+        "gold_source_file": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf;Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf;Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf;INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf;Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf;TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf;Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf;Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf;SBCERS__2020-Private-Equity-RFP.pdf;Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf"
+      },
+      "append_evidence": [
+        {
+          "file": "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+          "page": 27,
+          "quote": "Two (2) Two-Year Options:"
+        },
+        {
+          "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+          "page": 7,
+          "quote": "Consultant for period of an additional 2 years with services and fees to be agreed upon by both parties."
+        },
+        {
+          "file": "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+          "page": 8,
+          "quote": "It is anticipated that the contract will be offered for an initial term of three years, with two possible one- year extensions before it will be bid again."
+        }
+      ]
+    },
+    "CONS-14": {
+      "status": "needs_correction",
+      "note": "Gold stops after the sixth of ten Section2 bullets. It omits no material conflicts, agreement to the AppendixE-form contract, SEC registration, and five insurance requirements ($5m general, $5m E&O, $1m fiduciary, $1m workers/employers, $1m cyber), plus AppendixA certification. Section2 pp4–5 says current clients each over $1.5bn and March15,2024; AppendixA p24 says has consulted/at least $1.5bn and insurance as of April3,2024. Scope the question to Section2 or acknowledge the inconsistency instead of presenting a single unqualified whole-document requirement.",
+      "proposed_changes": {
+        "question": "What are all the minimum requirements in Section 2 (pages 4–5) of the City of Hartford MERF general investment consultant RFP?",
+        "gold_answer": "Section2 requires: (1) at least ten years providing general consulting; (2) senior leadership together at least three years; (3) no subcontracting account management, and all responsible personnel are employees; (4) currently consulting for at least five public pension funds each over $1.5bn; (5) primary consultant has at least five years of defined-benefit public-pension consulting and at least three years employed by proposer; (6) fiduciary service to MERF/OPEB and written compliance with their investment policies/guidelines; (7) no existing or potential material conflicts with the City Treasurer/staff, Pension Commission, OPEB Committee, actuary, auditor, managers or other providers; (8) agree to execute a contract similar to AppendixE; (9) current SEC investment-adviser registration; (10) carry or have applied by submission for general liability $5m, E&O/professional liability $5m, fiduciary liability $1m, workers' compensation/employer liability $1m, and cybersecurity $1m. Section2 says all qualifications must be met by March15,2024 at 5pm ET and AppendixA certification must be completed. AppendixA separately uses different client-threshold/history and insurance-date wording; this answer follows Section2 as asked."
+      },
+      "append_evidence": [
+        {
+          "file": "Hartford_MERF__file.pdf",
+          "page": 4,
+          "quote": "The Proposer shall maintain a current registration with the Securities and Exchange Commission as an Advisor"
+        },
+        {
+          "file": "Hartford_MERF__file.pdf",
+          "page": 4,
+          "quote": "The Proposer shall not have existing or potential material conflicts of interests"
+        },
+        {
+          "file": "Hartford_MERF__file.pdf",
+          "page": 4,
+          "quote": "General Liability                              Min     $ 5,000,000"
+        },
+        {
+          "file": "Hartford_MERF__file.pdf",
+          "page": 4,
+          "quote": "Errors and Omissions (Professional Liability)     Min     $ 5,000,000"
+        }
+      ]
+    },
+    "DDQ-10": {
+      "status": "needs_correction",
+      "note": "Gold's statement of six ESG subsections is incorrect and omits 19.7 Additional Information on physical p42. That subsection asks about other specific ESG topics/practices and the management company's own internal ESG risks/opportunities. Climate section also includes TCFD reporting; this is useful elaboration, not an additional eighth subsection.",
+      "proposed_changes": {
+        "gold_answer": "Section19 has seven subsections: 19.1 Policy—ESG policies, governance and oversight; 19.2 Fundraising—ESG commitments in fund documentation; 19.3 Pre-investment—material ESG risks/opportunities and due diligence; 19.4 Post-investment—portfolio-company mitigation, value creation and monitoring; 19.5 Reporting and Disclosure—LP monitoring/reporting and material incidents; 19.6 Climate Change—GHG measurement/reporting, commitments/actions and TCFD reporting; 19.7 Additional Information—other ESG topics/practices not otherwise covered and management-company internal ESG risks/opportunities and performance."
+      },
+      "append_evidence": [
+        {
+          "file": "ILPA__ILPA-DDQ-2.0.pdf",
+          "page": 42,
+          "quote": "19.7.1      If applicable, describe how your approach to ESG incorporation addresses specific ESG topics or practices not otherwise covered in this document."
+        },
+        {
+          "file": "ILPA__ILPA-DDQ-2.0.pdf",
+          "page": 42,
+          "quote": "How do you manage your management company's (i.e. your own business') internal ESG risks and opportunities?"
+        }
+      ]
+    },
+    "XD-17": {
+      "status": "needs_correction",
+      "note": "Both gold and my initial blind answer missed a controlling exception: LAFPP p25 Section1.22 says comply with standard City provisions 'except for the following' and expressly lists PSC-36 Iran Contracting Act. Its generic appendix p42 contains the $1m affidavit clause, but it cannot be presented as an unqualified respondent obligation for this RFP. Illinois SRS, NYC BERS and SC RSIC impose the identified Iran provisions. Preserve LAFPP as a document containing an exempted clause, not a fourth operative requirement.",
+      "proposed_changes": {
+        "gold_answer": "Illinois SRS actuarial consulting requires the Disclosure of Business Operations with Iran (Vendor Disclosure Part6). NYC BERS 2024-003 requires the Iran Divestment Act compliance rider and bidder certification concerning the SFL165-a list. SC RSIC 2016 general consulting requires ExhibitF Iran Divestment Act of 2014 certification and advice consistent with the applicable investment restrictions. LAFPP DCFS25-01 also contains a generic PSC-36 Iran Contracting Act affidavit clause for City contracts estimated at $1m or more in its appendix, but Section1.22 of the RFP explicitly EXEMPTS PSC-36; it should not be counted as an applicable Iran affidavit obligation under this solicitation."
+      },
+      "append_evidence": [
+        {
+          "file": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+          "page": 25,
+          "quote": "If awarded a contract, the respondent must comply with the Standard Provisions for City Contracts (See Appendix 6.2), except for the following:"
+        },
+        {
+          "file": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+          "page": 25,
+          "quote": "PSC-36 Iran Contracting Act"
+        }
+      ]
+    },
+    "XD-14": {
+      "note": "Gold verified after a source recheck corrected my blind extraction scope. Original physical p6 continues through 10.7 and 10.8; my saved blind answer inadvertently stopped at 10.6. There are eight questions, as gold states. The blind record is retained unchanged for auditability.",
+      "append_evidence": [
+        {
+          "file": "NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+          "page": 6,
+          "quote": "10.7.  How does respondent contribute to portfolio companies’ management of ESG-related risks and opportunities?"
+        },
+        {
+          "file": "NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+          "page": 6,
+          "quote": "10.8.  What monitoring processes would respondent have in place to assess the proposed Fund’s portfolio companies’ management of ESG factors?"
+        }
+      ]
+    },
+    "XD-20": {
+      "note": "Corpus-bounded negative verified as a false premise, rather than missing INREV source: section3.8.1 asks for GRESB score/change or alternative metrics if there is no score and imposes no cutoff. All three INREV versions, including the fresh legacy DOC, were searched. NOT IN CORPUS is acceptable as the dataset sentinel, with explanatory variants accepted."
+    },
+    "XD-23": {
+      "note": "Corpus-bounded absence verified after searching all81 original-source extractions and the file inventory. No LACERA consultant RFP exists in this set; sole LACERA mention is Scott Zdrazil in PRI working-group list. This is not an assertion about external procurement availability."
+    },
+    "DDQ-13": {
+      "note": "Corpus-bounded absence verified. Source is an unfilled AppendixA applicant DDQ, not a selection/commitment notice. All81 fresh source extractions searched for NJEDA/Life Science Seed Fund; only this file identified. No manager or award amount may be inferred from its questions."
+    },
+    "CONS-05": {
+      "note": "Semantically verified; fresh extraction is scrambled. Original physical p1 visually checked and existing corpus text confirms five years with seven-year total ceiling. Termination detail in gold is optional."
+    },
+    "DDQ-04": {
+      "note": "Answer verified by rendering original physical p2: Intermediate every2–3 years and Advanced annually. Existing gold_passage is an interleaved table fragment that omits the 2–3-year phrase; a stronger verbatim passage is proposed without changing the correct answer."
+    },
+    "SVC-23": {
+      "note": "The four-document enumeration agrees with independent corpus-wide review, including OPERS Q&A. Other GASB68 matches (Boston, COAERS, Illinois SRS, LACERS and Stoneham) concern actuarial service/report preparation rather than these audit procurements. OPERS time/staff detail in gold is optional."
+    }
+  }
+}

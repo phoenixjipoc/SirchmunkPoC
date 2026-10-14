@@ -1,0 +1,339 @@
+{
+ "record": {
+  "id": "OTH-13",
+  "question": "What was the proposal deadline in the Hawaii ERS 2017 RFP for real estate investment consultant services?",
+  "mode": "DEEP",
+  "paths": [
+   "/mnt/docs/S"
+  ],
+  "model": "gpt-5.4",
+  "answer": "No results found.",
+  "no_result": true,
+  "gate_should_answer": false,
+  "pre_gate_answer": "# Briefing\n\n## Conclusion\n**The proposal deadline cannot be identified from the provided evidence.**\n\n## Reason\nThe supplied materials **do not include the Hawaii ERS 2017 RFP** for **real estate investment consultant services**. Instead, they reference unrelated RFPs from other organizations and years.\n\n## Evidence Assessment\nThe documents cited are not relevant to the specific question:\n\n- **City of Austin Employees’ Retirement System (2025)**  \n  - RFP for **actuarial services**\n  - Proposal deadline: **July 30, 2025**\n  - **Not related** to Hawaii ERS, 2017, or real estate investment consulting\n\n- **Teachers’ Retirement System of the State of Illinois (2023)**  \n  - RFP for **investment consulting services**\n  - Proposal deadline: **February 9, 2023, 2:00 p.m. CST**\n  - **Not the requested Hawaii ERS 2017 RFP**\n\n- **Oklahoma Public Employees Retirement System (2022)**  \n  - RFP for **investment consulting services**\n  - Proposal deadline: **March 25, 2022, 4:30 p.m. Central Time**\n  - **Also unrelated**\n\n## Bottom Line\nBecause the evidence does not contain the **Hawaii ERS 2017 RFP** or a matching reference to its **real estate investment consultant services** solicitation, **the proposal deadline cannot be determined reliably** from the provided information.",
+  "candidate_files": [
+   "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+   "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+   "/mnt/docs/S/Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+   "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+   "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+   "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+   "/mnt/docs/S/Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+   "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+   "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+   "/mnt/docs/S/CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+   "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+   "/mnt/docs/S/Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+   "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+   "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+   "/mnt/docs/S/Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf",
+   "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+   "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+   "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+   "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+   "/mnt/docs/S/Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+   "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+   "/mnt/docs/S/Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf"
+  ],
+  "cited_files": [],
+  "reused_cluster": null,
+  "latency_s": 40.54,
+  "llm_calls": 34,
+  "prompt_tokens": 61882,
+  "completion_tokens": 2585,
+  "total_tokens": 64467,
+  "error": null,
+  "warnings": [
+   "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  ]
+ },
+ "context": {
+  "answer": "No results found.",
+  "cluster": null,
+  "max_token_budget": 128000,
+  "max_loops": 10,
+  "total_llm_tokens": 0,
+  "budget_remaining": 128000,
+  "llm_call_count": 0,
+  "llm_usages": [],
+  "read_file_ids": [],
+  "retrieval_logs": [],
+  "search_history": [],
+  "loop_count": 4,
+  "start_time": "2026-10-07T08:14:06.859274"
+ },
+ "logs": [
+  {
+   "t": 1791360848.384,
+   "level": "info",
+   "msg": "Searching for similar knowledge clusters..."
+  },
+  {
+   "t": 1791360848.465,
+   "level": "info",
+   "msg": "No similar clusters found, performing new search..."
+  },
+  {
+   "t": 1791360848.465,
+   "level": "info",
+   "msg": "[search] Starting multi-path retrieval for: 'What was the proposal deadline in the Hawaii ERS 2017 RFP for real estate invest'"
+  },
+  {
+   "t": 1791360848.465,
+   "level": "info",
+   "msg": "[Phase 1] Parallel probing: keywords + dir_scan + knowledge + spec_cache"
+  },
+  {
+   "t": 1791360848.465,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracting keywords..."
+  },
+  {
+   "t": 1791360848.467,
+   "level": "info",
+   "msg": "[Probe:DirScan] Scanning directories..."
+  },
+  {
+   "t": 1791360851.291,
+   "level": "info",
+   "msg": "[Probe:Keywords] Cross-lingual alt: ['real estate investment consultant services', '房地产投资顾问服务', 'proposal deadline', '截止日期']"
+  },
+  {
+   "t": 1791360851.291,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracted: ['Hawaii ERS 2017 RFP', 'proposal deadline', 'real estate investment consultant services', 'investment consultant services', '房地产投资顾问服务', '截止日期']"
+  },
+  {
+   "t": 1791360852.522,
+   "level": "info",
+   "msg": "[Probe:DirScan] Found 81 files in 1 dirs (4055ms)"
+  },
+  {
+   "t": 1791360852.522,
+   "level": "info",
+   "msg": "[Phase 1] Results: keywords=6, dir_scan=OK, knowledge_hits=0, spec_cache=YES"
+  },
+  {
+   "t": 1791360852.522,
+   "level": "info",
+   "msg": "[Phase 2] Parallel retrieval: rga keyword search + dir_scan LLM rank"
+  },
+  {
+   "t": 1791360854.308,
+   "level": "info",
+   "msg": "[Retrieve:Keywords] 20 files from rga search"
+  },
+  {
+   "t": 1791360864.967,
+   "level": "info",
+   "msg": "[Retrieve:DirScan] 0 relevant files (accept={'high'})"
+  },
+  {
+   "t": 1791360864.967,
+   "level": "info",
+   "msg": "[Phase 2] Results: keyword_files=20, dir_scan_files=0"
+  },
+  {
+   "t": 1791360864.967,
+   "level": "info",
+   "msg": "[Phase 3] Merged 20 unique candidate files"
+  },
+  {
+   "t": 1791360864.967,
+   "level": "info",
+   "msg": "Extracting evidence from 5 files (parallel)..."
+  },
+  {
+   "t": 1791360865.047,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 37611 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791360865.221,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 94095 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791360866.057,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 81491 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791360867.915,
+   "level": "info",
+   "msg": "  [Pos  16500 | Src: fuzz    ] Score: 4.0 | The snippet mentions proposal ..."
+  },
+  {
+   "t": 1791360867.915,
+   "level": "info",
+   "msg": "  [Pos  15750 | Src: fuzz    ] Score: 4.0 | The snippet mentions an RFP an..."
+  },
+  {
+   "t": 1791360867.915,
+   "level": "info",
+   "msg": "  [Pos   1750 | Src: fuzz    ] Score: 6.0 | The snippet is from the RFP an..."
+  },
+  {
+   "t": 1791360867.915,
+   "level": "info",
+   "msg": "  [Pos   2000 | Src: fuzz    ] Score: 5.0 | The snippet is from the RFP an..."
+  },
+  {
+   "t": 1791360867.915,
+   "level": "info",
+   "msg": "  [Pos  19250 | Src: fuzz    ] Score: 4.0 | The snippet discusses an RFP a..."
+  },
+  {
+   "t": 1791360867.915,
+   "level": "info",
+   "msg": "  [Pos  27580 | Src: stratified] Score: 4.0 | The snippet is from the RFP an..."
+  },
+  {
+   "t": 1791360867.915,
+   "level": "info",
+   "msg": "  [Pos 158021 | Src: stratified] Score: 0.0 | The snippet discusses vendor l..."
+  },
+  {
+   "t": 1791360867.946,
+   "level": "info",
+   "msg": "  [Pos   2000 | Src: fuzz    ] Score: 2.0 | The snippet is about the Teach..."
+  },
+  {
+   "t": 1791360867.946,
+   "level": "info",
+   "msg": "  [Pos   2250 | Src: fuzz    ] Score: 2.0 | The snippet discusses investme..."
+  },
+  {
+   "t": 1791360867.946,
+   "level": "info",
+   "msg": "  [Pos   6000 | Src: fuzz    ] Score: 4.0 | The snippet is related to an R..."
+  },
+  {
+   "t": 1791360867.946,
+   "level": "info",
+   "msg": "  [Pos  30250 | Src: fuzz    ] Score: 2.0 | The snippet is about private e..."
+  },
+  {
+   "t": 1791360867.946,
+   "level": "info",
+   "msg": "  [Pos  48250 | Src: fuzz    ] Score: 2.0 | The snippet mentions investmen..."
+  },
+  {
+   "t": 1791360867.946,
+   "level": "info",
+   "msg": "  [Pos  76217 | Src: stratified] Score: 0.0 | The snippet is about confident..."
+  },
+  {
+   "t": 1791360867.946,
+   "level": "info",
+   "msg": "  [Pos 216829 | Src: stratified] Score: 1.0 | The snippet discusses TRS emer..."
+  },
+  {
+   "t": 1791360869.801,
+   "level": "info",
+   "msg": "  [Pos   5070 | Src: gaussian] Score: 0.0 | The snippet is about TRS inves..."
+  },
+  {
+   "t": 1791360869.801,
+   "level": "info",
+   "msg": "  [Pos   4867 | Src: gaussian] Score: 1.0 | The snippet discusses Illinois..."
+  },
+  {
+   "t": 1791360869.801,
+   "level": "info",
+   "msg": "  [Pos   9863 | Src: gaussian] Score: 2.0 | The snippet discusses monitori..."
+  },
+  {
+   "t": 1791360869.801,
+   "level": "info",
+   "msg": "  [Pos  16215 | Src: gaussian] Score: 4.0 | The snippet appears to be from..."
+  },
+  {
+   "t": 1791360869.801,
+   "level": "info",
+   "msg": "  [Pos   6956 | Src: gaussian] Score: 2.0 | The snippet discusses investme..."
+  },
+  {
+   "t": 1791360870.396,
+   "level": "info",
+   "msg": "  [Pos     24 | Src: gaussian] Score: 1.0 | The snippet is about deferred ..."
+  },
+  {
+   "t": 1791360870.396,
+   "level": "info",
+   "msg": "  [Pos   2987 | Src: gaussian] Score: 1.0 | The snippet is about a Delawar..."
+  },
+  {
+   "t": 1791360870.397,
+   "level": "info",
+   "msg": "  [Pos   3847 | Src: gaussian] Score: 1.0 | The snippet discusses board co..."
+  },
+  {
+   "t": 1791360871.744,
+   "level": "info",
+   "msg": "  [Pos  10058 | Src: gaussian] Score: 1.0 | The snippet discusses private ..."
+  },
+  {
+   "t": 1791360871.744,
+   "level": "info",
+   "msg": "  [Pos   5634 | Src: gaussian] Score: 4.0 | The snippet is related to Hawa..."
+  },
+  {
+   "t": 1791360871.744,
+   "level": "info",
+   "msg": "  [Pos  17313 | Src: gaussian] Score: 4.0 | The snippet is from the RFP an..."
+  },
+  {
+   "t": 1791360872.135,
+   "level": "info",
+   "msg": "  [Pos    632 | Src: gaussian] Score: 1.0 | The snippet is about a Delawar..."
+  },
+  {
+   "t": 1791360872.135,
+   "level": "info",
+   "msg": "  [Pos   4807 | Src: gaussian] Score: 0.0 | The snippet is unrelated to th..."
+  },
+  {
+   "t": 1791360872.135,
+   "level": "info",
+   "msg": "  [Pos   6068 | Src: gaussian] Score: 0.0 | The snippet is about employee ..."
+  },
+  {
+   "t": 1791360876.213,
+   "level": "info",
+   "msg": "Collected 5 evidence units"
+  },
+  {
+   "t": 1791360881.665,
+   "level": "success",
+   "msg": "[Phase 3] KnowledgeCluster built: Deadline not identifiable. (5 evidence units)"
+  },
+  {
+   "t": 1791360881.665,
+   "level": "info",
+   "msg": "[Phase 4] Evidence sufficient, generating summary"
+  },
+  {
+   "t": 1791360881.665,
+   "level": "info",
+   "msg": "[Phase 4] Generating search result summary..."
+  },
+  {
+   "t": 1791360887.397,
+   "level": "warning",
+   "msg": "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  }
+ ]
+}

@@ -1,0 +1,3002 @@
+{
+ "record": {
+  "id": "OTH-09",
+  "question": "A county pension fund is searching for a single manager of managers covering domestic equity, international equity and fixed income. What is the maximum mandate size, and what is the firm-level AUM limit for responders?",
+  "mode": "DEEP",
+  "paths": [
+   "/mnt/docs/S"
+  ],
+  "model": "gpt-5.4",
+  "answer": "No results found.",
+  "no_result": true,
+  "gate_should_answer": false,
+  "pre_gate_answer": "# Briefing\n\n## Assessment\n**The question cannot be answered from the provided evidence.**\n\n## Reason\nThe evidence set does **not** include the specific **county pension fund RFP** for a **single manager of managers** covering:\n- **Domestic equity**\n- **International equity**\n- **Fixed income**\n\nAs a result, the following requested details are **not available** in the supplied materials:\n- **Maximum mandate size**\n- **Firm-level AUM limit for responders**\n\n## What the evidence does contain\nThe retrieved documents are **unrelated or non-responsive** to the query, including:\n- **Broward Education Foundation RFP** — foundation investment consulting/services\n- **Missouri LAGERS RFP** — private markets consulting\n- **FPIF RFP** — private markets consulting and OCIO advisory\n- **Baltimore City Employees’ Retirement System RFP** — alternatives/private equity consulting\n- **INREV DDQ** — non-listed real estate due diligence questionnaire\n\n## Conclusion\n**Neither the maximum mandate size nor the responder firm-level AUM limit can be determined from the provided evidence.**  \nAdditional source text from the actual county pension fund RFP is required.",
+  "candidate_files": [
+   "/mnt/docs/S/NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf",
+   "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+   "/mnt/docs/S/CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+   "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+   "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+   "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+   "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+   "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+   "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+   "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+   "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+   "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+   "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+   "/mnt/docs/S/SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+   "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+   "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+   "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+   "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+   "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+   "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+   "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf",
+   "/mnt/docs/S/Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+   "/mnt/docs/S/York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf",
+   "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+   "/mnt/docs/S/CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+   "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+   "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+   "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+   "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf",
+   "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+   "/mnt/docs/S/CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+   "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+   "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+   "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+   "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+  ],
+  "evidence_found_files": [
+   "/mnt/docs/S/NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf",
+   "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+   "/mnt/docs/S/CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+   "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+   "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+   "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+   "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+  ],
+  "cited_files": [],
+  "cited_found_files": [],
+  "reused_cluster": null,
+  "reused_cluster_id": null,
+  "reused_cluster_queries": [],
+  "cluster_id": null,
+  "latency_s": 46.96,
+  "llm_calls": 70,
+  "llm_failed_calls": 0,
+  "prompt_tokens": 93397,
+  "completion_tokens": 6455,
+  "total_tokens": 99852,
+  "error": null,
+  "serialization_error": null,
+  "warnings": [
+   "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  ]
+ },
+ "context": {
+  "answer": "No results found.",
+  "cluster": null,
+  "max_token_budget": 128000,
+  "max_loops": 10,
+  "total_llm_tokens": 0,
+  "budget_remaining": 128000,
+  "llm_call_count": 0,
+  "llm_usages": [],
+  "read_file_ids": [],
+  "retrieval_logs": [],
+  "search_history": [],
+  "loop_count": 4,
+  "start_time": "2026-10-14T08:54:33.295050"
+ },
+ "logs": [
+  {
+   "t": 1791968074.68,
+   "level": "info",
+   "msg": "Searching for similar knowledge clusters..."
+  },
+  {
+   "t": 1791968074.966,
+   "level": "info",
+   "msg": "No similar clusters found, performing new search..."
+  },
+  {
+   "t": 1791968074.967,
+   "level": "info",
+   "msg": "[search] Starting multi-path retrieval for: 'A county pension fund is searching for a single manager of managers covering dom'"
+  },
+  {
+   "t": 1791968074.967,
+   "level": "info",
+   "msg": "[Phase 1] Parallel probing: keywords + dir_scan + knowledge + spec_cache"
+  },
+  {
+   "t": 1791968074.967,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracting keywords..."
+  },
+  {
+   "t": 1791968074.969,
+   "level": "info",
+   "msg": "[Probe:DirScan] Scanning directories..."
+  },
+  {
+   "t": 1791968078.316,
+   "level": "info",
+   "msg": "[Probe:Keywords] Cross-lingual alt: ['assets under management', '养老金', '固定收益', 'mandate size']"
+  },
+  {
+   "t": 1791968078.316,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracted: ['single manager of managers', 'domestic equity international equity fixed income', 'maximum mandate size', 'firm-level AUM limit', 'county pension fund', 'assets under management', '养老金', '固定收益', 'mandate size']"
+  },
+  {
+   "t": 1791968079.272,
+   "level": "info",
+   "msg": "[Probe:DirScan] Found 81 files in 1 dirs (4302ms)"
+  },
+  {
+   "t": 1791968079.272,
+   "level": "info",
+   "msg": "[Phase 1] Results: keywords=9, dir_scan=OK, knowledge_hits=0, spec_cache=YES"
+  },
+  {
+   "t": 1791968079.272,
+   "level": "info",
+   "msg": "[Phase 2] Parallel retrieval: rga keyword search + dir_scan LLM rank"
+  },
+  {
+   "t": 1791968082.46,
+   "level": "info",
+   "msg": "[Retrieve:Keywords] 28 files from rga search"
+  },
+  {
+   "t": 1791968093.207,
+   "level": "info",
+   "msg": "[Retrieve:DirScan] 1 relevant files (accept={'high'})"
+  },
+  {
+   "t": 1791968093.207,
+   "level": "info",
+   "msg": "[Phase 2] Results: keyword_files=28, dir_scan_files=1"
+  },
+  {
+   "t": 1791968093.207,
+   "level": "info",
+   "msg": "[Phase 3] Merged 28 unique candidate files"
+  },
+  {
+   "t": 1791968093.207,
+   "level": "info",
+   "msg": "Extracting evidence from 10 files (parallel)..."
+  },
+  {
+   "t": 1791968093.228,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 7484 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791968093.326,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 58962 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791968093.419,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 83501 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791968093.556,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 60581 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791968094.695,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 10369 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791968094.696,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 55109 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791968095.687,
+   "level": "info",
+   "msg": "  [Pos 111500 | Src: fuzz    ] Score: 4.0 | The snippet mentions a propose..."
+  },
+  {
+   "t": 1791968095.687,
+   "level": "info",
+   "msg": "  [Pos 111750 | Src: fuzz    ] Score: 2.0 | The snippet discusses a Core P..."
+  },
+  {
+   "t": 1791968095.687,
+   "level": "info",
+   "msg": "  [Pos 119250 | Src: fuzz    ] Score: 1.0 | The snippet discusses litigati..."
+  },
+  {
+   "t": 1791968095.687,
+   "level": "info",
+   "msg": "  [Pos  19750 | Src: fuzz    ] Score: 4.0 | The snippet is related to mand..."
+  },
+  {
+   "t": 1791968095.687,
+   "level": "info",
+   "msg": "  [Pos 113250 | Src: fuzz    ] Score: 4.0 | The snippet is about mandate-r..."
+  },
+  {
+   "t": 1791968095.687,
+   "level": "info",
+   "msg": "  [Pos  18112 | Src: stratified] Score: 2.0 | The snippet is from an RFP and..."
+  },
+  {
+   "t": 1791968095.687,
+   "level": "info",
+   "msg": "  [Pos  92366 | Src: stratified] Score: 0.0 | The snippet discusses manageme..."
+  },
+  {
+   "t": 1791968097.065,
+   "level": "info",
+   "msg": "  [Pos 134500 | Src: fuzz    ] Score: 2.0 | The snippet discusses custody ..."
+  },
+  {
+   "t": 1791968097.065,
+   "level": "info",
+   "msg": "  [Pos 134750 | Src: fuzz    ] Score: 0.0 | The snippet discusses custody ..."
+  },
+  {
+   "t": 1791968097.065,
+   "level": "info",
+   "msg": "  [Pos  47000 | Src: fuzz    ] Score: 4.0 | The snippet mentions firm asse..."
+  },
+  {
+   "t": 1791968097.065,
+   "level": "info",
+   "msg": "  [Pos 169000 | Src: fuzz    ] Score: 4.0 | The snippet is about pension f..."
+  },
+  {
+   "t": 1791968097.065,
+   "level": "info",
+   "msg": "  [Pos 165750 | Src: fuzz    ] Score: 2.0 | The snippet mentions an invest..."
+  },
+  {
+   "t": 1791968097.065,
+   "level": "info",
+   "msg": "  [Pos  66801 | Src: stratified] Score: 2.0 | The snippet is a general inves..."
+  },
+  {
+   "t": 1791968097.065,
+   "level": "info",
+   "msg": "  [Pos 151273 | Src: stratified] Score: 2.0 | The snippet discusses rebalanc..."
+  },
+  {
+   "t": 1791968097.283,
+   "level": "info",
+   "msg": "  [Pos 100750 | Src: fuzz    ] Score: 4.0 | The snippet is from an investm..."
+  },
+  {
+   "t": 1791968097.283,
+   "level": "info",
+   "msg": "  [Pos 109000 | Src: fuzz    ] Score: 2.0 | The snippet discusses manager ..."
+  },
+  {
+   "t": 1791968097.283,
+   "level": "info",
+   "msg": "  [Pos 114250 | Src: fuzz    ] Score: 2.0 | The snippet discusses private ..."
+  },
+  {
+   "t": 1791968097.283,
+   "level": "info",
+   "msg": "  [Pos 114000 | Src: fuzz    ] Score: 2.0 | The snippet discusses public p..."
+  },
+  {
+   "t": 1791968097.283,
+   "level": "info",
+   "msg": "  [Pos 116500 | Src: fuzz    ] Score: 1.0 | The snippet discusses real ass..."
+  },
+  {
+   "t": 1791968097.283,
+   "level": "info",
+   "msg": "  [Pos  33528 | Src: stratified] Score: 0.0 | The snippet discusses performa..."
+  },
+  {
+   "t": 1791968097.283,
+   "level": "info",
+   "msg": "  [Pos  75976 | Src: stratified] Score: 0.0 | The snippet is about employmen..."
+  },
+  {
+   "t": 1791968097.555,
+   "level": "info",
+   "msg": "  [Pos 105147 | Src: gaussian] Score: 2.0 | The snippet discusses operatio..."
+  },
+  {
+   "t": 1791968097.555,
+   "level": "info",
+   "msg": "  [Pos 114663 | Src: gaussian] Score: 2.0 | The snippet discusses reportin..."
+  },
+  {
+   "t": 1791968097.555,
+   "level": "info",
+   "msg": "  [Pos 107132 | Src: gaussian] Score: 2.0 | The snippet discusses manager ..."
+  },
+  {
+   "t": 1791968097.555,
+   "level": "info",
+   "msg": "  [Pos  16247 | Src: gaussian] Score: 2.0 | The snippet is from an RFP and..."
+  },
+  {
+   "t": 1791968097.808,
+   "level": "info",
+   "msg": "  [Pos  44750 | Src: fuzz    ] Score: 2.0 | The snippet mentions investmen..."
+  },
+  {
+   "t": 1791968097.808,
+   "level": "info",
+   "msg": "  [Pos  44250 | Src: fuzz    ] Score: 2.0 | The snippet discusses research..."
+  },
+  {
+   "t": 1791968097.808,
+   "level": "info",
+   "msg": "  [Pos  44000 | Src: fuzz    ] Score: 4.0 | The snippet mentions public ma..."
+  },
+  {
+   "t": 1791968097.808,
+   "level": "info",
+   "msg": "  [Pos  31250 | Src: fuzz    ] Score: 4.0 | The snippet is about investmen..."
+  },
+  {
+   "t": 1791968097.808,
+   "level": "info",
+   "msg": "  [Pos  93000 | Src: fuzz    ] Score: 0.0 | The snippet is about contract ..."
+  },
+  {
+   "t": 1791968097.808,
+   "level": "info",
+   "msg": "  [Pos  47918 | Src: stratified] Score: 1.0 | The snippet discusses private ..."
+  },
+  {
+   "t": 1791968097.808,
+   "level": "info",
+   "msg": "  [Pos  98300 | Src: stratified] Score: 0.0 | The snippet is about settlemen..."
+  },
+  {
+   "t": 1791968099.363,
+   "level": "info",
+   "msg": "  [Pos  47847 | Src: gaussian] Score: 2.0 | The snippet appears to be from..."
+  },
+  {
+   "t": 1791968099.363,
+   "level": "info",
+   "msg": "  [Pos  46352 | Src: gaussian] Score: 3.0 | The snippet mentions public pe..."
+  },
+  {
+   "t": 1791968099.363,
+   "level": "info",
+   "msg": "  [Pos  48432 | Src: gaussian] Score: 2.0 | The snippet discusses firm rev..."
+  },
+  {
+   "t": 1791968099.363,
+   "level": "info",
+   "msg": "  [Pos 167316 | Src: gaussian] Score: 0.0 | The snippet discusses custodia..."
+  },
+  {
+   "t": 1791968099.435,
+   "level": "info",
+   "msg": "  [Pos 110096 | Src: gaussian] Score: 1.0 | The snippet discusses portfoli..."
+  },
+  {
+   "t": 1791968099.435,
+   "level": "info",
+   "msg": "  [Pos 110263 | Src: gaussian] Score: 2.0 | The snippet discusses investme..."
+  },
+  {
+   "t": 1791968099.435,
+   "level": "info",
+   "msg": "  [Pos 111964 | Src: gaussian] Score: 0.0 | The snippet discusses performa..."
+  },
+  {
+   "t": 1791968099.435,
+   "level": "info",
+   "msg": "  [Pos  19023 | Src: gaussian] Score: 2.0 | The snippet is about INPRS sol..."
+  },
+  {
+   "t": 1791968099.45,
+   "level": "info",
+   "msg": "  [Pos 104549 | Src: gaussian] Score: 4.0 | The snippet is related to an R..."
+  },
+  {
+   "t": 1791968099.45,
+   "level": "info",
+   "msg": "  [Pos  97783 | Src: gaussian] Score: 0.0 | The snippet is about contracti..."
+  },
+  {
+   "t": 1791968099.45,
+   "level": "info",
+   "msg": "  [Pos  98584 | Src: gaussian] Score: 4.0 | The snippet references Indiana..."
+  },
+  {
+   "t": 1791968099.45,
+   "level": "info",
+   "msg": "  [Pos  98376 | Src: gaussian] Score: 1.0 | The snippet is from a consulti..."
+  },
+  {
+   "t": 1791968099.45,
+   "level": "info",
+   "msg": "  [Pos 102090 | Src: gaussian] Score: 2.0 | The snippet discusses fiduciar..."
+  },
+  {
+   "t": 1791968100.219,
+   "level": "info",
+   "msg": "  [Pos  42388 | Src: gaussian] Score: 2.0 | The snippet discusses cybersec..."
+  },
+  {
+   "t": 1791968100.219,
+   "level": "info",
+   "msg": "  [Pos  39736 | Src: gaussian] Score: 0.0 | The snippet is about legal/com..."
+  },
+  {
+   "t": 1791968100.219,
+   "level": "info",
+   "msg": "  [Pos  32063 | Src: gaussian] Score: 2.0 | The snippet discusses a board,..."
+  },
+  {
+   "t": 1791968100.219,
+   "level": "info",
+   "msg": "  [Pos  25427 | Src: gaussian] Score: 2.0 | The snippet is about the Oklah..."
+  },
+  {
+   "t": 1791968101.194,
+   "level": "info",
+   "msg": "  [Pos  49546 | Src: gaussian] Score: 2.0 | The snippet discusses conflict..."
+  },
+  {
+   "t": 1791968101.194,
+   "level": "info",
+   "msg": "  [Pos  41993 | Src: gaussian] Score: 2.0 | The snippet only shows a quest..."
+  },
+  {
+   "t": 1791968101.194,
+   "level": "info",
+   "msg": "  [Pos  43934 | Src: gaussian] Score: 2.0 | The snippet is a generic quest..."
+  },
+  {
+   "t": 1791968101.194,
+   "level": "info",
+   "msg": "  [Pos 170419 | Src: gaussian] Score: 2.0 | The snippet discusses investme..."
+  },
+  {
+   "t": 1791968102.238,
+   "level": "info",
+   "msg": "  [Pos  99634 | Src: gaussian] Score: 2.0 | The snippet is about a firm's ..."
+  },
+  {
+   "t": 1791968102.238,
+   "level": "info",
+   "msg": "  [Pos  99820 | Src: gaussian] Score: 2.0 | The snippet discusses firm str..."
+  },
+  {
+   "t": 1791968102.238,
+   "level": "info",
+   "msg": "  [Pos 100324 | Src: gaussian] Score: 2.0 | The snippet appears to be from..."
+  },
+  {
+   "t": 1791968102.238,
+   "level": "info",
+   "msg": "  [Pos 107060 | Src: gaussian] Score: 2.0 | The snippet discusses investme..."
+  },
+  {
+   "t": 1791968102.269,
+   "level": "info",
+   "msg": "  [Pos  41731 | Src: gaussian] Score: 0.0 | The snippet does not mention t..."
+  },
+  {
+   "t": 1791968102.269,
+   "level": "info",
+   "msg": "  [Pos  42967 | Src: gaussian] Score: 4.0 | The snippet is about pension f..."
+  },
+  {
+   "t": 1791968102.269,
+   "level": "info",
+   "msg": "  [Pos  32257 | Src: gaussian] Score: 2.0 | The snippet discusses performa..."
+  },
+  {
+   "t": 1791968102.269,
+   "level": "info",
+   "msg": "  [Pos  29109 | Src: gaussian] Score: 2.0 | The snippet only discusses RFP..."
+  },
+  {
+   "t": 1791968108.539,
+   "level": "info",
+   "msg": "Collected 10 evidence units"
+  },
+  {
+   "t": 1791968115.419,
+   "level": "success",
+   "msg": "[Phase 3] KnowledgeCluster built: Insufficient matching evidence. (10 evidence units)"
+  },
+  {
+   "t": 1791968115.419,
+   "level": "info",
+   "msg": "[Phase 4] Evidence sufficient, generating summary"
+  },
+  {
+   "t": 1791968115.419,
+   "level": "info",
+   "msg": "[Phase 4] Generating search result summary..."
+  },
+  {
+   "t": 1791968120.25,
+   "level": "warning",
+   "msg": "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  }
+ ],
+ "llm_call_records": [
+  {
+   "elapsed_s": 1.383,
+   "error": null,
+   "usage": {
+    "completion_tokens": 9,
+    "prompt_tokens": 201,
+    "total_tokens": 210,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 3.349,
+   "error": null,
+   "usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 651,
+    "total_tokens": 803,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 13.931,
+   "error": null,
+   "usage": {
+    "completion_tokens": 1198,
+    "prompt_tokens": 2648,
+    "total_tokens": 3846,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.521,
+   "error": null,
+   "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 319,
+    "total_tokens": 379,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.605,
+   "error": null,
+   "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 328,
+    "total_tokens": 376,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.715,
+   "error": null,
+   "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 322,
+    "total_tokens": 372,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.755,
+   "error": null,
+   "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 316,
+    "total_tokens": 369,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.796,
+   "error": null,
+   "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 338,
+    "total_tokens": 407,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.799,
+   "error": null,
+   "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 331,
+    "total_tokens": 385,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.816,
+   "error": null,
+   "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 327,
+    "total_tokens": 382,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.587,
+   "error": null,
+   "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 318,
+    "total_tokens": 371,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.773,
+   "error": null,
+   "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 325,
+    "total_tokens": 376,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.775,
+   "error": null,
+   "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 327,
+    "total_tokens": 384,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.483,
+   "error": null,
+   "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 330,
+    "total_tokens": 381,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.486,
+   "error": null,
+   "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 325,
+    "total_tokens": 378,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.87,
+   "error": null,
+   "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 339,
+    "total_tokens": 408,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.871,
+   "error": null,
+   "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 320,
+    "total_tokens": 374,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.491,
+   "error": null,
+   "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 332,
+    "total_tokens": 379,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.695,
+   "error": null,
+   "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 318,
+    "total_tokens": 369,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.489,
+   "error": null,
+   "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 313,
+    "total_tokens": 372,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.691,
+   "error": null,
+   "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 322,
+    "total_tokens": 365,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.875,
+   "error": null,
+   "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 314,
+    "total_tokens": 380,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.877,
+   "error": null,
+   "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 326,
+    "total_tokens": 383,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.697,
+   "error": null,
+   "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 319,
+    "total_tokens": 373,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.695,
+   "error": null,
+   "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 321,
+    "total_tokens": 377,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.489,
+   "error": null,
+   "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 331,
+    "total_tokens": 379,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.727,
+   "error": null,
+   "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 321,
+    "total_tokens": 378,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.725,
+   "error": null,
+   "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 339,
+    "total_tokens": 399,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.522,
+   "error": null,
+   "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 325,
+    "total_tokens": 375,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.943,
+   "error": null,
+   "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 326,
+    "total_tokens": 398,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.594,
+   "error": null,
+   "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 330,
+    "total_tokens": 381,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.594,
+   "error": null,
+   "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 319,
+    "total_tokens": 372,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.594,
+   "error": null,
+   "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 329,
+    "total_tokens": 388,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.864,
+   "error": null,
+   "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 319,
+    "total_tokens": 371,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 3.266,
+   "error": null,
+   "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 325,
+    "total_tokens": 386,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.664,
+   "error": null,
+   "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 316,
+    "total_tokens": 366,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.746,
+   "error": null,
+   "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 339,
+    "total_tokens": 388,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.773,
+   "error": null,
+   "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 330,
+    "total_tokens": 383,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.995,
+   "error": null,
+   "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 338,
+    "total_tokens": 401,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.112,
+   "error": null,
+   "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 325,
+    "total_tokens": 377,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.917,
+   "error": null,
+   "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 353,
+    "total_tokens": 406,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.671,
+   "error": null,
+   "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 323,
+    "total_tokens": 376,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.685,
+   "error": null,
+   "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 318,
+    "total_tokens": 365,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.961,
+   "error": null,
+   "usage": {
+    "completion_tokens": 77,
+    "prompt_tokens": 324,
+    "total_tokens": 401,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.268,
+   "error": null,
+   "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 319,
+    "total_tokens": 371,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.823,
+   "error": null,
+   "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 325,
+    "total_tokens": 376,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.874,
+   "error": null,
+   "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 331,
+    "total_tokens": 409,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.154,
+   "error": null,
+   "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 336,
+    "total_tokens": 390,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.342,
+   "error": null,
+   "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 330,
+    "total_tokens": 380,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.345,
+   "error": null,
+   "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 333,
+    "total_tokens": 384,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.403,
+   "error": null,
+   "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 320,
+    "total_tokens": 381,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.406,
+   "error": null,
+   "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 322,
+    "total_tokens": 376,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.59,
+   "error": null,
+   "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 318,
+    "total_tokens": 371,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.763,
+   "error": null,
+   "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 341,
+    "total_tokens": 396,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.811,
+   "error": null,
+   "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 318,
+    "total_tokens": 377,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.827,
+   "error": null,
+   "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 329,
+    "total_tokens": 384,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.355,
+   "error": null,
+   "usage": {
+    "completion_tokens": 49,
+    "prompt_tokens": 326,
+    "total_tokens": 375,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.661,
+   "error": null,
+   "usage": {
+    "completion_tokens": 40,
+    "prompt_tokens": 317,
+    "total_tokens": 357,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.489,
+   "error": null,
+   "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 324,
+    "total_tokens": 376,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.596,
+   "error": null,
+   "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 319,
+    "total_tokens": 373,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.863,
+   "error": null,
+   "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 332,
+    "total_tokens": 388,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.012,
+   "error": null,
+   "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 336,
+    "total_tokens": 392,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.783,
+   "error": null,
+   "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 312,
+    "total_tokens": 380,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.046,
+   "error": null,
+   "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 317,
+    "total_tokens": 370,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 5.038,
+   "error": null,
+   "usage": {
+    "completion_tokens": 292,
+    "prompt_tokens": 2788,
+    "total_tokens": 3080,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 4.101,
+   "error": null,
+   "usage": {
+    "completion_tokens": 226,
+    "prompt_tokens": 1930,
+    "total_tokens": 2156,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 6.096,
+   "error": null,
+   "usage": {
+    "completion_tokens": 263,
+    "prompt_tokens": 2864,
+    "total_tokens": 3127,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 6.27,
+   "error": null,
+   "usage": {
+    "completion_tokens": 316,
+    "prompt_tokens": 2834,
+    "total_tokens": 3150,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 6.877,
+   "error": null,
+   "usage": {
+    "completion_tokens": 348,
+    "prompt_tokens": 58594,
+    "total_tokens": 58942,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 4.83,
+   "error": null,
+   "usage": {
+    "completion_tokens": 280,
+    "prompt_tokens": 1022,
+    "total_tokens": 1302,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  }
+ ],
+ "library_usage_records": [
+  {
+   "completion_tokens": 9,
+   "prompt_tokens": 201,
+   "total_tokens": 210,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 152,
+   "prompt_tokens": 651,
+   "total_tokens": 803,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 60,
+   "prompt_tokens": 319,
+   "total_tokens": 379,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 48,
+   "prompt_tokens": 328,
+   "total_tokens": 376,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 50,
+   "prompt_tokens": 322,
+   "total_tokens": 372,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 53,
+   "prompt_tokens": 316,
+   "total_tokens": 369,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 69,
+   "prompt_tokens": 338,
+   "total_tokens": 407,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 54,
+   "prompt_tokens": 331,
+   "total_tokens": 385,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 55,
+   "prompt_tokens": 327,
+   "total_tokens": 382,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 51,
+   "prompt_tokens": 330,
+   "total_tokens": 381,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 53,
+   "prompt_tokens": 319,
+   "total_tokens": 372,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 59,
+   "prompt_tokens": 329,
+   "total_tokens": 388,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 52,
+   "prompt_tokens": 319,
+   "total_tokens": 371,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 53,
+   "prompt_tokens": 323,
+   "total_tokens": 376,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 47,
+   "prompt_tokens": 318,
+   "total_tokens": 365,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 51,
+   "prompt_tokens": 325,
+   "total_tokens": 376,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 78,
+   "prompt_tokens": 331,
+   "total_tokens": 409,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 292,
+   "prompt_tokens": 2788,
+   "total_tokens": 3080,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 53,
+   "prompt_tokens": 318,
+   "total_tokens": 371,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 51,
+   "prompt_tokens": 325,
+   "total_tokens": 376,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 57,
+   "prompt_tokens": 327,
+   "total_tokens": 384,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 69,
+   "prompt_tokens": 339,
+   "total_tokens": 408,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 54,
+   "prompt_tokens": 320,
+   "total_tokens": 374,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 66,
+   "prompt_tokens": 314,
+   "total_tokens": 380,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 57,
+   "prompt_tokens": 326,
+   "total_tokens": 383,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 50,
+   "prompt_tokens": 316,
+   "total_tokens": 366,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 63,
+   "prompt_tokens": 338,
+   "total_tokens": 401,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 52,
+   "prompt_tokens": 325,
+   "total_tokens": 377,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 52,
+   "prompt_tokens": 319,
+   "total_tokens": 371,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 53,
+   "prompt_tokens": 318,
+   "total_tokens": 371,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 55,
+   "prompt_tokens": 341,
+   "total_tokens": 396,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 59,
+   "prompt_tokens": 318,
+   "total_tokens": 377,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 55,
+   "prompt_tokens": 329,
+   "total_tokens": 384,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 226,
+   "prompt_tokens": 1930,
+   "total_tokens": 2156,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 51,
+   "prompt_tokens": 318,
+   "total_tokens": 369,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 43,
+   "prompt_tokens": 322,
+   "total_tokens": 365,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 54,
+   "prompt_tokens": 319,
+   "total_tokens": 373,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 56,
+   "prompt_tokens": 321,
+   "total_tokens": 377,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 57,
+   "prompt_tokens": 321,
+   "total_tokens": 378,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 60,
+   "prompt_tokens": 339,
+   "total_tokens": 399,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 72,
+   "prompt_tokens": 326,
+   "total_tokens": 398,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 49,
+   "prompt_tokens": 339,
+   "total_tokens": 388,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 53,
+   "prompt_tokens": 330,
+   "total_tokens": 383,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 53,
+   "prompt_tokens": 353,
+   "total_tokens": 406,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 77,
+   "prompt_tokens": 324,
+   "total_tokens": 401,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 54,
+   "prompt_tokens": 336,
+   "total_tokens": 390,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 49,
+   "prompt_tokens": 326,
+   "total_tokens": 375,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 52,
+   "prompt_tokens": 324,
+   "total_tokens": 376,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 54,
+   "prompt_tokens": 319,
+   "total_tokens": 373,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 68,
+   "prompt_tokens": 312,
+   "total_tokens": 380,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 263,
+   "prompt_tokens": 2864,
+   "total_tokens": 3127,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 51,
+   "prompt_tokens": 330,
+   "total_tokens": 381,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 53,
+   "prompt_tokens": 325,
+   "total_tokens": 378,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 47,
+   "prompt_tokens": 332,
+   "total_tokens": 379,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 59,
+   "prompt_tokens": 313,
+   "total_tokens": 372,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 48,
+   "prompt_tokens": 331,
+   "total_tokens": 379,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 50,
+   "prompt_tokens": 325,
+   "total_tokens": 375,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 61,
+   "prompt_tokens": 325,
+   "total_tokens": 386,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 50,
+   "prompt_tokens": 330,
+   "total_tokens": 380,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 51,
+   "prompt_tokens": 333,
+   "total_tokens": 384,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 61,
+   "prompt_tokens": 320,
+   "total_tokens": 381,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 54,
+   "prompt_tokens": 322,
+   "total_tokens": 376,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 40,
+   "prompt_tokens": 317,
+   "total_tokens": 357,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 56,
+   "prompt_tokens": 332,
+   "total_tokens": 388,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 56,
+   "prompt_tokens": 336,
+   "total_tokens": 392,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 53,
+   "prompt_tokens": 317,
+   "total_tokens": 370,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 316,
+   "prompt_tokens": 2834,
+   "total_tokens": 3150,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 348,
+   "prompt_tokens": 58594,
+   "total_tokens": 58942,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 280,
+   "prompt_tokens": 1022,
+   "total_tokens": 1302,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  }
+ ],
+ "trace": {
+  "reused_cluster": null,
+  "reused_cluster_id": null,
+  "reused_cluster_queries": [],
+  "candidate_files": [
+   "/mnt/docs/S/NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf",
+   "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+   "/mnt/docs/S/CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+   "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+   "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+   "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+   "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+   "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+   "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+   "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+   "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+   "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+   "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+   "/mnt/docs/S/SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+   "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+   "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+   "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+   "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+   "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+   "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+   "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf",
+   "/mnt/docs/S/Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+   "/mnt/docs/S/York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf",
+   "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+   "/mnt/docs/S/CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+   "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+   "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+   "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+   "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf",
+   "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+   "/mnt/docs/S/CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+   "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+   "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+   "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+   "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+  ],
+  "evidence_found_files": [
+   "/mnt/docs/S/NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf",
+   "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+   "/mnt/docs/S/CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+   "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+   "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+   "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+   "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+   "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+   "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+  ],
+  "gate": [
+   {
+    "should_answer": false,
+    "should_save": false,
+    "summary": "# Briefing\n\n## Assessment\n**The question cannot be answered from the provided evidence.**\n\n## Reason\nThe evidence set does **not** include the specific **county pension fund RFP** for a **single manager of managers** covering:\n- **Domestic equity**\n- **International equity**\n- **Fixed income**\n\nAs a result, the following requested details are **not available** in the supplied materials:\n- **Maximum mandate size**\n- **Firm-level AUM limit for responders**\n\n## What the evidence does contain\nThe retrieved documents are **unrelated or non-responsive** to the query, including:\n- **Broward Education Foundation RFP** — foundation investment consulting/services\n- **Missouri LAGERS RFP** — private markets consulting\n- **FPIF RFP** — private markets consulting and OCIO advisory\n- **Baltimore City Employees’ Retirement System RFP** — alternatives/private equity consulting\n- **INREV DDQ** — non-listed real estate due diligence questionnaire\n\n## Conclusion\n**Neither the maximum mandate size nor the responder firm-level AUM limit can be determined from the provided evidence.**  \nAdditional source text from the actual county pension fund RFP is required."
+   }
+  ]
+ }
+}

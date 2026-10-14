@@ -1,0 +1,1098 @@
+{
+ "record": {
+  "id": "XD-02",
+  "question": "A 2021 covering note describes an update to a responsible-investment due diligence questionnaire for private equity limited partners. When was the first version of that questionnaire launched, who adopted it, when was the working group for the update set up, and over how long had LPs and GPs been giving comments?",
+  "mode": "DEEP",
+  "paths": [
+   "/mnt/docs/S"
+  ],
+  "model": "gpt-5.4",
+  "answer": "No results found.",
+  "no_result": true,
+  "gate_should_answer": false,
+  "pre_gate_answer": "# Briefing: Gap in Evidence on the DDQ Update\n\n## Conclusion\nThe provided evidence is **insufficient** to answer the question about the 2021 covering note.\n\n## What the evidence does confirm\n- **ILPA** is the relevant organization linked to the responsible-investment / ESG due diligence questionnaire.\n- An ILPA document titled **“ESG Assessment Framework – Key Considerations & FAQ”** states that the framework **“was first released in 2021.”**\n- That framework can be used alongside **ILPA’s Due Diligence Questionnaire**.\n\n## What the evidence does *not* provide\nThe supplied documents do **not** state:\n- **when the first version** of the responsible-investment due diligence questionnaire was launched;\n- **who adopted** that first version;\n- **when the working group** for the update was set up; or\n- **how long LPs and GPs** had been providing comments.\n\n## Assessment\nBased strictly on the retrieved evidence, the exact answer is **not available in the supplied documents**.",
+  "candidate_files": [
+   "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+   "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+   "/mnt/docs/S/SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+   "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+   "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf",
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+   "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+   "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+   "/mnt/docs/S/CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+   "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+   "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+   "/mnt/docs/S/TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+   "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+   "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+   "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+   "/mnt/docs/S/SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+   "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+   "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+   "/mnt/docs/S/SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+   "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+  ],
+  "evidence_found_files": [
+   "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+   "/mnt/docs/S/SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+   "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+  ],
+  "cited_files": [],
+  "cited_found_files": [],
+  "reused_cluster": null,
+  "reused_cluster_id": null,
+  "reused_cluster_queries": [],
+  "cluster_id": null,
+  "latency_s": 41.35,
+  "llm_calls": 22,
+  "llm_failed_calls": 0,
+  "prompt_tokens": 33831,
+  "completion_tokens": 2907,
+  "total_tokens": 36738,
+  "error": null,
+  "serialization_error": null,
+  "warnings": [
+   "No high-value regions found, attempting global random sampling again...",
+   "No high-value regions found, attempting global random sampling again...",
+   "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  ]
+ },
+ "context": {
+  "answer": "No results found.",
+  "cluster": null,
+  "max_token_budget": 128000,
+  "max_loops": 10,
+  "total_llm_tokens": 0,
+  "budget_remaining": 128000,
+  "llm_call_count": 0,
+  "llm_usages": [],
+  "read_file_ids": [],
+  "retrieval_logs": [],
+  "search_history": [],
+  "loop_count": 4,
+  "start_time": "2026-10-14T06:52:11.484833"
+ },
+ "logs": [
+  {
+   "t": 1791960733.1,
+   "level": "info",
+   "msg": "[search] Starting multi-path retrieval for: 'A 2021 covering note describes an update to a responsible-investment due diligen'"
+  },
+  {
+   "t": 1791960733.1,
+   "level": "info",
+   "msg": "[Phase 1] Parallel probing: keywords + dir_scan + knowledge + spec_cache"
+  },
+  {
+   "t": 1791960733.1,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracting keywords..."
+  },
+  {
+   "t": 1791960733.101,
+   "level": "info",
+   "msg": "[Probe:DirScan] Scanning directories..."
+  },
+  {
+   "t": 1791960736.525,
+   "level": "info",
+   "msg": "[Probe:Keywords] Cross-lingual alt: ['尽职调查问卷', '责任投资', 'limited partners', 'working group']"
+  },
+  {
+   "t": 1791960736.525,
+   "level": "info",
+   "msg": "[Probe:Keywords] Extracted: ['responsible-investment due diligence questionnaire', 'private equity limited partners', '2021 covering note', 'working group update', 'LPs and GPs comments', '尽职调查问卷', '责任投资', 'limited partners', 'working group']"
+  },
+  {
+   "t": 1791960737.432,
+   "level": "info",
+   "msg": "[Probe:DirScan] Found 81 files in 1 dirs (4331ms)"
+  },
+  {
+   "t": 1791960737.432,
+   "level": "info",
+   "msg": "[Phase 1] Results: keywords=9, dir_scan=OK, knowledge_hits=0, spec_cache=YES"
+  },
+  {
+   "t": 1791960737.432,
+   "level": "info",
+   "msg": "[Phase 2] Parallel retrieval: rga keyword search + dir_scan LLM rank"
+  },
+  {
+   "t": 1791960739.89,
+   "level": "info",
+   "msg": "[Retrieve:Keywords] 22 files from rga search"
+  },
+  {
+   "t": 1791960751.247,
+   "level": "info",
+   "msg": "[Retrieve:DirScan] 1 relevant files (accept={'high'})"
+  },
+  {
+   "t": 1791960751.247,
+   "level": "info",
+   "msg": "[Phase 2] Results: keyword_files=22, dir_scan_files=1"
+  },
+  {
+   "t": 1791960751.247,
+   "level": "info",
+   "msg": "[Phase 3] Merged 22 unique candidate files"
+  },
+  {
+   "t": 1791960751.247,
+   "level": "info",
+   "msg": "Extracting evidence from 5 files (parallel)..."
+  },
+  {
+   "t": 1791960751.26,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 11626 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791960751.32,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 29425 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791960751.406,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 59779 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791960751.418,
+   "level": "info",
+   "msg": "[MC] Small file fast path: 8755 chars < 100000 threshold, returning full content as ROI"
+  },
+  {
+   "t": 1791960754.894,
+   "level": "info",
+   "msg": "  [Pos 204500 | Src: fuzz    ] Score: 0.0 | The snippet is about privacy a..."
+  },
+  {
+   "t": 1791960754.894,
+   "level": "info",
+   "msg": "  [Pos 223750 | Src: fuzz    ] Score: 0.0 | The snippet is about custodial..."
+  },
+  {
+   "t": 1791960754.894,
+   "level": "info",
+   "msg": "  [Pos 236500 | Src: fuzz    ] Score: 0.0 | The snippet is about complianc..."
+  },
+  {
+   "t": 1791960754.894,
+   "level": "info",
+   "msg": "  [Pos 250250 | Src: fuzz    ] Score: 0.0 | The snippet is about client tr..."
+  },
+  {
+   "t": 1791960754.894,
+   "level": "info",
+   "msg": "  [Pos 204250 | Src: fuzz    ] Score: 0.0 | The snippet is about privacy, ..."
+  },
+  {
+   "t": 1791960754.894,
+   "level": "info",
+   "msg": "  [Pos 110569 | Src: stratified] Score: 0.0 | The snippet is just a list of ..."
+  },
+  {
+   "t": 1791960754.894,
+   "level": "info",
+   "msg": "  [Pos 186635 | Src: stratified] Score: 0.0 | The snippet is an unrelated RF..."
+  },
+  {
+   "t": 1791960754.894,
+   "level": "warning",
+   "msg": "No high-value regions found, attempting global random sampling again..."
+  },
+  {
+   "t": 1791960757.582,
+   "level": "info",
+   "msg": "  [Pos   9669 | Src: stratified] Score: 0.0 | The snippet is about system in..."
+  },
+  {
+   "t": 1791960757.582,
+   "level": "info",
+   "msg": "  [Pos  64280 | Src: stratified] Score: 0.0 | The snippet is just a list of ..."
+  },
+  {
+   "t": 1791960757.582,
+   "level": "info",
+   "msg": "  [Pos 134252 | Src: stratified] Score: 0.0 | The snippet is just a list of ..."
+  },
+  {
+   "t": 1791960757.582,
+   "level": "info",
+   "msg": "  [Pos 188830 | Src: stratified] Score: 0.0 | The snippet is a generic techn..."
+  },
+  {
+   "t": 1791960757.582,
+   "level": "info",
+   "msg": "  [Pos 248093 | Src: stratified] Score: 0.0 | The snippet is about custody s..."
+  },
+  {
+   "t": 1791960757.582,
+   "level": "warning",
+   "msg": "No high-value regions found, attempting global random sampling again..."
+  },
+  {
+   "t": 1791960762.065,
+   "level": "info",
+   "msg": "  [Pos  39419 | Src: stratified] Score: 0.0 | The snippet is about an RFP ti..."
+  },
+  {
+   "t": 1791960762.065,
+   "level": "info",
+   "msg": "  [Pos  86673 | Src: stratified] Score: 0.0 | The snippet is a list of fixed..."
+  },
+  {
+   "t": 1791960762.065,
+   "level": "info",
+   "msg": "  [Pos 147585 | Src: stratified] Score: 0.0 | The snippet is a list of stock..."
+  },
+  {
+   "t": 1791960762.065,
+   "level": "info",
+   "msg": "  [Pos 215408 | Src: stratified] Score: 0.0 | The snippet is about accountin..."
+  },
+  {
+   "t": 1791960762.065,
+   "level": "info",
+   "msg": "  [Pos 251618 | Src: stratified] Score: 0.0 | The snippet is about custody, ..."
+  },
+  {
+   "t": 1791960762.065,
+   "level": "info",
+   "msg": "Collected 5 evidence units"
+  },
+  {
+   "t": 1791960768.708,
+   "level": "success",
+   "msg": "[Phase 3] KnowledgeCluster built: Evidence gap on DDQ (5 evidence units)"
+  },
+  {
+   "t": 1791960768.708,
+   "level": "info",
+   "msg": "[Phase 4] Evidence sufficient, generating summary"
+  },
+  {
+   "t": 1791960768.708,
+   "level": "info",
+   "msg": "[Phase 4] Generating search result summary..."
+  },
+  {
+   "t": 1791960772.837,
+   "level": "warning",
+   "msg": "[Phase 4] Summary gate rejected evidence and llm_fallback=False → returning no results"
+  }
+ ],
+ "llm_call_records": [
+  {
+   "elapsed_s": 1.613,
+   "error": null,
+   "usage": {
+    "completion_tokens": 9,
+    "prompt_tokens": 222,
+    "total_tokens": 231,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 3.425,
+   "error": null,
+   "usage": {
+    "completion_tokens": 187,
+    "prompt_tokens": 672,
+    "total_tokens": 859,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 13.81,
+   "error": null,
+   "usage": {
+    "completion_tokens": 1145,
+    "prompt_tokens": 3025,
+    "total_tokens": 4170,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.984,
+   "error": null,
+   "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 340,
+    "total_tokens": 386,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.993,
+   "error": null,
+   "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 337,
+    "total_tokens": 396,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.11,
+   "error": null,
+   "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 479,
+    "total_tokens": 536,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.202,
+   "error": null,
+   "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 356,
+    "total_tokens": 424,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.241,
+   "error": null,
+   "usage": {
+    "completion_tokens": 53,
+    "prompt_tokens": 350,
+    "total_tokens": 403,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.398,
+   "error": null,
+   "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 345,
+    "total_tokens": 405,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.896,
+   "error": null,
+   "usage": {
+    "completion_tokens": 79,
+    "prompt_tokens": 338,
+    "total_tokens": 417,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.959,
+   "error": null,
+   "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 362,
+    "total_tokens": 419,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.251,
+   "error": null,
+   "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 462,
+    "total_tokens": 527,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.318,
+   "error": null,
+   "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 475,
+    "total_tokens": 540,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.388,
+   "error": null,
+   "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 347,
+    "total_tokens": 418,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.688,
+   "error": null,
+   "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 340,
+    "total_tokens": 406,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 1.742,
+   "error": null,
+   "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 351,
+    "total_tokens": 394,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.122,
+   "error": null,
+   "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 449,
+    "total_tokens": 504,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.686,
+   "error": null,
+   "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 456,
+    "total_tokens": 515,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 2.954,
+   "error": null,
+   "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 348,
+    "total_tokens": 413,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 4.482,
+   "error": null,
+   "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 376,
+    "total_tokens": 440,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 6.642,
+   "error": null,
+   "usage": {
+    "completion_tokens": 281,
+    "prompt_tokens": 22492,
+    "total_tokens": 22773,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  },
+  {
+   "elapsed_s": 4.129,
+   "error": null,
+   "usage": {
+    "completion_tokens": 253,
+    "prompt_tokens": 909,
+    "total_tokens": 1162,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": 0,
+     "audio_tokens": 0,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": 0,
+     "cached_tokens": 0
+    }
+   }
+  }
+ ],
+ "library_usage_records": [
+  {
+   "completion_tokens": 9,
+   "prompt_tokens": 222,
+   "total_tokens": 231,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 187,
+   "prompt_tokens": 672,
+   "total_tokens": 859,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 46,
+   "prompt_tokens": 340,
+   "total_tokens": 386,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 59,
+   "prompt_tokens": 337,
+   "total_tokens": 396,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 57,
+   "prompt_tokens": 479,
+   "total_tokens": 536,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 68,
+   "prompt_tokens": 356,
+   "total_tokens": 424,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 53,
+   "prompt_tokens": 350,
+   "total_tokens": 403,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 60,
+   "prompt_tokens": 345,
+   "total_tokens": 405,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 79,
+   "prompt_tokens": 338,
+   "total_tokens": 417,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 57,
+   "prompt_tokens": 362,
+   "total_tokens": 419,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 65,
+   "prompt_tokens": 462,
+   "total_tokens": 527,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 65,
+   "prompt_tokens": 475,
+   "total_tokens": 540,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 71,
+   "prompt_tokens": 347,
+   "total_tokens": 418,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 66,
+   "prompt_tokens": 340,
+   "total_tokens": 406,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 43,
+   "prompt_tokens": 351,
+   "total_tokens": 394,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 55,
+   "prompt_tokens": 449,
+   "total_tokens": 504,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 59,
+   "prompt_tokens": 456,
+   "total_tokens": 515,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 65,
+   "prompt_tokens": 348,
+   "total_tokens": 413,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 64,
+   "prompt_tokens": 376,
+   "total_tokens": 440,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 281,
+   "prompt_tokens": 22492,
+   "total_tokens": 22773,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  },
+  {
+   "completion_tokens": 253,
+   "prompt_tokens": 909,
+   "total_tokens": 1162,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cached_tokens": 0
+   }
+  }
+ ],
+ "trace": {
+  "reused_cluster": null,
+  "reused_cluster_id": null,
+  "reused_cluster_queries": [],
+  "candidate_files": [
+   "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+   "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+   "/mnt/docs/S/SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+   "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+   "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+   "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+   "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf",
+   "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+   "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+   "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+   "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+   "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+   "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+   "/mnt/docs/S/CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+   "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+   "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+   "/mnt/docs/S/TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+   "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+   "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+   "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf"
+  ],
+  "sampled_files": [
+   "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+   "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+   "/mnt/docs/S/SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+   "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+  ],
+  "evidence_files": [
+   "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+   "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+   "/mnt/docs/S/SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+   "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+  ],
+  "evidence_found_files": [
+   "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+   "/mnt/docs/S/SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+   "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+   "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+  ],
+  "gate": [
+   {
+    "should_answer": false,
+    "should_save": false,
+    "summary": "# Briefing: Gap in Evidence on the DDQ Update\n\n## Conclusion\nThe provided evidence is **insufficient** to answer the question about the 2021 covering note.\n\n## What the evidence does confirm\n- **ILPA** is the relevant organization linked to the responsible-investment / ESG due diligence questionnaire.\n- An ILPA document titled **“ESG Assessment Framework – Key Considerations & FAQ”** states that the framework **“was first released in 2021.”**\n- That framework can be used alongside **ILPA’s Due Diligence Questionnaire**.\n\n## What the evidence does *not* provide\nThe supplied documents do **not** state:\n- **when the first version** of the responsible-investment due diligence questionnaire was launched;\n- **who adopted** that first version;\n- **when the working group** for the update was set up; or\n- **how long LPs and GPs** had been providing comments.\n\n## Assessment\nBased strictly on the retrieved evidence, the exact answer is **not available in the supplied documents**."
+   }
+  ]
+ }
+}
