@@ -7,6 +7,60 @@ This repository contains the public document corpus, evaluation questions, verif
 
 The principal experiment was completed on **October 14, 2026**: **81 original documents, 120 source-verified questions, and three sequential DEEP runs (360 evaluations)**. The tested library was **Sirchmunk 0.0.7**, with **gpt-5.4** as the configured search and primary judging model. DDQ means **Due Diligence Questionnaire**; RFP means **Request for Proposal**.
 
+## Original documents
+
+The [raw corpus](poc_docs/S/) consists mainly of public US pension-fund RFPs, supplemented by investment due-diligence questionnaires and ESG materials from organizations such as ILPA, INREV, PRI, and AC Private Markets. RFPs describe the services sought, eligibility requirements, proposal deadlines, submission instructions, and contract terms. DDQ materials contain questions about a manager's organization, strategy, investment process, risk controls, operations, and ESG practices; they include templates and supporting materials rather than a uniform set of completed manager responses.
+
+The [download manifest](poc/corpus/manifest_S.csv) records **101 candidates: 81 successful downloads and 20 failed downloads**. Only the 81 successfully downloaded files are in the search corpus. The statistics below are calculated from those successful entries and the saved files.
+
+| Corpus statistic | Value |
+|---|---|
+| Original files | 81, with 81 distinct SHA-256 hashes |
+| File formats | 78 PDF, 2 DOCX, 1 legacy DOC |
+| Total size | 47,379,550 bytes (45.18 MiB) |
+| Distinct issuer labels in the manifest | 56 |
+| Recorded document years | 2012-2026 for 62 files; year unspecified for 19 |
+| PDF text availability | All 78 have extractable text; no scanned-only PDFs |
+
+The following groups combine the manifest's category labels; every downloaded file is counted once.
+
+| Document group | Files |
+|---|---:|
+| General and specialist investment-consultant RFPs | 34 |
+| Investment-manager and outsourced chief investment officer (OCIO) RFPs | 10 |
+| Actuarial and audit RFPs | 12 |
+| Custody, deferred-compensation, and pension/retirement-plan service RFPs | 10 |
+| RFP questions and answers, and investment-manager questionnaires | 4 |
+| DDQ-related documents (manifest category `ddq_template`) | 8 |
+| ESG assessment framework and FAQs | 3 |
+| **Total** | **81** |
+
+The `ddq_template` category also includes the PRI covering note and NJEDA investment-opportunity notice, so its eight files should not be interpreted as eight standalone DDQ templates. Source URLs, individual categories, download status, sizes, and hashes remain available in the manifest.
+
+Similar documents are intentional: 23 files share the `investment_consultant_rfp` category, and the corpus includes different years or versions of Hawaii ERS RFPs, ILPA DDQs, INREV DDQs, and ILPA ESG FAQs. These provide cases where similar wording can refer to different institutions, versions, or facts. The original PDF/DOCX/DOC files are the search input; extracted text is retained separately for audit and parsing checks. See [methodology](docs/METHODOLOGY.md) for parsing behavior and the legacy DOC limitation.
+
+## Evaluation questions
+
+The questions were AI-drafted from the documents in six saved draft batches, then independently checked against the sources before evaluation. They test concrete facts such as deadlines, copy counts, asset thresholds, contract terms, and DDQ section counts, as well as longer summaries, document comparisons, and appropriate refusal when evidence is missing.
+
+The [verified question set](poc/questions/questions_verified.csv) contains **120 unique IDs and 120 distinct question texts**. The exact [frozen campaign input](poc/results/20261014_ABC_verified120/inputs/questions.csv) was used for A, B, and C in the same order. Thus, the campaign has **120 questions and 360 evaluated responses**.
+
+| Question type | Count | Purpose |
+|---|---:|---|
+| `detail` | 50 | Retrieve a specific fact or short set of requirements |
+| `pair_a` | 15 | First question of a similar-wording pair |
+| `pair_b` | 15 | Follow-up with a different required answer; detect inappropriate reuse |
+| `medium` | 18 | Summarize or combine multiple requirements within a document |
+| `broad` | 13 | Compare or synthesize evidence across documents |
+| `unanswerable` | 9 | Refuse unsupported or false-premise requests |
+| **Total** | **120** | **111 answerable and 9 negative questions** |
+
+The 30 paired questions form **15 pairs**, already included in the 120-question total. Each pair-A immediately precedes its pair-B. By reference-file scope, **98 questions cite one file, 13 cite between four and ten files, and nine negative questions have no gold-source file**. All 81 corpus files appear in at least one question's `gold_source_file`; this is document coverage, not exhaustive coverage of every fact. A document can support multiple questions, and a question can span multiple documents.
+
+Each record includes the question, type, optional pair ID, reference answer (`gold_answer`), source filenames, supporting passage, and verification notes/acceptance criteria. The search runner receives only the ID and question text; reference answers are used for grading, not supplied to search.
+
+For independent verification, three AI reviewers each blind-answered a different batch of 40 questions before seeing the original references. Source comparison and adjudication supported **109 original references** and corrected **11**; six questions also had their scope clarified. All 120 were retained. Each question had one blind reviewer, not three, and this is AI verification rather than human certification. The [verification report](poc/questions/verification/verification_report.md) documents the corrections and limitations; `verify_answer` preserves the initial blind answer and must not replace the adjudicated `gold_answer`.
+
 ## 1. Answer accuracy
 
 | Run | Evidence-file limit (`top_k`) | Cluster reuse | Fully correct, including correct refusals | Accuracy | Median search time | Search tokens |
