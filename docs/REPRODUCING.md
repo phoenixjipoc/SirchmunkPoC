@@ -5,11 +5,10 @@
 The checked-in corpus and results can be inspected without Docker or credentials.
 
 ```bash
-python tools/verify_publication.py
-python tools/build_english_reports.py
+python poc/validate_campaign.py poc/results/20261014_ABC_verified120
 ```
 
-The verifier uses [the integrity checklist](../tools/publication_inventory.json) and writes [validation results](../reports/verified120/publication_validation.json). It checks evidence hashes, translations, documentation, links, and every ZIP member. The report builder regenerates presentation files without rerunning search or scoring. After approved documentation changes, refresh the checklist's `publication_sha256`/`publication_bytes` entries, rebuild with `python tools/export_campaign.py`, and verify again. Keep original evidence hashes unchanged.
+The validator checks source hashes, frozen inputs, recorded answers, aggregate scores, and review completion. It refreshes the campaign's [validation record](../poc/results/20261014_ABC_verified120/validation.json), including its timestamp. English presentation tables are saved under `reports/verified120/`; original responses and scoring records remain in the campaign directory.
 
 Harness checks:
 
@@ -50,6 +49,6 @@ python poc/campaign_report.py poc/results/NEW_RUN_ID
 python poc/validate_campaign.py poc/results/NEW_RUN_ID
 ```
 
-The original report generator and its output are preserved as recorded. The English publication tools target the existing campaign. Frozen `inputs/scripts/` files are audit copies; executable entry points are under `poc/`. Input/code hashes are checked when resuming an incomplete stage with `--resume`.
+The original report generator and its output are preserved as recorded. Frozen `inputs/scripts/` files are audit copies; executable entry points are under `poc/`. Input/code hashes are checked when resuming an incomplete stage with `--resume`.
 
 The experiment exercises the Python SDK, not the HTTP API or UI. New answers, timing, usage, and grades may vary; preserve new logs and review them separately.

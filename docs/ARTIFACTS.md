@@ -46,11 +46,11 @@ Within each `A`, `B`, or `C` directory:
 
 Cluster counts are A=82, B=76, C=80. They are outputs built during a stage; they are not all pre-existing cache hits. Only nine C questions reused an earlier cluster.
 
-## Campaign archive and supporting audit
+## Campaign and supporting audit
 
-`poc/results/` contains only the verified 120-question campaign, its ZIP, and its checksum manifest. The ZIP contains the same 473 campaign files as the directory, including its three English narrative reports. Original result, log, cluster, and frozen-input bytes are preserved. The source corpus, full question audit, and English presentation tables live outside the ZIP and are included in the repository.
+`poc/results/` contains the verified 120-question campaign. Original results, logs, clusters, and frozen inputs are preserved. The source corpus, full question audit, and English presentation tables are separate repository directories.
 
-`tools/export_campaign.py` rebuilds the archive from the current campaign directory. Its adjacent manifest records the archive SHA-256, size, file count, and narrative-language policy. `tools/verify_publication.py` checks every archive member against its corresponding repository file.
+`poc/validate_campaign.py` checks source hashes, frozen inputs, recorded answers, aggregate scores, and review completion.
 
 The six question drafts and `verification/audit_20261014/original/` belong to the 120-question verification process. The original snapshot has 120 rows. Drafts, quotations, blind answers, page images, comparisons, and decisions support the final references.
 

@@ -97,18 +97,18 @@ See [all reuse cases](reports/verified120/reuse_cases.csv) and the [matched comp
 | `poc/corpus/` | Sources, download records, and extracted text |
 | `poc/questions/` | 120-question set, drafts, and source audit |
 | `poc/harness/`, `poc/*.py` | Evaluation, grading, review, and export scripts |
-| `poc/results/` | One A/B/C campaign and its ZIP |
+| `poc/results/` | A/B/C answers, logs, clusters, and frozen inputs |
 | `reports/verified120/` | English result tables and report |
-| `docs/`, `tools/` | Guides, publication utilities, and the integrity checklist |
+| `docs/` | Workflow, methodology, reproduction, and file guide |
 
-The [ZIP](poc/results/20261014_ABC_verified120_export.zip) contains 473 campaign files. The corpus and full question audit are separate repository directories. Drafts are retained for rebuilding the verified set.
+The corpus and full question audit are separate repository directories. Drafts are retained for rebuilding the verified set.
 
-## Publication checks
+## Offline validation
 
-All narrative documents are English. Raw evidence retains its original bytes; English presentation tables label translations, including C/INV-04. See [integrity checks](reports/verified120/publication_validation.json) and [data rights](DATA_NOTICE.md).
+All narrative documents are English. Raw evidence retains its original bytes; English presentation tables label translations, including C/INV-04.
 
 ```bash
-python tools/verify_publication.py
+python poc/validate_campaign.py poc/results/20261014_ABC_verified120
 ```
 
-This checks integrity, translations, links, and archive contents offline. No additional search runs or algorithm changes were made during publication.
+This checks source hashes, frozen inputs, answer records, scores, and review completion without making service requests.
