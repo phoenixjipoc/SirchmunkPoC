@@ -14,6 +14,37 @@ Each stage starts with an empty cluster store at `/poc_runs/20261014_ABC_verifie
 
 Exact service settings, container image/digest, and code hashes are recorded in [campaign.json](../poc/results/20261014_ABC_verified120/campaign.json) and each stage's `run_meta.json`. Common limits are ten loops, 128,000 tokens, depth five, and 600 seconds per question. The token setting is not a strict usage cap after parallel work or retries. No seed or temperature override was supplied.
 
+## How DEEP works
+
+In the tested version, DEEP finds relevant files, gathers evidence, and produces an answer. The [runner](../poc/harness/sirch_runner.py) calls `AgenticSearch.search()` with `mode="DEEP"` inside Docker.
+
+The usual retrieval path is:
+
+```mermaid
+flowchart TD
+    Q[Question and document paths] --> C{Reusable cluster found?}
+    C -->|Reuse enabled and matched| R[Return stored cluster content]
+    C -->|Disabled or no usable match| P[Derive keywords and inspect directories]
+    P --> F[Find and rank candidate files]
+    F --> E[Extract text and gather evidence]
+    E --> K[Build a knowledge cluster]
+    K --> S[Summarize and check whether to answer]
+    S --> O[Return answer or no result]
+```
+
+| Stage | What happens |
+|---|---|
+| Discover | Derive search terms and inspect directory information and cached search hints. These probes can run in parallel. |
+| Retrieve | Use `rga` keyword matches and directory-based selection to find, merge, and rank candidate files. |
+| Read evidence | Extract text with `fast_extract()` through Kreuzberg, then examine up to `top_k_files` candidates. Monte Carlo sampling tests text regions and explores promising passages; small files may be read in full. |
+| Answer and save | Combine evidence, source references, and a reusable summary into a knowledge cluster. `_summarise_cluster()` produces the response and decisions about answering and saving the cluster. Insufficient evidence can produce a no-result response. |
+
+`top_k_files` limits detailed evidence reading: ten files in A/C and five in B. Keyword search can find more candidates. DEEP therefore does not guarantee reading every page of all 81 documents. Whole-document requests can take a separate direct-analysis route; two questions per stage used that route, with a five-file collection default.
+
+When reuse is enabled, `_try_reuse_cluster()` checks semantic similarity against saved clusters. C uses a threshold of 0.85. A usable match can return stored content before fresh retrieval and sampling. This function checks similarity and nonempty content, without checking whether the document version, issuer, or requested fact still applies. For example, C/XD-10 reused the v1.2 appendix answer for a 2.0 question at similarity 0.994 and returned five instead of eight appendices.
+
+See the [recorded settings](../poc/results/20261014_ABC_verified120/inputs/effective_search_defaults.json), [reuse code snapshot](../poc/results/20261014_ABC_verified120/inputs/cluster_reuse_source.txt), and [reuse cases](../reports/verified120/reuse_cases.csv). The PoC's [scoring and review](EVALUATION.md#scoring-and-review) run after DEEP returns its answer.
+
 ## Parsing and search
 
 Original PDF/DOCX/DOC files are copied to `/mnt/docs/S`; no Markdown conversion is used as search input.

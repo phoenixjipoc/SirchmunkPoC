@@ -7,6 +7,8 @@ This repository tests two questions:
 
 **81 documents, 120 verified questions, three DEEP runs, 360 responses.** Sirchmunk version: 0.0.7.
 
+DEEP finds relevant files, reads evidence, builds a knowledge cluster, and returns an answer. With reuse enabled, a matching stored cluster can supply the answer directly. See [how DEEP works](docs/METHODOLOGY.md#how-deep-works) for the flow and limits.
+
 ## Original documents
 
 The [corpus](poc_docs/S/) mainly contains public pension-fund RFPs and industry DDQ/ESG materials. RFPs specify services, qualifications, deadlines, and contract terms. DDQ materials cover organization, strategy, risk, operations, and ESG; they include templates and supporting notes.
