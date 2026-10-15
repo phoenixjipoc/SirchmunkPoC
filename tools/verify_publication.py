@@ -12,6 +12,12 @@ from urllib.parse import unquote
 
 from build_english_reports import CAMPAIGN, HINTS, OUT, ROOT, TRANSLATIONS, read_csv, translated_value
 
+PROSE_TERMS = re.compile(
+    r'\b(?:AI|LLMs?|LLM_[A-Z_]+|models?|gpt(?:[- ][\w.-]+)?|embeddings?|'
+    r'neural|chatgpt|claude|openai|anthropic)\b|artificial intelligence|machine learning',
+    re.IGNORECASE,
+)
+
 
 def digest(path):
     h=hashlib.sha256()
@@ -65,6 +71,7 @@ def main():
             assert hashlib.sha256(content).hexdigest()==digest(path), f"Stale ZIP member: {name}"
             if path.suffix=='.md':
                 assert not re.search(r'[\u3400-\u9fff]',content.decode('utf-8')), f"Non-English ZIP narrative: {name}"
+                assert not PROSE_TERMS.search(content.decode('utf-8')), f"Unwanted ZIP terminology: {name}"
 
     questions=read_csv(CAMPAIGN/'inputs/questions.csv')
     ids=[q['id'] for q in questions]
@@ -133,6 +140,7 @@ def main():
     for path in active_docs:
         content=path.read_text(encoding='utf-8')
         assert not re.search(r'[\u3400-\u9fff]',content), f"Non-English narrative: {path.relative_to(ROOT)}"
+        assert not PROSE_TERMS.search(content), f"Unwanted narrative terminology: {path.relative_to(ROOT)}"
         for link in re.findall(r'(?<!!)\[[^\]]*\]\(([^)]+)\)',content):
             target=link.strip('<>').split('#',1)[0]
             if not target or re.match(r'[A-Za-z]+:',target):
@@ -172,6 +180,7 @@ def main():
         'scope':'verified120','retained_source_artifacts':len(inventory['files']),
         'unchanged_evidence_files':copied,'published_source_documents':published_docs,
         'english_markdown_documents':len(active_docs),
+        'markdown_terminology_check':'passed',
         'campaign_archive_members_verified':len(expected_members),
         'campaign_archive_sha256':archive_meta['sha256'],
         'raw_corpus_files':81,'corpus_hashes_unchanged':True,'search_records':360,

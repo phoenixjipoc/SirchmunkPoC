@@ -2,7 +2,7 @@
 
 ## Main English entry points
 
-`reports/verified120/report.md` and the CSVs beside it present the October 14 experiment in English. The original result records remain in `poc/results/20261014_ABC_verified120/`. Numerical scores and usage in the presentation tables are unchanged. One Chinese model answer has an explicit translation record.
+`reports/verified120/report.md` and the CSVs beside it present the October 14 experiment in English. The original result records remain in `poc/results/20261014_ABC_verified120/`. Numerical scores and usage in the presentation tables are unchanged. One translated response is explicitly marked.
 
 | File or directory | Meaning |
 |---|---|
@@ -32,11 +32,11 @@
 
 Within each `A`, `B`, or `C` directory:
 
-- `run_meta.json`: effective model, image digest, paths, timing, configuration, and runner hash.
+- `run_meta.json`: service configuration, image digest, paths, timing, configuration, and runner hash.
 - `questions.jsonl`: search input containing only ID and question.
 - `question_snapshot.csv`: full frozen reference, retained for later grading.
 - `results.jsonl` / `results.csv`: recorded search answers and telemetry.
-- `raw/<question-id>.json`: full context, logs, model-call usage, and tracing.
+- `raw/<question-id>.json`: full context, logs, service usage, and tracing.
 - `results_judged.csv` / `judge_records.jsonl`: original labels and resumable judge checkpoint.
 - `review_decisions.jsonl`: final review decisions, append-only; the latest decision per ID applies.
 - `secondary_review_records.jsonl`, `review_disagreements.jsonl`, `review_resolution.json`: separate reviews and final disagreement dispositions.
@@ -52,6 +52,6 @@ Cluster counts are A=82, B=76, C=80. They are outputs built during a stage; they
 
 `tools/export_campaign.py` rebuilds the archive from the current campaign directory. Its adjacent manifest records the archive SHA-256, size, file count, and narrative-language policy. `tools/verify_publication.py` checks every archive member against its corresponding repository file.
 
-The six question drafts and `verification/audit_20261014/original/` belong to the 120-question verification process. The original question snapshot has 120 rows; its drafts, source quotations, frozen blind answers, page images, comparisons, and adjudications explain how the final references were established. These are retained even when individual questions originated during earlier drafting.
+The six question drafts and `verification/audit_20261014/original/` belong to the 120-question verification process. The original snapshot has 120 rows. Drafts, quotations, blind answers, page images, comparisons, and decisions support the final references.
 
-All narrative documentation is English. Raw logs, model responses, and frozen code can retain original multilingual content. Frozen scripts and recorded command paths are evidence of the actual campaign; use the reproduction guide for running from a new checkout.
+All narrative documentation is English. Raw logs, responses, and frozen code can retain original multilingual content. Frozen scripts and recorded command paths are evidence of the actual campaign; use the reproduction guide for running from a new checkout.

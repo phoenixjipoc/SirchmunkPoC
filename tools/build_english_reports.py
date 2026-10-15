@@ -58,37 +58,25 @@ def table(headers, rows):
                      *['| '+' | '.join(str(v).replace('|','/') for v in row)+' |' for row in rows]])
 
 
-FINDINGS = '''## Interpretation
+FINDINGS = '''## Findings
 
-B used 44.28% fewer search tokens than A, but answered six fewer questions fully correctly. Its median latency was 39.68 seconds versus A's 38.75 seconds; no median latency improvement was observed. Candidate-source coverage was similar, while sampled-source coverage was lower. Coverage is a diagnostic clue, not proof that the required facts were read.
+- B used 44.28% fewer search tokens than A, with six fewer correct answers and no median speed improvement. Candidate coverage was similar; sampled-source coverage fell. File coverage alone does not prove the required fact was read.
+- All nine C reuse hits were wrong. A answered the same IDs with four correct, four no-results, and one wrong. C gained five correct answers on the other 111 questions, producing a net gain of one. This does not establish a reuse benefit.
+- Reuse hits averaged 1.72 seconds and 201 tokens, versus A's 39.31 seconds and 100,261 tokens on those IDs. Across all questions, C used 16.64% fewer tokens but had a 2.70-second higher median.
+- Seven hits involved predefined pairs; SVC-20 and CONS-07 were outside them. Wrong-version matches reached 0.994 and 0.993 similarity. The reuse function checks similarity and usable content, without a new factual-applicability check inside that function.
+- No broad question was fully correct (13 per run). All nine negative questions received accepted refusals; this does not imply that other answers were factually correct.
 
-C's overall score was one question higher than A's. However, all nine actual reuse hits were wrong. The same nine IDs in A produced four correct answers, four no-results, and one wrong answer. The other 111 IDs gained a net five correct answers in C, offsetting the four lost correct answers in the reuse group. One-pass differences on fresh searches remain subject to model and sampling variation; the aggregate score does not establish a benefit from reuse.
+## Limits and incidents
 
-Reuse hits averaged 1.72 seconds and 201 tokens, versus 39.31 seconds and 100,261 tokens for A on the same nine question IDs. This acceleration came with nine unsuitable answers. Across all 120 questions, C used 16.64% fewer search tokens than A, but its median latency was 2.70 seconds higher. These stress-test questions do not estimate the distribution of normal business traffic.
+- A's Unicode export was repaired without rerunning search or grading. Original/fixed code hashes and the regression result are recorded.
+- C/SVC-03 recovered through retry; 137.83 seconds and 148,219 tokens remain included. A/B/C had 5/2/3 serialization recoveries and no unrecovered runtime errors.
+- Each stage had two direct-document routes with a separate five-file default. CONS-16 missed the ten named files. The legacy DOC's parsing corruption was retained across runs.
+- SVC-15 has ambiguous audit scope. Excluding it gives 62.18% / 57.14% / 63.03%; main scores retain all questions.
+- Scoring and secondary review were automated using the same configured service as search. All 190 required reviews were resolved. Initial and final decisions remain separate; no human sign-off was performed.
+- Timing excludes preparation, scoring, review, and export. Usage includes successful sampling calls; failed calls may have unreported usage. The 128,000-token setting is not a strict cap.
+- These are one-pass results on selected questions. C uses only earlier C clusters; identical-question replay and production-scale performance were not tested.
 
-Seven reuse hits came from the second question in a predefined pair. Two came from other questions: SVC-20 reused SVC-15's contract-term cluster to answer a services-scope question, and CONS-07 reused CONS-06's TMRS identification for an OCERS requirement. Wrong-version ILPA matches had similarities of 0.994 and 0.993. The inspected reuse function returns existing cluster content after similarity/content checks without a new factual-applicability check inside that function. Raising the threshold alone would leave some observed failures; matching the document alone would not resolve the KCERA different-fact example.
-
-Cross-document synthesis remains a major limitation: all three runs scored zero fully correct out of 13 broad questions, with six, six, and five partial answers respectively. This does not mean the answers contained no relevant information. All nine negative questions were correctly refused in every run. Detail-question correctness was 40/50, 34/50, and 40/50.
-
-Use A (k10, reuse off) as the next comparison baseline. Before enabling approximate reuse, validate the institution, version, mandate, and requested fact against the current question, falling back to fresh retrieval when unsupported. Improve relevant-file enumeration and cross-document coverage, including the direct-document intent route, then rerun the complete benchmark. No search-library changes or extra evaluation runs were made during publication.
-
-## Incidents, audit scope, and limitations
-
-- A's cluster export initially failed on U+2029 inside evidence text. Only JSONL export handling was repaired; completed search and judge records were reused. The original/fixed hashes and the passing export regression test are preserved.
-- C / SVC-03 recovered through an automatic retry after a connection error. The observed 137.83 seconds and 148,219 tokens were retained; the outlier was not removed.
-- A/B/C had 5/2/3 return-object serialization errors, respectively. The harness recovered and graded the answers. There were zero unrecovered runtime errors, but HTTP end-to-end availability was not evaluated.
-- Every stage had two direct-document intent routes. The default collector takes at most five files independently of top_k; CONS-16 consequently did not read the ten named RFPs. Installed source excerpts and raw records are included.
-- The legacy INREV DOC contains substantial extraction corruption. Its raw bytes and runtime handling were kept identical across A/B/C. Independent audit extraction was not substituted into retrieval.
-- SVC-15 ambiguously says audit services without specifying financial versus actuarial audit. Main scores retain the frozen reference. Excluding it gives A 62.18%, B 57.14%, C 63.03%; this is a sensitivity view, not replacement scoring.
-- The primary judge and separate secondary-review requests used the same configured model as search. The coordinating AI additionally checked cases and resolved disagreements. This is not a human-certified benchmark, and semantic completeness judgments still require interpretation.
-- All initially non-correct results and a reproducible roughly 20% sample of initially correct/refusal results were selected for review: 190 records, all resolved. Other cases were also reviewed. Initial and secondary labels remain preserved separately from final decisions.
-- Source coverage is a per-question fraction of known reference files reached. A file hit does not establish factual support. Missing citation metadata from serialization failures or directory-only citations is excluded from the cited-coverage mean and its missing count is reported.
-- Latency excludes prewarm, judging, review, and export. Search token totals use successful model-wrapper response usage, including child sampling calls; unreported internal retry usage may be missing. Monetary costs were not estimated.
-- The 128,000-token runtime budget parameter is not a strict cap after parallel calls/retries. Scores and usage in this repository refer to the verified 120-question campaign.
-- C asks 120 distinct questions once. It does not use A/B clusters and does not test exact-question replay. Nine cache failures in this stress test do not quantify all possible reuse scenarios.
-- The structural validator confirms 360 records, unchanged hashes for 81 originals, identical questions/image/model, isolated knowledge paths, search input without gold answers, and preserved answers/usage. It does not prove every semantic grade is correct.
-
-Knowledge clusters exported: A 82, B 76, C 80 (238 total). Original logs, raw JSON, frozen inputs and code, traces, and stage-specific cluster CSV/JSONL files remain in the campaign directory.
+The campaign retains 360 responses and 238 clusters: A=82, B=76, C=80. Structural checks confirm unchanged source files, inputs, and recorded answers; they do not establish every semantic grade. See the methodology for full definitions.
 '''
 
 
@@ -108,7 +96,7 @@ def main():
     report = ['# Sirchmunk: 120-question A/B/C test report','',
         'Evaluation completed October 14, 2026. All 360 searches and all 190 required reviews are complete. This English edition preserves the original numerical results.','',
         '## Fixed conditions','',
-        '81 original documents; the same 120 verified questions and order; DEEP; Sirchmunk 0.0.7; gpt-5.4. A=k10/reuse off, B=k5/reuse off, C=k10/reuse on (threshold 0.85). Each run starts with an empty, separate knowledge store; only parsed-text cache is shared. C reuses only earlier clusters from C. Fifteen pairs have similar wording but different answers.','',
+        '81 documents; 120 verified questions in the same order; DEEP; Sirchmunk 0.0.7. A=k10/reuse off, B=k5/reuse off, C=k10/reuse on (threshold 0.85). Each run starts with an empty, separate knowledge store; only parsed-text cache is shared. C reuses only earlier clusters from C. Fifteen pairs have similar wording but different answers.','',
         'The [methodology](../../docs/METHODOLOGY.md) explains parsing, SDK execution, judging, and interpretation. The [execution log](../../poc/results/20261014_ABC_verified120/test_process.md) records actual commands and events.','',
         '## Overall results','',overall,'',
         'Correctness includes correct refusals; partial answers are not fully correct. There are 111 answerable and nine negative questions. No records are removed from the denominator.','',FINDINGS,
@@ -125,7 +113,7 @@ def main():
     report += ['', '## All actual reuse hits','',table(['Current ID','Source ID','Logged similarity','Final label','Seconds','Tokens'],
         [[r[k] for k in ['id','source_question_id','logged_similarity','final_label','latency_s','total_tokens']] for r in cases]),'',
         'Full questions, expected answers, reused answers and review reasons: [reuse_cases.csv](reuse_cases.csv).','']
-    report += ['## Review and observability','', table(['Run','Primary accuracy','Label overrides','Coordinator reviews','Secondary model reviews','Mechanical checks','Serialization errors','Incomplete citation traces'],
+    report += ['## Review and observability','', table(['Run','Primary accuracy','Label overrides','Coordinator reviews','Secondary reviews','Mechanical checks','Serialization errors','Incomplete citation traces'],
         [[r[k] for k in ['stage','initial_correct_pct','review_overrides','independently_reviewed','secondary_model_reviewed','mechanically_checked','serialization_errors','citation_trace_incomplete_count']] for r in totals]),'',
         'Review-method counts describe the final decision method per record and include proactive reviews outside the required queue. They are not three independent reviewers per question.','']
     report += ['## Paired and matched comparisons','']
@@ -145,24 +133,33 @@ def main():
         '## English presentation files','',
         *['- ['+name+']('+name+')' for name in names],
         '- [A clusters](A_clusters.csv), [B clusters](B_clusters.csv), [C clusters](C_clusters.csv).','',
-        'One C / INV-04 model answer and its cluster summary were translated from Chinese. Each changed presentation row records the translation. Original responses, logs, and grade records are unchanged; no answer was regraded after translation.']
+        'C / INV-04 and its cluster summary have explicit English translations. Each changed presentation row records the translation. Original responses, logs, and grade records are unchanged; no answer was regraded after translation.']
     (OUT/'report.md').write_text('\n'.join(report)+'\n',encoding='utf-8')
     (CAMPAIGN/'test_report.md').write_text('# A/B/C evaluation: English report\n\n'+overall+'\n\n'+
         'Read the [complete English report](../../../reports/verified120/report.md) for methodology, findings, all reuse hits, review accounting, and limitations.\n\n'+
-        'Original raw records remain in this directory. English presentation tables are under `reports/verified120/`.\n'+FINDINGS,encoding='utf-8')
+        'Raw records remain here. See [final findings](final_findings.md) for interpretation and limits.\n',encoding='utf-8')
     (CAMPAIGN/'final_findings.md').write_text('# Final findings: English edition\n\n'+FINDINGS,encoding='utf-8')
     events=[json.loads(s) for s in (CAMPAIGN/'events.jsonl').read_text(encoding='utf-8').split('\n') if s.strip()]
-    process=['# A -> B -> C execution process','',
-        'All stages use 120 verified questions, 81 original files, DEEP mode and serial questions. A=k10/reuse off; B=k5/reuse off; C=k10/reuse on at 0.85. Each stage starts with an empty knowledge store; the parsed-text cache is shared.','',
-        'Search input contains only IDs/questions. Frozen references and acceptance criteria are used later for grading. Primary and secondary model judging share the search model configuration; coordinating review is separately recorded.','',
-        'The legacy DOC parser issue was retained throughout all stages. A JSONL export failure was repaired without rerunning search. Connection retries and serialization recoveries remain in the metrics and logs.','',
-        'Events below preserve the original order and timestamps. Historical command paths refer to the original workspace; use the reproduction guide for the new checkout. The first exporter-repair event prematurely reported a test pass; the later `export_regression_test_passed` event explicitly corrects that record.','',
-        '## Execution events','']
-    for e in events:
-        details={k:v for k,v in e.items() if k not in ['time','event']}
-        recorded_time=e.get('time','Timestamp not recorded in the original event')
-        process += [f"- **{recorded_time}** `{e['event']}`",'','```json',json.dumps(details,ensure_ascii=False,indent=2),'```','']
-    process += ['## Completion','', '360 search records, all 190 required review records resolved, and 238 clusters exported. See `validation.json` for original data-integrity checks. Publication/translation checks are recorded separately in the repository provenance directory.']
+    meta=json.loads((CAMPAIGN/'campaign.json').read_text(encoding='utf-8'))
+    process=['# A/B/C execution record','',
+        '81 raw files; 120 verified questions per stage; DEEP mode. A=k10/reuse off, B=k5/off, C=k10/on at similarity 0.85. Each stage starts with an empty cluster store; parsed-text cache is shared.','',
+        'Search receives only IDs/questions. References and acceptance criteria are used later for automated scoring and separate review.','',
+        '## Stage timing','',
+        table(['Stage','Started','Completed','Questions','Clusters'],
+              [[stage,meta['stages'][stage]['started'],meta['stages'][stage]['finished'],120,
+                meta['stages'][stage]['clusters_exported']] for stage in 'ABC']),'',
+        'Times are recorded with the +08:00 offset. Stage completion includes export; reviews and final adjudication follow.','',
+        '## Recorded incidents','',
+        '- The legacy DOC produced partially garbled text; it remained unchanged across all stages.',
+        '- A completed search and grading before a Unicode JSONL export failure. Only export parsing was repaired; search was not rerun.',
+        '- An early repair event prematurely claimed a test pass. The later `export_regression_test_passed` event records the actual result.',
+        '- C/SVC-03 recovered through an automatic connection retry. Its timing and usage remain included.',
+        '- CONS-16 took a direct-document route with a separate five-file default and missed the ten named RFPs.',
+        '- Final review resolved all required disagreements; original labels were preserved.','',
+        '## Completion and source records','',
+        '360 responses, 190 required reviews resolved, and 238 clusters exported. Final correct counts: A=74, B=68, C=75.','',
+        '[events.jsonl](events.jsonl) retains all '+str(len(events))+' events, commands, timestamps, and incident details. One parser-followup event has no recorded timestamp. [validation.json](validation.json) contains the original integrity checks.','',
+        'Recorded commands refer to the original workspace. Use the [reproduction guide](../../../docs/REPRODUCING.md) for a new checkout.']
     (CAMPAIGN/'test_process.md').write_text('\n'.join(process)+'\n',encoding='utf-8')
     print(json.dumps({'presentation_csvs':len(names)+3,'search_records':360,'model_calls':0,'output':'reports/verified120'}))
 

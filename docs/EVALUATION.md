@@ -1,49 +1,45 @@
 # Evaluation workflow and grading
 
-This guide follows one question through the recorded 120-question A/B/C campaign. See [methodology](METHODOLOGY.md) for configuration and limitations, and the [execution history](../poc/results/20261014_ABC_verified120/test_process.md) for actual events.
-
 ## From question to answer
 
-1. The host harness reads the frozen question order and invokes the container-side Python runner with `docker exec`. Search receives the question ID and question text, without the reference answer or acceptance criteria.
-2. The runner calls `AgenticSearch.search()` in DEEP mode. C can reuse a suitable earlier cluster from C's own initially empty store; A and B disable reuse. C's similarity threshold is 0.85. The recorded reuse function checks similarity and nonempty content; it does not perform a new factual-applicability check inside that function.
-3. On the main fresh-search path, the model interprets the question and derives search terms. `rga` searches extracted document text to find candidate files and matching passages.
-4. Up to 10 candidate files in A/C, or five in B, enter evidence sampling. Kreuzberg extracts candidate text, and Monte Carlo evidence sampling selects and evaluates relevant portions. Selecting a file does not mean that the model reads its entire content. A few questions take a direct-document route with a separate five-file default.
-5. Evidence is synthesized into a knowledge cluster and an answer with source information. The system can instead return no result. New clusters are saved; later C questions may reuse them. A cluster reuse hit uses existing content and can bypass fresh document search.
-6. The harness saves the answer, candidate and evidence traces, citations, reuse identifiers, elapsed search time, token usage, warnings, and errors.
-7. The answer is graded against the frozen reference, supporting passage, and acceptance criteria. Required reviews are resolved before final scores and exports are produced.
+1. The harness submits an ID and question to `AgenticSearch.search()` in Docker, using DEEP mode. References are withheld.
+2. C checks its own earlier clusters for reuse at similarity 0.85. The recorded function checks similarity and usable content, without a new factual-applicability check inside that function. A/B disable reuse.
+3. Fresh search derives keywords and uses `rga` to locate candidate files and passages.
+4. Kreuzberg extracts candidate text. Evidence sampling examines relevant portions of up to ten files in A/C or five in B. A few direct-document requests follow a separate five-file default.
+5. Evidence is summarized into a cluster and answer, or the system returns no result. Clusters are saved for possible later reuse in C.
+6. The harness records answers, sources, reuse, timing, usage, and errors. Scoring and review follow before export.
 
-The same 120 questions run once in each stage, producing 360 answer records. C does not receive A/B's clusters or repeat an identical question within its own stage. Shared parsed-text cache is separate from knowledge-cluster memory.
+The same 120 questions produce 360 responses across A/B/C. Each stage starts with an empty cluster store. C does not reuse A/B clusters or repeat identical questions.
 
-## References and acceptance criteria
+## Acceptance criteria
 
-The exact grading inputs are in [the frozen question CSV](../poc/results/20261014_ABC_verified120/inputs/questions.csv). The matching [verified question table](../poc/questions/questions_verified.csv) is the readable master snapshot.
+The [frozen question CSV](../poc/results/20261014_ABC_verified120/inputs/questions.csv) contains:
 
-| Field | Role |
+| Field | Purpose |
 |---|---|
-| `gold_answer` | Adjudicated reference answer |
-| `gold_source_file` | One or more source filenames; empty for the nine negative questions |
-| `gold_passage` | Supporting source text |
-| `verify_note`, after `Acceptance:` | Required facts, allowed wording, optional details, and unacceptable interpretations |
-| `verify_answer` | Initial independent blind answer, preserved even where later adjudication found a mistake |
+| `gold_answer` | Final reference answer |
+| `gold_source_file` / `gold_passage` | Source filenames and evidence |
+| `verify_note`, after `Acceptance:` | Required facts, allowed wording, optional details, and exclusions |
+| `verify_answer` | Initial blind answer; may contain subsequently corrected mistakes |
 
-All 120 questions have acceptance criteria. These were recorded during the independent source audit before the campaign. For INV-01, ten proposal copies suffice; a template address is optional. For INV-03, the required meaning is up to ten client references, each with assets greater than $1 billion; exactly ten or at least $1 billion is not equivalent. For XD-20, a response should say that no minimum pass score is specified, rather than invent a GRESB cutoff.
+All 120 questions have acceptance criteria fixed before testing. For INV-01, ten copies suffice; the template address is optional. For INV-03, up to ten clients with assets greater than $1 billion is required; exactly ten or at least $1 billion is not equivalent.
 
-The [frozen judge script](../poc/results/20261014_ABC_verified120/inputs/scripts/judge.py) extracts the acceptance text and supplies it with the question, complete system answer, reference answer, and supporting passage. Its judgment is semantic rather than exact-string matching.
+The [judge script](../poc/results/20261014_ABC_verified120/inputs/scripts/judge.py) compares the full response with the reference, evidence, and acceptance criteria by meaning, not exact wording.
 
-## Labels, reviews, and final accuracy
+## Scoring and review
 
-| Final label | Meaning | Counts as correct? |
+| Label | Meaning | Correct? |
 |---|---|---|
-| `correct` | Required facts are correct without a contradicting claim | Yes |
+| `correct` | Required facts correct, with no contradiction | Yes |
 | `correct_refusal` | Appropriate refusal on a negative question | Yes |
-| `partial` | Some required facts are correct, but required content is missing | No |
-| `wrong` | Incorrect key fact, wrong document, or an unsupported refusal on an answerable question | No |
-| `hallucinated` | A concrete unsupported answer on a negative question | No |
-| `no_answer` | The recorded fixed no-results response | No |
-| `error` | An unrecovered execution failure | No |
+| `partial` | Required content missing | No |
+| `wrong` | Wrong fact/document or unjustified refusal | No |
+| `hallucinated` | Unsupported concrete answer on a negative question | No |
+| `no_answer` | Fixed no-results response | No |
+| `error` | Unrecovered execution failure | No |
 
-The primary judge used the same configured `gpt-5.4` model as search. Initially non-correct results and a reproducible approximately 20% sample of initially correct/refusal results formed a required review queue of 190 records across A/B/C. Secondary model review withheld the primary label; exact no-results/errors were checked mechanically. Coordinating AI review resolved disagreements and examined additional cases, including every reuse hit. Primary labels, secondary reviews, and final decisions remain separately recorded.
+Scoring is automated and uses the same configured service as search. The required review queue contained 190 records: initially non-correct answers plus about 20% of correct/refusal answers. Secondary review withheld initial labels; mechanical checks and source adjudication resolved the queue. Original and final decisions remain separate. No human sign-off was performed.
 
-**Final accuracy = (correct + correct_refusal) / 120.** Partial answers and unsuccessful cases stay in the denominator. The final counts are A=74/120 (61.67%), B=68/120 (56.67%), and C=75/120 (62.50%). These include nine correct refusals in each run. All nine actual C reuse hits were wrong, so overall accuracy and reuse accuracy must be examined separately.
+**Accuracy = (correct + correct_refusal) / 120.** A/B/C scored 74/68/75 correct, including nine correct refusals each: **61.67% / 56.67% / 62.50%**. All nine C reuse hits were wrong.
 
-The independent question audit and the response evaluation are different checks. Source verification supported 109 original references and corrected 11; it did not establish that Sirchmunk answered those questions correctly. Both reference verification and answer grading rely on AI review, with recorded evidence and adjudication, and are not human certification.
+Reference verification and answer scoring are separate checks. Supporting or correcting a reference does not establish that the system answered the question correctly.

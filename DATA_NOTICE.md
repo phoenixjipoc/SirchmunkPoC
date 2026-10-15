@@ -1,9 +1,9 @@
-# Data and attribution notice
+# Data and attribution
 
-The corpus consists of public RFPs and due-diligence questionnaires collected from the issuing organizations or their public document hosts. Source URLs, filenames, categories, and download information are retained in `poc/corpus/candidates.csv` and `manifest_S.csv`.
+Public RFPs and DDQ materials were collected from issuing organizations and public hosts. Source URLs and download records are in `poc/corpus/`.
 
-Public availability does not make a document public domain. Copyright, trademarks, and other rights in the original documents remain with their respective owners. This repository does not apply a new blanket license to third-party documents or to copied Sirchmunk source excerpts.
+Original documents and copied source excerpts retain their owners' rights. Public availability does not imply public-domain status; no blanket license is granted here.
 
-Question references, model outputs, and report findings describe this specific evaluation. They are not current procurement advice, legal interpretations beyond the document questions, or endorsements by the issuing organizations. Historical RFP deadlines and requirements are reported as statements in the corresponding documents.
+References and findings concern this specific test and its source documents. They are not current procurement advice or issuer endorsements.
 
-No API credentials are included. Reproduction requires the operator's own configured model access.
+Credentials are excluded. Reproduction requires separately configured service access.

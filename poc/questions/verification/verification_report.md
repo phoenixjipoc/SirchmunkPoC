@@ -22,7 +22,7 @@ mean 100% reference accuracy and is not a Sirchmunk accuracy result.
 ## Method
 
 1. Freeze the original question set and six draft batches; hash the documents.
-2. Give three independent AI reviewers disjoint batches of 40. During blind
+2. Run three separate automated review sessions on disjoint batches of 40. During blind
    answering, provide only questions and documents. Each reviewer saves all 40
    answers before seeing the original references. Each question has one blind
    reviewer, not three repeated blind reviews.
@@ -64,7 +64,7 @@ Use `gold_answer` as the adjudicated reference. `verify_answer` remains the init
 blind answer: some entries contain later-discovered mistakes or answer the
 original broader question. Interpret it with `verify_status`, `verify_note`, and
 the final reference; it is not a replacement gold answer. The human-workflow field
-`review_status` remains `auto_drafted`; AI results are recorded in `verify_*`.
+`review_status` remains `auto_drafted`; automated verification is recorded in `verify_*`.
 
 ## Checks and limits
 
@@ -81,4 +81,4 @@ the final reference; it is not a replacement gold answer. The human-workflow fie
   approved corrections can be traced and the final dataset can be rebuilt.
 
 The later October 14 DEEP campaign used this corrected snapshot and its acceptance
-criteria. Independent AI agreement remains subject to error.
+criteria. Automated agreement remains subject to error; no human sign-off was performed.
