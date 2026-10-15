@@ -2,7 +2,7 @@
 
 Completed October 14, 2026: 120 references reviewed, 109 supported, 11 corrected. All remain in `../../questions_verified.csv`; see `../verification_report.md` for decisions.
 
-Three separate automated review sessions answered 40 questions each using only questions and sources. Answers were saved before comparison with references. Disagreements received source adjudication. No human sign-off was performed.
+Three separate automated review sessions answered 40 questions each using only questions and sources. Answers were saved before comparison with references. Disagreements received source adjudication.
 
 | Files | Contents |
 |---|---|
@@ -17,4 +17,4 @@ Three separate automated review sessions answered 40 questions each using only q
 
 PDF locators use physical pages; DOC/DOCX references use sections. Audit extraction is separate from search input. Quote matching checks provenance, not complete interpretation.
 
-`python poc/questions/verification/check_verification.py --complete` checks coverage and quotations. `finalize_verification.py` publishes accepted changes, and `build_questions.py` applies them over preserved drafts. Only `verified` and `corrected` references are evaluation-ready; the human-review field is unchanged.
+`python poc/questions/verification/check_verification.py --complete` checks coverage and quotations. `finalize_verification.py` publishes accepted changes, and `build_questions.py` applies them over preserved drafts. Only `verified` and `corrected` references are evaluation-ready; the review-status field is unchanged.

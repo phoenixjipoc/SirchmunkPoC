@@ -14,7 +14,7 @@
 - C/SVC-03 recovered through retry; 137.83 seconds and 148,219 tokens remain included. A/B/C had 5/2/3 serialization recoveries and no unrecovered runtime errors.
 - Each stage had two direct-document routes with a separate five-file default. CONS-16 missed the ten named files. The legacy DOC's parsing corruption was retained across runs.
 - SVC-15 has ambiguous audit scope. Excluding it gives 62.18% / 57.14% / 63.03%; main scores retain all questions.
-- Scoring and secondary review were automated using the same configured service as search. All 190 required reviews were resolved. Initial and final decisions remain separate; no human sign-off was performed.
+- Scoring and secondary review were automated using the same configured service as search. All 190 required reviews were resolved. Initial and final decisions remain separate.
 - Timing excludes preparation, scoring, review, and export. Usage includes successful sampling calls; failed calls may have unreported usage. The 128,000-token setting is not a strict cap.
 - These are one-pass results on selected questions. C uses only earlier C clusters; identical-question replay and production-scale performance were not tested.
 

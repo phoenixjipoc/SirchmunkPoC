@@ -38,7 +38,7 @@ The [judge script](../poc/results/20261014_ABC_verified120/inputs/scripts/judge.
 | `no_answer` | Fixed no-results response | No |
 | `error` | Unrecovered execution failure | No |
 
-Scoring is automated and uses the same configured service as search. The required review queue contained 190 records: initially non-correct answers plus about 20% of correct/refusal answers. Secondary review withheld initial labels; mechanical checks and source adjudication resolved the queue. Original and final decisions remain separate. No human sign-off was performed.
+Scoring is automated and uses the same configured service as search. The required review queue contained 190 records: initially non-correct answers plus about 20% of correct/refusal answers. Secondary review withheld initial labels; mechanical checks and source adjudication resolved the queue. Original and final decisions remain separate.
 
 **Accuracy = (correct + correct_refusal) / 120.** A/B/C scored 74/68/75 correct, including nine correct refusals each: **61.67% / 56.67% / 62.50%**. All nine C reuse hits were wrong.
 

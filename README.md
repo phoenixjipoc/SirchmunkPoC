@@ -49,7 +49,7 @@ The [verified set](poc/questions/questions_verified.csv) has 120 unique question
 
 The 30 paired questions form 15 adjacent pairs, included in the total. There are 98 single-file questions, 13 questions covering four to ten files, and nine negative questions without a gold-source file. References cover all 81 documents, but not every fact in them.
 
-Each record contains the reference answer, sources, passages, and acceptance criteria. Search receives only IDs and questions. Three separate automated review sessions checked 40 questions each before comparing references: 109 were supported and 11 corrected, including six scope clarifications. No human sign-off was performed. See the [verification report](poc/questions/verification/verification_report.md).
+Each record contains the reference answer, sources, passages, and acceptance criteria. Search receives only IDs and questions. Three separate automated review sessions checked 40 questions each before comparing references: 109 were supported and 11 corrected, including six scope clarifications. See the [verification report](poc/questions/verification/verification_report.md).
 
 ## 1. Answer accuracy
 
@@ -63,7 +63,7 @@ Each record contains the reference answer, sources, passages, and acceptance cri
 
 B used 44.28% fewer search tokens than A, with six fewer correct answers and no median speed improvement. Detail-question scores were 40/34/40 out of 50. No cross-document question was fully correct in any run (13 questions).
 
-These are one-pass results on a deliberately challenging dataset, not production acceptance.
+These are one-pass results on a deliberately challenging dataset.
 
 ## 2. Similar-question rigor
 

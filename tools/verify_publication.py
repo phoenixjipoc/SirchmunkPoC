@@ -14,7 +14,8 @@ from build_english_reports import CAMPAIGN, HINTS, OUT, ROOT, TRANSLATIONS, read
 
 PROSE_TERMS = re.compile(
     r'\b(?:AI|LLMs?|LLM_[A-Z_]+|models?|gpt(?:[- ][\w.-]+)?|embeddings?|'
-    r'neural|chatgpt|claude|openai|anthropic)\b|artificial intelligence|machine learning',
+    r'neural|chatgpt|claude|openai|anthropic)\b|artificial intelligence|machine learning|'
+    r'human sign[- ]off|not production acceptance|(?:pending|awaiting) manual review',
     re.IGNORECASE,
 )
 

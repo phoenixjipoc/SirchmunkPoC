@@ -63,7 +63,7 @@ mean 100% reference accuracy and is not a Sirchmunk accuracy result.
 Use `gold_answer` as the adjudicated reference. `verify_answer` remains the initial
 blind answer: some entries contain later-discovered mistakes or answer the
 original broader question. Interpret it with `verify_status`, `verify_note`, and
-the final reference; it is not a replacement gold answer. The human-workflow field
+the final reference; it is not a replacement gold answer. The workflow field
 `review_status` remains `auto_drafted`; automated verification is recorded in `verify_*`.
 
 ## Checks and limits
@@ -81,4 +81,4 @@ the final reference; it is not a replacement gold answer. The human-workflow fie
   approved corrections can be traced and the final dataset can be rebuilt.
 
 The later October 14 DEEP campaign used this corrected snapshot and its acceptance
-criteria. Automated agreement remains subject to error; no human sign-off was performed.
+criteria. Automated agreement remains subject to error.

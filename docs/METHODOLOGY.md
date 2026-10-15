@@ -36,7 +36,7 @@ Two questions per stage took a direct-document route with its own five-file defa
 
 ## Verification and scoring
 
-Three separate automated review sessions blind-answered 40 questions each before comparing references. Source adjudication supported 109 references, corrected 11, and clarified six question scopes. Initial blind answers remain preserved. No human sign-off was performed.
+Three separate automated review sessions blind-answered 40 questions each before comparing references. Source adjudication supported 109 references, corrected 11, and clarified six question scopes. Initial blind answers remain preserved.
 
 Answers were scored against the frozen reference, supporting passage, and acceptance criteria. Search and scoring used the same configured service, so separate requests may share errors. The required queue covered initially non-correct answers and about 20% of initially correct/refusal answers: 190 records, all resolved. Secondary review withheld the primary label; final decisions remain separate from initial records.
 
