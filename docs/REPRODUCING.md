@@ -9,7 +9,7 @@ python tools/verify_publication.py
 python tools/build_english_reports.py
 ```
 
-The verifier checks evidence hashes, translations, English documentation, links, and every ZIP member. The report builder regenerates presentation files without rerunning search or scoring. After approved documentation changes, refresh the corresponding `publication_sha256`/`publication_bytes` entries, rebuild with `python tools/export_campaign.py`, and verify again. Keep original evidence hashes unchanged.
+The verifier uses [the integrity checklist](../tools/publication_inventory.json) and writes [validation results](../reports/verified120/publication_validation.json). It checks evidence hashes, translations, documentation, links, and every ZIP member. The report builder regenerates presentation files without rerunning search or scoring. After approved documentation changes, refresh the checklist's `publication_sha256`/`publication_bytes` entries, rebuild with `python tools/export_campaign.py`, and verify again. Keep original evidence hashes unchanged.
 
 Harness checks:
 

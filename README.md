@@ -99,13 +99,13 @@ See [all reuse cases](reports/verified120/reuse_cases.csv) and the [matched comp
 | `poc/harness/`, `poc/*.py` | Evaluation, grading, review, and export scripts |
 | `poc/results/` | One A/B/C campaign and its ZIP |
 | `reports/verified120/` | English result tables and report |
-| `docs/`, `tools/`, `provenance/` | Guides, publication utilities, and integrity records |
+| `docs/`, `tools/` | Guides, publication utilities, and the integrity checklist |
 
 The [ZIP](poc/results/20261014_ABC_verified120_export.zip) contains 473 campaign files. The corpus and full question audit are separate repository directories. Drafts are retained for rebuilding the verified set.
 
 ## Publication checks
 
-All narrative documents are English. Raw evidence retains its original bytes; English presentation tables label translations, including C/INV-04. See [provenance](provenance/README.md) and [data rights](DATA_NOTICE.md).
+All narrative documents are English. Raw evidence retains its original bytes; English presentation tables label translations, including C/INV-04. See [integrity checks](reports/verified120/publication_validation.json) and [data rights](DATA_NOTICE.md).
 
 ```bash
 python tools/verify_publication.py

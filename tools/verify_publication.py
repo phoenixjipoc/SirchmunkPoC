@@ -34,7 +34,7 @@ def jsonl(path):
 
 
 def main():
-    inventory=json.loads((ROOT/'provenance/source_inventory.json').read_text(encoding='utf-8'))
+    inventory=json.loads((ROOT/'tools/publication_inventory.json').read_text(encoding='utf-8'))
     assert inventory['schema_version']==2 and inventory['scope']=='verified120'
     assert len({item['path'] for item in inventory['files']})==len(inventory['files'])
     copied=0
@@ -56,7 +56,6 @@ def main():
     archive_manifest_path=archive_path.with_suffix('.manifest.json')
     assert {p.name for p in CAMPAIGN.parent.iterdir()}=={
         CAMPAIGN.name, archive_path.name, archive_manifest_path.name}
-    assert not (ROOT/'provenance/original_documentation').exists()
     archive_meta=json.loads(archive_manifest_path.read_text(encoding='utf-8'))
     assert archive_meta['archive']==archive_path.name
     assert archive_meta['sha256']==digest(archive_path)
@@ -191,7 +190,7 @@ def main():
         'credential_pattern_files_scanned':scanned,'credential_pattern_findings':[],
         'files_above_50_mib_but_below_100_mib':large,
         'model_calls':0,'note':'Publication preservation and consistency checks; not a new semantic evaluation or a guarantee that every credential format is detectable.'}
-    (ROOT/'provenance/publication_validation.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
+    (OUT/'publication_validation.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
     print(json.dumps(result))
 
 
