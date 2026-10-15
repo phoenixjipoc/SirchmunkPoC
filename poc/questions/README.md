@@ -26,6 +26,7 @@ Republish the audit snapshot:
 Do not overwrite this audit's `verification/blind_*.jsonl`; use separate inputs
 for a new blind review.
 
-Old 48-question runs were not rerun or regraded. Reference verification is
-separate from measuring search-answer quality. The subsequent full 120-question
-A/B/C experiment is described in the repository's main README and English report.
+The six drafts and the original 120-row snapshot are retained as inputs to this
+verification process. Reference verification is separate from measuring
+search-answer quality. The full 120-question A/B/C experiment is described in
+the repository's main README and English report.

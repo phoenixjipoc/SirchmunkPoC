@@ -77,9 +77,8 @@ the final reference; it is not a replacement gold answer. The human-workflow fie
   checked; DOC/DOCX references use sections.
 - Quote matching establishes provenance, not completeness or correct interpretation.
   Semantic conclusions come from independent comparison and source adjudication.
-- Five old 48-question IDs were affected: CONS-14, CONS-15, CONS-16, DDQ-10, OTH-18.
-  Old outputs were not overwritten or regraded, and their percentages cannot
-  substitute for evaluation of the corrected 120-question set.
+- The original 120-question snapshot and six draft batches are retained so that
+  approved corrections can be traced and the final dataset can be rebuilt.
 
 The later October 14 DEEP campaign used this corrected snapshot and its acceptance
 criteria. Independent AI agreement remains subject to error.

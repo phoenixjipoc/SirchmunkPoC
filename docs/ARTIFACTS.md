@@ -9,8 +9,8 @@
 | `poc_docs/S/` | Original 81-file search corpus: 78 PDF, two DOCX, one DOC |
 | `poc/corpus/candidates.csv` | Public source list and URLs |
 | `poc/corpus/manifest_S.csv` | Download status, names, sizes, hashes |
-| `poc/corpus/text_S/` | Historical extracted text; not the raw search corpus |
-| `poc/questions/draft_*.jsonl` | Preserved question-generation drafts |
+| `poc/corpus/text_S/` | Extracted text used by question-building provenance checks; not the raw search corpus |
+| `poc/questions/draft_*.jsonl` | Six drafts used to build the final 120-question set |
 | `poc/questions/questions_verified.csv` | Evaluation-ready 120-question reference snapshot |
 | `poc/questions/verification/` | Blind inputs, corrections, source audit, and adjudications |
 | `poc/harness/sirch_runner.py` | Container-side SDK runner and tracing |
@@ -46,17 +46,12 @@ Within each `A`, `B`, or `C` directory:
 
 Cluster counts are A=82, B=76, C=80. They are outputs built during a stage; they are not all pre-existing cache hits. Only nine C questions reused an earlier cluster.
 
-## Historical October 7 runs
+## Campaign archive and supporting audit
 
-| Folder | Purpose |
-|---|---|
-| `20261007-154533_S_DEEP_smoke` | Initial one-question smoke check |
-| `20261007-154909_S_DEEP_smoke2` | Follow-up smoke check |
-| `20261007-155154_S_DEEP_baseline` | 48-question DEEP, top-k 5, reuse enabled |
-| `20261007-162005_S_DEEP_noreuse` | 48-question DEEP, top-k 5, reuse disabled |
-| `20261007-164806_S_DEEP_noreuse_k10` | 48-question DEEP, top-k 10, reuse disabled |
-| `api_clusters/` | Separate cluster export from the API workspace; not C's initial memory |
+`poc/results/` contains only the verified 120-question campaign, its ZIP, and its checksum manifest. The ZIP contains the same 473 campaign files as the directory, including its three English narrative reports. Original result, log, cluster, and frozen-input bytes are preserved. The source corpus, full question audit, and English presentation tables live outside the ZIP and are included in the repository.
 
-`poc/results/report.md` is the historical 48-question report. Preserve its context: five question references were subsequently corrected, and those old results were not regraded. The principal October 14 report uses the new reference snapshot and improved token accounting.
+`tools/export_campaign.py` rebuilds the archive from the current campaign directory. Its adjacent manifest records the archive SHA-256, size, file count, and narrative-language policy. `tools/verify_publication.py` checks every archive member against its corresponding repository file.
 
-The original result ZIP and its checksum manifest are included. They preserve the pre-publication export, including original Chinese narrative documents. Use the repository's English reports for reading. Frozen code and historical logs are evidence, not a statement that every archived script or local path is the current portable interface.
+The six question drafts and `verification/audit_20261014/original/` belong to the 120-question verification process. The original question snapshot has 120 rows; its drafts, source quotations, frozen blind answers, page images, comparisons, and adjudications explain how the final references were established. These are retained even when individual questions originated during earlier drafting.
+
+All narrative documentation is English. Raw logs, model responses, and frozen code can retain original multilingual content. Frozen scripts and recorded command paths are evidence of the actual campaign; use the reproduction guide for running from a new checkout.

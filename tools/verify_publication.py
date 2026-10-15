@@ -4,6 +4,7 @@ import hashlib
 import json
 import os
 import re
+import zipfile
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -27,19 +28,43 @@ def jsonl(path):
 
 def main():
     inventory=json.loads((ROOT/'provenance/source_inventory.json').read_text(encoding='utf-8'))
+    assert inventory['schema_version']==2 and inventory['scope']=='verified120'
+    assert len({item['path'] for item in inventory['files']})==len(inventory['files'])
     copied=0
-    translated_docs=[]
+    published_docs=[]
     for item in inventory['files']:
         path=ROOT/item['path']
+        assert path.resolve().is_relative_to(ROOT)
         assert path.is_file(), f"Missing source artifact: {item['path']}"
-        if digest(path)==item['source_sha256']:
-            copied+=1
+        if path.suffix=='.md':
+            assert digest(path)==item['publication_sha256'], f"English edition changed: {item['path']}"
+            assert path.stat().st_size==item['publication_bytes']
+            published_docs.append(item['path'])
         else:
-            original=ROOT/'provenance/original_documentation'/item['path']
-            assert path.suffix=='.md' and original.is_file(), f"Unexpected evidence modification: {item['path']}"
-            assert digest(original)==item['source_sha256'], f"Original prose not preserved: {item['path']}"
-            assert not re.search(r'[\u3400-\u9fff]',path.read_text(encoding='utf-8')), f"Active prose not English: {item['path']}"
-            translated_docs.append(item['path'])
+            assert digest(path)==item['source_sha256'], f"Original evidence changed: {item['path']}"
+            assert path.stat().st_size==item['bytes']
+            copied+=1
+
+    archive_path=CAMPAIGN.with_name(CAMPAIGN.name+'_export.zip')
+    archive_manifest_path=archive_path.with_suffix('.manifest.json')
+    assert {p.name for p in CAMPAIGN.parent.iterdir()}=={
+        CAMPAIGN.name, archive_path.name, archive_manifest_path.name}
+    assert not (ROOT/'provenance/original_documentation').exists()
+    archive_meta=json.loads(archive_manifest_path.read_text(encoding='utf-8'))
+    assert archive_meta['archive']==archive_path.name
+    assert archive_meta['sha256']==digest(archive_path)
+    assert archive_meta['bytes']==archive_path.stat().st_size
+    assert archive_meta['narrative_language']=='English'
+    expected_members={p.relative_to(CAMPAIGN.parent).as_posix():p
+                      for p in CAMPAIGN.rglob('*') if p.is_file()}
+    with zipfile.ZipFile(archive_path) as archive:
+        assert len(archive.namelist())==len(expected_members)==archive_meta['files']==473
+        assert set(archive.namelist())==set(expected_members)
+        for name,path in expected_members.items():
+            content=archive.read(name)
+            assert hashlib.sha256(content).hexdigest()==digest(path), f"Stale ZIP member: {name}"
+            if path.suffix=='.md':
+                assert not re.search(r'[\u3400-\u9fff]',content.decode('utf-8')), f"Non-English ZIP narrative: {name}"
 
     questions=read_csv(CAMPAIGN/'inputs/questions.csv')
     ids=[q['id'] for q in questions]
@@ -100,9 +125,10 @@ def main():
         presentation_files.append(path.name)
     assert len(presentation_files)==14
 
-    active_docs=[ROOT/'README.md',ROOT/'DATA_NOTICE.md',ROOT/'provenance/README.md',
-                 *sorted((ROOT/'docs').glob('*.md')),*sorted(OUT.glob('*.md')),
-                 *(ROOT/relative for relative in translated_docs)]
+    active_docs=[]
+    for current,dirs,files in os.walk(ROOT):
+        dirs[:]=[d for d in dirs if d not in ['.git','__pycache__','.venv','.pytest_cache']]
+        active_docs.extend(Path(current)/name for name in files if name.endswith('.md'))
     checked_links=0
     for path in active_docs:
         content=path.read_text(encoding='utf-8')
@@ -143,8 +169,11 @@ def main():
     assert not findings, f"Credential-like pattern locations (values withheld): {findings}"
 
     result={'validated_at':datetime.now(timezone.utc).isoformat(timespec='seconds'),'passed':True,
-        'copied_source_artifacts':len(inventory['files']),'unchanged_copied_files':copied,
-        'english_document_replacements_with_originals_preserved':translated_docs,
+        'scope':'verified120','retained_source_artifacts':len(inventory['files']),
+        'unchanged_evidence_files':copied,'published_source_documents':published_docs,
+        'english_markdown_documents':len(active_docs),
+        'campaign_archive_members_verified':len(expected_members),
+        'campaign_archive_sha256':archive_meta['sha256'],
         'raw_corpus_files':81,'corpus_hashes_unchanged':True,'search_records':360,
         'correct_counts':correct,'clusters':clusters,'required_reviews_resolved':190,
         'reuse_hits':9,'correct_reuse_hits':0,'english_presentation_csvs':presentation_files,

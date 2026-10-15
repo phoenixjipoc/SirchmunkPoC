@@ -26,7 +26,7 @@ Use A (k10, reuse off) as the next comparison baseline. Before enabling approxim
 - All initially non-correct results and a reproducible roughly 20% sample of initially correct/refusal results were selected for review: 190 records, all resolved. Other cases were also reviewed. Initial and secondary labels remain preserved separately from final decisions.
 - Source coverage is a per-question fraction of known reference files reached. A file hit does not establish factual support. Missing citation metadata from serialization failures or directory-only citations is excluded from the cited-coverage mean and its missing count is reported.
 - Latency excludes prewarm, judging, review, and export. Search token totals use successful model-wrapper response usage, including child sampling calls; unreported internal retry usage may be missing. Monetary costs were not estimated.
-- The 128,000-token runtime budget parameter is not a strict cap after parallel calls/retries. The older 48-question results have different reference and usage-accounting contexts and are not pooled with this experiment.
+- The 128,000-token runtime budget parameter is not a strict cap after parallel calls/retries. Scores and usage in this repository refer to the verified 120-question campaign.
 - C asks 120 distinct questions once. It does not use A/B clusters and does not test exact-question replay. Nine cache failures in this stress test do not quantify all possible reuse scenarios.
 - The structural validator confirms 360 records, unchanged hashes for 81 originals, identical questions/image/model, isolated knowledge paths, search input without gold answers, and preserved answers/usage. It does not prove every semantic grade is correct.
 

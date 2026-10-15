@@ -1,16 +1,24 @@
 {
-  "validated_at": "2026-10-14T09:50:45+00:00",
+  "validated_at": "2026-10-15T07:54:25+00:00",
   "passed": true,
-  "copied_source_artifacts": 998,
-  "unchanged_copied_files": 992,
-  "english_document_replacements_with_originals_preserved": [
+  "scope": "verified120",
+  "retained_source_artifacts": 814,
+  "unchanged_evidence_files": 804,
+  "published_source_documents": [
+    "poc/corpus/README.md",
     "poc/questions/README.md",
     "poc/questions/verification/verification_report.md",
+    "poc/questions/verification/audit_20261014/batch_1_summary.md",
+    "poc/questions/verification/audit_20261014/batch_2_summary.md",
+    "poc/questions/verification/audit_20261014/batch_3_summary.md",
     "poc/questions/verification/audit_20261014/README.md",
     "poc/results/20261014_ABC_verified120/final_findings.md",
     "poc/results/20261014_ABC_verified120/test_process.md",
     "poc/results/20261014_ABC_verified120/test_report.md"
   ],
+  "english_markdown_documents": 19,
+  "campaign_archive_members_verified": 473,
+  "campaign_archive_sha256": "6abf2c6b570a519e0fa4abee725cdf08cdc73a78a340c7d9f7c4bba3121313ce",
   "raw_corpus_files": 81,
   "corpus_hashes_unchanged": true,
   "search_records": 360,
@@ -80,13 +88,13 @@
       "field": "pre_gate_answer"
     }
   ],
-  "local_links_checked": 34,
-  "credential_pattern_files_scanned": 933,
+  "local_links_checked": 47,
+  "credential_pattern_files_scanned": 747,
   "credential_pattern_findings": [],
   "files_above_50_mib_but_below_100_mib": [
     {
       "path": "poc/results/20261014_ABC_verified120_export.zip",
-      "bytes": 75476589
+      "bytes": 75457487
     },
     {
       "path": "poc/results/20261014_ABC_verified120/A/clusters_full.jsonl",

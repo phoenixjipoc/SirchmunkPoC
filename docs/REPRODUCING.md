@@ -9,7 +9,7 @@ python tools/verify_publication.py
 python tools/build_english_reports.py
 ```
 
-The first command verifies the publication. The second rebuilds English presentation artifacts for the recorded campaign; it does not rerun search or grade translated answers.
+The first command verifies the publication, including English documentation and every file in the campaign ZIP. The second rebuilds English presentation artifacts for the recorded campaign; it does not rerun search or grade translated answers. To refresh the archive after an intentional English-report update, run `python tools/export_campaign.py`, then rerun the publication verifier. The source inventory records the approved English editions of copied documentation as well as immutable evidence hashes.
 
 For harness unit checks:
 

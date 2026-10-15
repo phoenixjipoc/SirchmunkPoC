@@ -1,25 +1,23 @@
 # Sirchmunk PoC: answer accuracy and similar-question robustness
 
-This repository contains the public document corpus, evaluation questions, verification records, harness, execution history, and results for a Sirchmunk proof of concept. It investigates two questions:
+This repository contains the public document corpus, evaluation questions, verification records, harness, execution history, and results for the verified 120-question Sirchmunk proof of concept. It investigates two questions:
 
 1. **How accurately does Sirchmunk answer questions from raw RFP and DDQ documents?**
 2. **When questions look similar but require different answers, does knowledge-cluster reuse preserve the correct institution, document version, and requested fact, or mistakenly reuse an unsuitable answer?**
 
-The principal experiment was completed on **October 14, 2026**: **81 original documents, 120 source-verified questions, and three sequential DEEP runs (360 evaluations)**. The tested library was **Sirchmunk 0.0.7**, with **gpt-5.4** as the configured search and primary judging model. DDQ means **Due Diligence Questionnaire**; RFP means **Request for Proposal**.
+The principal experiment was completed: **81 original documents, 120 source-verified questions, and three sequential DEEP runs (360 evaluations)**. The tested library was **Sirchmunk 0.0.7**, with **gpt-5.4** as the configured search and primary judging model.
 
 ## Original documents
 
 The [raw corpus](poc_docs/S/) consists mainly of public US pension-fund RFPs, supplemented by investment due-diligence questionnaires and ESG materials from organizations such as ILPA, INREV, PRI, and AC Private Markets. RFPs describe the services sought, eligibility requirements, proposal deadlines, submission instructions, and contract terms. DDQ materials contain questions about a manager's organization, strategy, investment process, risk controls, operations, and ESG practices; they include templates and supporting materials rather than a uniform set of completed manager responses.
 
-The [download manifest](poc/corpus/manifest_S.csv) records **101 candidates: 81 successful downloads and 20 failed downloads**. Only the 81 successfully downloaded files are in the search corpus. The statistics below are calculated from those successful entries and the saved files.
+The [download manifest](poc/corpus/manifest_S.csv) records **81 successful downloads**.
 
 | Corpus statistic | Value |
 |---|---|
 | Original files | 81, with 81 distinct SHA-256 hashes |
 | File formats | 78 PDF, 2 DOCX, 1 legacy DOC |
 | Total size | 47,379,550 bytes (45.18 MiB) |
-| Distinct issuer labels in the manifest | 56 |
-| Recorded document years | 2012-2026 for 62 files; year unspecified for 19 |
 | PDF text availability | All 78 have extractable text; no scanned-only PDFs |
 
 The following groups combine the manifest's category labels; every downloaded file is counted once.
@@ -37,11 +35,11 @@ The following groups combine the manifest's category labels; every downloaded fi
 
 The `ddq_template` category also includes the PRI covering note and NJEDA investment-opportunity notice, so its eight files should not be interpreted as eight standalone DDQ templates. Source URLs, individual categories, download status, sizes, and hashes remain available in the manifest.
 
-Similar documents are intentional: 23 files share the `investment_consultant_rfp` category, and the corpus includes different years or versions of Hawaii ERS RFPs, ILPA DDQs, INREV DDQs, and ILPA ESG FAQs. These provide cases where similar wording can refer to different institutions, versions, or facts. The original PDF/DOCX/DOC files are the search input; extracted text is retained separately for audit and parsing checks. See [methodology](docs/METHODOLOGY.md) for parsing behavior and the legacy DOC limitation.
+Similar documents are intentional: 23 files share the `investment_consultant_rfp` category, and the corpus includes different years or versions of Hawaii ERS RFPs, ILPA DDQs, INREV DDQs, and ILPA ESG FAQs. These provide cases where similar wording can refer to different institutions, versions, or facts. The original PDF/DOCX/DOC files are the search input; extracted text is retained separately for audit and parsing checks. See [methodology](docs/METHODOLOGY.md).
 
 ## Evaluation questions
 
-The questions were AI-drafted from the documents in six saved draft batches, then independently checked against the sources before evaluation. They test concrete facts such as deadlines, copy counts, asset thresholds, contract terms, and DDQ section counts, as well as longer summaries, document comparisons, and appropriate refusal when evidence is missing.
+The questions test concrete facts such as deadlines, copy counts, asset thresholds, contract terms, and DDQ section counts, as well as longer summaries, document comparisons, and appropriate refusal when evidence is missing.
 
 The [verified question set](poc/questions/questions_verified.csv) contains **120 unique IDs and 120 distinct question texts**. The exact [frozen campaign input](poc/results/20261014_ABC_verified120/inputs/questions.csv) was used for A, B, and C in the same order. Thus, the campaign has **120 questions and 360 evaluated responses**.
 
@@ -105,6 +103,7 @@ Several wrong-version matches had logged similarities above 0.99. Raising the si
 - [Question-by-question A/B/C comparison](reports/verified120/question_comparison.csv).
 - [All 360 results](reports/verified120/all_results.csv) and [review queue](reports/verified120/review_queue.csv).
 - [Question verification report](poc/questions/verification/verification_report.md): 109 supported original answers and 11 corrections, with independent blind-answer records.
+- [Evaluation workflow and grading](docs/EVALUATION.md): from submitting a question to retrieval, cluster reuse, answers, acceptance criteria, and final accuracy.
 - [Parsing and test methodology](docs/METHODOLOGY.md), [reproduction instructions](docs/REPRODUCING.md), and [artifact guide](docs/ARTIFACTS.md).
 - [Data-integrity check](poc/results/20261014_ABC_verified120/validation.json): 360 records, unchanged raw-document hashes, isolated cluster paths, and preserved answers/usage.
 
@@ -116,21 +115,20 @@ poc/corpus/                   Public source URLs, download manifest, extraction 
 poc/questions/                Drafts, corrected 120-question set, independent audit
 poc/harness/                  Container-side AgenticSearch runner
 poc/*.py                      Evaluation, judging, review, export, and validation scripts
-poc/results/                  All historical runs, raw outputs, logs, and cluster exports
+poc/results/                  The 120-question A/B/C campaign, raw outputs, logs, and export ZIP
 reports/verified120/          English presentation tables and the principal test report
 docs/                         English methodology, reproduction, and artifact guides
 tools/                        English publication and repository-integrity utilities
-provenance/                   Copy inventory, publication checks, original translated prose
-HANDOFF_sirchmunk_poc.md       Original early planning handoff; not current run status
+provenance/                   Retained-source inventory and publication checks
 ```
 
-The October 7 smoke tests and three 48-question runs are retained as historical evidence. Five of those questions were later affected by reference corrections, and token-accounting instrumentation also changed. Their old scores must not be pooled with the October 14 results.
+The repository contains one evaluation campaign: `20261014_ABC_verified120`. Question drafts and pre-adjudication snapshots are retained because they form the audit trail for the final 120-question set. The [campaign ZIP](poc/results/20261014_ABC_verified120_export.zip) packages all 473 campaign files with the current English narrative reports; the corpus and full question audit are available separately in this repository.
 
 ## Language and evidence policy
 
 The README, current narrative reports, process guide, and presentation tables are in English. Original documents, model outputs, logs, frozen scripts, and audit records remain unchanged for traceability. Some library status messages and malformed legacy-DOC extraction bytes are not English. One actual model answer, **C / INV-04**, was written in Chinese; the English presentation tables provide a clearly recorded translation, without changing its grade. Original answers remain available in `poc/results/`.
 
-Original Chinese narrative documents are retained under `provenance/original_documentation/`. The existing ZIP is also the original export, not a newly translated archive. See [publication integrity](provenance/README.md) for exact preservation and translation rules.
+All narrative documentation, including the reports inside the campaign ZIP, is in English. Chinese-language report copies have been removed. Original raw evidence may contain multilingual model/library output; English presentation tables provide readable translations without changing the original evidence or grades. See [publication integrity](provenance/README.md) for the preservation and translation rules.
 
 ## Verify without calling a model
 

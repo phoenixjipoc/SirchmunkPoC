@@ -34,8 +34,8 @@ DOCX references use section names. The legacy DOC extractor does not render page
   are applied only if explicitly accepted here.
 - `completion.json`: written only after all 120 blind answers/comparisons exist,
   source checks pass, and all disputes have a disposition.
-- `publication_checks.json`: raw-document, frozen-input and draft integrity;
-  approved-change-only check; IDs affecting the historical 48-question run.
+- `publication_checks.json`: raw-document, frozen-input and draft integrity,
+  approved-change-only checks, and original audit bookkeeping.
 - `blind_frozen/` and `blind_answer_hashes.json`: frozen initial independent
   answers, including any mistakes discovered during subsequent comparison.
 
@@ -54,6 +54,6 @@ corrections, rebuilds `questions.csv`, and writes `questions_verified.csv`.
 preserved draft data, so approved changes survive rebuilding. It fails without
 overwriting the master dataset when validation fails.
 
-The old 48-question experiment outputs remain historical. If a gold answer changes,
-old correctness labels may be stale; this audit does not regrade or rerun Sirchmunk.
-No claim of 100% answer accuracy follows from independent AI agreement.
+This audit establishes references for the 120-question campaign; it does not run
+or grade Sirchmunk answers. No claim of 100% answer accuracy follows from
+independent AI agreement.
