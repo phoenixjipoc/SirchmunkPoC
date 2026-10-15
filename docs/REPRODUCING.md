@@ -21,7 +21,7 @@ The six tests cover coverage accounting, refusal denominators, grading inputs, l
 
 ## Prepare Docker
 
-Use a running container named `sirchmunk` with the image and service configuration recorded in [run_meta.json](../poc/results/20261014_ABC_verified120/A/run_meta.json). Set the credentials and settings named in [.env.example](../.env.example); keep secrets outside version control. The host needs Python, `requests`, and `truststore`. Optional source-audit dependencies are in `requirements-audit.txt`.
+Use a running container named `sirchmunk` with the image and service configuration recorded in [run_meta.json](../poc/results/20261014_ABC_verified120/A/run_meta.json). Set the credentials and settings named in [.env.example](../.env.example); keep secrets outside version control. The host needs Python and the evaluation and source-verification dependencies in `requirements.txt`.
 
 ```bash
 docker exec sirchmunk mkdir -p /mnt/docs
