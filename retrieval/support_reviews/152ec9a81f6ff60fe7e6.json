@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "152ec9a81f6ff60fe7e6",
+    "query_id": "INV-20",
+    "question": "Which meetings must the investment consultant attend under the IMRF sample RFP for investment consulting, real estate consulting and performance measurement services, and how many days of meetings per year does IMRF estimate?",
+    "file": "IMRF__sample_investment_manager_rfp.pdf",
+    "expected_facts": "(1) Monthly IMRF Board meetings; (2) Investment Committee meetings; (3) the Annual IMRF Roundtable; (4) regional meetings with investment managers; (5) related investment meetings and discussions; (6) formal interviews with existing and potential investment managers; (7) ad hoc due diligence meetings with investment managers and staff. IMRF estimates about sixty days of meetings per year with the Board and/or staff, plus frequent telephone discussions with staff.",
+    "acceptance": "All seven meeting categories and about 60 days/year. Frequent telephone calls and principal-attendance details are optional.",
+    "text_hash": "1d6500a43cb519702a3a7fba26b0e9ecd1b4b2bb1bb0ac004878183abcc2df76",
+    "source_text_sha256": "b904f613bceebade43840677e52ac82b24f5fe88526390405a0ab1d994b4049d",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is IMRF’s sample RFP for domestic equity small-cap growth investment management, not the sample RFP for investment consulting, real estate consulting and performance measurement services. It does not specify the consultant’s required meeting categories or an estimate of about 60 meeting days per year.",
+      "quotes": [
+        "Request for Proposals - Investment Management Domestic Equity Small Cap Growth",
+        "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment management firms to provide domestic equity small cap growth investment management services."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals - Investment Management Domestic Equity Small Cap Growth",
+          "start": 63,
+          "end": 141
+        },
+        {
+          "quote": "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment management firms to provide domestic equity small cap growth investment management services.",
+          "start": 274,
+          "end": 452
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "e383fb885790f1741ff5",
+    "query_id": "CONS-01",
+    "question": "In the Grand Rapids General Retirement System investment consultant RFP, what was the total market value of the General Retirement System and as of what date?",
+    "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "expected_facts": "Approximately $437 million as of June 30, 2023 (the separate Grand Rapids Police and Fire Retirement System covered by the same RFP was approximately $479 million).",
+    "acceptance": "Require $437m approximately and June 30, 2023. Separate Police and Fire amount is optional.",
+    "text_hash": "afed2142cd9b5f90246d59a5737b84e7449b0c4dc717232226f57461b45a9b9e",
+    "source_text_sha256": "4e6f311f7c398d5daed9e60599d032ec43a08c449bc5eec7b5f5fb388433a80b",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an investment consultant RFP for the San Francisco Employees’ Retirement System, not the Grand Rapids General Retirement System. Its market value and as-of date concern a different fund, so it does not support the required facts.",
+      "quotes": [
+        "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System",
+        "The Fund had a total market value of approximately $34 billion as of June 30, 2022."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System",
+          "start": 13,
+          "end": 147
+        },
+        {
+          "quote": "The Fund had a total market value of approximately $34 billion as of June 30, 2022.",
+          "start": 933,
+          "end": 1016
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "801983a05898d4cff6d9",
+    "query_id": "CONS-14",
+    "question": "What are all the minimum requirements in Section 2 (pages 4–5) of the City of Hartford MERF general investment consultant RFP?",
+    "file": "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "expected_facts": "Section2 requires: (1) at least ten years providing general consulting; (2) senior leadership together at least three years; (3) no subcontracting account management, and all responsible personnel are employees; (4) currently consulting for at least five public pension funds each over $1.5bn; (5) primary consultant has at least five years of defined-benefit public-pension consulting and at least three years employed by proposer; (6) fiduciary service to MERF/OPEB and written compliance with their investment policies/guidelines; (7) no existing or potential material conflicts with the City Treasurer/staff, Pension Commission, OPEB Committee, actuary, auditor, managers or other providers; (8) agree to execute a contract similar to AppendixE; (9) current SEC investment-adviser registration; (10) carry or have applied by submission for general liability $5m, E&O/professional liability $5m, fiduciary liability $1m, workers' compensation/employer liability $1m, and cybersecurity $1m. Section2 says all qualifications must be met by March15,2024 at 5pm ET and AppendixA certification must be completed. AppendixA separately uses different client-threshold/history and insurance-date wording; this answer follows Section2 as asked.",
+    "acceptance": "Require all ten Section2 bullet requirements and five insurance limits when asking 'all'. If the question retains whole-document scope, allow explanation of Section2 versus AppendixA differences rather than forcing a single contradictory date or >/$1.5bn threshold.",
+    "text_hash": "0666a4752a3ae0a7910c24a7c285ffaaa10083f60e8c67b4342d3518c8062d73",
+    "source_text_sha256": "0b9aca72670eb972abc23eff3632645fe86fee9eaf9c4e0c3c722bd89a4d4b77",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is KCERA’s actuarial audit services RFP, not the City of Hartford MERF general investment consultant RFP. Its minimum requirements concern actuarial qualifications and do not establish the requested Section 2 requirements.",
+      "quotes": [
+        "Kern County Employees’ Retirement Association Request for Proposal ACTUARIAL AUDIT SERVICES March 29, 2024",
+        "This Request for Proposal (“RFP”) is issued by the Kern County Employees’ Retirement Association (“KCERA”) for the purpose of soliciting proposals from qualified actuarial firms (”ACTUARY”) to provide actuarial auditing services",
+        "SECTION FIVE – MINIMUM REQUIREMENTS",
+        "The firm must be a professional actuarial services firm that provides actuarial valuation, experience investigations, actuarial audits, and pension consulting services."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Kern County Employees’ Retirement Association Request for Proposal ACTUARIAL AUDIT SERVICES March 29, 2024",
+          "start": 13,
+          "end": 119
+        },
+        {
+          "quote": "This Request for Proposal (“RFP”) is issued by the Kern County Employees’ Retirement Association (“KCERA”) for the purpose of soliciting proposals from qualified actuarial firms (”ACTUARY”) to provide actuarial auditing services",
+          "start": 1600,
+          "end": 1828
+        },
+        {
+          "quote": "SECTION FIVE – MINIMUM REQUIREMENTS",
+          "start": 890,
+          "end": 925
+        },
+        {
+          "quote": "The firm must be a professional actuarial services firm that provides actuarial valuation, experience investigations, actuarial audits, and pension consulting services.",
+          "start": 33008,
+          "end": 33176
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

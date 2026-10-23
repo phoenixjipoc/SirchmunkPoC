@@ -1,0 +1,57 @@
+{
+  "job": {
+    "id": "07d06645b875155b2da5",
+    "query_id": "OTH-01",
+    "question": "In the Oklahoma Public Employees Retirement System (OPERS) July 2023 RFP for index investment management services, what was the market value of the OPERS Russell 1000 Index mandate as of May 31, 2023, and what is its policy weight?",
+    "file": "Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf",
+    "expected_facts": "$1,859,650,910 (policy weight 17.00%).",
+    "acceptance": "$1,859,650,910 and 17% (17.00%) match; clearly labeled approximation about $1.86bn is materially acceptable. Do not substitute URSJJ or Russell 1000 Value.",
+    "text_hash": "4c1ac1f6b5f878b37f4fec3114f2882c2f0847603f6d9fb8da76937e70bc66aa",
+    "source_text_sha256": "1bfa7813851972f7d2c870ba83c9f84ef6249f16a84b7a9d8e04de870f8b8042",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is an OPERS external-audit RFP question-and-answer document, not the July 2023 index investment management services RFP. It provides neither the May 31, 2023 market value nor the policy weight of the OPERS Russell 1000 Index mandate.",
+      "quotes": [
+        "OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM Question and Answer Document External Audit DB Plans RFP 515-22-300"
+      ],
+      "quote_matches": [
+        {
+          "quote": "OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM Question and Answer Document External Audit DB Plans RFP 515-22-300",
+          "start": 13,
+          "end": 124
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is an OPERS external-audit RFP question-and-answer document, not the July 2023 index investment management services RFP. It provides neither the May 31, 2023 market value nor the policy weight for the OPERS Russell 1000 Index mandate.",
+      "quotes": [
+        "OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM Question and Answer Document External Audit DB Plans RFP 515-22-300",
+        "What are some things you would like to see improved in the financial audit process compared to previous years?"
+      ],
+      "quote_matches": [
+        {
+          "quote": "OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM Question and Answer Document External Audit DB Plans RFP 515-22-300",
+          "start": 13,
+          "end": 124
+        },
+        {
+          "quote": "What are some things you would like to see improved in the financial audit process compared to previous years?",
+          "start": 138,
+          "end": 248
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

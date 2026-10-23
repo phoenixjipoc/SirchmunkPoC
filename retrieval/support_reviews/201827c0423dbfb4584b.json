@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "201827c0423dbfb4584b",
+    "query_id": "CONS-07",
+    "question": "Which pension system's investment consultant RFP requires respondents to have at least five defined benefit pension plan clients, two of which are public pension plans with total plan assets of at least $15 billion each?",
+    "file": "Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf",
+    "expected_facts": "Orange County Employees Retirement System (OCERS), in its 2021 investment consultant services RFP (Appendix E, Minimum Qualifications Certification).",
+    "acceptance": "OCERS/Orange County Employees Retirement System suffices. Appendix designation, year and restatement of qualification are optional.",
+    "text_hash": "b066c2f588fdc3c917223f3f99636d5edc4485826776cf8efe8e709fec2fbfcb",
+    "source_text_sha256": "69c3cfa2e74b080d80807eab99367c459dea9641b8eec134fc3ce5ed273a91bc",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the Stoneham Retirement System’s actuarial-services RFP, not an investment-consultant RFP for the pension system in the question. It does not state the specified client or asset qualifications.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS – ACTUARIAL SERVICES",
+        "The Stoneham Retirement System (“System”) is governed by the Stoneham Retirement Board (“Board”)",
+        "RFP Issue Date 3/07/19"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS – ACTUARIAL SERVICES",
+          "start": 13,
+          "end": 55
+        },
+        {
+          "quote": "The Stoneham Retirement System (“System”) is governed by the Stoneham Retirement Board (“Board”)",
+          "start": 67,
+          "end": 163
+        },
+        {
+          "quote": "RFP Issue Date 3/07/19",
+          "start": 7229,
+          "end": 7251
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

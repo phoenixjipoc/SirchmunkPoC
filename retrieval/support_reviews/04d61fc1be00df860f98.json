@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "04d61fc1be00df860f98",
+    "query_id": "OTH-13",
+    "question": "What was the proposal deadline in the Hawaii ERS 2017 RFP for real estate investment consultant services?",
+    "file": "Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+    "expected_facts": "4:30 p.m. (H.S.T.) on March 20, 2017.",
+    "acceptance": "March 20, 2017, 4:30 p.m. HST or explicit equivalent timezone conversion.",
+    "text_hash": "7974cf3ced5ece0c3df4520edc4dd6247ec6bbbc3297db171ad7ec83dd1f5ab2",
+    "source_text_sha256": "d065a0843dfa54da64a294e172b508cf8e712eb413bc4f30e72f609c24012fce",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Oklahoma OPERS RFP issued in 2022 for general investment consulting services, not the Hawaii ERS 2017 RFP for real estate investment consultant services. Its proposal deadline cannot establish the deadline for the requested RFP.",
+      "quotes": [
+        "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+        "OPERS RFP – Investment Consulting Services – Issued February 18, 2022",
+        "The deadline for receipt of proposals is 4:30 p.m. Central Time, on March 25, 2022.",
+        "OPERS is seeking the services of a general investment consultant"
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 124
+        },
+        {
+          "quote": "OPERS RFP – Investment Consulting Services – Issued February 18, 2022",
+          "start": 2856,
+          "end": 2925
+        },
+        {
+          "quote": "The deadline for receipt of proposals is 4:30 p.m. Central Time, on March 25, 2022.",
+          "start": 6520,
+          "end": 6603
+        },
+        {
+          "quote": "OPERS is seeking the services of a general investment consultant",
+          "start": 17497,
+          "end": 17561
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

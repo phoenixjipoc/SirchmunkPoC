@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "b5ab90a13fad55cc76c0",
+    "query_id": "CONS-05",
+    "question": "In the Shrewsbury Contributory Retirement System RFP for investment consultant services, how long is the chosen consultant expected to be retained?",
+    "file": "Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+    "expected_facts": "For five (5) years, not to exceed seven (7) years including any renewal, extension or option. The Board can terminate on thirty (30) days written notice.",
+    "acceptance": "Five years and seven-year total ceiling including renewals/extensions/options. Thirty-day termination is optional.",
+    "text_hash": "7180429187038236fd14f0752492190d2d289b0c31609f0f0a2bf130924e85ac",
+    "source_text_sha256": "18abed4435894e587e3d010b5d205b6cafee38f9c9ad7a8505c1a10b5ee2150d",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Hawaii ERS RFP, not the Shrewsbury Contributory Retirement System RFP. It provides no evidence of the requested consultant retention term or seven-year contract ceiling; its reference to seven years concerns the primary consultant’s experience.",
+      "quotes": [
+        "EMPLOYEES’ RETIREMENT SYSTEM OF THE STATE OF HAWAII REQUEST FOR PROPOSALS (RFP) REAL ESTATE INVESTMENT CONSULTANT SERVICES",
+        "The primary consultant to be assigned to the ERS must have a minimum of seven years experience providing domestic and international real estate consulting services to public pension plans."
+      ],
+      "quote_matches": [
+        {
+          "quote": "EMPLOYEES’ RETIREMENT SYSTEM OF THE STATE OF HAWAII REQUEST FOR PROPOSALS (RFP) REAL ESTATE INVESTMENT CONSULTANT SERVICES",
+          "start": 13,
+          "end": 135
+        },
+        {
+          "quote": "The primary consultant to be assigned to the ERS must have a minimum of seven years experience providing domestic and international real estate consulting services to public pension plans.",
+          "start": 578,
+          "end": 766
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

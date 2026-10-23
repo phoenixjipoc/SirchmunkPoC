@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "b18b984fae804559a654",
+    "query_id": "CONS-04",
+    "question": "According to the San Bernardino County Employees' Retirement Association (SBCERA) investment consultant RFP, approximately how large is SBCERA's investment portfolio?",
+    "file": "Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+    "expected_facts": "Approximately $12.0 billion in assets.",
+    "acceptance": "$12bn approximately suffices; do not require or invent an as-of date.",
+    "text_hash": "7180429187038236fd14f0752492190d2d289b0c31609f0f0a2bf130924e85ac",
+    "source_text_sha256": "18abed4435894e587e3d010b5d205b6cafee38f9c9ad7a8505c1a10b5ee2150d",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Hawaii ERS real estate investment consultant RFP, not an SBCERA investment consultant RFP. It does not state the size of SBCERA’s investment portfolio; its asset threshold concerns a prospective consultant’s client.",
+      "quotes": [
+        "EMPLOYEES’ RETIREMENT SYSTEM OF THE STATE OF HAWAII REQUEST FOR PROPOSALS (RFP) REAL ESTATE INVESTMENT CONSULTANT SERVICES",
+        "have at least one defined benefit public pension fund client with assets greater than $5 billion."
+      ],
+      "quote_matches": [
+        {
+          "quote": "EMPLOYEES’ RETIREMENT SYSTEM OF THE STATE OF HAWAII REQUEST FOR PROPOSALS (RFP) REAL ESTATE INVESTMENT CONSULTANT SERVICES",
+          "start": 13,
+          "end": 135
+        },
+        {
+          "quote": "have at least one defined benefit public pension fund client with assets greater than $5 billion.",
+          "start": 480,
+          "end": 577
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

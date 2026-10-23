@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "c04ce595ccc9f7c1b1b2",
+    "query_id": "CONS-02",
+    "question": "In the NYC Board of Education Retirement System (BERS) RFP 2024-003 for investment consulting services, how many maximum evaluation points are assigned to the annual fee proposal?",
+    "file": "Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf",
+    "expected_facts": "28 points (out of 100). Full breakdown: Program Plan/Narrative 18, Organizational Capacity/Knowledge and Experience 23, Demonstrated Effectiveness 22, Fee Proposal - Annual Fee 28, Fee Proposal - Hourly Rate 9.",
+    "acceptance": "28 points alone is sufficient. Other scoring categories and fee formula are optional.",
+    "text_hash": "0e4d2bfc5aa595b0ea86205320a7da0079bea6e688ee1dad3d2179304cee814c",
+    "source_text_sha256": "ed542639a59d9d55d4784639c3ff42d62da3cb4f8e46b7b9eeb10d3eedf940ad",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Shrewsbury, Massachusetts retirement board RFP, not NYC BERS RFP 2024-003. It does not provide the requested annual fee proposal point allocation.",
+      "quotes": [
+        "SHREWSBURY RETIREMENT BOARD",
+        "Shrewsbury Retirement Board",
+        "CONSULTING SERVICES"
+      ],
+      "quote_matches": [
+        {
+          "quote": "SHREWSBURY RETIREMENT BOARD",
+          "start": -1,
+          "end": 26
+        },
+        {
+          "quote": "Shrewsbury Retirement Board",
+          "start": -1,
+          "end": 26
+        },
+        {
+          "quote": "CONSULTING SERVICES",
+          "start": -1,
+          "end": 18
+        }
+      ],
+      "all_quotes_grounded": false,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

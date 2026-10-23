@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "f9e739cb1e8f0815878a",
+    "query_id": "OTH-13",
+    "question": "What was the proposal deadline in the Hawaii ERS 2017 RFP for real estate investment consultant services?",
+    "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "expected_facts": "4:30 p.m. (H.S.T.) on March 20, 2017.",
+    "acceptance": "March 20, 2017, 4:30 p.m. HST or explicit equivalent timezone conversion.",
+    "text_hash": "6c44b43272ac16f4bd8efdebfb5b71a666753ca71b3f0242c213453c6a30a56a",
+    "source_text_sha256": "a171986940a15f77f516b2eed48ea13f5e49967c592369ad8f87250248f2b907",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2021 Delaware RFP for deferred compensation plan recordkeeping and administration, not the Hawaii ERS 2017 RFP for real estate investment consultant services. Its proposal deadline cannot support the deadline asked about.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL FOR DEFERRED COMPENSATION PLAN RECORDKEEPING AND ADMINISTRATION SERVICES ISSUED BY THE OFFICE OF THE STATE TREASURER",
+        "All proposals must be received no later than 4:00 p.m., prevailing Eastern time, on August 20, 2021 (the “Proposal Deadline”)."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL FOR DEFERRED COMPENSATION PLAN RECORDKEEPING AND ADMINISTRATION SERVICES ISSUED BY THE OFFICE OF THE STATE TREASURER",
+          "start": 13,
+          "end": 150
+        },
+        {
+          "quote": "All proposals must be received no later than 4:00 p.m., prevailing Eastern time, on August 20, 2021 (the “Proposal Deadline”).",
+          "start": 24416,
+          "end": 24542
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

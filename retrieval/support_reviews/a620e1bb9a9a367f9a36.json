@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "a620e1bb9a9a367f9a36",
+    "query_id": "SVC-04",
+    "question": "In the Contra Costa County Employees' Retirement Association (CCCERA) April 2018 master custodian RFP, how many copies of the proposal must be submitted, and for how long must the proposal remain a firm and irrevocable offer?",
+    "file": "MA_PRIM__PDF-Version-of-RFP.pdf",
+    "expected_facts": "One (1) original proposal, four (4) hard copies and one (1) copy in electronic form; the proposal must be a firm and irrevocable offer good for one year from the proposal due date (due 5:00 p.m. PT, Friday, May 25, 2018).",
+    "acceptance": "Accept five paper sets total if the original is clearly included, plus one electronic copy; validity one year from due date. Actual proposal deadline is optional.",
+    "text_hash": "c92320682456b11eb70addd3a356a98edfd3f865f21e453c8906eefe68b8b772",
+    "source_text_sha256": "e3fe5e9a4d6babe97bf46e2649b5484f28a2237abb15634af7dc30e35b1c2a49",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is PRIM’s October 2023 multi-asset credit RFP, not CCCERA’s April 2018 master custodian RFP. Its electronic submission and irrevocable-offer provisions do not establish CCCERA’s required copies or one-year offer period.",
+      "quotes": [
+        "The Massachusetts Pension Reserves Investment Management Board (“PRIM”) is requesting responses from firms interested in providing Multi-Asset Credit Investment Management Services.",
+        "REQUEST FOR PROPOSALS (RFP) Multi-Asset Credit Investment Management Services October 31, 2023",
+        "Proposals, including all attachments, must be delivered electronically via e-mail",
+        "a statement to the effect that the response is a firm and irrevocable offer of the respondent."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Massachusetts Pension Reserves Investment Management Board (“PRIM”) is requesting responses from firms interested in providing Multi-Asset Credit Investment Management Services.",
+          "start": 100,
+          "end": 281
+        },
+        {
+          "quote": "REQUEST FOR PROPOSALS (RFP) Multi-Asset Credit Investment Management Services October 31, 2023",
+          "start": 1600,
+          "end": 1694
+        },
+        {
+          "quote": "Proposals, including all attachments, must be delivered electronically via e-mail",
+          "start": 10609,
+          "end": 10690
+        },
+        {
+          "quote": "a statement to the effect that the response is a firm and irrevocable offer of the respondent.",
+          "start": 12558,
+          "end": 12652
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

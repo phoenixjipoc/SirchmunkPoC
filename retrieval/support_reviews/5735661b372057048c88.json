@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "5735661b372057048c88",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "b1b58831638092aa2c4058820d103b7fbdbca636b18c44a0d4120044ca4b814b",
+    "source_text_sha256": "9f5bdf4dd9b56cf14ad12c68d7eac6a3122ac753ad93b2296c4763b688071979",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2020 Santa Barbara County Employees’ Retirement System RFP for private equity consultant services, not the external-audit RFP Q&A. It provides no FY2021 audit contractual-fee total.",
+      "quotes": [
+        "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+        "Date of RFP issuance July 27, 2020",
+        "Please provide a fee quote, in hard dollars, for the services requested in the Scope of Services."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+          "start": 13,
+          "end": 143
+        },
+        {
+          "quote": "Date of RFP issuance July 27, 2020",
+          "start": 153,
+          "end": 187
+        },
+        {
+          "quote": "Please provide a fee quote, in hard dollars, for the services requested in the Scope of Services.",
+          "start": 47024,
+          "end": 47121
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "4a43075af19eef02d118",
+    "query_id": "INV-15",
+    "question": "In the Baltimore City Employees' Retirement Systems (BCERS) RFP for an alternatives consultant, how many years must the proposing firm have been in business?",
+    "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "expected_facts": "At least seven (7) years providing general consulting services plus private equity consulting services, or alternatives consulting services only (all minimum qualifications must be met as of November 8, 2024, 3:00 p.m. EDT).",
+    "acceptance": "Seven years is sufficient for the narrow question. Service type and qualification deadline are optional; five-year staff experience is not the firm threshold.",
+    "text_hash": "2e5c9ac10ac2943a19269fe0ceeab6dc6cca5c9b732ec461770764bed168feeb",
+    "source_text_sha256": "698b71034e03dda497378807f02ef9875cc985ad2aafde5d24accec7bdff2d4b",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a September 2016 South Carolina RSIC RFP for general investment consulting, not the BCERS alternatives-consultant RFP. Its firm-in-business minimum is ten years, and it does not establish the requirement for the requested RFP.",
+      "quotes": [
+        "General Investment Consulting Services Request for Proposals September 30, 2016",
+        "The South Carolina Retirement System Investment Commission (“RSIC”, or “Client”) is requesting competitive proposals",
+        "The firm has been in business for at least ten (10) years providing general institutional investment consulting services."
+      ],
+      "quote_matches": [
+        {
+          "quote": "General Investment Consulting Services Request for Proposals September 30, 2016",
+          "start": 13,
+          "end": 92
+        },
+        {
+          "quote": "The South Carolina Retirement System Investment Commission (“RSIC”, or “Client”) is requesting competitive proposals",
+          "start": 304,
+          "end": 420
+        },
+        {
+          "quote": "The firm has been in business for at least ten (10) years providing general institutional investment consulting services.",
+          "start": 86466,
+          "end": 86587
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

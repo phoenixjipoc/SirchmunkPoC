@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "4e042beae1b64892c9aa",
+    "query_id": "SVC-19",
+    "question": "What minimum qualifications must a proposing firm certify in the City of Temple City's 2020 RFP for 457 plan administration and recordkeeping services?",
+    "file": "Hartford_MERF__file.pdf",
+    "expected_facts": "(1) At least 5 years of experience administering governmental 457 plans and currently providing sole-provider administration to at least five 457 plans with assets under $25 million; (2) no front-end or back-end charges and no restrictions/penalties on plan- or participant-initiated transfers or withdrawals (except capital preservation equity wash/put provisions and fund short-term trading fees); (3) full disclosure of all fund expense and revenue sharing arrangements, including fixed/general account products; (4) full disclosure of expenses and revenue for any service (platform fees, managed accounts, advice, financial planning, brokerage); (5) agree not to sell/promote products not affiliated with the Plan without written City authorization; (6) be qualified to do business in California and Temple City upon award; (7) offer a self-directed brokerage option; (8) be able to transition and continue administration of existing loans; (9) representatives attend City meetings in person as requested (no more than once per year); (10) knowledge of and compliance with applicable County, California and federal regulations; (11) RFP terms remain in place through negotiations and the final contract unless waived in writing.",
+    "acceptance": "Accept concise grouping of the eleven requirements; the five-year/five-plan/$25m threshold alone is incomplete for this broad list question. Examples of service fees are illustrative, not separate mandatory list items.",
+    "text_hash": "612ac769f6b20e395be5d2aa2b38b7e34b8ea2f3e26f8e98d474dcd3da97e895",
+    "source_text_sha256": "44a1836a1354f4ce795c9252d5b103625a8ebfa77400d6ce5e341b7d38a7561e",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the City of Hartford’s 2024 RFP for a general investment consultant, not Temple City’s 2020 RFP for 457 plan administration and recordkeeping. Its minimum qualifications concern a different procurement and do not support the requested requirements.",
+      "quotes": [
+        "CITY OF HARTFORD TREASURER’S OFFICE MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+        "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+        "All minimum qualifications shall be met as of March 15, 2024 – 5:00 p.m. Eastern Time. (“ET”).",
+        "The Proposer shall have been in business for at least ten (10) years providing general consulting services."
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF HARTFORD TREASURER’S OFFICE MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+          "start": 13,
+          "end": 141
+        },
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+          "start": 235,
+          "end": 294
+        },
+        {
+          "quote": "All minimum qualifications shall be met as of March 15, 2024 – 5:00 p.m. Eastern Time. (“ET”).",
+          "start": 5745,
+          "end": 5839
+        },
+        {
+          "quote": "The Proposer shall have been in business for at least ten (10) years providing general consulting services.",
+          "start": 3812,
+          "end": 3919
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

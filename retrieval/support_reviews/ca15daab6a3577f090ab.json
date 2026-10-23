@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "ca15daab6a3577f090ab",
+    "query_id": "INV-19",
+    "question": "Under the Baltimore City Employees' Retirement Systems (BCERS) alternatives consultant RFP, what must the consultant's quarterly performance report include at a minimum?",
+    "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+    "expected_facts": "(i) market overview and outlook; (ii) allocation breakdown by geography, strategy and industry; (iii) update on each fund; (iv) listing of each fund by strategy; (v) date of commitment to each fund; (vi) commitment amount to each fund; (vii) drawdown amounts by fund; (viii) outstanding commitment by fund; (ix) distribution amounts by fund; (x) fund net asset values; (xi) IRR and multiples of each fund; (xii) items vi-xi aggregated for the core private equity portfolio, the specialized portfolio and the total portfolio.",
+    "acceptance": "Accept compact grouping of per-fund cash-flow/commitment measures if each required type is represented, including IRR/multiples and aggregation. Do not import the separate monthly-report requirements.",
+    "text_hash": "bbc5aa974f33a642622995234835e9395ec434792cd34aee6fa6e2448cb34a49",
+    "source_text_sha256": "ef809dc88bd158929af52565b0c35337429a448aa163f0f9466c3d4c5f44b3bd",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Anchorage Police and Fire Retirement System investment-consultant RFP, not the BCERS alternatives-consultant RFP. Its quarterly-report provisions do not establish the specified per-fund private-equity measures or portfolio aggregations.",
+      "quotes": [
+        "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+        "Quarterly performance reports: Distribute 12 original copies of the quarterly performance measurement reports within 45 days following the quarter end date."
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+          "start": 743,
+          "end": 836
+        },
+        {
+          "quote": "Quarterly performance reports: Distribute 12 original copies of the quarterly performance measurement reports within 45 days following the quarter end date.",
+          "start": 10429,
+          "end": 10585
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

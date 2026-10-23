@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "910672e19a25a1365108",
+    "query_id": "SVC-11",
+    "question": "According to the City of Temple City's 457 deferred compensation plan administration and recordkeeping RFP, how many participants did the plan have and what were its total assets?",
+    "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "expected_facts": "As of March 31, 2020: 46 participants with a balance (31 actively contributing, 15 non-active), and total assets of $1,894,729. The plan was administered by two recordkeepers, ICMA-RC and Voya (CalPERS).",
+    "acceptance": "46 participants and $1,894,729 as of March 31, 2020. Active/inactive split and recordkeepers are helpful but optional.",
+    "text_hash": "1293d72cf747218c60a7c2a6d672307dfc4ed9a219b9d94748104754f6a40b02",
+    "source_text_sha256": "7ed4136b9f78094e292fd0483fe60026c36824af173945e88edf069fb23a58f7",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2022 State Universities Retirement System investment-manager RFP template, not the City of Temple City's 457 plan administration and recordkeeping RFP. It provides neither the requested participant count nor total assets as of March 31, 2020.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL ID: RFP-##-##-## Emerging Markets Equity Issued February 14, 2022",
+        "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals from",
+        "SURS also administers a defined contribution plan, the Retirement Savings Plan, which currently has assets of approximately $3.3 billion."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL ID: RFP-##-##-## Emerging Markets Equity Issued February 14, 2022",
+          "start": 13,
+          "end": 99
+        },
+        {
+          "quote": "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals from",
+          "start": 7442,
+          "end": 7536
+        },
+        {
+          "quote": "SURS also administers a defined contribution plan, the Retirement Savings Plan, which currently has assets of approximately $3.3 billion.",
+          "start": 8866,
+          "end": 9003
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

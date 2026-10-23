@@ -23,6 +23,8 @@ import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path, PurePosixPath
 
+from runtime_config import search_model
+
 POC = Path(__file__).parent
 CONTAINER = "sirchmunk"
 RUNS_ROOT = "/poc_runs"  # inside the container
@@ -123,6 +125,8 @@ def write_csv(questions, results_jsonl, out_csv):
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--model", default=search_model(),
+                    help="API model for this run; overrides the container setting")
     ap.add_argument("--tier", required=True, help="Corpus tier folder under /mnt/docs (S, M, L)")
     ap.add_argument("--mode", default="DEEP", choices=["DEEP", "FAST"])
     ap.add_argument("--questions", default=str(POC / "questions" / "questions.csv"))
@@ -153,6 +157,10 @@ def main():
     local_dir = args.output_dir or POC / "results" / run_id
     if local_dir.exists() and (local_dir / 'run_meta.json').exists() and not args.resume:
         sys.exit('Run already exists; use --resume explicitly.')
+    if args.resume and (local_dir / 'run_meta.json').exists():
+        previous_meta = json.loads((local_dir / 'run_meta.json').read_text(encoding='utf-8'))
+        if previous_meta.get('model') != args.model:
+            sys.exit('Model differs from the recorded run; use a fresh run or pass its original --model.')
     local_dir.mkdir(parents=True, exist_ok=True)
     snapshot = local_dir / 'question_snapshot.csv'
     questions_hash = hashlib.sha256(Path(args.questions).read_bytes()).hexdigest()
@@ -176,7 +184,7 @@ def main():
         "work_path": args.work_path or f"{c_dir}/work",
         "image": docker("inspect", "-f", "{{.Config.Image}}", CONTAINER),
         "image_id": docker("inspect", "-f", "{{.Image}}", CONTAINER),
-        "model": docker("exec", CONTAINER, "sh", "-c", "echo $LLM_MODEL_NAME"),
+        "model": args.model,
         "cluster_sim_threshold": docker("exec", CONTAINER, "sh", "-c",
                                         "echo ${CLUSTER_SIM_THRESHOLD:-0.85}"),
         "started": now().isoformat(timespec="seconds"),
@@ -187,7 +195,8 @@ def main():
     }
     print(json.dumps(meta, indent=1))
 
-    env = ['-e', f'SIRCHMUNK_ENABLE_CLUSTER_REUSE={str(not args.no_reuse).lower()}']
+    env = ['-e', f'LLM_MODEL_NAME={args.model}',
+           '-e', f'SIRCHMUNK_ENABLE_CLUSTER_REUSE={str(not args.no_reuse).lower()}']
     if args.sim_threshold is not None:
         env += ["-e", f"CLUSTER_SIM_THRESHOLD={args.sim_threshold}"]
     meta["cluster_reuse"] = not args.no_reuse

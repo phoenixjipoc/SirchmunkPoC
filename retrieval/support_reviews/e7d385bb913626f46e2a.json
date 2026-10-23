@@ -1,0 +1,58 @@
+{
+  "job": {
+    "id": "e7d385bb913626f46e2a",
+    "query_id": "XD-14",
+    "question": "What questions are asked under section 10.0 'ESG (Environmental, Social, Governance)' of the NJEDA Life Science Seed Fund due diligence questionnaire (Appendix A)?",
+    "file": "ILPA__ILPA-DDQ-2.0.pdf",
+    "expected_facts": "Eight questions: 10.1 the role of the respondent's internal advisory board(s), all matters referred to them (including unresolved ones) and any other governing/advisory bodies; 10.2 conflicts of interest (potential, current, historic) and how they are identified, managed, disclosed (e.g. to the LPAC) and resolved, including any conflict committees; 10.3 the policy on personal investments by employees or affiliates in deals the respondent reviewed; 10.4 whether the respondent is a registered investment advisor (RIA); 10.5 the respondent's ESG-related policies and how ESG factors influence its investment beliefs; 10.6 the implementation status of its responsible investment policy and any plans to develop its approach to ESG; 10.7 how it contributes to portfolio companies' management of ESG risks and opportunities; 10.8 the monitoring processes it would use to assess the proposed Fund's portfolio companies' management of ESG factors.",
+    "acceptance": "Eight topics 10.1–10.8 required in substance, including portfolio-company ESG assistance and monitoring. Exact question wording and numbering are optional.",
+    "text_hash": "8907145b1f077ef656f1eedcccb1c6e6cf91c5a42ababaeed03deb50236309d2",
+    "source_text_sha256": "acc7566c61a7afaabbe215a9f1337c86e1dd116ccf7ba67eeb84894f94ea4c98",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is ILPA’s Due Diligence Questionnaire 2.0, not the NJEDA Life Science Seed Fund questionnaire. Its section 10.0 is Alignment of Interests, its ESG section is 19.0, and Appendix A lists requested documents. It does not explicitly reproduce the NJEDA section 10.0 questions.",
+      "quotes": [
+        "Due Diligence Questionnaire 2.0 Updated November 2021",
+        "The ILPA Due Diligence Questionnaire (DDQ) reflects the view of the participants involved in the creation thereof as to best practices with respect to fund diligence.",
+        "10.0 Alignment of Interests",
+        "19.0 Environmental, Social and Governance (per PRI’s Limited Partners Private Equity Responsible Investment DDQ)",
+        "Appendix A - Requested Documents (if applicable)**"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Due Diligence Questionnaire 2.0 Updated November 2021",
+          "start": 13,
+          "end": 66
+        },
+        {
+          "quote": "The ILPA Due Diligence Questionnaire (DDQ) reflects the view of the participants involved in the creation thereof as to best practices with respect to fund diligence.",
+          "start": 1788,
+          "end": 1954
+        },
+        {
+          "quote": "10.0 Alignment of Interests",
+          "start": 59157,
+          "end": 59184
+        },
+        {
+          "quote": "19.0 Environmental, Social and Governance (per PRI’s Limited Partners Private Equity Responsible Investment DDQ)",
+          "start": 102158,
+          "end": 102270
+        },
+        {
+          "quote": "Appendix A - Requested Documents (if applicable)**",
+          "start": 126318,
+          "end": 126368
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

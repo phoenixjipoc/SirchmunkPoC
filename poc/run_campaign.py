@@ -10,6 +10,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from export_clusters import export
+from runtime_config import search_model
 
 POC=Path(__file__).resolve().parent
 CONFIGS={'A':{'top_k':10,'reuse':False},'B':{'top_k':5,'reuse':False},'C':{'top_k':10,'reuse':True}}
@@ -59,7 +60,7 @@ def initialize(root):
     shutil.copyfile(POC/'questions/verification/compare_audit_20261014.jsonl',inputs/'audit_acceptance.jsonl')
     shutil.copyfile(POC/'questions/verification/audit_20261014/source_inventory.json',inputs/'source_inventory.json')
     scripts={}
-    for relative in ['run_eval.py','harness/sirch_runner.py','judge.py','export_clusters.py','run_campaign.py','campaign_preflight.py']:
+    for relative in ['run_eval.py','runtime_config.py','harness/sirch_runner.py','judge.py','export_clusters.py','run_campaign.py','campaign_preflight.py']:
         file=POC/relative
         dest=inputs/'scripts'/relative
         dest.parent.mkdir(parents=True,exist_ok=True)
@@ -115,7 +116,7 @@ def main():
     for relative,expected in manifest['scripts'].items():
         if digest(POC/relative)!=expected:
             raise RuntimeError('Frozen executable changed: '+relative)
-    model=subprocess.check_output(['docker','exec','sirchmunk','printenv','LLM_MODEL_NAME'],text=True).strip()
+    model=search_model()
     if model!=manifest['model']: raise RuntimeError('Search model changed since preflight')
     directory=root/stage
     directory.mkdir(exist_ok=True)
@@ -132,6 +133,7 @@ def main():
     save()
     try:
         command=[sys.executable,'-u',str(POC/'run_eval.py'),'--tier','S','--mode','DEEP',
+                 '--model',manifest['model'],
                  '--questions',str(root/'inputs/questions.csv'),'--top-k-files',str(config['top_k']),
                  '--sim-threshold','0.85','--output-dir',str(directory)]
         if config['reuse'] is False: command.append('--no-reuse')

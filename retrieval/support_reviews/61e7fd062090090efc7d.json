@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "61e7fd062090090efc7d",
+    "query_id": "XD-14",
+    "question": "What questions are asked under section 10.0 'ESG (Environmental, Social, Governance)' of the NJEDA Life Science Seed Fund due diligence questionnaire (Appendix A)?",
+    "file": "OCERS__investment_consultant_services_rfp.pdf",
+    "expected_facts": "Eight questions: 10.1 the role of the respondent's internal advisory board(s), all matters referred to them (including unresolved ones) and any other governing/advisory bodies; 10.2 conflicts of interest (potential, current, historic) and how they are identified, managed, disclosed (e.g. to the LPAC) and resolved, including any conflict committees; 10.3 the policy on personal investments by employees or affiliates in deals the respondent reviewed; 10.4 whether the respondent is a registered investment advisor (RIA); 10.5 the respondent's ESG-related policies and how ESG factors influence its investment beliefs; 10.6 the implementation status of its responsible investment policy and any plans to develop its approach to ESG; 10.7 how it contributes to portfolio companies' management of ESG risks and opportunities; 10.8 the monitoring processes it would use to assess the proposed Fund's portfolio companies' management of ESG factors.",
+    "acceptance": "Eight topics 10.1–10.8 required in substance, including portfolio-company ESG assistance and monitoring. Exact question wording and numbering are optional.",
+    "text_hash": "5b64c217e92c2749a5177225f6fda52ea0dd775fcbdd0d850a456eb5dfcd1a1f",
+    "source_text_sha256": "31ba78f454a82dc69e8946299253c94f905a157c0bee42fe28fb33f65c2dcfa1",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an OCERS investment-consultant RFP, not the NJEDA Life Science Seed Fund due diligence questionnaire. Its Appendix A is an Intent to Respond, and it does not contain the requested section 10.0 or its eight ESG questions.",
+      "quotes": [
+        "Orange County Employees Retirement System (OCERS)",
+        "Appendix A: Intent to Respond",
+        "Appendix G: Questionnaire"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Orange County Employees Retirement System (OCERS)",
+          "start": 158,
+          "end": 207
+        },
+        {
+          "quote": "Appendix A: Intent to Respond",
+          "start": 26605,
+          "end": 26634
+        },
+        {
+          "quote": "Appendix G: Questionnaire",
+          "start": 3131,
+          "end": 3156
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

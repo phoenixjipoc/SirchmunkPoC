@@ -1,0 +1,99 @@
+{
+  "job": {
+    "id": "6950b7c2fe95e1dfb3e2",
+    "query_id": "CONS-14",
+    "question": "What are all the minimum requirements in Section 2 (pages 4–5) of the City of Hartford MERF general investment consultant RFP?",
+    "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "expected_facts": "Section2 requires: (1) at least ten years providing general consulting; (2) senior leadership together at least three years; (3) no subcontracting account management, and all responsible personnel are employees; (4) currently consulting for at least five public pension funds each over $1.5bn; (5) primary consultant has at least five years of defined-benefit public-pension consulting and at least three years employed by proposer; (6) fiduciary service to MERF/OPEB and written compliance with their investment policies/guidelines; (7) no existing or potential material conflicts with the City Treasurer/staff, Pension Commission, OPEB Committee, actuary, auditor, managers or other providers; (8) agree to execute a contract similar to AppendixE; (9) current SEC investment-adviser registration; (10) carry or have applied by submission for general liability $5m, E&O/professional liability $5m, fiduciary liability $1m, workers' compensation/employer liability $1m, and cybersecurity $1m. Section2 says all qualifications must be met by March15,2024 at 5pm ET and AppendixA certification must be completed. AppendixA separately uses different client-threshold/history and insurance-date wording; this answer follows Section2 as asked.",
+    "acceptance": "Require all ten Section2 bullet requirements and five insurance limits when asking 'all'. If the question retains whole-document scope, allow explanation of Section2 versus AppendixA differences rather than forcing a single contradictory date or >/$1.5bn threshold.",
+    "text_hash": "24d5965850bb731d1f236f3c09eb9e9855009b90c82899fd35fc123fe3525d93",
+    "source_text_sha256": "206385c6cbc8b887e46333ea2f56fa3be1d68c7f94e466f08c17043704dfdec6",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an August 2026 RFP issued by SDCERS, not the City of Hartford MERF RFP. Its minimum qualifications, deadline, and insurance requirements differ, so it cannot establish the requested Section 2 requirements.",
+      "quotes": [
+        "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+        "SDCERS General Investment Consultant RFP – August 2026 Page 2",
+        "General Investment Consulting firms wishing to respond to this RFP must meet the following minimum qualifications as of January 1, 2027:",
+        "All minimum qualifications must be met by January 1, 2027."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+          "start": 13,
+          "end": 117
+        },
+        {
+          "quote": "SDCERS General Investment Consultant RFP – August 2026 Page 2",
+          "start": 2036,
+          "end": 2097
+        },
+        {
+          "quote": "General Investment Consulting firms wishing to respond to this RFP must meet the following minimum qualifications as of January 1, 2027:",
+          "start": 2873,
+          "end": 3009
+        },
+        {
+          "quote": "All minimum qualifications must be met by January 1, 2027.",
+          "start": 5515,
+          "end": 5573
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is the San Diego City Employees’ Retirement System’s August 2026 RFP, not the City of Hartford MERF RFP. Its minimum qualifications, effective date, and insurance limits differ from those requested, so it cannot evidence Hartford’s Section 2 requirements.",
+      "quotes": [
+        "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+        "General Investment Consulting firms wishing to respond to this RFP must meet the following minimum qualifications as of January 1, 2027:",
+        "The consulting firm must have at least five (5) years of continuous experience in performing general investment consulting",
+        "All minimum qualifications must be met by January 1, 2027.",
+        "not less than a $10 million combined single limit",
+        "the selected firm shall maintain cybersecurity insurance not less than $5 million."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+          "start": 13,
+          "end": 117
+        },
+        {
+          "quote": "General Investment Consulting firms wishing to respond to this RFP must meet the following minimum qualifications as of January 1, 2027:",
+          "start": 2873,
+          "end": 3009
+        },
+        {
+          "quote": "The consulting firm must have at least five (5) years of continuous experience in performing general investment consulting",
+          "start": 3587,
+          "end": 3709
+        },
+        {
+          "quote": "All minimum qualifications must be met by January 1, 2027.",
+          "start": 5515,
+          "end": 5573
+        },
+        {
+          "quote": "not less than a $10 million combined single limit",
+          "start": 12804,
+          "end": 12853
+        },
+        {
+          "quote": "the selected firm shall maintain cybersecurity insurance not less than $5 million.",
+          "start": 13194,
+          "end": 13276
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

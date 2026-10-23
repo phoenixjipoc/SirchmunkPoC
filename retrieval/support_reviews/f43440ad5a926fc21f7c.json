@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "f43440ad5a926fc21f7c",
+    "query_id": "CONS-11",
+    "question": "What is the proposal submission deadline in the Teachers' Retirement System of Oklahoma investment consultant RFP?",
+    "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "expected_facts": "4:00 p.m. Central Time on January 14, 2026.",
+    "acceptance": "January 14, 2026, 4pm Central Time. CT or CST acceptable for the January date.",
+    "text_hash": "5afc5adec694c195f2977417c376c45b4856a88e72d30c0e1953e2403af08eac",
+    "source_text_sha256": "add3ba83b3e17f098f096c1bf8b5d5000ad39375300bba2e2b398c7d805cf7a6",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2018 master custodian RFP issued by Contra Costa County Employees’ Retirement Association, not the Teachers' Retirement System of Oklahoma investment consultant RFP. Its proposal deadline is different and cannot support the requested deadline.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+        "Proposals must be delivered to CCCERA by no later than 5:00 p.m. PT, on Friday, May 25, 2018."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+          "start": 13,
+          "end": 141
+        },
+        {
+          "quote": "Proposals must be delivered to CCCERA by no later than 5:00 p.m. PT, on Friday, May 25, 2018.",
+          "start": 19465,
+          "end": 19558
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

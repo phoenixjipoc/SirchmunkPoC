@@ -1,0 +1,20 @@
+{
+  "query_id": "CONS-02",
+  "question": "In the NYC Board of Education Retirement System (BERS) RFP 2024-003 for investment consulting services, how many maximum evaluation points are assigned to the annual fee proposal?",
+  "type": "detail",
+  "pair_id": "",
+  "seed": 2613969543,
+  "references": [],
+  "status": "query_error",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "error": "APIConnectionError: Connection error.",
+  "elapsed_s": 0.087,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  }
+}

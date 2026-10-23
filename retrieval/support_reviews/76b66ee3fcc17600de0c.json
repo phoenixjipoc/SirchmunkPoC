@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "76b66ee3fcc17600de0c",
+    "query_id": "XD-14",
+    "question": "What questions are asked under section 10.0 'ESG (Environmental, Social, Governance)' of the NJEDA Life Science Seed Fund due diligence questionnaire (Appendix A)?",
+    "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "expected_facts": "Eight questions: 10.1 the role of the respondent's internal advisory board(s), all matters referred to them (including unresolved ones) and any other governing/advisory bodies; 10.2 conflicts of interest (potential, current, historic) and how they are identified, managed, disclosed (e.g. to the LPAC) and resolved, including any conflict committees; 10.3 the policy on personal investments by employees or affiliates in deals the respondent reviewed; 10.4 whether the respondent is a registered investment advisor (RIA); 10.5 the respondent's ESG-related policies and how ESG factors influence its investment beliefs; 10.6 the implementation status of its responsible investment policy and any plans to develop its approach to ESG; 10.7 how it contributes to portfolio companies' management of ESG risks and opportunities; 10.8 the monitoring processes it would use to assess the proposed Fund's portfolio companies' management of ESG factors.",
+    "acceptance": "Eight topics 10.1–10.8 required in substance, including portfolio-company ESG assistance and monitoring. Exact question wording and numbering are optional.",
+    "text_hash": "8001c2935fd31d857e13d33885aca5873ce1465a74d1278f1e59f19d21fdfb34",
+    "source_text_sha256": "f8a7e1654c092344faef93294e84556e3d65ac1d18c78ee01b0fed8bc16b22fb",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an INREV Funds of Funds / Multi Manager questionnaire, not the NJEDA Life Science Seed Fund questionnaire. Its ESG questions appear under section 3.8, not section 10.0 of Appendix A, and do not provide the eight requested topics.",
+      "quotes": [
+        "The Due Diligence Questionnaire (DDQ) for Funds of Funds and Multi Manager (INREV FoF / MM DDQ) is part of the due diligence protocol which was first launched in April 2007.",
+        "3.8Environmental, Social and Governance (ESG)",
+        "3.8.1Do you require your underlying investments to submit data to sustainability performance evaluation organisations (e.g. Global Real Estate Sustainability Benchmark)? If so, what are your scores/results?"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Due Diligence Questionnaire (DDQ) for Funds of Funds and Multi Manager (INREV FoF / MM DDQ) is part of the due diligence protocol which was first launched in April 2007.",
+          "start": 1256,
+          "end": 1429
+        },
+        {
+          "quote": "3.8Environmental, Social and Governance (ESG)",
+          "start": 890,
+          "end": 935
+        },
+        {
+          "quote": "3.8.1Do you require your underlying investments to submit data to sustainability performance evaluation organisations (e.g. Global Real Estate Sustainability Benchmark)? If so, what are your scores/results?",
+          "start": 53069,
+          "end": 53275
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

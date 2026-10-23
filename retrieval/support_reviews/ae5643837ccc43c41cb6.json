@@ -1,0 +1,75 @@
+{
+  "job": {
+    "id": "ae5643837ccc43c41cb6",
+    "query_id": "DDQ-03",
+    "question": "In the SAA investment manager questionnaire for fixed income investment management services, which services is the firm asked to indicate whether it offers, along with any additional fee?",
+    "file": "INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+    "expected_facts": "Five services: Schedule D investment accounting; asset/liability management (dynamic financial analysis); performance attribution; daily internet access of portfolio information; and SVO filing. For each, the firm marks Yes/No and gives an approximate fee.",
+    "acceptance": "Require all five services; Yes/No and approximate fee wording are useful context, not additional services.",
+    "text_hash": "065f1ea66c1548e68c091fe4d5679904ddac15c41085d2b7285bc81d8909924a",
+    "source_text_sha256": "709d34ea15f8028111c01a36824ed3448bb46d8b226113de15b4a25b337bbfcf",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Indiana Public Retirement System (INPRS) questionnaire, not an SAA questionnaire. It does not ask firms to indicate whether they offer the five specified services or provide an approximate additional fee for each. Its mention of performance attribution concerns analysis of the proposed strategy, not an optional service.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS (“RFP”) for CORE PLUS FIXED INCOME INVESTMENT MANAGEMENT",
+        "APPENDIX C – QUESTIONNAIRE Indiana Public Retirement System Core Plus Fixed Income Investment Management",
+        "Describe how your Firm conducts performance attribution analysis, indicating any models or tools used.",
+        "Provide the proposed fee schedule for the management of the proposed separate account mandate."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) for CORE PLUS FIXED INCOME INVESTMENT MANAGEMENT",
+          "start": 13,
+          "end": 91
+        },
+        {
+          "quote": "APPENDIX C – QUESTIONNAIRE Indiana Public Retirement System Core Plus Fixed Income Investment Management",
+          "start": 98971,
+          "end": 99075
+        },
+        {
+          "quote": "Describe how your Firm conducts performance attribution analysis, indicating any models or tools used.",
+          "start": -1,
+          "end": 101
+        },
+        {
+          "quote": "Provide the proposed fee schedule for the management of the proposed separate account mandate.",
+          "start": 117006,
+          "end": 117100
+        }
+      ],
+      "all_quotes_grounded": false,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is an Indiana Public Retirement System (INPRS) Core Plus Fixed Income questionnaire, not the SAA investment manager questionnaire. It does not list the five services the question asks about.",
+      "quotes": [
+        "Indiana Public Retirement System Core Plus Fixed Income Investment Management",
+        "INPRS is issuing this RFP in accordance with Indiana statutes governing the procurement of services and certain administrative policies of INPRS."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Indiana Public Retirement System Core Plus Fixed Income Investment Management",
+          "start": 98998,
+          "end": 99075
+        },
+        {
+          "quote": "INPRS is issuing this RFP in accordance with Indiana statutes governing the procurement of services and certain administrative policies of INPRS.",
+          "start": 5365,
+          "end": 5510
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

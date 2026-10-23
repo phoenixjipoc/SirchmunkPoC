@@ -1,0 +1,63 @@
+{
+  "job": {
+    "id": "25094e0446ba9e6b245a",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "bbc5aa974f33a642622995234835e9395ec434792cd34aee6fa6e2448cb34a49",
+    "source_text_sha256": "ef809dc88bd158929af52565b0c35337429a448aa163f0f9466c3d4c5f44b3bd",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an Anchorage Police and Fire Retirement System RFP, not the ILPA Due Diligence Questionnaire 2.0. It does not provide that questionnaire’s table of contents, appendix count, or appendix titles.",
+      "quotes": [
+        "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+        "Appendix A Fees"
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+          "start": 743,
+          "end": 836
+        },
+        {
+          "quote": "Appendix A Fees",
+          "start": 32129,
+          "end": 32144
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied file is an Anchorage Police and Fire Retirement System investment-consultant RFP, not the ILPA Due Diligence Questionnaire 2.0. It does not evidence the requested appendix count or titles.",
+      "quotes": [
+        "Anchorage Police & Fire Retirement System April 15, 2025 REQUEST FOR PROPOSAL",
+        "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Anchorage Police & Fire Retirement System April 15, 2025 REQUEST FOR PROPOSAL",
+          "start": 13,
+          "end": 90
+        },
+        {
+          "quote": "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+          "start": 743,
+          "end": 836
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

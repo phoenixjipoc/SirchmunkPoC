@@ -1,0 +1,45 @@
+{
+  "job": {
+    "id": "92b7144bae656d6bf99d",
+    "query_id": "XD-02",
+    "question": "A 2021 covering note describes an update to a responsible-investment due diligence questionnaire for private equity limited partners. When was the first version of that questionnaire launched, who adopted it, when was the working group for the update set up, and over how long had LPs and GPs been giving comments?",
+    "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "expected_facts": "The PRI Limited Partners Private Equity Responsible Investment DDQ was first launched in 2015 and adopted by ILPA as part of the broader ILPA DDQ. The PRI set up a working group of PRI signatories in early 2021. LPs and GPs had given comments, written and verbal, over the past four months. The updated ESG DDQ is Section 19 of the ILPA DDQ.",
+    "acceptance": "2015, ILPA, early 2021 and preceding four months. Signatory composition, written/verbal distinction and section19 identifier are optional.",
+    "text_hash": "784bcfad5dec8c8cdc14ddc71afe9edac27cb190eaa8c0971bfb4139e6ce83d9",
+    "source_text_sha256": "75b693482e948ff921b1cec45e9ab6fae2d982d6719b2a34a7971859f300978e",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 SBCERS global custody RFP, not the 2021 PRI covering note. It provides no evidence for the questionnaire’s launch, ILPA’s adoption, the update working group’s formation, or the period of LP and GP comments.",
+      "quotes": [
+        "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”) Issue Date: January 8, 2024",
+        "The primary purpose of this RFP is to identify the most qualified firm to provide global custodial services, accounting services, performance measurement / analytics, and other services to SBCERS as defined in this RFP."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”) Issue Date: January 8, 2024",
+          "start": 13,
+          "end": 158
+        },
+        {
+          "quote": "The primary purpose of this RFP is to identify the most qualified firm to provide global custodial services, accounting services, performance measurement / analytics, and other services to SBCERS as defined in this RFP.",
+          "start": 3455,
+          "end": 3674
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "reviewer": "B",
+      "coverage": "uncertain",
+      "error": "APIConnectionError: Connection error."
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": null
+}

@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "0d9897c8069e5f872b57",
+    "query_id": "CONS-05",
+    "question": "In the Shrewsbury Contributory Retirement System RFP for investment consultant services, how long is the chosen consultant expected to be retained?",
+    "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "expected_facts": "For five (5) years, not to exceed seven (7) years including any renewal, extension or option. The Board can terminate on thirty (30) days written notice.",
+    "acceptance": "Five years and seven-year total ceiling including renewals/extensions/options. Thirty-day termination is optional.",
+    "text_hash": "ba38eb84b9e6630e06869a17bd0a8d39bbd7f3fbf79cf38deccbc05584512bde",
+    "source_text_sha256": "71f7dc2105be0914ed5549193987a3d5f6eda22588e7c5e025dd27c5e41ee8a0",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Illinois Teachers’ Retirement System RFP, not the Shrewsbury Contributory Retirement System RFP. Its sample agreement mentions a term of up to five years but expressly prohibits extensions; it does not support the required seven-year ceiling including renewals, extensions, or options.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES",
+        "The professional services under this Agreement shall be provided between date of execution and December 31, 2029 (not to exceed five years) unless earlier",
+        "The term of this Agreement may not be extended."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES",
+          "start": 13,
+          "end": 137
+        },
+        {
+          "quote": "The professional services under this Agreement shall be provided between date of execution and December 31, 2029 (not to exceed five years) unless earlier",
+          "start": 50778,
+          "end": 50932
+        },
+        {
+          "quote": "The term of this Agreement may not be extended.",
+          "start": 50996,
+          "end": 51043
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,20 @@
+{
+  "query_id": "CONS-11",
+  "question": "What is the proposal submission deadline in the Teachers' Retirement System of Oklahoma investment consultant RFP?",
+  "type": "pair_b",
+  "pair_id": "P1",
+  "seed": 1796350980,
+  "references": [],
+  "status": "query_error",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "error": "APIConnectionError: Connection error.",
+  "elapsed_s": 0.074,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  }
+}

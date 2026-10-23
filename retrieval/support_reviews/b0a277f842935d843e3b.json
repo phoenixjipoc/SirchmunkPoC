@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "b0a277f842935d843e3b",
+    "query_id": "XD-06",
+    "question": "One private equity due diligence questionnaire asks whether the fund gives limited partners more than a certain number of business days' notice for capital calls. What is the threshold, and in which section of the questionnaire is this question?",
+    "file": "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+    "expected_facts": "The threshold is more than 10 business days' notice for capital calls, either generally or in specific circumstances (e.g. when a single capital call is above an agreed and stated percentage of total unfunded commitment). It is question 7.14 in Section 7.0 Credit Facilities of the ILPA Due Diligence Questionnaire 2.0.",
+    "acceptance": "Accept more than ten business days and Credit Facilities. Question number, document version and illustrative circumstances are helpful but not all mandatory for the narrow threshold/section question.",
+    "text_hash": "bf2ff9591480934c4901f72d774f1636c13045a54cff1cece6e2ebf281ee7ab0",
+    "source_text_sha256": "c6578f93d282847a1a6f2e480324ec05592b32a0acb1c62a36413c1930a6d499",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Calamos Private Markets questionnaire, not the ILPA Due Diligence Questionnaire 2.0. It does not contain a capital-call notice threshold or a Section 7.0 Credit Facilities question; its credit-facilities questions ask about facility balances.",
+      "quotes": [
+        "Private Markets Due Diligence Questionnaire",
+        "Please provide details on the size and outstanding balances of credit facilities.",
+        "© 2025 Calamos Investments LLC. All Rights Reserved."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Private Markets Due Diligence Questionnaire",
+          "start": 13,
+          "end": 56
+        },
+        {
+          "quote": "Please provide details on the size and outstanding balances of credit facilities.",
+          "start": -1,
+          "end": 80
+        },
+        {
+          "quote": "© 2025 Calamos Investments LLC. All Rights Reserved.",
+          "start": 11784,
+          "end": 11836
+        }
+      ],
+      "all_quotes_grounded": false,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

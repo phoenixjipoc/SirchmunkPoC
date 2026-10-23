@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "bab74dc7d70493641926",
+    "query_id": "SVC-19",
+    "question": "What minimum qualifications must a proposing firm certify in the City of Temple City's 2020 RFP for 457 plan administration and recordkeeping services?",
+    "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "expected_facts": "(1) At least 5 years of experience administering governmental 457 plans and currently providing sole-provider administration to at least five 457 plans with assets under $25 million; (2) no front-end or back-end charges and no restrictions/penalties on plan- or participant-initiated transfers or withdrawals (except capital preservation equity wash/put provisions and fund short-term trading fees); (3) full disclosure of all fund expense and revenue sharing arrangements, including fixed/general account products; (4) full disclosure of expenses and revenue for any service (platform fees, managed accounts, advice, financial planning, brokerage); (5) agree not to sell/promote products not affiliated with the Plan without written City authorization; (6) be qualified to do business in California and Temple City upon award; (7) offer a self-directed brokerage option; (8) be able to transition and continue administration of existing loans; (9) representatives attend City meetings in person as requested (no more than once per year); (10) knowledge of and compliance with applicable County, California and federal regulations; (11) RFP terms remain in place through negotiations and the final contract unless waived in writing.",
+    "acceptance": "Accept concise grouping of the eleven requirements; the five-year/five-plan/$25m threshold alone is incomplete for this broad list question. Examples of service fees are illustrative, not separate mandatory list items.",
+    "text_hash": "671c411958eb874cfc800e9ef62f40b39ce0a3618032e31c58dc0911d1ac78ca",
+    "source_text_sha256": "a59653c4763af085dd01d7961474b0d3e4d1e15ac1d4029f77327171d4183a79",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 Missouri LAGERS RFP for private market consulting, not Temple City’s 2020 RFP for 457 plan administration and recordkeeping. Its minimum requirements therefore do not establish the qualifications asked about.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL PRIVATE MARKET CONSULTING SERVICES Prepared: July 1, 2024 Missouri Local Government Employees Retirement System (LAGERS)",
+        "Missouri Local Government Employees Retirement System (LAGERS) is issuing this Request for Proposal (RFP) for the purpose of soliciting qualified firms to provide private market consulting services.",
+        "As of March 31, 2024, must have been in business for a minimum of five (5) years and provided private market advisory services for a minimum of five (5) years."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL PRIVATE MARKET CONSULTING SERVICES Prepared: July 1, 2024 Missouri Local Government Employees Retirement System (LAGERS)",
+          "start": 13,
+          "end": 154
+        },
+        {
+          "quote": "Missouri Local Government Employees Retirement System (LAGERS) is issuing this Request for Proposal (RFP) for the purpose of soliciting qualified firms to provide private market consulting services.",
+          "start": 9735,
+          "end": 9933
+        },
+        {
+          "quote": "As of March 31, 2024, must have been in business for a minimum of five (5) years and provided private market advisory services for a minimum of five (5) years.",
+          "start": 18768,
+          "end": 18927
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

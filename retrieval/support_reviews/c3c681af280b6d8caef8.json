@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "c3c681af280b6d8caef8",
+    "query_id": "SVC-15",
+    "question": "What contract term, including any extension options, does the Kern County Employees' Retirement Association (KCERA) RFP for audit services contemplate?",
+    "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "expected_facts": "A three-year agreement (audits of fiscal year ending June 30, 2023 and the two subsequent fiscal years), subject to annual Board review; the original term may be extended for up to an additional three years by mutual agreement of KCERA and the firm.",
+    "acceptance": "Accept 3+up to3 years, mutual extension. Audit fiscal years and annual-review/negotiation detail need not all be volunteered.",
+    "text_hash": "afed2142cd9b5f90246d59a5737b84e7449b0c4dc717232226f57461b45a9b9e",
+    "source_text_sha256": "4e6f311f7c398d5daed9e60599d032ec43a08c449bc5eec7b5f5fb388433a80b",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an SFERS RFP for general investment consulting services, not KCERA’s audit-services RFP. Its three-year initial term is coincidental; the extension provisions differ: SFERS has two one-year options exercisable at its sole discretion, not an extension of up to three years by mutual agreement.",
+      "quotes": [
+        "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System",
+        "The contracts anticipated under this RFP will have an initial term of three (3) years.",
+        "SFERS shall have two (2) options to extend the term of the agreements for a period of one (1) year which SFERS may exercise in its sole and absolute discretion."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System",
+          "start": 13,
+          "end": 147
+        },
+        {
+          "quote": "The contracts anticipated under this RFP will have an initial term of three (3) years.",
+          "start": 3317,
+          "end": 3403
+        },
+        {
+          "quote": "SFERS shall have two (2) options to extend the term of the agreements for a period of one (1) year which SFERS may exercise in its sole and absolute discretion.",
+          "start": 3417,
+          "end": 3577
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

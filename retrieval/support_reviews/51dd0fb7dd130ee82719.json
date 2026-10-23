@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "51dd0fb7dd130ee82719",
+    "query_id": "SVC-10",
+    "question": "In the minimum-qualifications insurance list of the RFP for oversight of the pension administration system replacing V3, what umbrella-liability and professional-liability limits are specified?",
+    "file": "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "expected_facts": "The minimum-qualifications list specifies umbrella liability of $5 million per occurrence and $5 million aggregate, and professional liability of $2 million per occurrence and $3 million aggregate. The sample agreement separately contains a wording inconsistency ('one million dollars ($2,000,000)' per occurrence).",
+    "acceptance": "The listed $5m/$5m umbrella and $2m/$3m professional limits are materially correct. Also accept that answer with the p21 written/numeric discrepancy explicitly flagged. Other insurance types and issuer date are optional. Do not accept an unexplained $1m as the sole professional limit.",
+    "text_hash": "4d17b63a1511a6035e3a2c08797dc7e2c193555a97c765a553008ba340318074",
+    "source_text_sha256": "9ba8b34157c475227b613d2f9c05b6397a2e14952507ce6c1cae052ff9d4e2e8",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is KCERA’s audit-services RFP, not the RFP for oversight of a pension administration system replacing V3. Its sample agreement gives different insurance requirements and does not state the requested umbrella and professional per-occurrence and aggregate limits.",
+      "quotes": [
+        "Kern County Employees’ Retirement Association REQUEST FOR PROPOSAL – AUDIT SERVICES",
+        "KCERA is requesting proposals from qualified firms of certified public accountants (“Auditor”) to audit its financial statements",
+        "The aggregate limit shall be met through a combination of commercial general liability and excess liability.",
+        "Professional Liability (Errors and Omissions) Insurance, for liability arising out of, or in connection with, the performance of all required services under this Agreement, with limits equal to the policy limits, which shall be no less than Five Million Dollars ($5,000,000) per claim."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Kern County Employees’ Retirement Association REQUEST FOR PROPOSAL – AUDIT SERVICES",
+          "start": 13,
+          "end": 96
+        },
+        {
+          "quote": "KCERA is requesting proposals from qualified firms of certified public accountants (“Auditor”) to audit its financial statements",
+          "start": -1,
+          "end": 127
+        },
+        {
+          "quote": "The aggregate limit shall be met through a combination of commercial general liability and excess liability.",
+          "start": 83568,
+          "end": 83676
+        },
+        {
+          "quote": "Professional Liability (Errors and Omissions) Insurance, for liability arising out of, or in connection with, the performance of all required services under this Agreement, with limits equal to the policy limits, which shall be no less than Five Million Dollars ($5,000,000) per claim.",
+          "start": 84182,
+          "end": 84467
+        }
+      ],
+      "all_quotes_grounded": false,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

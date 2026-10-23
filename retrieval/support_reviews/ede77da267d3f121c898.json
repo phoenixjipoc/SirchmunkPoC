@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "ede77da267d3f121c898",
+    "query_id": "OTH-13",
+    "question": "What was the proposal deadline in the Hawaii ERS 2017 RFP for real estate investment consultant services?",
+    "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "expected_facts": "4:30 p.m. (H.S.T.) on March 20, 2017.",
+    "acceptance": "March 20, 2017, 4:30 p.m. HST or explicit equivalent timezone conversion.",
+    "text_hash": "e529592be16077691cd54aac3c1a9e7ed524ba5b471c34ebf5ebe0296f8ab615",
+    "source_text_sha256": "40f6e66cda735b5ac3e65bb52c7627bc76b11a8e7017ca73d4ed3e9b2360ca3a",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2024 City of Austin Employees’ Retirement System RFP for general investment consultant services, not the Hawaii ERS 2017 RFP for real estate investment consultant services. Its deadline does not support the requested deadline.",
+      "quotes": [
+        "Request for Proposal General Investment Consultant Proposals must be submitted on or before 5:00 p.m. Central Standard Time February 9, 2024 City of Austin Employees’ Retirement System",
+        "The City of Austin Employees’ Retirement System (COAERS) seeks general investment consultant services"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal General Investment Consultant Proposals must be submitted on or before 5:00 p.m. Central Standard Time February 9, 2024 City of Austin Employees’ Retirement System",
+          "start": 13,
+          "end": 197
+        },
+        {
+          "quote": "The City of Austin Employees’ Retirement System (COAERS) seeks general investment consultant services",
+          "start": 14252,
+          "end": 14353
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

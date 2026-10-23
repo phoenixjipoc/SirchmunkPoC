@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "33fa0a9d37e518ea6e7e",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "a73f8098a99029a40e97e080d66cdb97fc9c585944212d49c8006ef52d55da0f",
+    "source_text_sha256": "9a236643d7b4204fbdc4d7e63cf40d28896fa6aca7d4dca0b56d53d6261f1016",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Arizona retirement system’s investment-consultant RFP, not the external-audit RFP Q&A described in the question. It does not state the total contractual fees for FY2021 audits.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL For NON-DISCRETIONARY INVESTMENT CONSULTANT SERVICES",
+        "This Request for Proposal (“RFP”) is issued by the Board of Trustees (“Board”) of the Public Safety Personnel Retirement System (“System”)",
+        "Inquiries received will then be answered in an addendum of Q&A provided to all offerors."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL For NON-DISCRETIONARY INVESTMENT CONSULTANT SERVICES",
+          "start": 835,
+          "end": 908
+        },
+        {
+          "quote": "This Request for Proposal (“RFP”) is issued by the Board of Trustees (“Board”) of the Public Safety Personnel Retirement System (“System”)",
+          "start": 1142,
+          "end": 1280
+        },
+        {
+          "quote": "Inquiries received will then be answered in an addendum of Q&A provided to all offerors.",
+          "start": 23578,
+          "end": 23666
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "90202af46feed60d1fa2",
+    "query_id": "XD-08",
+    "question": "In the INREV Due Diligence Questionnaire 2022 for Funds of Funds and Multi Manager, which expense ratio must the manager provide under Fees and Expenses, and on what bases?",
+    "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "expected_facts": "Question 1.6.2 asks for the INREV expense ratio (TGER): a forward-looking estimate (with the calculation method) if the vehicle has not been launched, or the historical INREV expense ratio (TGER) if it is an existing vehicle. It must be given on both NAV and GAV, with and without performance fees. If the INREV expense ratio is not used, a calculation in line with the INREV Fee and Expense Metrics module is required.",
+    "acceptance": "TGER; forward estimate for unlaunched versus historical for existing; NAV/GAV and with/without performance fees. Equivalent description of INREV-compatible fallback accepted.",
+    "text_hash": "d4a7ad33208d859c75d991a4bdd6d723d6061e0ed085744f8f70ab7d38ea9348",
+    "source_text_sha256": "13affe2ff2ccbd6aa2f31fc6b4abcaaac5703248b468311f148d40d5686f5ade",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2024 State Retirement Systems RFP for actuarial consulting services, not the INREV Due Diligence Questionnaire 2022 for Funds of Funds and Multi Manager. It does not state the required INREV expense ratio, vehicle-status conditions, or calculation bases.",
+      "quotes": [
+        "State Retirement Systems Request for Proposal for Actuarial Consulting Services (System Reference # 24100) Issued on February 2, 2024",
+        "Vendor must submit a written fixed fee proposal for the services described in Section III (“Services Required”)."
+      ],
+      "quote_matches": [
+        {
+          "quote": "State Retirement Systems Request for Proposal for Actuarial Consulting Services (System Reference # 24100) Issued on February 2, 2024",
+          "start": 13,
+          "end": 146
+        },
+        {
+          "quote": "Vendor must submit a written fixed fee proposal for the services described in Section III (“Services Required”).",
+          "start": 18240,
+          "end": 18352
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

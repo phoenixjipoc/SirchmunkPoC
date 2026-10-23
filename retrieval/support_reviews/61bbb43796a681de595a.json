@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "61bbb43796a681de595a",
+    "query_id": "INV-09",
+    "question": "An investment manager RFP template for an emerging markets equity strategy (issued February 14, 2022, responses due March 31, 2022) lists required minimum qualifications and 'preferred criteria'. What live track record does it require, and what public pension client base does it prefer?",
+    "file": "OCERS__custodian_services_rfp_questions_and_answers.pdf",
+    "expected_facts": "Required: an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy (qualified women-, minority- or disabled-owned businesses are exempt). Preferred: at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan client with over $10 billion in total plan assets (plus no material litigation in the past five years). Issuer: State Universities Retirement System of Illinois (SURS).",
+    "acceptance": "Accept five-year live strategy record and the alternative client tests (two >$1bn U.S. public pensions OR one >$10bn public plan). Ownership exemption is a relevant qualification. Issuer, litigation criterion and placeholder date need not be volunteered.",
+    "text_hash": "c2cd1ea39b4681195bfc15005be9f6982a0c6aa23fb1626dd5615b15f4e0d9b1",
+    "source_text_sha256": "a182eb705c5dc23e1b3ed20cf50b538c45e06c95d85392b4444daaf2a4fc66ac",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an October 2022 OCERS custody-services RFP Q&A, not the February 2022 SURS emerging-markets equity investment-manager template. It provides neither the required live strategy track record nor the preferred public-pension client tests.",
+      "quotes": [
+        "Custody Services Request for Proposal Questions & Answers October 2022 Orange County Employees Retirement System (OCERS)",
+        "Custody Services RFP: Questions & Answers 2 of 12"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Custody Services Request for Proposal Questions & Answers October 2022 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 133
+        },
+        {
+          "quote": "Custody Services RFP: Questions & Answers 2 of 12",
+          "start": 1909,
+          "end": 1958
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "5d514350e35a5ff51aac",
+    "query_id": "DDQ-02",
+    "question": "Which due diligence questionnaire asks respondents what percentage of their current portfolio companies are located in New Jersey and what percentage are Life Science/Healthcare companies?",
+    "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "expected_facts": "The NJEDA Appendix A Due Diligence Questionnaire (NJEDA Life Science Seed Fund notice of investment opportunity, 2023), question 4.6 under '4.0 Proposed Fund Investment Strategy'.",
+    "acceptance": "NJEDA Life Science Seed Fund DDQ is sufficient identification; 2023, Appendix A and Q4.6 are optional supporting detail.",
+    "text_hash": "8001c2935fd31d857e13d33885aca5873ce1465a74d1278f1e59f19d21fdfb34",
+    "source_text_sha256": "f8a7e1654c092344faef93294e84556e3d65ac1d18c78ee01b0fed8bc16b22fb",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an INREV funds-of-funds and multi-manager questionnaire, not the NJEDA Life Science Seed Fund questionnaire. It does not ask for the percentages of current portfolio companies located in New Jersey or in Life Science/Healthcare.",
+      "quotes": [
+        "The Due Diligence Questionnaire (DDQ) for Funds of Funds and Multi Manager (INREV FoF / MM DDQ) is part of the due diligence protocol which was first launched in April 2007.",
+        "Funds of Funds / Multi Manager DDQ 2022"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Due Diligence Questionnaire (DDQ) for Funds of Funds and Multi Manager (INREV FoF / MM DDQ) is part of the due diligence protocol which was first launched in April 2007.",
+          "start": 1256,
+          "end": 1429
+        },
+        {
+          "quote": "Funds of Funds / Multi Manager DDQ 2022",
+          "start": 61797,
+          "end": 61836
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

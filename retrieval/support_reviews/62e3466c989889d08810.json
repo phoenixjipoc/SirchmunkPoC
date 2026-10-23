@@ -1,0 +1,75 @@
+{
+  "job": {
+    "id": "62e3466c989889d08810",
+    "query_id": "XD-06",
+    "question": "One private equity due diligence questionnaire asks whether the fund gives limited partners more than a certain number of business days' notice for capital calls. What is the threshold, and in which section of the questionnaire is this question?",
+    "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+    "expected_facts": "The threshold is more than 10 business days' notice for capital calls, either generally or in specific circumstances (e.g. when a single capital call is above an agreed and stated percentage of total unfunded commitment). It is question 7.14 in Section 7.0 Credit Facilities of the ILPA Due Diligence Questionnaire 2.0.",
+    "acceptance": "Accept more than ten business days and Credit Facilities. Question number, document version and illustrative circumstances are helpful but not all mandatory for the narrow threshold/section question.",
+    "text_hash": "aa32d205efb4a8f5c43054ea38fe8bb413e446bbe6440d32846410e99aba3560",
+    "source_text_sha256": "ba46410ea5b8731139363c20c23c9e0ed7804d7854e543119bc174f6333ad4d1",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Temple City RFP for 457 deferred compensation plan recordkeeping, not the ILPA private equity due diligence questionnaire. It does not contain the capital-call notice threshold or a Credit Facilities section.",
+      "quotes": [
+        "City of Temple City, California 457 Deferred Compensation Plan Request for Proposals for Plan Administration and Record Keeping Services",
+        "VI. QUESTIONNAIRE",
+        "B. RECORD KEEPING, CYBER SECURITY AND CUSTODY"
+      ],
+      "quote_matches": [
+        {
+          "quote": "City of Temple City, California 457 Deferred Compensation Plan Request for Proposals for Plan Administration and Record Keeping Services",
+          "start": 13,
+          "end": 149
+        },
+        {
+          "quote": "VI. QUESTIONNAIRE",
+          "start": 21209,
+          "end": 21226
+        },
+        {
+          "quote": "B. RECORD KEEPING, CYBER SECURITY AND CUSTODY",
+          "start": 31099,
+          "end": 31144
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is a City of Temple City request for proposals concerning 457 deferred compensation plan administration and recordkeeping, not the ILPA Due Diligence Questionnaire 2.0. It does not evidence a capital-call notice threshold or a Credit Facilities section.",
+      "quotes": [
+        "City of Temple City, California 457 Deferred Compensation Plan Request for Proposals for Plan Administration and Record Keeping Services",
+        "VI. QUESTIONNAIRE",
+        "B. RECORD KEEPING, CYBER SECURITY AND CUSTODY"
+      ],
+      "quote_matches": [
+        {
+          "quote": "City of Temple City, California 457 Deferred Compensation Plan Request for Proposals for Plan Administration and Record Keeping Services",
+          "start": 13,
+          "end": 149
+        },
+        {
+          "quote": "VI. QUESTIONNAIRE",
+          "start": 21209,
+          "end": 21226
+        },
+        {
+          "quote": "B. RECORD KEEPING, CYBER SECURITY AND CUSTODY",
+          "start": 31099,
+          "end": 31144
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

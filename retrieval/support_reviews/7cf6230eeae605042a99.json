@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "7cf6230eeae605042a99",
+    "query_id": "XD-13",
+    "question": "What does the ILPA Due Diligence Questionnaire 2.0 ask about GP-led secondaries and continuation funds in Section 6?",
+    "file": "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+    "expected_facts": "Section 6.0 opens with two Yes/No screening questions. 6.1 asks whether the Firm has done a GP-led secondary in the last five years, and 6.2 asks the same for a continuation fund transaction. Each has four follow-ups: did the LPAC review conflicts in every transaction; was a status quo option available to existing LPs in every transaction; was GP carry rolled over at 100% in every transaction; and were portfolio companies in an IPO or pre-IPO process excluded. Narrative questions 6.3-6.11 then cover: how conflicts of interest are reviewed with the LPAC and LPs (timing, information, Firm benefits not accruing to LPs, transparency on LPAC members or affiliates acting as acquirers); the information given to the LPAC/LPs and its timing; how new fund documents and side letters are structured; the options offered to LPs, including status quo, and differences for new or 'rolling' LPs; the impact on GP economics, alignment of interests and Key Person provisions; the rationale for this route rather than a fund extension or traditional exit; how the bidding universe and valuations are set (secondary managers, third-party advisers, valuation providers); fee structuring (broken deal/termination fees, sharing of transaction costs, management fee, carry); and disclosure of related deals between the GP and acquirers (e.g. stapled transactions or side deals).",
+    "acceptance": "Accept a concise summary covering transaction history, four screening follow-ups, conflicts/disclosure and information, legal/economic/LP options, rationale, bidding/valuation, fees/carry and related deals. Exact subquestion numbering and every illustrative detail are optional.",
+    "text_hash": "576995e0f46f8d1ed568b3f11213a208a0e1dfe327b1dd5c1306846cd5741c1d",
+    "source_text_sha256": "2c50ab98d10c03c9aebdf033c0bf6a011506f6e8d75bc72ac45971559818570c",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is FPIF’s 2023 private-markets RFP and its own questionnaire, not the ILPA Due Diligence Questionnaire 2.0. Its references to secondaries and continuation funds do not state what ILPA Section 6 asks.",
+      "quotes": [
+        "Firefighters’ Pension Investment Fund Request for Proposals for Private Markets Investment Consulting and Discretionary OCIO Advisory Services February 13, 2023",
+        "Exhibit B: Questionnaire",
+        "Experience with primary funds, secondaries, continuation funds, co-investments, and joint ventures"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Firefighters’ Pension Investment Fund Request for Proposals for Private Markets Investment Consulting and Discretionary OCIO Advisory Services February 13, 2023",
+          "start": 13,
+          "end": 173
+        },
+        {
+          "quote": "Exhibit B: Questionnaire",
+          "start": 42310,
+          "end": 42334
+        },
+        {
+          "quote": "Experience with primary funds, secondaries, continuation funds, co-investments, and joint ventures",
+          "start": 24175,
+          "end": 24273
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

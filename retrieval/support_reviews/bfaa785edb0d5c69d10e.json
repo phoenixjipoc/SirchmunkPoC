@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "bfaa785edb0d5c69d10e",
+    "query_id": "DDQ-09",
+    "question": "In the 2024 version of ILPA's ESG Assessment Framework FAQ, how many resources are listed in answer to 'Where can I find additional resources pertaining to ESG?', and what are they?",
+    "file": "ILPA__ILPA-ESG-Assessment-Framework.pdf",
+    "expected_facts": "8 resources: ILPA's ESG and Sustainable Investing Hub; ILPA's Diversity, Equity, and Inclusion Hub; UNPRI's Private Equity Page; The ESG Data Convergence Initiative; The Private Markets Decarbonization Roadmap; IFRS's International Sustainability Standards Board (ISSB), noting SASB is now part of the IFRS Foundation; Task Force on Climate-Related Financial Disclosures, noting TCFD has disbanded after its 2023 status report; The Institutional Investors Group on Climate Change (IIGCC).",
+    "acceptance": "Require count eight and eight resource names, allowing acronyms PRI/ISSB/TCFD/IIGCC. SASB/TCFD explanatory notes are optional and must not be counted as extra resources.",
+    "text_hash": "18ceb1de7787babb7ab115c4bb49f32a06ffabfda4953e96498c75a7094ed893",
+    "source_text_sha256": "375390fd12db9b3491f0deeb1f867f82ce05cad0a284915691ce5e4aa512aa00",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is the ESG Assessment Framework, not the 2024 FAQ. It refers to a separate FAQ document but does not contain the specified question, a count of eight resources, or their names.",
+      "quotes": [
+        "ESG ASSESSMENT FRAMEWORK OVERVIEW - HOW TO USE THIS FRAMEWORK",
+        "Other considerations and frequently asked questions are addressed in our FAQ document"
+      ],
+      "quote_matches": [
+        {
+          "quote": "ESG ASSESSMENT FRAMEWORK OVERVIEW - HOW TO USE THIS FRAMEWORK",
+          "start": 13,
+          "end": 74
+        },
+        {
+          "quote": "Other considerations and frequently asked questions are addressed in our FAQ document",
+          "start": -1,
+          "end": 84
+        }
+      ],
+      "all_quotes_grounded": false,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

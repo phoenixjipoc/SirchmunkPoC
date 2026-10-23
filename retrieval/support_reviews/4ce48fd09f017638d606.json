@@ -1,0 +1,58 @@
+{
+  "job": {
+    "id": "4ce48fd09f017638d606",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "d4a7ad33208d859c75d991a4bdd6d723d6061e0ed085744f8f70ab7d38ea9348",
+    "source_text_sha256": "13affe2ff2ccbd6aa2f31fc6b4abcaaac5703248b468311f148d40d5686f5ade",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a State Retirement Systems RFP for actuarial consulting services, not the ILPA Due Diligence Questionnaire 2.0. Its table of contents lists four appendices, A–D, with different titles; it provides no evidence for the requested eight ILPA appendices.",
+      "quotes": [
+        "State Retirement Systems Request for Proposal for Actuarial Consulting Services",
+        "APPENDIX A: REFERENCE AUTHORIZATION LETTER",
+        "APPENDIX B: MINIMUM QUALIFICATIONS",
+        "APPENDIX C: FEE PROPOSAL",
+        "APPENDIX D: SAMPLE AGREEMENT"
+      ],
+      "quote_matches": [
+        {
+          "quote": "State Retirement Systems Request for Proposal for Actuarial Consulting Services",
+          "start": 13,
+          "end": 92
+        },
+        {
+          "quote": "APPENDIX A: REFERENCE AUTHORIZATION LETTER",
+          "start": 1155,
+          "end": 1197
+        },
+        {
+          "quote": "APPENDIX B: MINIMUM QUALIFICATIONS",
+          "start": 1253,
+          "end": 1287
+        },
+        {
+          "quote": "APPENDIX C: FEE PROPOSAL",
+          "start": 1362,
+          "end": 1386
+        },
+        {
+          "quote": "APPENDIX D: SAMPLE AGREEMENT",
+          "start": 1462,
+          "end": 1490
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "a7db069999f1ca57bcaa",
+    "query_id": "DDQ-03",
+    "question": "In the SAA investment manager questionnaire for fixed income investment management services, which services is the firm asked to indicate whether it offers, along with any additional fee?",
+    "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "expected_facts": "Five services: Schedule D investment accounting; asset/liability management (dynamic financial analysis); performance attribution; daily internet access of portfolio information; and SVO filing. For each, the firm marks Yes/No and gives an approximate fee.",
+    "acceptance": "Require all five services; Yes/No and approximate fee wording are useful context, not additional services.",
+    "text_hash": "5afc5adec694c195f2977417c376c45b4856a88e72d30c0e1953e2403af08eac",
+    "source_text_sha256": "add3ba83b3e17f098f096c1bf8b5d5000ad39375300bba2e2b398c7d805cf7a6",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is CCCERA’s April 2018 master custodian RFP, not the SAA investment manager questionnaire for fixed income investment management services. It does not contain the requested five-service list.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+        "VIII. QUESTIONNAIRE – ATTACHMENT A",
+        "IX. ATTACHMENT B MASTER CUSTODIAN AND RELATED SERVICES FEE SCHEDULE"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+          "start": 13,
+          "end": 141
+        },
+        {
+          "quote": "VIII. QUESTIONNAIRE – ATTACHMENT A",
+          "start": 42667,
+          "end": 42701
+        },
+        {
+          "quote": "IX. ATTACHMENT B MASTER CUSTODIAN AND RELATED SERVICES FEE SCHEDULE",
+          "start": 100391,
+          "end": 100458
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

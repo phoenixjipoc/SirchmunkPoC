@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "c39d327311afcf165ae3",
+    "query_id": "CONS-04",
+    "question": "According to the San Bernardino County Employees' Retirement Association (SBCERA) investment consultant RFP, approximately how large is SBCERA's investment portfolio?",
+    "file": "IMRF__sample-investment-consulting-rfp.pdf",
+    "expected_facts": "Approximately $12.0 billion in assets.",
+    "acceptance": "$12bn approximately suffices; do not require or invent an as-of date.",
+    "text_hash": "ea9d2789dbf2664c70adf4312c00b0ec81c54cf1741478e3e2757e93a2e66025",
+    "source_text_sha256": "9c1ec794ed5ca3d42e6eb1fbcbbbb339195c2c9b872a54f9d0d1536d9a860ec5",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an IMRF sample RFP, not SBCERA’s investment consultant RFP. Its portfolio value is a placeholder, and it does not state SBCERA’s approximate $12.0 billion portfolio size.",
+      "quotes": [
+        "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms",
+        "IMRF’s portfolio is a diversified and global portfolio having a total market value of $XX.X billion as of XXXX XX, 20XX."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms",
+          "start": 202,
+          "end": 304
+        },
+        {
+          "quote": "IMRF’s portfolio is a diversified and global portfolio having a total market value of $XX.X billion as of XXXX XX, 20XX.",
+          "start": 3425,
+          "end": 3545
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

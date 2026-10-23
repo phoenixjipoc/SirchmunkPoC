@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "d4a8cbd540c55a8ebe34",
+    "query_id": "CONS-13",
+    "question": "How many printed copies of the proposal must be submitted in the San Francisco Employees' Retirement System (SFERS) general investment consultant RFP?",
+    "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "expected_facts": "Three (3) paper (hard) copies plus one full electronic copy.",
+    "acceptance": "Three hard/paper/printed copies is fully correct. Electronic-copy mention is optional, not a required extra.",
+    "text_hash": "24d5965850bb731d1f236f3c09eb9e9855009b90c82899fd35fc123fe3525d93",
+    "source_text_sha256": "206385c6cbc8b887e46333ea2f56fa3be1d68c7f94e466f08c17043704dfdec6",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a San Diego City Employees' Retirement System RFP, not the requested SFERS RFP. It specifies an electronic submission but does not state how many printed copies SFERS requires.",
+      "quotes": [
+        "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+        "Please submit a complete electronic copy (in PDF format) via e-mail of the proposal to:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+          "start": 13,
+          "end": 117
+        },
+        {
+          "quote": "Please submit a complete electronic copy (in PDF format) via e-mail of the proposal to:",
+          "start": 10186,
+          "end": 10273
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "be5e3056a70e3e7d36d8",
+    "query_id": "CONS-02",
+    "question": "In the NYC Board of Education Retirement System (BERS) RFP 2024-003 for investment consulting services, how many maximum evaluation points are assigned to the annual fee proposal?",
+    "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "expected_facts": "28 points (out of 100). Full breakdown: Program Plan/Narrative 18, Organizational Capacity/Knowledge and Experience 23, Demonstrated Effectiveness 22, Fee Proposal - Annual Fee 28, Fee Proposal - Hourly Rate 9.",
+    "acceptance": "28 points alone is sufficient. Other scoring categories and fee formula are optional.",
+    "text_hash": "e529592be16077691cd54aac3c1a9e7ed524ba5b471c34ebf5ebe0296f8ab615",
+    "source_text_sha256": "40f6e66cda735b5ac3e65bb52c7627bc76b11a8e7017ca73d4ed3e9b2360ca3a",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a City of Austin Employees’ Retirement System investment-consultant RFP, not NYC BERS RFP 2024-003. It gives no maximum evaluation points for an annual fee proposal and says there is no predetermined formula for weighing fees.",
+      "quotes": [
+        "The City of Austin Employees’ Retirement System (COAERS) seeks general investment consultant services",
+        "While these data points may be considered by Trustees, there is no predetermined mechanical formula contemplated for weighing fees against other criteria."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The City of Austin Employees’ Retirement System (COAERS) seeks general investment consultant services",
+          "start": 14252,
+          "end": 14353
+        },
+        {
+          "quote": "While these data points may be considered by Trustees, there is no predetermined mechanical formula contemplated for weighing fees against other criteria.",
+          "start": 53060,
+          "end": 53214
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

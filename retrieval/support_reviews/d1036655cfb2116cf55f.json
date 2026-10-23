@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "d1036655cfb2116cf55f",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "e208b396d807c84110e10df7ec74d980a1905d8e99839a26651b44e9927a80ca",
+    "source_text_sha256": "48df375d7d5f4c68eef011c530a1b8e2446893a55aa03aa4e9c6a423a07b3e4c",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a District of Columbia Retirement Board RFP for real assets investment consulting services, not the SBCERS global custody RFP. Its evaluation criteria are five equally weighted categories, so it does not support the requested four categories or 30/40/5/25% weights.",
+      "quotes": [
+        "District of Columbia Retirement Board 900 7th Street, N.W. Suite 200 Washington, D.C. 20001 Request for Proposal Real Assets Investment Consulting Services Solicitation DCRB-2011-001",
+        "6.3 Evaluation Criteria The Staff will determine the most qualified applicants based on the following criteria: 1. Understanding scope of services (20% weight) 2. Firm experience and resources (20%) 3. Consulting professional experience and qualifications (20%) 4. Potential for conflicts of interest (20%) 5. Fee proposal (20%)"
+      ],
+      "quote_matches": [
+        {
+          "quote": "District of Columbia Retirement Board 900 7th Street, N.W. Suite 200 Washington, D.C. 20001 Request for Proposal Real Assets Investment Consulting Services Solicitation DCRB-2011-001",
+          "start": 13,
+          "end": 195
+        },
+        {
+          "quote": "6.3 Evaluation Criteria The Staff will determine the most qualified applicants based on the following criteria: 1. Understanding scope of services (20% weight) 2. Firm experience and resources (20%) 3. Consulting professional experience and qualifications (20%) 4. Potential for conflicts of interest (20%) 5. Fee proposal (20%)",
+          "start": 19280,
+          "end": 19608
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

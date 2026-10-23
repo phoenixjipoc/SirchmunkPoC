@@ -1,0 +1,20 @@
+{
+  "query_id": "CONS-12",
+  "question": "How many printed copies of the proposal must be submitted in the Boston Retirement System 2022 investment consulting services RFP?",
+  "type": "pair_a",
+  "pair_id": "P2",
+  "seed": 716328518,
+  "references": [],
+  "status": "query_error",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "error": "APIConnectionError: Connection error.",
+  "elapsed_s": 0.169,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  }
+}

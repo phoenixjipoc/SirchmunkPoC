@@ -1,0 +1,63 @@
+{
+  "job": {
+    "id": "e1422b2ff4c36af4ab3e",
+    "query_id": "OTH-11",
+    "question": "What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2017?",
+    "file": "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+    "expected_facts": "November 27, 2017 by 4:30 p.m. (H.S.T.).",
+    "acceptance": "November27,2017 at 4:30pm HST; equivalent date/time format accepted.",
+    "text_hash": "1e3dc8db2f90933455b7c59967386b76eea64636a15cef3b8eab8a745b55231f",
+    "source_text_sha256": "06485a707e23d6959251e5fd04214a5b46701f4130bbf13f2073c46e88f74e02",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 City of Baltimore BCERS alternatives consultant RFP, not the 2017 Hawaii ERS private equity consulting RFP. Its proposal deadline does not support the requested deadline.",
+      "quotes": [
+        "THE EMPLOYEES’ RETIREMENT SYSTEM and OPEB TRUST – CITY OF BALTIMORE REQUEST FOR PROPOSALS (RFP) for ALTERNATIVES CONSULTANT",
+        "Proposals must be received no later than 3:00 P.M. EDT, November 8, 2024."
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE EMPLOYEES’ RETIREMENT SYSTEM and OPEB TRUST – CITY OF BALTIMORE REQUEST FOR PROPOSALS (RFP) for ALTERNATIVES CONSULTANT",
+          "start": 13,
+          "end": 136
+        },
+        {
+          "quote": "Proposals must be received no later than 3:00 P.M. EDT, November 8, 2024.",
+          "start": 17790,
+          "end": 17863
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is a 2024 Baltimore City Employees’ Retirement Systems RFP for an alternatives consultant, not the 2017 Hawaii ERS RFP for private equity consulting services. Its proposal deadline cannot establish the Hawaii deadline.",
+      "quotes": [
+        "THE EMPLOYEES’ RETIREMENT SYSTEM and OPEB TRUST – CITY OF BALTIMORE REQUEST FOR PROPOSALS (RFP) for ALTERNATIVES CONSULTANT",
+        "Proposals must be received no later than 3:00 P.M. EDT, November 8, 2024."
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE EMPLOYEES’ RETIREMENT SYSTEM and OPEB TRUST – CITY OF BALTIMORE REQUEST FOR PROPOSALS (RFP) for ALTERNATIVES CONSULTANT",
+          "start": 13,
+          "end": 136
+        },
+        {
+          "quote": "Proposals must be received no later than 3:00 P.M. EDT, November 8, 2024.",
+          "start": 17790,
+          "end": 17863
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

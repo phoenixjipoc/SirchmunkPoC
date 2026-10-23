@@ -1,0 +1,63 @@
+{
+  "job": {
+    "id": "d9236e65adef58c82a66",
+    "query_id": "CONS-07",
+    "question": "Which pension system's investment consultant RFP requires respondents to have at least five defined benefit pension plan clients, two of which are public pension plans with total plan assets of at least $15 billion each?",
+    "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "expected_facts": "Orange County Employees Retirement System (OCERS), in its 2021 investment consultant services RFP (Appendix E, Minimum Qualifications Certification).",
+    "acceptance": "OCERS/Orange County Employees Retirement System suffices. Appendix designation, year and restatement of qualification are optional.",
+    "text_hash": "a98d524e6be406d219908f55d7669eccd66ebe00dac2da8fe751cb73c6c068e5",
+    "source_text_sha256": "f7992acf077bd43f56dcfe41af1dd3fdb115f4ea1c61bea284a8fb27b11a2ca2",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Texas Municipal Retirement System RFP, not an OCERS RFP. Its minimum client requirement also differs: it calls for five public pension plans larger than $5 billion, including two over $20 billion.",
+      "quotes": [
+        "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+        "Respondent must be currently providing general investment advice on a non-discretionary basis to at least 5 public pension plans larger than $5 billion and at least 2 public plans over $20 billion."
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+          "start": 4270,
+          "end": 4370
+        },
+        {
+          "quote": "Respondent must be currently providing general investment advice on a non-discretionary basis to at least 5 public pension plans larger than $5 billion and at least 2 public plans over $20 billion.",
+          "start": 7566,
+          "end": 7763
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is a 2022 Texas Municipal Retirement System RFP, not an OCERS RFP. Its minimum eligibility requirement is also different: five public pension plans over $5 billion, including two public plans over $20 billion.",
+      "quotes": [
+        "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+        "Respondent must be currently providing general investment advice on a non-discretionary basis to at least 5 public pension plans larger than $5 billion and at least 2 public plans over $20 billion."
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+          "start": 4270,
+          "end": 4370
+        },
+        {
+          "quote": "Respondent must be currently providing general investment advice on a non-discretionary basis to at least 5 public pension plans larger than $5 billion and at least 2 public plans over $20 billion.",
+          "start": 7566,
+          "end": 7763
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

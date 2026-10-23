@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "checks": {
+    "all_120_unique_queries": true,
+    "all_81_original_hashes_match": true,
+    "frozen_semantic_inputs_match": true,
+    "benchmark_code_matches": true,
+    "benchmark_inputs_match": true,
+    "upstream_source_snapshot_matches": true,
+    "all_successful_runtime_identifiers_match": true,
+    "failed_calls_remain_recorded": true,
+    "only_discovery_calls": true,
+    "no_answer_sampling_or_cluster_flags": true,
+    "rank_order_and_unique_sources": true,
+    "returned_sources_belong_to_corpus": true,
+    "returned_order_is_native_prefix": true,
+    "raw_files_contain_no_final_answer_field": true,
+    "preflight_confirmed": true,
+    "parser_outcomes_recorded_for_all_originals": true,
+    "correct_denominators": true,
+    "cutoff_scores_monotonic": true,
+    "all_unlisted_document_jobs_reviewed": true,
+    "additional_positives_have_two_grounded_checks": true,
+    "unlisted_first_results_have_two_completed_checks": true,
+    "quotation_discrepancies_adjudicated": true,
+    "adjudication_sources_match": true,
+    "successful_review_runtime_identifiers_match": true,
+    "previously_completed_results_unchanged": true,
+    "recovery_wrapper_hash_matches": true
+  },
+  "counts": {
+    "questions": 120,
+    "retrieval_calls": 310,
+    "document_reviews": 473,
+    "review_calls": 521
+  },
+  "offline_checks": [
+    "runtime mismatch stop",
+    "missing runtime identifier stop",
+    "native order and deduplication",
+    "timestamp serialization",
+    "six metric-order/unknown-bound assertions"
+  ]
+}

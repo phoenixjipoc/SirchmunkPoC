@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "b6f18c93ef52bea9c847",
+    "query_id": "CONS-14",
+    "question": "What are all the minimum requirements in Section 2 (pages 4–5) of the City of Hartford MERF general investment consultant RFP?",
+    "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "expected_facts": "Section2 requires: (1) at least ten years providing general consulting; (2) senior leadership together at least three years; (3) no subcontracting account management, and all responsible personnel are employees; (4) currently consulting for at least five public pension funds each over $1.5bn; (5) primary consultant has at least five years of defined-benefit public-pension consulting and at least three years employed by proposer; (6) fiduciary service to MERF/OPEB and written compliance with their investment policies/guidelines; (7) no existing or potential material conflicts with the City Treasurer/staff, Pension Commission, OPEB Committee, actuary, auditor, managers or other providers; (8) agree to execute a contract similar to AppendixE; (9) current SEC investment-adviser registration; (10) carry or have applied by submission for general liability $5m, E&O/professional liability $5m, fiduciary liability $1m, workers' compensation/employer liability $1m, and cybersecurity $1m. Section2 says all qualifications must be met by March15,2024 at 5pm ET and AppendixA certification must be completed. AppendixA separately uses different client-threshold/history and insurance-date wording; this answer follows Section2 as asked.",
+    "acceptance": "Require all ten Section2 bullet requirements and five insurance limits when asking 'all'. If the question retains whole-document scope, allow explanation of Section2 versus AppendixA differences rather than forcing a single contradictory date or >/$1.5bn threshold.",
+    "text_hash": "1293d72cf747218c60a7c2a6d672307dfc4ed9a219b9d94748104754f6a40b02",
+    "source_text_sha256": "7ed4136b9f78094e292fd0483fe60026c36824af173945e88edf069fb23a58f7",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a SURS emerging-markets equity investment-manager RFP template, not the City of Hartford MERF general investment consultant RFP. Its minimum qualifications concern a different issuer, role, and requirements; it cannot establish the requested Section 2 requirements.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL ID: RFP-##-##-## Emerging Markets Equity",
+        "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+        "IV. Minimum Qualifications",
+        "The proposing firm must have an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy as of 12/31/20__."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL ID: RFP-##-##-## Emerging Markets Equity",
+          "start": 13,
+          "end": 74
+        },
+        {
+          "quote": "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+          "start": 7442,
+          "end": 7531
+        },
+        {
+          "quote": "IV. Minimum Qualifications",
+          "start": 738,
+          "end": 764
+        },
+        {
+          "quote": "The proposing firm must have an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy as of 12/31/20__.",
+          "start": 14076,
+          "end": 14232
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

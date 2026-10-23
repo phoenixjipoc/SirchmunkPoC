@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "65ab836c950ca9189459",
+    "query_id": "OTH-12",
+    "question": "What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2022?",
+    "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "expected_facts": "September 30, 2022 by 4:30 p.m. (H.S.T.) (RFP 2022-04, issued August 29, 2022).",
+    "acceptance": "Accept date/time/Hawaii Standard Time equivalents. Issue date, RFP number and later best-and-final deadline are optional context.",
+    "text_hash": "5afc5adec694c195f2977417c376c45b4856a88e72d30c0e1953e2403af08eac",
+    "source_text_sha256": "add3ba83b3e17f098f096c1bf8b5d5000ad39375300bba2e2b398c7d805cf7a6",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2018 Contra Costa County Employees’ Retirement Association RFP for master custodian services, not the 2022 Hawaii ERS RFP for private equity consulting services. Its proposal deadline cannot support the requested deadline.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+        "Proposals must be delivered to CCCERA by no later than 5:00 p.m. PT, on Friday, May 25, 2018."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+          "start": 13,
+          "end": 141
+        },
+        {
+          "quote": "Proposals must be delivered to CCCERA by no later than 5:00 p.m. PT, on Friday, May 25, 2018.",
+          "start": 19465,
+          "end": 19558
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

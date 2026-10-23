@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "eff480b9f11f44a09011",
+    "query_id": "INV-20",
+    "question": "Which meetings must the investment consultant attend under the IMRF sample RFP for investment consulting, real estate consulting and performance measurement services, and how many days of meetings per year does IMRF estimate?",
+    "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+    "expected_facts": "(1) Monthly IMRF Board meetings; (2) Investment Committee meetings; (3) the Annual IMRF Roundtable; (4) regional meetings with investment managers; (5) related investment meetings and discussions; (6) formal interviews with existing and potential investment managers; (7) ad hoc due diligence meetings with investment managers and staff. IMRF estimates about sixty days of meetings per year with the Board and/or staff, plus frequent telephone discussions with staff.",
+    "acceptance": "All seven meeting categories and about 60 days/year. Frequent telephone calls and principal-attendance details are optional.",
+    "text_hash": "bbc5aa974f33a642622995234835e9395ec434792cd34aee6fa6e2448cb34a49",
+    "source_text_sha256": "ef809dc88bd158929af52565b0c35337429a448aa163f0f9466c3d4c5f44b3bd",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the Anchorage Police and Fire Retirement System’s 2025 RFP, not an IMRF sample RFP. Its meeting requirements concern Anchorage quarterly Board meetings and an annual investment review; it does not establish the seven IMRF meeting categories or an estimate of about 60 meeting days per year.",
+      "quotes": [
+        "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+        "Meet with the Board in Anchorage, Alaska no less than 4 times a year, each calendar quarter and make oral presentations regarding the investment managers performance",
+        "Attend and present at an annual investment review meeting in Anchorage, Alaska (tentatively set for March 25 & 26, 2026)"
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+          "start": 743,
+          "end": 836
+        },
+        {
+          "quote": "Meet with the Board in Anchorage, Alaska no less than 4 times a year, each calendar quarter and make oral presentations regarding the investment managers performance",
+          "start": 10839,
+          "end": 11004
+        },
+        {
+          "quote": "Attend and present at an annual investment review meeting in Anchorage, Alaska (tentatively set for March 25 & 26, 2026)",
+          "start": 11007,
+          "end": 11127
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

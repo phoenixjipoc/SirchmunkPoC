@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "92a0aa774ed53a0ec47a",
+    "query_id": "DDQ-03",
+    "question": "In the SAA investment manager questionnaire for fixed income investment management services, which services is the firm asked to indicate whether it offers, along with any additional fee?",
+    "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "expected_facts": "Five services: Schedule D investment accounting; asset/liability management (dynamic financial analysis); performance attribution; daily internet access of portfolio information; and SVO filing. For each, the firm marks Yes/No and gives an approximate fee.",
+    "acceptance": "Require all five services; Yes/No and approximate fee wording are useful context, not additional services.",
+    "text_hash": "3b4fb541c2d35b7de747c8f6c26cc3a40bee097d58737ad466dbef56acdfa755",
+    "source_text_sha256": "a7628e3fc4e0a9323e896059440a5b708d424232eec8242be9362eb818e6b682",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Clark County deferred-compensation plan administrator RFP, not the SAA investment manager questionnaire for fixed income investment management services. It does not list the five specified services as offerings for which the firm must indicate availability and an additional fee.",
+      "quotes": [
+        "Request for Proposal for: DEFERRED COMPENSATION 457 PLAN ADMINISTRATOR",
+        "Clark County is soliciting proposals from qualified firms to provide retirement plan administration, record keeping, education, communications, investment-related, and other services for the 457 Deferred Compensation Plan effective January 1, 2027.",
+        "EXHIBIT C 456 Deferred Compensation Administrator Questionnaire"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal for: DEFERRED COMPENSATION 457 PLAN ADMINISTRATOR",
+          "start": 244,
+          "end": 314
+        },
+        {
+          "quote": "Clark County is soliciting proposals from qualified firms to provide retirement plan administration, record keeping, education, communications, investment-related, and other services for the 457 Deferred Compensation Plan effective January 1, 2027.",
+          "start": 11821,
+          "end": 12069
+        },
+        {
+          "quote": "EXHIBIT C 456 Deferred Compensation Administrator Questionnaire",
+          "start": 54622,
+          "end": 54685
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

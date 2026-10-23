@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "389e03a3acafd0686bfa",
+    "query_id": "CONS-11",
+    "question": "What is the proposal submission deadline in the Teachers' Retirement System of Oklahoma investment consultant RFP?",
+    "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "expected_facts": "4:00 p.m. Central Time on January 14, 2026.",
+    "acceptance": "January 14, 2026, 4pm Central Time. CT or CST acceptable for the January date.",
+    "text_hash": "2e5c9ac10ac2943a19269fe0ceeab6dc6cca5c9b732ec461770764bed168feeb",
+    "source_text_sha256": "698b71034e03dda497378807f02ef9875cc985ad2aafde5d24accec7bdff2d4b",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2016 investment consultant RFP issued by the South Carolina Retirement System Investment Commission, not the Teachers' Retirement System of Oklahoma. Its proposal deadline is December 1, 2016, at 5:00 p.m. EST; it does not support the requested Oklahoma RFP deadline.",
+      "quotes": [
+        "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+        "Deadline for Proposal Submission December 1, 2016 – 5:00 p.m. EST"
+      ],
+      "quote_matches": [
+        {
+          "quote": "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+          "start": 106,
+          "end": 203
+        },
+        {
+          "quote": "Deadline for Proposal Submission December 1, 2016 – 5:00 p.m. EST",
+          "start": 3723,
+          "end": 3788
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

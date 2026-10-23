@@ -1,0 +1,3033 @@
+# Copyright (c) ModelScope Contributors. All rights reserved.
+import asyncio
+import ast
+import hashlib
+import json
+import logging
+import math
+import os
+import re
+import traceback
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Any, Dict, List, Literal, Optional, Tuple, Union
+
+from sirchmunk.base import BaseSearch
+from sirchmunk.learnings.knowledge_base import KnowledgeBase
+from sirchmunk.llm.openai_chat import OpenAIChat
+from sirchmunk.llm.prompts import (
+    KEYWORD_QUERY_PLACEHOLDER,
+    generate_keyword_extraction_prompt,
+    FAST_QUERY_ANALYSIS,
+    ROI_RESULT_SUMMARY,
+    SEARCH_RESULT_SUMMARY,
+    DOC_SUMMARY,
+    DOC_CHUNK_SUMMARY,
+    DOC_MERGE_SUMMARIES,
+)
+from sirchmunk.retrieve.text_retriever import GrepRetriever
+from sirchmunk.schema.knowledge import (
+    AbstractionLevel,
+    EvidenceUnit,
+    KnowledgeCluster,
+    Lifecycle,
+)
+from sirchmunk.schema.request import ContentItem, Message, Request
+from sirchmunk.schema.search_context import SearchContext
+from sirchmunk.storage.knowledge_storage import KnowledgeStorage
+from sirchmunk.utils.constants import DEFAULT_SIRCHMUNK_WORK_PATH
+from sirchmunk.utils.embedding_util import EmbeddingUtil
+from sirchmunk.utils.deps import check_dependencies
+from sirchmunk.utils import create_logger, LogCallback
+from loguru import logger as _loguru_logger
+from sirchmunk.utils.install_rga import install_rga
+from sirchmunk.utils.utils import (
+    KeywordValidation,
+    extract_fields,
+)
+
+# Only for quick simple-chat intent detection to reduce unnecessary LLM calls
+_CHAT_QUERY_RE = re.compile(
+    r"^("
+    # Greetings (ZH / EN / pinyin / JA / KO)
+    r"你好|您好|嗨|哈喽|喂|早上好|下午好|晚上好|早安|午安|晚安"
+    r"|hello|hi|hey|howdy|greetings|yo"
+    r"|nihao|ni\s*hao"
+    r"|good\s*(morning|afternoon|evening|night)"
+    r"|こんにちは|こんばんは|おはよう"
+    r"|안녕하세요|안녕"
+    # Identity / capability
+    r"|who\s+are\s+you|what\s+are\s+you|你是谁|你是什么"
+    r"|介绍.*你自己|tell\s+me\s+about\s+yourself"
+    r"|what\s+can\s+you\s+do|你能做什么|你会什么"
+    # Small talk
+    r"|how\s+are\s+you|你好吗|你怎么样|what'?s\s+up"
+    # Thanks
+    r"|thank\s*you|thanks|谢谢|感谢|多谢"
+    # Goodbye
+    r"|bye|goodbye|再见|拜拜|see\s+you"
+    # Ping / test
+    r"|test(ing)?|ping"
+    r")[\s!！？?。.，,~～…]*$",
+    re.IGNORECASE,
+)
+
+_CHAT_RESPONSE_SYSTEM = (
+    "You are Sirchmunk, an intelligent document search and analysis assistant. "
+    "The user sent a conversational message (greeting, identity question, etc.) "
+    "rather than a search query. Respond naturally and helpfully in 1-3 sentences. "
+    "Reply in the same language as the user's message."
+)
+
+_NO_RESULTS_MESSAGE = "No results found."
+
+
+class AgenticSearch(BaseSearch):
+
+    def __init__(
+        self,
+        llm: Optional[OpenAIChat] = None,
+        embedding: Optional[EmbeddingUtil] = None,
+        work_path: Optional[Union[str, Path]] = None,
+        paths: Optional[Union[str, Path, List[str], List[Path]]] = None,
+        verbose: bool = True,
+        log_callback: LogCallback = None,
+        reuse_knowledge: bool = True,
+        **kwargs,
+    ):
+        super().__init__(**kwargs)
+
+        # Normalise and store default search paths
+        if paths is not None:
+            if isinstance(paths, (str, Path)):
+                self.paths: Optional[List[str]] = [str(Path(paths).expanduser().resolve())]
+            else:
+                self.paths = [str(Path(p).expanduser().resolve()) for p in paths]
+        else:
+            self.paths = None
+
+        _env_work = os.getenv("SIRCHMUNK_WORK_PATH")
+        default_wp = os.path.expanduser(_env_work) if _env_work else DEFAULT_SIRCHMUNK_WORK_PATH
+        work_path = work_path or default_wp
+        self.work_path: Path = Path(work_path).expanduser().resolve()
+
+        self.llm: OpenAIChat = llm or OpenAIChat(
+            base_url=os.getenv("LLM_BASE_URL", "https://api.openai.com/v1"),
+            api_key=os.getenv("LLM_API_KEY", ""),
+            model=os.getenv("LLM_MODEL_NAME", "gpt-5.2"),
+            log_callback=log_callback,
+        )
+
+        self.grep_retriever: GrepRetriever = GrepRetriever(work_path=self.work_path)
+
+        # Create bound logger with callback - returns AsyncLogger instance
+        self._logger = create_logger(log_callback=log_callback, enable_async=True)
+
+        # Pass log_callback to KnowledgeBase so it can also log through the same callback
+        self.knowledge_base = KnowledgeBase(
+            llm=self.llm,
+            work_path=self.work_path,
+            log_callback=log_callback
+        )
+
+        # Initialize KnowledgeManager for persistent storage
+        self.knowledge_storage = KnowledgeStorage(work_path=str(self.work_path))
+
+        # Load historical knowledge clusters from cache
+        self._load_historical_knowledge()
+
+        self.verbose: bool = verbose
+
+        self.llm_usages: List[Dict[str, Any]] = []
+
+        # Maximum number of queries to keep per cluster (FIFO strategy)
+        self.max_queries_per_cluster: int = 5
+
+        # Initialize embedding client for cluster reuse.
+        # EmbeddingUtil.__init__ is cheap (stores config only).
+        # start_loading() is called immediately so the background thread
+        # can download / construct the model while the first search runs.
+        # By the time the search finishes and needs to persist the cluster
+        # embedding, the model is typically ready.
+        self.embedding_client = None
+        self.cluster_sim_threshold: float = kwargs.pop('cluster_sim_threshold', 0.85)
+        self.cluster_sim_top_k: int = kwargs.pop('cluster_sim_top_k', 3)
+        if reuse_knowledge:
+            try:
+                # Use provided embedding instance if available
+                if embedding is not None:
+                    self.embedding_client = embedding
+                    self.embedding_client.start_loading()
+                    _loguru_logger.info(
+                        f"Using provided embedding client (model={self.embedding_client.model_id or 'default'}, cache_dir={self.embedding_client._cache_dir or 'default'})"
+                    )
+                else:
+                    embedding_cache = os.getenv("EMBEDDING_CACHE_DIR")
+                    cache_dir = (
+                        os.path.expanduser(embedding_cache)
+                        if embedding_cache
+                        else str(self.work_path / ".cache" / "models")
+                    )
+                    embedding_model_id = os.getenv("EMBEDDING_MODEL_ID")
+                    self.embedding_client = EmbeddingUtil(
+                        model_id=embedding_model_id,
+                        cache_dir=cache_dir
+                    )
+                    self.embedding_client.start_loading()
+                    _loguru_logger.info(
+                        f"Embedding client created (model={embedding_model_id or 'default'}, cache_dir={cache_dir}), background model loading started"
+                    )
+            except Exception as e:
+                _loguru_logger.error(
+                    f"Failed to initialize embedding client: {e}. "
+                    "Knowledge cluster embeddings will NOT be stored. "
+                    "Ensure sentence-transformers, torch, and modelscope are installed."
+                )
+                self.embedding_client = None
+        else:
+            _loguru_logger.info(
+                "Knowledge reuse disabled (reuse_knowledge=False). "
+                "Embeddings will not be computed."
+            )
+
+        if not check_dependencies():
+            _loguru_logger.info("Installing rga (ripgrep-all) and rg (ripgrep)...")
+            install_rga()
+
+        # Suppress noisy pypdf warnings about malformed PDF cross-references.
+        # pypdf._reader emits logging.warning() for "Ignoring wrong pointing object".
+        logging.getLogger("pypdf._reader").setLevel(logging.ERROR)
+
+        # ---- Agentic (ReAct) components (lazy-initialised on first use) ----
+        self._tool_registry = None
+        self._dir_scanner = None
+
+        # ---- Spec-path cache for per-search-path context ----
+        self.spec_path: Path = self.work_path / ".cache" / "spec"
+        self.spec_path.mkdir(parents=True, exist_ok=True)
+        self._spec_lock = asyncio.Lock()  # guards concurrent spec writes
+
+    def update_log_callback(self, log_callback: LogCallback = None) -> None:
+        """Replace the per-request log callback on all sub-components.
+
+        This allows a singleton ``AgenticSearch`` instance to stream logs
+        through a different WebSocket / callback on every request without
+        having to reconstruct heavy resources (embedding model, knowledge
+        storage, etc.).
+        """
+        self._logger = create_logger(log_callback=log_callback, enable_async=True)
+
+        self.llm._logger = create_logger(log_callback=log_callback, enable_async=False)
+        self.llm._logger_async = create_logger(log_callback=log_callback, enable_async=True)
+
+        self.knowledge_base.log_callback = log_callback
+        self.knowledge_base._log = create_logger(log_callback=log_callback, enable_async=True)
+
+        # Reset per-request token accounting
+        self.llm_usages = []
+
+    def _resolve_paths(
+        self,
+        paths: Optional[Union[str, Path, List[str], List[Path]]],
+    ) -> List[str]:
+        """Resolve and normalise paths with layered fallback.
+
+        Priority (highest → lowest):
+            1. Explicit ``paths`` argument  (``search(..., paths=xxx)``)
+            2. Instance default ``self.paths``  (constructor ``paths=``)
+            3. ``SIRCHMUNK_SEARCH_PATHS`` environment variable (comma-separated)
+            4. Current working directory
+
+        Always returns ``List[str]`` so callers need no further coercion.
+        """
+        if paths is not None:
+            if isinstance(paths, (str, Path)):
+                return [str(paths)]
+            return [str(p) for p in paths]
+        if self.paths is not None:
+            return list(self.paths)
+        env_paths = os.getenv("SIRCHMUNK_SEARCH_PATHS", "")
+        if env_paths:
+            parsed = [p.strip() for p in env_paths.split(",") if p.strip()]
+            if parsed:
+                _loguru_logger.info(
+                    f"[paths] Using SIRCHMUNK_SEARCH_PATHS: {parsed}"
+                )
+                return parsed
+        cwd = str(Path.cwd())
+        _loguru_logger.info(
+            f"[paths] No paths provided; using current working directory: {cwd}"
+        )
+        return [cwd]
+
+    @staticmethod
+    def validate_search_paths(
+        paths: List[str],
+        *,
+        require_exists: bool = False,
+    ) -> List[str]:
+        """Sanitise and validate a list of search paths or URLs.
+
+        Performs cross-platform checks for argument-injection, null-byte
+        injection, and (optionally) filesystem existence.  Invalid entries
+        are silently dropped with a warning log so that one bad element
+        does not abort the entire search.
+
+        Args:
+            paths: Raw path/URL strings from the caller.
+            require_exists: When *True*, filesystem paths that do not
+                exist on disk are also rejected.
+
+        Returns:
+            A deduplicated list of safe paths/URLs (order-preserved).
+        """
+        from urllib.parse import urlparse
+
+        seen: set = set()
+        clean: List[str] = []
+
+        for raw in paths:
+            p = str(raw).strip()
+
+            if not p:
+                continue
+
+            # Null-byte injection
+            if "\x00" in p:
+                _loguru_logger.warning(
+                    f"[validate] Rejected path containing null byte: {p!r}"
+                )
+                continue
+
+            # Detect URLs and validate separately
+            if p.startswith(("http://", "https://", "ftp://", "ftps://")):
+                parsed = urlparse(p)
+                if not parsed.hostname:
+                    _loguru_logger.warning(
+                        f"[validate] Rejected malformed URL (no host): {p}"
+                    )
+                    continue
+                if p not in seen:
+                    seen.add(p)
+                    clean.append(p)
+                continue
+
+            # Argument-injection: paths starting with a hyphen can be
+            # misinterpreted as CLI flags by rga / ripgrep.
+            if p.startswith("-"):
+                _loguru_logger.warning(
+                    f"[validate] Rejected path starting with hyphen "
+                    f"(possible argument injection): {p}"
+                )
+                continue
+
+            # Resolve to an absolute, normalised path (handles `..`, `~`,
+            # symlinks, and mixed separators on Windows).
+            try:
+                resolved = str(Path(p).expanduser().resolve())
+            except (OSError, ValueError) as exc:
+                _loguru_logger.warning(
+                    f"[validate] Rejected unresolvable path: {p} ({exc})"
+                )
+                continue
+
+            if require_exists and not os.path.exists(resolved):
+                _loguru_logger.warning(
+                    f"[validate] Rejected non-existent path: {resolved}"
+                )
+                continue
+
+            if resolved not in seen:
+                seen.add(resolved)
+                clean.append(resolved)
+
+        return clean
+
+    def _load_historical_knowledge(self):
+        """Load historical knowledge clusters from local cache."""
+        try:
+            stats = self.knowledge_storage.get_stats()
+            cluster_count = stats.get('custom_stats', {}).get('total_clusters', 0)
+            _loguru_logger.info(f"Loaded {cluster_count} historical knowledge clusters from cache")
+        except Exception as e:
+            _loguru_logger.warning(f"Failed to load historical knowledge: {e}")
+
+    async def _try_reuse_cluster(self, query: str, paths: Optional[List[str]] = None) -> Optional[KnowledgeCluster]:
+        """Try to reuse existing knowledge cluster based on semantic similarity.
+
+        The method waits (non-blocking) for the embedding model to become
+        ready so that reuse works reliably even on the first search call
+        within a process.
+
+        Args:
+            query: The search query string.
+            paths: Optional list of file paths to filter cluster search scope.
+
+        Returns:
+            KnowledgeCluster if a suitable cached cluster is found, None otherwise.
+        """
+        if not self.embedding_client:
+            return None
+
+        try:
+            # Wait briefly for the model so reuse can work when it's already loading.
+            # Use a short timeout to avoid blocking the first request (e.g. in Docker
+            # the model may take 30–60s to load; we skip reuse and do full search instead).
+            if not self.embedding_client.is_ready():
+                self.embedding_client.start_loading()
+                try:
+                    await self.embedding_client._ensure_model_async(timeout=5)
+                except Exception:
+                    await self._logger.debug(
+                        "Embedding model not ready yet, skipping cluster reuse"
+                    )
+                    return None
+
+            await self._logger.info("Searching for similar knowledge clusters...")
+
+            query_embedding = (await self.embedding_client.embed([query]))[0]
+
+            similar_clusters = await self.knowledge_storage.search_similar_clusters(
+                query_embedding=query_embedding,
+                top_k=self.cluster_sim_top_k,
+                similarity_threshold=self.cluster_sim_threshold,
+                search_paths=paths,
+            )
+
+            if not similar_clusters:
+                await self._logger.info("No similar clusters found, performing new search...")
+                return None
+
+            best_match = similar_clusters[0]
+            await self._logger.success(
+                f"Found similar cluster: {best_match['name']} "
+                f"(similarity: {best_match['similarity']:.3f})"
+            )
+
+            existing_cluster = await self.knowledge_storage.get(best_match["id"])
+            if not existing_cluster:
+                await self._logger.warning("Failed to retrieve cluster, falling back to new search")
+                return None
+
+            # Validate cluster has usable content BEFORE mutating it
+            content = existing_cluster.content
+            if isinstance(content, list):
+                content = "\n".join(content)
+            if not content:
+                await self._logger.warning(
+                    f"Cluster {existing_cluster.id} has empty content, falling back to full search"
+                )
+                return None
+
+            # Mutate only after validation passes
+            self._add_query_to_cluster(existing_cluster, query)
+            existing_cluster.hotness = min(1.0, (existing_cluster.hotness or 0.5) + 0.1)
+            existing_cluster.last_modified = datetime.now(timezone.utc)
+
+            # Recompute embedding with updated queries list
+            try:
+                from sirchmunk.utils.embedding_util import compute_text_hash
+
+                combined_text = self.knowledge_storage.combine_cluster_fields(
+                    existing_cluster.queries
+                )
+                text_hash = compute_text_hash(combined_text)
+                embedding_vector = (await self.embedding_client.embed([combined_text]))[0]
+
+                await self.knowledge_storage.store_embedding(
+                    cluster_id=existing_cluster.id,
+                    embedding_vector=embedding_vector,
+                    embedding_model=self.embedding_client.model_id,
+                    embedding_text_hash=text_hash,
+                )
+            except Exception as emb_error:
+                await self._logger.warning(f"Failed to update embedding: {emb_error}")
+
+            await self.knowledge_storage.update(existing_cluster)
+
+            # Flush to parquet so the updated cluster is visible to future searches
+            try:
+                self.knowledge_storage.force_sync()
+            except Exception as sync_err:
+                await self._logger.warning(f"Parquet force_sync failed: {sync_err}")
+
+            await self._logger.success("Reused existing knowledge cluster")
+            return existing_cluster
+
+        except Exception as e:
+            await self._logger.warning(
+                f"Failed to search similar clusters: {e}. Falling back to full search."
+            )
+            return None
+
+    def _add_query_to_cluster(self, cluster: KnowledgeCluster, query: str) -> None:
+        """
+        Add query to cluster's queries list with FIFO strategy.
+        Keeps only the most recent N queries (where N = max_queries_per_cluster).
+
+        Args:
+            cluster: KnowledgeCluster to update
+            query: New query to add
+        """
+        # Add query if not already present
+        if query not in cluster.queries:
+            cluster.queries.append(query)
+
+        # Apply FIFO strategy: keep only the most recent N queries
+        if len(cluster.queries) > self.max_queries_per_cluster:
+            # Remove oldest queries (from the beginning)
+            cluster.queries = cluster.queries[-self.max_queries_per_cluster:]
+
+    async def _save_cluster_with_embedding(self, cluster: KnowledgeCluster) -> None:
+        """Save knowledge cluster to persistent storage, compute embedding, and flush to parquet.
+
+        The final ``force_sync()`` ensures the embedding vector is written to
+        the parquet file immediately so that subsequent searches (even across
+        process restarts) can find it via ``search_similar_clusters``.
+
+        Args:
+            cluster: KnowledgeCluster to save
+        """
+        # Save knowledge cluster to persistent storage.
+        # insert() returns False (without raising) when the cluster already
+        # exists, so we explicitly fall back to update() in that case.
+        try:
+            inserted = await self.knowledge_storage.insert(cluster)
+            if inserted:
+                await self._logger.info(f"Saved knowledge cluster {cluster.id} to cache")
+            else:
+                await self.knowledge_storage.update(cluster)
+                await self._logger.info(f"Updated knowledge cluster {cluster.id} in cache")
+        except Exception as e:
+            try:
+                await self.knowledge_storage.update(cluster)
+                await self._logger.info(f"Updated knowledge cluster {cluster.id} in cache")
+            except Exception as update_error:
+                await self._logger.warning(f"Failed to save knowledge cluster: {update_error}")
+                return
+
+        # Compute and store embedding for the cluster when the model is ready.
+        # Use a short wait to avoid blocking the response if the model is still
+        # loading (e.g. first request in Docker). If not ready, skip embedding
+        # so the cluster is still saved and can be reused after the next load.
+        if self.embedding_client:
+            try:
+                if not self.embedding_client.is_ready():
+                    try:
+                        await self.embedding_client._ensure_model_async(timeout=3)
+                    except Exception:
+                        pass
+                if self.embedding_client.is_ready():
+                    from sirchmunk.utils.embedding_util import compute_text_hash
+
+                    combined_text = self.knowledge_storage.combine_cluster_fields(
+                        cluster.queries
+                    )
+                    text_hash = compute_text_hash(combined_text)
+
+                    embedding_vector = (await self.embedding_client.embed([combined_text]))[0]
+
+                    await self.knowledge_storage.store_embedding(
+                        cluster_id=cluster.id,
+                        embedding_vector=embedding_vector,
+                        embedding_model=self.embedding_client.model_id,
+                        embedding_text_hash=text_hash,
+                    )
+
+                    await self._logger.info(
+                        f"Stored embedding for cluster {cluster.id} "
+                        f"(dim={len(embedding_vector)}, model={self.embedding_client.model_id})"
+                    )
+                else:
+                    await self._logger.debug(
+                        f"Embedding model not ready — skipping embedding for cluster {cluster.id}"
+                    )
+
+            except Exception as e:
+                await self._logger.warning(f"Failed to compute embedding for cluster {cluster.id}: {e}")
+        else:
+            await self._logger.debug(
+                f"Embedding client not configured — skipping embedding for cluster {cluster.id}"
+            )
+
+        # Flush DuckDB → parquet immediately so embedding data is persisted.
+        # Without this, the daemon sync (60 s interval) or atexit hook might
+        # run before the embedding is written, leaving NULL in the parquet.
+        try:
+            self.knowledge_storage.force_sync()
+        except Exception as e:
+            await self._logger.warning(f"Parquet force_sync failed: {e}")
+
+    @staticmethod
+    def _make_answer_cluster(
+        query: str,
+        answer: str,
+        prefix: str = "FS",
+        file_paths: Optional[List[str]] = None,
+    ) -> KnowledgeCluster:
+        """Create a fallback KnowledgeCluster wrapping an answer string.
+
+        Used when the full evidence pipeline didn't produce a cluster
+        (e.g. FAST early-termination or ReAct fallback).  Populates all
+        key attributes so callers never receive a half-empty cluster.
+        """
+        _digest = hashlib.sha256(query.encode("utf-8")).hexdigest()[:8]
+        resources = [
+            {"type": "file", "value": fp} for fp in (file_paths or [])
+        ]
+        # Build evidences from file_paths so return_context=True yields non-empty evidences
+        # Use answer content as snippets since we don't have raw evidence in this fallback path
+        answer_snippet = answer if answer else ""
+        evidences: List[EvidenceUnit] = []
+        for i, fp in enumerate(file_paths or []):
+            doc_id = hashlib.sha256(fp.encode("utf-8")).hexdigest()[:12]
+            evidences.append(
+                EvidenceUnit(
+                    doc_id=doc_id,
+                    file_or_url=fp,
+                    summary=answer if answer else f"Source file for: {query[:500]}",
+                    is_found=True,
+                    # First evidence gets the answer snippet; others get empty to avoid duplication
+                    snippets=[answer_snippet] if i == 0 and answer_snippet else [],
+                    extracted_at=datetime.now(timezone.utc),
+                )
+            )
+        return KnowledgeCluster(
+            id=f"{prefix}{_digest}",
+            name=query[:60],
+            description=[f"Search result for: {query}"],
+            content=answer,
+            queries=[query],
+            evidences=evidences if evidences else None,
+            search_results=list(file_paths or []),
+            resources=resources or None,
+            confidence=0.5,
+            abstraction_level=AbstractionLevel.TECHNIQUE,
+            hotness=0.5,
+            lifecycle=Lifecycle.EMERGING,
+        )
+
+    @staticmethod
+    def _build_fast_cluster(
+        query: str,
+        answer: str,
+        file_path: str,
+        evidence: str,
+        keywords: List[str],
+    ) -> KnowledgeCluster:
+        """Build a KnowledgeCluster from FAST-mode grep evidence.
+
+        Richer than ``_make_answer_cluster``: contains a real EvidenceUnit
+        sourced from the file that was actually retrieved.
+        """
+        _digest = hashlib.sha256(query.encode("utf-8")).hexdigest()[:8]
+        doc_id = hashlib.sha256(file_path.encode("utf-8")).hexdigest()[:12]
+
+        evidence_unit = EvidenceUnit(
+            doc_id=doc_id,
+            file_or_url=file_path,
+            summary=evidence[:500] if evidence else "",
+            is_found=True,
+            snippets=[evidence[:2000]] if evidence else [],
+            extracted_at=datetime.now(timezone.utc),
+        )
+
+        return KnowledgeCluster(
+            id=f"FS{_digest}",
+            name=query[:60],
+            description=[f"FAST search result for: {query}"],
+            content=answer,
+            evidences=[evidence_unit],
+            patterns=keywords[:3],
+            confidence=0.7,
+            abstraction_level=AbstractionLevel.TECHNIQUE,
+            landmark_potential=0.3,
+            hotness=0.5,
+            lifecycle=Lifecycle.EMERGING,
+            queries=[query],
+            search_results=[file_path],
+            resources=[{"type": "file", "value": file_path}],
+        )
+
+    async def _search_by_filename(
+        self,
+        query: str,
+        paths: Union[str, Path, List[str], List[Path]],
+        max_depth: Optional[int] = 5,
+        include: Optional[List[str]] = None,
+        exclude: Optional[List[str]] = None,
+        grep_timeout: Optional[float] = 60.0,
+        top_k: Optional[int] = 10,
+    ) -> List[Dict[str, Any]]:
+        """
+        Perform filename-only search without LLM keyword extraction.
+
+        Args:
+            query: Search query (used as filename pattern)
+            paths: Paths to search in
+            max_depth: Maximum directory depth
+            include: File patterns to include
+            exclude: File patterns to exclude
+            grep_timeout: Timeout for grep operations
+            top_k: Maximum number of results to return
+
+        Returns:
+            List of file matches with metadata
+        """
+        await self._logger.info("Performing filename-only search...")
+
+        # Extract potential filename patterns from query
+        patterns = []
+
+        # Check if query looks like a file pattern (contains file extensions or wildcards)
+        if any(char in query for char in ['*', '?', '[', ']']):
+            # Treat as direct glob/regex pattern
+            patterns = [query]
+            await self._logger.info(f"Using direct pattern: {query}")
+        else:
+            # Split into words and create flexible patterns
+            words = [w.strip() for w in query.strip().split() if w.strip()]
+
+            if not words:
+                await self._logger.warning("No valid words in query")
+                return []
+
+            # Strategy: Create patterns for each word that match anywhere in filename
+            # Use non-greedy matching and case-insensitive by default
+            for word in words:
+                # Escape special regex characters in the word
+                escaped_word = re.escape(word)
+                # Match word anywhere in filename (case-insensitive handled in retrieve_by_filename)
+                pattern = f".*{escaped_word}.*"
+                patterns.append(pattern)
+                await self._logger.debug(f"Created pattern for word '{word}': {pattern}")
+
+        if not patterns:
+            await self._logger.warning("No valid filename patterns extracted from query")
+            return []
+
+        await self._logger.info(f"Searching with {len(patterns)} pattern(s): {patterns}")
+
+        try:
+            # Use GrepRetriever's filename search
+            await self._logger.debug(f"Calling retrieve_by_filename with {len(patterns)} patterns")
+            results = await self.grep_retriever.retrieve_by_filename(
+                patterns=patterns,
+                path=paths,
+                case_sensitive=False,
+                max_depth=max_depth,
+                include=include,
+                exclude=exclude or ["*.pyc", "*.log"],
+                timeout=grep_timeout,
+            )
+
+            if results:
+                results = results[:top_k]
+                await self._logger.success(f"Found {len(results)} matching files")
+            else:
+                await self._logger.warning("No files matched the patterns")
+
+            return results
+
+        except Exception as e:
+            await self._logger.error(f"Filename search failed: {e}")
+            await self._logger.error(f"Traceback: {traceback.format_exc()}")
+            return []
+
+    @staticmethod
+    def _parse_summary_response(llm_response: str) -> Tuple[str, bool, bool]:
+        """
+        Parse LLM response to extract summary and quality decisions.
+
+        Args:
+            llm_response: Raw LLM response containing SUMMARY, SHOULD_ANSWER and SHOULD_SAVE tags
+
+        Returns:
+            Tuple of (summary_text, should_save_flag, should_answer_flag)
+        """
+        summary_fields = extract_fields(
+            content=llm_response,
+            tags=["SUMMARY", "SHOULD_ANSWER", "SHOULD_SAVE"],
+        )
+
+        summary = str(summary_fields.get("summary") or "").strip()
+        should_answer_str = str(summary_fields.get("should_answer") or "false").strip().lower()
+        should_save_str = str(summary_fields.get("should_save") or "false").strip().lower()
+
+        should_answer = should_answer_str in ["true", "yes", "1"]
+        should_save = should_save_str in ["true", "yes", "1"]
+
+        # If extraction failed, use entire response as summary and default to conservative:
+        # not answerable and not saveable.
+        if not summary:
+            summary = llm_response.strip()
+            should_answer = False
+            should_save = False
+
+        return summary, should_save, should_answer
+
+    @staticmethod
+    def _extract_and_validate_multi_level_keywords(
+        llm_resp: str,
+        num_levels: int = 3
+    ) -> List[Dict[str, float]]:
+        """
+        Extract and validate multiple sets of keywords from LLM response.
+
+        Args:
+            llm_resp: LLM response containing keyword sets
+            num_levels: Number of keyword granularity levels to extract
+
+        Returns:
+            List of keyword dicts, one for each level: [level1_keywords, level2_keywords, ...]
+        """
+        keyword_sets: List[Dict[str, float]] = []
+
+        # Generate tags dynamically based on num_levels
+        tags = [f"KEYWORDS_LEVEL_{i + 1}" for i in range(num_levels)]
+
+        # Extract all fields at once
+        extracted_fields = extract_fields(content=llm_resp, tags=tags)
+
+        for level_idx, tag in enumerate(tags, start=1):
+            keywords_dict: Dict[str, float] = {}
+            keywords_json: Optional[str] = extracted_fields.get(tag.lower(), None)
+
+            if not keywords_json:
+                keyword_sets.append({})
+                continue
+
+            # Try to parse as dict format
+            try:
+                keywords_dict = json.loads(keywords_json)
+            except json.JSONDecodeError:
+                try:
+                    keywords_dict = ast.literal_eval(keywords_json)
+                except Exception:
+                    keyword_sets.append({})
+                    continue
+
+            # Validate using Pydantic model
+            try:
+                validated = KeywordValidation(root=keywords_dict).model_dump()
+                keyword_sets.append(validated)
+            except Exception:
+                keyword_sets.append({})
+
+        return keyword_sets
+
+    @staticmethod
+    def _extract_alt_keywords(llm_resp: str) -> Dict[str, float]:
+        """Extract cross-lingual keywords from ``<KEYWORDS_ALT>`` block."""
+        fields = extract_fields(content=llm_resp, tags=["KEYWORDS_ALT"])
+        raw = fields.get("keywords_alt")
+        if not raw:
+            return {}
+        try:
+            parsed = json.loads(raw)
+            if isinstance(parsed, dict):
+                return {k: float(v) for k, v in parsed.items() if isinstance(k, str)}
+        except (json.JSONDecodeError, TypeError, ValueError):
+            try:
+                parsed = ast.literal_eval(raw)
+                if isinstance(parsed, dict):
+                    return {k: float(v) for k, v in parsed.items() if isinstance(k, str)}
+            except Exception:
+                pass
+        return {}
+
+    # ------------------------------------------------------------------
+    # Agentic (ReAct) infrastructure — lazy initialisation
+    # ------------------------------------------------------------------
+
+    def _ensure_tool_registry(
+        self,
+        paths: List[str],
+        enable_dir_scan: bool = False,
+        max_depth: Optional[int] = 5,
+        include: Optional[List[str]] = None,
+        exclude: Optional[List[str]] = None,
+    ) -> "ToolRegistry":
+        """Build (or rebuild) the tool registry for the given search paths.
+
+        The registry is cached on ``self._tool_registry`` and re-created
+        only when ``paths`` change (detected via sorted hash).
+
+        Args:
+            paths: Normalised list of path strings.
+            enable_dir_scan: Whether to include the directory-scan tool.
+            max_depth: Maximum directory depth for keyword search.
+            include: File patterns to include (glob).
+            exclude: File patterns to exclude (glob).
+
+        Returns:
+            Ready-to-use ToolRegistry.
+        """
+        from sirchmunk.agentic.tools import (
+            FileReadTool,
+            KeywordSearchTool,
+            KnowledgeQueryTool,
+            ToolRegistry,
+        )
+
+        # Cache key: paths + filter params (all affect tool behaviour)
+        cache_key = (
+            tuple(sorted(paths)),
+            max_depth,
+            tuple(include) if include else None,
+            tuple(exclude) if exclude else None,
+        )
+        if (
+                self._tool_registry is not None
+                and getattr(self, "_tool_registry_key", None) == cache_key
+        ):
+            return self._tool_registry
+
+        registry = ToolRegistry()
+
+        # Tool 1: Knowledge cache (zero cost)
+        registry.register(KnowledgeQueryTool(self.knowledge_storage))
+
+        # Tool 2: Keyword search (low cost)
+        registry.register(
+            KeywordSearchTool(
+                retriever=self.grep_retriever,
+                paths=paths,
+                max_depth=max_depth if max_depth is not None else 5,
+                max_results=10,
+                include=include,
+                exclude=exclude,
+            )
+        )
+
+        # Tool 3: File read (medium cost)
+        registry.register(FileReadTool(max_chars_per_file=30000))
+
+        # Tool 4: Directory scan (optional, medium cost)
+        if enable_dir_scan:
+            from sirchmunk.agentic.dir_scan_tool import DirScanTool
+            from sirchmunk.scan.dir_scanner import DirectoryScanner
+
+            if self._dir_scanner is None:
+                self._dir_scanner = DirectoryScanner(llm=self.llm, max_files=500)
+            registry.register(DirScanTool(
+                scanner=self._dir_scanner,
+                paths=paths,
+            ))
+
+        self._tool_registry = registry
+        self._tool_registry_key = cache_key
+        return registry
+
+    # ------------------------------------------------------------------
+    # Unified search entry point
+    # ------------------------------------------------------------------
+
+    async def search(
+        self,
+        query: str,
+        paths: Optional[Union[str, Path, List[str], List[Path]]] = None,
+        *,
+        mode: Literal["DEEP", "FAST", "FILENAME_ONLY"] = "FAST",
+        max_loops: int = 10,
+        max_token_budget: int = 128000,
+        max_depth: Optional[int] = 5,
+        top_k_files: int = 5,
+        enable_dir_scan: bool = False,
+        include: Optional[List[str]] = None,
+        exclude: Optional[List[str]] = None,
+        return_context: bool = False,
+        spec_stale_hours: float = 72.0,
+        chat_history: Optional[List[Dict[str, str]]] = None,
+        llm_fallback: bool = False,
+    ) -> Union[str, SearchContext, List[Dict[str, Any]]]:
+        """Perform intelligent search with multi-mode support.
+
+        Modes:
+            +--------------+-------------------+-------------------------------------------+
+            | Mode         | Speed / LLM Calls | Description                               |
+            +--------------+-------------------+-------------------------------------------+
+            | FILENAME_ONLY| Very Fast / 0     | Pattern-based file discovery, no LLM.     |
+            | FAST         | 1-5s / 0-2        | Greedy: cluster reuse or keyword search    |
+            |              |                   | → best file → answer. Early termination.  |
+            | DEEP         | 5-30s / 4-6       | Parallel multi-path retrieval + ReAct     |
+            |              |                   | refinement with Monte-Carlo evidence.     |
+            +--------------+-------------------+-------------------------------------------+
+
+        FAST architecture (greedy early-termination):
+
+        ┌──────────────────────────────────────────────────────────┐
+        │ Step 0  Cluster reuse check (instant short-circuit)       │
+        ├──────────────────────────────────────────────────────────┤
+        │ Step 1  LLM query analysis → keywords + file hints       │
+        │         (single call, stream=False)                      │
+        ├──────────────────────────────────────────────────────────┤
+        │ Step 2  rga keyword search → ranked file hits + snippets │
+        │         (no LLM, greedy: take first good results)        │
+        ├──────────────────────────────────────────────────────────┤
+        │ Step 3  Read top file(s) content                         │
+        │         (no LLM, early termination at top_k_files)       │
+        ├──────────────────────────────────────────────────────────┤
+        │ Step 4  LLM answer synthesis from evidence               │
+        └──────────────────────────────────────────────────────────┘
+
+        DEEP architecture (phases execute as parallel as possible):
+
+        ┌──────────────────────────────────────────────────────────┐
+        │ Phase 0a Direct document analysis (intent-gated,         │
+        │          short-circuit if query is doc-level operation)   │
+        ├──────────────────────────────────────────────────────────┤
+        │ Phase 0  Cluster reuse check (instant, short-circuit)    │
+        ├──────────────────────────────────────────────────────────┤
+        │ Phase 1  Parallel probing (all concurrent):              │
+        │  ├─ LLM keyword extraction                               │
+        │  ├─ DirectoryScanner.scan() (filesystem only, fast)      │
+        │  ├─ Knowledge cache similarity search                    │
+        │  └─ Spec-path cache load                                 │
+        ├──────────────────────────────────────────────────────────┤
+        │ Phase 2  Parallel retrieval (depends on Phase 1):        │
+        │  ├─ keyword_search per extracted keyword (concurrent rga)│
+        │  └─ DirectoryScanner.rank() (LLM ranks candidates)      │
+        ├──────────────────────────────────────────────────────────┤
+        │ Phase 3  Merge + evidence assembly:                      │
+        │  └─ knowledge_base.build() (parallel per-file Monte      │
+        │     Carlo evidence sampling)                             │
+        ├──────────────────────────────────────────────────────────┤
+        │ Phase 4  Summary / ReAct refinement:                     │
+        │  └─ If evidence sufficient → LLM summary                 │
+        │     Else → ReAct loop for adaptive follow-up             │
+        ├──────────────────────────────────────────────────────────┤
+        │ Phase 5  Persistence (concurrent, awaited):                │
+        │  ├─ Save cluster + embeddings                            │
+        │  └─ Save spec-path cache                                 │
+        └──────────────────────────────────────────────────────────┘
+
+        Args:
+            query: User's search query.
+            paths: Directories / files to search.  Falls back to
+                ``self.paths`` or the current working directory.
+            mode: Search mode — ``"DEEP"``, ``"FAST"``, or ``"FILENAME_ONLY"``.
+            max_loops: Maximum ReAct iterations (DEEP mode, default: 10).
+            max_token_budget: LLM token budget (DEEP mode, default: 128000).
+            max_depth: Maximum directory depth for file search (default: 5).
+                Used in both FILENAME_ONLY and DEEP modes.
+            top_k_files: Max files for evidence extraction (default: 5).
+            enable_dir_scan: Enable directory scanning (FAST and DEEP modes).
+            include: File glob patterns to include (e.g. ``["*.py", "*.md"]``).
+                Used in both FILENAME_ONLY and DEEP modes.
+            exclude: File glob patterns to exclude (e.g. ``["*.log"]``).
+                Used in both FILENAME_ONLY and DEEP modes.
+            return_context: If True, return a ``SearchContext`` object
+                that carries ``answer``, ``cluster`` (KnowledgeCluster),
+                and full pipeline telemetry (LLM usage, files read, etc.).
+            spec_stale_hours: Hours before spec cache is stale (default: 72).
+            chat_history: Optional list of chat messages for context (DEEP mode).
+            llm_fallback: When True, if no relevant documents are found,
+                the LLM will attempt to answer the query from its own
+                knowledge. Default False.
+
+        Returns:
+            - ``str``: Answer summary (default).
+            - ``SearchContext``: If *return_context* — contains ``answer``,
+              ``cluster``, and telemetry in a single object.
+            - ``List[Dict]``: File matches in FILENAME_ONLY mode.
+        """
+        paths = self.validate_search_paths(
+            self._resolve_paths(paths),
+        )
+        if not paths:
+            msg = "No valid search paths remain after validation."
+            _loguru_logger.warning(msg)
+            if return_context:
+                ctx = SearchContext()
+                ctx.answer = msg
+                return ctx
+            return msg
+
+        # ---- Chat intent short-circuit (rule-based, no LLM cost) ----
+        if mode != "FILENAME_ONLY" and self._is_chat_query(query):
+            answer, cluster, ctx = await self._respond_chat(query, chat_history=chat_history)
+            if return_context:
+                ctx.answer = answer
+                return ctx
+            return answer
+
+        # ---- FILENAME_ONLY: pattern-based file discovery, no LLM ----
+        if mode == "FILENAME_ONLY":
+            results = await self._search_by_filename(
+                query=query, paths=paths, max_depth=max_depth,
+                include=include, exclude=exclude, top_k=top_k_files,
+            )
+            if not results:
+                msg = f"No files found matching query: '{query}'"
+                await self._logger.warning(msg)
+                return msg
+            await self._logger.success(f"Retrieved {len(results)} matching files")
+            return results
+
+        # ---- FAST / DEEP → both produce (answer, cluster, context) ----
+        if mode == "FAST":
+            answer, cluster, context = await self._search_fast(
+                query=query, paths=paths, max_depth=max_depth,
+                top_k_files=top_k_files, enable_dir_scan=enable_dir_scan,
+                include=include, exclude=exclude,
+                llm_fallback=llm_fallback,
+            )
+        else:
+            answer, cluster, context = await self._search_deep(
+                query=query, paths=paths,
+                max_loops=max_loops, max_token_budget=max_token_budget,
+                max_depth=max_depth, top_k_files=top_k_files,
+                enable_dir_scan=enable_dir_scan,
+                include=include, exclude=exclude,
+                spec_stale_hours=spec_stale_hours,
+                llm_fallback=llm_fallback,
+            )
+
+        # ---- Unified return wrapping ----
+        if return_context:
+            prefix = "FS" if mode == "FAST" else "DS"
+            context.answer = answer
+            if (answer or "").strip().lower() == _NO_RESULTS_MESSAGE.lower():
+                context.cluster = cluster
+                return context
+            # Use read_file_ids from context if available, otherwise empty
+            fallback_files = list(context.read_file_ids) if context.read_file_ids else None
+            context.cluster = cluster or self._make_answer_cluster(
+                query, answer, prefix, file_paths=fallback_files,
+            )
+            return context
+        return answer
+
+    # ------------------------------------------------------------------
+    # DEEP mode — parallel multi-path retrieval with ReAct fallback
+    # ------------------------------------------------------------------
+
+    async def _search_deep(
+        self,
+        query: str,
+        paths: List[str],
+        *,
+        max_loops: int = 10,
+        max_token_budget: int = 128000,
+        max_depth: Optional[int] = 5,
+        top_k_files: int = 5,
+        enable_dir_scan: bool = False,
+        include: Optional[List[str]] = None,
+        exclude: Optional[List[str]] = None,
+        spec_stale_hours: float = 72.0,
+        llm_fallback: bool = False,
+    ) -> Tuple[str, Optional[KnowledgeCluster], SearchContext]:
+        """Parallel multi-path retrieval pipeline (Phases 0a–5).
+
+        Returns:
+            ``(answer, cluster, context)`` tuple.
+        """
+        context = SearchContext(
+            max_token_budget=max_token_budget,
+            max_loops=max_loops,
+        )
+        _llm_usage_start = len(self.llm_usages)
+
+        # ==============================================================
+        # Phase 0a: Direct document analysis (intent-gated short-circuit)
+        # ==============================================================
+        direct = await self._try_direct_doc_analysis(query, paths)
+        if direct is not None:
+            return direct, self._make_answer_cluster(query, direct, "DQ", file_paths=paths), context
+
+        # ==============================================================
+        # Phase 0: Cluster reuse (instant short-circuit)
+        # When reuse_knowledge=True and a similar cluster is found, we
+        # return here — Phase 5 (Persistence) is not executed for that path.
+        # ==============================================================
+        reused = await self._try_reuse_cluster(query, paths)
+        if reused is not None:
+            content = reused.content
+            if isinstance(content, list):
+                content = "\n".join(content)
+            return str(content), reused, context
+
+        await self._logger.info(f"[search] Starting multi-path retrieval for: '{query[:80]}'")
+
+        # ==============================================================
+        # Phase 1: Parallel probing — all four paths fire concurrently
+        # ==============================================================
+        await self._logger.info("[Phase 1] Parallel probing: keywords + dir_scan + knowledge + spec_cache")
+        context.increment_loop()
+
+        phase1_results = await asyncio.gather(
+            self._probe_keywords(query),
+            self._probe_dir_scan(paths, enable_dir_scan),
+            self._probe_knowledge_cache(query),
+            self._load_spec_context(paths, stale_hours=spec_stale_hours),
+            return_exceptions=True,
+        )
+
+        kw_result = phase1_results[0] if not isinstance(phase1_results[0], Exception) else ({}, [])
+        scan_result = phase1_results[1] if not isinstance(phase1_results[1], Exception) else None
+        knowledge_hits = phase1_results[2] if not isinstance(phase1_results[2], Exception) else []
+        spec_context = phase1_results[3] if not isinstance(phase1_results[3], Exception) else ""
+
+        for i, label in enumerate(["keywords", "dir_scan", "knowledge", "spec_cache"]):
+            if isinstance(phase1_results[i], Exception):
+                await self._logger.warning(f"[Phase 1] {label} probe failed: {phase1_results[i]}")
+
+        query_keywords, initial_keywords = kw_result if isinstance(kw_result, tuple) else ({}, [])
+
+        await self._logger.info(
+            f"[Phase 1] Results: keywords={len(initial_keywords)}, "
+            f"dir_scan={'OK' if scan_result else 'N/A'}, "
+            f"knowledge_hits={len(knowledge_hits)}, "
+            f"spec_cache={'YES' if spec_context else 'NO'}"
+        )
+
+        # ==============================================================
+        # Phase 2: Parallel retrieval — keyword search + dir_scan rank
+        # ==============================================================
+        await self._logger.info("[Phase 2] Parallel retrieval: rga keyword search + dir_scan LLM rank")
+        context.increment_loop()
+
+        phase2_tasks = []
+
+        if initial_keywords:
+            phase2_tasks.append(
+                self._retrieve_by_keywords(
+                    initial_keywords, paths,
+                    max_depth=max_depth, include=include, exclude=exclude,
+                )
+            )
+        else:
+            phase2_tasks.append(self._async_noop([]))
+
+        if scan_result is not None and enable_dir_scan:
+            phase2_tasks.append(
+                self._rank_dir_scan_candidates(query, scan_result)
+            )
+        else:
+            phase2_tasks.append(self._async_noop([]))
+
+        phase2_results = await asyncio.gather(*phase2_tasks, return_exceptions=True)
+
+        keyword_files = phase2_results[0] if not isinstance(phase2_results[0], Exception) else []
+        dir_scan_files = phase2_results[1] if not isinstance(phase2_results[1], Exception) else []
+
+        for i, label in enumerate(["keyword_search", "dir_scan_rank"]):
+            if isinstance(phase2_results[i], Exception):
+                await self._logger.warning(f"[Phase 2] {label} failed: {phase2_results[i]}")
+
+        await self._logger.info(
+            f"[Phase 2] Results: keyword_files={len(keyword_files)}, "
+            f"dir_scan_files={len(dir_scan_files)}"
+        )
+
+        # ==============================================================
+        # Phase 3: Merge file paths + build KnowledgeCluster
+        # ==============================================================
+        context.increment_loop()
+        merged_files = self._merge_file_paths(
+            keyword_files=keyword_files,
+            dir_scan_files=dir_scan_files,
+            knowledge_hits=knowledge_hits,
+        )
+        await self._logger.info(f"[Phase 3] Merged {len(merged_files)} unique candidate files")
+
+        cluster: Optional[KnowledgeCluster] = None
+        if merged_files:
+            cluster = await self._build_cluster(
+                query=query, file_paths=merged_files,
+                query_keywords=query_keywords, top_k_files=top_k_files,
+            )
+
+        # ==============================================================
+        # Phase 4: Generate answer — cluster summary or ReAct refinement
+        # ==============================================================
+        context.increment_loop()
+        answer: str = ""
+        should_save: bool = True
+
+        if cluster and cluster.content:
+            await self._logger.info("[Phase 4] Evidence sufficient, generating summary")
+            answer, should_save, should_answer = await self._summarise_cluster(query, cluster)
+            if not should_answer:
+                if llm_fallback:
+                    await self._logger.info(
+                        "[Phase 4] Summary gate rejected evidence, llm_fallback=True → LLM fallback"
+                    )
+                    answer, should_save = await self._summarise_cluster_fallback(query)
+                else:
+                    await self._logger.warning(
+                        "[Phase 4] Summary gate rejected evidence and llm_fallback=False "
+                        "→ returning no results"
+                    )
+                    return _NO_RESULTS_MESSAGE, None, context
+            if not cluster.search_results:
+                cluster.search_results = list(merged_files)
+        elif llm_fallback:
+            await self._logger.info(
+                "[Phase 4] Evidence insufficient, llm_fallback=True \u2192 LLM summary"
+            )
+            answer, should_save = await self._summarise_cluster_fallback(query)
+        else:
+            await self._logger.info("[Phase 4] Evidence insufficient, launching ReAct refinement")
+            react_answer, context = await self._react_refinement(
+                query=query, paths=paths,
+                initial_keywords=initial_keywords, spec_context=spec_context,
+                enable_dir_scan=enable_dir_scan,
+                max_loops=max_loops, max_token_budget=max_token_budget,
+                max_depth=max_depth, include=include, exclude=exclude,
+            )
+
+            if not cluster:
+                cluster = await self._build_cluster_from_context(
+                    query=query, answer=react_answer, context=context,
+                    query_keywords=query_keywords, top_k_files=top_k_files,
+                )
+            elif react_answer and not cluster.content:
+                cluster.content = react_answer
+
+            if not cluster:
+                await self._logger.warning(
+                    "[Phase 4] ReAct found no buildable evidence and llm_fallback=False "
+                    "→ returning no results"
+                )
+                return _NO_RESULTS_MESSAGE, None, context
+
+            # Final DEEP decision is always made in the summary call.
+            answer, should_save, should_answer = await self._summarise_cluster(query, cluster)
+            if not should_answer:
+                if llm_fallback:
+                    await self._logger.info(
+                        "[Phase 4] Final summary gate rejected evidence, llm_fallback=True → LLM fallback"
+                    )
+                    answer, should_save = await self._summarise_cluster_fallback(query)
+                else:
+                    await self._logger.warning(
+                        "[Phase 4] Final summary gate rejected evidence and llm_fallback=False "
+                        "→ returning no results"
+                    )
+                    return _NO_RESULTS_MESSAGE, None, context
+
+        # Sync LLM token accounting into context
+        new_usages = self.llm_usages[_llm_usage_start:]
+        for usage in new_usages:
+            if usage and isinstance(usage, dict):
+                total_tok = usage.get("total_tokens", 0)
+                if total_tok == 0:
+                    total_tok = usage.get("prompt_tokens", 0) + usage.get("completion_tokens", 0)
+                context.add_llm_tokens(total_tok, usage=usage)
+
+        # ==============================================================
+        # Phase 5: Persistence (quality-gated)
+        # Skipped when Phase 4 quality check says the answer is low-quality
+        # or when Phase 0 reused a cluster (early-returned above).
+        # ==============================================================
+        phase5_tasks = []
+        if cluster and should_save:
+            self._add_query_to_cluster(cluster, query)
+            phase5_tasks.append(self._save_cluster_with_embedding(cluster))
+        elif not should_save:
+            await self._logger.info("[Phase 5] Quality gate: low-quality answer, skipping cluster save")
+            cluster = None
+        phase5_tasks.append(self._save_spec_context(paths, context, scan_result=scan_result))
+        results = await asyncio.gather(*phase5_tasks, return_exceptions=True)
+        for r in results:
+            if isinstance(r, Exception):
+                _loguru_logger.warning(f"[Phase 5] Persistence task failed: {r}")
+
+        await self._logger.success(f"[search] Complete: {context.summary()}")
+        return answer, cluster, context
+
+    # ------------------------------------------------------------------
+    # Phase 0a: Direct document analysis (intent-gated)
+    # ------------------------------------------------------------------
+
+    async def _try_direct_doc_analysis(
+        self,
+        query: str,
+        paths: List[str],
+    ) -> Optional[str]:
+        """Short-circuit for document-level queries (e.g. "请总结这篇文档").
+
+        Uses the LLM to classify query intent (language-agnostic).  When
+        a whole-document operation is detected **and** suitable files exist
+        in *paths*, their content is fed directly to the LLM — bypassing
+        the heavyweight keyword / dir-scan / evidence pipeline.
+
+        Returns:
+            LLM answer string, or None if the short-circuit does not apply.
+        """
+        from sirchmunk.doc_qa import (
+            detect_doc_intent,
+            collect_doc_files,
+            analyse_documents,
+        )
+
+        # Step 1: file gate — skip early if paths contain no loadable docs
+        doc_files = collect_doc_files(paths)
+        if not doc_files:
+            return None
+
+        # Step 2: LLM intent classification (cheap, stream=False)
+        operation = await detect_doc_intent(query, self.llm, self.llm_usages)
+        if operation is None:
+            return None
+
+        filenames = ", ".join(Path(d.path).name for d in doc_files)
+        await self._logger.info(
+            f"[DocQA] Intent '{operation}' detected — "
+            f"loading {len(doc_files)} file(s) for direct analysis: {filenames}"
+        )
+
+        # Step 3: for summary operations, use the chunked summarizer
+        # with optional smart dir scanning; for other operations, use the
+        # general analyser.
+        if operation in ("summarize", "summary", "extract"):
+            scan_result = None
+            if self._has_directory_paths(paths):
+                scan_result = await self._probe_dir_scan(paths, max_files=300)
+            answer = await self._summarize_documents(
+                query, paths, scan_result=scan_result,
+            )
+        else:
+            answer = await analyse_documents(
+                query=query,
+                doc_files=doc_files,
+                llm=self.llm,
+                llm_usages=self.llm_usages,
+            )
+
+        if answer:
+            await self._logger.success("[DocQA] Direct document analysis complete")
+        return answer
+
+    # ------------------------------------------------------------------
+    # Chat intent detection — short-circuit for non-search queries
+    # ------------------------------------------------------------------
+
+    @staticmethod
+    def _is_chat_query(query: str) -> bool:
+        """Return True for obvious conversational queries (rule-based, no LLM)."""
+        return bool(_CHAT_QUERY_RE.match(query.strip()))
+
+    async def _respond_chat(
+        self,
+        query: str,
+        context: Optional[SearchContext] = None,
+        *,
+        chat_history: Optional[List[Dict[str, str]]] = None,
+    ) -> Tuple[str, Optional[KnowledgeCluster], SearchContext]:
+        """Generate a direct conversational response (single LLM call, no retrieval)."""
+        await self._logger.info(
+            f"[search] Chat intent detected — responding directly: '{query[:60]}'"
+        )
+        ctx = context or SearchContext()
+        messages = [
+            {"role": "system", "content": _CHAT_RESPONSE_SYSTEM},
+            *(chat_history or []),
+            {"role": "user", "content": query},
+        ]
+        resp = await self.llm.achat(messages=messages, stream=False)
+        self.llm_usages.append(resp.usage)
+        if resp.usage and isinstance(resp.usage, dict):
+            ctx.add_llm_tokens(
+                resp.usage.get("total_tokens", 0), usage=resp.usage,
+            )
+        return resp.content or "", None, ctx
+
+    # ------------------------------------------------------------------
+    # Document summarization — shared by FAST & DEEP summary intent
+    # ------------------------------------------------------------------
+
+    _SUMMARY_MAX_CONTEXT_CHARS = 100_000
+    _SUMMARY_CHUNK_CHARS = 50_000
+    _SUMMARY_MAX_FILE_SIZE = 200 * 1024 * 1024  # 200 MB — sampling handles large files
+
+    async def _summarize_documents(
+        self,
+        query: str,
+        paths: List[str],
+        *,
+        top_k_files: int = 5,
+        scan_result=None,
+    ) -> Optional[str]:
+        """Summarize documents from *paths* with smart content sampling.
+
+        When *scan_result* (from a prior directory scan) is provided, the
+        LLM ranks candidates first so only the most relevant files are
+        summarized.  Otherwise falls back to ``collect_doc_files``.
+
+        Small files are loaded in full; large files are sampled (head + mid +
+        tail).  When the total content exceeds the LLM context budget, the
+        documents are processed in chunks — each chunk is summarized
+        independently, then the partial summaries are merged in a final pass.
+
+        Returns:
+            Summary string, or ``None`` if no documents could be loaded.
+        """
+        from sirchmunk.doc_qa import collect_doc_files, _extract_text, _sample_text
+
+        summary_paths: Optional[List[str]] = None
+
+        # When a scan result is available, use LLM ranking to pick candidates
+        if scan_result is not None:
+            ranked = await self._rank_dir_scan_candidates(
+                query, scan_result,
+                top_k=top_k_files * 2,
+                include_medium=True,
+            )
+            if ranked:
+                summary_paths = ranked[:top_k_files]
+                await self._logger.info(
+                    f"[Summary] Dir scan selected {len(summary_paths)} relevant file(s)"
+                )
+
+        doc_files = collect_doc_files(
+            summary_paths or paths,
+            max_files=top_k_files,
+            max_file_size=self._SUMMARY_MAX_FILE_SIZE,
+        )
+        if not doc_files:
+            await self._logger.warning(
+                f"[Summary] No loadable documents found in paths: {paths}"
+            )
+            return None
+
+        doc_texts: List[Tuple[str, str]] = []
+        total_chars = 0
+        for df in doc_files:
+            text = await _extract_text(df)
+            if text:
+                fname = Path(df.path).name
+                doc_texts.append((fname, text))
+                total_chars += len(text)
+            else:
+                await self._logger.warning(
+                    f"[Summary] Text extraction failed for: {Path(df.path).name}"
+                )
+
+        if not doc_texts:
+            await self._logger.warning("[Summary] No text could be extracted from collected documents")
+            return None
+
+        await self._logger.info(
+            f"[Summary] Loaded {len(doc_texts)} doc(s), "
+            f"total {total_chars} chars"
+        )
+
+        needs_sampling = total_chars > self._SUMMARY_MAX_CONTEXT_CHARS
+        per_file_budget = (
+            self._SUMMARY_MAX_CONTEXT_CHARS // len(doc_texts)
+            if needs_sampling else 0
+        )
+
+        parts: List[str] = []
+        for fname, text in doc_texts:
+            content = _sample_text(text, per_file_budget) if needs_sampling else text
+            parts.append(f"#### File: {fname}\n```\n{content}\n```")
+
+        combined = "\n\n".join(parts)
+
+        if len(combined) <= self._SUMMARY_CHUNK_CHARS:
+            return await self._llm_summarize_docs(combined, query)
+
+        return await self._llm_chunked_summarize(combined, query)
+
+    async def _llm_summarize_docs(self, documents: str, query: str) -> str:
+        """Single-pass LLM summarization."""
+        prompt = DOC_SUMMARY.format(documents=documents, user_input=query)
+        resp = await self.llm.achat(
+            messages=[{"role": "user", "content": prompt}],
+            stream=True,
+        )
+        self.llm_usages.append(resp.usage)
+        return resp.content or ""
+
+    async def _llm_chunked_summarize(self, combined: str, query: str) -> str:
+        """Multi-pass chunked summarization for large content."""
+        chunk_size = self._SUMMARY_CHUNK_CHARS
+        chunks = [
+            combined[i:i + chunk_size]
+            for i in range(0, len(combined), chunk_size)
+        ]
+        await self._logger.info(
+            f"[Summary] Content exceeds single-pass limit — "
+            f"splitting into {len(chunks)} chunk(s)"
+        )
+
+        partial_summaries: List[str] = []
+        for idx, chunk in enumerate(chunks, 1):
+            await self._logger.info(f"[Summary] Summarizing chunk {idx}/{len(chunks)}")
+            prompt = DOC_CHUNK_SUMMARY.format(chunk=chunk, user_input=query)
+            resp = await self.llm.achat(
+                messages=[{"role": "user", "content": prompt}],
+                stream=True,
+            )
+            self.llm_usages.append(resp.usage)
+            if resp.content:
+                partial_summaries.append(resp.content)
+
+        if not partial_summaries:
+            return ""
+        if len(partial_summaries) == 1:
+            return partial_summaries[0]
+
+        merged_input = "\n\n---\n\n".join(
+            f"**Part {i}**\n{s}" for i, s in enumerate(partial_summaries, 1)
+        )
+        prompt = DOC_MERGE_SUMMARIES.format(summaries=merged_input, user_input=query)
+        resp = await self.llm.achat(
+            messages=[{"role": "user", "content": prompt}],
+            stream=True,
+        )
+        self.llm_usages.append(resp.usage)
+        return resp.content or ""
+
+    # ------------------------------------------------------------------
+    # FAST mode — greedy search with early termination
+    # ------------------------------------------------------------------
+
+    _FAST_TEXT_EXTENSIONS = {
+        ".txt", ".md", ".rst", ".csv", ".log", ".tsv",
+        ".py", ".js", ".ts", ".json", ".yaml", ".yml", ".xml",
+        ".html", ".htm", ".sh", ".toml", ".cfg", ".ini", ".conf",
+        ".css", ".bash", ".java", ".c", ".cpp", ".h", ".go", ".rs",
+    }
+    _FAST_CONTEXT_WINDOW = 30  # ± lines around each grep hit
+    _FAST_MAX_EVIDENCE_CHARS = 15_000
+    _FAST_SMALL_FILE_THRESHOLD = 100_000  # 100K chars - read full file instead of grep sampling
+
+    _LLM_FALLBACK_EVIDENCE = (
+        "[No relevant documents found]\n\n"
+        "The search did not find relevant content in the available documents. "
+        "Please answer the user's question based on your own knowledge. "
+        "Clearly indicate that this answer is from LLM knowledge, "
+        "not from retrieved documents."
+    )
+
+    async def _search_fast(
+        self,
+        query: str,
+        paths: List[str],
+        *,
+        max_depth: Optional[int] = 5,
+        top_k_files: int = 3,
+        enable_dir_scan: bool = False,
+        include: Optional[List[str]] = None,
+        exclude: Optional[List[str]] = None,
+        llm_fallback: bool = False,
+    ) -> Tuple[str, Optional[KnowledgeCluster], SearchContext]:
+        """Greedy search: 2-3 LLM calls, single best file, focused evidence.
+
+        Two-level keyword cascade extracted in one LLM call:
+        primary (compound phrase) is tried first; if it misses, fallback
+        (atomic terms) is tried.  When ``enable_dir_scan`` is True and
+        paths contain directories, a directory scan runs concurrently with
+        keyword extraction and acts as a fallback retrieval path.
+
+        Returns:
+            ``(answer, cluster, context)`` — same triple as ``_search_deep``
+            so the caller can handle both modes uniformly.
+        """
+        context = SearchContext()
+        await self._logger.info(f"[FAST] Starting greedy search for: '{query[:80]}'")
+
+        # ==============================================================
+        # Step 0: Cluster reuse — instant short-circuit (no LLM cost)
+        # When reuse succeeds we return here; no persistence step runs.
+        # ==============================================================
+        reused = await self._try_reuse_cluster(query, paths)
+        if reused is not None:
+            content = reused.content
+            if isinstance(content, list):
+                content = "\n".join(content)
+            await self._logger.success("[FAST] Reused cached knowledge cluster")
+            return str(content), reused, context
+
+        # ==============================================================
+        # Step 1: LLM query analysis only (dir scan deferred until needed)
+        # ==============================================================
+        prompt = FAST_QUERY_ANALYSIS.format(user_input=query)
+        resp = await self.llm.achat(
+            messages=[{"role": "user", "content": prompt}],
+            stream=False,
+        )
+        self.llm_usages.append(resp.usage)
+        if resp.usage and isinstance(resp.usage, dict):
+            context.add_llm_tokens(
+                resp.usage.get("total_tokens", 0), usage=resp.usage,
+            )
+
+        analysis = self._parse_fast_json(resp.content)
+        query_type = analysis.get("type", "search")
+        file_hints = analysis.get("file_hints", [])
+
+        if query_type == "chat":
+            chat_reply = analysis.get("response", "")
+            if chat_reply:
+                await self._logger.info("[FAST:Step1] LLM classified as chat intent")
+                return chat_reply, None, context
+            return (await self._respond_chat(query, context))
+
+        if query_type == "summary":
+            await self._logger.info("[FAST:Step1] Summary intent detected — delegating to doc analysis")
+            # When user names a specific file, resolve it and skip dir scan + rank
+            summary_paths: Optional[List[str]] = None
+            if file_hints:
+                summary_paths = self._resolve_file_hints(paths, file_hints)
+                if summary_paths:
+                    await self._logger.info(
+                        f"[FAST:Summary] Resolved file hint(s) → {[Path(p).name for p in summary_paths]}"
+                    )
+            if summary_paths:
+                answer = await self._summarize_documents(
+                    query, summary_paths,
+                    top_k_files=len(summary_paths),
+                    scan_result=None,
+                )
+                if answer:
+                    return answer, self._make_answer_cluster(query, answer, "FS", file_paths=summary_paths), context
+            # No hint or resolve failed: run dir scan (if enabled) then rank + summarize
+            scan_result = await self._probe_dir_scan(paths, enable=enable_dir_scan,
+                                                     max_files=300) if enable_dir_scan else None
+            answer = await self._summarize_documents(
+                query, paths,
+                top_k_files=top_k_files,
+                scan_result=scan_result,
+            )
+            if answer:
+                return answer, self._make_answer_cluster(query, answer, "FS", file_paths=paths), context
+            await self._logger.info("[FAST:Step1] Summary fallback — no documents, continuing search")
+
+        primary = analysis.get("primary", [])[:2]
+        fallback = analysis.get("fallback", [])[:3]
+        primary_alt = analysis.get("primary_alt", [])[:2]
+        fallback_alt = analysis.get("fallback_alt", [])[:3]
+
+        if primary_alt:
+            primary = primary + primary_alt
+        if fallback_alt:
+            fallback = fallback + fallback_alt
+
+        # --- IDF weights from LLM ---
+        keyword_idfs: Dict[str, float] = analysis.get("idf", {})
+        if not keyword_idfs:
+            all_kws = (primary or []) + (fallback or [])
+            keyword_idfs = {kw: max(0.5, min(1.0, len(kw) / 5.0)) for kw in all_kws}
+
+        if not primary and not fallback:
+            await self._logger.warning("[FAST] No keywords extracted")
+            msg = f"Could not extract search terms from query: '{query}'"
+            return msg, None, context
+
+        await self._logger.info(
+            f"[FAST:Step1] Primary: {primary}, Fallback: {fallback}"
+        )
+
+        # ==============================================================
+        # Step 2: rga cascade — primary first, fallback only if needed
+        # Dir scan runs only when enabled, for fallback when rga misses.
+        # ==============================================================
+        context.add_search(query)
+        include_patterns = list(include or [])
+        for hint in file_hints:
+            if "*" in hint or "." in hint:
+                include_patterns.append(hint)
+
+        rga_kwargs = dict(
+            paths=paths, max_depth=max_depth,
+            include=include_patterns or None, exclude=exclude,
+        )
+
+        best_files: Optional[List[Dict[str, Any]]] = None
+        used_level = "primary"
+        evidence = ""
+
+        if primary:
+            best_files = await self._fast_find_best_file(
+                primary, top_k=top_k_files, keyword_idfs=keyword_idfs, **rga_kwargs
+            )
+
+        if not best_files and fallback:
+            used_level = "fallback"
+            await self._logger.info(
+                "[FAST:Step2] Primary miss, trying fine-grained fallback"
+            )
+            best_files = await self._fast_find_best_file(
+                fallback, top_k=top_k_files, keyword_idfs=keyword_idfs, **rga_kwargs
+            )
+
+        # --- Fallback: use dir_scan only when rga misses and dir scan is enabled ---
+        if not best_files and enable_dir_scan:
+            scan_result = await self._probe_dir_scan(paths, enable=True, max_files=300)
+            if scan_result is not None:
+                await self._logger.info("[FAST:Step2] rga miss — falling back to dir_scan ranking")
+                ranked_paths = await self._rank_dir_scan_candidates(
+                    query, scan_result, top_k=10, include_medium=True,
+                )
+                if ranked_paths:
+                    used_level = "dir_scan"
+                    best_files = [{"path": p, "matches": [], "total_matches": 0, "weighted_score": 0.0} for p in ranked_paths[:top_k_files]]
+
+        if not best_files:
+            if llm_fallback:
+                await self._logger.info(
+                    "[FAST:Step2] No files found, llm_fallback=True \u2192 skip to LLM summary"
+                )
+                evidence = self._LLM_FALLBACK_EVIDENCE
+            else:
+                await self._logger.warning(
+                    f"[FAST:Step2] No matching files found in paths: {paths}. "
+                )
+                return _NO_RESULTS_MESSAGE, None, context
+
+        if best_files:
+            file_path = best_files[0]["path"]
+            match_objects = best_files[0].get("matches", [])
+            await self._logger.info(
+                f"[FAST:Step2] Best file ({used_level}): {Path(file_path).name} "
+                f"({best_files[0].get('total_matches', 0)} hits, score={best_files[0].get('weighted_score', 0):.2f})"
+            )
+
+            # ==============================================================
+            # Step 3: Context sampling around grep hits (no LLM)
+            # Multi-file evidence aggregation
+            # ==============================================================
+            evidence_parts = []
+            total_evidence_chars = 0
+            for bf in best_files:
+                if total_evidence_chars >= self._FAST_MAX_EVIDENCE_CHARS:
+                    break
+
+                file_path = bf["path"]
+                fname = Path(file_path).name
+                ext = Path(file_path).suffix.lower()
+
+                # Small file short-circuit: read full content instead of grep sampling
+                ev = None
+                if ext in self._FAST_TEXT_EXTENSIONS:
+                    try:
+                        file_size = Path(file_path).stat().st_size
+                        if file_size < self._FAST_SMALL_FILE_THRESHOLD:
+                            full_text = Path(file_path).read_text(errors="replace")
+                            if len(full_text) < self._FAST_SMALL_FILE_THRESHOLD:
+                                ev = f"[{fname}]\n{full_text}"
+                                await self._logger.info(
+                                    f"[FAST] Small file short-circuit: reading full content of {fname} "
+                                    f"({len(full_text)} chars)"
+                                )
+                    except Exception:
+                        pass  # Fall through to normal evidence extraction
+
+                # Normal path: grep-based evidence sampling
+                if ev is None:
+                    ev = await self._fast_sample_evidence(file_path, bf.get("matches", []))
+
+                if ev:
+                    remaining = self._FAST_MAX_EVIDENCE_CHARS - total_evidence_chars
+                    chunk = ev[:remaining]
+                    evidence_parts.append(chunk)
+                    total_evidence_chars += len(chunk)
+                    context.mark_file_read(file_path)
+
+            evidence = "\n\n---\n\n".join(evidence_parts)
+
+            if not evidence or len(evidence.strip()) < 20:
+                if llm_fallback:
+                    await self._logger.info(
+                        "[FAST:Step3] No usable evidence, llm_fallback=True \u2192 LLM summary"
+                    )
+                    evidence = self._LLM_FALLBACK_EVIDENCE
+                else:
+                    await self._logger.warning("[FAST:Step3] No usable evidence extracted")
+                    return _NO_RESULTS_MESSAGE, None, context
+
+            await self._logger.info(
+                f"[FAST:Step3] Evidence: {len(evidence)} chars from {Path(file_path).name}"
+            )
+
+        keywords_used = primary if used_level == "primary" else fallback
+
+        # ==============================================================
+        # Step 4: LLM answer from focused evidence (single call)
+        # ==============================================================
+        answer_prompt = ROI_RESULT_SUMMARY.format(
+            user_input=query,
+            text_content=evidence,
+        )
+        answer_resp = await self.llm.achat(
+            messages=[{"role": "user", "content": answer_prompt}],
+            stream=True,
+        )
+        self.llm_usages.append(answer_resp.usage)
+        if answer_resp.usage and isinstance(answer_resp.usage, dict):
+            context.add_llm_tokens(
+                answer_resp.usage.get("total_tokens", 0), usage=answer_resp.usage,
+            )
+
+        answer, should_save, should_answer = self._parse_summary_response(
+            answer_resp.content or ""
+        )
+        if not should_answer:
+            if llm_fallback:
+                await self._logger.info(
+                    "[FAST:Step4] Summary gate rejected evidence, llm_fallback=True → LLM fallback"
+                )
+                answer, should_save = await self._summarise_fast_fallback(query, context)
+            else:
+                await self._logger.warning(
+                    "[FAST:Step4] Summary gate rejected evidence and llm_fallback=False "
+                    "→ returning no results"
+                )
+                return _NO_RESULTS_MESSAGE, None, context
+        if not should_save:
+            await self._logger.info("[FAST] Quality gate: low-quality answer, skipping cluster save")
+            await self._logger.success("[FAST] Search complete (2 LLM calls, no persist)")
+            return answer, None, context
+
+        cluster = self._build_fast_cluster(
+            query, answer, file_path, evidence, keywords_used,
+        )
+        self._add_query_to_cluster(cluster, query)
+        try:
+            await self._save_cluster_with_embedding(cluster)
+        except Exception as exc:
+            _loguru_logger.warning(
+                f"[FAST] Failed to save cluster with embedding: {exc}"
+            )
+
+        await self._logger.success("[FAST] Search complete (2 LLM calls)")
+        return answer, cluster, context
+
+    # ---- FAST helpers ----
+
+    @staticmethod
+    def _count_keyword_tf_per_file(raw_results: List[Dict[str, Any]]) -> Dict[str, int]:
+        """Count matches per file from rga JSON output."""
+        counts: Dict[str, int] = {}
+        current_path: Optional[str] = None
+        for item in raw_results:
+            item_type = item.get("type")
+            if item_type == "begin":
+                current_path = item.get("data", {}).get("path", {}).get("text")
+            elif item_type == "match" and current_path is not None:
+                counts[current_path] = counts.get(current_path, 0) + 1
+            elif item_type == "end":
+                current_path = None
+        return counts
+
+    @staticmethod
+    def _dedup_merged_files(
+        merged: List[Dict[str, Any]],
+        per_file_kw_tf: Dict[str, Dict[str, int]],
+        match_limit: int = 20,
+    ) -> List[Dict[str, Any]]:
+        """Deduplicate merged file entries by path, combining matches from
+        multiple keyword searches into a single entry per file.
+
+        When the same file appears in multiple rga begin/end groups (one per
+        keyword search), this merges them so downstream scoring and evidence
+        extraction operate on a single, complete representation.
+
+        Args:
+            merged: File entries from GrepRetriever.merge_results(), may
+                contain duplicates.
+            per_file_kw_tf: Pre-computed per-file keyword TF counts (not
+                modified, used only for reference).
+            match_limit: Maximum matches to keep per file after merging.
+
+        Returns:
+            Deduplicated list with one entry per unique file path.
+        """
+        if not merged:
+            return merged
+
+        seen: Dict[str, int] = {}  # path -> index in deduped
+        deduped: List[Dict[str, Any]] = []
+
+        for entry in merged:
+            fpath = entry["path"]
+            if fpath in seen:
+                # Merge into existing entry
+                idx = seen[fpath]
+                existing = deduped[idx]
+                existing["matches"].extend(entry.get("matches", []))
+                existing["lines"].extend(entry.get("lines", []))
+                existing["total_matches"] += entry.get("total_matches", 0)
+            else:
+                # New file — clone to avoid mutating original
+                seen[fpath] = len(deduped)
+                deduped.append({
+                    "path": fpath,
+                    "matches": list(entry.get("matches", [])),
+                    "lines": list(entry.get("lines", [])),
+                    "total_matches": entry.get("total_matches", 0),
+                    "total_score": entry.get("total_score", 0.0),
+                })
+
+        # Trim matches to limit per file
+        for entry in deduped:
+            if len(entry["matches"]) > match_limit:
+                # Sort by score descending, keep top
+                entry["matches"].sort(
+                    key=lambda x: x.get("score", 0.0), reverse=True
+                )
+                entry["matches"] = entry["matches"][:match_limit]
+
+        return deduped
+
+    @staticmethod
+    def _prune_by_score(
+        candidates: List[Dict[str, Any]],
+        top_k: int = 3,
+        relative_ratio: float = 0.30,
+        gap_ratio: float = 0.50,
+        min_count: int = 1,
+    ) -> List[Dict[str, Any]]:
+        """Dynamically prune ranked file candidates by score distribution.
+
+        Applies a three-stage filter to remove clearly irrelevant files:
+
+        1. **Relative threshold**: Discard files scoring below
+           ``max_score * relative_ratio`` (default 30%).
+        2. **Gap detection**: Scan adjacently ranked files; when the score
+           drop from one to the next exceeds ``prev_score * gap_ratio``
+           (default 50%), truncate the list at that point.
+        3. **Minimum guarantee**: Ensure at least ``min_count`` files
+           survive (default 1).
+
+        Finally the result is capped at ``top_k``.
+
+        Args:
+            candidates: File dicts sorted by ``weighted_score`` descending.
+            top_k: Maximum number of files to return.
+            relative_ratio: Fraction of the top score used as a floor.
+            gap_ratio: Maximum tolerated relative drop between adjacent
+                candidates.
+            min_count: Minimum number of candidates to keep regardless of
+                score.
+
+        Returns:
+            Pruned list of candidates (length in [min_count, top_k]).
+        """
+        if not candidates:
+            return []
+
+        max_score = candidates[0].get("weighted_score", 0.0)
+
+        # Step 1: Relative threshold filter
+        threshold = max_score * relative_ratio
+        filtered = [f for f in candidates if f.get("weighted_score", 0.0) >= threshold]
+        if not filtered:
+            filtered = candidates[:min_count]
+
+        # Step 2: Gap detection truncation
+        result = [filtered[0]]
+        for i in range(1, len(filtered)):
+            prev_score = filtered[i - 1].get("weighted_score", 0.0)
+            curr_score = filtered[i].get("weighted_score", 0.0)
+            if prev_score > 0 and (prev_score - curr_score) > prev_score * gap_ratio:
+                break
+            result.append(filtered[i])
+
+        # Step 3: Minimum guarantee
+        if len(result) < min_count and len(filtered) >= min_count:
+            result = filtered[:min_count]
+
+        # Cap at top_k
+        return result[:top_k]
+
+    async def _fast_find_best_file(
+        self,
+        keywords: List[str],
+        paths: List[str],
+        max_depth: Optional[int] = 5,
+        include: Optional[List[str]] = None,
+        exclude: Optional[List[str]] = None,
+        top_k: int = 1,
+        keyword_idfs: Optional[Dict[str, float]] = None,
+    ) -> Optional[List[Dict[str, Any]]]:
+        """Search per keyword via rga and return the top-k best-matching files
+        ranked by IDF-weighted log-TF scoring.
+
+        Returns:
+            List of merged file dicts (path, matches, lines, total_matches, weighted_score) or None.
+        """
+        all_raw: List[Dict[str, Any]] = []
+        per_file_kw_tf: Dict[str, Dict[str, int]] = {}  # {file_path: {keyword: count}}
+
+        for kw in keywords:
+            try:
+                results = await self.grep_retriever.retrieve(
+                    terms=kw, path=paths, literal=True, regex=False,
+                    max_depth=max_depth, include=include, exclude=exclude,
+                    timeout=30.0,
+                )
+                if results:
+                    all_raw.extend(results)
+                    # Track per-file TF for this keyword
+                    kw_counts = self._count_keyword_tf_per_file(results)
+                    for fpath, count in kw_counts.items():
+                        per_file_kw_tf.setdefault(fpath, {})[kw] = count
+            except Exception as exc:
+                await self._logger.warning(
+                    f"[FAST] rga literal search failed for '{kw}': {exc}"
+                )
+
+        # Fallback: escaped-regex OR (handles adapters that only work in regex mode)
+        if not all_raw and keywords:
+            try:
+                escaped = [re.escape(kw) for kw in keywords]
+                pattern = "|".join(escaped)
+                results = await self.grep_retriever.retrieve(
+                    terms=pattern, path=paths, literal=False, regex=True,
+                    max_depth=max_depth, include=include, exclude=exclude,
+                    timeout=30.0,
+                )
+                if results:
+                    all_raw.extend(results)
+                    # For regex OR fallback, attribute matches to individual keywords
+                    # by checking which keywords appear in each match line
+                    # (simplified: count total matches per file, distribute proportionally)
+                    regex_counts = self._count_keyword_tf_per_file(results)
+                    for fpath, count in regex_counts.items():
+                        # Attribute to all keywords equally (approximation for OR regex)
+                        per_kw_share = max(1, count // len(keywords)) if keywords else count
+                        for kw in keywords:
+                            existing = per_file_kw_tf.get(fpath, {}).get(kw, 0)
+                            if existing == 0:  # Only fill if not already set by literal search
+                                per_file_kw_tf.setdefault(fpath, {})[kw] = per_kw_share
+            except Exception as exc:
+                await self._logger.warning(
+                    f"[FAST] rga regex search failed: {exc}"
+                )
+
+        # Fallback: filename search
+        if not all_raw:
+            try:
+                fn_results = await self.grep_retriever.retrieve_by_filename(
+                    patterns=[f".*{re.escape(kw)}.*" for kw in keywords],
+                    path=paths, case_sensitive=False, max_depth=max_depth,
+                    timeout=30.0,
+                )
+                if fn_results:
+                    return [{"path": fn_results[0]["path"], "matches": [], "lines": [], "total_matches": 0, "weighted_score": 0.0}]
+            except Exception as exc:
+                await self._logger.warning(
+                    f"[FAST] filename search failed: {exc}"
+                )
+            return None
+
+        merged = GrepRetriever.merge_results(all_raw, limit=20)
+        if not merged:
+            return None
+
+        # Deduplicate file entries from multi-keyword searches
+        merged = self._dedup_merged_files(merged, per_file_kw_tf)
+
+        # --- IDF × (1 + log TF) weighted scoring ---
+        _idfs = keyword_idfs or {}
+        for f in merged:
+            fpath = f["path"]
+            kw_tf = per_file_kw_tf.get(fpath, {})
+            score = 0.0
+            for kw in keywords:
+                tf = kw_tf.get(kw, 0)
+                if tf > 0:
+                    idf = _idfs.get(kw, max(0.5, min(1.0, len(kw) / 5.0)))
+                    score += idf * (1.0 + math.log(tf))
+            f["weighted_score"] = score
+
+        merged.sort(key=lambda f: f["weighted_score"], reverse=True)
+        pruned = self._prune_by_score(merged, top_k=top_k)
+
+        return pruned if pruned else None
+
+    async def _fast_sample_evidence(
+        self,
+        file_path: str,
+        match_objects: List[Dict[str, Any]],
+    ) -> str:
+        """Build focused evidence from grep hits: context windows for text
+        files, raw match snippets for binary formats.
+
+        Args:
+            file_path: Absolute path to the best file.
+            match_objects: Match event dicts from ``merge_results``.
+
+        Returns:
+            Formatted evidence string.
+        """
+        fname = Path(file_path).name
+        ext = Path(file_path).suffix.lower()
+
+        # Extract match line numbers
+        hit_lines: List[int] = []
+        for m in match_objects:
+            ln = m.get("data", {}).get("line_number")
+            if isinstance(ln, int):
+                hit_lines.append(ln)
+
+        # Diagnostic logging when falling back to snippet mode
+        if not hit_lines and match_objects:
+            await self._logger.warning(
+                f"[FAST] No line_number in {len(match_objects)} match(es) for {fname}, "
+                f"falling back to snippet mode"
+            )
+
+        # --- Text files: read context windows around hits ---
+        if ext in self._FAST_TEXT_EXTENSIONS and hit_lines:
+            # Expand context window for sparse hits
+            window = self._FAST_CONTEXT_WINDOW
+            if len(hit_lines) <= 2:
+                window = max(window, 100)  # ±100 lines for 1-2 hits
+            evidence = self._read_context_windows(
+                file_path, hit_lines,
+                window=window,
+                max_chars=self._FAST_MAX_EVIDENCE_CHARS,
+            )
+            if evidence:
+                full_evidence = f"[{fname}]\n{evidence}"
+                if len(full_evidence) < 100:
+                    await self._logger.info(
+                        f"[FAST] Context window evidence too thin ({len(full_evidence)} chars) for {fname}, "
+                        f"attempting file head extraction"
+                    )
+                    head_evidence = await self._fast_read_file_head(file_path)
+                    if head_evidence and len(head_evidence) > len(full_evidence):
+                        return head_evidence
+                return full_evidence
+
+        # --- Non-text files or no line numbers: use grep snippets ---
+        snippets: List[str] = []
+        total = 0
+        for m in match_objects:
+            line_text = m.get("data", {}).get("lines", {}).get("text", "").rstrip()
+            if not line_text:
+                continue
+            snippets.append(line_text)
+            total += len(line_text)
+            if total >= self._FAST_MAX_EVIDENCE_CHARS:
+                break
+
+        if snippets:
+            snippet_evidence = f"[{fname}]\n" + "\n".join(snippets)
+            # If snippet evidence is too thin, try file head for richer context
+            if len(snippet_evidence) < 100:
+                await self._logger.info(
+                    f"[FAST] Evidence too thin ({len(snippet_evidence)} chars) for {fname}, "
+                    f"attempting file head extraction"
+                )
+                head_evidence = await self._fast_read_file_head(file_path)
+                if head_evidence and len(head_evidence) > len(snippet_evidence):
+                    return head_evidence
+            return snippet_evidence
+
+        # Last resort: try reading file head
+        return await self._fast_read_file_head(file_path)
+
+    @staticmethod
+    def _read_context_windows(
+        file_path: str,
+        hit_lines: List[int],
+        window: int = 30,
+        max_chars: int = 15_000,
+    ) -> Optional[str]:
+        """Read context windows around *hit_lines* from a text file.
+
+        Merges overlapping windows to avoid duplication.  Stops when
+        *max_chars* is reached.
+        """
+        # Merge overlapping intervals
+        intervals = sorted(set(
+            (max(1, ln - window), ln + window) for ln in hit_lines
+        ))
+        merged: List[tuple] = [intervals[0]]
+        for start, end in intervals[1:]:
+            if start <= merged[-1][1] + 1:
+                merged[-1] = (merged[-1][0], max(merged[-1][1], end))
+            else:
+                merged.append((start, end))
+
+        # Read file and extract windows
+        try:
+            with open(file_path, "r", encoding="utf-8", errors="replace") as f:
+                all_lines = f.readlines()
+        except Exception:
+            return None
+
+        parts: List[str] = []
+        total = 0
+        for start, end in merged:
+            s = max(0, start - 1)  # 0-indexed
+            e = min(len(all_lines), end)
+            chunk = "".join(all_lines[s:e])
+            if total + len(chunk) > max_chars:
+                remaining = max_chars - total
+                if remaining > 200:
+                    chunk = chunk[:remaining] + "\n[...truncated...]"
+                    parts.append(chunk)
+                break
+            parts.append(chunk)
+            total += len(chunk)
+
+        if not parts:
+            return None
+
+        # Join windows with separator when there are gaps
+        return "\n[...]\n".join(parts)
+
+    @classmethod
+    async def _fast_read_file_head(
+        cls, file_path: str, max_chars: int = 8_000,
+    ) -> str:
+        """Read the head of a file as last-resort evidence."""
+        try:
+            p = Path(file_path)
+            if p.suffix.lower() in cls._FAST_TEXT_EXTENSIONS:
+                text = p.read_text(encoding="utf-8", errors="replace")
+            else:
+                from sirchmunk.utils.file_utils import fast_extract
+                result = await fast_extract(file_path)
+                text = result.content if result and result.content else ""
+            if text:
+                return f"[{p.name}]\n{text[:max_chars]}"
+        except Exception:
+            pass
+        return ""
+
+    @staticmethod
+    def _parse_fast_json(text: str) -> Dict[str, Any]:
+        """Extract JSON from the FAST query analysis LLM response."""
+        text = text.strip()
+        try:
+            return json.loads(text)
+        except (json.JSONDecodeError, TypeError):
+            pass
+        cleaned = re.sub(r"^```(?:json)?\s*", "", text, flags=re.MULTILINE)
+        cleaned = re.sub(r"```\s*$", "", cleaned, flags=re.MULTILINE).strip()
+        try:
+            return json.loads(cleaned)
+        except (json.JSONDecodeError, TypeError):
+            pass
+        match = re.search(r"\{.*\}", text, re.DOTALL)
+        if match:
+            try:
+                return json.loads(match.group())
+            except (json.JSONDecodeError, TypeError):
+                pass
+        return {}
+
+    # ------------------------------------------------------------------
+    # Phase 1 probes (each designed to run concurrently)
+    # ------------------------------------------------------------------
+
+    async def _probe_keywords(
+        self, query: str,
+    ) -> Tuple[Dict[str, float], List[str]]:
+        """Extract multi-level keywords from the query via LLM.
+
+        Also extracts cross-lingual alternative keywords from the
+        ``<KEYWORDS_ALT>`` block and merges them into the result list.
+
+        Returns:
+            Tuple of (keyword_idf_dict, keyword_list).
+        """
+        await self._logger.info("[Probe:Keywords] Extracting keywords...")
+        dynamic_prompt = generate_keyword_extraction_prompt(num_levels=2)
+        keyword_prompt = dynamic_prompt.replace(KEYWORD_QUERY_PLACEHOLDER, query)
+        kw_response = await self.llm.achat(
+            messages=[{"role": "user", "content": keyword_prompt}],
+            stream=False,
+        )
+        self.llm_usages.append(kw_response.usage)
+
+        keyword_sets = self._extract_and_validate_multi_level_keywords(
+            kw_response.content, num_levels=2,
+        )
+
+        alt_keywords = self._extract_alt_keywords(kw_response.content)
+        if alt_keywords:
+            await self._logger.info(f"[Probe:Keywords] Cross-lingual alt: {list(alt_keywords.keys())}")
+
+        for kw_set in keyword_sets:
+            if kw_set:
+                merged = {**kw_set, **alt_keywords}
+                kw_list = list(merged.keys())
+                await self._logger.info(f"[Probe:Keywords] Extracted: {kw_list}")
+                return merged, kw_list
+
+        if alt_keywords:
+            return alt_keywords, list(alt_keywords.keys())
+
+        return {}, []
+
+    @staticmethod
+    def _has_directory_paths(paths: List[str]) -> bool:
+        """Return True if any element in *paths* is a directory."""
+        return any(Path(p).is_dir() for p in paths)
+
+    @staticmethod
+    def _resolve_file_hints(
+        paths: List[str],
+        file_hints: List[str],
+        max_depth: int = 8,
+    ) -> List[str]:
+        """Resolve file_hints (filenames) to absolute paths under *paths*.
+
+        Lightweight name-only search: no metadata extraction. Used when the
+        user clearly asks for a specific document (e.g. "总结《foo.pdf》")
+        so we can skip full dir scan + LLM rank.
+
+        Returns:
+            List of absolute path strings that match any hint (deduplicated,
+            order preserved). Empty if no matches.
+        """
+        if not file_hints:
+            return []
+
+        hints = [h.strip() for h in file_hints if (h and isinstance(h, str))]
+        if not hints:
+            return []
+
+        def _name_matches(name: str, hint: str) -> bool:
+            name_n = name.strip()
+            hint_n = hint.strip()
+            if not hint_n:
+                return False
+            if name_n == hint_n:
+                return True
+            if hint_n.lower() in name_n.lower():
+                return True
+            if Path(name_n).stem == Path(hint_n).stem:
+                return True
+            return False
+
+        seen: set = set()
+        out: List[str] = []
+
+        def walk_dir(d: Path, depth: int) -> None:
+            if depth > max_depth or len(out) >= 20:
+                return
+            try:
+                for entry in sorted(d.iterdir(), key=lambda p: p.name):
+                    if len(out) >= 20:
+                        return
+                    if entry.name.startswith("."):
+                        continue
+                    if entry.is_file():
+                        for hint in hints:
+                            if _name_matches(entry.name, hint):
+                                resolved = str(entry.resolve())
+                                if resolved not in seen:
+                                    seen.add(resolved)
+                                    out.append(resolved)
+                                break
+                    elif entry.is_dir():
+                        walk_dir(entry, depth + 1)
+            except PermissionError:
+                pass
+
+        for p_str in paths:
+            p = Path(p_str).resolve()
+            if p.is_file():
+                for hint in hints:
+                    if _name_matches(p.name, hint):
+                        resolved = str(p)
+                        if resolved not in seen:
+                            seen.add(resolved)
+                            out.append(resolved)
+                        break
+            elif p.is_dir():
+                walk_dir(p, 0)
+
+        return out
+
+    async def _probe_dir_scan(
+        self,
+        paths: List[str],
+        enable: bool = True,
+        max_files: int = 500,
+    ):
+        """Scan directories for file metadata (filesystem only, no LLM).
+
+        Automatically skips scanning when all *paths* are single files.
+
+        Args:
+            paths: Normalised list of path strings to scan.
+            enable: Whether directory scanning is enabled.
+            max_files: Cap on number of files to scan (lower = faster).
+
+        Returns:
+            ScanResult or None if disabled / all paths are files.
+        """
+        if not enable or not self._has_directory_paths(paths):
+            return None
+
+        from sirchmunk.scan.dir_scanner import DirectoryScanner
+
+        if self._dir_scanner is None or self._dir_scanner.max_files != max_files:
+            self._dir_scanner = DirectoryScanner(llm=self.llm, max_files=max_files)
+
+        await self._logger.info("[Probe:DirScan] Scanning directories...")
+        scan_result = await self._dir_scanner.scan(paths)
+        await self._logger.info(
+            f"[Probe:DirScan] Found {scan_result.total_files} files "
+            f"in {scan_result.total_dirs} dirs ({scan_result.scan_duration_ms:.0f}ms)"
+        )
+        return scan_result
+
+    async def _probe_knowledge_cache(
+        self, query: str,
+    ) -> List[str]:
+        """Search knowledge cache for related clusters, return known file paths.
+
+        Returns:
+            List of file paths from previously cached clusters.
+        """
+        try:
+            clusters = await self.knowledge_storage.find(query, limit=3)
+            if not clusters:
+                return []
+
+            file_paths: List[str] = []
+            for c in clusters:
+                for ev in getattr(c, "evidences", []):
+                    fp = str(getattr(ev, "file_or_url", ""))
+                    if fp and Path(fp).exists():
+                        file_paths.append(fp)
+
+            if file_paths:
+                await self._logger.info(
+                    f"[Probe:Knowledge] Found {len(file_paths)} files from cached clusters"
+                )
+            return file_paths
+        except Exception:
+            return []
+
+    @staticmethod
+    async def _async_noop(default=None):
+        """No-op coroutine used as placeholder in gather()."""
+        return default
+
+    # ------------------------------------------------------------------
+    # Phase 2 retrievers
+    # ------------------------------------------------------------------
+
+    async def _retrieve_by_keywords(
+        self,
+        keywords: List[str],
+        paths: List[str],
+        max_depth: Optional[int] = 5,
+        include: Optional[List[str]] = None,
+        exclude: Optional[List[str]] = None,
+    ) -> List[str]:
+        """Run keyword search via rga and return discovered file paths.
+
+        Each keyword is searched concurrently (literal per-term strategy).
+        """
+        from sirchmunk.agentic.tools import KeywordSearchTool
+
+        tool = KeywordSearchTool(
+            retriever=self.grep_retriever,
+            paths=paths,
+            max_depth=max_depth if max_depth is not None else 5,
+            max_results=20,
+            include=include,
+            exclude=exclude,
+        )
+        ctx = SearchContext()  # lightweight context for this probe
+        result_text, meta = await tool.execute(context=ctx, keywords=keywords)
+
+        # Extract discovered file paths from the tool's context logs
+        discovered: List[str] = []
+        for log_entry in ctx.retrieval_logs:
+            discovered.extend(log_entry.metadata.get("files_discovered", []))
+
+        await self._logger.info(
+            f"[Retrieve:Keywords] {len(discovered)} files from rga search"
+        )
+        return discovered
+
+    async def _rank_dir_scan_candidates(
+        self,
+        query: str,
+        scan_result,
+        *,
+        top_k: int = 20,
+        include_medium: bool = False,
+    ) -> List[str]:
+        """Run LLM ranking on dir_scan candidates and return relevant paths.
+
+        Args:
+            include_medium: When True, include both high and medium relevance.
+        """
+        if self._dir_scanner is None:
+            return []
+
+        ranked = await self._dir_scanner.rank(query, scan_result, top_k=top_k)
+        accept = {"high", "medium"} if include_medium else {"high"}
+        paths = [
+            c.path for c in ranked.ranked_candidates
+            if c.relevance in accept
+        ]
+        await self._logger.info(
+            f"[Retrieve:DirScan] {len(paths)} relevant files "
+            f"(accept={accept})"
+        )
+        return paths
+
+    async def _scan_and_rank_paths(
+        self,
+        query: str,
+        paths: List[str],
+        *,
+        max_files: int = 300,
+        top_k: int = 20,
+        include_medium: bool = True,
+    ) -> List[str]:
+        """Scan directories and return LLM-ranked relevant file paths.
+
+        Combines :meth:`_probe_dir_scan` (filesystem walk) and
+        :meth:`_rank_dir_scan_candidates` (LLM ranking) in one call.
+        Automatically skips scanning when all *paths* are single files.
+
+        Returns:
+            Ranked file paths (high + optionally medium relevance),
+            or empty list when scanning is not applicable.
+        """
+        scan_result = await self._probe_dir_scan(
+            paths, enable=True, max_files=max_files,
+        )
+        if scan_result is None:
+            return []
+
+        return await self._rank_dir_scan_candidates(
+            query, scan_result,
+            top_k=top_k, include_medium=include_medium,
+        )
+
+    # ------------------------------------------------------------------
+    # Phase 3: Merge + cluster build
+    # ------------------------------------------------------------------
+
+    @staticmethod
+    def _merge_file_paths(
+        keyword_files: List[str],
+        dir_scan_files: List[str],
+        knowledge_hits: List[str],
+    ) -> List[str]:
+        """Merge file paths from all retrieval paths, dedup, preserve priority.
+
+        Priority: keyword_search > knowledge_cache > dir_scan.
+        """
+        seen: set = set()
+        merged: List[str] = []
+
+        for fp in keyword_files + knowledge_hits + dir_scan_files:
+            if fp and fp not in seen:
+                seen.add(fp)
+                merged.append(fp)
+
+        return merged
+
+    async def _build_cluster(
+        self,
+        query: str,
+        file_paths: List[str],
+        query_keywords: Dict[str, float],
+        top_k_files: int = 5,
+        top_k_snippets: int = 5,
+    ) -> Optional[KnowledgeCluster]:
+        """Build a KnowledgeCluster via knowledge_base.build().
+
+        Constructs the Request wrapper and delegates to the knowledge
+        base for parallel Monte Carlo evidence sampling.
+        """
+        try:
+            request = Request(
+                messages=[
+                    Message(
+                        role="user",
+                        content=[ContentItem(type="text", text=query)],
+                    ),
+                ],
+            )
+            retrieved_infos = [{"path": fp} for fp in file_paths]
+
+            cluster = await self.knowledge_base.build(
+                request=request,
+                retrieved_infos=retrieved_infos,
+                keywords=query_keywords,
+                top_k_files=top_k_files,
+                top_k_snippets=top_k_snippets,
+                verbose=self.verbose,
+            )
+            self.llm_usages.extend(self.knowledge_base.llm_usages)
+            self.knowledge_base.llm_usages.clear()
+
+            if cluster:
+                await self._logger.success(
+                    f"[Phase 3] KnowledgeCluster built: {cluster.name} "
+                    f"({len(cluster.evidences)} evidence units)"
+                )
+            return cluster
+        except Exception as exc:
+            await self._logger.warning(f"[Phase 3] knowledge_base.build() failed: {exc}")
+            return None
+
+    # ------------------------------------------------------------------
+    # Phase 4: Answer generation
+    # ------------------------------------------------------------------
+
+    async def _summarise_cluster(
+        self, query: str, cluster: KnowledgeCluster,
+    ) -> Tuple[str, bool, bool]:
+        """Generate a final answer summary from a KnowledgeCluster.
+
+        Returns:
+            ``(summary_text, should_save, should_answer)`` where:
+            - should_save: quality verdict for persistence
+            - should_answer: evidence sufficiency verdict for answering
+        """
+        sep = "\n"
+        cluster_text_content = (
+            f"{cluster.name}\n\n"
+            f"{sep.join(cluster.description)}\n\n"
+            f"{cluster.content if isinstance(cluster.content, str) else sep.join(cluster.content)}"
+        )
+
+        result_sum_prompt = SEARCH_RESULT_SUMMARY.format(
+            user_input=query,
+            text_content=cluster_text_content,
+        )
+
+        await self._logger.info("[Phase 4] Generating search result summary...")
+        response = await self.llm.achat(
+            messages=[{"role": "user", "content": result_sum_prompt}],
+            stream=True,
+        )
+        self.llm_usages.append(response.usage)
+
+        summary, should_save, should_answer = self._parse_summary_response(response.content)
+        return summary, should_save, should_answer
+
+    async def _summarise_cluster_fallback(self, query: str) -> Tuple[str, bool]:
+        """Generate an answer using the DEEP summary prompt with fallback evidence.
+
+        Reuses the existing ``SEARCH_RESULT_SUMMARY`` prompt, feeding it the
+        standard fallback text so that the LLM answers from its own knowledge
+        without adding an extra LLM call to the pipeline.
+        """
+        result_sum_prompt = SEARCH_RESULT_SUMMARY.format(
+            user_input=query,
+            text_content=self._LLM_FALLBACK_EVIDENCE,
+        )
+        await self._logger.info("[Phase 4] Generating fallback summary from LLM knowledge...")
+        response = await self.llm.achat(
+            messages=[{"role": "user", "content": result_sum_prompt}],
+            stream=True,
+        )
+        self.llm_usages.append(response.usage)
+        summary, _, _ = self._parse_summary_response(response.content)
+        return summary, False  # Never save fallback answers
+
+    async def _summarise_fast_fallback(
+        self, query: str, context: "SearchContext",
+    ) -> Tuple[str, bool]:
+        """Generate an answer using the FAST summary prompt with fallback evidence.
+
+        Reuses the existing ``ROI_RESULT_SUMMARY`` prompt, feeding it the
+        standard fallback text so that the LLM answers from its own knowledge.
+        """
+        answer_prompt = ROI_RESULT_SUMMARY.format(
+            user_input=query,
+            text_content=self._LLM_FALLBACK_EVIDENCE,
+        )
+        answer_resp = await self.llm.achat(
+            messages=[{"role": "user", "content": answer_prompt}],
+            stream=True,
+        )
+        self.llm_usages.append(answer_resp.usage)
+        if answer_resp.usage and isinstance(answer_resp.usage, dict):
+            context.add_llm_tokens(
+                answer_resp.usage.get("total_tokens", 0), usage=answer_resp.usage,
+            )
+        answer, _, _ = self._parse_summary_response(answer_resp.content or "")
+        return answer, False  # Never save fallback answers
+
+    async def _react_refinement(
+        self,
+        query: str,
+        paths: List[str],
+        initial_keywords: List[str],
+        spec_context: str,
+        enable_dir_scan: bool,
+        max_loops: int,
+        max_token_budget: int,
+        max_depth: Optional[int] = 5,
+        include: Optional[List[str]] = None,
+        exclude: Optional[List[str]] = None,
+    ) -> Tuple[str, SearchContext]:
+        """Fall back to ReAct loop when parallel probing yields insufficient evidence.
+
+        The ReAct agent receives pre-extracted keywords and cached
+        directory context so it doesn't waste turns re-discovering them.
+        """
+        from sirchmunk.agentic.react_agent import ReActSearchAgent
+
+        registry = self._ensure_tool_registry(
+            paths, enable_dir_scan,
+            max_depth=max_depth,
+            include=include,
+            exclude=exclude,
+        )
+        agent = ReActSearchAgent(
+            llm=self.llm,
+            tool_registry=registry,
+            max_loops=max_loops,
+            max_token_budget=max_token_budget,
+        )
+
+        augmented_query = query
+        if spec_context:
+            augmented_query = (
+                f"{query}\n\n"
+                f"[System hint — cached directory context]\n{spec_context}"
+            )
+
+        answer, context = await agent.run(
+            query=augmented_query,
+            initial_keywords=initial_keywords or None,
+        )
+        return answer, context
+
+    async def _build_cluster_from_context(
+        self,
+        query: str,
+        answer: str,
+        context: SearchContext,
+        query_keywords: Dict[str, float],
+        top_k_files: int = 5,
+    ) -> Optional[KnowledgeCluster]:
+        """Build a KnowledgeCluster from files discovered during a ReAct session.
+
+        Collects file paths from ``context.read_file_ids`` and retrieval
+        logs, then delegates to ``_build_cluster()``.  Falls back to a
+        lightweight answer-only cluster when no files were discovered.
+        """
+        if not answer or len(answer) < 50:
+            return None
+
+        # Collect all discovered file paths
+        discovered: List[str] = list(context.read_file_ids)
+        for log_entry in context.retrieval_logs:
+            if log_entry.tool_name == "keyword_search":
+                for p in log_entry.metadata.get("files_discovered", []):
+                    if p not in discovered:
+                        discovered.append(p)
+
+        if discovered:
+            cluster = await self._build_cluster(
+                query=query,
+                file_paths=discovered,
+                query_keywords=query_keywords,
+                top_k_files=top_k_files,
+            )
+            if cluster:
+                if not cluster.search_results:
+                    cluster.search_results = list(discovered)
+                return cluster
+
+        # Fallback: lightweight cluster from answer text
+        try:
+            return self._make_answer_cluster(
+                query, answer, prefix="R", file_paths=discovered,
+            )
+        except Exception:
+            return None
+
+    # ------------------------------------------------------------------
+    # Spec-path caching  (Task 4)
+    # ------------------------------------------------------------------
+
+    @staticmethod
+    def _spec_hash(path_str: str) -> str:
+        """Deterministic hash of a search path string for cache filename."""
+        return hashlib.sha256(path_str.encode("utf-8")).hexdigest()[:16]
+
+    def _spec_file(self, path_str: str) -> Path:
+        """Return the spec-cache file path for a given search path."""
+        return self.spec_path / f"{self._spec_hash(path_str)}.json"
+
+    async def _load_spec_context(
+        self,
+        paths: List[str],
+        *,
+        stale_hours: float = 72.0,
+    ) -> str:
+        """Load cached spec context for each search path and merge.
+
+        Returns a condensed text block summarising previously-cached
+        directory metadata that the ReAct agent can use as a hint.
+        Stale files (older than ``stale_hours``) are silently ignored.
+
+        Args:
+            paths: Normalised list of path strings.
+            stale_hours: Maximum age of the cache in hours before it is
+                considered stale and skipped (default: 72).
+
+        Returns:
+            Merged context string, or empty string if nothing cached.
+        """
+        parts: List[str] = []
+        now = datetime.now(timezone.utc)
+        stale_seconds = stale_hours * 3600
+
+        for sp in paths:
+            spec_file = self._spec_file(sp)
+            if not spec_file.exists():
+                continue
+            try:
+                raw = spec_file.read_text(encoding="utf-8")
+                data = json.loads(raw)
+
+                # Skip if stale (handle both naive and aware timestamps)
+                cached_at = datetime.fromisoformat(data.get("cached_at", "2000-01-01"))
+                if cached_at.tzinfo is None:
+                    cached_at = cached_at.replace(tzinfo=timezone.utc)
+                if (now - cached_at).total_seconds() > stale_seconds:
+                    await self._logger.debug(f"[SpecCache] Stale cache for {sp} (>{stale_hours}h), skipping")
+                    continue
+
+                summary = data.get("summary", "")
+                # Append file metadata (title + preview) for richer context
+                file_meta = data.get("file_metadata", [])
+                meta_lines: List[str] = []
+                for fm in file_meta:
+                    title = fm.get("title", "")
+                    preview = fm.get("preview", "")
+                    kw = fm.get("keywords", [])
+                    line = f"  - {fm.get('filename', '?')}"
+                    if title:
+                        line += f"  [title: {title}]"
+                    if kw:
+                        line += f"  [keywords: {', '.join(kw[:5])}]"
+                    if preview:
+                        line += f"\n    preview: {preview[:200]}"
+                    meta_lines.append(line)
+
+                combined = summary or ""
+                if meta_lines:
+                    combined += "\nKnown files:\n" + "\n".join(meta_lines)
+                if combined:
+                    parts.append(f"[{sp}]\n{combined}")
+            except Exception as exc:
+                await self._logger.debug(f"[SpecCache] Failed to load {spec_file}: {exc}")
+
+        return "\n\n".join(parts)
+
+    async def _save_spec_context(
+        self,
+        paths: List[str],
+        context: SearchContext,
+        scan_result=None,
+    ) -> None:
+        """Persist spec-path context for each search path.
+
+        Saves a JSON file per search-path containing: directory stats,
+        files discovered, dir_scan file metadata (title, preview, keywords),
+        searches performed, and a short summary.
+        Uses ``self._spec_lock`` to prevent concurrent-write corruption.
+
+        Args:
+            paths: Normalised list of path strings.
+            context: Completed SearchContext from a ReAct session.
+            scan_result: Optional ScanResult from DirectoryScanner.scan().
+        """
+        # Build a path→FileCandidate lookup from scan_result
+        scan_candidates: Dict[str, Any] = {}
+        if scan_result is not None:
+            for c in getattr(scan_result, "candidates", []):
+                scan_candidates[c.path] = c
+
+        async with self._spec_lock:
+            for sp in paths:
+                spec_file = self._spec_file(sp)
+                try:
+                    # Collect relevant info for this specific path
+                    files_in_path = [
+                        f for f in context.read_file_ids if f.startswith(sp)
+                    ]
+                    searches = context.search_history
+
+                    # Build a brief summary
+                    summary_lines = [
+                        f"Total files read: {len(files_in_path)}",
+                        f"Searches: {', '.join(searches[:10])}",
+                    ]
+                    if files_in_path:
+                        summary_lines.append("Files read:")
+                        for fp in files_in_path[:20]:
+                            summary_lines.append(f"  - {fp}")
+
+                    # Collect dir_scan metadata for files under this search path
+                    file_metadata: List[Dict[str, Any]] = []
+                    for cpath, cand in scan_candidates.items():
+                        if cpath.startswith(sp):
+                            entry: Dict[str, Any] = {
+                                "path": cand.path,
+                                "filename": cand.filename,
+                                "extension": cand.extension,
+                                "size_bytes": cand.size_bytes,
+                                "mime_type": cand.mime_type,
+                            }
+                            if cand.title:
+                                entry["title"] = cand.title
+                            if cand.author:
+                                entry["author"] = cand.author
+                            if cand.page_count:
+                                entry["page_count"] = cand.page_count
+                            if cand.keywords:
+                                entry["keywords"] = cand.keywords
+                            if cand.preview:
+                                entry["preview"] = cand.preview[:500]
+                            if cand.encoding:
+                                entry["encoding"] = cand.encoding
+                            if cand.line_count:
+                                entry["line_count"] = cand.line_count
+                            if cand.relevance:
+                                entry["relevance"] = cand.relevance
+                            if cand.reason:
+                                entry["reason"] = cand.reason
+                            file_metadata.append(entry)
+
+                    data = {
+                        "search_path": sp,
+                        "cached_at": datetime.now(timezone.utc).isoformat(),
+                        "total_llm_tokens": context.total_llm_tokens,
+                        "loop_count": context.loop_count,
+                        "files_read": files_in_path,
+                        "search_history": searches,
+                        "summary": "\n".join(summary_lines),
+                        "file_metadata": file_metadata,
+                        "retrieval_logs": [
+                            log.to_dict() for log in context.retrieval_logs
+                        ],
+                    }
+
+                    # Atomic write: write to temp, then rename
+                    tmp_path = spec_file.with_suffix(".tmp")
+                    tmp_path.write_text(
+                        json.dumps(data, ensure_ascii=False, indent=2),
+                        encoding="utf-8",
+                    )
+                    tmp_path.replace(spec_file)
+
+                    await self._logger.debug(
+                        f"[SpecCache] Saved spec for {sp} -> {spec_file.name} "
+                        f"({len(file_metadata)} file entries)"
+                    )
+
+                except Exception as exc:
+                    await self._logger.warning(f"[SpecCache] Failed to save spec for {sp}: {exc}")

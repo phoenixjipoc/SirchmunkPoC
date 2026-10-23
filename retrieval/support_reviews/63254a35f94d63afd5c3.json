@@ -1,0 +1,75 @@
+{
+  "job": {
+    "id": "63254a35f94d63afd5c3",
+    "query_id": "SVC-20",
+    "question": "What scope of services does the Kern County Employees' Retirement Association (KCERA) 2024 actuarial audit services RFP require?",
+    "file": "Hartford_MERF__file.pdf",
+    "expected_facts": "A full actuarial audit of the assumptions, methods, calculations and experience used in KCERA's valuation, in two parts: (1) a peer review audit of the Actuarial Experience Study for July 1, 2019 - June 30, 2022 and the Review of Economic Actuarial Assumptions as of June 30, 2022 - evaluating the data (including comparison of census data), reconciling discrepancies with the consulting actuary, and evaluating the recommended economic and non-economic assumptions; and (2) a parallel valuation (independent reproduction) of the June 30, 2023 valuation, including the SRBR valuation and GASB 67 valuation, using the consulting actuary's assumptions and methods and reproducing all work without relying on the consulting actuary, with reconciliation of discrepancies. Results of both are to be communicated to the consulting actuary before completion of the June 30, 2024 valuation.",
+    "acceptance": "Require both experience-study peer review and independent June 30, 2023 parallel valuation, including SRBR/GASB67 and discrepancy reconciliation. A concise account may group data and assumption checks; sample-agreement delivery details are optional.",
+    "text_hash": "612ac769f6b20e395be5d2aa2b38b7e34b8ea2f3e26f8e98d474dcd3da97e895",
+    "source_text_sha256": "44a1836a1354f4ce795c9252d5b103625a8ebfa77400d6ce5e341b7d38a7561e",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the City of Hartford MERF/OPEB RFP for a general investment consultant, not KCERA’s actuarial audit services RFP. It does not require an experience-study peer review or an independent June 30, 2023 parallel valuation including SRBR and GASB 67.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+        "The City Treasurer’s Office of Hartford, Connecticut is soliciting proposals for a full-service professional investment consulting firm",
+        "Under the direction of the City Treasurer and her designated staff, the consultant shall provide comprehensive full-retainer, general investment consulting advice and services."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+          "start": 235,
+          "end": 294
+        },
+        {
+          "quote": "The City Treasurer’s Office of Hartford, Connecticut is soliciting proposals for a full-service professional investment consulting firm",
+          "start": 926,
+          "end": 1061
+        },
+        {
+          "quote": "Under the direction of the City Treasurer and her designated staff, the consultant shall provide comprehensive full-retainer, general investment consulting advice and services.",
+          "start": 6178,
+          "end": 6354
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a City of Hartford RFP for general investment consulting services for its MERF and OPEB funds, not KCERA’s 2024 actuarial audit services RFP. It does not evidence the required experience-study peer review or independent June 30, 2023 parallel valuation, including SRBR and GASB 67.",
+      "quotes": [
+        "MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+        "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+        "the consultant shall provide comprehensive full-retainer, general investment consulting advice and services."
+      ],
+      "quote_matches": [
+        {
+          "quote": "MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+          "start": 49,
+          "end": 141
+        },
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+          "start": 235,
+          "end": 294
+        },
+        {
+          "quote": "the consultant shall provide comprehensive full-retainer, general investment consulting advice and services.",
+          "start": 6246,
+          "end": 6354
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

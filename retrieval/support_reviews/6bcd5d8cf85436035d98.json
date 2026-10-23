@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "6bcd5d8cf85436035d98",
+    "query_id": "CONS-05",
+    "question": "In the Shrewsbury Contributory Retirement System RFP for investment consultant services, how long is the chosen consultant expected to be retained?",
+    "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "expected_facts": "For five (5) years, not to exceed seven (7) years including any renewal, extension or option. The Board can terminate on thirty (30) days written notice.",
+    "acceptance": "Five years and seven-year total ceiling including renewals/extensions/options. Thirty-day termination is optional.",
+    "text_hash": "a98d524e6be406d219908f55d7669eccd66ebe00dac2da8fe751cb73c6c068e5",
+    "source_text_sha256": "f7992acf077bd43f56dcfe41af1dd3fdb115f4ea1c61bea284a8fb27b11a2ca2",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Texas Municipal Retirement System RFP, not the Shrewsbury Contributory Retirement System RFP. It does not specify a five-year retention period or a seven-year total ceiling; it says the term will be negotiated. Its draft agreement also provides for immediate termination rather than thirty days’ notice.",
+      "quotes": [
+        "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+        "The term of the initial contract will be negotiated and begin after approved by the Board of Trustees of TMRS.",
+        "TMRS may terminate this Agreement immediately upon written notice to Consultant for any reason or for no reason at any time during the Term of this Agreement"
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+          "start": 4270,
+          "end": 4370
+        },
+        {
+          "quote": "The term of the initial contract will be negotiated and begin after approved by the Board of Trustees of TMRS.",
+          "start": 5517,
+          "end": 5627
+        },
+        {
+          "quote": "TMRS may terminate this Agreement immediately upon written notice to Consultant for any reason or for no reason at any time during the Term of this Agreement",
+          "start": 60799,
+          "end": 60956
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

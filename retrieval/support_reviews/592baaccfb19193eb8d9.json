@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "592baaccfb19193eb8d9",
+    "query_id": "INV-15",
+    "question": "In the Baltimore City Employees' Retirement Systems (BCERS) RFP for an alternatives consultant, how many years must the proposing firm have been in business?",
+    "file": "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+    "expected_facts": "At least seven (7) years providing general consulting services plus private equity consulting services, or alternatives consulting services only (all minimum qualifications must be met as of November 8, 2024, 3:00 p.m. EDT).",
+    "acceptance": "Seven years is sufficient for the narrow question. Service type and qualification deadline are optional; five-year staff experience is not the firm threshold.",
+    "text_hash": "a73f8098a99029a40e97e080d66cdb97fc9c585944212d49c8006ef52d55da0f",
+    "source_text_sha256": "9a236643d7b4204fbdc4d7e63cf40d28896fa6aca7d4dca0b56d53d6261f1016",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2021 Arizona Public Safety Personnel Retirement System RFP, not the BCERS alternatives-consultant RFP. Its minimum requirements do not state a seven-year firm-in-business threshold or explicitly restate BCERS’s requirement.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL For NON-DISCRETIONARY INVESTMENT CONSULTANT SERVICES",
+        "Submissions Due: 5:00 pm MST, October 29, 2021",
+        "This Request for Proposal (“RFP”) is issued by the Board of Trustees (“Board”) of the Public Safety Personnel Retirement System (“System”)",
+        "Proposers must have a verifiable history of activity and adequate resources to carry out the service requirements in this solicitation."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL For NON-DISCRETIONARY INVESTMENT CONSULTANT SERVICES",
+          "start": 835,
+          "end": 908
+        },
+        {
+          "quote": "Submissions Due: 5:00 pm MST, October 29, 2021",
+          "start": 909,
+          "end": 955
+        },
+        {
+          "quote": "This Request for Proposal (“RFP”) is issued by the Board of Trustees (“Board”) of the Public Safety Personnel Retirement System (“System”)",
+          "start": 1142,
+          "end": 1280
+        },
+        {
+          "quote": "Proposers must have a verifiable history of activity and adequate resources to carry out the service requirements in this solicitation.",
+          "start": 12439,
+          "end": 12574
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

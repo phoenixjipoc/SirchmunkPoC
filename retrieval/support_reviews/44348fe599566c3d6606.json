@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "44348fe599566c3d6606",
+    "query_id": "INV-14",
+    "question": "In the Massachusetts PRIM Board's September 2026 RFP for Active Global Core Equity investment management services, what minimum total firm assets under management must a respondent have?",
+    "file": "SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+    "expected_facts": "At least $5 billion in total firm assets under management as of June 30, 2026.",
+    "acceptance": "At least $5bn total firm AUM as of June 30, 2026. Do not confuse firm AUM with product assets.",
+    "text_hash": "74059d0858a2db0c8f58f5c826a4294c6484eb59297243278164fed6a06be3bd",
+    "source_text_sha256": "59ab22e6fcedca8392d9d5d47b28976ca7b9c0f646d18aac11ba6979231c5d9d",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a fixed-income investment management questionnaire, not the Massachusetts PRIM Board's September 2026 Active Global Core Equity RFP. It requests AUM information but states no minimum total firm AUM or June 30, 2026 measurement date.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL FIXED INCOME INVESTMENT MANAGEMENT SERVICES",
+        "II. Assets Under Management - By client category (please use most recent data available)",
+        "Total Assets Under Management:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL FIXED INCOME INVESTMENT MANAGEMENT SERVICES",
+          "start": 20,
+          "end": 84
+        },
+        {
+          "quote": "II. Assets Under Management - By client category (please use most recent data available)",
+          "start": 2162,
+          "end": 2250
+        },
+        {
+          "quote": "Total Assets Under Management:",
+          "start": 2307,
+          "end": 2337
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "95f482f7ba6703419322",
+    "query_id": "SVC-11",
+    "question": "According to the City of Temple City's 457 deferred compensation plan administration and recordkeeping RFP, how many participants did the plan have and what were its total assets?",
+    "file": "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+    "expected_facts": "As of March 31, 2020: 46 participants with a balance (31 actively contributing, 15 non-active), and total assets of $1,894,729. The plan was administered by two recordkeepers, ICMA-RC and Voya (CalPERS).",
+    "acceptance": "46 participants and $1,894,729 as of March 31, 2020. Active/inactive split and recordkeepers are helpful but optional.",
+    "text_hash": "53d9721d2e2c3d6a51e0fc4bfb31c9316f7e85c40c0e7f0d49e078816ff62d05",
+    "source_text_sha256": "c2664794e00ae7c2cedc789c6096ac5a57a34278a2e7017af86c3eed125ae7ab",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Cook County manager-of-managers investment-services RFP, not the City of Temple City's 457 plan administration and recordkeeping RFP. Its asset figure concerns a different fund and date, and it provides no support for the requested participant count or assets.",
+      "quotes": [
+        "THE RETIREMENT BOARD OF THE COUNTY EMPLOYEES’ AND OFFICERS’ ANNUITY AND BENEFIT FUND OF COOK COUNTY",
+        "REQUEST FOR PROPOSALS (RFP) TO PROVIDE MANAGER OF MANAGERS INVESTMENT SERVICES",
+        "As of September 30, 2025, the Fund held approximately $14.7 billion in total plan assets."
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE RETIREMENT BOARD OF THE COUNTY EMPLOYEES’ AND OFFICERS’ ANNUITY AND BENEFIT FUND OF COOK COUNTY",
+          "start": 13,
+          "end": 112
+        },
+        {
+          "quote": "REQUEST FOR PROPOSALS (RFP) TO PROVIDE MANAGER OF MANAGERS INVESTMENT SERVICES",
+          "start": 212,
+          "end": 290
+        },
+        {
+          "quote": "As of September 30, 2025, the Fund held approximately $14.7 billion in total plan assets.",
+          "start": 3126,
+          "end": 3215
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "6ea2b2a0196e03928a0f",
+    "query_id": "DDQ-02",
+    "question": "Which due diligence questionnaire asks respondents what percentage of their current portfolio companies are located in New Jersey and what percentage are Life Science/Healthcare companies?",
+    "file": "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+    "expected_facts": "The NJEDA Appendix A Due Diligence Questionnaire (NJEDA Life Science Seed Fund notice of investment opportunity, 2023), question 4.6 under '4.0 Proposed Fund Investment Strategy'.",
+    "acceptance": "NJEDA Life Science Seed Fund DDQ is sufficient identification; 2023, Appendix A and Q4.6 are optional supporting detail.",
+    "text_hash": "53d9721d2e2c3d6a51e0fc4bfb31c9316f7e85c40c0e7f0d49e078816ff62d05",
+    "source_text_sha256": "c2664794e00ae7c2cedc789c6096ac5a57a34278a2e7017af86c3eed125ae7ab",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Cook County Manager of Managers RFP and questionnaire, not the NJEDA Life Science Seed Fund due diligence questionnaire. The supplied text does not ask for the percentages of portfolio companies located in New Jersey or in Life Science/Healthcare.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS (RFP) TO PROVIDE MANAGER OF MANAGERS INVESTMENT SERVICES",
+        "Attachment E Manager of Managers Due Diligence Questionnaire"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS (RFP) TO PROVIDE MANAGER OF MANAGERS INVESTMENT SERVICES",
+          "start": 212,
+          "end": 290
+        },
+        {
+          "quote": "Attachment E Manager of Managers Due Diligence Questionnaire",
+          "start": 24221,
+          "end": 24281
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

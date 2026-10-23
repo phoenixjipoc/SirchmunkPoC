@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "8a30acb447a80e3d6ef4",
+    "query_id": "CONS-09",
+    "question": "Which retirement system's investment consultant RFP requires firms to certify that they currently provide investment consulting services to clients whose combined assets total at least $50 billion?",
+    "file": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+    "expected_facts": "Teachers' Retirement System of the State of Illinois (TRS Illinois), in its FY23 investment consultant RFP (Appendix B, Statement of Minimum Qualifications).",
+    "acceptance": "TRS Illinois / Teachers’ Retirement System of the State of Illinois is sufficient; FY23 and appendix identifier are optional.",
+    "text_hash": "6b179eedd0acf11d4033b486705b8677fb78308e47584950c128cde739d4f025",
+    "source_text_sha256": "81bbcbe9365fdc601c3f939281acb26f90195cb62f71e9af6d67ff79a5c33f94",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is Boston Retirement System’s RFP for actuarial and pension-benefit consulting services, not a TRS Illinois investment consultant RFP. Its minimum criteria do not contain the specified $50 billion client-assets certification.",
+      "quotes": [
+        "Request for Proposal Actuarial and Consulting Services for Pension Benefits Boston Retirement System September 12, 2022",
+        "The Boston Retirement System (“BRS”), hereby requests sealed proposals from interested and qualified actuary firms (“Offerors”) to provide actuarial and consulting services including, but not limited to providing a biennial valuation.",
+        "Appendix B: Minimum Evaluation Criteria"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Actuarial and Consulting Services for Pension Benefits Boston Retirement System September 12, 2022",
+          "start": 13,
+          "end": 132
+        },
+        {
+          "quote": "The Boston Retirement System (“BRS”), hereby requests sealed proposals from interested and qualified actuary firms (“Offerors”) to provide actuarial and consulting services including, but not limited to providing a biennial valuation.",
+          "start": 9911,
+          "end": 10145
+        },
+        {
+          "quote": "Appendix B: Minimum Evaluation Criteria",
+          "start": 9507,
+          "end": 9546
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

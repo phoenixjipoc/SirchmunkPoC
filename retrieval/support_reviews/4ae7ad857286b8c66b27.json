@@ -1,0 +1,87 @@
+{
+  "job": {
+    "id": "4ae7ad857286b8c66b27",
+    "query_id": "INV-18",
+    "question": "What is the full timetable in the City of York (Pennsylvania) Pension Funds' November 2016 RFP for an investment manager, adviser or consultant?",
+    "file": "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+    "expected_facts": "RFP issued November 28, 2016; questions due December 12, 2016; responses to questions posted December 16, 2016; proposals due January 6, 2017; interviewees notified February 17, 2017; interviews March 13-17, 2017; selected manager notified May 19, 2017; investment agreement signed June 16, 2017; mandate begins July 1, 2017.",
+    "acceptance": "Accept equivalent date formatting and March 13–17 as a range. The amendment reservation is optional.",
+    "text_hash": "7ca1e14444ead93c558b519eddbe0502bb5f080ce8678e247801de0ecb9652b8",
+    "source_text_sha256": "ff5ef248d4411638a865914ce676b07109767b5888006ef4708fd3c12c06a986",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2024 investment-consulting RFP issued by the New York City Board of Education Retirement System, not the City of York (Pennsylvania) Pension Funds’ November 2016 RFP. Its timetable does not provide the requested 2016–2017 milestones.",
+      "quotes": [
+        "This Request for Proposals (“RFP”) is issued by the NYC Board of Education Retirement System (“BERS” or the “Agency”).",
+        "REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES RFP # 2024-003",
+        "Release of RFP Monday, May 6, 2024",
+        "Proposal Due Date Friday, July 12, 2024"
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposals (“RFP”) is issued by the NYC Board of Education Retirement System (“BERS” or the “Agency”).",
+          "start": 5004,
+          "end": 5122
+        },
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES RFP # 2024-003",
+          "start": 13,
+          "end": 84
+        },
+        {
+          "quote": "Release of RFP Monday, May 6, 2024",
+          "start": 61615,
+          "end": 61649
+        },
+        {
+          "quote": "Proposal Due Date Friday, July 12, 2024",
+          "start": 61851,
+          "end": 61890
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a 2024 investment-consulting RFP issued by the New York City Board of Education Retirement System, not the City of York (Pennsylvania) Pension Funds’ November 2016 RFP. Its timetable does not evidence the requested 2016–2017 dates.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES RFP # 2024-003",
+        "This Request for Proposals (“RFP”) is issued by the NYC Board of Education Retirement System (“BERS” or the “Agency”).",
+        "Release of RFP Monday, May 6, 2024",
+        "Proposal Due Date Friday, July 12, 2024"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES RFP # 2024-003",
+          "start": 13,
+          "end": 84
+        },
+        {
+          "quote": "This Request for Proposals (“RFP”) is issued by the NYC Board of Education Retirement System (“BERS” or the “Agency”).",
+          "start": 5004,
+          "end": 5122
+        },
+        {
+          "quote": "Release of RFP Monday, May 6, 2024",
+          "start": 61615,
+          "end": 61649
+        },
+        {
+          "quote": "Proposal Due Date Friday, July 12, 2024",
+          "start": 61851,
+          "end": 61890
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

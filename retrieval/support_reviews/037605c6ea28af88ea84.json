@@ -1,0 +1,87 @@
+{
+  "job": {
+    "id": "037605c6ea28af88ea84",
+    "query_id": "OTH-08",
+    "question": "A foundation is seeking an Outsourced Chief Investment Officer that can manage a sleeve of place-based private investments in Philadelphia. How large is its endowment, and what is the response deadline?",
+    "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "expected_facts": "About $50 million endowment; responses due no later than February 13, 2026, 5 PM (Samuel S. Fels Fund).",
+    "acceptance": "Approximately $50m and February13,2026 at 5pm. Foundation name is optional; no timezone is specified or required.",
+    "text_hash": "2e5c9ac10ac2943a19269fe0ceeab6dc6cca5c9b732ec461770764bed168feeb",
+    "source_text_sha256": "698b71034e03dda497378807f02ef9875cc985ad2aafde5d24accec7bdff2d4b",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2016 South Carolina retirement-system consulting RFP, not the foundation’s Philadelphia place-based private-investment OCIO solicitation. Its stated portfolio size and proposal deadline concern a different entity and cannot support either requested fact.",
+      "quotes": [
+        "The South Carolina Retirement System Investment Commission (“RSIC”, or “Client”) is requesting competitive proposals",
+        "the $28 billion portfolio of the South Carolina Retirement Systems",
+        "This is not a full retainer general consulting mandate.",
+        "RSIC intends to retain other consultants who will have primary oversight of the Retirement System’s alternative investments, including private equity, private debt, and real assets.",
+        "Deadline for Proposal Submission December 1, 2016 – 5:00 p.m. EST"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The South Carolina Retirement System Investment Commission (“RSIC”, or “Client”) is requesting competitive proposals",
+          "start": 304,
+          "end": 420
+        },
+        {
+          "quote": "the $28 billion portfolio of the South Carolina Retirement Systems",
+          "start": 634,
+          "end": 700
+        },
+        {
+          "quote": "This is not a full retainer general consulting mandate.",
+          "start": 18031,
+          "end": 18086
+        },
+        {
+          "quote": "RSIC intends to retain other consultants who will have primary oversight of the Retirement System’s alternative investments, including private equity, private debt, and real assets.",
+          "start": 18087,
+          "end": 18268
+        },
+        {
+          "quote": "Deadline for Proposal Submission December 1, 2016 – 5:00 p.m. EST",
+          "start": 3723,
+          "end": 3788
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2016 general investment consulting RFP from the South Carolina Retirement System Investment Commission, not the Philadelphia foundation’s OCIO solicitation. It gives a $28 billion retirement portfolio and a December 1, 2016 proposal deadline, not the requested endowment or deadline.",
+      "quotes": [
+        "The South Carolina Retirement System Investment Commission (“RSIC”, or “Client”) is requesting competitive proposals",
+        "investment consulting services for the $28 billion portfolio of the South Carolina Retirement Systems",
+        "Proposals, one (1) original and ten (10) copies, must be submitted to the Contact no later than 5:00 p.m. EST on 12/1/16."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The South Carolina Retirement System Investment Commission (“RSIC”, or “Client”) is requesting competitive proposals",
+          "start": 304,
+          "end": 420
+        },
+        {
+          "quote": "investment consulting services for the $28 billion portfolio of the South Carolina Retirement Systems",
+          "start": 599,
+          "end": 700
+        },
+        {
+          "quote": "Proposals, one (1) original and ten (10) copies, must be submitted to the Contact no later than 5:00 p.m. EST on 12/1/16.",
+          "start": 2581,
+          "end": 2702
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

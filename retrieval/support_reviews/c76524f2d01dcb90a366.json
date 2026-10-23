@@ -1,0 +1,87 @@
+{
+  "job": {
+    "id": "c76524f2d01dcb90a366",
+    "query_id": "OTH-03",
+    "question": "In Rice University's 2021 RFP for audit services for its retirement plans, how many participants did the 401(a) plan and the 403(b) plan have as of December 31, 2020?",
+    "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "expected_facts": "401(a) plan: 8,828 participants; 403(b) plan: 7,533 participants (as of December 31, 2020).",
+    "acceptance": "Accept 8,828 for 401(a) and 7,533 for 403(b); do not transpose.",
+    "text_hash": "6c44b43272ac16f4bd8efdebfb5b71a666753ca71b3f0242c213453c6a30a56a",
+    "source_text_sha256": "a171986940a15f77f516b2eed48ea13f5e49967c592369ad8f87250248f2b907",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2021 Delaware Office of the State Treasurer RFP for recordkeeping and administration, not Rice University's RFP for retirement-plan audit services. Its participant figures concern Delaware plans and do not support the requested Rice University counts.",
+      "quotes": [
+        "ISSUED BY THE OFFICE OF THE STATE TREASURER",
+        "to provide recordkeeping and administrative services for the three plans",
+        "As of December 31, 2020, there were 5,626 participants actively contributing to 403(b) Plan accounts on the Vendor platform and 7,002 unique participants with accounts on that platform.",
+        "As of December 31, 2020, the Match Plan had approximately $25.6 million of assets and 8,991 participants."
+      ],
+      "quote_matches": [
+        {
+          "quote": "ISSUED BY THE OFFICE OF THE STATE TREASURER",
+          "start": 107,
+          "end": 150
+        },
+        {
+          "quote": "to provide recordkeeping and administrative services for the three plans",
+          "start": 453,
+          "end": 525
+        },
+        {
+          "quote": "As of December 31, 2020, there were 5,626 participants actively contributing to 403(b) Plan accounts on the Vendor platform and 7,002 unique participants with accounts on that platform.",
+          "start": 11060,
+          "end": 11245
+        },
+        {
+          "quote": "As of December 31, 2020, the Match Plan had approximately $25.6 million of assets and 8,991 participants.",
+          "start": 12763,
+          "end": 12868
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied source is a 2021 State of Delaware RFP for deferred compensation plan recordkeeping, not Rice University's RFP for retirement-plan audit services. Its participant figures therefore cannot establish the requested Rice University counts.",
+      "quotes": [
+        "ISSUED BY THE OFFICE OF THE STATE TREASURER",
+        "CONTRACT NUMBER: TRE-CPM-21101- DEFERRED COMPENSATION PLAN RECORDKEEPING AND ADMINISTRATION SERVICES",
+        "As of December 31, 2020, there were 5,626 participants actively contributing to 403(b) Plan accounts on the Vendor platform and 7,002 unique participants with accounts on that platform.",
+        "As of December 31, 2020, the Match Plan had approximately $25.6 million of assets and 8,991 participants."
+      ],
+      "quote_matches": [
+        {
+          "quote": "ISSUED BY THE OFFICE OF THE STATE TREASURER",
+          "start": 107,
+          "end": 150
+        },
+        {
+          "quote": "CONTRACT NUMBER: TRE-CPM-21101- DEFERRED COMPENSATION PLAN RECORDKEEPING AND ADMINISTRATION SERVICES",
+          "start": 151,
+          "end": 251
+        },
+        {
+          "quote": "As of December 31, 2020, there were 5,626 participants actively contributing to 403(b) Plan accounts on the Vendor platform and 7,002 unique participants with accounts on that platform.",
+          "start": 11060,
+          "end": 11245
+        },
+        {
+          "quote": "As of December 31, 2020, the Match Plan had approximately $25.6 million of assets and 8,991 participants.",
+          "start": 12763,
+          "end": 12868
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

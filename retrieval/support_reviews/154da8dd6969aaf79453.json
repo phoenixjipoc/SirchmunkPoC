@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "154da8dd6969aaf79453",
+    "query_id": "DDQ-02",
+    "question": "Which due diligence questionnaire asks respondents what percentage of their current portfolio companies are located in New Jersey and what percentage are Life Science/Healthcare companies?",
+    "file": "ILPA__ILPA-DDQ-2.0.pdf",
+    "expected_facts": "The NJEDA Appendix A Due Diligence Questionnaire (NJEDA Life Science Seed Fund notice of investment opportunity, 2023), question 4.6 under '4.0 Proposed Fund Investment Strategy'.",
+    "acceptance": "NJEDA Life Science Seed Fund DDQ is sufficient identification; 2023, Appendix A and Q4.6 are optional supporting detail.",
+    "text_hash": "8907145b1f077ef656f1eedcccb1c6e6cf91c5a42ababaeed03deb50236309d2",
+    "source_text_sha256": "acc7566c61a7afaabbe215a9f1337c86e1dd116ccf7ba67eeb84894f94ea4c98",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is ILPA’s 2021 questionnaire, not the NJEDA Life Science Seed Fund DDQ. Its question 4.6 asks about future changes to investment strategy, not the percentages of portfolio companies in New Jersey and in Life Science/Healthcare.",
+      "quotes": [
+        "Due Diligence Questionnaire 2.0 Updated November 2021",
+        "Institutional Limited Partners Association",
+        "4.6 Is the Firm’s/Fund’s investment strategy expected to change in the future?"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Due Diligence Questionnaire 2.0 Updated November 2021",
+          "start": 13,
+          "end": 66
+        },
+        {
+          "quote": "Institutional Limited Partners Association",
+          "start": 1463,
+          "end": 1505
+        },
+        {
+          "quote": "4.6 Is the Firm’s/Fund’s investment strategy expected to change in the future?",
+          "start": 35633,
+          "end": 35711
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

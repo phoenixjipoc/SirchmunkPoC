@@ -4,6 +4,8 @@ import json
 import subprocess
 from pathlib import Path
 
+from runtime_config import search_model
+
 ROOT = Path(__file__).resolve().parents[1]
 CONTAINER_SCRIPT = r'''
 import asyncio, hashlib, importlib.metadata, inspect, json, os, subprocess, time
@@ -46,7 +48,8 @@ asyncio.run(main())
 
 def run(output):
     output.mkdir(parents=True, exist_ok=True)
-    proc = subprocess.run(['docker','exec','-i','sirchmunk','python','-'], input=CONTAINER_SCRIPT,
+    proc = subprocess.run(['docker','exec','-i','-e',f'LLM_MODEL_NAME={search_model()}',
+                           'sirchmunk','python','-'], input=CONTAINER_SCRIPT,
                           capture_output=True,text=True,encoding='utf-8',errors='replace')
     (output/'preflight.log').write_text(proc.stdout+'\n'+proc.stderr,encoding='utf-8')
     if proc.returncode:

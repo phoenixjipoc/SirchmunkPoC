@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "ab2d89639b87596185bc",
+    "query_id": "SVC-04",
+    "question": "In the Contra Costa County Employees' Retirement Association (CCCERA) April 2018 master custodian RFP, how many copies of the proposal must be submitted, and for how long must the proposal remain a firm and irrevocable offer?",
+    "file": "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+    "expected_facts": "One (1) original proposal, four (4) hard copies and one (1) copy in electronic form; the proposal must be a firm and irrevocable offer good for one year from the proposal due date (due 5:00 p.m. PT, Friday, May 25, 2018).",
+    "acceptance": "Accept five paper sets total if the original is clearly included, plus one electronic copy; validity one year from due date. Actual proposal deadline is optional.",
+    "text_hash": "30d68f8537639ec2cf4b5e89f75c53d4f7a34757aa577e6eaca8744b155f28c0",
+    "source_text_sha256": "53569804783646aac401541d4bd8f06ca4371d2199a59c44ad06613e10455875",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is PRIM’s September 2026 active global core equity RFP, not CCCERA’s April 2018 master custodian RFP. Its electronic-submission and irrevocability provisions do not establish CCCERA’s required copies or one-year offer period.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS (RFP) Active Global Core Equity Investment Management Services September 8, 2026",
+        "Proposals, including all attachments, must be delivered electronically via e-mail to Andre Abouhala at rfpresponses@mapension.com",
+        "a statement to the effect that the response is a firm and irrevocable offer of the respondent."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS (RFP) Active Global Core Equity Investment Management Services September 8, 2026",
+          "start": 1613,
+          "end": 1715
+        },
+        {
+          "quote": "Proposals, including all attachments, must be delivered electronically via e-mail to Andre Abouhala at rfpresponses@mapension.com",
+          "start": 12724,
+          "end": 12853
+        },
+        {
+          "quote": "a statement to the effect that the response is a firm and irrevocable offer of the respondent.",
+          "start": 15379,
+          "end": 15473
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

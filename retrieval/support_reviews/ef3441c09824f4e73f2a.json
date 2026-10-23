@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "ef3441c09824f4e73f2a",
+    "query_id": "CONS-11",
+    "question": "What is the proposal submission deadline in the Teachers' Retirement System of Oklahoma investment consultant RFP?",
+    "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "expected_facts": "4:00 p.m. Central Time on January 14, 2026.",
+    "acceptance": "January 14, 2026, 4pm Central Time. CT or CST acceptable for the January date.",
+    "text_hash": "a98d524e6be406d219908f55d7669eccd66ebe00dac2da8fe751cb73c6c068e5",
+    "source_text_sha256": "f7992acf077bd43f56dcfe41af1dd3fdb115f4ea1c61bea284a8fb27b11a2ca2",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2022 Texas Municipal Retirement System RFP, not the Teachers' Retirement System of Oklahoma investment consultant RFP. Its submission deadline is different, so it does not support the requested deadline.",
+      "quotes": [
+        "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+        "Responses must be received no later than 5:00 p.m. Central Standard Time (CST) on March 3, 2022."
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+          "start": 4270,
+          "end": 4370
+        },
+        {
+          "quote": "Responses must be received no later than 5:00 p.m. Central Standard Time (CST) on March 3, 2022.",
+          "start": 410,
+          "end": 506
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

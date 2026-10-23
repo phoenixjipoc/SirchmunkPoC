@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "9d76e9e52af9f6a781bb",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "6c44b43272ac16f4bd8efdebfb5b71a666753ca71b3f0242c213453c6a30a56a",
+    "source_text_sha256": "a171986940a15f77f516b2eed48ea13f5e49967c592369ad8f87250248f2b907",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Delaware deferred-compensation recordkeeping RFP, not the SBCERS global custody RFP. Its evaluation table uses different categories and point values, and it does not state the four requested criteria with 30/40/5/25% weights.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL FOR DEFERRED COMPENSATION PLAN RECORDKEEPING AND ADMINISTRATION SERVICES ISSUED BY THE OFFICE OF THE STATE TREASURER",
+        "By this request for proposal (“RFP”), the Office of the State Treasurer (“OST”), on behalf of the Plans Management Board (“Board”), is seeking proposals from qualified vendors",
+        "Proposals that meet submission requirements of the RFP will be evaluated and scored based on the criteria and points system set forth in the table below."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL FOR DEFERRED COMPENSATION PLAN RECORDKEEPING AND ADMINISTRATION SERVICES ISSUED BY THE OFFICE OF THE STATE TREASURER",
+          "start": 13,
+          "end": 150
+        },
+        {
+          "quote": "By this request for proposal (“RFP”), the Office of the State Treasurer (“OST”), on behalf of the Plans Management Board (“Board”), is seeking proposals from qualified vendors",
+          "start": 264,
+          "end": 439
+        },
+        {
+          "quote": "Proposals that meet submission requirements of the RFP will be evaluated and scored based on the criteria and points system set forth in the table below.",
+          "start": 41181,
+          "end": 41334
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

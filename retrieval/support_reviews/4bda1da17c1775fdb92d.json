@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "4bda1da17c1775fdb92d",
+    "query_id": "CONS-14",
+    "question": "What are all the minimum requirements in Section 2 (pages 4–5) of the City of Hartford MERF general investment consultant RFP?",
+    "file": "INPRS__RFP24-05_AuditServices.pdf",
+    "expected_facts": "Section2 requires: (1) at least ten years providing general consulting; (2) senior leadership together at least three years; (3) no subcontracting account management, and all responsible personnel are employees; (4) currently consulting for at least five public pension funds each over $1.5bn; (5) primary consultant has at least five years of defined-benefit public-pension consulting and at least three years employed by proposer; (6) fiduciary service to MERF/OPEB and written compliance with their investment policies/guidelines; (7) no existing or potential material conflicts with the City Treasurer/staff, Pension Commission, OPEB Committee, actuary, auditor, managers or other providers; (8) agree to execute a contract similar to AppendixE; (9) current SEC investment-adviser registration; (10) carry or have applied by submission for general liability $5m, E&O/professional liability $5m, fiduciary liability $1m, workers' compensation/employer liability $1m, and cybersecurity $1m. Section2 says all qualifications must be met by March15,2024 at 5pm ET and AppendixA certification must be completed. AppendixA separately uses different client-threshold/history and insurance-date wording; this answer follows Section2 as asked.",
+    "acceptance": "Require all ten Section2 bullet requirements and five insurance limits when asking 'all'. If the question retains whole-document scope, allow explanation of Section2 versus AppendixA differences rather than forcing a single contradictory date or >/$1.5bn threshold.",
+    "text_hash": "c91a90645d9659e59cf92c848073c9a4293275c8ab6c443e5ea6557a9cce6d3a",
+    "source_text_sha256": "cd68d7342246afa44a13ddc9cd569953afbc71f71001c6d34468336403cd1683",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is an Indiana Public Retirement System audit-services RFP, not the City of Hartford MERF general investment consultant RFP. Its Section 2 begins on page 8 and addresses proposal content, so it cannot establish the requested Section 2 minimum qualifications on pages 4–5.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS (“RFP”) for AUDIT SERVICES RFP NUMBER 24-05",
+        "Request for Proposals (“RFP”) for Audit Services for the Indiana Public Retirement System (“INPRS” or the “System”)",
+        "SECTION 2 – PROPOSAL CONTENT REQUIREMENTS",
+        "INPRS is issuing this RFP in accordance with Indiana statutes governing the procurement of services and certain administrative policies of INPRS."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) for AUDIT SERVICES RFP NUMBER 24-05",
+          "start": 13,
+          "end": 78
+        },
+        {
+          "quote": "Request for Proposals (“RFP”) for Audit Services for the Indiana Public Retirement System (“INPRS” or the “System”)",
+          "start": 2169,
+          "end": 2284
+        },
+        {
+          "quote": "SECTION 2 – PROPOSAL CONTENT REQUIREMENTS",
+          "start": 1249,
+          "end": 1290
+        },
+        {
+          "quote": "INPRS is issuing this RFP in accordance with Indiana statutes governing the procurement of services and certain administrative policies of INPRS.",
+          "start": 5031,
+          "end": 5176
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "fc65bc743d874c611e62",
+    "query_id": "OTH-11",
+    "question": "What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2017?",
+    "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "expected_facts": "November 27, 2017 by 4:30 p.m. (H.S.T.).",
+    "acceptance": "November27,2017 at 4:30pm HST; equivalent date/time format accepted.",
+    "text_hash": "e529592be16077691cd54aac3c1a9e7ed524ba5b471c34ebf5ebe0296f8ab615",
+    "source_text_sha256": "40f6e66cda735b5ac3e65bb52c7627bc76b11a8e7017ca73d4ed3e9b2360ca3a",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Austin Employees’ Retirement System RFP for general investment consulting, not the 2017 Hawaii ERS RFP for private equity consulting. Its proposal deadline is in 2024 and does not support the requested deadline.",
+      "quotes": [
+        "City of Austin Employees’ Retirement System",
+        "REQUEST FOR PROPOSAL GENERAL INVESTMENT CONSULTANT",
+        "Proposals must be submitted on or before 5:00 p.m. Central Standard Time February 9, 2024"
+      ],
+      "quote_matches": [
+        {
+          "quote": "City of Austin Employees’ Retirement System",
+          "start": 154,
+          "end": 197
+        },
+        {
+          "quote": "REQUEST FOR PROPOSAL GENERAL INVESTMENT CONSULTANT",
+          "start": 7550,
+          "end": 7600
+        },
+        {
+          "quote": "Proposals must be submitted on or before 5:00 p.m. Central Standard Time February 9, 2024",
+          "start": 64,
+          "end": 153
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

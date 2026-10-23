@@ -1,0 +1,27 @@
+{
+  "job": {
+    "id": "8ff8fa3b3bbc4e914afd",
+    "query_id": "XD-03",
+    "question": "How many working-group participant entries are listed in the appendix of the PRI covering note on the 2021 update of its private equity responsible investment DDQ (counting the joint TPG & Y Analytics entry once), and who represented CalPERS and CalSTRS?",
+    "file": "ILPA__ILPA-DDQ-2.0.pdf",
+    "expected_facts": "31 listed participant entries, counting TPG & Y Analytics once. CalPERS was represented by James Andrus; CalSTRS by Nicholas Abel.",
+    "acceptance": "Accept 31 listed/grouped participant entries with James Andrus for CalPERS and Nicholas Abel for CalSTRS. A respondent flagging the joint TPG/Y Analytics counting issue should not be failed for not asserting 31 distinct organisations.",
+    "text_hash": "8907145b1f077ef656f1eedcccb1c6e6cf91c5a42ababaeed03deb50236309d2",
+    "source_text_sha256": "acc7566c61a7afaabbe215a9f1337c86e1dd116ccf7ba67eeb84894f94ea4c98",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "reviewer": "A",
+      "coverage": "uncertain",
+      "error": "APIConnectionError: Connection error."
+    },
+    {
+      "reviewer": "B",
+      "coverage": "uncertain",
+      "error": "APIConnectionError: Connection error."
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": null
+}

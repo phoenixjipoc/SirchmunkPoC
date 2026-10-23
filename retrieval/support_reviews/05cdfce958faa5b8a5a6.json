@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "05cdfce958faa5b8a5a6",
+    "query_id": "OTH-05",
+    "question": "Under Missouri LAGERS' private markets consultant RFP, how many public fund clients of what minimum size must a respondent provide non-discretionary private market investment consulting to?",
+    "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "expected_facts": "At least three public fund clients with assets of at least $10 billion (as of March 31, 2024).",
+    "acceptance": "At least three public-fund clients with at least $10bn each. March31,2024 is a useful qualifier, not a separately asked fact.",
+    "text_hash": "5afc5adec694c195f2977417c376c45b4856a88e72d30c0e1953e2403af08eac",
+    "source_text_sha256": "add3ba83b3e17f098f096c1bf8b5d5000ad39375300bba2e2b398c7d805cf7a6",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is CCCERA’s April 2018 master-custodian RFP, not Missouri LAGERS’ private-markets consultant RFP. Its client minimum concerns custodial services and requires 10 public funds with $1 billion each, not non-discretionary private-markets consulting for three public funds with at least $10 billion each.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+        "The Proposer must have a total number of at least 30 custodial defined benefit clients, including at least 10 public funds, with $1 billion each in tax-exempt assets or greater."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+          "start": 13,
+          "end": 141
+        },
+        {
+          "quote": "The Proposer must have a total number of at least 30 custodial defined benefit clients, including at least 10 public funds, with $1 billion each in tax-exempt assets or greater.",
+          "start": 17329,
+          "end": 17506
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "31e2e9876c884876ad01",
+    "query_id": "DDQ-01",
+    "question": "Which due diligence questionnaire in the corpus asks the manager 'What kills a deal for your team?', and who published it?",
+    "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "expected_facts": "The Private Markets Due Diligence Questionnaire ('Your Resource for Evaluating Private Market Partners') published by Calamos Investments with Aksia (file AC_Private_Markets). The question appears under General Questions > Investment Strategy and asks the manager to describe a recent example.",
+    "acceptance": "AC Private Markets / Calamos with Aksia accepted. Subtitle, copyright year and recent-example follow-up are optional.",
+    "text_hash": "8001c2935fd31d857e13d33885aca5873ce1465a74d1278f1e59f19d21fdfb34",
+    "source_text_sha256": "f8a7e1654c092344faef93294e84556e3d65ac1d18c78ee01b0fed8bc16b22fb",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is INREV’s Funds of Funds / Multi Manager questionnaire. It does not contain the quoted deal-killer question or identify Calamos Investments with Aksia as its publisher.",
+      "quotes": [
+        "Funds of Funds / Multi Manager DDQ 2022",
+        "The Due Diligence Questionnaire (DDQ) for Funds of Funds and Multi Manager (INREV FoF / MM DDQ) is part of the due diligence protocol which was first launched in April 2007."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Funds of Funds / Multi Manager DDQ 2022",
+          "start": 61797,
+          "end": 61836
+        },
+        {
+          "quote": "The Due Diligence Questionnaire (DDQ) for Funds of Funds and Multi Manager (INREV FoF / MM DDQ) is part of the due diligence protocol which was first launched in April 2007.",
+          "start": 1256,
+          "end": 1429
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

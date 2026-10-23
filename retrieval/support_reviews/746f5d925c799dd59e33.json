@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "746f5d925c799dd59e33",
+    "query_id": "CONS-05",
+    "question": "In the Shrewsbury Contributory Retirement System RFP for investment consultant services, how long is the chosen consultant expected to be retained?",
+    "file": "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+    "expected_facts": "For five (5) years, not to exceed seven (7) years including any renewal, extension or option. The Board can terminate on thirty (30) days written notice.",
+    "acceptance": "Five years and seven-year total ceiling including renewals/extensions/options. Thirty-day termination is optional.",
+    "text_hash": "a73f8098a99029a40e97e080d66cdb97fc9c585944212d49c8006ef52d55da0f",
+    "source_text_sha256": "9a236643d7b4204fbdc4d7e63cf40d28896fa6aca7d4dca0b56d53d6261f1016",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Arizona Public Safety Personnel Retirement System RFP, not the Shrewsbury Contributory Retirement System RFP. Its proposed contract term is three years with two possible one-year extensions; it does not support the required five-year term or seven-year total ceiling.",
+      "quotes": [
+        "This Request for Proposal (“RFP”) is issued by the Board of Trustees (“Board”) of the Public Safety Personnel Retirement System (“System”)",
+        "It is anticipated that the contract will be offered for an initial term of three years, with two possible one- year extensions before it will be bid again."
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (“RFP”) is issued by the Board of Trustees (“Board”) of the Public Safety Personnel Retirement System (“System”)",
+          "start": 1142,
+          "end": 1280
+        },
+        {
+          "quote": "It is anticipated that the contract will be offered for an initial term of three years, with two possible one- year extensions before it will be bid again.",
+          "start": 20783,
+          "end": 20938
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

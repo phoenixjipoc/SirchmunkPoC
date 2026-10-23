@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "40431c154d2719acd065",
+    "query_id": "XD-14",
+    "question": "What questions are asked under section 10.0 'ESG (Environmental, Social, Governance)' of the NJEDA Life Science Seed Fund due diligence questionnaire (Appendix A)?",
+    "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "expected_facts": "Eight questions: 10.1 the role of the respondent's internal advisory board(s), all matters referred to them (including unresolved ones) and any other governing/advisory bodies; 10.2 conflicts of interest (potential, current, historic) and how they are identified, managed, disclosed (e.g. to the LPAC) and resolved, including any conflict committees; 10.3 the policy on personal investments by employees or affiliates in deals the respondent reviewed; 10.4 whether the respondent is a registered investment advisor (RIA); 10.5 the respondent's ESG-related policies and how ESG factors influence its investment beliefs; 10.6 the implementation status of its responsible investment policy and any plans to develop its approach to ESG; 10.7 how it contributes to portfolio companies' management of ESG risks and opportunities; 10.8 the monitoring processes it would use to assess the proposed Fund's portfolio companies' management of ESG factors.",
+    "acceptance": "Eight topics 10.1–10.8 required in substance, including portfolio-company ESG assistance and monitoring. Exact question wording and numbering are optional.",
+    "text_hash": "671c411958eb874cfc800e9ef62f40b39ce0a3618032e31c58dc0911d1ac78ca",
+    "source_text_sha256": "a59653c4763af085dd01d7961474b0d3e4d1e15ac1d4029f77327171d4183a79",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Missouri LAGERS private-market consulting RFP, not the NJEDA Life Science Seed Fund due diligence questionnaire (Appendix A). It does not contain section 10.0 or the eight ESG questions.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL PRIVATE MARKET CONSULTING SERVICES",
+        "Missouri Local Government Employees Retirement System (LAGERS)",
+        "Section 4: Questionnaire"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL PRIVATE MARKET CONSULTING SERVICES",
+          "start": 13,
+          "end": 68
+        },
+        {
+          "quote": "Missouri Local Government Employees Retirement System (LAGERS)",
+          "start": 92,
+          "end": 154
+        },
+        {
+          "quote": "Section 4: Questionnaire",
+          "start": 3424,
+          "end": 3448
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

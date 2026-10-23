@@ -1,0 +1,20 @@
+{
+  "query_id": "DDQ-02",
+  "question": "Which due diligence questionnaire asks respondents what percentage of their current portfolio companies are located in New Jersey and what percentage are Life Science/Healthcare companies?",
+  "type": "detail",
+  "pair_id": "",
+  "seed": 3577322391,
+  "references": [],
+  "status": "query_error",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "error": "APIConnectionError: Connection error.",
+  "elapsed_s": 0.073,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  }
+}

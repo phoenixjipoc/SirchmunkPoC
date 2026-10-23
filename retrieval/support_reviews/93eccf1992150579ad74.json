@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "93eccf1992150579ad74",
+    "query_id": "CONS-11",
+    "question": "What is the proposal submission deadline in the Teachers' Retirement System of Oklahoma investment consultant RFP?",
+    "file": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "expected_facts": "4:00 p.m. Central Time on January 14, 2026.",
+    "acceptance": "January 14, 2026, 4pm Central Time. CT or CST acceptable for the January date.",
+    "text_hash": "e208b396d807c84110e10df7ec74d980a1905d8e99839a26651b44e9927a80ca",
+    "source_text_sha256": "48df375d7d5f4c68eef011c530a1b8e2446893a55aa03aa4e9c6a423a07b3e4c",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2011 District of Columbia Retirement Board real assets consulting RFP, not the Teachers' Retirement System of Oklahoma investment consultant RFP. Its proposal deadline is February 25, 2011, not January 14, 2026.",
+      "quotes": [
+        "District of Columbia Retirement Board",
+        "Request for Proposal Real Assets Investment Consulting Services",
+        "Proposal Due Date: February 25, 2011 at 5:00 p.m. EST"
+      ],
+      "quote_matches": [
+        {
+          "quote": "District of Columbia Retirement Board",
+          "start": 13,
+          "end": 50
+        },
+        {
+          "quote": "Request for Proposal Real Assets Investment Consulting Services",
+          "start": 105,
+          "end": 168
+        },
+        {
+          "quote": "Proposal Due Date: February 25, 2011 at 5:00 p.m. EST",
+          "start": 345,
+          "end": 398
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

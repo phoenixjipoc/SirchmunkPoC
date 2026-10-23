@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "edf467430774c459b325",
+    "query_id": "OTH-05",
+    "question": "Under Missouri LAGERS' private markets consultant RFP, how many public fund clients of what minimum size must a respondent provide non-discretionary private market investment consulting to?",
+    "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "expected_facts": "At least three public fund clients with assets of at least $10 billion (as of March 31, 2024).",
+    "acceptance": "At least three public-fund clients with at least $10bn each. March31,2024 is a useful qualifier, not a separately asked fact.",
+    "text_hash": "1293d72cf747218c60a7c2a6d672307dfc4ed9a219b9d94748104754f6a40b02",
+    "source_text_sha256": "7ed4136b9f78094e292fd0483fe60026c36824af173945e88edf069fb23a58f7",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a SURS Illinois investment-manager RFP template, not Missouri LAGERS’ private-markets consultant RFP. Its public-fund client criterion is preferred, specifies different numbers and asset sizes, and does not concern non-discretionary private-market consulting.",
+      "quotes": [
+        "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+        "1. The proposer has not been involved in any material litigation in the past five (5) years, or since firm inception if less than five (5) years.",
+        "2. The firm has at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan as a client with over $10 billion in total plan assets."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+          "start": 7442,
+          "end": 7531
+        },
+        {
+          "quote": "1. The proposer has not been involved in any material litigation in the past five (5) years, or since firm inception if less than five (5) years.",
+          "start": 15378,
+          "end": 15523
+        },
+        {
+          "quote": "2. The firm has at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan as a client with over $10 billion in total plan assets.",
+          "start": 15524,
+          "end": 15730
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

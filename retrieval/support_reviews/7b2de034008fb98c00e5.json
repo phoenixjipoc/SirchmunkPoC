@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "7b2de034008fb98c00e5",
+    "query_id": "INV-06",
+    "question": "A real assets investment consulting solicitation states that the funds' strategic asset allocation targets were adopted by the Board in 2003. As of September 30, 2010, how much did the Board have in its separate account private real estate program, its separate account private infrastructure program, and public real estate securities, and how large were its unfunded commitments?",
+    "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "expected_facts": "About $164 million in the separate account private real estate program, $59 million in the separate account private infrastructure program, $25 million in public real estate securities, and about $88 million in unfunded commitments to real estate and infrastructure funds. Issuer: District of Columbia Retirement Board (Solicitation DCRB-2011-001); total Funds were over $4.2 billion.",
+    "acceptance": "Accept approximately $164m/$59m/$25m/$88m mapped to the four requested categories. Issuer, solicitation number and total $4.2bn fund size are optional.",
+    "text_hash": "ba38eb84b9e6630e06869a17bd0a8d39bbd7f3fbf79cf38deccbc05584512bde",
+    "source_text_sha256": "71f7dc2105be0914ed5549193987a3d5f6eda22588e7c5e025dd27c5e41ee8a0",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 Illinois Teachers’ Retirement System solicitation for private equity consulting, not the real assets solicitation described. It provides none of the four requested amounts as of September 30, 2010.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+        "The market value of the TRS total fund on March 31, 2024 was $70.40 billion."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+          "start": 13,
+          "end": 159
+        },
+        {
+          "quote": "The market value of the TRS total fund on March 31, 2024 was $70.40 billion.",
+          "start": 5398,
+          "end": 5474
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

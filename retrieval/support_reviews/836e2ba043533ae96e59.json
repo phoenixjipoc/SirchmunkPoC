@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "836e2ba043533ae96e59",
+    "query_id": "OTH-12",
+    "question": "What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2022?",
+    "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "expected_facts": "September 30, 2022 by 4:30 p.m. (H.S.T.) (RFP 2022-04, issued August 29, 2022).",
+    "acceptance": "Accept date/time/Hawaii Standard Time equivalents. Issue date, RFP number and later best-and-final deadline are optional context.",
+    "text_hash": "e529592be16077691cd54aac3c1a9e7ed524ba5b471c34ebf5ebe0296f8ab615",
+    "source_text_sha256": "40f6e66cda735b5ac3e65bb52c7627bc76b11a8e7017ca73d4ed3e9b2360ca3a",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Austin Employees’ Retirement System RFP for general investment consulting, issued in 2024. Its proposal deadline does not support the deadline for the Hawaii ERS private equity consulting RFP published in 2022.",
+      "quotes": [
+        "The City of Austin Employees’ Retirement System (COAERS) seeks general investment consultant services",
+        "Issuance January 2, 2024",
+        "Deadline for Submission of Proposals February 9, 2024"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The City of Austin Employees’ Retirement System (COAERS) seeks general investment consultant services",
+          "start": 14252,
+          "end": 14353
+        },
+        {
+          "quote": "Issuance January 2, 2024",
+          "start": 38713,
+          "end": 38737
+        },
+        {
+          "quote": "Deadline for Submission of Proposals February 9, 2024",
+          "start": 38885,
+          "end": 38938
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

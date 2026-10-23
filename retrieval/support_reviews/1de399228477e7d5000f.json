@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "1de399228477e7d5000f",
+    "query_id": "INV-02",
+    "question": "What is the proposal deadline, and how many copies must be submitted, for the City of Madison (Florida) Police Officers' and Firefighters' Retirement System RFP No. 2025-0901 for investment consulting services?",
+    "file": "Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf",
+    "expected_facts": "Proposals must be received by 2:00 p.m. on September 1, 2025 at the City Clerk's office in Madison, FL (late proposals returned unopened); an original and five (5) copies must be submitted in a sealed envelope/package.",
+    "acceptance": "Accept 2pm September 1, 2025 and original plus five copies/six total. Address, sealing and late-return treatment are optional.",
+    "text_hash": "e76e63af4b0a8b49f88f8ef5ce43f66a889246bf25cd0b9219f57d5e1b2af89e",
+    "source_text_sha256": "5c949a43fde61d24122bc0cdc5ab1ce85b968190be12226f9661e62ecbde4522",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an RFP for the City of Creve Coeur Employee Pension Plan, not the City of Madison (Florida) Police Officers' and Firefighters' Retirement System RFP No. 2025-0901. Its deadline is in May 2020, and it requests ten hard copies rather than an original and five copies.",
+      "quotes": [
+        "PENSION FUND CONSULTING SERVICES REQUEST FOR PROPOSAL (RFP) CITY OF CREVE COEUR EMPLOYEE PENSION PLAN",
+        "The RFP process will begin on May 1, 2020 and proposals will be due by 2:00 p.m. May 21, 2020.",
+        "Provide both hard copies (10) and a digital version of the RFP."
+      ],
+      "quote_matches": [
+        {
+          "quote": "PENSION FUND CONSULTING SERVICES REQUEST FOR PROPOSAL (RFP) CITY OF CREVE COEUR EMPLOYEE PENSION PLAN",
+          "start": 13,
+          "end": 114
+        },
+        {
+          "quote": "The RFP process will begin on May 1, 2020 and proposals will be due by 2:00 p.m. May 21, 2020.",
+          "start": 2025,
+          "end": 2119
+        },
+        {
+          "quote": "Provide both hard copies (10) and a digital version of the RFP.",
+          "start": 2639,
+          "end": 2702
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

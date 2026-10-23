@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "e6bb5e0b0c78609a01ff",
+    "query_id": "SVC-15",
+    "question": "What contract term, including any extension options, does the Kern County Employees' Retirement Association (KCERA) RFP for audit services contemplate?",
+    "file": "INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+    "expected_facts": "A three-year agreement (audits of fiscal year ending June 30, 2023 and the two subsequent fiscal years), subject to annual Board review; the original term may be extended for up to an additional three years by mutual agreement of KCERA and the firm.",
+    "acceptance": "Accept 3+up to3 years, mutual extension. Audit fiscal years and annual-review/negotiation detail need not all be volunteered.",
+    "text_hash": "065f1ea66c1548e68c091fe4d5679904ddac15c41085d2b7285bc81d8909924a",
+    "source_text_sha256": "709d34ea15f8028111c01a36824ed3448bb46d8b226113de15b4a25b337bbfcf",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Indiana Public Retirement System RFP for core plus fixed income investment management, not KCERA’s audit-services RFP. Its five-year initial term and renewal option do not support the requested KCERA contract terms.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS (“RFP”) for CORE PLUS FIXED INCOME INVESTMENT MANAGEMENT",
+        "INPRS is issuing this RFP in accordance with Indiana statutes governing the procurement of services and certain administrative policies of INPRS.",
+        "The term of the contract entered under this RFP shall be for an initial period of five (5) years, beginning from the date of final execution of contract.",
+        "There may be one (1) or more renewals under the same terms and conditions at INPRS’ option up to the length of the original term."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) for CORE PLUS FIXED INCOME INVESTMENT MANAGEMENT",
+          "start": 13,
+          "end": 91
+        },
+        {
+          "quote": "INPRS is issuing this RFP in accordance with Indiana statutes governing the procurement of services and certain administrative policies of INPRS.",
+          "start": 5365,
+          "end": 5510
+        },
+        {
+          "quote": "The term of the contract entered under this RFP shall be for an initial period of five (5) years, beginning from the date of final execution of contract.",
+          "start": 23456,
+          "end": 23609
+        },
+        {
+          "quote": "There may be one (1) or more renewals under the same terms and conditions at INPRS’ option up to the length of the original term.",
+          "start": 23610,
+          "end": 23739
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

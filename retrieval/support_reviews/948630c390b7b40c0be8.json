@@ -1,0 +1,64 @@
+{
+  "job": {
+    "id": "948630c390b7b40c0be8",
+    "query_id": "INV-12",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for domestic equity small cap growth investment management, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "expected_facts": "Four primary factors: (a) People - stability of the organization, ownership structure and documented experience of key professionals; (b) Process - clearly defined, reasonable and repeatable investment strategy; (c) Performance - documented ability to meet investment performance benchmarks; (d) Pricing - fee schedule and associated costs.",
+    "acceptance": "Accept People, Process, Performance, Pricing and faithful descriptions; exact labels are not mandatory.",
+    "text_hash": "784bcfad5dec8c8cdc14ddc71afe9edac27cb190eaa8c0971bfb4139e6ce83d9",
+    "source_text_sha256": "75b693482e948ff921b1cec45e9ab6fae2d982d6719b2a34a7971859f300978e",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 SBCERS RFP for global custody services, not the IMRF sample RFP for domestic equity small-cap growth investment management. Its evaluation criteria apply to a different issuer and mandate and do not support the requested four-factor ranking.",
+      "quotes": [
+        "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”) Issue Date: January 8, 2024",
+        "SBCERS staff and RVK, Inc. (RVK) will evaluate Respondents on the basis of their written responses to this RFP, additional written information as requested and oral interviews, if any, against the following criteria:",
+        "1. Scope Affirmation, Servicing Approach, and Institutional Credentials – 30%",
+        "2. Core and Value Added Services and Technology Platforms – 40%",
+        "3. Quality of Responses and Additional Evidence of Capability – 5%",
+        "4. Competitiveness and Reasonableness of Economics – 25%"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”) Issue Date: January 8, 2024",
+          "start": 13,
+          "end": 158
+        },
+        {
+          "quote": "SBCERS staff and RVK, Inc. (RVK) will evaluate Respondents on the basis of their written responses to this RFP, additional written information as requested and oral interviews, if any, against the following criteria:",
+          "start": 51295,
+          "end": 51511
+        },
+        {
+          "quote": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials – 30%",
+          "start": 51512,
+          "end": 51589
+        },
+        {
+          "quote": "2. Core and Value Added Services and Technology Platforms – 40%",
+          "start": 52181,
+          "end": 52244
+        },
+        {
+          "quote": "3. Quality of Responses and Additional Evidence of Capability – 5%",
+          "start": 52663,
+          "end": 52729
+        },
+        {
+          "quote": "4. Competitiveness and Reasonableness of Economics – 25%",
+          "start": 52916,
+          "end": 52972
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

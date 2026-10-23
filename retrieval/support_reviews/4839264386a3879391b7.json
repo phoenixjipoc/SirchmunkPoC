@@ -1,0 +1,64 @@
+{
+  "job": {
+    "id": "4839264386a3879391b7",
+    "query_id": "XD-11",
+    "question": "What questions does the INREV DDQ 2022 for Funds of Funds and Multi Manager ask under section 3.3 'IT, Cyber and Physical Security'?",
+    "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+    "expected_facts": "Fourteen questions (3.3.1-3.3.14): (1) position, responsibilities and members of the IT function, and an overview of outsourced IT and how vendors are monitored; (2) compliance with ISO 27001 or other cyber/information security certifications; (3) whether IT and physical security is a standing board agenda item; (4) a formal, documented Cyber Incident Response Plan; (5) any material cyber/information security incident in the past three years; (6) approved antivirus on all servers, workstations and remote devices; (7) how often staff get IT security training; (8) phishing/social engineering tests on staff; (9) how often full (physical and system) vulnerability assessments are done; (10) how often internal and external penetration tests are done; (11) critical/high-risk findings outstanding for over six months; (12) an external cyber security specialist engaged as first point of contact; (13) how physical access to the server/communication room is controlled; (14) a policy on physical access outside standard office hours, e.g. whether permanent staff are on the premises when third-party suppliers work.",
+    "acceptance": "All fourteen topics may be grouped in prose. Preserve three-year incident lookback and six-month outstanding high-risk findings; no need to reproduce every question verbatim.",
+    "text_hash": "331a4f3a76ae4b017955d456e0d0109f9c5a8c6234151c5a77fc5602b03f12da",
+    "source_text_sha256": "62db2ddc08b6705150414332e929f3917945d4016cb8f2e1cd2436463593a880",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "partial",
+      "identity": "wrong",
+      "reason": "The document is the 2018 DDQ for Non-Listed Real Estate Investment Vehicles, not the 2022 Funds of Funds and Multi Manager DDQ. Its section 3.3 overlaps with many requested topics but contains only 13 questions; it does not include the IT-function and outsourced-vendor question or the broader after-hours physical-access policy question.",
+      "quotes": [
+        "As the non-listed real estate market has evolved, the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+        "INREV will enhance its separate due diligence questionnaires for fund of funds and multi-manager mandates as well as real estate debt vehicles.",
+        "3.3 IT, Cyber and Physical Security 3.3.1 Are you compliant with ISO 27001 or any other cyber security or information security certifications?",
+        "3.3.4 Have you experienced any material internal or external information/cyber security incident in the past three years?",
+        "3.3.10 Are there any critical or high-risk points from any penetration tests or vulnerability assessments that are currently outstanding and have been so for over six months?",
+        "3.3.13 Are permanent members of staff always on the premises when the cleaners are working?"
+      ],
+      "quote_matches": [
+        {
+          "quote": "As the non-listed real estate market has evolved, the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+          "start": 1998,
+          "end": 2135
+        },
+        {
+          "quote": "INREV will enhance its separate due diligence questionnaires for fund of funds and multi-manager mandates as well as real estate debt vehicles.",
+          "start": 6246,
+          "end": 6389
+        },
+        {
+          "quote": "3.3 IT, Cyber and Physical Security 3.3.1 Are you compliant with ISO 27001 or any other cyber security or information security certifications?",
+          "start": 37088,
+          "end": 37230
+        },
+        {
+          "quote": "3.3.4 Have you experienced any material internal or external information/cyber security incident in the past three years?",
+          "start": 37452,
+          "end": 37573
+        },
+        {
+          "quote": "3.3.10 Are there any critical or high-risk points from any penetration tests or vulnerability assessments that are currently outstanding and have been so for over six months?",
+          "start": 38041,
+          "end": 38215
+        },
+        {
+          "quote": "3.3.13 Are permanent members of staff always on the premises when the cleaners are working?",
+          "start": 38515,
+          "end": 38606
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,75 @@
+{
+  "job": {
+    "id": "de06fbfcc12acafe3ecd",
+    "query_id": "INV-07",
+    "question": "In the published questions and answers for a city's pension fund consulting RFP, the city says it sent the RFP to 21 firms and last ran such a search in 2013. What does the plan currently pay for advisory services on its equities and for management of its fixed income?",
+    "file": "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "expected_facts": "$20K per year for advisory of the equity investments (about 70% of plan funds, held by Fiduciary Advisors); for the fixed income investments (about 30% of plan funds, held by Commerce Bank, the custodian and paying agent) 0.30% on the first $10M, 0.20% on the next $40M and 0.15% on the remaining balance. Issuer: City of Creve Coeur, MO.",
+    "acceptance": "$20,000 annually plus 0.30% first $10m, 0.20% next $40m and 0.15% remainder. Basis-point equivalents 30/20/15 are acceptable. Provider names and 70/30 allocation are optional.",
+    "text_hash": "bb72821830d3b79720e84bd7d293578b1b367fc714f7a0632d7937278f6fccd7",
+    "source_text_sha256": "c942d0c8eb27f166bc67c995927bcd0e03513c3bbbfb1318905a941cab877fac",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2023 investment-consulting RFP issued by the Teachers’ Retirement System of the State of Illinois, not the City of Creve Coeur’s published questions and answers. Its fee proposal asks bidders to quote fees; it does not state the plan’s current equity-advisory or fixed-income-management payments.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES Issued January 13, 2023",
+        "Please quote your current fees in hard dollars for the following services.",
+        "A. Annual fee for full-service consulting arrangement $__________"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES Issued January 13, 2023",
+          "start": 13,
+          "end": 146
+        },
+        {
+          "quote": "Please quote your current fees in hard dollars for the following services.",
+          "start": 48168,
+          "end": 48242
+        },
+        {
+          "quote": "A. Annual fee for full-service consulting arrangement $__________",
+          "start": 48243,
+          "end": 48308
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Illinois Teachers’ Retirement System investment-consulting RFP, not the published questions and answers for the City of Creve Coeur, Missouri. Its fee proposal is blank and does not establish the plan’s current equity-advisory or fixed-income-management payments.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES",
+        "A. Annual fee for full-service consulting arrangement $__________",
+        "B. Annual fee for quarterly performance measurement and portfolio monitoring reports $__________"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 122
+        },
+        {
+          "quote": "A. Annual fee for full-service consulting arrangement $__________",
+          "start": 48243,
+          "end": 48308
+        },
+        {
+          "quote": "B. Annual fee for quarterly performance measurement and portfolio monitoring reports $__________",
+          "start": 48434,
+          "end": 48530
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

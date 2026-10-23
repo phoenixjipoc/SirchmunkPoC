@@ -1,0 +1,93 @@
+{
+  "job": {
+    "id": "86dc4f34ca5eb40b4f0e",
+    "query_id": "XD-14",
+    "question": "What questions are asked under section 10.0 'ESG (Environmental, Social, Governance)' of the NJEDA Life Science Seed Fund due diligence questionnaire (Appendix A)?",
+    "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+    "expected_facts": "Eight questions: 10.1 the role of the respondent's internal advisory board(s), all matters referred to them (including unresolved ones) and any other governing/advisory bodies; 10.2 conflicts of interest (potential, current, historic) and how they are identified, managed, disclosed (e.g. to the LPAC) and resolved, including any conflict committees; 10.3 the policy on personal investments by employees or affiliates in deals the respondent reviewed; 10.4 whether the respondent is a registered investment advisor (RIA); 10.5 the respondent's ESG-related policies and how ESG factors influence its investment beliefs; 10.6 the implementation status of its responsible investment policy and any plans to develop its approach to ESG; 10.7 how it contributes to portfolio companies' management of ESG risks and opportunities; 10.8 the monitoring processes it would use to assess the proposed Fund's portfolio companies' management of ESG factors.",
+    "acceptance": "Eight topics 10.1–10.8 required in substance, including portfolio-company ESG assistance and monitoring. Exact question wording and numbering are optional.",
+    "text_hash": "331a4f3a76ae4b017955d456e0d0109f9c5a8c6234151c5a77fc5602b03f12da",
+    "source_text_sha256": "62db2ddc08b6705150414332e929f3917945d4016cb8f2e1cd2436463593a880",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is INREV’s 2018 questionnaire for non-listed real estate investment vehicles, not the NJEDA Life Science Seed Fund questionnaire or its Appendix A. Its ESG section is numbered 3.8 and does not contain the requested eight questions under section 10.0.",
+      "quotes": [
+        "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007",
+        "the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+        "3.8 Environmental, Social and Governance (ESG) Issues",
+        "3.8.1 Do you submit data to the Global Real Estate Sustainability Benchmark (GRESB) report?"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007",
+          "start": 1446,
+          "end": 1565
+        },
+        {
+          "quote": "the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+          "start": 2048,
+          "end": 2135
+        },
+        {
+          "quote": "3.8 Environmental, Social and Governance (ESG) Issues",
+          "start": 1043,
+          "end": 1096
+        },
+        {
+          "quote": "3.8.1 Do you submit data to the Global Real Estate Sustainability Benchmark (GRESB) report?",
+          "start": 46434,
+          "end": 46525
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is INREV’s 2018 questionnaire for non-listed real estate investment vehicles, not the NJEDA Life Science Seed Fund questionnaire. Its ESG questions appear in section 3.8, not Appendix A section 10.0, and do not establish the eight requested questions.",
+      "quotes": [
+        "Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles",
+        "the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+        "3.8 Environmental, Social and Governance (ESG) Issues",
+        "3.8.1 Do you submit data to the Global Real Estate Sustainability Benchmark (GRESB) report?",
+        "3.8.12 Provide details of three ESG initiatives linked to the vehicle or your organization that you are proud of:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles",
+          "start": 4400,
+          "end": 4474
+        },
+        {
+          "quote": "the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+          "start": 2048,
+          "end": 2135
+        },
+        {
+          "quote": "3.8 Environmental, Social and Governance (ESG) Issues",
+          "start": 1043,
+          "end": 1096
+        },
+        {
+          "quote": "3.8.1 Do you submit data to the Global Real Estate Sustainability Benchmark (GRESB) report?",
+          "start": 46434,
+          "end": 46525
+        },
+        {
+          "quote": "3.8.12 Provide details of three ESG initiatives linked to the vehicle or your organization that you are proud of:",
+          "start": 48233,
+          "end": 48346
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

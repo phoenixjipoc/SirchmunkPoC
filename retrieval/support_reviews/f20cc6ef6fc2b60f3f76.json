@@ -1,0 +1,58 @@
+{
+  "job": {
+    "id": "f20cc6ef6fc2b60f3f76",
+    "query_id": "INV-09",
+    "question": "An investment manager RFP template for an emerging markets equity strategy (issued February 14, 2022, responses due March 31, 2022) lists required minimum qualifications and 'preferred criteria'. What live track record does it require, and what public pension client base does it prefer?",
+    "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "expected_facts": "Required: an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy (qualified women-, minority- or disabled-owned businesses are exempt). Preferred: at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan client with over $10 billion in total plan assets (plus no material litigation in the past five years). Issuer: State Universities Retirement System of Illinois (SURS).",
+    "acceptance": "Accept five-year live strategy record and the alternative client tests (two >$1bn U.S. public pensions OR one >$10bn public plan). Ownership exemption is a relevant qualification. Issuer, litigation criterion and placeholder date need not be volunteered.",
+    "text_hash": "e529592be16077691cd54aac3c1a9e7ed524ba5b471c34ebf5ebe0296f8ab615",
+    "source_text_sha256": "40f6e66cda735b5ac3e65bb52c7627bc76b11a8e7017ca73d4ed3e9b2360ca3a",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 COAERS general investment consultant RFP, not the specified 2022 SURS emerging-markets equity manager template. Its five-year qualification concerns consulting experience, and its two-client test is required rather than preferred. It does not support the live strategy track record or the alternative preferred client tests.",
+      "quotes": [
+        "Request for Proposal General Investment Consultant",
+        "Proposals must be submitted on or before 5:00 p.m. Central Standard Time February 9, 2024",
+        "City of Austin Employees’ Retirement System",
+        "The firm must have at least two U.S. public pension fund clients, each with assets in excess of one billion U.S. dollars as of December 31, 2023.",
+        "As of December 31, 2023 have been in business for a minimum of five years providing services similar to those described in the Scope of Services section"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal General Investment Consultant",
+          "start": 13,
+          "end": 63
+        },
+        {
+          "quote": "Proposals must be submitted on or before 5:00 p.m. Central Standard Time February 9, 2024",
+          "start": 64,
+          "end": 153
+        },
+        {
+          "quote": "City of Austin Employees’ Retirement System",
+          "start": 154,
+          "end": 197
+        },
+        {
+          "quote": "The firm must have at least two U.S. public pension fund clients, each with assets in excess of one billion U.S. dollars as of December 31, 2023.",
+          "start": 60701,
+          "end": 60846
+        },
+        {
+          "quote": "As of December 31, 2023 have been in business for a minimum of five years providing services similar to those described in the Scope of Services section",
+          "start": 60861,
+          "end": 61013
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

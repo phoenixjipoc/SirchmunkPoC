@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "a763635df88b501d4ab7",
+    "query_id": "CONS-01",
+    "question": "In the Grand Rapids General Retirement System investment consultant RFP, what was the total market value of the General Retirement System and as of what date?",
+    "file": "Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+    "expected_facts": "Approximately $437 million as of June 30, 2023 (the separate Grand Rapids Police and Fire Retirement System covered by the same RFP was approximately $479 million).",
+    "acceptance": "Require $437m approximately and June 30, 2023. Separate Police and Fire amount is optional.",
+    "text_hash": "7180429187038236fd14f0752492190d2d289b0c31609f0f0a2bf130924e85ac",
+    "source_text_sha256": "18abed4435894e587e3d010b5d205b6cafee38f9c9ad7a8505c1a10b5ee2150d",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2017 Hawaii Employees’ Retirement System real estate investment consultant RFP, not the Grand Rapids General Retirement System RFP. It provides neither the required approximately $437 million value nor the June 30, 2023 valuation date.",
+      "quotes": [
+        "EMPLOYEES’ RETIREMENT SYSTEM OF THE STATE OF HAWAII REQUEST FOR PROPOSALS (RFP) REAL ESTATE INVESTMENT CONSULTANT SERVICES",
+        "starting from 9:30 a.m. (H.S.T.) on February 6, 2017."
+      ],
+      "quote_matches": [
+        {
+          "quote": "EMPLOYEES’ RETIREMENT SYSTEM OF THE STATE OF HAWAII REQUEST FOR PROPOSALS (RFP) REAL ESTATE INVESTMENT CONSULTANT SERVICES",
+          "start": 13,
+          "end": 135
+        },
+        {
+          "quote": "starting from 9:30 a.m. (H.S.T.) on February 6, 2017.",
+          "start": 899,
+          "end": 952
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,16 @@
+2026-10-23 04:25:49.497 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-23 04:25:49.725 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:DirScan] Scanning directories...
+2026-10-23 04:25:55.361 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"CAJPA sample investment management RFP": 9, "Appendix Z": 8, "Sample Investment Management Request for Proposal": 9, "proposal copies": 7}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"CAJPA": 10, "RFP": 7, "copies": 4, "sent": 3}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"投资管理征求建议书": 8, "提案副本": 7, "附录Z": 8}
+</KEYWORDS_ALT>
+2026-10-23 04:25:55.365 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['投资管理征求建议书', '提案副本', '附录Z']
+2026-10-23 04:25:55.366 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['CAJPA sample investment management RFP', 'Appendix Z', 'Sample Investment Management Request for Proposal', 'proposal copies', '投资管理征求建议书', '提案副本', '附录Z']
+2026-10-23 04:25:55.903 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:DirScan] Found 81 files in 1 dirs (6177ms)

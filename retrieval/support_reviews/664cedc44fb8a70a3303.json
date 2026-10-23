@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "664cedc44fb8a70a3303",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "e529592be16077691cd54aac3c1a9e7ed524ba5b471c34ebf5ebe0296f8ab615",
+    "source_text_sha256": "40f6e66cda735b5ac3e65bb52c7627bc76b11a8e7017ca73d4ed3e9b2360ca3a",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the City of Austin Employees’ Retirement System general investment consultant RFP, not the Santa Barbara County Employees’ Retirement System global custody RFP. It does not provide the requested four weighted evaluation criteria.",
+      "quotes": [
+        "Request for Proposal General Investment Consultant",
+        "The City of Austin Employees’ Retirement System (COAERS) seeks general investment consultant services in accordance with the specifications contained in this Request for Proposal (“RFP”).",
+        "While these data points may be considered by Trustees, there is no predetermined mechanical formula contemplated for weighing fees against other criteria."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal General Investment Consultant",
+          "start": 13,
+          "end": 63
+        },
+        {
+          "quote": "The City of Austin Employees’ Retirement System (COAERS) seeks general investment consultant services in accordance with the specifications contained in this Request for Proposal (“RFP”).",
+          "start": 14252,
+          "end": 14439
+        },
+        {
+          "quote": "While these data points may be considered by Trustees, there is no predetermined mechanical formula contemplated for weighing fees against other criteria.",
+          "start": 53060,
+          "end": 53214
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

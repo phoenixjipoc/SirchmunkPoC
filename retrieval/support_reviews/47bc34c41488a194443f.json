@@ -1,0 +1,63 @@
+{
+  "job": {
+    "id": "47bc34c41488a194443f",
+    "query_id": "OTH-07",
+    "question": "One RFP for investment manager services, issued by an education foundation, limits proposals to five single-spaced typewritten pages. How many copies must be submitted and by what deadline?",
+    "file": "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+    "expected_facts": "Six copies, no later than 5 PM on July 1, 2016 (Broward Education Foundation).",
+    "acceptance": "Require six copies, July 1, 2016, 5 p.m.; issuer/addressee optional. No timezone is stated, so do not require one.",
+    "text_hash": "30d68f8537639ec2cf4b5e89f75c53d4f7a34757aa577e6eaca8744b155f28c0",
+    "source_text_sha256": "53569804783646aac401541d4bd8f06ca4371d2199a59c44ad06613e10455875",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2026 RFP issued by the Massachusetts Pension Reserves Investment Management Board, not the education foundation’s RFP. It requires electronic submission by a different deadline and does not support the required copy count or July 2016 deadline.",
+      "quotes": [
+        "The Massachusetts Pension Reserves Investment Management Board (“PRIM”) is requesting responses from firms interested in providing Active Global Core Equity Investment Management Services.",
+        "Proposals, including all attachments, must be delivered electronically via e-mail to Andre Abouhala at rfpresponses@mapension.com, by 3:00 p.m. ET, Friday, October 9, 2026 (the \"Response Deadline\")."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Massachusetts Pension Reserves Investment Management Board (“PRIM”) is requesting responses from firms interested in providing Active Global Core Equity Investment Management Services.",
+          "start": 101,
+          "end": 289
+        },
+        {
+          "quote": "Proposals, including all attachments, must be delivered electronically via e-mail to Andre Abouhala at rfpresponses@mapension.com, by 3:00 p.m. ET, Friday, October 9, 2026 (the \"Response Deadline\").",
+          "start": 12724,
+          "end": 12922
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2026 Massachusetts Pension Reserves Investment Management Board RFP, not the education foundation RFP. It requires electronic submission by October 9, 2026, and does not evidence six copies or the July 1, 2016, 5 p.m. deadline.",
+      "quotes": [
+        "The Massachusetts Pension Reserves Investment Management Board (“PRIM”) is requesting responses from firms interested in providing Active Global Core Equity Investment Management Services.",
+        "Proposals, including all attachments, must be delivered electronically via e-mail to Andre Abouhala at rfpresponses@mapension.com, by 3:00 p.m. ET, Friday, October 9, 2026"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Massachusetts Pension Reserves Investment Management Board (“PRIM”) is requesting responses from firms interested in providing Active Global Core Equity Investment Management Services.",
+          "start": 101,
+          "end": 289
+        },
+        {
+          "quote": "Proposals, including all attachments, must be delivered electronically via e-mail to Andre Abouhala at rfpresponses@mapension.com, by 3:00 p.m. ET, Friday, October 9, 2026",
+          "start": 12724,
+          "end": 12895
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,93 @@
+{
+  "job": {
+    "id": "690708dac5ac17554651",
+    "query_id": "SVC-18",
+    "question": "What minimum qualifications must an audit firm meet in the Kern County Employees' Retirement Association (KCERA) RFP for audit services?",
+    "file": "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "expected_facts": "(1) Professional public accounting firm organized at least on a regional basis providing audit and attest services; (2) within the last five years, at least five audits of defined benefit pension plans with assets over $2 billion; (3) experience auditing equity securities (domestic and foreign), fixed income, real estate, alternative investments, commodities and securities lending; (4) an established office in the United States; (5) independent, licensed by and in good standing with California under the Accountancy Act; (6) Engagement Partner (and signing partner) located in the U.S. with at least 10 years of public accounting experience including DB pension plan audits, California-licensed CPA; (7) Engagement Manager located in the U.S. with at least 5 years of public accounting experience including DB plan audits, CPA licensed in a U.S. state; (8) On-Site Audit Supervisor located in the U.S. with at least 3 years of auditing experience including DB plan audits, CPA licensed in a U.S. state; (9) Engagement Manager and Supervisor available for consultations and in-person meetings throughout the year.",
+    "acceptance": "Accept a faithful summary of the nine requirements. Do not impose desirable two audits of >$3bn plans or a California license for manager/supervisor as minimums; a U.S.-state license suffices for those roles.",
+    "text_hash": "0666a4752a3ae0a7910c24a7c285ffaaa10083f60e8c67b4342d3518c8062d73",
+    "source_text_sha256": "0b9aca72670eb972abc23eff3632645fe86fee9eaf9c4e0c3c722bd89a4d4b77",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is KCERA’s 2024 RFP for actuarial audit services, not the audit-services RFP described in the question. Its minimum requirements concern actuarial firms and actuaries; it does not support the nine specified qualifications for a public accounting firm and its audit team.",
+      "quotes": [
+        "Kern County Employees’ Retirement Association Request for Proposal ACTUARIAL AUDIT SERVICES March 29, 2024",
+        "To be considered for the actuarial auditor role described in the RFP, the firm must meet the following minimum requirements:",
+        "The firm must be a professional actuarial services firm that provides actuarial valuation, experience investigations, actuarial audits, and pension consulting services.",
+        "The ACTUARY performing the work must be a Fellow of the Society of Actuaries."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Kern County Employees’ Retirement Association Request for Proposal ACTUARIAL AUDIT SERVICES March 29, 2024",
+          "start": 13,
+          "end": 119
+        },
+        {
+          "quote": "To be considered for the actuarial auditor role described in the RFP, the firm must meet the following minimum requirements:",
+          "start": 32788,
+          "end": 32912
+        },
+        {
+          "quote": "The firm must be a professional actuarial services firm that provides actuarial valuation, experience investigations, actuarial audits, and pension consulting services.",
+          "start": 33008,
+          "end": 33176
+        },
+        {
+          "quote": "The ACTUARY performing the work must be a Fellow of the Society of Actuaries.",
+          "start": 33648,
+          "end": 33725
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is KCERA’s 2024 actuarial audit services RFP, not an RFP setting minimum qualifications for a public accounting firm conducting financial audits. Its minimum requirements concern actuarial firms and actuaries; they do not evidence the nine requested qualifications.",
+      "quotes": [
+        "Kern County Employees’ Retirement Association Request for Proposal ACTUARIAL AUDIT SERVICES March 29, 2024",
+        "This Request for Proposal (“RFP”) is issued by the Kern County Employees’ Retirement Association (“KCERA”) for the purpose of soliciting proposals from qualified actuarial firms (”ACTUARY”) to provide actuarial auditing services",
+        "To be considered for the actuarial auditor role described in the RFP, the firm must meet the following minimum requirements:",
+        "The firm must be a professional actuarial services firm that provides actuarial valuation, experience investigations, actuarial audits, and pension consulting services.",
+        "The ACTUARY performing the work must be a Fellow of the Society of Actuaries."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Kern County Employees’ Retirement Association Request for Proposal ACTUARIAL AUDIT SERVICES March 29, 2024",
+          "start": 13,
+          "end": 119
+        },
+        {
+          "quote": "This Request for Proposal (“RFP”) is issued by the Kern County Employees’ Retirement Association (“KCERA”) for the purpose of soliciting proposals from qualified actuarial firms (”ACTUARY”) to provide actuarial auditing services",
+          "start": 1600,
+          "end": 1828
+        },
+        {
+          "quote": "To be considered for the actuarial auditor role described in the RFP, the firm must meet the following minimum requirements:",
+          "start": 32788,
+          "end": 32912
+        },
+        {
+          "quote": "The firm must be a professional actuarial services firm that provides actuarial valuation, experience investigations, actuarial audits, and pension consulting services.",
+          "start": 33008,
+          "end": 33176
+        },
+        {
+          "quote": "The ACTUARY performing the work must be a Fellow of the Society of Actuaries.",
+          "start": 33648,
+          "end": 33725
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

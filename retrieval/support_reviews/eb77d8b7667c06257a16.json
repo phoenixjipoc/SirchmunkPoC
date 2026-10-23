@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "eb77d8b7667c06257a16",
+    "query_id": "DDQ-01",
+    "question": "Which due diligence questionnaire in the corpus asks the manager 'What kills a deal for your team?', and who published it?",
+    "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+    "expected_facts": "The Private Markets Due Diligence Questionnaire ('Your Resource for Evaluating Private Market Partners') published by Calamos Investments with Aksia (file AC_Private_Markets). The question appears under General Questions > Investment Strategy and asks the manager to describe a recent example.",
+    "acceptance": "AC Private Markets / Calamos with Aksia accepted. Subtitle, copyright year and recent-example follow-up are optional.",
+    "text_hash": "331a4f3a76ae4b017955d456e0d0109f9c5a8c6234151c5a77fc5602b03f12da",
+    "source_text_sha256": "62db2ddc08b6705150414332e929f3917945d4016cb8f2e1cd2436463593a880",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is INREV’s questionnaire for non-listed real estate investment vehicles, not the specified Private Markets questionnaire. It does not contain the quoted deal-killing question or identify Calamos Investments and Aksia as publishers.",
+      "quotes": [
+        "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007, assists an investor or consultant in determining, in principle, whether a proposal fits the investor’s investment objectives.",
+        "INREV and its members do not take any responsibility for the completion or any corrections of this questionnaire."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007, assists an investor or consultant in determining, in principle, whether a proposal fits the investor’s investment objectives.",
+          "start": 1446,
+          "end": 1692
+        },
+        {
+          "quote": "INREV and its members do not take any responsibility for the completion or any corrections of this questionnaire.",
+          "start": 6710,
+          "end": 6823
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

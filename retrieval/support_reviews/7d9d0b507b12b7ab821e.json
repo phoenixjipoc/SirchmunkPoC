@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "7d9d0b507b12b7ab821e",
+    "query_id": "SVC-11",
+    "question": "According to the City of Temple City's 457 deferred compensation plan administration and recordkeeping RFP, how many participants did the plan have and what were its total assets?",
+    "file": "OCERS__investment_consultant_services_rfp.pdf",
+    "expected_facts": "As of March 31, 2020: 46 participants with a balance (31 actively contributing, 15 non-active), and total assets of $1,894,729. The plan was administered by two recordkeepers, ICMA-RC and Voya (CalPERS).",
+    "acceptance": "46 participants and $1,894,729 as of March 31, 2020. Active/inactive split and recordkeepers are helpful but optional.",
+    "text_hash": "5b64c217e92c2749a5177225f6fda52ea0dd775fcbdd0d850a456eb5dfcd1a1f",
+    "source_text_sha256": "31ba78f454a82dc69e8946299253c94f905a157c0bee42fe28fb33f65c2dcfa1",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an August 2021 investment consulting RFP issued by OCERS, not the City of Temple City's 457 plan administration and recordkeeping RFP. It does not state the requested participant count or asset total for that plan.",
+      "quotes": [
+        "Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+        "OCERS is requesting proposals from qualified firms interested in providing pension fund investment consulting services"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+          "start": 117,
+          "end": 207
+        },
+        {
+          "quote": "OCERS is requesting proposals from qualified firms interested in providing pension fund investment consulting services",
+          "start": -1,
+          "end": 117
+        }
+      ],
+      "all_quotes_grounded": false,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

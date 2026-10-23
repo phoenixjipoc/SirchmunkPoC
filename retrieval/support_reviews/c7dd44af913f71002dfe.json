@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "c7dd44af913f71002dfe",
+    "query_id": "XD-04",
+    "question": "Which due diligence questionnaire in the corpus asks the manager whether it requires its underlying investments to submit data to sustainability performance evaluation organisations, and which organisation does it give as an example?",
+    "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "expected_facts": "The INREV DDQ 2022 for Funds of Funds and Multi Manager, question 3.8.1 (Supplementary Stage, section 3.8 Environmental, Social and Governance). The example given is the Global Real Estate Sustainability Benchmark (GRESB), and the manager is asked for its scores/results if it does require this.",
+    "acceptance": "Identify 2022 FoF/MM DDQ and Global Real Estate Sustainability Benchmark/GRESB. Question number and scores/results follow-up are optional.",
+    "text_hash": "671c411958eb874cfc800e9ef62f40b39ce0a3618032e31c58dc0911d1ac78ca",
+    "source_text_sha256": "a59653c4763af085dd01d7961474b0d3e4d1e15ac1d4029f77327171d4183a79",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is LAGERS’ 2024 private market consulting RFP, not the 2022 INREV Funds of Funds and Multi Manager DDQ. Its questionnaire does not ask about requiring underlying investments to submit sustainability-performance data or name GRESB.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL PRIVATE MARKET CONSULTING SERVICES Prepared: July 1, 2024 Missouri Local Government Employees Retirement System (LAGERS)",
+        "Section 4: Questionnaire"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL PRIVATE MARKET CONSULTING SERVICES Prepared: July 1, 2024 Missouri Local Government Employees Retirement System (LAGERS)",
+          "start": 13,
+          "end": 154
+        },
+        {
+          "quote": "Section 4: Questionnaire",
+          "start": 3424,
+          "end": 3448
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

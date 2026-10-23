@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "892f31d0c779e80da965",
+    "query_id": "XD-14",
+    "question": "What questions are asked under section 10.0 'ESG (Environmental, Social, Governance)' of the NJEDA Life Science Seed Fund due diligence questionnaire (Appendix A)?",
+    "file": "ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+    "expected_facts": "Eight questions: 10.1 the role of the respondent's internal advisory board(s), all matters referred to them (including unresolved ones) and any other governing/advisory bodies; 10.2 conflicts of interest (potential, current, historic) and how they are identified, managed, disclosed (e.g. to the LPAC) and resolved, including any conflict committees; 10.3 the policy on personal investments by employees or affiliates in deals the respondent reviewed; 10.4 whether the respondent is a registered investment advisor (RIA); 10.5 the respondent's ESG-related policies and how ESG factors influence its investment beliefs; 10.6 the implementation status of its responsible investment policy and any plans to develop its approach to ESG; 10.7 how it contributes to portfolio companies' management of ESG risks and opportunities; 10.8 the monitoring processes it would use to assess the proposed Fund's portfolio companies' management of ESG factors.",
+    "acceptance": "Eight topics 10.1–10.8 required in substance, including portfolio-company ESG assistance and monitoring. Exact question wording and numbering are optional.",
+    "text_hash": "4f7b225da38ba2910c55f1ea4315e95ab8e744efe8938a4f9bf7e044a4cb4ef3",
+    "source_text_sha256": "98e8f8f7a68546605480b8e76d3f362a5feebe06263622702fa575595bb98128",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the ILPA Due Diligence Questionnaire v1.2, not the NJEDA Life Science Seed Fund due diligence questionnaire. Its Appendix A is a list of requested documents, and its section 10.0 has a different structure. Similar topics elsewhere in the ILPA document do not establish the eight questions asked by the NJEDA questionnaire.",
+      "quotes": [
+        "The ILPA Due Diligence Questionnaire (DDQ) reflects the view of the participants involved in the creation thereof as to best practices with respect to fund diligence.",
+        "New in Version 1.2 (released in September 2018)",
+        "10.0 Environmental, Social & Governance (ESG) (per PRI's LP Responsible Investment DDQ)",
+        "Appendix A - Requested Documents (if applicable)**"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The ILPA Due Diligence Questionnaire (DDQ) reflects the view of the participants involved in the creation thereof as to best practices with respect to fund diligence.",
+          "start": 1962,
+          "end": 2128
+        },
+        {
+          "quote": "New in Version 1.2 (released in September 2018)",
+          "start": 1199,
+          "end": 1246
+        },
+        {
+          "quote": "10.0 Environmental, Social & Governance (ESG) (per PRI's LP Responsible Investment DDQ)",
+          "start": 43717,
+          "end": 43804
+        },
+        {
+          "quote": "Appendix A - Requested Documents (if applicable)**",
+          "start": 54265,
+          "end": 54315
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

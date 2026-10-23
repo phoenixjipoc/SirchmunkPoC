@@ -1,5 +1,11 @@
 # Sirchmunk PoC
 
+This branch adds a **document retrieval baseline**: 120 questions, one pass, and up to ten ordered files per question. The primary measure is whether the first file contains the required facts. No final answers or knowledge clusters are produced.
+
+For the 98 single-document questions: **Top-1 52.04% (51/98), Top-5 75.51% (74/98), Top-10 81.63% (80/98)**. Cross-document and unanswerable questions are reported separately.
+
+See the [retrieval plan](retrieval/PLAN.md), [execution guide](retrieval/README.md), and [retrieval results](retrieval/reports/basic120/REPORT.md). The earlier answer and cluster-reuse experiments below remain separate.
+
 This repository tests two questions:
 
 1. How accurately does Sirchmunk answer questions from raw RFP/DDQ documents?

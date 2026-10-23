@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "13bf1578ddcd03371be5",
+    "query_id": "INV-09",
+    "question": "An investment manager RFP template for an emerging markets equity strategy (issued February 14, 2022, responses due March 31, 2022) lists required minimum qualifications and 'preferred criteria'. What live track record does it require, and what public pension client base does it prefer?",
+    "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "expected_facts": "Required: an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy (qualified women-, minority- or disabled-owned businesses are exempt). Preferred: at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan client with over $10 billion in total plan assets (plus no material litigation in the past five years). Issuer: State Universities Retirement System of Illinois (SURS).",
+    "acceptance": "Accept five-year live strategy record and the alternative client tests (two >$1bn U.S. public pensions OR one >$10bn public plan). Ownership exemption is a relevant qualification. Issuer, litigation criterion and placeholder date need not be volunteered.",
+    "text_hash": "d4a7ad33208d859c75d991a4bdd6d723d6061e0ed085744f8f70ab7d38ea9348",
+    "source_text_sha256": "13affe2ff2ccbd6aa2f31fc6b4abcaaac5703248b468311f148d40d5686f5ade",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 State Retirement Systems RFP for actuarial consulting services, not the February 2022 SURS emerging markets equity investment-manager template. Its five-year references concern actuarial experience or contract length, not a live strategy track record; it does not state the preferred public-pension client tests.",
+      "quotes": [
+        "State Retirement Systems Request for Proposal for Actuarial Consulting Services (System Reference # 24100) Issued on February 2, 2024 Responses Due by 2:00 P.M. CST on March 4, 2024",
+        "The State Retirement Systems (“SRS” or “Systems”) are requesting proposals for actuarial consulting services and actuarial advice for the Boards of Trustees and SRS staff.",
+        "Each supporting actuary to be employed on the project is a Fellow of the Society of Actuaries (FSA), an Enrolled Actuary, or has at least five years of public pension consulting service."
+      ],
+      "quote_matches": [
+        {
+          "quote": "State Retirement Systems Request for Proposal for Actuarial Consulting Services (System Reference # 24100) Issued on February 2, 2024 Responses Due by 2:00 P.M. CST on March 4, 2024",
+          "start": 13,
+          "end": 194
+        },
+        {
+          "quote": "The State Retirement Systems (“SRS” or “Systems”) are requesting proposals for actuarial consulting services and actuarial advice for the Boards of Trustees and SRS staff.",
+          "start": 1580,
+          "end": 1751
+        },
+        {
+          "quote": "Each supporting actuary to be employed on the project is a Fellow of the Society of Actuaries (FSA), an Enrolled Actuary, or has at least five years of public pension consulting service.",
+          "start": 43216,
+          "end": 43402
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

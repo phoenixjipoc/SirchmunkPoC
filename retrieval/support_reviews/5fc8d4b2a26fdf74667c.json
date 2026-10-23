@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "5fc8d4b2a26fdf74667c",
+    "query_id": "CONS-10",
+    "question": "What is the proposal submission deadline in the Oklahoma Public Employees Retirement System (OPERS) investment consulting services RFP?",
+    "file": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "expected_facts": "4:30 p.m. Central Time on March 25, 2022.",
+    "acceptance": "Accept Central Time/CT; explicit equivalent timezone conversion acceptable.",
+    "text_hash": "73a211d25704cd40542a3505df46faf10d19379d806cf48206f01f9d9cb8fe3c",
+    "source_text_sha256": "84c0516b95d11d6444cd8b9463d95a6569acd34bb54cbc16e1b70c586ad78095",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied RFP is issued by the San Bernardino County Employees’ Retirement Association, not OPERS. Its stated proposal deadline is for that different RFP and does not support the requested OPERS deadline.",
+      "quotes": [
+        "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
+        "RFP Responses Due: April 16, 2021 by 4:00 p.m. PDT"
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 130
+        },
+        {
+          "quote": "RFP Responses Due: April 16, 2021 by 4:00 p.m. PDT",
+          "start": 4362,
+          "end": 4412
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

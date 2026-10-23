@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "104c71a3b5a35b67efac",
+    "query_id": "SVC-13",
+    "question": "What evaluation criteria and percentage weights does the Texas Municipal Retirement System (TMRS) global custody RFP use to evaluate respondents?",
+    "file": "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 25%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Response and Additional Evidence of Capability - 10%; 4. Competitiveness & Reasonableness of Economics - 25%.",
+    "acceptance": "Accept faithful shorter criterion names with correct mapping 25/40/10/25. Supporting subcriteria are optional.",
+    "text_hash": "0666a4752a3ae0a7910c24a7c285ffaaa10083f60e8c67b4342d3518c8062d73",
+    "source_text_sha256": "0b9aca72670eb972abc23eff3632645fe86fee9eaf9c4e0c3c722bd89a4d4b77",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is KCERA’s 2024 actuarial audit services RFP, not the TMRS global custody RFP. Its evaluation criteria and weights are for a different issuer and service and do not support the requested facts.",
+      "quotes": [
+        "This Request for Proposal (“RFP”) is issued by the Kern County Employees’ Retirement Association (“KCERA”) for the purpose of soliciting proposals from qualified actuarial firms",
+        "The weighted factors listed below will be considered by KCERA when evaluating the firms’ submittals.",
+        "Firm’s Experience and Capabilities 30% Quality of Assigned Professional Personnel 25% Communication (Written and Verbal) 25% Cost 20%"
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (“RFP”) is issued by the Kern County Employees’ Retirement Association (“KCERA”) for the purpose of soliciting proposals from qualified actuarial firms",
+          "start": 1600,
+          "end": 1777
+        },
+        {
+          "quote": "The weighted factors listed below will be considered by KCERA when evaluating the firms’ submittals.",
+          "start": 41378,
+          "end": 41478
+        },
+        {
+          "quote": "Firm’s Experience and Capabilities 30% Quality of Assigned Professional Personnel 25% Communication (Written and Verbal) 25% Cost 20%",
+          "start": 41506,
+          "end": 41639
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,87 @@
+{
+  "job": {
+    "id": "ad6f9fc90c15a7174d4e",
+    "query_id": "INV-08",
+    "question": "A sample investment management RFP for a domestic equity small cap growth mandate sets portfolio guidelines. What are the limits on single-issuer holdings, foreign issuers and cash, and which index must the portfolio outperform?",
+    "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "expected_facts": "No more than 5% of the portfolio (at time of purchase) in any single issuer other than the Federal Government/Agencies or the designated cash reserve fund; no more than 20% in foreign issuers, which must trade on the NYSE, ASE or NASDAQ; cash and equivalents no more than 10% except during cash withdrawals or contributions; the portfolio is expected to outperform the Russell 2000 Growth Index, net of fees. Issuer: Illinois Municipal Retirement Fund (IMRF) sample RFP.",
+    "acceptance": "Accept equivalent 5% single-issuer at purchase, 20% foreign listed on specified US exchanges, 10% cash, and Russell 2000 Growth net-of-fee target. Preserve material exceptions; issuer identification is optional.",
+    "text_hash": "afed2142cd9b5f90246d59a5737b84e7449b0c4dc717232226f57461b45a9b9e",
+    "source_text_sha256": "4e6f311f7c398d5daed9e60599d032ec43a08c449bc5eec7b5f5fb388433a80b",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is SFERS’ 2022 general investment consulting RFP, not an IMRF sample RFP for a domestic small-cap growth mandate. Its conditional 10% equity-manager cash guideline does not establish the requested mandate’s limits, and it provides no supporting single-issuer or foreign-issuer limits or Russell 2000 Growth net-of-fees target.",
+      "quotes": [
+        "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System",
+        "Date Issued: November 1, 2022",
+        "Unless authorized in SMA guidelines, an equity manager’s cash holdings shall not exceed 10% of portfolio market value."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System",
+          "start": 13,
+          "end": 147
+        },
+        {
+          "quote": "Date Issued: November 1, 2022",
+          "start": 148,
+          "end": 177
+        },
+        {
+          "quote": "Unless authorized in SMA guidelines, an equity manager’s cash holdings shall not exceed 10% of portfolio market value.",
+          "start": 150979,
+          "end": 151097
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is SFERS’s 2022 general investment consulting RFP, not the IMRF sample RFP for a domestic small-cap growth mandate. It does not evidence the requested single-issuer or foreign-issuer limits, cash exception, or Russell 2000 Growth Index net-of-fees target. Its 10% equity-manager cash provision has a different scope and qualification.",
+      "quotes": [
+        "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System",
+        "The general scope of work for this RFP is to provide non-discretionary professional investment consulting services.",
+        "Unless authorized in SMA guidelines, an equity manager’s cash holdings shall not exceed 10% of portfolio market value.",
+        "On an annualized net-of-fee basis, over a full market cycle, the total portfolio will be expected to:",
+        "Exceed the benchmark return based on SFERS’ asset allocation policy and respective asset class component benchmark returns over rolling five-year periods."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System",
+          "start": 13,
+          "end": 147
+        },
+        {
+          "quote": "The general scope of work for this RFP is to provide non-discretionary professional investment consulting services.",
+          "start": 3596,
+          "end": 3711
+        },
+        {
+          "quote": "Unless authorized in SMA guidelines, an equity manager’s cash holdings shall not exceed 10% of portfolio market value.",
+          "start": 150979,
+          "end": 151097
+        },
+        {
+          "quote": "On an annualized net-of-fee basis, over a full market cycle, the total portfolio will be expected to:",
+          "start": 120204,
+          "end": 120305
+        },
+        {
+          "quote": "Exceed the benchmark return based on SFERS’ asset allocation policy and respective asset class component benchmark returns over rolling five-year periods.",
+          "start": 120374,
+          "end": 120528
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

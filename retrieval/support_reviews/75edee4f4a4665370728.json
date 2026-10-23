@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "75edee4f4a4665370728",
+    "query_id": "CONS-07",
+    "question": "Which pension system's investment consultant RFP requires respondents to have at least five defined benefit pension plan clients, two of which are public pension plans with total plan assets of at least $15 billion each?",
+    "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "expected_facts": "Orange County Employees Retirement System (OCERS), in its 2021 investment consultant services RFP (Appendix E, Minimum Qualifications Certification).",
+    "acceptance": "OCERS/Orange County Employees Retirement System suffices. Appendix designation, year and restatement of qualification are optional.",
+    "text_hash": "d4a7ad33208d859c75d991a4bdd6d723d6061e0ed085744f8f70ab7d38ea9348",
+    "source_text_sha256": "13affe2ff2ccbd6aa2f31fc6b4abcaaac5703248b468311f148d40d5686f5ade",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 Illinois State Retirement Systems RFP for actuarial consulting, not the investment consultant RFP in question. Its minimum qualifications concern actuaries and do not include the specified pension-plan client and asset requirements.",
+      "quotes": [
+        "The State Retirement Systems (“SRS” or “Systems”) are requesting proposals for actuarial consulting services and actuarial advice for the Boards of Trustees and SRS staff.",
+        "_____ (2) Each supporting actuary to be employed on the project is a Fellow of the Society of Actuaries (FSA), an Enrolled Actuary, or has at least five years of public pension consulting service."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The State Retirement Systems (“SRS” or “Systems”) are requesting proposals for actuarial consulting services and actuarial advice for the Boards of Trustees and SRS staff.",
+          "start": 1580,
+          "end": 1751
+        },
+        {
+          "quote": "_____ (2) Each supporting actuary to be employed on the project is a Fellow of the Society of Actuaries (FSA), an Enrolled Actuary, or has at least five years of public pension consulting service.",
+          "start": 43206,
+          "end": 43402
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,81 @@
+{
+  "job": {
+    "id": "0070c23d20d3185d492a",
+    "query_id": "SVC-04",
+    "question": "In the Contra Costa County Employees' Retirement Association (CCCERA) April 2018 master custodian RFP, how many copies of the proposal must be submitted, and for how long must the proposal remain a firm and irrevocable offer?",
+    "file": "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+    "expected_facts": "One (1) original proposal, four (4) hard copies and one (1) copy in electronic form; the proposal must be a firm and irrevocable offer good for one year from the proposal due date (due 5:00 p.m. PT, Friday, May 25, 2018).",
+    "acceptance": "Accept five paper sets total if the original is clearly included, plus one electronic copy; validity one year from due date. Actual proposal deadline is optional.",
+    "text_hash": "7ca1e14444ead93c558b519eddbe0502bb5f080ce8678e247801de0ecb9652b8",
+    "source_text_sha256": "ff5ef248d4411638a865914ce676b07109767b5888006ef4708fd3c12c06a986",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 New York City BERS investment consulting RFP, not CCCERA’s April 2018 master custodian RFP. It calls for email submission and does not establish the requested paper-copy count or one-year firm-and-irrevocable offer period for CCCERA.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES RFP # 2024-003",
+        "This Request for Proposals (“RFP”) is issued by the NYC Board of Education Retirement System (“BERS” or the “Agency”).",
+        "Each proposer must submit their proposal package via email to BERSProcurement@bers.nyc.gov."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES RFP # 2024-003",
+          "start": 13,
+          "end": 84
+        },
+        {
+          "quote": "This Request for Proposals (“RFP”) is issued by the NYC Board of Education Retirement System (“BERS” or the “Agency”).",
+          "start": 5004,
+          "end": 5122
+        },
+        {
+          "quote": "Each proposer must submit their proposal package via email to BERSProcurement@bers.nyc.gov.",
+          "start": 61301,
+          "end": 61392
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is a 2024 New York City Board of Education Retirement System investment consulting RFP, not CCCERA’s April 2018 master custodian RFP. It does not establish the requested paper-and-electronic copy count or one-year firm-offer period.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES RFP # 2024-003",
+        "This Request for Proposals (“RFP”) is issued by the NYC Board of Education Retirement System (“BERS” or the “Agency”).",
+        "BERS requests that all proposals be sent via email",
+        "Proposal Due Date Friday, July 12, 2024"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES RFP # 2024-003",
+          "start": 13,
+          "end": 84
+        },
+        {
+          "quote": "This Request for Proposals (“RFP”) is issued by the NYC Board of Education Retirement System (“BERS” or the “Agency”).",
+          "start": 5004,
+          "end": 5122
+        },
+        {
+          "quote": "BERS requests that all proposals be sent via email",
+          "start": 34547,
+          "end": 34597
+        },
+        {
+          "quote": "Proposal Due Date Friday, July 12, 2024",
+          "start": 61851,
+          "end": 61890
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

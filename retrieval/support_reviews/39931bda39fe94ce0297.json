@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "39931bda39fe94ce0297",
+    "query_id": "OTH-14",
+    "question": "What was the proposal deadline in the Hawaii ERS 2022 RFP for real assets investment consultant services?",
+    "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "expected_facts": "November 30, 2022 by 4:30 p.m. (H.S.T.) (RFP 2022-06, issued October 3, 2022).",
+    "acceptance": "November30,2022 at 4:30pm HST; issue date and RFP number optional.",
+    "text_hash": "6c44b43272ac16f4bd8efdebfb5b71a666753ca71b3f0242c213453c6a30a56a",
+    "source_text_sha256": "a171986940a15f77f516b2eed48ea13f5e49967c592369ad8f87250248f2b907",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2021 Delaware RFP for deferred compensation plan recordkeeping and administration, not the Hawaii ERS 2022 RFP for real assets investment consultant services. Its proposal deadline does not support the requested deadline.",
+      "quotes": [
+        "ISSUED BY THE OFFICE OF THE STATE TREASURER",
+        "CONTRACT NUMBER: TRE-CPM-21101- DEFERRED COMPENSATION PLAN RECORDKEEPING AND ADMINISTRATION SERVICES",
+        "All proposals must be received no later than 4:00 p.m., prevailing Eastern time, on August 20, 2021 (the “Proposal Deadline”)."
+      ],
+      "quote_matches": [
+        {
+          "quote": "ISSUED BY THE OFFICE OF THE STATE TREASURER",
+          "start": 107,
+          "end": 150
+        },
+        {
+          "quote": "CONTRACT NUMBER: TRE-CPM-21101- DEFERRED COMPENSATION PLAN RECORDKEEPING AND ADMINISTRATION SERVICES",
+          "start": 151,
+          "end": 251
+        },
+        {
+          "quote": "All proposals must be received no later than 4:00 p.m., prevailing Eastern time, on August 20, 2021 (the “Proposal Deadline”).",
+          "start": 24416,
+          "end": 24542
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

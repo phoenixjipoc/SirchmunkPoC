@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "c80635a3ca63d02d7663",
+    "query_id": "SVC-10",
+    "question": "In the minimum-qualifications insurance list of the RFP for oversight of the pension administration system replacing V3, what umbrella-liability and professional-liability limits are specified?",
+    "file": "LACERS__2025_actuarial_consulting_services_rfp.pdf",
+    "expected_facts": "The minimum-qualifications list specifies umbrella liability of $5 million per occurrence and $5 million aggregate, and professional liability of $2 million per occurrence and $3 million aggregate. The sample agreement separately contains a wording inconsistency ('one million dollars ($2,000,000)' per occurrence).",
+    "acceptance": "The listed $5m/$5m umbrella and $2m/$3m professional limits are materially correct. Also accept that answer with the p21 written/numeric discrepancy explicitly flagged. Other insurance types and issuer date are optional. Do not accept an unexplained $1m as the sole professional limit.",
+    "text_hash": "f4525122521ab7e76068ce1fd50910b77ebfe55cb8ff36e1b7c16f377703dabe",
+    "source_text_sha256": "7e096c8372e52f175e2aba48012fdffb7c5ee4851ee9ab1af4563bae28d35145",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an RFP for actuarial consulting services, not oversight of the pension administration system replacing V3. Its minimum-qualifications list gives no umbrella- or professional-liability limits; it only refers generally to insurance requirements elsewhere.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL (RFP) FOR ACTUARIAL CONSULTING SERVICES",
+        "II. MINIMUM QUALIFICATIONS",
+        "The firm must have at least five years of experience providing actuarial consulting services to other U.S. public pension fund clients similar to services requested in this RFP.",
+        "The General Conditions also indicate several standard contracting provisions and requirements of every LACERS and City of Los Angeles contract."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL (RFP) FOR ACTUARIAL CONSULTING SERVICES",
+          "start": 13,
+          "end": 73
+        },
+        {
+          "quote": "II. MINIMUM QUALIFICATIONS",
+          "start": 1599,
+          "end": 1625
+        },
+        {
+          "quote": "The firm must have at least five years of experience providing actuarial consulting services to other U.S. public pension fund clients similar to services requested in this RFP.",
+          "start": 8392,
+          "end": 8569
+        },
+        {
+          "quote": "The General Conditions also indicate several standard contracting provisions and requirements of every LACERS and City of Los Angeles contract.",
+          "start": 37249,
+          "end": 37392
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "d8747d056e71388c20ce",
+    "query_id": "CONS-01",
+    "question": "In the Grand Rapids General Retirement System investment consultant RFP, what was the total market value of the General Retirement System and as of what date?",
+    "file": "IMRF__sample_investment_manager_rfp.pdf",
+    "expected_facts": "Approximately $437 million as of June 30, 2023 (the separate Grand Rapids Police and Fire Retirement System covered by the same RFP was approximately $479 million).",
+    "acceptance": "Require $437m approximately and June 30, 2023. Separate Police and Fire amount is optional.",
+    "text_hash": "1d6500a43cb519702a3a7fba26b0e9ecd1b4b2bb1bb0ac004878183abcc2df76",
+    "source_text_sha256": "b904f613bceebade43840677e52ac82b24f5fe88526390405a0ab1d994b4049d",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Illinois Municipal Retirement Fund sample RFP for investment management, not the Grand Rapids General Retirement System investment consultant RFP. Its portfolio value and date are placeholders; it provides neither required fact.",
+      "quotes": [
+        "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment management firms to provide domestic equity small cap growth investment management services.",
+        "IMRF’s portfolio is a diversified and global portfolio having a total market value of $XX.X billion as of XXXX XX, 20XX."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment management firms to provide domestic equity small cap growth investment management services.",
+          "start": 274,
+          "end": 452
+        },
+        {
+          "quote": "IMRF’s portfolio is a diversified and global portfolio having a total market value of $XX.X billion as of XXXX XX, 20XX.",
+          "start": 3174,
+          "end": 3294
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

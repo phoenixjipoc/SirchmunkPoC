@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "f3d8521db8ca539f6916",
+    "query_id": "INV-02",
+    "question": "What is the proposal deadline, and how many copies must be submitted, for the City of Madison (Florida) Police Officers' and Firefighters' Retirement System RFP No. 2025-0901 for investment consulting services?",
+    "file": "OCERS__investment_consultant_services_rfp.pdf",
+    "expected_facts": "Proposals must be received by 2:00 p.m. on September 1, 2025 at the City Clerk's office in Madison, FL (late proposals returned unopened); an original and five (5) copies must be submitted in a sealed envelope/package.",
+    "acceptance": "Accept 2pm September 1, 2025 and original plus five copies/six total. Address, sealing and late-return treatment are optional.",
+    "text_hash": "5b64c217e92c2749a5177225f6fda52ea0dd775fcbdd0d850a456eb5dfcd1a1f",
+    "source_text_sha256": "31ba78f454a82dc69e8946299253c94f905a157c0bee42fe28fb33f65c2dcfa1",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an August 2021 investment-consulting RFP issued by Orange County Employees Retirement System, not the specified City of Madison, Florida RFP No. 2025-0901. Its proposal deadline and electronic submission requirement cannot support the requested deadline or copy count.",
+      "quotes": [
+        "Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+        "Those who wish to be considered must submit their completed proposal, via email to the Point of Contact, by 5:00 p.m., PT, October 1, 2021.",
+        "Proposals must be submitted electronically to the Point of Contact identified in Section 4"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+          "start": 117,
+          "end": 207
+        },
+        {
+          "quote": "Those who wish to be considered must submit their completed proposal, via email to the Point of Contact, by 5:00 p.m., PT, October 1, 2021.",
+          "start": 5382,
+          "end": 5521
+        },
+        {
+          "quote": "Proposals must be submitted electronically to the Point of Contact identified in Section 4",
+          "start": 14963,
+          "end": 15053
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

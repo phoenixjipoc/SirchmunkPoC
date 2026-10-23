@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "2fae76c989cbe9982987",
+    "query_id": "OTH-03",
+    "question": "In Rice University's 2021 RFP for audit services for its retirement plans, how many participants did the 401(a) plan and the 403(b) plan have as of December 31, 2020?",
+    "file": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "expected_facts": "401(a) plan: 8,828 participants; 403(b) plan: 7,533 participants (as of December 31, 2020).",
+    "acceptance": "Accept 8,828 for 401(a) and 7,533 for 403(b); do not transpose.",
+    "text_hash": "73a211d25704cd40542a3505df46faf10d19379d806cf48206f01f9d9cb8fe3c",
+    "source_text_sha256": "84c0516b95d11d6444cd8b9463d95a6569acd34bb54cbc16e1b70c586ad78095",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is SBCERA’s 2021 RFP for investment consulting services, not Rice University’s RFP for retirement-plan audit services. It provides neither plan’s participant count as of December 31, 2020.",
+      "quotes": [
+        "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
+        "The San Bernardino County Employees’ Retirement Association (SBCERA or the Plan) requests proposals from qualified professional investment consulting firms"
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 130
+        },
+        {
+          "quote": "The San Bernardino County Employees’ Retirement Association (SBCERA or the Plan) requests proposals from qualified professional investment consulting firms",
+          "start": 5365,
+          "end": 5520
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

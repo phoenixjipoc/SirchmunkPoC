@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "e8f1a2223049b08fe3e2",
+    "query_id": "OTH-11",
+    "question": "What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2017?",
+    "file": "Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+    "expected_facts": "November 27, 2017 by 4:30 p.m. (H.S.T.).",
+    "acceptance": "November27,2017 at 4:30pm HST; equivalent date/time format accepted.",
+    "text_hash": "99dfb2e29a476692e5a1c4068d93257297301148b093cad540ee7efb375b7ad6",
+    "source_text_sha256": "4d16256427fde508295fb4e71f62f53f894c4425b7d8bb636c1f23e43bd33253",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2025 Oklahoma Teachers’ Retirement System investment consulting RFP, not the 2017 Hawaii ERS private equity consulting RFP. Its proposal deadline does not support the requested deadline.",
+      "quotes": [
+        "The Teachers’ Retirement System of Oklahoma (TRS) is seeking proposals from qualified firms to provide investment consultant services.",
+        "RFP Date: November 19, 2025",
+        "The deadline for receipt of completed proposals is 4:00 p.m. Central Time, on January 14, 2026."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Teachers’ Retirement System of Oklahoma (TRS) is seeking proposals from qualified firms to provide investment consultant services.",
+          "start": 341,
+          "end": 475
+        },
+        {
+          "quote": "RFP Date: November 19, 2025",
+          "start": 222,
+          "end": 249
+        },
+        {
+          "quote": "The deadline for receipt of completed proposals is 4:00 p.m. Central Time, on January 14, 2026.",
+          "start": 50247,
+          "end": 50342
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

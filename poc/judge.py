@@ -8,11 +8,11 @@ Labels for answer rows:
 pre_gate_label grades the answer the summary gate blocked. It shows how often
 a "no result" hid a usable answer.
 
-The judge uses any OpenAI-compatible endpoint. By default it reads the model and
-key from the sirchmunk container env, so the judge is the SAME model as the
-search model unless --model is given. Self-grading bias: spot-check about 20% by hand.
+The judge uses any OpenAI-compatible endpoint. By default it reads the model
+from the run metadata and credentials from the sirchmunk container env, so the
+judge uses the search model unless --model is given.
 
-Usage: python poc/judge.py poc/results/<run_id> [--model gpt-5.4] [--base-url ...]
+Usage: python poc/judge.py poc/results/<run_id> [--model MODEL] [--base-url ...]
 """
 import argparse
 import csv
@@ -97,8 +97,10 @@ def main():
     ap.add_argument("--api-key-env", default="", help="Host env var holding the judge API key")
     args = ap.parse_args()
 
+    run_dir = Path(args.run_dir)
+    run_model = json.loads((run_dir / "run_meta.json").read_text(encoding="utf-8"))["model"]
     cfg = {
-        "model": args.model or container_env("LLM_MODEL_NAME"),
+        "model": args.model or run_model,
         "base_url": (args.base_url or container_env("LLM_BASE_URL")).rstrip("/"),
     }
     key = os.getenv(args.api_key_env) if args.api_key_env else container_env("LLM_API_KEY")
@@ -107,7 +109,6 @@ def main():
     session = requests.Session()
     session.headers["Authorization"] = f"Bearer {key}"
 
-    run_dir = Path(args.run_dir)
     questions_path = Path(args.questions) if args.questions else run_dir / 'question_snapshot.csv'
     if not questions_path.exists():
         sys.exit('No frozen question snapshot; specify --questions explicitly for historical runs.')

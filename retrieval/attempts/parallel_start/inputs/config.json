@@ -1,0 +1,35 @@
+{
+  "model": "gpt-6-sol",
+  "corpus": "/mnt/docs/S",
+  "container": "sirchmunk",
+  "container_root": "/retrieval_20261023",
+  "repetitions": 3,
+  "seeds": [
+    17011,
+    17012,
+    17013
+  ],
+  "groups": {
+    "R10": 10,
+    "R5": 5
+  },
+  "query_timeout_s": 600,
+  "request_timeout_s": 120,
+  "requests_per_process": 3,
+  "workers": 6,
+  "knowledge_reuse": false,
+  "final_answer": false,
+  "directory_candidates": 20,
+  "max_depth": 5,
+  "top_snippets": 5,
+  "confidence_threshold": 8.0,
+  "questions_sha256": "84f8a790551fabc154b74f9f59e0e13dde0eff7f06b38de9eb3afb27d341fb11",
+  "launch_order": [
+    "R10_r1",
+    "R5_r1",
+    "R5_r2",
+    "R10_r2",
+    "R10_r3",
+    "R5_r3"
+  ]
+}

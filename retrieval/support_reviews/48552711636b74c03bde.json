@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "48552711636b74c03bde",
+    "query_id": "SVC-04",
+    "question": "In the Contra Costa County Employees' Retirement Association (CCCERA) April 2018 master custodian RFP, how many copies of the proposal must be submitted, and for how long must the proposal remain a firm and irrevocable offer?",
+    "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+    "expected_facts": "One (1) original proposal, four (4) hard copies and one (1) copy in electronic form; the proposal must be a firm and irrevocable offer good for one year from the proposal due date (due 5:00 p.m. PT, Friday, May 25, 2018).",
+    "acceptance": "Accept five paper sets total if the original is clearly included, plus one electronic copy; validity one year from due date. Actual proposal deadline is optional.",
+    "text_hash": "b1b58831638092aa2c4058820d103b7fbdbca636b18c44a0d4120044ca4b814b",
+    "source_text_sha256": "9f5bdf4dd9b56cf14ad12c68d7eac6a3122ac753ad93b2296c4763b688071979",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is SBCERS’s 2020 private equity consultant RFP, not CCCERA’s April 2018 master custodian RFP. Its copy and offer-validity requirements therefore do not support the question.",
+      "quotes": [
+        "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+        "Date of RFP issuance July 27, 2020",
+        "Three (3) printed copies, one (1) electronic version",
+        "A statement to the effect that the proposal is a firm and irrevocable offer good for six (6) months."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+          "start": 13,
+          "end": 143
+        },
+        {
+          "quote": "Date of RFP issuance July 27, 2020",
+          "start": 153,
+          "end": 187
+        },
+        {
+          "quote": "Three (3) printed copies, one (1) electronic version",
+          "start": 405,
+          "end": 457
+        },
+        {
+          "quote": "A statement to the effect that the proposal is a firm and irrevocable offer good for six (6) months.",
+          "start": 28888,
+          "end": 28988
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

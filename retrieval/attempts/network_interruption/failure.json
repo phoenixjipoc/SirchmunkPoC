@@ -1,0 +1,7 @@
+{
+  "completed_queries": 51,
+  "partial_queries": 1,
+  "connection_failure_queries": 68,
+  "reason": "APIConnectionError",
+  "recovery_policy": "Keep successful results unchanged; retry only technical failures after live connection check"
+}

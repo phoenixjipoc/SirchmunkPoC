@@ -1,0 +1,64 @@
+{
+  "job": {
+    "id": "1d11d016faeac69db4ab",
+    "query_id": "INV-11",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for investment consulting, real estate consulting and performance measurement services, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "expected_facts": "Three factors: (1) Organization - stability, ownership, documented experience of key professionals; (2) Consulting Skill - investment philosophy, investment manager information collection and monitoring systems, risk management tools, performance measurement systems, and breadth of consulting expertise and experience; (3) Fees - consulting fees for services requested and associated costs.",
+    "acceptance": "Three factors with substantively equivalent descriptions suffice; exact wording and order are unnecessary.",
+    "text_hash": "2e5c9ac10ac2943a19269fe0ceeab6dc6cca5c9b732ec461770764bed168feeb",
+    "source_text_sha256": "698b71034e03dda497378807f02ef9875cc985ad2aafde5d24accec7bdff2d4b",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a South Carolina Retirement System Investment Commission RFP, not the IMRF sample RFP. Its evaluation criteria also differ: it lists four equally weighted criteria rather than the three factors specified for the IMRF RFP.",
+      "quotes": [
+        "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+        "In evaluating Proposals, the search team and RSIC will consider the following criteria:",
+        "Consulting Team: Depth, breadth, and experience of the professionals directly working on RSIC account.",
+        "Organizational Strength: Asset allocation experience, research platform, operations, and administrative support.",
+        "Investment Approach: Soundness of approach to meeting RSIC’s needs.",
+        "Fee Proposal."
+      ],
+      "quote_matches": [
+        {
+          "quote": "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+          "start": 106,
+          "end": 203
+        },
+        {
+          "quote": "In evaluating Proposals, the search team and RSIC will consider the following criteria:",
+          "start": 55393,
+          "end": 55480
+        },
+        {
+          "quote": "Consulting Team: Depth, breadth, and experience of the professionals directly working on RSIC account.",
+          "start": -1,
+          "end": 101
+        },
+        {
+          "quote": "Organizational Strength: Asset allocation experience, research platform, operations, and administrative support.",
+          "start": -1,
+          "end": 111
+        },
+        {
+          "quote": "Investment Approach: Soundness of approach to meeting RSIC’s needs.",
+          "start": 55721,
+          "end": 55788
+        },
+        {
+          "quote": "Fee Proposal.",
+          "start": 8795,
+          "end": 8808
+        }
+      ],
+      "all_quotes_grounded": false,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

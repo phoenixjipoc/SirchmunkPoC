@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "358983615e74495a0e50",
+    "query_id": "SVC-13",
+    "question": "What evaluation criteria and percentage weights does the Texas Municipal Retirement System (TMRS) global custody RFP use to evaluate respondents?",
+    "file": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 25%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Response and Additional Evidence of Capability - 10%; 4. Competitiveness & Reasonableness of Economics - 25%.",
+    "acceptance": "Accept faithful shorter criterion names with correct mapping 25/40/10/25. Supporting subcriteria are optional.",
+    "text_hash": "9442e2b4c086526d3a2fdbcfd889eca2ceeb00c6b9e5d09ba8003815529b2dfc",
+    "source_text_sha256": "a03af1cb5588edbe010abae942bbd4d97b649d15b5280a5db6c40f3e111a54fd",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Boston Retirement System investment consulting RFP, not a TMRS global custody RFP. Its evaluation form does not provide the requested criteria or percentage weights.",
+      "quotes": [
+        "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+        "Investment Consulting Services BRS Investment Consultant Search",
+        "EVALUATION CRITERIA AND SCORING"
+      ],
+      "quote_matches": [
+        {
+          "quote": "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+          "start": 13,
+          "end": 106
+        },
+        {
+          "quote": "Investment Consulting Services BRS Investment Consultant Search",
+          "start": 22520,
+          "end": 22583
+        },
+        {
+          "quote": "EVALUATION CRITERIA AND SCORING",
+          "start": 22689,
+          "end": 22720
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

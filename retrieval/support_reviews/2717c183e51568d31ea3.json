@@ -1,0 +1,75 @@
+{
+  "job": {
+    "id": "2717c183e51568d31ea3",
+    "query_id": "CONS-12",
+    "question": "How many printed copies of the proposal must be submitted in the Boston Retirement System 2022 investment consulting services RFP?",
+    "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "expected_facts": "Seven (7) printed copies plus one (1) electronic version.",
+    "acceptance": "Seven printed copies alone answers the question; electronic copy is optional context.",
+    "text_hash": "2e5c9ac10ac2943a19269fe0ceeab6dc6cca5c9b732ec461770764bed168feeb",
+    "source_text_sha256": "698b71034e03dda497378807f02ef9875cc985ad2aafde5d24accec7bdff2d4b",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2016 South Carolina Retirement System Investment Commission RFP, not the Boston Retirement System 2022 RFP. Its requirement of one original and ten copies cannot support the requested printed-copy count.",
+      "quotes": [
+        "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+        "OPENING DATE: 9/30/2016",
+        "Submit one (1) original and ten (10) copies of your Proposal to the Contact."
+      ],
+      "quote_matches": [
+        {
+          "quote": "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+          "start": 106,
+          "end": 203
+        },
+        {
+          "quote": "OPENING DATE: 9/30/2016",
+          "start": 234,
+          "end": 257
+        },
+        {
+          "quote": "Submit one (1) original and ten (10) copies of your Proposal to the Contact.",
+          "start": 45912,
+          "end": 45988
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is a 2016 South Carolina Retirement System Investment Commission RFP, not the Boston Retirement System’s 2022 RFP. Its copy requirement therefore does not answer the question.",
+      "quotes": [
+        "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+        "OPENING DATE: 9/30/2016",
+        "Submit one (1) original and ten (10) copies of your Proposal to the Contact."
+      ],
+      "quote_matches": [
+        {
+          "quote": "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+          "start": 106,
+          "end": 203
+        },
+        {
+          "quote": "OPENING DATE: 9/30/2016",
+          "start": 234,
+          "end": 257
+        },
+        {
+          "quote": "Submit one (1) original and ten (10) copies of your Proposal to the Contact.",
+          "start": 45912,
+          "end": 45988
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

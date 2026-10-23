@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "654ccb16d139422cd677",
+    "query_id": "OTH-03",
+    "question": "In Rice University's 2021 RFP for audit services for its retirement plans, how many participants did the 401(a) plan and the 403(b) plan have as of December 31, 2020?",
+    "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+    "expected_facts": "401(a) plan: 8,828 participants; 403(b) plan: 7,533 participants (as of December 31, 2020).",
+    "acceptance": "Accept 8,828 for 401(a) and 7,533 for 403(b); do not transpose.",
+    "text_hash": "b1b58831638092aa2c4058820d103b7fbdbca636b18c44a0d4120044ca4b814b",
+    "source_text_sha256": "9f5bdf4dd9b56cf14ad12c68d7eac6a3122ac753ad93b2296c4763b688071979",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2020 Santa Barbara County Employees’ Retirement System RFP for private equity consultant services, not Rice University’s 2021 RFP for retirement-plan audit services. It provides neither plan’s participant count.",
+      "quotes": [
+        "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+        "Date of RFP issuance July 27, 2020"
+      ],
+      "quote_matches": [
+        {
+          "quote": "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+          "start": 13,
+          "end": 143
+        },
+        {
+          "quote": "Date of RFP issuance July 27, 2020",
+          "start": 153,
+          "end": 187
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "d904f180a0c25566314a",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "0666a4752a3ae0a7910c24a7c285ffaaa10083f60e8c67b4342d3518c8062d73",
+    "source_text_sha256": "0b9aca72670eb972abc23eff3632645fe86fee9eaf9c4e0c3c722bd89a4d4b77",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is KCERA’s 2024 actuarial audit RFP, not the external financial audit RFP Q&A described in the question. It gives no total contractual fees for FY2021 audits; its cost bid is blank.",
+      "quotes": [
+        "Kern County Employees’ Retirement Association Request for Proposal ACTUARIAL AUDIT SERVICES March 29, 2024",
+        "KCERA seeks one qualified actuarial firm to perform a full actuarial audit of assumptions, methods, calculations, and experience used in KCERA’s actuarial valuation.",
+        "Actuarial Audit Services $ Basic Retainer $ (if required)"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Kern County Employees’ Retirement Association Request for Proposal ACTUARIAL AUDIT SERVICES March 29, 2024",
+          "start": 13,
+          "end": 119
+        },
+        {
+          "quote": "KCERA seeks one qualified actuarial firm to perform a full actuarial audit of assumptions, methods, calculations, and experience used in KCERA’s actuarial valuation.",
+          "start": 43146,
+          "end": 43311
+        },
+        {
+          "quote": "Actuarial Audit Services $ Basic Retainer $ (if required)",
+          "start": 59722,
+          "end": 59779
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

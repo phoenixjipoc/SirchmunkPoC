@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "7043023e78380971bb86",
+    "query_id": "SVC-12",
+    "question": "According to the Monroe County deferred compensation services RFP, how many participants did the plan have and what were its total assets?",
+    "file": "OCERS__custodian_rfp_2022-2023.pdf",
+    "expected_facts": "As of December 31, 2022: 4,398 plan participants and plan assets of $308,676,730. In addition, the OBRA part-time seasonal plan had 536 participants with assets of $926,785.",
+    "acceptance": "Main plan 4,398 participants / $308,676,730 is sufficient. OBRA 536 / $926,785 is supplementary and must not replace or be silently added to main-plan figures.",
+    "text_hash": "2f1b263969ef09f6d98b625298c7af0518d618d780be107703d3e797ceb8169a",
+    "source_text_sha256": "2160dab5b593e917103890305a919f136c0a0f9f1c86c7a4b6fb2c4eaaf14ec2",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Orange County Employees Retirement System custody-services RFP, not the Monroe County deferred compensation services RFP. It does not state the requested main-plan participant count or asset total.",
+      "quotes": [
+        "Custody Services Request for Proposal October 2022 Orange County Employees Retirement System (OCERS)",
+        "There are approximately 49,000 members served by OCERS, of which over 20,000 are retirees.",
+        "The OCERS’ investment portfolio, approximately $22.4 billion in assets as of December 31, 2021, is diversified globally and across multiple asset classes."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Custody Services Request for Proposal October 2022 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 113
+        },
+        {
+          "quote": "There are approximately 49,000 members served by OCERS, of which over 20,000 are retirees.",
+          "start": 7228,
+          "end": 7318
+        },
+        {
+          "quote": "The OCERS’ investment portfolio, approximately $22.4 billion in assets as of December 31, 2021, is diversified globally and across multiple asset classes.",
+          "start": 7645,
+          "end": 7799
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

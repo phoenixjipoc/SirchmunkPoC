@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "9210c5dd9de657f78594",
+    "query_id": "SVC-16",
+    "question": "What contract term, including any extension options, does the Los Angeles Fire and Police Pensions (LAFPP) RFP for financial statement audit services contemplate?",
+    "file": "INPRS__RFP24-05_AuditServices.pdf",
+    "expected_facts": "A three-year contract (fiscal years ending June 30, 2025, 2026 and 2027) with a maximum fee proposal for each fiscal year; the Board may extend beyond the three-year term through two one-year renewals.",
+    "acceptance": "Three years plus two optional one-year renewals, up to five years, suffices. Fiscal-year dates and fee-proposal details are optional.",
+    "text_hash": "c91a90645d9659e59cf92c848073c9a4293275c8ab6c443e5ea6557a9cce6d3a",
+    "source_text_sha256": "cd68d7342246afa44a13ddc9cd569953afbc71f71001c6d34468336403cd1683",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Indiana Public Retirement System (INPRS) audit-services RFP, not an LAFPP RFP. Its stated term is an initial five years with possible renewals, rather than three years plus two optional one-year renewals.",
+      "quotes": [
+        "Request for Proposals (“RFP”) for Audit Services for the Indiana Public Retirement System (“INPRS” or the “System”)",
+        "The term of the contract entered into under this RFP shall be for an initial period of five (5) years, beginning from the date of final execution of contract.",
+        "There may be one (1) or more renewals under the same terms and conditions at INPRS’s option up to the length of the original term."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals (“RFP”) for Audit Services for the Indiana Public Retirement System (“INPRS” or the “System”)",
+          "start": 2169,
+          "end": 2284
+        },
+        {
+          "quote": "The term of the contract entered into under this RFP shall be for an initial period of five (5) years, beginning from the date of final execution of contract.",
+          "start": 29076,
+          "end": 29234
+        },
+        {
+          "quote": "There may be one (1) or more renewals under the same terms and conditions at INPRS’s option up to the length of the original term.",
+          "start": 29235,
+          "end": 29365
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

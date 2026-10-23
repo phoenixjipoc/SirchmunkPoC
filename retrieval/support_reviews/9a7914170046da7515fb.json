@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "9a7914170046da7515fb",
+    "query_id": "CONS-02",
+    "question": "In the NYC Board of Education Retirement System (BERS) RFP 2024-003 for investment consulting services, how many maximum evaluation points are assigned to the annual fee proposal?",
+    "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+    "expected_facts": "28 points (out of 100). Full breakdown: Program Plan/Narrative 18, Organizational Capacity/Knowledge and Experience 23, Demonstrated Effectiveness 22, Fee Proposal - Annual Fee 28, Fee Proposal - Hourly Rate 9.",
+    "acceptance": "28 points alone is sufficient. Other scoring categories and fee formula are optional.",
+    "text_hash": "bbc5aa974f33a642622995234835e9395ec434792cd34aee6fa6e2448cb34a49",
+    "source_text_sha256": "ef809dc88bd158929af52565b0c35337429a448aa163f0f9466c3d4c5f44b3bd",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Anchorage Police and Fire Retirement System RFP dated 2025, not NYC BERS RFP 2024-003. It does not state the maximum evaluation points for the annual fee proposal in the requested RFP.",
+      "quotes": [
+        "This RFP is issued by the Anchorage Police and Fire Retirement System.",
+        "Anchorage Police & Fire Retirement System April 15, 2025 REQUEST FOR PROPOSAL",
+        "Annual Fee, all inclusive of cost, flat dollar, no percentage: REQUIRED: ___________________________"
+      ],
+      "quote_matches": [
+        {
+          "quote": "This RFP is issued by the Anchorage Police and Fire Retirement System.",
+          "start": -1,
+          "end": 69
+        },
+        {
+          "quote": "Anchorage Police & Fire Retirement System April 15, 2025 REQUEST FOR PROPOSAL",
+          "start": 13,
+          "end": 90
+        },
+        {
+          "quote": "Annual Fee, all inclusive of cost, flat dollar, no percentage: REQUIRED: ___________________________",
+          "start": 19286,
+          "end": 19386
+        }
+      ],
+      "all_quotes_grounded": false,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

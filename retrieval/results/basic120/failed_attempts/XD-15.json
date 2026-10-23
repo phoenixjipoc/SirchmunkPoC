@@ -1,0 +1,20 @@
+{
+  "query_id": "XD-15",
+  "question": "Which documents in the corpus mention the ISO 27001 information security standard, and in what context does each one use it?",
+  "type": "broad",
+  "pair_id": "",
+  "seed": 564230616,
+  "references": [],
+  "status": "query_error",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "error": "APIConnectionError: Connection error.",
+  "elapsed_s": 0.056,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  }
+}

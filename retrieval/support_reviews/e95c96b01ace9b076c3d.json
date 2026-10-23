@@ -1,0 +1,63 @@
+{
+  "job": {
+    "id": "e95c96b01ace9b076c3d",
+    "query_id": "DDQ-05",
+    "question": "According to the INREV Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles, when was the questionnaire first launched and in which years was it updated?",
+    "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "expected_facts": "It was first launched in April 2007 and updated in 2010, 2014 and most recently in 2018. The 2018 version introduced a phased approach with Preliminary, Advanced and Supplementary stages.",
+    "acceptance": "Accept April 2007 and 2010/2014/2018. Phased approach and stage labels are not required.",
+    "text_hash": "8001c2935fd31d857e13d33885aca5873ce1465a74d1278f1e59f19d21fdfb34",
+    "source_text_sha256": "f8a7e1654c092344faef93294e84556e3d65ac1d18c78ee01b0fed8bc16b22fb",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "partial",
+      "identity": "correct",
+      "reason": "The document explicitly identifies the INREV DDQ and states that it was most recently updated in 2018. It says the due diligence protocol was first launched in April 2007, but does not establish the questionnaire’s 2010 or 2014 updates; its 2014 launch date refers to the Funds of Funds / Multi Manager variation.",
+      "quotes": [
+        "The Due Diligence Questionnaire (DDQ) for Funds of Funds and Multi Manager (INREV FoF / MM DDQ) is part of the due diligence protocol which was first launched in April 2007.",
+        "Originally launched in 2014, INREV FoF / MM is a variation of the INREV Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles (INREV DDQ) most recently updated in 2018."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Due Diligence Questionnaire (DDQ) for Funds of Funds and Multi Manager (INREV FoF / MM DDQ) is part of the due diligence protocol which was first launched in April 2007.",
+          "start": 1256,
+          "end": 1429
+        },
+        {
+          "quote": "Originally launched in 2014, INREV FoF / MM is a variation of the INREV Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles (INREV DDQ) most recently updated in 2018.",
+          "start": 1430,
+          "end": 1619
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "partial",
+      "identity": "correct",
+      "reason": "The source identifies the INREV DDQ and states that its due diligence protocol was first launched in April 2007 and that the INREV DDQ was most recently updated in 2018. It does not evidence a 2010 update. Its 2014 date refers to the launch of the Funds of Funds / Multi Manager variation, not an update to the questionnaire asked about.",
+      "quotes": [
+        "The Due Diligence Questionnaire (DDQ) for Funds of Funds and Multi Manager (INREV FoF / MM DDQ) is part of the due diligence protocol which was first launched in April 2007.",
+        "Originally launched in 2014, INREV FoF / MM is a variation of the INREV Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles (INREV DDQ) most recently updated in 2018."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Due Diligence Questionnaire (DDQ) for Funds of Funds and Multi Manager (INREV FoF / MM DDQ) is part of the due diligence protocol which was first launched in April 2007.",
+          "start": 1256,
+          "end": 1429
+        },
+        {
+          "quote": "Originally launched in 2014, INREV FoF / MM is a variation of the INREV Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles (INREV DDQ) most recently updated in 2018.",
+          "start": 1430,
+          "end": 1619
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

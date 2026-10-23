@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "16879faa0d77852f86d5",
+    "query_id": "INV-09",
+    "question": "An investment manager RFP template for an emerging markets equity strategy (issued February 14, 2022, responses due March 31, 2022) lists required minimum qualifications and 'preferred criteria'. What live track record does it require, and what public pension client base does it prefer?",
+    "file": "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+    "expected_facts": "Required: an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy (qualified women-, minority- or disabled-owned businesses are exempt). Preferred: at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan client with over $10 billion in total plan assets (plus no material litigation in the past five years). Issuer: State Universities Retirement System of Illinois (SURS).",
+    "acceptance": "Accept five-year live strategy record and the alternative client tests (two >$1bn U.S. public pensions OR one >$10bn public plan). Ownership exemption is a relevant qualification. Issuer, litigation criterion and placeholder date need not be volunteered.",
+    "text_hash": "30d68f8537639ec2cf4b5e89f75c53d4f7a34757aa577e6eaca8744b155f28c0",
+    "source_text_sha256": "53569804783646aac401541d4bd8f06ca4371d2199a59c44ad06613e10455875",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a September 2026 PRIM RFP for active global core equity, not the February 2022 SURS emerging-markets-equity template. It requires three years of actual performance, excludes emerging-markets-only strategies, and does not state the specified preferred public-pension-client tests.",
+      "quotes": [
+        "The Massachusetts Pension Reserves Investment Management Board (“PRIM”) is requesting responses from firms interested in providing Active Global Core Equity Investment Management Services.",
+        "September 8, 2026",
+        "emerging markets only, developed markets only (i.e., excluding emerging markets), single-region, and single-country strategies are not eligible.",
+        "The proposed strategy must have at least three years of actual performance as of June 30, 2026"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Massachusetts Pension Reserves Investment Management Board (“PRIM”) is requesting responses from firms interested in providing Active Global Core Equity Investment Management Services.",
+          "start": 101,
+          "end": 289
+        },
+        {
+          "quote": "September 8, 2026",
+          "start": 58,
+          "end": 75
+        },
+        {
+          "quote": "emerging markets only, developed markets only (i.e., excluding emerging markets), single-region, and single-country strategies are not eligible.",
+          "start": 10681,
+          "end": 10825
+        },
+        {
+          "quote": "The proposed strategy must have at least three years of actual performance as of June 30, 2026",
+          "start": 24727,
+          "end": 24821
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "dfc4651751bd8be8e4be",
+    "query_id": "OTH-05",
+    "question": "Under Missouri LAGERS' private markets consultant RFP, how many public fund clients of what minimum size must a respondent provide non-discretionary private market investment consulting to?",
+    "file": "Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+    "expected_facts": "At least three public fund clients with assets of at least $10 billion (as of March 31, 2024).",
+    "acceptance": "At least three public-fund clients with at least $10bn each. March31,2024 is a useful qualifier, not a separately asked fact.",
+    "text_hash": "7974cf3ced5ece0c3df4520edc4dd6247ec6bbbc3297db171ad7ec83dd1f5ab2",
+    "source_text_sha256": "d065a0843dfa54da64a294e172b508cf8e712eb413bc4f30e72f609c24012fce",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is Oklahoma OPERS’ 2022 general investment consulting RFP, not Missouri LAGERS’ private markets consultant RFP. Its five-client qualification and three-reference request do not establish the specified non-discretionary private-markets requirement or $10 billion minimum.",
+      "quotes": [
+        "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+        "OPERS is seeking the services of a general investment consultant",
+        "The proposed investment consultant must have acted as full-service consultant to at least five public pension plans, each with at least $1 billion in assets, as of June 30, 2021.",
+        "Provide three references for the largest public fund clients who employ your firm."
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 124
+        },
+        {
+          "quote": "OPERS is seeking the services of a general investment consultant",
+          "start": 17497,
+          "end": 17561
+        },
+        {
+          "quote": "The proposed investment consultant must have acted as full-service consultant to at least five public pension plans, each with at least $1 billion in assets, as of June 30, 2021.",
+          "start": 21262,
+          "end": 21440
+        },
+        {
+          "quote": "Provide three references for the largest public fund clients who employ your firm.",
+          "start": 34042,
+          "end": 34124
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "a3f0e33032497bf4fb5c",
+    "query_id": "INV-12",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for domestic equity small cap growth investment management, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "expected_facts": "Four primary factors: (a) People - stability of the organization, ownership structure and documented experience of key professionals; (b) Process - clearly defined, reasonable and repeatable investment strategy; (c) Performance - documented ability to meet investment performance benchmarks; (d) Pricing - fee schedule and associated costs.",
+    "acceptance": "Accept People, Process, Performance, Pricing and faithful descriptions; exact labels are not mandatory.",
+    "text_hash": "1293d72cf747218c60a7c2a6d672307dfc4ed9a219b9d94748104754f6a40b02",
+    "source_text_sha256": "7ed4136b9f78094e292fd0483fe60026c36824af173945e88edf069fb23a58f7",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a SURS sample RFP for emerging markets equity, not the IMRF domestic equity small-cap growth RFP. Its evaluation criteria are presented as SURS’s own and are not identified as a restatement of IMRF’s selection factors.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL ID: RFP-##-##-## Emerging Markets Equity",
+        "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+        "SURS will consider the following factors in the evaluation process, ranked in no specific order"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL ID: RFP-##-##-## Emerging Markets Equity",
+          "start": 13,
+          "end": 74
+        },
+        {
+          "quote": "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+          "start": 7442,
+          "end": 7531
+        },
+        {
+          "quote": "SURS will consider the following factors in the evaluation process, ranked in no specific order",
+          "start": 20842,
+          "end": 20937
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

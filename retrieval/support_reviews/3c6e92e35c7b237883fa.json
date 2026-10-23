@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "3c6e92e35c7b237883fa",
+    "query_id": "SVC-16",
+    "question": "What contract term, including any extension options, does the Los Angeles Fire and Police Pensions (LAFPP) RFP for financial statement audit services contemplate?",
+    "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "expected_facts": "A three-year contract (fiscal years ending June 30, 2025, 2026 and 2027) with a maximum fee proposal for each fiscal year; the Board may extend beyond the three-year term through two one-year renewals.",
+    "acceptance": "Three years plus two optional one-year renewals, up to five years, suffices. Fiscal-year dates and fee-proposal details are optional.",
+    "text_hash": "a98d524e6be406d219908f55d7669eccd66ebe00dac2da8fe751cb73c6c068e5",
+    "source_text_sha256": "f7992acf077bd43f56dcfe41af1dd3fdb115f4ea1c61bea284a8fb27b11a2ca2",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Texas Municipal Retirement System RFP for general investment consulting, not the LAFPP RFP for financial statement audit services. Its contract term is to be negotiated; it provides no evidence for LAFPP’s three-year term or two optional one-year renewals.",
+      "quotes": [
+        "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+        "The purpose of this RFP is for TMRS to seek proposals for services from qualified general investment consultants",
+        "The term of the initial contract will be negotiated and begin after approved by the Board of Trustees of TMRS."
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+          "start": 4270,
+          "end": 4370
+        },
+        {
+          "quote": "The purpose of this RFP is for TMRS to seek proposals for services from qualified general investment consultants",
+          "start": 4394,
+          "end": 4506
+        },
+        {
+          "quote": "The term of the initial contract will be negotiated and begin after approved by the Board of Trustees of TMRS.",
+          "start": 5517,
+          "end": 5627
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

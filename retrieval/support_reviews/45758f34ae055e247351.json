@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "45758f34ae055e247351",
+    "query_id": "SVC-20",
+    "question": "What scope of services does the Kern County Employees' Retirement Association (KCERA) 2024 actuarial audit services RFP require?",
+    "file": "LACERS__2025_actuarial_consulting_services_rfp.pdf",
+    "expected_facts": "A full actuarial audit of the assumptions, methods, calculations and experience used in KCERA's valuation, in two parts: (1) a peer review audit of the Actuarial Experience Study for July 1, 2019 - June 30, 2022 and the Review of Economic Actuarial Assumptions as of June 30, 2022 - evaluating the data (including comparison of census data), reconciling discrepancies with the consulting actuary, and evaluating the recommended economic and non-economic assumptions; and (2) a parallel valuation (independent reproduction) of the June 30, 2023 valuation, including the SRBR valuation and GASB 67 valuation, using the consulting actuary's assumptions and methods and reproducing all work without relying on the consulting actuary, with reconciliation of discrepancies. Results of both are to be communicated to the consulting actuary before completion of the June 30, 2024 valuation.",
+    "acceptance": "Require both experience-study peer review and independent June 30, 2023 parallel valuation, including SRBR/GASB67 and discrepancy reconciliation. A concise account may group data and assumption checks; sample-agreement delivery details are optional.",
+    "text_hash": "f4525122521ab7e76068ce1fd50910b77ebfe55cb8ff36e1b7c16f377703dabe",
+    "source_text_sha256": "7e096c8372e52f175e2aba48012fdffb7c5ee4851ee9ab1af4563bae28d35145",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is LACERS’ 2025 RFP for consulting actuarial services, not KCERA’s 2024 actuarial audit services RFP. It describes a possible audit actuary under a separate future RFP and does not require the specified KCERA experience-study peer review or independent June 30, 2023 parallel valuation.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL (RFP) FOR ACTUARIAL CONSULTING SERVICES RFP NO. 4282",
+        "The Los Angeles City Employees’ Retirement System (LACERS) is seeking proposals from qualified actuarial consulting firms",
+        "At some point during the Consulting Actuary contract, through a separate future RFP process, LACERS may award a separate firm to act as the “Audit Actuary.”"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL (RFP) FOR ACTUARIAL CONSULTING SERVICES RFP NO. 4282",
+          "start": 13,
+          "end": 86
+        },
+        {
+          "quote": "The Los Angeles City Employees’ Retirement System (LACERS) is seeking proposals from qualified actuarial consulting firms",
+          "start": 3588,
+          "end": 3709
+        },
+        {
+          "quote": "At some point during the Consulting Actuary contract, through a separate future RFP process, LACERS may award a separate firm to act as the “Audit Actuary.”",
+          "start": 7933,
+          "end": 8089
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

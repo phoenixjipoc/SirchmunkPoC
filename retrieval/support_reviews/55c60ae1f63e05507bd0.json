@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "55c60ae1f63e05507bd0",
+    "query_id": "OTH-03",
+    "question": "In Rice University's 2021 RFP for audit services for its retirement plans, how many participants did the 401(a) plan and the 403(b) plan have as of December 31, 2020?",
+    "file": "OCERS__investment_consultant_services_rfp.pdf",
+    "expected_facts": "401(a) plan: 8,828 participants; 403(b) plan: 7,533 participants (as of December 31, 2020).",
+    "acceptance": "Accept 8,828 for 401(a) and 7,533 for 403(b); do not transpose.",
+    "text_hash": "5b64c217e92c2749a5177225f6fda52ea0dd775fcbdd0d850a456eb5dfcd1a1f",
+    "source_text_sha256": "31ba78f454a82dc69e8946299253c94f905a157c0bee42fe28fb33f65c2dcfa1",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an August 2021 OCERS RFP for investment consulting services, not Rice University's 2021 RFP for retirement-plan audit services. It provides neither plan's participant count as of December 31, 2020.",
+      "quotes": [
+        "Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+        "Orange County Employees Retirement System (“OCERS”) is requesting proposals from qualified firms interested in providing pension fund investment consulting services"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+          "start": 117,
+          "end": 207
+        },
+        {
+          "quote": "Orange County Employees Retirement System (“OCERS”) is requesting proposals from qualified firms interested in providing pension fund investment consulting services",
+          "start": 3955,
+          "end": 4119
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

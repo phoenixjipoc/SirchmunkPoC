@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "7c203dd6d91cb7da1da5",
+    "query_id": "XD-13",
+    "question": "What does the ILPA Due Diligence Questionnaire 2.0 ask about GP-led secondaries and continuation funds in Section 6?",
+    "file": "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+    "expected_facts": "Section 6.0 opens with two Yes/No screening questions. 6.1 asks whether the Firm has done a GP-led secondary in the last five years, and 6.2 asks the same for a continuation fund transaction. Each has four follow-ups: did the LPAC review conflicts in every transaction; was a status quo option available to existing LPs in every transaction; was GP carry rolled over at 100% in every transaction; and were portfolio companies in an IPO or pre-IPO process excluded. Narrative questions 6.3-6.11 then cover: how conflicts of interest are reviewed with the LPAC and LPs (timing, information, Firm benefits not accruing to LPs, transparency on LPAC members or affiliates acting as acquirers); the information given to the LPAC/LPs and its timing; how new fund documents and side letters are structured; the options offered to LPs, including status quo, and differences for new or 'rolling' LPs; the impact on GP economics, alignment of interests and Key Person provisions; the rationale for this route rather than a fund extension or traditional exit; how the bidding universe and valuations are set (secondary managers, third-party advisers, valuation providers); fee structuring (broken deal/termination fees, sharing of transaction costs, management fee, carry); and disclosure of related deals between the GP and acquirers (e.g. stapled transactions or side deals).",
+    "acceptance": "Accept a concise summary covering transaction history, four screening follow-ups, conflicts/disclosure and information, legal/economic/LP options, rationale, bidding/valuation, fees/carry and related deals. Exact subquestion numbering and every illustrative detail are optional.",
+    "text_hash": "a73f8098a99029a40e97e080d66cdb97fc9c585944212d49c8006ef52d55da0f",
+    "source_text_sha256": "9a236643d7b4204fbdc4d7e63cf40d28896fa6aca7d4dca0b56d53d6261f1016",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Arizona PSPRS request for proposals, not the ILPA Due Diligence Questionnaire 2.0. Its Section 6 concerns portfolio performance reporting and does not state the requested GP-led secondaries or continuation-fund questions.",
+      "quotes": [
+        "This Request for Proposal (“RFP”) is issued by the Board of Trustees (“Board”) of the Public Safety Personnel Retirement System (“System”)",
+        "6. Portfolio performance measurement and reporting—Conduct performance reviews on a monthly and quarterly basis:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (“RFP”) is issued by the Board of Trustees (“Board”) of the Public Safety Personnel Retirement System (“System”)",
+          "start": 1142,
+          "end": 1280
+        },
+        {
+          "quote": "6. Portfolio performance measurement and reporting—Conduct performance reviews on a monthly and quarterly basis:",
+          "start": 7707,
+          "end": 7819
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

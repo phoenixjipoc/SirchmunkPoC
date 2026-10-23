@@ -1,0 +1,64 @@
+{
+  "job": {
+    "id": "035dc553cff24e57bad9",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "LACERS__2025_actuarial_consulting_services_rfp.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "f4525122521ab7e76068ce1fd50910b77ebfe55cb8ff36e1b7c16f377703dabe",
+    "source_text_sha256": "7e096c8372e52f175e2aba48012fdffb7c5ee4851ee9ab1af4563bae28d35145",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a LACERS actuarial consulting services RFP, not an SBCERS global custody RFP. Its evaluation categories and weights differ from the requested criteria and 30/40/5/25% weights.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL (RFP) FOR ACTUARIAL CONSULTING SERVICES RFP NO. 4282",
+        "The Los Angeles City Employees’ Retirement System (LACERS) is seeking proposals from qualified actuarial consulting firms with experience providing services to public employee pension funds.",
+        "Professionalism 15",
+        "Proposed Scope of Services Description and Methodology 30",
+        "Qualifications, Experience, and Accomplishments 35",
+        "Value of Cost 20"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL (RFP) FOR ACTUARIAL CONSULTING SERVICES RFP NO. 4282",
+          "start": 13,
+          "end": 86
+        },
+        {
+          "quote": "The Los Angeles City Employees’ Retirement System (LACERS) is seeking proposals from qualified actuarial consulting firms with experience providing services to public employee pension funds.",
+          "start": 3588,
+          "end": 3778
+        },
+        {
+          "quote": "Professionalism 15",
+          "start": 35022,
+          "end": 35040
+        },
+        {
+          "quote": "Proposed Scope of Services Description and Methodology 30",
+          "start": 35215,
+          "end": 35272
+        },
+        {
+          "quote": "Qualifications, Experience, and Accomplishments 35",
+          "start": 35485,
+          "end": 35535
+        },
+        {
+          "quote": "Value of Cost 20",
+          "start": 35802,
+          "end": 35818
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

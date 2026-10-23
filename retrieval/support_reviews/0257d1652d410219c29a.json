@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "0257d1652d410219c29a",
+    "query_id": "XD-09",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+    "file": "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+    "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+    "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+    "text_hash": "7ca1e14444ead93c558b519eddbe0502bb5f080ce8678e247801de0ecb9652b8",
+    "source_text_sha256": "ff5ef248d4411638a865914ce676b07109767b5888006ef4708fd3c12c06a986",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a NYC Board of Education Retirement System investment consulting RFP, not the ILPA Due Diligence Questionnaire v1.2. Its table of contents lists RFP attachments and an Appendix A pricing form, but does not identify or list the ILPA questionnaire’s lettered appendices.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES RFP # 2024-003",
+        "Appendix A Pricing Form - ...…………………...……………… .Separate attachment Excel Worksheet"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES RFP # 2024-003",
+          "start": 13,
+          "end": 84
+        },
+        {
+          "quote": "Appendix A Pricing Form - ...…………………...……………… .Separate attachment Excel Worksheet",
+          "start": 1819,
+          "end": 1901
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

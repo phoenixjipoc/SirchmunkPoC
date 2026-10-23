@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "73269d156f27c2e0cc61",
+    "query_id": "INV-06",
+    "question": "A real assets investment consulting solicitation states that the funds' strategic asset allocation targets were adopted by the Board in 2003. As of September 30, 2010, how much did the Board have in its separate account private real estate program, its separate account private infrastructure program, and public real estate securities, and how large were its unfunded commitments?",
+    "file": "Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "expected_facts": "About $164 million in the separate account private real estate program, $59 million in the separate account private infrastructure program, $25 million in public real estate securities, and about $88 million in unfunded commitments to real estate and infrastructure funds. Issuer: District of Columbia Retirement Board (Solicitation DCRB-2011-001); total Funds were over $4.2 billion.",
+    "acceptance": "Accept approximately $164m/$59m/$25m/$88m mapped to the four requested categories. Issuer, solicitation number and total $4.2bn fund size are optional.",
+    "text_hash": "78e9f93c919309a5d2fa10dd95a99a9aa10570f812813a72ac38438337250997",
+    "source_text_sha256": "9509203a806d2bcdf58a836ebe10e970d4ddb42b4cd79e65aeab8cd010579820",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2022 Hawaii Employees’ Retirement System solicitation, not the solicitation described in the question. It gives a 2014 allocation-framework adoption date and a 2021 portfolio value, but none of the requested September 30, 2010 investment amounts or unfunded commitments.",
+      "quotes": [
+        "Employees’ Retirement System of the State of Hawaii (ERS) Request for Proposals Real Assets Investment Consultant RFP 2022-06 Issued October 3, 2022",
+        "The Board of Trustees adopted a functional risk allocation framework in 2014",
+        "ERS investment portfolio is valued at over $22.5 billion as of December 31, 2021"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Employees’ Retirement System of the State of Hawaii (ERS) Request for Proposals Real Assets Investment Consultant RFP 2022-06 Issued October 3, 2022",
+          "start": 13,
+          "end": 161
+        },
+        {
+          "quote": "The Board of Trustees adopted a functional risk allocation framework in 2014",
+          "start": 10125,
+          "end": 10201
+        },
+        {
+          "quote": "ERS investment portfolio is valued at over $22.5 billion as of December 31, 2021",
+          "start": 9623,
+          "end": 9703
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

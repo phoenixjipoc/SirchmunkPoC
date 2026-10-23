@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "8bf09a7e6f804d26a0bd",
+    "query_id": "INV-14",
+    "question": "In the Massachusetts PRIM Board's September 2026 RFP for Active Global Core Equity investment management services, what minimum total firm assets under management must a respondent have?",
+    "file": "CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+    "expected_facts": "At least $5 billion in total firm assets under management as of June 30, 2026.",
+    "acceptance": "At least $5bn total firm AUM as of June 30, 2026. Do not confuse firm AUM with product assets.",
+    "text_hash": "bf49c387d8a37c04a78d322964991be22059ee6783e6dc5d66c93cff8fa9271e",
+    "source_text_sha256": "9832ae165dde61dfd8e8dfc5d940d90cb11879b98946460d80a059b413bccc0b",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a sample RFP for a California JPA, revised in 2010, not the Massachusetts PRIM Board’s September 2026 RFP. It asks firms to report assets under management but states no minimum total firm AUM or June 30, 2026 measurement date.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL FOR INVESTMENT MANAGEMENT SERVICES FOR [Name of JPA]",
+        "As revised November 2, 2010",
+        "[Name of JPA] is a California public agency organized under Government Code sections 6500-6515.",
+        "Provide the number and types of accounts, total asset value and composition of portfolios currently being managed by your firm."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL FOR INVESTMENT MANAGEMENT SERVICES FOR [Name of JPA]",
+          "start": 72,
+          "end": 145
+        },
+        {
+          "quote": "As revised November 2, 2010",
+          "start": 326,
+          "end": 353
+        },
+        {
+          "quote": "[Name of JPA] is a California public agency organized under Government Code sections 6500-6515.",
+          "start": 2269,
+          "end": 2364
+        },
+        {
+          "quote": "Provide the number and types of accounts, total asset value and composition of portfolios currently being managed by your firm.",
+          "start": 4987,
+          "end": 5114
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

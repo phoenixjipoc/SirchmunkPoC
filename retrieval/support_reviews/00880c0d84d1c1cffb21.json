@@ -1,0 +1,81 @@
+{
+  "job": {
+    "id": "00880c0d84d1c1cffb21",
+    "query_id": "SVC-02",
+    "question": "In the American Academy of Actuaries' 2011 RFP for retirement plan and related consulting services, what were the plan assets at 12/31/10 of each of its three retirement plans?",
+    "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "expected_facts": "Money Purchase plan: $3,015,682; 401(k) plan: $1,993,513; Defined Benefit plan: $647,181 (all as of 12/31/10).",
+    "acceptance": "Accept amounts mapped correctly to Money Purchase, 401(k), and Defined Benefit; profit-sharing description is optional.",
+    "text_hash": "7bf0434135598b4379264b9228ec0ae5d514d2497cf998a89da96d5f3d55878f",
+    "source_text_sha256": "1620734055a07375d68aca7dc5b3529168cc1928cf355fcdb11e514e6b786b4c",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2025 actuarial-services RFP issued by the City of Austin Employees’ Retirement System, not the American Academy of Actuaries’ 2011 RFP. It does not state the 12/31/10 assets of the three requested plans. References to the Academy concern professional standards, not the RFP’s issuer.",
+      "quotes": [
+        "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM Request for Proposal (RFP)",
+        "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan June 26, 2025",
+        "The objective of this solicitation is to evaluate the services and pricing for full scope actuarial services provided by qualified firms that abide by the Code of Professional Conduct published by the American Academy of Actuaries."
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM Request for Proposal (RFP)",
+          "start": 13,
+          "end": 83
+        },
+        {
+          "quote": "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan June 26, 2025",
+          "start": 163,
+          "end": 268
+        },
+        {
+          "quote": "The objective of this solicitation is to evaluate the services and pricing for full scope actuarial services provided by qualified firms that abide by the Code of Professional Conduct published by the American Academy of Actuaries.",
+          "start": 10249,
+          "end": 10480
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is a 2025 RFP issued by the City of Austin Employees’ Retirement System, not the American Academy of Actuaries’ 2011 RFP. It does not provide 12/31/10 assets for the three requested plans.",
+      "quotes": [
+        "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM Request for Proposal (RFP)",
+        "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+        "June 26, 2025",
+        "The City of Austin Employees’ Retirement System (COAERS) is a single employer governmental defined benefit retirement system"
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM Request for Proposal (RFP)",
+          "start": 13,
+          "end": 83
+        },
+        {
+          "quote": "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+          "start": 163,
+          "end": 254
+        },
+        {
+          "quote": "June 26, 2025",
+          "start": 255,
+          "end": 268
+        },
+        {
+          "quote": "The City of Austin Employees’ Retirement System (COAERS) is a single employer governmental defined benefit retirement system",
+          "start": 14586,
+          "end": 14710
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

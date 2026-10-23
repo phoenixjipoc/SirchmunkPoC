@@ -1,0 +1,58 @@
+{
+  "job": {
+    "id": "0129988ef03aaf248d2a",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "2e5c9ac10ac2943a19269fe0ceeab6dc6cca5c9b732ec461770764bed168feeb",
+    "source_text_sha256": "698b71034e03dda497378807f02ef9875cc985ad2aafde5d24accec7bdff2d4b",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2016 South Carolina Retirement System Investment Commission consulting-services RFP, not the ILPA Due Diligence Questionnaire 2.0. Its table of contents lists RSIC exhibits A–H and different appendices; the matching A–H lettering does not support the requested ILPA titles.",
+      "quotes": [
+        "General Investment Consulting Services Request for Proposals September 30, 2016",
+        "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+        "EXHIBIT A - OFFEROR QUESTIONNAIRE",
+        "4.1.15 Appendix A - Form ADV Parts I and II:",
+        "4.1.16 Appendix B - Annual Financial Report:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "General Investment Consulting Services Request for Proposals September 30, 2016",
+          "start": 13,
+          "end": 92
+        },
+        {
+          "quote": "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+          "start": 106,
+          "end": 203
+        },
+        {
+          "quote": "EXHIBIT A - OFFEROR QUESTIONNAIRE",
+          "start": 16083,
+          "end": 16116
+        },
+        {
+          "quote": "4.1.15 Appendix A - Form ADV Parts I and II:",
+          "start": 9217,
+          "end": 9261
+        },
+        {
+          "quote": "4.1.16 Appendix B - Annual Financial Report:",
+          "start": 9355,
+          "end": 9399
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,87 @@
+{
+  "job": {
+    "id": "5cbb6db2e305d88f77e0",
+    "query_id": "XD-11",
+    "question": "What questions does the INREV DDQ 2022 for Funds of Funds and Multi Manager ask under section 3.3 'IT, Cyber and Physical Security'?",
+    "file": "OCERS__custodian_rfp_2022-2023.pdf",
+    "expected_facts": "Fourteen questions (3.3.1-3.3.14): (1) position, responsibilities and members of the IT function, and an overview of outsourced IT and how vendors are monitored; (2) compliance with ISO 27001 or other cyber/information security certifications; (3) whether IT and physical security is a standing board agenda item; (4) a formal, documented Cyber Incident Response Plan; (5) any material cyber/information security incident in the past three years; (6) approved antivirus on all servers, workstations and remote devices; (7) how often staff get IT security training; (8) phishing/social engineering tests on staff; (9) how often full (physical and system) vulnerability assessments are done; (10) how often internal and external penetration tests are done; (11) critical/high-risk findings outstanding for over six months; (12) an external cyber security specialist engaged as first point of contact; (13) how physical access to the server/communication room is controlled; (14) a policy on physical access outside standard office hours, e.g. whether permanent staff are on the premises when third-party suppliers work.",
+    "acceptance": "All fourteen topics may be grouped in prose. Preserve three-year incident lookback and six-month outstanding high-risk findings; no need to reproduce every question verbatim.",
+    "text_hash": "2f1b263969ef09f6d98b625298c7af0518d618d780be107703d3e797ceb8169a",
+    "source_text_sha256": "2160dab5b593e917103890305a919f136c0a0f9f1c86c7a4b6fb2c4eaaf14ec2",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is OCERS’s October 2022 custody-services RFP, not the INREV DDQ 2022 for Funds of Funds and Multi Manager. It does not identify or reproduce section 3.3 or its fourteen IT, cyber and physical security questions.",
+      "quotes": [
+        "Custody Services Request for Proposal October 2022 Orange County Employees Retirement System (OCERS)",
+        "Section 3: Scope of Services",
+        "Exhibit E: Questionnaire"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Custody Services Request for Proposal October 2022 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 113
+        },
+        {
+          "quote": "Section 3: Scope of Services",
+          "start": 444,
+          "end": 472
+        },
+        {
+          "quote": "Exhibit E: Questionnaire",
+          "start": 4540,
+          "end": 4564
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is OCERS’s October 2022 Custody Services RFP, not the INREV DDQ 2022 for Funds of Funds and Multi Manager. It does not contain section 3.3 or the fourteen requested IT, cyber and physical security questions. Its technology and security questions are not evidence of the INREV questions.",
+      "quotes": [
+        "Custody Services Request for Proposal October 2022 Orange County Employees Retirement System (OCERS)",
+        "Section 3: Scope of Services",
+        "Exhibit E: Questionnaire",
+        "Part IV – E: System Capabilities & Disaster Recovery",
+        "Part IV – K: Technology"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Custody Services Request for Proposal October 2022 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 113
+        },
+        {
+          "quote": "Section 3: Scope of Services",
+          "start": 444,
+          "end": 472
+        },
+        {
+          "quote": "Exhibit E: Questionnaire",
+          "start": 4540,
+          "end": 4564
+        },
+        {
+          "quote": "Part IV – E: System Capabilities & Disaster Recovery",
+          "start": 80959,
+          "end": 81011
+        },
+        {
+          "quote": "Part IV – K: Technology",
+          "start": 109404,
+          "end": 109427
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "26d1ef1647d5feccf0f0",
+    "query_id": "CONS-06",
+    "question": "Which retirement system's general investment consultant RFP requires respondents to currently provide non-discretionary general investment advice to at least 5 public pension plans larger than $5 billion and at least 2 public plans over $20 billion?",
+    "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "expected_facts": "Texas Municipal Retirement System (TMRS).",
+    "acceptance": "TMRS or the full system name is sufficient; repeating thresholds is optional.",
+    "text_hash": "e529592be16077691cd54aac3c1a9e7ed524ba5b471c34ebf5ebe0296f8ab615",
+    "source_text_sha256": "40f6e66cda735b5ac3e65bb52c7627bc76b11a8e7017ca73d4ed3e9b2360ca3a",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the City of Austin Employees’ Retirement System RFP, not a TMRS RFP. Its stated minimum is two U.S. public pension clients each exceeding $1 billion, not the two client-count and asset thresholds in the question.",
+      "quotes": [
+        "The City of Austin Employees’ Retirement System (COAERS) seeks general investment consultant services in accordance with the specifications contained in this Request for Proposal (“RFP”).",
+        "The firm must have at least two U.S. public pension fund clients, each with assets in excess of one billion U.S. dollars as of December 31, 2023."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The City of Austin Employees’ Retirement System (COAERS) seeks general investment consultant services in accordance with the specifications contained in this Request for Proposal (“RFP”).",
+          "start": 14252,
+          "end": 14439
+        },
+        {
+          "quote": "The firm must have at least two U.S. public pension fund clients, each with assets in excess of one billion U.S. dollars as of December 31, 2023.",
+          "start": 60701,
+          "end": 60846
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

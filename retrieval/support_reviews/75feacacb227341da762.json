@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "75feacacb227341da762",
+    "query_id": "XD-14",
+    "question": "What questions are asked under section 10.0 'ESG (Environmental, Social, Governance)' of the NJEDA Life Science Seed Fund due diligence questionnaire (Appendix A)?",
+    "file": "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+    "expected_facts": "Eight questions: 10.1 the role of the respondent's internal advisory board(s), all matters referred to them (including unresolved ones) and any other governing/advisory bodies; 10.2 conflicts of interest (potential, current, historic) and how they are identified, managed, disclosed (e.g. to the LPAC) and resolved, including any conflict committees; 10.3 the policy on personal investments by employees or affiliates in deals the respondent reviewed; 10.4 whether the respondent is a registered investment advisor (RIA); 10.5 the respondent's ESG-related policies and how ESG factors influence its investment beliefs; 10.6 the implementation status of its responsible investment policy and any plans to develop its approach to ESG; 10.7 how it contributes to portfolio companies' management of ESG risks and opportunities; 10.8 the monitoring processes it would use to assess the proposed Fund's portfolio companies' management of ESG factors.",
+    "acceptance": "Eight topics 10.1–10.8 required in substance, including portfolio-company ESG assistance and monitoring. Exact question wording and numbering are optional.",
+    "text_hash": "53d9721d2e2c3d6a51e0fc4bfb31c9316f7e85c40c0e7f0d49e078816ff62d05",
+    "source_text_sha256": "c2664794e00ae7c2cedc789c6096ac5a57a34278a2e7017af86c3eed125ae7ab",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a Cook County Manager of Managers RFP, not the NJEDA Life Science Seed Fund due diligence questionnaire. It does not contain the requested section 10.0 or its eight ESG questions.",
+      "quotes": [
+        "THE RETIREMENT BOARD OF THE COUNTY EMPLOYEES’ AND OFFICERS’ ANNUITY AND BENEFIT FUND OF COOK COUNTY",
+        "REQUEST FOR PROPOSALS (RFP) TO PROVIDE MANAGER OF MANAGERS INVESTMENT SERVICES",
+        "Attachment E Manager of Managers Due Diligence Questionnaire"
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE RETIREMENT BOARD OF THE COUNTY EMPLOYEES’ AND OFFICERS’ ANNUITY AND BENEFIT FUND OF COOK COUNTY",
+          "start": 13,
+          "end": 112
+        },
+        {
+          "quote": "REQUEST FOR PROPOSALS (RFP) TO PROVIDE MANAGER OF MANAGERS INVESTMENT SERVICES",
+          "start": 212,
+          "end": 290
+        },
+        {
+          "quote": "Attachment E Manager of Managers Due Diligence Questionnaire",
+          "start": 24221,
+          "end": 24281
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

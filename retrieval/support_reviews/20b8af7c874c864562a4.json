@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "20b8af7c874c864562a4",
+    "query_id": "CONS-04",
+    "question": "According to the San Bernardino County Employees' Retirement Association (SBCERA) investment consultant RFP, approximately how large is SBCERA's investment portfolio?",
+    "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "expected_facts": "Approximately $12.0 billion in assets.",
+    "acceptance": "$12bn approximately suffices; do not require or invent an as-of date.",
+    "text_hash": "24d5965850bb731d1f236f3c09eb9e9855009b90c82899fd35fc123fe3525d93",
+    "source_text_sha256": "206385c6cbc8b887e46333ea2f56fa3be1d68c7f94e466f08c17043704dfdec6",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a San Diego City Employees’ Retirement System (SDCERS) RFP, not an SBCERA RFP. It does not state SBCERA’s investment portfolio size.",
+      "quotes": [
+        "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+        "The San Diego City Employees' Retirement System (SDCERS) is requesting proposals from general investment consultants to provide comprehensive pension fund investment consulting services."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+          "start": 13,
+          "end": 117
+        },
+        {
+          "quote": "The San Diego City Employees' Retirement System (SDCERS) is requesting proposals from general investment consultants to provide comprehensive pension fund investment consulting services.",
+          "start": 2127,
+          "end": 2313
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

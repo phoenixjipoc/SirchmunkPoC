@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "7702f2ae27f5ed3a91f0",
+    "query_id": "XD-08",
+    "question": "In the INREV Due Diligence Questionnaire 2022 for Funds of Funds and Multi Manager, which expense ratio must the manager provide under Fees and Expenses, and on what bases?",
+    "file": "Monroe_County_NY__10406.pdf",
+    "expected_facts": "Question 1.6.2 asks for the INREV expense ratio (TGER): a forward-looking estimate (with the calculation method) if the vehicle has not been launched, or the historical INREV expense ratio (TGER) if it is an existing vehicle. It must be given on both NAV and GAV, with and without performance fees. If the INREV expense ratio is not used, a calculation in line with the INREV Fee and Expense Metrics module is required.",
+    "acceptance": "TGER; forward estimate for unlaunched versus historical for existing; NAV/GAV and with/without performance fees. Equivalent description of INREV-compatible fallback accepted.",
+    "text_hash": "5d6c1b9f9242df668205b792cbc1dea026ee8ef0e4aabeeeeac4e0c341a7f6f8",
+    "source_text_sha256": "7b3f27d9504ca7c7c594e455ea0695752566e185651ccdd3eb547409c2e9f252",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2023 Monroe County deferred compensation services RFP, not the INREV Due Diligence Questionnaire 2022 for Funds of Funds and Multi Manager. Its fees section does not specify the requested INREV expense ratio or its calculation bases.",
+      "quotes": [
+        "Request for Proposals Deferred Compensation Services: Administrative/Recordkeeping Services, Marketing/Enrollment/Education Services, Investment Management, and Custodial Trustee Services August 4, 2023",
+        "Fees and Expenses for Services Please specify all fees, expenses, charges and costs for services provided under this Section"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals Deferred Compensation Services: Administrative/Recordkeeping Services, Marketing/Enrollment/Education Services, Investment Management, and Custodial Trustee Services August 4, 2023",
+          "start": 13,
+          "end": 215
+        },
+        {
+          "quote": "Fees and Expenses for Services Please specify all fees, expenses, charges and costs for services provided under this Section",
+          "start": 30833,
+          "end": 30957
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

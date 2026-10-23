@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "00dbc6be0059f701f33e",
+    "query_id": "INV-12",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for domestic equity small cap growth investment management, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "Monroe_County_NY__10406.pdf",
+    "expected_facts": "Four primary factors: (a) People - stability of the organization, ownership structure and documented experience of key professionals; (b) Process - clearly defined, reasonable and repeatable investment strategy; (c) Performance - documented ability to meet investment performance benchmarks; (d) Pricing - fee schedule and associated costs.",
+    "acceptance": "Accept People, Process, Performance, Pricing and faithful descriptions; exact labels are not mandatory.",
+    "text_hash": "5d6c1b9f9242df668205b792cbc1dea026ee8ef0e4aabeeeeac4e0c341a7f6f8",
+    "source_text_sha256": "7b3f27d9504ca7c7c594e455ea0695752566e185651ccdd3eb547409c2e9f252",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Monroe County, New York deferred compensation services RFP, not the IMRF sample RFP for domestic equity small cap growth investment management. It does not state the requested four evaluation factors for that RFP.",
+      "quotes": [
+        "Request for Proposals Deferred Compensation Services: Administrative/Recordkeeping Services, Marketing/Enrollment/Education Services, Investment Management, and Custodial Trustee Services August 4, 2023",
+        "The Monroe County Deferred Compensation Plan Committee (the Committee) developed this Request For Proposals (RFP) to obtain proposals from qualified Administrative Service Agencies and/or Financial Organizations",
+        "All qualified proposals, sought in conjunction with the requirements of Section 9003.2 of the Regulations, will be evaluated and awards made to the Proposer or Proposers whose bid is determined to be in the best interest of the plan participants."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals Deferred Compensation Services: Administrative/Recordkeeping Services, Marketing/Enrollment/Education Services, Investment Management, and Custodial Trustee Services August 4, 2023",
+          "start": 13,
+          "end": 215
+        },
+        {
+          "quote": "The Monroe County Deferred Compensation Plan Committee (the Committee) developed this Request For Proposals (RFP) to obtain proposals from qualified Administrative Service Agencies and/or Financial Organizations",
+          "start": 4267,
+          "end": 4478
+        },
+        {
+          "quote": "All qualified proposals, sought in conjunction with the requirements of Section 9003.2 of the Regulations, will be evaluated and awards made to the Proposer or Proposers whose bid is determined to be in the best interest of the plan participants.",
+          "start": 9443,
+          "end": 9689
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

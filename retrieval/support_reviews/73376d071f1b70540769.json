@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "73376d071f1b70540769",
+    "query_id": "SVC-18",
+    "question": "What minimum qualifications must an audit firm meet in the Kern County Employees' Retirement Association (KCERA) RFP for audit services?",
+    "file": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "expected_facts": "(1) Professional public accounting firm organized at least on a regional basis providing audit and attest services; (2) within the last five years, at least five audits of defined benefit pension plans with assets over $2 billion; (3) experience auditing equity securities (domestic and foreign), fixed income, real estate, alternative investments, commodities and securities lending; (4) an established office in the United States; (5) independent, licensed by and in good standing with California under the Accountancy Act; (6) Engagement Partner (and signing partner) located in the U.S. with at least 10 years of public accounting experience including DB pension plan audits, California-licensed CPA; (7) Engagement Manager located in the U.S. with at least 5 years of public accounting experience including DB plan audits, CPA licensed in a U.S. state; (8) On-Site Audit Supervisor located in the U.S. with at least 3 years of auditing experience including DB plan audits, CPA licensed in a U.S. state; (9) Engagement Manager and Supervisor available for consultations and in-person meetings throughout the year.",
+    "acceptance": "Accept a faithful summary of the nine requirements. Do not impose desirable two audits of >$3bn plans or a California license for manager/supervisor as minimums; a U.S.-state license suffices for those roles.",
+    "text_hash": "013acad3f1f8520c2684a10f9b3d8fe0a1e3b30393ebcfaf64bc1f9156b80e3a",
+    "source_text_sha256": "2ad75cdaeecab9651d3f225547abe579638bbba888408fcd731110baaa9f8322",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Los Angeles Fire and Police Pensions (LAFPP) audit-services RFP, not a KCERA RFP. Its minimum qualifications differ and it does not explicitly restate KCERA’s requirements.",
+      "quotes": [
+        "Los Angeles Fire and Police Pensions Internal Audit Section",
+        "The City of Los Angeles Fire & Police Pensions (“LAFPP” or the “Plan”) is seeking proposals from qualified certified public accounting firms",
+        "1.4.1 The firm must have key personnel with at least five years of experience auditing governmental agencies and/or public pension funds.",
+        "1.4.2 The Engagement Partner must be licensed to practice in the State of California as a Certified Public Accountant"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Los Angeles Fire and Police Pensions Internal Audit Section",
+          "start": 171,
+          "end": 230
+        },
+        {
+          "quote": "The City of Los Angeles Fire & Police Pensions (“LAFPP” or the “Plan”) is seeking proposals from qualified certified public accounting firms",
+          "start": 5344,
+          "end": 5484
+        },
+        {
+          "quote": "1.4.1 The firm must have key personnel with at least five years of experience auditing governmental agencies and/or public pension funds.",
+          "start": 9544,
+          "end": 9681
+        },
+        {
+          "quote": "1.4.2 The Engagement Partner must be licensed to practice in the State of California as a Certified Public Accountant",
+          "start": 9748,
+          "end": 9865
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

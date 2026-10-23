@@ -1,0 +1,75 @@
+{
+  "job": {
+    "id": "49be6b9952ba48c55f64",
+    "query_id": "INV-05",
+    "question": "In the Teachers' Retirement System of the State of Illinois (TRS) FY25 RFP for private equity investment consultant services, what minimum private equity client experience must a firm certify?",
+    "file": "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "expected_facts": "The firm and/or its principals must have experience providing private equity consulting services to clients with, in aggregate, private equity portfolio assets of at least $10 billion.",
+    "acceptance": "Require aggregate client private-equity assets of at least $10bn and firm/principal consulting experience. Do not require $10bn for each client or personnel tenure.",
+    "text_hash": "bb72821830d3b79720e84bd7d293578b1b367fc714f7a0632d7937278f6fccd7",
+    "source_text_sha256": "c942d0c8eb27f166bc67c995927bcd0e03513c3bbbfb1318905a941cab877fac",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a January 2023 RFP for general investment consulting services, not the FY25 RFP for private equity investment consultant services. Its minimum-qualifications statement specifies $50 billion in combined client assets, but does not certify firm or principal experience consulting for clients with at least $10 billion in aggregate private equity portfolio assets.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES Issued January 13, 2023",
+        "The Teachers’ Retirement System of the State of Illinois (the System or TRS) is requesting proposals to provide general investment consulting services",
+        "Currently providing investment consulting services to clients whose combined assets total at least $50 billion."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES Issued January 13, 2023",
+          "start": 66,
+          "end": 146
+        },
+        {
+          "quote": "The Teachers’ Retirement System of the State of Illinois (the System or TRS) is requesting proposals to provide general investment consulting services",
+          "start": 2224,
+          "end": 2374
+        },
+        {
+          "quote": "Currently providing investment consulting services to clients whose combined assets total at least $50 billion.",
+          "start": 25905,
+          "end": 26016
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is TRS’s 2023 RFP for general investment consulting services, not the FY25 RFP for private equity investment consultant services. Its minimum qualifications do not state the required firm-or-principals private equity consulting experience or the $10 billion aggregate client private-equity portfolio threshold.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES Issued January 13, 2023 Responses due February 9, 2023, by 2:00 pm CST",
+        "requesting proposals to provide general investment consulting services",
+        "Currently providing investment consulting services to clients whose combined assets total at least $50 billion."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES Issued January 13, 2023 Responses due February 9, 2023, by 2:00 pm CST",
+          "start": 66,
+          "end": 193
+        },
+        {
+          "quote": "requesting proposals to provide general investment consulting services",
+          "start": 2304,
+          "end": 2374
+        },
+        {
+          "quote": "Currently providing investment consulting services to clients whose combined assets total at least $50 billion.",
+          "start": 25905,
+          "end": 26016
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

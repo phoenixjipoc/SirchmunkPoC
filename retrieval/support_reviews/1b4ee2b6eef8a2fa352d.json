@@ -1,0 +1,58 @@
+{
+  "job": {
+    "id": "1b4ee2b6eef8a2fa352d",
+    "query_id": "XD-09",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+    "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+    "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+    "text_hash": "784bcfad5dec8c8cdc14ddc71afe9edac27cb190eaa8c0971bfb4139e6ce83d9",
+    "source_text_sha256": "75b693482e948ff921b1cec45e9ab6fae2d982d6719b2a34a7971859f300978e",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is an SBCERS global custody RFP, not the ILPA Due Diligence Questionnaire v1.2. Its contents list numbered appendices rather than the ILPA questionnaire’s lettered appendices, and it does not explicitly restate that questionnaire’s table of contents.",
+      "quotes": [
+        "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”)",
+        "Appendix 1 – Affirmation of Scope of Services Required",
+        "Appendix 2 – Affirmation of Contract Terms and Conditions Required",
+        "Appendix 3 – Technical/Services Questionnaire",
+        "Appendix 4 – Pricing Tables"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”)",
+          "start": 13,
+          "end": 130
+        },
+        {
+          "quote": "Appendix 1 – Affirmation of Scope of Services Required",
+          "start": -1,
+          "end": 53
+        },
+        {
+          "quote": "Appendix 2 – Affirmation of Contract Terms and Conditions Required",
+          "start": -1,
+          "end": 65
+        },
+        {
+          "quote": "Appendix 3 – Technical/Services Questionnaire",
+          "start": -1,
+          "end": 44
+        },
+        {
+          "quote": "Appendix 4 – Pricing Tables",
+          "start": 2286,
+          "end": 2313
+        }
+      ],
+      "all_quotes_grounded": false,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

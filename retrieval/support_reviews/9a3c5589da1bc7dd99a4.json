@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "9a3c5589da1bc7dd99a4",
+    "query_id": "XD-11",
+    "question": "What questions does the INREV DDQ 2022 for Funds of Funds and Multi Manager ask under section 3.3 'IT, Cyber and Physical Security'?",
+    "file": "OCERS__investment_consultant_services_rfp.pdf",
+    "expected_facts": "Fourteen questions (3.3.1-3.3.14): (1) position, responsibilities and members of the IT function, and an overview of outsourced IT and how vendors are monitored; (2) compliance with ISO 27001 or other cyber/information security certifications; (3) whether IT and physical security is a standing board agenda item; (4) a formal, documented Cyber Incident Response Plan; (5) any material cyber/information security incident in the past three years; (6) approved antivirus on all servers, workstations and remote devices; (7) how often staff get IT security training; (8) phishing/social engineering tests on staff; (9) how often full (physical and system) vulnerability assessments are done; (10) how often internal and external penetration tests are done; (11) critical/high-risk findings outstanding for over six months; (12) an external cyber security specialist engaged as first point of contact; (13) how physical access to the server/communication room is controlled; (14) a policy on physical access outside standard office hours, e.g. whether permanent staff are on the premises when third-party suppliers work.",
+    "acceptance": "All fourteen topics may be grouped in prose. Preserve three-year incident lookback and six-month outstanding high-risk findings; no need to reproduce every question verbatim.",
+    "text_hash": "5b64c217e92c2749a5177225f6fda52ea0dd775fcbdd0d850a456eb5dfcd1a1f",
+    "source_text_sha256": "31ba78f454a82dc69e8946299253c94f905a157c0bee42fe28fb33f65c2dcfa1",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an OCERS investment consultant services RFP issued in August 2021, not the INREV DDQ 2022 for Funds of Funds and Multi Manager. It does not contain section 3.3 ‘IT, Cyber and Physical Security’ or its fourteen questions.",
+      "quotes": [
+        "Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+        "Appendix G: Questionnaire",
+        "Section 3. Questionnaire for Alternative Investments Consultants"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+          "start": 117,
+          "end": 207
+        },
+        {
+          "quote": "Appendix G: Questionnaire",
+          "start": 3131,
+          "end": 3156
+        },
+        {
+          "quote": "Section 3. Questionnaire for Alternative Investments Consultants",
+          "start": 3649,
+          "end": 3713
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

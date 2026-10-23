@@ -1,0 +1,58 @@
+{
+  "job": {
+    "id": "4a9738857b6d368c731a",
+    "query_id": "XD-08",
+    "question": "In the INREV Due Diligence Questionnaire 2022 for Funds of Funds and Multi Manager, which expense ratio must the manager provide under Fees and Expenses, and on what bases?",
+    "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+    "expected_facts": "Question 1.6.2 asks for the INREV expense ratio (TGER): a forward-looking estimate (with the calculation method) if the vehicle has not been launched, or the historical INREV expense ratio (TGER) if it is an existing vehicle. It must be given on both NAV and GAV, with and without performance fees. If the INREV expense ratio is not used, a calculation in line with the INREV Fee and Expense Metrics module is required.",
+    "acceptance": "TGER; forward estimate for unlaunched versus historical for existing; NAV/GAV and with/without performance fees. Equivalent description of INREV-compatible fallback accepted.",
+    "text_hash": "331a4f3a76ae4b017955d456e0d0109f9c5a8c6234151c5a77fc5602b03f12da",
+    "source_text_sha256": "62db2ddc08b6705150414332e929f3917945d4016cb8f2e1cd2436463593a880",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "partial",
+      "identity": "wrong",
+      "reason": "This is the 2018 questionnaire for non-listed real estate investment vehicles, not the 2022 Funds of Funds and Multi Manager questionnaire. Its question 1.6.2 supports the launch-status conditions and NAV/GAV and performance-fee bases, but specifies INREV TER rather than TGER. It does not establish the requested 2022 requirement.",
+      "quotes": [
+        "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007",
+        "the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+        "INREV will enhance its separate due diligence questionnaires for fund of funds and multi-manager mandates as well as real estate debt vehicles.",
+        "1.6.2 If the vehicle has not been launched, please provide a forward-looking estimate of INREV Total Expense Ratio (TER), and how you have calculated it. If the vehicle is an existing vehicle, please provide INREV TER. Please provide the TER based on NAV and GAV, with and without performance fees.",
+        "If INREV TER is not used, please provide a calculation in line with INREV TER (see INREV Fee and Expense Metrics - https://www.inrev.org/standards)."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007",
+          "start": 1446,
+          "end": 1565
+        },
+        {
+          "quote": "the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+          "start": 2048,
+          "end": 2135
+        },
+        {
+          "quote": "INREV will enhance its separate due diligence questionnaires for fund of funds and multi-manager mandates as well as real estate debt vehicles.",
+          "start": 6246,
+          "end": 6389
+        },
+        {
+          "quote": "1.6.2 If the vehicle has not been launched, please provide a forward-looking estimate of INREV Total Expense Ratio (TER), and how you have calculated it. If the vehicle is an existing vehicle, please provide INREV TER. Please provide the TER based on NAV and GAV, with and without performance fees.",
+          "start": 16076,
+          "end": 16374
+        },
+        {
+          "quote": "If INREV TER is not used, please provide a calculation in line with INREV TER (see INREV Fee and Expense Metrics - https://www.inrev.org/standards).",
+          "start": 16375,
+          "end": 16523
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

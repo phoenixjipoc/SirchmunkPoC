@@ -1,0 +1,202 @@
+{
+  "questions": 120,
+  "single_document": 98,
+  "cross_document": 13,
+  "unanswerable": 9,
+  "top_k": {
+    "1": {
+      "n": 98,
+      "hits": 51,
+      "unknown": 0,
+      "lower_pct": 52.04,
+      "upper_pct": 52.04
+    },
+    "5": {
+      "n": 98,
+      "hits": 74,
+      "unknown": 0,
+      "lower_pct": 75.51,
+      "upper_pct": 75.51
+    },
+    "10": {
+      "n": 98,
+      "hits": 80,
+      "unknown": 0,
+      "lower_pct": 81.63,
+      "upper_pct": 81.63
+    }
+  },
+  "known_source_top_k": {
+    "1": {
+      "n": 98,
+      "hits": 51,
+      "unknown": 0,
+      "lower_pct": 52.04,
+      "upper_pct": 52.04
+    },
+    "5": {
+      "n": 98,
+      "hits": 74,
+      "unknown": 0,
+      "lower_pct": 75.51,
+      "upper_pct": 75.51
+    },
+    "10": {
+      "n": 98,
+      "hits": 80,
+      "unknown": 0,
+      "lower_pct": 81.63,
+      "upper_pct": 81.63
+    }
+  },
+  "by_type": {
+    "detail": {
+      "1": {
+        "n": 50,
+        "hits": 28,
+        "unknown": 0,
+        "lower_pct": 56.0,
+        "upper_pct": 56.0
+      },
+      "5": {
+        "n": 50,
+        "hits": 41,
+        "unknown": 0,
+        "lower_pct": 82.0,
+        "upper_pct": 82.0
+      },
+      "10": {
+        "n": 50,
+        "hits": 44,
+        "unknown": 0,
+        "lower_pct": 88.0,
+        "upper_pct": 88.0
+      }
+    },
+    "medium": {
+      "1": {
+        "n": 18,
+        "hits": 9,
+        "unknown": 0,
+        "lower_pct": 50.0,
+        "upper_pct": 50.0
+      },
+      "5": {
+        "n": 18,
+        "hits": 12,
+        "unknown": 0,
+        "lower_pct": 66.67,
+        "upper_pct": 66.67
+      },
+      "10": {
+        "n": 18,
+        "hits": 15,
+        "unknown": 0,
+        "lower_pct": 83.33,
+        "upper_pct": 83.33
+      }
+    },
+    "pair_a": {
+      "1": {
+        "n": 15,
+        "hits": 8,
+        "unknown": 0,
+        "lower_pct": 53.33,
+        "upper_pct": 53.33
+      },
+      "5": {
+        "n": 15,
+        "hits": 11,
+        "unknown": 0,
+        "lower_pct": 73.33,
+        "upper_pct": 73.33
+      },
+      "10": {
+        "n": 15,
+        "hits": 11,
+        "unknown": 0,
+        "lower_pct": 73.33,
+        "upper_pct": 73.33
+      }
+    },
+    "pair_b": {
+      "1": {
+        "n": 15,
+        "hits": 6,
+        "unknown": 0,
+        "lower_pct": 40.0,
+        "upper_pct": 40.0
+      },
+      "5": {
+        "n": 15,
+        "hits": 10,
+        "unknown": 0,
+        "lower_pct": 66.67,
+        "upper_pct": 66.67
+      },
+      "10": {
+        "n": 15,
+        "hits": 10,
+        "unknown": 0,
+        "lower_pct": 66.67,
+        "upper_pct": 66.67
+      }
+    }
+  },
+  "required_combinations": {
+    "1": {
+      "n": 12,
+      "complete": 0,
+      "mean_source_coverage": 0.13819444444444445
+    },
+    "5": {
+      "n": 12,
+      "complete": 1,
+      "mean_source_coverage": 0.325
+    },
+    "10": {
+      "n": 12,
+      "complete": 2,
+      "mean_source_coverage": 0.4083333333333333
+    }
+  },
+  "pairs": {
+    "n": 15,
+    "both_correct": {
+      "1": 3,
+      "5": 8,
+      "10": 8
+    },
+    "opposite_source_first": 2
+  },
+  "statuses": {
+    "empty_retrieval": 3,
+    "ok": 117
+  },
+  "latency": {
+    "median_s": 13.812999999999999,
+    "total_query_s": 1748.718
+  },
+  "recovery": {
+    "retained_queries": 51,
+    "recovered_queries": 69
+  },
+  "runtime": {
+    "calls": 310,
+    "successful_calls": 241,
+    "models": [
+      "gpt-6-sol"
+    ],
+    "phases": {
+      "directory": 121,
+      "keywords": 189
+    },
+    "errors": 69,
+    "all_successful_http_and_response_models_match": true,
+    "tokens": {
+      "prompt_tokens": 407819,
+      "completion_tokens": 175513,
+      "total_tokens": 583332
+    }
+  }
+}

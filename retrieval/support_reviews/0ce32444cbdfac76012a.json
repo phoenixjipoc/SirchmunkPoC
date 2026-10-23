@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "0ce32444cbdfac76012a",
+    "query_id": "INV-12",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for domestic equity small cap growth investment management, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "OCERS__custodian_rfp_2022-2023.pdf",
+    "expected_facts": "Four primary factors: (a) People - stability of the organization, ownership structure and documented experience of key professionals; (b) Process - clearly defined, reasonable and repeatable investment strategy; (c) Performance - documented ability to meet investment performance benchmarks; (d) Pricing - fee schedule and associated costs.",
+    "acceptance": "Accept People, Process, Performance, Pricing and faithful descriptions; exact labels are not mandatory.",
+    "text_hash": "2f1b263969ef09f6d98b625298c7af0518d618d780be107703d3e797ceb8169a",
+    "source_text_sha256": "2160dab5b593e917103890305a919f136c0a0f9f1c86c7a4b6fb2c4eaaf14ec2",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Orange County Employees Retirement System RFP for custody services, not the IMRF sample RFP for domestic equity small cap growth investment management. Its evaluation criteria cannot establish the factors used in the IMRF selection process.",
+      "quotes": [
+        "The Orange County Employees Retirement System (“OCERS”) is requesting proposals from qualified firms with expertise in providing a comprehensive set of custody services.",
+        "Section 8: Evaluation Criteria Responses will be evaluated based upon the following:",
+        "The factors will be considered as a whole, without a specific weighting."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Orange County Employees Retirement System (“OCERS”) is requesting proposals from qualified firms with expertise in providing a comprehensive set of custody services.",
+          "start": 6072,
+          "end": 6241
+        },
+        {
+          "quote": "Section 8: Evaluation Criteria Responses will be evaluated based upon the following:",
+          "start": 26369,
+          "end": 26453
+        },
+        {
+          "quote": "The factors will be considered as a whole, without a specific weighting.",
+          "start": 26958,
+          "end": 27030
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

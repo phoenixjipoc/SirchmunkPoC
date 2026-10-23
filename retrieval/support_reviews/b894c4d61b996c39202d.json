@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "b894c4d61b996c39202d",
+    "query_id": "DDQ-01",
+    "question": "Which due diligence questionnaire in the corpus asks the manager 'What kills a deal for your team?', and who published it?",
+    "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "expected_facts": "The Private Markets Due Diligence Questionnaire ('Your Resource for Evaluating Private Market Partners') published by Calamos Investments with Aksia (file AC_Private_Markets). The question appears under General Questions > Investment Strategy and asks the manager to describe a recent example.",
+    "acceptance": "AC Private Markets / Calamos with Aksia accepted. Subtitle, copyright year and recent-example follow-up are optional.",
+    "text_hash": "ba38eb84b9e6630e06869a17bd0a8d39bbd7f3fbf79cf38deccbc05584512bde",
+    "source_text_sha256": "71f7dc2105be0914ed5549193987a3d5f6eda22588e7c5e025dd27c5e41ee8a0",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Illinois TRS request for proposals with a questionnaire for prospective private-equity consultants. It does not contain the quoted deal question or identify the Calamos Investments–Aksia questionnaire and its publisher.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES",
+        "APPENDIX D: QUESTIONNAIRE",
+        "Provide an example of your firm’s due diligence questionnaire (Identify as Exhibit #5)."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES",
+          "start": 13,
+          "end": 137
+        },
+        {
+          "quote": "APPENDIX D: QUESTIONNAIRE",
+          "start": 31570,
+          "end": 31595
+        },
+        {
+          "quote": "Provide an example of your firm’s due diligence questionnaire (Identify as Exhibit #5).",
+          "start": 43011,
+          "end": 43098
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

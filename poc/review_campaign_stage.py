@@ -70,7 +70,8 @@ def review(directory):
     good=sorted((r for r in rows if r['judge_label'] in ('correct','correct_refusal')),key=lambda r:r['id'])
     sample_ids={r['id'] for r in random.Random(20261014).sample(good,max(1,(len(good)+4)//5))} if good else set()
     selected=[r for r in rows if r['judge_label'] not in ('correct','correct_refusal') or r['id'] in sample_ids]
-    cfg={'model':judge.container_env('LLM_MODEL_NAME'),'base_url':judge.container_env('LLM_BASE_URL').rstrip('/')}
+    run_model=json.loads((directory/'run_meta.json').read_text(encoding='utf-8'))['model']
+    cfg={'model':run_model,'base_url':judge.container_env('LLM_BASE_URL').rstrip('/')}
     key=judge.container_env('LLM_API_KEY')
     if not key:raise RuntimeError('No review API credential')
     session=requests.Session();session.headers['Authorization']='Bearer '+key

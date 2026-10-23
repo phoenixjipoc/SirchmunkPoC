@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "a697db5980bacebefe78",
+    "query_id": "SVC-04",
+    "question": "In the Contra Costa County Employees' Retirement Association (CCCERA) April 2018 master custodian RFP, how many copies of the proposal must be submitted, and for how long must the proposal remain a firm and irrevocable offer?",
+    "file": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+    "expected_facts": "One (1) original proposal, four (4) hard copies and one (1) copy in electronic form; the proposal must be a firm and irrevocable offer good for one year from the proposal due date (due 5:00 p.m. PT, Friday, May 25, 2018).",
+    "acceptance": "Accept five paper sets total if the original is clearly included, plus one electronic copy; validity one year from due date. Actual proposal deadline is optional.",
+    "text_hash": "6b179eedd0acf11d4033b486705b8677fb78308e47584950c128cde739d4f025",
+    "source_text_sha256": "81bbcbe9365fdc601c3f939281acb26f90195cb62f71e9af6d67ff79a5c33f94",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Boston Retirement System actuarial-services RFP from 2022, not CCCERA’s April 2018 master custodian RFP. Its copy requirement and offer period differ, so it does not support the requested facts.",
+      "quotes": [
+        "Request for Proposal Actuarial and Consulting Services for Pension Benefits Boston Retirement System September 12, 2022",
+        "Please submit one (1) original and five (5) copies of the Proposal to:",
+        "Please submit one (1) electronic submission of the Proposal to Ellen.McCarthy@boston.gov.",
+        "The proposal will be firm for ninety (90) calendar days after the deadline for submission of proposals."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Actuarial and Consulting Services for Pension Benefits Boston Retirement System September 12, 2022",
+          "start": 13,
+          "end": 132
+        },
+        {
+          "quote": "Please submit one (1) original and five (5) copies of the Proposal to:",
+          "start": 12454,
+          "end": 12524
+        },
+        {
+          "quote": "Please submit one (1) electronic submission of the Proposal to Ellen.McCarthy@boston.gov.",
+          "start": 12621,
+          "end": 12710
+        },
+        {
+          "quote": "The proposal will be firm for ninety (90) calendar days after the deadline for submission of proposals.",
+          "start": 16135,
+          "end": 16238
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

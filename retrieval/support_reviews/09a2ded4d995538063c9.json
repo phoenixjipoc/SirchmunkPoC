@@ -1,0 +1,81 @@
+{
+  "job": {
+    "id": "09a2ded4d995538063c9",
+    "query_id": "SVC-16",
+    "question": "What contract term, including any extension options, does the Los Angeles Fire and Police Pensions (LAFPP) RFP for financial statement audit services contemplate?",
+    "file": "LACERS__2025_actuarial_consulting_services_rfp.pdf",
+    "expected_facts": "A three-year contract (fiscal years ending June 30, 2025, 2026 and 2027) with a maximum fee proposal for each fiscal year; the Board may extend beyond the three-year term through two one-year renewals.",
+    "acceptance": "Three years plus two optional one-year renewals, up to five years, suffices. Fiscal-year dates and fee-proposal details are optional.",
+    "text_hash": "f4525122521ab7e76068ce1fd50910b77ebfe55cb8ff36e1b7c16f377703dabe",
+    "source_text_sha256": "7e096c8372e52f175e2aba48012fdffb7c5ee4851ee9ab1af4563bae28d35145",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a LACERS RFP for actuarial consulting services, not the LAFPP RFP for financial statement audit services. Its similar three-year term and two possible one-year extensions therefore do not support the question about the LAFPP audit RFP.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL (RFP) FOR ACTUARIAL CONSULTING SERVICES",
+        "The Los Angeles City Employees’ Retirement System (LACERS) is seeking proposals from qualified actuarial consulting firms",
+        "LACERS intends to award a full-service three-year contract that could become eligible for up to two one-year contract extensions"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL (RFP) FOR ACTUARIAL CONSULTING SERVICES",
+          "start": 13,
+          "end": 73
+        },
+        {
+          "quote": "The Los Angeles City Employees’ Retirement System (LACERS) is seeking proposals from qualified actuarial consulting firms",
+          "start": 3588,
+          "end": 3709
+        },
+        {
+          "quote": "LACERS intends to award a full-service three-year contract that could become eligible for up to two one-year contract extensions",
+          "start": 4034,
+          "end": 4162
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is a LACERS RFP for actuarial consulting services, not an LAFPP RFP for financial statement audit services. Its matching three-year term and two one-year extensions do not establish the term of the requested LAFPP contract.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL (RFP) FOR ACTUARIAL CONSULTING SERVICES",
+        "The Los Angeles City Employees’ Retirement System (LACERS) is seeking proposals from qualified actuarial consulting firms",
+        "LACERS intends to award a full-service three-year contract that could become eligible for up to two one-year contract extensions",
+        "sworn members of the Department of Fire and Police Pensions"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL (RFP) FOR ACTUARIAL CONSULTING SERVICES",
+          "start": 13,
+          "end": 73
+        },
+        {
+          "quote": "The Los Angeles City Employees’ Retirement System (LACERS) is seeking proposals from qualified actuarial consulting firms",
+          "start": 3588,
+          "end": 3709
+        },
+        {
+          "quote": "LACERS intends to award a full-service three-year contract that could become eligible for up to two one-year contract extensions",
+          "start": 4034,
+          "end": 4162
+        },
+        {
+          "quote": "sworn members of the Department of Fire and Police Pensions",
+          "start": 5094,
+          "end": 5153
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

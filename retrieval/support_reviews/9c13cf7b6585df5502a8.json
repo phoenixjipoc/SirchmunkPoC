@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "9c13cf7b6585df5502a8",
+    "query_id": "INV-12",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for domestic equity small cap growth investment management, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+    "expected_facts": "Four primary factors: (a) People - stability of the organization, ownership structure and documented experience of key professionals; (b) Process - clearly defined, reasonable and repeatable investment strategy; (c) Performance - documented ability to meet investment performance benchmarks; (d) Pricing - fee schedule and associated costs.",
+    "acceptance": "Accept People, Process, Performance, Pricing and faithful descriptions; exact labels are not mandatory.",
+    "text_hash": "5c98835d17ae19e74a1c69b0fc86fce32b5dedf1d99ddfe45a7e49317a1c8bd3",
+    "source_text_sha256": "60169ae3746f75165ace8effc688309245b22923d9ef350fc55e0ee0a593895b",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a CTA Employees Retirement Plan RFP for investment consulting, not the IMRF sample RFP for domestic equity small cap growth investment management. Its evaluation criteria therefore do not support the question’s required factors.",
+      "quotes": [
+        "Retirement Plan for CTA Employees Investment Consulting Request for Proposals",
+        "The Retirement Plan for CTA Employees (the “Plan”) is requesting proposals from qualified professional firms interested in providing Investment Consulting Services to the Plan.",
+        "Each proposal received in response to the RFP will be objectively evaluated and rated according to the Firm’s approach and process, it’s staff, the experience of its Firm, and the results of reference checks and fees."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Retirement Plan for CTA Employees Investment Consulting Request for Proposals",
+          "start": 13,
+          "end": 90
+        },
+        {
+          "quote": "The Retirement Plan for CTA Employees (the “Plan”) is requesting proposals from qualified professional firms interested in providing Investment Consulting Services to the Plan.",
+          "start": 273,
+          "end": 449
+        },
+        {
+          "quote": "Each proposal received in response to the RFP will be objectively evaluated and rated according to the Firm’s approach and process, it’s staff, the experience of its Firm, and the results of reference checks and fees.",
+          "start": 3648,
+          "end": 3865
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

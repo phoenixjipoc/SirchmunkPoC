@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "8ff8fa3b3bbc4e914afd",
+    "query_id": "XD-03",
+    "question": "How many working-group participant entries are listed in the appendix of the PRI covering note on the 2021 update of its private equity responsible investment DDQ (counting the joint TPG & Y Analytics entry once), and who represented CalPERS and CalSTRS?",
+    "file": "ILPA__ILPA-DDQ-2.0.pdf",
+    "expected_facts": "31 listed participant entries, counting TPG & Y Analytics once. CalPERS was represented by James Andrus; CalSTRS by Nicholas Abel.",
+    "acceptance": "Accept 31 listed/grouped participant entries with James Andrus for CalPERS and Nicholas Abel for CalSTRS. A respondent flagging the joint TPG/Y Analytics counting issue should not be failed for not asserting 31 distinct organisations.",
+    "text_hash": "8907145b1f077ef656f1eedcccb1c6e6cf91c5a42ababaeed03deb50236309d2",
+    "source_text_sha256": "acc7566c61a7afaabbe215a9f1337c86e1dd116ccf7ba67eeb84894f94ea4c98",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is ILPA’s Due Diligence Questionnaire 2.0, not the PRI covering note. Its appendices contain requested documents and templates, not a working-group participant list. It does not support the participant count or identify the CalPERS and CalSTRS representatives.",
+      "quotes": [
+        "Due Diligence Questionnaire 2.0 Updated November 2021",
+        "The ILPA Due Diligence Questionnaire (DDQ) reflects the view of the participants involved in the creation thereof as to best practices with respect to fund diligence.",
+        "Appendix A - Requested Documents",
+        "Appendix B - Templates: Team Members"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Due Diligence Questionnaire 2.0 Updated November 2021",
+          "start": 13,
+          "end": 66
+        },
+        {
+          "quote": "The ILPA Due Diligence Questionnaire (DDQ) reflects the view of the participants involved in the creation thereof as to best practices with respect to fund diligence.",
+          "start": 1788,
+          "end": 1954
+        },
+        {
+          "quote": "Appendix A - Requested Documents",
+          "start": 622,
+          "end": 654
+        },
+        {
+          "quote": "Appendix B - Templates: Team Members",
+          "start": 732,
+          "end": 768
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

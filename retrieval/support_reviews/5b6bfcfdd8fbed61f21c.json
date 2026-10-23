@@ -1,0 +1,69 @@
+{
+  "job": {
+    "id": "5b6bfcfdd8fbed61f21c",
+    "query_id": "DDQ-01",
+    "question": "Which due diligence questionnaire in the corpus asks the manager 'What kills a deal for your team?', and who published it?",
+    "file": "OCERS__investment_consultant_services_rfp.pdf",
+    "expected_facts": "The Private Markets Due Diligence Questionnaire ('Your Resource for Evaluating Private Market Partners') published by Calamos Investments with Aksia (file AC_Private_Markets). The question appears under General Questions > Investment Strategy and asks the manager to describe a recent example.",
+    "acceptance": "AC Private Markets / Calamos with Aksia accepted. Subtitle, copyright year and recent-example follow-up are optional.",
+    "text_hash": "5b64c217e92c2749a5177225f6fda52ea0dd775fcbdd0d850a456eb5dfcd1a1f",
+    "source_text_sha256": "31ba78f454a82dc69e8946299253c94f905a157c0bee42fe28fb33f65c2dcfa1",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an OCERS investment-consultant RFP with its own questionnaire, not the identified private-markets due diligence questionnaire. It does not contain the quoted deal question or identify Calamos Investments with Aksia as publisher.",
+      "quotes": [
+        "Investment Consultant Services for: General Investments and Risk Private Equity Real Assets Real Estate Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+        "Appendix G: Questionnaire Section 1. Questionnaire for All Consultants"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Investment Consultant Services for: General Investments and Risk Private Equity Real Assets Real Estate Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 207
+        },
+        {
+          "quote": "Appendix G: Questionnaire Section 1. Questionnaire for All Consultants",
+          "start": 54938,
+          "end": 55008
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an OCERS request for proposals with a questionnaire for investment consultants, not the Calamos Investments and Aksia Private Markets Due Diligence Questionnaire. It does not contain the quoted deal question or identify the requested publisher.",
+      "quotes": [
+        "Investment Consultant Services for: General Investments and Risk Private Equity Real Assets Real Estate Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+        "Appendix G: Questionnaire",
+        "Section 3. Questionnaire for Alternative Investments Consultants"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Investment Consultant Services for: General Investments and Risk Private Equity Real Assets Real Estate Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 207
+        },
+        {
+          "quote": "Appendix G: Questionnaire",
+          "start": 3131,
+          "end": 3156
+        },
+        {
+          "quote": "Section 3. Questionnaire for Alternative Investments Consultants",
+          "start": 3649,
+          "end": 3713
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "1e7c77d29883f5478d92",
+    "query_id": "XD-09",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+    "file": "INPRS__RFP24-05_AuditServices.pdf",
+    "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+    "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+    "text_hash": "c91a90645d9659e59cf92c848073c9a4293275c8ab6c443e5ea6557a9cce6d3a",
+    "source_text_sha256": "cd68d7342246afa44a13ddc9cd569953afbc71f71001c6d34468336403cd1683",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is an INPRS audit-services RFP, not the ILPA Due Diligence Questionnaire v1.2. Its table of contents lists two differently titled lettered appendices and does not establish the ILPA questionnaire’s appendix count or titles.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS (“RFP”) for AUDIT SERVICES RFP NUMBER 24-05",
+        "1.4 Issuer INPRS is issuing this RFP",
+        "APPENDIX A – SAMPLE CONTRACT FOR SERVICES",
+        "APPENDIX B – MANDATORY RESPONDENT FORMS"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) for AUDIT SERVICES RFP NUMBER 24-05",
+          "start": 13,
+          "end": 78
+        },
+        {
+          "quote": "1.4 Issuer INPRS is issuing this RFP",
+          "start": 5020,
+          "end": 5056
+        },
+        {
+          "quote": "APPENDIX A – SAMPLE CONTRACT FOR SERVICES",
+          "start": 1751,
+          "end": 1792
+        },
+        {
+          "quote": "APPENDIX B – MANDATORY RESPONDENT FORMS",
+          "start": 1926,
+          "end": 1965
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

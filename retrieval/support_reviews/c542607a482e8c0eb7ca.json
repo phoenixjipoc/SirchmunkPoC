@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "c542607a482e8c0eb7ca",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "ba38eb84b9e6630e06869a17bd0a8d39bbd7f3fbf79cf38deccbc05584512bde",
+    "source_text_sha256": "71f7dc2105be0914ed5549193987a3d5f6eda22588e7c5e025dd27c5e41ee8a0",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Illinois Teachers’ Retirement System RFP for private equity investment consultant services, not the SBCERS global custody RFP. Its evaluation section lists unweighted factors and does not provide the four requested categories or their percentage weights.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES",
+        "TRS will consider the following factors in the evaluation process, ranked in no specific order",
+        "Proposals will be evaluated based on criteria including: • Understanding of the services requested • Soundness of the approach and quality of the proposes services • Firm qualifications including established record of success in similar work • Individual qualifications of the assigned staff • Proposed deliverables • Cost"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES",
+          "start": 13,
+          "end": 137
+        },
+        {
+          "quote": "TRS will consider the following factors in the evaluation process, ranked in no specific order",
+          "start": 19914,
+          "end": 20008
+        },
+        {
+          "quote": "Proposals will be evaluated based on criteria including: • Understanding of the services requested • Soundness of the approach and quality of the proposes services • Firm qualifications including established record of success in similar work • Individual qualifications of the assigned staff • Proposed deliverables • Cost",
+          "start": 20208,
+          "end": 20530
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

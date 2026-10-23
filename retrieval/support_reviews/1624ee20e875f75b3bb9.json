@@ -1,0 +1,75 @@
+{
+  "job": {
+    "id": "1624ee20e875f75b3bb9",
+    "query_id": "CONS-11",
+    "question": "What is the proposal submission deadline in the Teachers' Retirement System of Oklahoma investment consultant RFP?",
+    "file": "IMRF__sample-investment-consulting-rfp.pdf",
+    "expected_facts": "4:00 p.m. Central Time on January 14, 2026.",
+    "acceptance": "January 14, 2026, 4pm Central Time. CT or CST acceptable for the January date.",
+    "text_hash": "ea9d2789dbf2664c70adf4312c00b0ec81c54cf1741478e3e2757e93a2e66025",
+    "source_text_sha256": "9c1ec794ed5ca3d42e6eb1fbcbbbb339195c2c9b872a54f9d0d1536d9a860ec5",
+    "second_check_required": true
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Illinois Municipal Retirement Fund sample RFP, not the Teachers' Retirement System of Oklahoma investment consultant RFP. Its proposal deadline uses a placeholder date and does not support the requested deadline.",
+      "quotes": [
+        "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms",
+        "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms",
+          "start": 202,
+          "end": 304
+        },
+        {
+          "quote": "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX.",
+          "start": 21154,
+          "end": 21250
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is an Illinois Municipal Retirement Fund sample RFP, not the Teachers' Retirement System of Oklahoma investment consultant RFP. Its proposal deadline is an unfilled placeholder, so it does not evidence the requested January 14, 2026 deadline or time zone.",
+      "quotes": [
+        "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms",
+        "IMRF Sample RFP Page1 of 31",
+        "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX.",
+        "The proposal must be received via e-mail no later than 12:00 Noon, XXXX XX, 20XX."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms",
+          "start": 202,
+          "end": 304
+        },
+        {
+          "quote": "IMRF Sample RFP Page1 of 31",
+          "start": 2247,
+          "end": 2274
+        },
+        {
+          "quote": "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX.",
+          "start": 21154,
+          "end": 21250
+        },
+        {
+          "quote": "The proposal must be received via e-mail no later than 12:00 Noon, XXXX XX, 20XX.",
+          "start": 21577,
+          "end": 21658
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

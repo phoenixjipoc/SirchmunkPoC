@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "7c383044efbb16e659ec",
+    "query_id": "INV-15",
+    "question": "In the Baltimore City Employees' Retirement Systems (BCERS) RFP for an alternatives consultant, how many years must the proposing firm have been in business?",
+    "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "expected_facts": "At least seven (7) years providing general consulting services plus private equity consulting services, or alternatives consulting services only (all minimum qualifications must be met as of November 8, 2024, 3:00 p.m. EDT).",
+    "acceptance": "Seven years is sufficient for the narrow question. Service type and qualification deadline are optional; five-year staff experience is not the firm threshold.",
+    "text_hash": "3b4fb541c2d35b7de747c8f6c26cc3a40bee097d58737ad466dbef56acdfa755",
+    "source_text_sha256": "a7628e3fc4e0a9323e896059440a5b708d424232eec8242be9362eb818e6b682",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is Clark County, Washington’s 2026 RFP for a deferred compensation plan administrator, not BCERS’s RFP for an alternatives consultant. Its five-year minimum concerns experience administering governmental Section 457 plans; its seven-year reference concerns an optional contract extension, not the proposing firm’s years in business.",
+      "quotes": [
+        "Request for Proposal #955 Deferred Compensation 457 Plan Administrator",
+        "Clark County is soliciting proposals from qualified firms to provide retirement plan administration, record keeping, education, communications, investment-related, and other services for the 457 Deferred Compensation Plan effective January 1, 2027.",
+        "The Proposing Firm must have a minimum of five (5) years of experience administering governmental Section 457 deferred compensation plans",
+        "Clark County reserves the right to extend the contract resulting from this RFP for a period of seven (7) additional years"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal #955 Deferred Compensation 457 Plan Administrator",
+          "start": 11545,
+          "end": 11615
+        },
+        {
+          "quote": "Clark County is soliciting proposals from qualified firms to provide retirement plan administration, record keeping, education, communications, investment-related, and other services for the 457 Deferred Compensation Plan effective January 1, 2027.",
+          "start": 11821,
+          "end": 12069
+        },
+        {
+          "quote": "The Proposing Firm must have a minimum of five (5) years of experience administering governmental Section 457 deferred compensation plans",
+          "start": 17728,
+          "end": 17865
+        },
+        {
+          "quote": "Clark County reserves the right to extend the contract resulting from this RFP for a period of seven (7) additional years",
+          "start": 22623,
+          "end": 22744
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

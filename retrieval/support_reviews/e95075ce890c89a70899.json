@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "e95075ce890c89a70899",
+    "query_id": "SVC-11",
+    "question": "According to the City of Temple City's 457 deferred compensation plan administration and recordkeeping RFP, how many participants did the plan have and what were its total assets?",
+    "file": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "expected_facts": "As of March 31, 2020: 46 participants with a balance (31 actively contributing, 15 non-active), and total assets of $1,894,729. The plan was administered by two recordkeepers, ICMA-RC and Voya (CalPERS).",
+    "acceptance": "46 participants and $1,894,729 as of March 31, 2020. Active/inactive split and recordkeepers are helpful but optional.",
+    "text_hash": "3ecf7188afbf06d1992a2e369435746a5f1872698632985399a9e054bf75b408",
+    "source_text_sha256": "245be5bf903c98e9c43a03f3b620302180f76969b88872c25a7e2f9026336a20",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2023 City of Grand Rapids investment-consultant RFP, not the City of Temple City's 457 plan administration and recordkeeping RFP. It does not provide the requested participant count or assets as of March 31, 2020.",
+      "quotes": [
+        "CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM INVESTMENT CONSULTANT SERVICES REQUEST FOR PROPOSAL (“RFP”)",
+        "The City of Grand Rapids General Retirement System has a total market value of approximately $437 Million as of June 30, 2023."
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM INVESTMENT CONSULTANT SERVICES REQUEST FOR PROPOSAL (“RFP”)",
+          "start": 27,
+          "end": 188
+        },
+        {
+          "quote": "The City of Grand Rapids General Retirement System has a total market value of approximately $437 Million as of June 30, 2023.",
+          "start": 1098,
+          "end": 1224
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

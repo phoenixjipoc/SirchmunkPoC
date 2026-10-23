@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "f3695c83f266f8561d9d",
+    "query_id": "SVC-16",
+    "question": "What contract term, including any extension options, does the Los Angeles Fire and Police Pensions (LAFPP) RFP for financial statement audit services contemplate?",
+    "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "expected_facts": "A three-year contract (fiscal years ending June 30, 2025, 2026 and 2027) with a maximum fee proposal for each fiscal year; the Board may extend beyond the three-year term through two one-year renewals.",
+    "acceptance": "Three years plus two optional one-year renewals, up to five years, suffices. Fiscal-year dates and fee-proposal details are optional.",
+    "text_hash": "784bcfad5dec8c8cdc14ddc71afe9edac27cb190eaa8c0971bfb4139e6ce83d9",
+    "source_text_sha256": "75b693482e948ff921b1cec45e9ab6fae2d982d6719b2a34a7971859f300978e",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is SBCERS’s RFP for global custody and related services, not LAFPP’s RFP for financial statement audit services. It does not support the specified three-year audit contract or two optional one-year renewals.",
+      "quotes": [
+        "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”)",
+        "The primary purpose of this RFP is to identify the most qualified firm to provide global custodial services, accounting services, performance measurement / analytics, and other services to SBCERS as defined in this RFP."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”)",
+          "start": 13,
+          "end": 130
+        },
+        {
+          "quote": "The primary purpose of this RFP is to identify the most qualified firm to provide global custodial services, accounting services, performance measurement / analytics, and other services to SBCERS as defined in this RFP.",
+          "start": 3455,
+          "end": 3674
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

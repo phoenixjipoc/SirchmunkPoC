@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "fc0cc38fef93d4d32b3d",
+    "query_id": "CONS-09",
+    "question": "Which retirement system's investment consultant RFP requires firms to certify that they currently provide investment consulting services to clients whose combined assets total at least $50 billion?",
+    "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "expected_facts": "Teachers' Retirement System of the State of Illinois (TRS Illinois), in its FY23 investment consultant RFP (Appendix B, Statement of Minimum Qualifications).",
+    "acceptance": "TRS Illinois / Teachers’ Retirement System of the State of Illinois is sufficient; FY23 and appendix identifier are optional.",
+    "text_hash": "1293d72cf747218c60a7c2a6d672307dfc4ed9a219b9d94748104754f6a40b02",
+    "source_text_sha256": "7ed4136b9f78094e292fd0483fe60026c36824af173945e88edf069fb23a58f7",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a State Universities Retirement System (SURS) emerging-markets investment-manager RFP template, not a TRS Illinois investment-consultant RFP. Its qualifications do not require certification of current investment-consulting clients with combined assets of at least $50 billion.",
+      "quotes": [
+        "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+        "Emerging Markets Equity",
+        "Appendix A: Statement of Minimum Qualifications",
+        "Appendix B: S U R S Diversity Disclosure (Separate Attachment)"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+          "start": 7442,
+          "end": 7531
+        },
+        {
+          "quote": "Emerging Markets Equity",
+          "start": 51,
+          "end": 74
+        },
+        {
+          "quote": "Appendix A: Statement of Minimum Qualifications",
+          "start": 4765,
+          "end": 4812
+        },
+        {
+          "quote": "Appendix B: S U R S Diversity Disclosure (Separate Attachment)",
+          "start": 4906,
+          "end": 4968
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

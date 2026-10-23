@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "d0973a6b4aa1ceb5b7d5",
+    "query_id": "OTH-05",
+    "question": "Under Missouri LAGERS' private markets consultant RFP, how many public fund clients of what minimum size must a respondent provide non-discretionary private market investment consulting to?",
+    "file": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "expected_facts": "At least three public fund clients with assets of at least $10 billion (as of March 31, 2024).",
+    "acceptance": "At least three public-fund clients with at least $10bn each. March31,2024 is a useful qualifier, not a separately asked fact.",
+    "text_hash": "73a211d25704cd40542a3505df46faf10d19379d806cf48206f01f9d9cb8fe3c",
+    "source_text_sha256": "84c0516b95d11d6444cd8b9463d95a6569acd34bb54cbc16e1b70c586ad78095",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is SBCERA’s 2021 investment consulting RFP, not Missouri LAGERS’ private markets consultant RFP. Its three-client minimum applies to U.S. public pension clients with at least $5 billion in assets, so the matching client count does not support the requirement asked about.",
+      "quotes": [
+        "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
+        "Release Date: March 1, 2021",
+        "The consulting firm has at least three (3) existing U.S. based, public pension clients, each having at least $5 billion in current assets."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 130
+        },
+        {
+          "quote": "Release Date: March 1, 2021",
+          "start": 4224,
+          "end": 4251
+        },
+        {
+          "quote": "The consulting firm has at least three (3) existing U.S. based, public pension clients, each having at least $5 billion in current assets.",
+          "start": 11757,
+          "end": 11895
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

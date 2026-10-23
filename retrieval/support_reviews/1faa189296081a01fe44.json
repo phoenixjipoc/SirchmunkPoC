@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "1faa189296081a01fe44",
+    "query_id": "CONS-04",
+    "question": "According to the San Bernardino County Employees' Retirement Association (SBCERA) investment consultant RFP, approximately how large is SBCERA's investment portfolio?",
+    "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "expected_facts": "Approximately $12.0 billion in assets.",
+    "acceptance": "$12bn approximately suffices; do not require or invent an as-of date.",
+    "text_hash": "a98d524e6be406d219908f55d7669eccd66ebe00dac2da8fe751cb73c6c068e5",
+    "source_text_sha256": "f7992acf077bd43f56dcfe41af1dd3fdb115f4ea1c61bea284a8fb27b11a2ca2",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Texas Municipal Retirement System (TMRS) RFP, not an SBCERA RFP. Its portfolio figure concerns TMRS, and the document does not state SBCERA’s portfolio size.",
+      "quotes": [
+        "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+        "TMRS is a $36 billion statewide hybrid cash balance retirement system"
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+          "start": 4270,
+          "end": 4370
+        },
+        {
+          "quote": "TMRS is a $36 billion statewide hybrid cash balance retirement system",
+          "start": 3328,
+          "end": 3397
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

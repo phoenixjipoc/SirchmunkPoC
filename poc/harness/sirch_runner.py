@@ -81,7 +81,7 @@ async def main():
     if args.rga_cache:
         warmup.update(await link_and_warm_rga_cache(Path(work_path), Path(args.rga_cache), args.paths))
 
-    model = os.getenv("LLM_MODEL_NAME", "gpt-5.2")
+    model = os.environ["LLM_MODEL_NAME"]
     llm = OpenAIChat(base_url=os.getenv("LLM_BASE_URL", "https://api.openai.com/v1"),
                      api_key=os.getenv("LLM_API_KEY", ""), model=model)
 

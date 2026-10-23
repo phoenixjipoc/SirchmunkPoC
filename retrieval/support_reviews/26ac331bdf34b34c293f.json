@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "26ac331bdf34b34c293f",
+    "query_id": "SVC-19",
+    "question": "What minimum qualifications must a proposing firm certify in the City of Temple City's 2020 RFP for 457 plan administration and recordkeeping services?",
+    "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "expected_facts": "(1) At least 5 years of experience administering governmental 457 plans and currently providing sole-provider administration to at least five 457 plans with assets under $25 million; (2) no front-end or back-end charges and no restrictions/penalties on plan- or participant-initiated transfers or withdrawals (except capital preservation equity wash/put provisions and fund short-term trading fees); (3) full disclosure of all fund expense and revenue sharing arrangements, including fixed/general account products; (4) full disclosure of expenses and revenue for any service (platform fees, managed accounts, advice, financial planning, brokerage); (5) agree not to sell/promote products not affiliated with the Plan without written City authorization; (6) be qualified to do business in California and Temple City upon award; (7) offer a self-directed brokerage option; (8) be able to transition and continue administration of existing loans; (9) representatives attend City meetings in person as requested (no more than once per year); (10) knowledge of and compliance with applicable County, California and federal regulations; (11) RFP terms remain in place through negotiations and the final contract unless waived in writing.",
+    "acceptance": "Accept concise grouping of the eleven requirements; the five-year/five-plan/$25m threshold alone is incomplete for this broad list question. Examples of service fees are illustrative, not separate mandatory list items.",
+    "text_hash": "784bcfad5dec8c8cdc14ddc71afe9edac27cb190eaa8c0971bfb4139e6ce83d9",
+    "source_text_sha256": "75b693482e948ff921b1cec45e9ab6fae2d982d6719b2a34a7971859f300978e",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a January 2024 RFP issued for Santa Barbara County Employees’ Retirement System global custody services, not the City of Temple City’s 2020 RFP for 457 plan administration and recordkeeping. Its certification concerns SBCERS services and does not establish the requested qualifications.",
+      "quotes": [
+        "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”) Issue Date: January 8, 2024",
+        "The primary purpose of this RFP is to identify the most qualified firm to provide global custodial services, accounting services, performance measurement / analytics, and other services to SBCERS as defined in this RFP.",
+        "The Respondent must agree (by written affirmation) to provide the services as detailed in Section I, as well as agree to all other requirements as stated in this RFP and more fully detailed in Addendum I."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”) Issue Date: January 8, 2024",
+          "start": 13,
+          "end": 158
+        },
+        {
+          "quote": "The primary purpose of this RFP is to identify the most qualified firm to provide global custodial services, accounting services, performance measurement / analytics, and other services to SBCERS as defined in this RFP.",
+          "start": 3455,
+          "end": 3674
+        },
+        {
+          "quote": "The Respondent must agree (by written affirmation) to provide the services as detailed in Section I, as well as agree to all other requirements as stated in this RFP and more fully detailed in Addendum I.",
+          "start": 183360,
+          "end": 183564
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

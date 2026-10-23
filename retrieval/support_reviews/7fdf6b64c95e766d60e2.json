@@ -1,0 +1,52 @@
+{
+  "job": {
+    "id": "7fdf6b64c95e766d60e2",
+    "query_id": "SVC-05",
+    "question": "In the Indiana Public Retirement System (INPRS) RFP 24-05 for audit services, which firm has provided INPRS's external audit services and since when, and what limit does INPRS's procurement policy place on contract length?",
+    "file": "INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+    "expected_facts": "RSM has provided external audit services since 2014. The procurement policy in the INPRS Board Governance Manual limits contract length to 10 years and requires new bids at least every 10 years. (Before 2014 the Indiana State Board of Accounts performed the audits.)",
+    "acceptance": "RSM, since 2014, ten-year maximum and rebidding at least every ten years. Prior SBOA history is optional.",
+    "text_hash": "065f1ea66c1548e68c091fe4d5679904ddac15c41085d2b7285bc81d8909924a",
+    "source_text_sha256": "709d34ea15f8028111c01a36824ed3448bb46d8b226113de15b4a25b337bbfcf",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is INPRS RFP 22-04 for investment management, not RFP 24-05 for audit services. Its ten-year limit applies to contracts under this investment-management RFP; it does not establish the procurement-policy limit or rebidding requirement. It provides no evidence about RSM’s external audit services or when they began.",
+      "quotes": [
+        "RFP NUMBER 22-04",
+        "for CORE PLUS FIXED INCOME INVESTMENT MANAGEMENT",
+        "The term of the contract entered under this RFP shall be for an initial period of five (5) years",
+        "Total contract period shall not exceed ten (10) years."
+      ],
+      "quote_matches": [
+        {
+          "quote": "RFP NUMBER 22-04",
+          "start": 92,
+          "end": 108
+        },
+        {
+          "quote": "for CORE PLUS FIXED INCOME INVESTMENT MANAGEMENT",
+          "start": 43,
+          "end": 91
+        },
+        {
+          "quote": "The term of the contract entered under this RFP shall be for an initial period of five (5) years",
+          "start": 23456,
+          "end": 23552
+        },
+        {
+          "quote": "Total contract period shall not exceed ten (10) years.",
+          "start": 23740,
+          "end": 23794
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

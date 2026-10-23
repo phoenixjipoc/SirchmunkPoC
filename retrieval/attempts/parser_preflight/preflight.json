@@ -1,0 +1,752 @@
+{
+  "prepared_utc": "2026-10-23T04:25:07Z",
+  "version": "0.0.7",
+  "source_hashes": {
+    "search.py": "36b33e599ef8bcaeecdcacfa2c7e8de934a7305af66c4fa6bbe590a388932598",
+    "llm/openai_chat.py": "813754f7d16a3c640f68176d3dc0d69cff36e6abd0beca7ecd1a43c042d710ad",
+    "llm/prompts.py": "79bda76e72a9c453f0ec60e2cf0ccceadc1ffcbf7611cec3ed6af3b5dac58b76",
+    "scan/dir_scanner.py": "04e1686ba309b83d500c260d2003796a8692393674f11a01874e506d5b9ed8e7",
+    "learnings/evidence_processor.py": "cb0b9c0667eef1f4a014d89dc1a628f24a6937a9a2bc45087b6860941fa64cc2",
+    "retrieve/text_retriever.py": "0f6d43a78932b8eaa83183ead54a6fc66f273b3c515aee7cf7d78d49a5202dae",
+    "agentic/tools.py": "ed1c357e700d5e133ed4741eca177b4c61e4482158a0396051c5737f9a7d4f48",
+    "utils/file_utils.py": "f4eb5835f7d76e8d4fcfa5ee26c3840904bf998441835369194b2094d81f5a75"
+  },
+  "files": [
+    {
+      "file": "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "bytes": 189839,
+      "sha256": "520cc4bdd463c25982a7e3cbb96a92de50de66502d481a777fd88b4d23057ce7",
+      "chars": 12406,
+      "parsed_sha256": "ae8a54ceb79f0a96958bede9935204aa6802f79f379f40b9c80533cc22835952",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf",
+      "bytes": 34665,
+      "sha256": "5614bc0f651ffc3efca3f17e97dd941a600107904e48b8b1f8909ac60abe7244",
+      "chars": 15070,
+      "parsed_sha256": "8ed6be534746881fed68c61a66849586a448b7377c2b82cb4a34b947ed4fccde",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+      "bytes": 1036581,
+      "sha256": "1a37f71028a2060a79da578a941355a3c4e862314c72f3ded865afab4910018d",
+      "chars": 56365,
+      "parsed_sha256": "ffac3760b4592ec5d7cc36ff7bc38d135e964a7f746df237593c97f67240407d",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+      "bytes": 257429,
+      "sha256": "ae2a0b861b9193bf89692627dce0af0d13ec248c7013cd25c85f4f8a3d8d5866",
+      "chars": 71146,
+      "parsed_sha256": "3c1a90e9aaa079e7a937a512a7e9fcf30d0e02da53f7c476099a36fed08cf268",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "AVFPD__RFP-Actuatial-Services-2024.pdf",
+      "bytes": 717841,
+      "sha256": "a6eb3704fb8bf4c88fb0ebc6bdd9df3f49e69368e8a111e61c4a9b4c1309020b",
+      "chars": 16728,
+      "parsed_sha256": "e66468fe1b21fc652878faeaf4057ba4f40b0c75dd516c08a9b10a8be65f3d23",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+      "bytes": 462653,
+      "sha256": "0b99ee1d127d33dba151c6e2ccd774f72520aa88b4748b8f84ffa8cdce811ee5",
+      "chars": 60581,
+      "parsed_sha256": "a42d20ab36867f299ee93328b29e737e45cf7198e22524099765703da0570a26",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+      "bytes": 436410,
+      "sha256": "d9365587f56fbaa1266ba771553d99616b61509a4e682c88aa850ea14d594125",
+      "chars": 60866,
+      "parsed_sha256": "c8c182dd24a9cb574fd9683c62a6aba538830f0378f77712536805299455f646",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "bytes": 201881,
+      "sha256": "634313835b9f2b0f9a92cf6d2bdf67e1c17e041a4baa7e436228aad54818fd6e",
+      "chars": 29425,
+      "parsed_sha256": "bd105196d07897aac1d67aceaafcdce8dd939ce084ff5125ec9e1ef5f696e3e7",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+      "bytes": 223136,
+      "sha256": "94d4bc5c43b8483ffd8e18d1ba842c986273e7a637d37af761078fbb6daa3d7f",
+      "chars": 25680,
+      "parsed_sha256": "b3bb3d6c80496e4e721ec2bead3d65231f87849fc751721bd1b9a8dfa53fa0dd",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+      "bytes": 49230,
+      "sha256": "ea1bb65aa7b42689dd00b326025cd3acf50f9f62d78871d8ce1bd2f64af08242",
+      "chars": 10369,
+      "parsed_sha256": "9a9b2739a8864712425c3bb73b8db798ddea0f0c13f32a6371082512fb200b85",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+      "bytes": 539265,
+      "sha256": "2c304e4fb89424fe052f7929a25237daeaa96bfc9da0e482f1d6beb7b29f1e64",
+      "chars": 181021,
+      "parsed_sha256": "c95e6d03bb5c4d5d350e8fc8ce440dd07178b73d3bc0dd854a0b5ec69918a779",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+      "bytes": 2103688,
+      "sha256": "043f128ddb86d6b6d425f87e22865c14d9334045e40aaac89e86e81a671fcf6b",
+      "chars": 115874,
+      "parsed_sha256": "4e6576c9bd379bb0ee105633d598915ef78928f6d56ae77e5debf498ea47c04e",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+      "bytes": 1182628,
+      "sha256": "a89d8daf380af06c1d596616c130aa76686da2f939ee9a2394839ba598bf68e7",
+      "chars": 81491,
+      "parsed_sha256": "0847e500dd164ad3583454f76b9c5a427000f34a0d1e6bcf3ed0aadec3df5dec",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+      "bytes": 566831,
+      "sha256": "638ad85e9fb7bf3a2e361a6b10475be214f33e8dc469e57e2df17499f20ad5f5",
+      "chars": 66189,
+      "parsed_sha256": "b0dee0911a57ffce6dfe1cc1826bf00d27d188407e669d8a6919ac08403bfcdc",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+      "bytes": 247306,
+      "sha256": "5c3bff217c3e3a6d6928a3bbfcbce95475d66d2848d70377dfed40cea1ff0827",
+      "chars": 25512,
+      "parsed_sha256": "2c7eb7e9702ae8fe6be1df0079dde2bfb2764e76e1df0641b08b4ad56339b33f",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf",
+      "bytes": 45345,
+      "sha256": "7f1fe63ec6cee200a511c0a38006a330b8888025e5006a0257a79485a9317b3b",
+      "chars": 3628,
+      "parsed_sha256": "ff57bdd5562d13b27acd3825d214e008f15af0220007b8d9c70da3ea82fe5efc",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf",
+      "bytes": 105716,
+      "sha256": "f57f3d93c203b31bdf8b5dff18524cc76fd1482e438a1d082d396d761710f206",
+      "chars": 11238,
+      "parsed_sha256": "7447198d01313f5ed85043086b1140f7ae3125841abf119ac7e1a0b4023ef62a",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+      "bytes": 187488,
+      "sha256": "757f6f976f87c5f93502502802b5b44685ba95bad52468800c3738ab2061fd51",
+      "chars": 24327,
+      "parsed_sha256": "84e26d689f3ed95d7a3479b7b78bf170a0aa42e634476a47cdaea3ef4a5161c7",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+      "bytes": 450240,
+      "sha256": "1a8424c844e12ce85e1cd39151d38e66e42f65125c25154d18cadd29e202507a",
+      "chars": 50516,
+      "parsed_sha256": "7b12c15547b55d2bb9fc38ef9c720ea1cc65c7cfa39f552ae5bbbecc9c8d011d",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "bytes": 1089597,
+      "sha256": "5656a2d6aee56a6eb2c12e718f6c171e167af6819094e0e2a50068d7d2022c4f",
+      "chars": 177861,
+      "parsed_sha256": "cacc180879cedec244fac05559fde7de61ad1774126e2151353a4f094d0ebda2",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+      "bytes": 148912,
+      "sha256": "f16a330bb2ab6eb30a8459d5829bf5ae9a0786561e8e292beab06232857fb2ba",
+      "chars": 24033,
+      "parsed_sha256": "54d8949492db93fc584c33fadabb904924fb200181135aeed85fa7d429acc4c0",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Hartford_MERF__file.pdf",
+      "bytes": 963084,
+      "sha256": "dfc5f9706105df58053617f7f06cec3677178c2ebeb97c1ef62ef377b39ed489",
+      "chars": 158211,
+      "parsed_sha256": "91d174e72088e03ccb6667d4e29f4a46d35f8c5d4e7a32933fb3e0826e532469",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+      "bytes": 12825,
+      "sha256": "137a8d21d09f84ff54f92a811f5f3a703076c544a089c7b69cf60f57ca9bc56f",
+      "chars": 1591,
+      "parsed_sha256": "a246e1c18acbe851c5f387b0b845a51479144ee2308deac952de76e632f8f14f",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+      "bytes": 521433,
+      "sha256": "521e3656b81886c5d199f51d24fa140daa5bdecfc0d6b16155a21a4ce3de8c3f",
+      "chars": 80556,
+      "parsed_sha256": "8c6a92935e83f0201e2450752660daf48d392ded801b6287060a31759f8a3c53",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+      "bytes": 68135,
+      "sha256": "cd6df2d01097989cb2369f4f52c3eb464f76b1b73c3d60cbee286c11b765f8bc",
+      "chars": 1486,
+      "parsed_sha256": "9df1e1267f0aeb3772069538b1710cca6acafc99872d1a826e46581d5b2cae40",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+      "bytes": 459895,
+      "sha256": "9d1e2fe656ed336e84afe18dfee3c112b019bd80370ef855224160c3e6074df1",
+      "chars": 71864,
+      "parsed_sha256": "3b39d594c3744505ab9bdf3ff7767d75e5841da5858137baa5a0658d8e6acff3",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+      "bytes": 360176,
+      "sha256": "8babdc152651e80fd4ce6aacbee0887b049fabef9575dd2d82422db74498432e",
+      "chars": 83501,
+      "parsed_sha256": "e58c79637327839a5f7130bc50d0233b1d90d83cd1a8e769c4b597b6e7626185",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+      "bytes": 683303,
+      "sha256": "980da3cd7907ea33137f3596ed944bb18d19fcb9727a2d47b9b30c7cdf50581a",
+      "chars": 104763,
+      "parsed_sha256": "c26615116de661ff7021852699fe367c49c2b8f521daf9e32b16c32726f04598",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+      "bytes": 120000,
+      "sha256": "61a7ea098da7653704c39931ba28f757cc6e4be530c845c5d46b8fb37a0abaf0",
+      "chars": 8755,
+      "parsed_sha256": "a86b936e78cfe7d57c8c6a159b775e5a5f91e561bad502922e4e09784c23fe6d",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+      "bytes": 124004,
+      "sha256": "ec596b666cd5745eba5c27713ecc60b71ea30a667e01aab18bb4d4d7a990fba9",
+      "chars": 8195,
+      "parsed_sha256": "842b978abbc16cfeda275e9226e1f8a66ce316d49471f6debf9a08435198978e",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "ILPA__ILPA-DDQ-2.0.pdf",
+      "bytes": 847190,
+      "sha256": "0a883010fd5ea3dfe545d3ed6b5976648d777af69e14632360084d847c3ebad0",
+      "chars": 162755,
+      "parsed_sha256": "6677ccdc0992be868561b99de99514d92b51467ae76b574cd812c30a418c135d",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "ILPA__ILPA-ESG-Assessment-Framework.pdf",
+      "bytes": 261766,
+      "sha256": "81787f42fd3ef3cb26b0f5500d8c5841e383d819ea0c3758fb33cae1f97ec6f5",
+      "chars": 26257,
+      "parsed_sha256": "abbf74629efdb81d8d47a239f1d3b170eefbc16817970c35b94d73a471a5a410",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+      "bytes": 639339,
+      "sha256": "627a91ad11a6724bae9831b2b40da6b61cd3013ec8698e199d03cbf7a2412f1a",
+      "chars": 80410,
+      "parsed_sha256": "9a1f4a771fd537e0304cdbd7fac52a6e28c7df789e7ba396881017f613950922",
+      "status": "ok",
+      "control_characters": 1
+    },
+    {
+      "file": "IMRF__sample-investment-consulting-rfp.pdf",
+      "bytes": 191530,
+      "sha256": "d28ed3932f3455e5ae01d72118308b34930b05a507ceb6b0daece40ea2ae0445",
+      "chars": 51741,
+      "parsed_sha256": "2fce43ca2ee2119560dc2f81d0dc4740bc4c190dcffc225b9606543e50cc8212",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "IMRF__sample_investment_manager_rfp.pdf",
+      "bytes": 292790,
+      "sha256": "d829e6015b6ebf90f7c9310c3cae4b192650762b3589365878356c0880ee2b0a",
+      "chars": 42929,
+      "parsed_sha256": "85ed196cf088dccc408da89ff773b43635df6b7a3fe9f601799cc5c9130d0b15",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "bytes": 1063300,
+      "sha256": "00e711d8e5f60ae2fe7290810b334d47600910a67d0b45c6f6ce0d91473b15ff",
+      "chars": 120396,
+      "parsed_sha256": "cd3056f7179e22494ab1b70ae08c0bf8f904c23ec7e99e43e7bda5781ec5032d",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+      "bytes": 789805,
+      "sha256": "5628bc522e5f8f42d3c9b9496dead0c09024ab903330df230827874d885bab30",
+      "chars": 124490,
+      "parsed_sha256": "48e2a10d4f95d34b8d4f50448b22031c4f9f11012db716b1d8005f30a94fa212",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "INPRS__RFP24-05_AuditServices.pdf",
+      "bytes": 489278,
+      "sha256": "935dc30b340f0bced802c57fc869f39be4544930eb92d81771dab0e9e1c861da",
+      "chars": 83537,
+      "parsed_sha256": "fa080d12e46af2ecc645108b64cae171aaf22b7357be5868158a5d73a7bbaf94",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+      "bytes": 517687,
+      "sha256": "0bb9fe02b02d2ca664bf5cf91167c20d8b37b7a90be8605ca210f3a7008a7703",
+      "chars": 67825,
+      "parsed_sha256": "7e8d4082d4f2d603fc3f4ccf18679d3d1a473104fbd0a42313e4ee81daf35bab",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+      "bytes": 1211392,
+      "sha256": "0bd0f06fa9a0452ab67831a06146385ccc0f950ffbbeab95c3cbfbed518e91d6",
+      "chars": 63927,
+      "parsed_sha256": "a52cca46dd0de21c9865ee3e903f5366d412a50075384a60a9c4bde2ea7b4c15",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "bytes": 1022513,
+      "sha256": "c5ce9b74809efeb600a9366449d74aad821f10141f08e9c40381adbba2032560",
+      "chars": 55109,
+      "parsed_sha256": "88605c2fdaa9e7df71820a25c878e08439064996c6279b70eb2b64f141ab6e22",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+      "bytes": 2825104,
+      "sha256": "3b968abf7fa0f8539d825c4265a2b313935e0f16f28b29a60b41318ae221b965",
+      "chars": 102912,
+      "parsed_sha256": "815495f8728fd8f95c1d5c136c0afbb62237725e515ac3e6fb5b5703d88b4b5d",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+      "bytes": 480771,
+      "sha256": "717962244fc7954ca2bcc9d748cdb6d1436680beaadbd1a9679eb70a17e8c6f5",
+      "chars": 94074,
+      "parsed_sha256": "08253f3e7c1ed79bfc63edc4835b038a85d5f456ce46ec729baed69f7d2d9142",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "LACERS__2025_actuarial_consulting_services_rfp.pdf",
+      "bytes": 312317,
+      "sha256": "de02cc035c8cef32eec1216329787ef3d5bec34cf6846961b30df77cd1b1bf39",
+      "chars": 39503,
+      "parsed_sha256": "eb99c7f763eb08d493ba02b8588379dec47a209779f10d1479950e31a7abbe5b",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+      "bytes": 1645690,
+      "sha256": "4d34918d46640652ae74a46e8ea80b6ca12cd8c9faef9882510ee347cef79eae",
+      "chars": 160987,
+      "parsed_sha256": "0aa5090afc22fc80972af686dbe1e5da729e6a40654222020a0da771ee449c23",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+      "bytes": 831223,
+      "sha256": "f17821da92e5d799811bfe48a074ff9f96ac5829f2ce3d6ffe2acd6879865969",
+      "chars": 184505,
+      "parsed_sha256": "3c2b32dca4b3f162dd2941d246730d1af4e85aa64d30b8035bb9e71089d1ed35",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "MA_PRIM__PDF-Version-of-RFP.pdf",
+      "bytes": 1309036,
+      "sha256": "1712791cbfce3ef8bc1fdde996fd1e4b22ee594bcf50aca8f789ea19aecb2f75",
+      "chars": 139231,
+      "parsed_sha256": "fa13b8ba43acc87e95fe25cf8814ec1da1350744be5a0acc463ff501404dde9e",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+      "bytes": 305260,
+      "sha256": "8d67ec4be4a0935a580a6432257dbdc25ca73ddc9ebc5a3fe0120f20008d2078",
+      "chars": 30830,
+      "parsed_sha256": "6ab20482c4b03b155868b8955e1a67aae4996d3e3c5d8866abd55a80bc68b1f3",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+      "bytes": 337910,
+      "sha256": "8f9009c0b7269264703a3adfb4943dbcde2e910e1a5bf60ffe75b683f7397705",
+      "chars": 58962,
+      "parsed_sha256": "dd8c6385f77d67db480a8cebf932607f2693e8d6431848c7ff2b56055e81d947",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Monroe_County_NY__10406.pdf",
+      "bytes": 671723,
+      "sha256": "0009fc15703c29976e4a56a3bfbc33c82cb21fa366e48dd68f3d74fd38a41130",
+      "chars": 37788,
+      "parsed_sha256": "e0e5c7747883a75b0f840641f8a776bf8e52bed33fd02581f7db71873ad16e14",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf",
+      "bytes": 24059,
+      "sha256": "2a6442b4f618ababece6335ac6f8d813df3116fc3a39028bc8f350a2caad99fc",
+      "chars": 7484,
+      "parsed_sha256": "3dd6c31beba7ac7e531bbbf023c4a76a39d2ae4f1c293bc61fd991a051f057ba",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+      "bytes": 201996,
+      "sha256": "fca44f24d76a0c909029b9ff1b91ab807d23781c5a74fdcd50e901f162732fc5",
+      "chars": 19557,
+      "parsed_sha256": "559a1b557840091d0acf32248b3e829c2d5f7c17ae8c66cee924b94189f5e34b",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+      "bytes": 792177,
+      "sha256": "b099aec3f112734fa1458a7c8bb474ef2863e0a30910e4be8a51337c6090a738",
+      "chars": 175772,
+      "parsed_sha256": "c1f29ec5548893b3cf99c63e8197f78cab838b8689af38ec311a2b1d2da1b815",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "OCERS__custodian_rfp_2022-2023.pdf",
+      "bytes": 729008,
+      "sha256": "ea310090ff570bfde2dcb0c2e4111371a99b127cdd1bc93ff62a3fac12fdd203",
+      "chars": 123938,
+      "parsed_sha256": "6e17035af0e8772db0a074ca564c6c35c00397b1d9c93913af0148a62598112c",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "OCERS__custodian_services_rfp_questions_and_answers.pdf",
+      "bytes": 307624,
+      "sha256": "2ed06f423064282d429f7d1336a965eda8025b6e0e2677dc0e6051cf113029bd",
+      "chars": 22196,
+      "parsed_sha256": "327afb9e900ee6f3e82d7d5025c52135dbc1accbc19dd623a042a9d6315393a7",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "bytes": 630996,
+      "sha256": "5c10b781b096cc828717506a77569aa681ae43b4c15074400e0f2aa4768dcd92",
+      "chars": 92534,
+      "parsed_sha256": "25947a0ca14823d5a447a6807c35443528e08c8cc0a3f3674607ce36107b6f0c",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "OCERS__ocers_pas_consultant_rfp.pdf",
+      "bytes": 616526,
+      "sha256": "0d518fbca11aeaea735dc04ece6b00af7a51d5c8f6cc3291ab207194e3b602d6",
+      "chars": 73207,
+      "parsed_sha256": "b0e622ddd923f8ddb7c0e0b3a50aa7ba1fe3e68ac1ace4b65d5425c25bfc0425",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+      "bytes": 325685,
+      "sha256": "3f6cfa1eae347067661e220ab4492b1856498b6abf38adc7fd19ac09f1f39c63",
+      "chars": 37611,
+      "parsed_sha256": "0fe0e353f9458a016553ac5531649ea020342b4291a779ec97a6621bc9594943",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf",
+      "bytes": 206391,
+      "sha256": "112d8d233985ae4bbf1bf5c55266538c30404fc84477b5d07fa9724697408281",
+      "chars": 4809,
+      "parsed_sha256": "adf347e9d2e4dbd0d205f7cb6a78c39af124934d83f77b479e58e9056fd72abe",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+      "bytes": 292309,
+      "sha256": "3ad89e0457272e17960e361dff688fc587efea255a0ba4aa17447ffd68e532fe",
+      "chars": 43247,
+      "parsed_sha256": "7562f92840e20e7f96892797b9d73a23d205bb822478a3d5196932b194e03770",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+      "bytes": 1116389,
+      "sha256": "44f00d45135bc3ed0bccd3d98ef8e5fd4ad7447e7976309185b802bcba24f2e2",
+      "chars": 137361,
+      "parsed_sha256": "ad1ec3f35c2f35adaeb5cea268f9cc33cf4db0dc59e842dd5ee4facd6f4e0522",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+      "bytes": 158934,
+      "sha256": "ba787c48229170285699c49c2d1d88c140a60ea2e5b6fc01bb51c8ebeb2b630a",
+      "chars": 3003,
+      "parsed_sha256": "2facc084121e1f93bd95344e4d59bd938e207ab762b0c4cb4a64d30cd3470224",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+      "bytes": 171917,
+      "sha256": "2343939d6535c29927f17030e4a10e402b48618ec2bbdb1e1a137aa0b9f6549d",
+      "chars": 14545,
+      "parsed_sha256": "c000ea4a480b9c7bd4e65cd34b8d3c53ea7eb589d9fd623e5ae8074b9b663a49",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+      "bytes": 42087,
+      "sha256": "e718a2ee8c4e08847f04173b6b070e70e5e34aaee33a7d7a9897e1690969cc8c",
+      "chars": 11626,
+      "parsed_sha256": "41a87b6dfeb1714ced582eea97cdc20a3d720339cb02c1431a52fe6b76fa264d",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf",
+      "bytes": 55822,
+      "sha256": "7a754cc8705c93501388b061ba0bd904e64df405496066caab929d80e8719165",
+      "chars": 9866,
+      "parsed_sha256": "1b2b5fbcb5f070b1b0b26c9fd8445a22099b7403f098a647b96c35f5c2a6fcea",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+      "bytes": 1444685,
+      "sha256": "e121d97e86b1c8a37d8c70d100cb5e82511480aa830081840f4276adc8c3e5c7",
+      "chars": 89565,
+      "parsed_sha256": "b1178a29d211c9afc9c2236ea52b2e01461a813cac6a864f12329fa88ae7c82f",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "bytes": 1598389,
+      "sha256": "61bc9f8160870e19e83d3b6e959e7c6d52b9cb7e7f38a5f977e963601c13faaa",
+      "chars": 283168,
+      "parsed_sha256": "eef8fd0b8eda12bab5e1d6c1b6a9f0cf107f4d7e469f2503577054e9df8cf037",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+      "bytes": 271669,
+      "sha256": "e4c5ec0c7828a9a769399014d2c9bcf7d5ede0ae795adf3101e1ee0922c29092",
+      "chars": 59779,
+      "parsed_sha256": "343f76147b75ebe122493ea8805d3b29086f0046943237a08b1ef33cccd83e8f",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "bytes": 795256,
+      "sha256": "7b9bd5913c84103f283ca31334e06fffb8e8ba4b740a59c582b28a5b25526d7c",
+      "chars": 119851,
+      "parsed_sha256": "865f4135e974adec54059e4c9edb7b2bc38a5b8dc89b9df21e57dd8040d06551",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "bytes": 389091,
+      "sha256": "eb962b2b7c5779ffb7b714c73fee183443b169083e8268217f8ab53cebccce24",
+      "chars": 32181,
+      "parsed_sha256": "ef42cd730e39e1aae09dd1ec7de5e6af4895970ea441db13e0b94fca79abadfd",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+      "bytes": 847487,
+      "sha256": "784a0bd0a62da8c3a0e1136231b516cb9997ec0d73ed3429b518482eff82ec3f",
+      "chars": 173322,
+      "parsed_sha256": "557479f1492d6e10618ec16063659cbe6bea74487520915a8fc5a90105dd1442",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf",
+      "bytes": 319279,
+      "sha256": "b29b4260b95be531c7a025ee4a3b63349af8549fd2c5f9691c6ccade9e8bab45",
+      "chars": 23582,
+      "parsed_sha256": "0daeec493d97262edac29606b92fdfd94b6e4d05098677cad671e30eb93dfbfc",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+      "bytes": 447673,
+      "sha256": "810870182e06aee68d2dbcb1204eacf34a63e4978823df9bf6970aeaaa1b7d51",
+      "chars": 39563,
+      "parsed_sha256": "adc7893bc9f4419ac031cf558499ca4fbf70c1cbf6b9067c57ce6c7ce2113c50",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf",
+      "bytes": 452824,
+      "sha256": "7a1c3a57006dd857e05353d4825b6bd46a60ba6711a6bcdd6ee921827c0c8be8",
+      "chars": 23311,
+      "parsed_sha256": "1cfd04a189d28df10d8e5f951895d463c19a429747d29c2dc8f2385df74e5c1e",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+      "bytes": 793776,
+      "sha256": "4475772d0dfd7369778a00aa7003375e7bc56e3cb26bbaafef17a4359f03a1a7",
+      "chars": 86248,
+      "parsed_sha256": "e773ccd051cb7ecb0e79486b77be2680da82f76ae9a5aef0e154fb203ce50794",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "bytes": 947221,
+      "sha256": "c4a9b09d91b8cae22e8e6b681a6c363bbc013ed3a0dbdb1ca8792b278c2b768a",
+      "chars": 86604,
+      "parsed_sha256": "6b73ca9f1f6bd4096f3cb56b601f68a3605d85c5ca10225b001135b284293209",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "bytes": 442309,
+      "sha256": "2497956a12898cbedacc82610a532648c786bf794f64c90116e7424a0543690e",
+      "chars": 74518,
+      "parsed_sha256": "c226265fa9feaefa7ef2ec42d6c770e77a46216df1d066f1ca29337abc6a15c7",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+      "bytes": 770536,
+      "sha256": "4096da76c8247ed96e0f8537f5e7fbb36e20879fd40bb82527740e7a5643f5d5",
+      "chars": 223284,
+      "parsed_sha256": "e071e9f6d298564aca29cc5dc34937850d050790f281b735cb204d53231a865f",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+      "bytes": 561820,
+      "sha256": "865f61855bd15ace3e92f96ca5151a1edc90530369b9488a1305a61abf90f2fa",
+      "chars": 94095,
+      "parsed_sha256": "ad072263c19fb6e8ca9bda4df1b105c8548d9b87443c91b4445113926119bd98",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+      "bytes": 1047277,
+      "sha256": "5612c8ae2aeedb4f1ccb66215a1a40b8385fe63eac727f928b6c5cd8d3c98ae9",
+      "chars": 231461,
+      "parsed_sha256": "f01e61733ab6b47abea2d184ccac7679f37d250e41c118ba1453daf1bf481ccc",
+      "status": "ok",
+      "control_characters": 0
+    },
+    {
+      "file": "York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf",
+      "bytes": 943178,
+      "sha256": "8d294270d827fc35d5383a46aa92498e505213c730cee2ae1240b186678237e6",
+      "chars": 21495,
+      "parsed_sha256": "4bf27bc0b27ff18982ba7841ee6a2b29815a6383b6c7f748d21151d76eb5f9a2",
+      "status": "ok",
+      "control_characters": 0
+    }
+  ],
+  "model": "gpt-6-sol",
+  "model_preflight_passed": true,
+  "code_hashes": {
+    "freeze.py": "463ecc4b17b89b87b1511dab35d9a6ceb2b09b8e3b207c6f1a03266a2bb9db66",
+    "runtime.py": "fcd0256dfed3943d5b2a3a451546febe44d47848ce27cd82114a40b991a9728b",
+    "container_run.py": "d9ff1af730dadd12435b337ec54fbfcf71e45b6c1c0ddd2ddeae79c4106001a5"
+  }
+}

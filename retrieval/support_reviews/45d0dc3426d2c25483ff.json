@@ -1,0 +1,40 @@
+{
+  "job": {
+    "id": "45d0dc3426d2c25483ff",
+    "query_id": "XD-14",
+    "question": "What questions are asked under section 10.0 'ESG (Environmental, Social, Governance)' of the NJEDA Life Science Seed Fund due diligence questionnaire (Appendix A)?",
+    "file": "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+    "expected_facts": "Eight questions: 10.1 the role of the respondent's internal advisory board(s), all matters referred to them (including unresolved ones) and any other governing/advisory bodies; 10.2 conflicts of interest (potential, current, historic) and how they are identified, managed, disclosed (e.g. to the LPAC) and resolved, including any conflict committees; 10.3 the policy on personal investments by employees or affiliates in deals the respondent reviewed; 10.4 whether the respondent is a registered investment advisor (RIA); 10.5 the respondent's ESG-related policies and how ESG factors influence its investment beliefs; 10.6 the implementation status of its responsible investment policy and any plans to develop its approach to ESG; 10.7 how it contributes to portfolio companies' management of ESG risks and opportunities; 10.8 the monitoring processes it would use to assess the proposed Fund's portfolio companies' management of ESG factors.",
+    "acceptance": "Eight topics 10.1–10.8 required in substance, including portfolio-company ESG assistance and monitoring. Exact question wording and numbering are optional.",
+    "text_hash": "bf2ff9591480934c4901f72d774f1636c13045a54cff1cece6e2ebf281ee7ab0",
+    "source_text_sha256": "c6578f93d282847a1a6f2e480324ec05592b32a0acb1c62a36413c1930a6d499",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Calamos private-markets questionnaire, not the NJEDA Life Science Seed Fund due diligence questionnaire (Appendix A). It has no section 10.0 or the required set of eight ESG questions.",
+      "quotes": [
+        "Private Markets Due Diligence Questionnaire",
+        "© 2025 Calamos Investments LLC. All Rights Reserved."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Private Markets Due Diligence Questionnaire",
+          "start": 13,
+          "end": 56
+        },
+        {
+          "quote": "© 2025 Calamos Investments LLC. All Rights Reserved.",
+          "start": 11784,
+          "end": 11836
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

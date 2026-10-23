@@ -1,0 +1,46 @@
+{
+  "job": {
+    "id": "952b45c3e9e7182f084f",
+    "query_id": "DDQ-03",
+    "question": "In the SAA investment manager questionnaire for fixed income investment management services, which services is the firm asked to indicate whether it offers, along with any additional fee?",
+    "file": "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "expected_facts": "Five services: Schedule D investment accounting; asset/liability management (dynamic financial analysis); performance attribution; daily internet access of portfolio information; and SVO filing. For each, the firm marks Yes/No and gives an approximate fee.",
+    "acceptance": "Require all five services; Yes/No and approximate fee wording are useful context, not additional services.",
+    "text_hash": "bb72821830d3b79720e84bd7d293578b1b367fc714f7a0632d7937278f6fccd7",
+    "source_text_sha256": "c942d0c8eb27f166bc67c995927bcd0e03513c3bbbfb1318905a941cab877fac",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a TRS Illinois questionnaire for investment consulting services, not the SAA questionnaire for fixed income investment management services. It does not list the five specified services for firms to mark as offered with an additional fee.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES",
+        "The following investment consulting services questionnaire must be completed and included with your response to this RFP.",
+        "14. Describe your firm’s performance attribution capabilities. Include a breakdown of performance attribution capabilities by each asset class."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 122
+        },
+        {
+          "quote": "The following investment consulting services questionnaire must be completed and included with your response to this RFP.",
+          "start": 27493,
+          "end": 27614
+        },
+        {
+          "quote": "14. Describe your firm’s performance attribution capabilities. Include a breakdown of performance attribution capabilities by each asset class.",
+          "start": 35415,
+          "end": 35558
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}

@@ -1,0 +1,58 @@
+{
+  "job": {
+    "id": "1437394ef8321d681390",
+    "query_id": "INV-09",
+    "question": "An investment manager RFP template for an emerging markets equity strategy (issued February 14, 2022, responses due March 31, 2022) lists required minimum qualifications and 'preferred criteria'. What live track record does it require, and what public pension client base does it prefer?",
+    "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+    "expected_facts": "Required: an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy (qualified women-, minority- or disabled-owned businesses are exempt). Preferred: at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan client with over $10 billion in total plan assets (plus no material litigation in the past five years). Issuer: State Universities Retirement System of Illinois (SURS).",
+    "acceptance": "Accept five-year live strategy record and the alternative client tests (two >$1bn U.S. public pensions OR one >$10bn public plan). Ownership exemption is a relevant qualification. Issuer, litigation criterion and placeholder date need not be volunteered.",
+    "text_hash": "b1b58831638092aa2c4058820d103b7fbdbca636b18c44a0d4120044ca4b814b",
+    "source_text_sha256": "9f5bdf4dd9b56cf14ad12c68d7eac6a3122ac753ad93b2296c4763b688071979",
+    "second_check_required": false
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2020 SBCERS RFP for a discretionary private equity consultant, not the February 2022 SURS emerging-markets equity investment-manager template. Its five-year requirement concerns private equity services, and its client test is a different mandatory qualification; it does not support the requested live strategy track record or either preferred public-pension client alternative.",
+      "quotes": [
+        "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+        "Date of RFP issuance July 27, 2020",
+        "Deadline for submission of Proposals August 21, 2020",
+        "The firm must have been in business at least five (5) years providing services similar to those described in the Scope of Services section.",
+        "The organization must have been providing investment management services for Private Equity investment transactions for five or more years and have at least two pension fund or other major institutional fund clients with a minimum of $3 billion in total assets."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+          "start": 13,
+          "end": 143
+        },
+        {
+          "quote": "Date of RFP issuance July 27, 2020",
+          "start": 153,
+          "end": 187
+        },
+        {
+          "quote": "Deadline for submission of Proposals August 21, 2020",
+          "start": 245,
+          "end": 297
+        },
+        {
+          "quote": "The firm must have been in business at least five (5) years providing services similar to those described in the Scope of Services section.",
+          "start": 16291,
+          "end": 16430
+        },
+        {
+          "quote": "The organization must have been providing investment management services for Private Equity investment transactions for five or more years and have at least two pension fund or other major institutional fund clients with a minimum of $3 billion in total assets.",
+          "start": 17460,
+          "end": 17721
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "model": "gpt-6-sol",
+  "support": false
+}
