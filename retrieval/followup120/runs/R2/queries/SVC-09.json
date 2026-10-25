@@ -1,0 +1,504 @@
+{
+  "query_id": "SVC-09",
+  "question": "A county retirement system's custody RFP requires custody respondents to have at least $500 billion in total assets under custody as of December 31, 2021. How much of that must be in international equity and fixed income, and what minimum liability/professional errors and omissions insurance must respondents provide?",
+  "type": "detail",
+  "pair_id": "",
+  "seed": 2944709077,
+  "references": [
+    {
+      "rank": 1,
+      "file": "OCERS__custodian_rfp_2022-2023.pdf",
+      "path": "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "OCERS__custodian_services_rfp_questions_and_answers.pdf",
+      "path": "/mnt/docs/S/OCERS__custodian_services_rfp_questions_and_answers.pdf"
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "keywords": {
+    "county retirement system custody RFP": 8.0,
+    "total assets under custody": 7.0,
+    "international equity and fixed income": 8.0,
+    "professional errors and omissions insurance": 8.0,
+    "资产托管总额": 7.0,
+    "国际股票和固定收益": 8.0,
+    "职业过失与疏漏保险": 8.0
+  },
+  "keyword_terms": [
+    "county retirement system custody RFP",
+    "total assets under custody",
+    "international equity and fixed income",
+    "professional errors and omissions insurance",
+    "资产托管总额",
+    "国际股票和固定收益",
+    "职业过失与疏漏保险"
+  ],
+  "directory_prompt": "You are a document triage specialist. Analyze the scanned files below and rank them by relevance to the user's query.\n\n## Directory Structure\nRoot: /mnt/docs/S\n```\n  ./ (20 files)\n```\n\n## User Query\nA county retirement system's custody RFP requires custody respondents to have at least $500 billion in total assets under custody as of December 31, 2021. How much of that must be in international equity and fixed income, and what minimum liability/professional errors and omissions insurance must respondents provide?\n\n## Scanned Files\n- **Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf** (.pdf, 426.2KB)\n  Title: Request for Proposal\n  Author: Cummings, Meg\n  Pages/Sheets: 24\n  Keywords: Cummings, Meg\n  Modified: 2026-10-07\n  Preview: 3    Request for Proposal  Actuarial and Consulting  Services for Pension Benefits                                                B o s t o n  R e t i r e m e n t  S y s t e m   B o s t o n  C i t y\n\n- **OCERS__custodian_services_rfp_questions_and_answers.pdf** (.pdf, 300.4KB)\n  Title: Custodian Services RFP Questions and Answers\n  Author: OCERS\n  Pages/Sheets: 12\n  Keywords: OCERS, OCERS Custodian Services RFP Questions and Answers\n  Modified: 2026-10-07\n  Preview: Custody Services  Request for Proposal  Questions & Answers    October 2022                                  Orange County Employees Retirement System (OCERS)  P.O. Box 1229  Santa Ana, CA 927021-(714\n\n- **SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf** (.pdf, 776.6KB)\n  Author: Ashleigh Hollins\n  Pages/Sheets: 47\n  Keywords: Ashleigh Hollins\n  Modified: 2026-10-07\n  Preview: General Investment Consulting Services    Request for Proposals      September 30, 2016\n\n- **Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf** (.pdf, 66.5KB)\n  Title: Publish:\n  Author: konishig\n  Pages/Sheets: 1\n  Keywords: konishig\n  Modified: 2026-10-07\n  Preview: EMPLOYEES’ RETIREMENT SYSTEM   OF THE STATE OF HAWAII  REQUEST FOR PROPOSALS (RFP)  REAL ESTATE INVESTMENT CONSULTANT SERVICES      The Employees’ Retirement System of the State of Hawaii (ERS) is soliciting  proposals for a qualified firm to provide non-discretionary real estate investment  consulting services to the ERS.  The consulting firm must be United States  based, registered under the Investment Advisers Act of 1940, been in business  for a minimum of three years and have at least one d\n\n- **SBCERS__2020-Private-Equity-RFP.pdf** (.pdf, 265.3KB)\n  Title: Microsoft Word - 2020 Private Equity RFP\n  Author: lthompson\n  Pages/Sheets: 34\n  Keywords: lthompson\n  Modified: 2026-10-07\n  Preview: 1    SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM    REQUEST FOR PROPOSALS (RFP)  FOR  DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES          TIMELINE  Date of RFP issuance July 27, 2020  Dead\n\n- **Hawaii_ERS__ERS-Private-Equity-AD.pdf** (.pdf, 12.5KB)\n  Title: Microsoft Word - ERS Private Equity AD (website.spo).docx\n  Author: misakil\n  Pages/Sheets: 2\n  Keywords: misakil\n  Modified: 2026-10-07\n  Preview: STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM  REQUEST FOR PROPOSAL (RFP)  FOR PRIVATE EQUITY CONSULTING   AND INVESTMENT SERVICES      The Employees’ Retirement System of the State of Hawaii (ERS) is soliciting  proposals for qualified firm(s) to provide private equity investment consulting and  investment management services to the ERS.  The consulting firm(s) must be  United States based, registered under the Investment Advisors Act of 1940, been  in business for a minimum of five years and h\n\n- **ILPA__240901-ESG-Assessment-Framework-FAQ.pdf** (.pdf, 117.2KB)\n  Author: Microsoft Office User\n  Pages/Sheets: 3\n  Keywords: Microsoft Office User\n  Modified: 2026-10-07\n  Preview: Institutional Limited Partners Association                              1776 I St. NW Suite 525 Washington, D.C. 20006    ESG Assessment Framework – Key Considerations & FAQ    Overview   ILPA release\n\n- **Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf** (.pdf, 318.1KB)\n  Title: THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM\n  Author: VIRGINIA LAWRENZ\n  Pages/Sheets: 16\n  Keywords: VIRGINIA LAWRENZ\n  Modified: 2026-10-07\n  Preview: OPERS RFP – Investment Consulting Services – Issued February 18, 2022  Page 1 of 16  THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM    REQUEST FOR PROPOSAL  #515-22-200    INVESTMENT CONSULTING SERVI\n\n- **Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf** (.pdf, 145.4KB)\n  Title: Microsoft Word - Investment Consultant RFP 2023.docx\n  Author: pkorzen\n  Pages/Sheets: 12\n  Keywords: pkorzen\n  Modified: 2026-10-07\n  Preview: JULY 27, 2023    CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM    CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM    INVESTMENT CONSULTANT SERVICES    REQUEST FOR PROPOSAL (“RFP”)    RE: INVES\n\n- **Anchorage_PFRS__RFP_2025_Final.pdf** (.pdf, 1012.3KB)\n  Author: steind\n  Pages/Sheets: 40\n  Keywords: steind\n  Modified: 2026-10-07\n  Preview: 1  Anchorage Police & Fire  Retirement System  Ap ril 15, 2025  REQ UEST FOR PROPOSAL  The Board of Trustees of the Anchorage Police and Fire Retirement System  is seeking proposals to provide investm\n\n- **INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf** (.pdf, 998.5KB)\n  Title:  \n  Author: Constantin Sorlescu\n  Pages/Sheets: 41\n  Keywords: Constantin Sorlescu\n  Modified: 2026-10-07\n  Preview: 1\n\n- **Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf** (.pdf, 251.4KB)\n  Pages/Sheets: 22\n  Modified: 2026-10-07\n  Preview: Board of  Trustees  PUBLIC SAFETY PERSONNEL RETIREMENT SYSTEM  Administration   Scott McCarty , Chairman  CORRECTIONS OFFICER RETIREMENT PLAN Michael F. Townsend   Harry A. Papp, Vice Chairman  ELECTE\n\n- **TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf** (.pdf, 752.5KB)\n  Title: TMRS • Request for Proposal • Global Custody and Related Services\n  Author: TMRS\n  Pages/Sheets: 79\n  Keywords: TMRS\n  Modified: 2026-10-07\n  Preview: 1 Request for Proposal  Global Custody  and Related Services   Texas Municipal Retirement System (TMRS)  Is s u e  D a t e :  De c e m b e r  1 1 ,  2 0 2 0   Q u e s t i o n s  D u e :  De c e m b e\n\n- **LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf** (.pdf, 1.6MB)\n  Author: Jennifer Van\n  Pages/Sheets: 67\n  Keywords: Jennifer Van\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS  FINANCIAL STATEMENT AUDIT SERVICES  Release Date: January 31, 2025  RFP Number: DCFS25-01  Proposal Due Date: March 5, 2025, 3:00 P.M. PST  Los Angeles Fire and Police Pensions\n\n- **American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf** (.pdf, 33.9KB)\n  Title: Microsoft Word - REQUEST FOR PROPOSAL - American Academy of Actuaries Retirement Plan Service - Final.doc\n  Author: baccam\n  Pages/Sheets: 6\n  Keywords: baccam\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSAL (RFP)     Retirement Plan and Related Consulting Services     May 12, 2011    American Academy of Actuaries  1850 M Street, NW   Suite 300  Washington, DC 20036  ATTN: Steve Knell  Tel (202) 785-6933  Fax (202) 872-1948  knell@actuary.org       Introduction     The American Academy of Actuaries (Academy) periodically conducts both formal and informal reviews  of its service provider contracts.  These due diligence processes are designed to assist Academy staff in  evaluating\n\n- **Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf** (.pdf, 451.8KB)\n  Title: RFP INVESTMENT CONSULTANT ASSISTANCE\n  Author: Patricia Stokes\n  Pages/Sheets: 28\n  Keywords: Patricia Stokes\n  Modified: 2026-10-07\n  Preview: THE EMPLOYEES’ RETIREMENT SYSTEM  and OPEB TRUST – CITY OF BALTIMORE      REQUEST FOR PROPOSALS (RFP)  for    ALTERNATIVES CONSULTANT     __________________________________________    Timeline   Date\n\n- **SAA__SAA-Investment-Manager-Database-Questionnaire.docx** (.docx, 41.1KB)\n  Title: RFP – Fixed Income Investment Management Services\n  Author: Alton Cogert\n  Lines: ~132\n  Keywords: Alton Cogert\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSAL FIXED INCOME INVESTMENT MANAGEMENT SERVICES I. Background Information Firm Name: Year of Organization: Total Number of Employees: Total Number of Investment Professionals: Address: Telephone: Fax Number: Contact for Questionnaire: Telephone: Insurance Client Contact: Telephone: Firm ownership and any changes within the past five years:  (please indicate majority owner of the investment firm); Insurance affiliations: (please indicate any direct or indirect affiliations with a\n\n- **Temple_City_CA__Recordkeeping-RFP.pdf** (.pdf, 925.0KB)\n  Title: REQUEST FOR PROPOSAL\n  Author: kwelch\n  Pages/Sheets: 57\n  Keywords: kwelch\n  Modified: 2026-10-07\n  Preview: City of Temple City, California  457 Deferred Compensation Plan    Request for Proposals for  Plan Administration and Record Keeping Services                        RFP DISTRIBUTION DATE: June 17, 202\n\n- **KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf** (.pdf, 2.7MB)\n  Title: Microsoft Word - KCERA RFP for Audit Services\n  Author: matt.henry\n  Pages/Sheets: 55\n  Keywords: matt.henry\n  Modified: 2026-10-07\n  Preview: Kern County Employees’ Retirement Association  REQUEST FOR PROPOSAL – AUDIT SERVICES                              Kern County Employees’ Retirement Association  11125 River Run Boulevard Bakersfield C\n\n- **ILPA__ESG-Assessment-Framework-FAQ.pdf** (.pdf, 121.1KB)\n  Author: Microsoft Office User\n  Pages/Sheets: 3\n  Keywords: Microsoft Office User\n  Modified: 2026-10-07\n  Preview: Institutional Limited Partners Association                              1776 I St. NW Suite 525 Washington, D.C. 20006    ESG Assessment Framework – Key Considerations and FAQ    Overview   ILPA relea\n\n## Instructions\n1. Evaluate EVERY file listed above. Consider directory names, filenames, titles, keywords, and preview content as relevance signals.\n2. Assign \"high\" (directly relevant), \"medium\" (possibly relevant), or \"low\" (unlikely relevant) to each file.\n3. For the \"path\" field, copy the **exact relative path** shown in bold (e.g. `subdir/file.pdf`) from the scan results above.\n4. Return ONLY a JSON array — no other text.\n\n## Output Format (use the EXACT path shown in the file listing)\n```json\n[\n  {\"path\": \"exact/relative/path/from/listing\", \"relevance\": \"high\", \"reason\": \"brief reason\"}\n]\n```",
+  "keyword_files": [
+    "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/OCERS__custodian_services_rfp_questions_and_answers.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+    "/mnt/docs/S/OCERS__custodian_services_rfp_questions_and_answers.pdf"
+  ],
+  "directory_ranking": [
+    {
+      "path": "/mnt/docs/S/OCERS__custodian_services_rfp_questions_and_answers.pdf",
+      "filename": "OCERS__custodian_services_rfp_questions_and_answers.pdf",
+      "extension": ".pdf",
+      "size_bytes": 307624,
+      "modified_at": "2026-10-07T07:07:16",
+      "created_at": "2026-10-07T07:19:58.176023",
+      "mime_type": "application/pdf",
+      "title": "Custodian Services RFP Questions and Answers",
+      "author": "OCERS",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "OCERS",
+        "OCERS Custodian Services RFP Questions and Answers"
+      ],
+      "preview": "Custody Services \nRequest for Proposal \nQuestions & Answers \n \nOctober 2022 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nOrange County Employees Retirement System (OCERS) \nP.O. Box 1229 \nSanta Ana, CA 927021-(714)-558-6200 \nhttp://www.ocers.org",
+      "content_loaded": false,
+      "relevance": "high",
+      "reason": "Orange County retirement system custody RFP questions and answers; directly matches the query."
+    },
+    {
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+      "filename": "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+      "extension": ".pdf",
+      "size_bytes": 770536,
+      "modified_at": "2026-10-07T07:07:47",
+      "created_at": "2026-10-07T07:19:59.048008",
+      "mime_type": "application/pdf",
+      "title": "TMRS • Request for Proposal • Global Custody and Related Services",
+      "author": "TMRS",
+      "page_count": 79,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "TMRS"
+      ],
+      "preview": "1\nRequest for Proposal \nGlobal Custody\n and Related Services  \nTexas Municipal Retirement System (TMRS) \nIs\ns u e  D a t e :  De c e m b e r  1 1 ,  2 0 2 0  \nQ u e s t i o n s  D u e :  De c e m b e r  2 8 ,  2 0 2 0  \nQ&A Responses Delivered: January 8, 2021 \nSubmission Deadline:   January 27, 202",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Global custody RFP, but for a municipal system and issued before the specified 2021 date."
+    },
+    {
+      "path": "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+      "filename": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+      "extension": ".pdf",
+      "size_bytes": 436410,
+      "modified_at": "2026-10-07T07:07:11",
+      "created_at": "2026-10-07T07:19:56.324056",
+      "mime_type": "application/pdf",
+      "title": "Request for Proposal",
+      "author": "Cummings, Meg",
+      "page_count": 24,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Cummings, Meg"
+      ],
+      "preview": "3 \n \nRequest for Proposal \nActuarial and Consulting \nServices for Pension Benefits  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \nB o s t o n  R e t i r e m e n t  S y s t e m  \nB o s t o n  C i t y  H a l l ,  R o o m  8 1 6  \nO n e  C i t y  H a l l  S q u a r e  \nB o s t o n ,  M A   0 2 2 0 1  \n",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Pension actuarial consulting RFP, not custody services."
+    },
+    {
+      "path": "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "filename": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "extension": ".pdf",
+      "size_bytes": 795256,
+      "modified_at": "2026-10-07T07:02:49",
+      "created_at": "2026-10-07T07:19:58.716014",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Ashleigh Hollins",
+      "page_count": 47,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Ashleigh Hollins"
+      ],
+      "preview": "General Investment Consulting Services \n \nRequest for Proposals \n \n \nSeptember 30, 2016",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "General investment consulting RFP, not a county custody RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+      "filename": "Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+      "extension": ".pdf",
+      "size_bytes": 68135,
+      "modified_at": "2026-10-07T07:08:12",
+      "created_at": "2026-10-07T07:19:56.904046",
+      "mime_type": "application/pdf",
+      "title": "Publish:",
+      "author": "konishig",
+      "page_count": 1,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "konishig"
+      ],
+      "preview": "EMPLOYEES’ RETIREMENT SYSTEM  \nOF THE STATE OF HAWAII \nREQUEST FOR PROPOSALS (RFP) \nREAL ESTATE INVESTMENT CONSULTANT SERVICES \n \n \nThe Employees’ Retirement System of the State of Hawaii (ERS) is soliciting \nproposals for a qualified firm to provide non-discretionary real estate investment \nconsult",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "Real estate investment consultant solicitation, not custody services."
+    },
+    {
+      "path": "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+      "filename": "SBCERS__2020-Private-Equity-RFP.pdf",
+      "extension": ".pdf",
+      "size_bytes": 271669,
+      "modified_at": "2026-10-07T07:07:55",
+      "created_at": "2026-10-07T07:19:58.656015",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - 2020 Private Equity RFP",
+      "author": "lthompson",
+      "page_count": 34,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "lthompson"
+      ],
+      "preview": "1 \n \nSANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM \n \nREQUEST FOR PROPOSALS (RFP) \nFOR \nDISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES \n \n \n \n \nTIMELINE \nDate of RFP issuance July 27, 2020 \nDeadline for written questions to SBCERS August 10, 2020 \nDeadline for submission of Proposals August 21",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "County retirement system RFP, but for private equity consulting rather than custody."
+    },
+    {
+      "path": "/mnt/docs/S/Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+      "filename": "Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+      "extension": ".pdf",
+      "size_bytes": 12825,
+      "modified_at": "2026-10-07T07:07:52",
+      "created_at": "2026-10-07T07:19:56.864046",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - ERS Private Equity AD (website.spo).docx",
+      "author": "misakil",
+      "page_count": 2,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "misakil"
+      ],
+      "preview": "STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM \nREQUEST FOR PROPOSAL (RFP) \nFOR PRIVATE EQUITY CONSULTING  \nAND INVESTMENT SERVICES \n \n \nThe Employees’ Retirement System of the State of Hawaii (ERS) is soliciting \nproposals for qualified firm(s) to provide private equity investment consulting and \nin",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "Private equity consulting and management solicitation, not custody services."
+    },
+    {
+      "path": "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+      "filename": "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+      "extension": ".pdf",
+      "size_bytes": 120000,
+      "modified_at": "2026-10-07T07:12:03",
+      "created_at": "2026-10-07T07:19:56.936045",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Microsoft Office User",
+      "page_count": 3,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Microsoft Office User"
+      ],
+      "preview": "Institutional Limited Partners Association                              1776 I St. NW Suite 525 Washington, D.C. 20006 \n \nESG Assessment Framework – Key Considerations & FAQ \n \nOverview  \nILPA released this ESG Assessment Framework as a resource for limited partners looking to build a \ntool to evalu",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "ESG assessment FAQ, unrelated to custody respondent requirements."
+    },
+    {
+      "path": "/mnt/docs/S/Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+      "filename": "Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+      "extension": ".pdf",
+      "size_bytes": 325685,
+      "modified_at": "2026-10-07T07:02:53",
+      "created_at": "2026-10-07T07:19:58.288022",
+      "mime_type": "application/pdf",
+      "title": "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM",
+      "author": "VIRGINIA LAWRENZ",
+      "page_count": 16,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "VIRGINIA LAWRENZ"
+      ],
+      "preview": "OPERS RFP – Investment Consulting Services – Issued February 18, 2022 \nPage 1 of 16 \nTHE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM \n \nREQUEST FOR PROPOSAL \n#515-22-200 \n \nINVESTMENT CONSULTING SERVICES \n \nThe Board of Trustees of the Oklahoma Public Employees Retirement System (“OPERS” or “System”",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment consulting RFP, not a county custody RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+      "filename": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+      "extension": ".pdf",
+      "size_bytes": 148912,
+      "modified_at": "2026-10-07T07:05:50",
+      "created_at": "2026-10-07T07:19:56.808047",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - Investment Consultant RFP 2023.docx",
+      "author": "pkorzen",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "pkorzen"
+      ],
+      "preview": "JULY 27, 2023 \n \nCITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM \n \nCITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM \n \nINVESTMENT CONSULTANT SERVICES \n \nREQUEST FOR PROPOSAL (“RFP”) \n \nRE: INVESTMENT CONSULTING SERVICES \n \nThe City of Grand General Retirement System and the City of Gra nd Rapi",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Municipal investment consultant RFP, not custody services."
+    },
+    {
+      "path": "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf",
+      "filename": "Anchorage_PFRS__RFP_2025_Final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1036581,
+      "modified_at": "2026-10-07T07:05:38",
+      "created_at": "2026-10-07T07:19:56.200058",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "steind",
+      "page_count": 40,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "steind"
+      ],
+      "preview": "1 \nAnchorage Police & Fire \nRetirement System \nAp\nril 15, 2025 \nREQ\nUEST FOR PROPOSAL \nThe Board of Trustees of the Anchorage Police and Fire Retirement System \nis seeking proposals to provide investment advisory consultant services \nfrom a qualified institutional investment consulting firm. \nThe A\n",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Different retirement system and later RFP; no custody match in the preview."
+    },
+    {
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "filename": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1022513,
+      "modified_at": "2026-10-07T07:12:08",
+      "created_at": "2026-10-07T07:19:57.396037",
+      "mime_type": "application/pdf",
+      "title": " ",
+      "author": "Constantin Sorlescu",
+      "page_count": 41,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Constantin Sorlescu"
+      ],
+      "preview": "1",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Real estate investment due-diligence questionnaire, not a custody RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+      "filename": "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+      "extension": ".pdf",
+      "size_bytes": 257429,
+      "modified_at": "2026-10-07T07:05:42",
+      "created_at": "2026-10-07T07:19:56.220057",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "",
+      "page_count": 22,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "Board of  Trustees  PUBLIC SAFETY PERSONNEL RETIREMENT SYSTEM  Administration  \nScott McCarty , Chairman  CORRECTIONS OFFICER RETIREMENT PLAN Michael F. Townsend  \nHarry A. Papp, Vice Chairman  ELECTED OFFICIALS' RETIREMENT PLAN  Administrator  \nChristopher J.  Hemmen , Trustee 3010 East Camelback R",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment consultant RFP, not custody services."
+    },
+    {
+      "path": "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+      "filename": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1645690,
+      "modified_at": "2026-10-07T07:14:52",
+      "created_at": "2026-10-07T07:19:57.828030",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Jennifer Van",
+      "page_count": 67,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Jennifer Van"
+      ],
+      "preview": "REQUEST FOR PROPOSALS \nFINANCIAL STATEMENT AUDIT SERVICES \nRelease Date: January 31, 2025 \nRFP Number: DCFS25-01 \nProposal Due Date: March 5, 2025, 3:00 P.M. PST \nLos Angeles Fire and Police Pensions  \nInternal Audit Section \nEmail to: internalaudit@lafpp.com \nAll questions must be e-\nmailed to the ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Financial statement audit RFP, not custody services."
+    },
+    {
+      "path": "/mnt/docs/S/American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf",
+      "filename": "American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf",
+      "extension": ".pdf",
+      "size_bytes": 34665,
+      "modified_at": "2026-10-07T07:14:40",
+      "created_at": "2026-10-07T07:19:56.088060",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - REQUEST FOR PROPOSAL - American Academy of Actuaries Retirement Plan Service - Final.doc",
+      "author": "baccam",
+      "page_count": 6,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "baccam"
+      ],
+      "preview": "REQUEST FOR PROPOSAL (RFP)\n \n \nRetirement Plan and Related Consulting Services \n  \nMay 12, 2011 \n \nAmerican Academy of Actuaries \n1850 M Street, NW  \nSuite 300 \nWashington, DC 20036 \nATTN: Steve Knell \nTel (202) 785-6933 \nFax (202) 872-1948 \nknell@actuary.org\n \n \n \nIntroduction\n \n \nThe American Acad",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "Retirement plan consulting RFP, not a county custody RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+      "filename": "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+      "extension": ".pdf",
+      "size_bytes": 462653,
+      "modified_at": "2026-10-07T07:08:10",
+      "created_at": "2026-10-07T07:19:56.260057",
+      "mime_type": "application/pdf",
+      "title": "RFP INVESTMENT CONSULTANT ASSISTANCE",
+      "author": "Patricia Stokes",
+      "page_count": 28,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Patricia Stokes"
+      ],
+      "preview": "THE EMPLOYEES’ RETIREMENT SYSTEM \nand OPEB TRUST – CITY OF BALTIMORE \n \n \nREQUEST FOR PROPOSALS (RFP) \nfor   \nALTERNATIVES CONSULTANT  \n \n__________________________________________ \n \nTimeline \n Date of RFP process Approval August 15, 2024 \n Deadline for written questions to BCERS October 4, 2024 \n ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Alternatives consultant RFP, not custody services."
+    },
+    {
+      "path": "/mnt/docs/S/SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+      "filename": "SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+      "extension": ".docx",
+      "size_bytes": 42087,
+      "modified_at": "2026-10-07T07:11:23",
+      "created_at": "2026-10-07T07:19:58.424019",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "title": "RFP – Fixed Income Investment Management Services",
+      "author": "Alton Cogert",
+      "page_count": 0,
+      "encoding": "",
+      "line_count": 132,
+      "keywords": [
+        "Alton Cogert"
+      ],
+      "preview": "REQUEST FOR PROPOSAL\nFIXED INCOME INVESTMENT MANAGEMENT SERVICES\nI. Background Information\nFirm Name:\nYear of Organization:\nTotal Number of Employees:\nTotal Number of Investment Professionals:\nAddress:\nTelephone:\nFax Number:\nContact for Questionnaire:\nTelephone:\nInsurance Client Contact:\nTelephone:\n",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "Investment management questionnaire, not a custody RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf",
+      "filename": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "extension": ".pdf",
+      "size_bytes": 947221,
+      "modified_at": "2026-10-07T07:08:46",
+      "created_at": "2026-10-07T07:19:59.212006",
+      "mime_type": "application/pdf",
+      "title": "REQUEST FOR PROPOSAL",
+      "author": "kwelch",
+      "page_count": 57,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "kwelch"
+      ],
+      "preview": "City of Temple City, California \n457 Deferred Compensation Plan \n \nRequest for Proposals for \nPlan Administration and Record Keeping Services \n \n \n \n \n \n \n \n \n \n \n \nRFP DISTRIBUTION DATE: June 17, 2020 at 4:00 PM (Pacific Time) \nDUE DATE FOR QUESTIONS: June 29, 2020 at 4:00 PM (Pacific Time) \nDUE DA",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Deferred compensation recordkeeping RFP, not custody services."
+    },
+    {
+      "path": "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+      "filename": "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+      "extension": ".pdf",
+      "size_bytes": 2825104,
+      "modified_at": "2026-10-07T07:14:36",
+      "created_at": "2026-10-07T07:19:57.660033",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - KCERA RFP for Audit Services",
+      "author": "matt.henry",
+      "page_count": 55,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "matt.henry"
+      ],
+      "preview": "Kern County Employees’ Retirement Association \nREQUEST FOR PROPOSAL – AUDIT SERVICES \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nKern County Employees’ Retirement Association \n11125 River Run Boulevard Bakersfield CA 93311 \n661‐381‐7700 Fax: 661‐381‐7799 \nwww.kcera.org",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "County retirement association RFP, but for audit rather than custody services."
+    },
+    {
+      "path": "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+      "filename": "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+      "extension": ".pdf",
+      "size_bytes": 124004,
+      "modified_at": "2026-10-07T07:12:01",
+      "created_at": "2026-10-07T07:19:56.944045",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Microsoft Office User",
+      "page_count": 3,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Microsoft Office User"
+      ],
+      "preview": "Institutional Limited Partners Association                              1776 I St. NW Suite 525 Washington, D.C. 20006 \n \nESG Assessment Framework – Key Considerations and FAQ \n \nOverview  \nILPA released this ESG Assessment Framework as a resource for limited partners looking to build a tool \nto eva",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "ESG assessment FAQ, unrelated to custody respondent requirements."
+    }
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 130,
+      "timestamp": "2026-10-23 06:55:12.720890",
+      "metadata": {
+        "keywords": [
+          "county retirement system custody RFP",
+          "total assets under custody",
+          "international equity and fixed income",
+          "professional errors and omissions insurance",
+          "资产托管总额",
+          "国际股票和固定收益",
+          "职业过失与疏漏保险"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf"
+        ]
+      }
+    }
+  ],
+  "elapsed_s": 15.148,
+  "calls": 2,
+  "usage": {
+    "prompt_tokens": 3681,
+    "completion_tokens": 1413,
+    "total_tokens": 5094
+  },
+  "group": "R2",
+  "attempt": 1
+}

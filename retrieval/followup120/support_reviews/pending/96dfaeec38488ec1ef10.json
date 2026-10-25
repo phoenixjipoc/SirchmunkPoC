@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "96dfaeec38488ec1ef10",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "e529592be16077691cd54aac3c1a9e7ed524ba5b471c34ebf5ebe0296f8ab615",
+    "source_text_sha256": "40f6e66cda735b5ac3e65bb52c7627bc76b11a8e7017ca73d4ed3e9b2360ca3a",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a COAERS general investment consultant RFP, not the ILPA Due Diligence Questionnaire 2.0. Its Appendix A is a separate COAERS contractor questionnaire; the document does not list ILPA’s lettered appendices or their titles.",
+      "quotes": [
+        "Request for Proposal General Investment Consultant",
+        "City of Austin Employees’ Retirement System",
+        "Investment consulting firms must complete the Questionnaire titled Appendix A, which can be found as a separate document on our website at www.coaers.org/gic-rfp."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal General Investment Consultant",
+          "start": 13,
+          "end": 63
+        },
+        {
+          "quote": "City of Austin Employees’ Retirement System",
+          "start": 154,
+          "end": 197
+        },
+        {
+          "quote": "Investment consulting firms must complete the Questionnaire titled Appendix A, which can be found as a separate document on our website at www.coaers.org/gic-rfp.",
+          "start": 63339,
+          "end": 63501
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

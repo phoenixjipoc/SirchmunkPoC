@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "7b5f1463a401ccbc62d5",
+    "query_id": "CONS-07",
+    "question": "Which pension system's investment consultant RFP requires respondents to have at least five defined benefit pension plan clients, two of which are public pension plans with total plan assets of at least $15 billion each?",
+    "file": "Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+    "expected_facts": "Orange County Employees Retirement System (OCERS), in its 2021 investment consultant services RFP (Appendix E, Minimum Qualifications Certification).",
+    "acceptance": "OCERS/Orange County Employees Retirement System suffices. Appendix designation, year and restatement of qualification are optional.",
+    "text_hash": "4eb61147bf021f84f0cada43ff4b2b232286b7e1116578f906241e2567d3ddc2",
+    "source_text_sha256": "fbaa2e27e75163da5326b3c348163209510cae254f3439bcfc5184e58334c147",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Hawaii ERS private equity RFP, not an OCERS investment consultant RFP. Its client qualification also differs from the one in the question.",
+      "quotes": [
+        "STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR PRIVATE EQUITY CONSULTING AND INVESTMENT SERVICES",
+        "The consulting firm(s) must be United States based, registered under the Investment Advisors Act of 1940, been in business for a minimum of five years and have at least one defined benefit public pension fund client with assets greater than $3 billion."
+      ],
+      "quote_matches": [
+        {
+          "quote": "STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR PRIVATE EQUITY CONSULTING AND INVESTMENT SERVICES",
+          "start": 13,
+          "end": 139
+        },
+        {
+          "quote": "The consulting firm(s) must be United States based, registered under the Investment Advisors Act of 1940, been in business for a minimum of five years and have at least one defined benefit public pension fund client with assets greater than $3 billion.",
+          "start": 343,
+          "end": 595
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

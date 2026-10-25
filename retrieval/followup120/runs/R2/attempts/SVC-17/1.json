@@ -1,0 +1,551 @@
+{
+  "query_id": "SVC-17",
+  "question": "What evaluation criteria and point values are used to score proposals in the Delaware Office of the State Treasurer's 2021 RFP for deferred compensation plan recordkeeping and administration services?",
+  "type": "medium",
+  "pair_id": "",
+  "seed": 49920893,
+  "references": [
+    {
+      "rank": 1,
+      "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+      "path": "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Monroe_County_NY__10406.pdf",
+      "path": "/mnt/docs/S/Monroe_County_NY__10406.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "path": "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "path": "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "Hartford_MERF__file.pdf",
+      "path": "/mnt/docs/S/Hartford_MERF__file.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf"
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "keywords": {
+    "Delaware Office of the State Treasurer": 9.0,
+    "2021 RFP": 7.0,
+    "deferred compensation plan": 7.0,
+    "recordkeeping and administration services": 7.0,
+    "proposal evaluation criteria": 6.0,
+    "特拉华州财政部长办公室": 9.0,
+    "递延薪酬计划": 8.0,
+    "征求建议书": 7.0,
+    "记录保存": 6.0
+  },
+  "keyword_terms": [
+    "Delaware Office of the State Treasurer",
+    "2021 RFP",
+    "deferred compensation plan",
+    "recordkeeping and administration services",
+    "proposal evaluation criteria",
+    "特拉华州财政部长办公室",
+    "递延薪酬计划",
+    "征求建议书",
+    "记录保存"
+  ],
+  "directory_prompt": "You are a document triage specialist. Analyze the scanned files below and rank them by relevance to the user's query.\n\n## Directory Structure\nRoot: /mnt/docs/S\n```\n  ./ (20 files)\n```\n\n## User Query\nWhat evaluation criteria and point values are used to score proposals in the Delaware Office of the State Treasurer's 2021 RFP for deferred compensation plan recordkeeping and administration services?\n\n## Scanned Files\n- **TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf** (.pdf, 1022.7KB)\n  Title: RFP for Private Equity Investment Consultant\n  Author: TRS\n  Pages/Sheets: 95\n  Keywords: TRS\n  Modified: 2026-10-07\n  Preview: 1   T eachers’ Retirement System  of the State of Illinois  REQUEST FOR PROPOSALS FOR  PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES  Issued August 7, 2024  Re sponses due 2:00 CDT, Wednesday, Septemb\n\n- **SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf** (.pdf, 775.2KB)\n  Title: SURS Sample Investment Manager RFP\n  Author: SURS\n  Pages/Sheets: 44\n  Keywords: SURS\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSAL  Emerging  Markets Equity  ID: RFP-##-##-##  Issued February 14, 2022  Respon ses due via email  by 4:30pm CT on March 31, 2022  Please include RFP ID on all correspondence Sample\n\n- **OCERS__investment_consultant_services_rfp.pdf** (.pdf, 616.2KB)\n  Title: OCERS Investment Consultant Services RFP\n  Author: OCERS\n  Pages/Sheets: 37\n  Keywords: OCERS, OCERS Investment Consultant Services RFP\n  Modified: 2026-10-07\n  Preview: Investment Consultant Services  for:   General Investments and Risk  Private Equity  Real Assets  Real Estate  Requests for Proposal    Issued August 2021                    Orange County Employees Re\n\n- **OCERS__custodian_services_rfp_questions_and_answers.pdf** (.pdf, 300.4KB)\n  Title: Custodian Services RFP Questions and Answers\n  Author: OCERS\n  Pages/Sheets: 12\n  Keywords: OCERS, OCERS Custodian Services RFP Questions and Answers\n  Modified: 2026-10-07\n  Preview: Custody Services  Request for Proposal  Questions & Answers    October 2022                                  Orange County Employees Retirement System (OCERS)  P.O. Box 1229  Santa Ana, CA 927021-(714\n\n- **Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf** (.pdf, 449.1KB)\n  Pages/Sheets: 32\n  Modified: 2026-10-07\n  Preview: Employees’ Retirement System of the State of Hawaii  Request for Proposals   Private Equity Consultant Services   RFP 2022-04                                          Issued     AUGUST 29, 2022\n\n- **SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf** (.pdf, 380.0KB)\n  Title: August 11, 2008\n  Author: dpcadmin\n  Pages/Sheets: 21\n  Keywords: dpcadmin\n  Modified: 2026-10-07\n  Preview: SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM  REQUEST FOR PROPOSAL (RFP) FOR  GENERAL INVESTMENT CONSULTANT\n\n- **Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf** (.pdf, 2.0MB)\n  Title: `REQUEST FOR PROPOSALS\n  Author: Clark County\n  Pages/Sheets: 63\n  Keywords: Clark County\n  Modified: 2026-10-07\n  Preview: REQUEST for PROPOSAL # 955  PROFESSIONAL, TECHNICAL AND EXPERT SERVICES    Clark County Washington              RELEASE DATE: WEDNESDAY, MAY 6, 2026                   DUE DATE: WEDNESDAY, JUNE 10, 202\n\n- **Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf** (.pdf, 330.0KB)\n  Author: Melissa Rackers\n  Pages/Sheets: 21\n  Keywords: Melissa Rackers\n  Modified: 2026-10-07\n  Preview: Page | 1          REQUEST FOR PROPOSAL  PRIVATE MARKET CONSULTING SERVICES  Prepared: July 1, 2024                Missouri Local Government Employees   Retirement System (LAGERS)  701 W. Main Street,\n\n- **Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf** (.pdf, 145.4KB)\n  Title: Microsoft Word - Investment Consultant RFP 2023.docx\n  Author: pkorzen\n  Pages/Sheets: 12\n  Keywords: pkorzen\n  Modified: 2026-10-07\n  Preview: JULY 27, 2023    CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM    CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM    INVESTMENT CONSULTANT SERVICES    REQUEST FOR PROPOSAL (“RFP”)    RE: INVES\n\n- **Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf** (.pdf, 351.7KB)\n  Title: Microsoft Word - Private Markets RFP V3 2023.02.13\n  Author: mgreen\n  Pages/Sheets: 33\n  Keywords: mgreen\n  Modified: 2026-10-07\n  Preview: Firefighters’ Pension Investment Fund  Request for Proposals  for  Private Markets Investment Consulting and Discretionary OCIO Advisory Services      February 13, 2023\n\n- **Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf** (.pdf, 54.5KB)\n  Title: Request for Proposal (RFP) for Outsourced Chief Investment Officer (OCIO) Services\n  Pages/Sheets: 5\n  Modified: 2026-10-07\n  Preview: Request for Proposal (RFP) for Outsourced Chief Investment Officer  (OCIO) Services   Issued By: Samuel Fels Fund  Contact: Uma Viswanathan uma@samfels.org; Nimrit  Kang kangnkgo@gmail.com   1. Introduction and Overview  The Samuel S. Fels Fund’s [Fels Fund] mission is to improve conditions and  opportunities for communities that are and have been historically excluded and  marginalized in Philadelphia, and to move us towards a more socially, racially, and  economically just society.  The organi\n\n- **INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc** (.doc, 1.2MB)\n  Modified: 2026-10-07\n\n- **York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf** (.pdf, 921.1KB)\n  Title: Microsoft Word - REQUEST FOR PROPOSALS DRAFT 2.3+ICON.docx\n  Author: Frederick\n  Pages/Sheets: 9\n  Keywords: Frederick\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS  FOR  INVESTMENT  MANAGER/ADVISER/CONSULTANT            CITY OF YORK  PENSION FUNDS      NOVEMBER 28, 2016      RESPONSES DUE JANUARY 6, 2017\n\n- **MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf** (.pdf, 811.7KB)\n  Title: MassPRIM Active Global Core Equity Investment Management Services RFP\n  Author: Abouhala, Andre\n  Pages/Sheets: 82\n  Keywords: Abouhala, Andre\n  Modified: 2026-10-07\n  Preview: Pension Reserves Investment Management Board               Deborah B. Goldberg, Treasurer and Receiver General, Chair  Michael G. Trotsky, CFA, Executive Director and Chief Investment Officer    mapen\n\n- **INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf** (.pdf, 998.5KB)\n  Title:  \n  Author: Constantin Sorlescu\n  Pages/Sheets: 41\n  Keywords: Constantin Sorlescu\n  Modified: 2026-10-07\n  Preview: 1\n\n- **Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf** (.pdf, 311.8KB)\n  Pages/Sheets: 10\n  Modified: 2026-10-07\n  Preview: SHREWSBURYCONTRIBUTORYRETIREMENTSYSTEM RequestforProposalsforInvestmentConsultantServices TheSHREWSBURYRETIREMENTBOARD,overseersoftheShrewsburyRetirementSystem,a Massachusettsmunicipalpublicpensionfin\n\n- **Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf** (.pdf, 251.4KB)\n  Pages/Sheets: 22\n  Modified: 2026-10-07\n  Preview: Board of  Trustees  PUBLIC SAFETY PERSONNEL RETIREMENT SYSTEM  Administration   Scott McCarty , Chairman  CORRECTIONS OFFICER RETIREMENT PLAN Michael F. Townsend   Harry A. Papp, Vice Chairman  ELECTE\n\n- **SBCERA__investment_consultant_-_request_for_proposals.pdf** (.pdf, 1.4MB)\n  Title: Request for Proposal - Investment Consultant\n  Author: emoreno\n  Pages/Sheets: 40\n  Keywords: emoreno\n  Modified: 2026-10-07\n  Preview: SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION  REQUEST FOR PROPOSAL (RFP)  FOR  INVESTMENT CONSULTING SERVICES\n\n- **Monroe_County_NY__10406.pdf** (.pdf, 656.0KB)\n  Title: Deferred Comp RFP\n  Author: Monroe County\n  Pages/Sheets: 18\n  Keywords: Monroe County\n  Modified: 2026-10-07\n  Preview: Deferred Compensation Services:    Administrative/Recordkeeping Services,  Marketing/Enrollment/Education Services,  Investment Management, and  Custodial Trustee Services    August 4, 2023  Request f\n\n- **Hawaii_ERS__ERS-Private-Equity-AD.pdf** (.pdf, 12.5KB)\n  Title: Microsoft Word - ERS Private Equity AD (website.spo).docx\n  Author: misakil\n  Pages/Sheets: 2\n  Keywords: misakil\n  Modified: 2026-10-07\n  Preview: STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM  REQUEST FOR PROPOSAL (RFP)  FOR PRIVATE EQUITY CONSULTING   AND INVESTMENT SERVICES      The Employees’ Retirement System of the State of Hawaii (ERS) is soliciting  proposals for qualified firm(s) to provide private equity investment consulting and  investment management services to the ERS.  The consulting firm(s) must be  United States based, registered under the Investment Advisors Act of 1940, been  in business for a minimum of five years and h\n\n## Instructions\n1. Evaluate EVERY file listed above. Consider directory names, filenames, titles, keywords, and preview content as relevance signals.\n2. Assign \"high\" (directly relevant), \"medium\" (possibly relevant), or \"low\" (unlikely relevant) to each file.\n3. For the \"path\" field, copy the **exact relative path** shown in bold (e.g. `subdir/file.pdf`) from the scan results above.\n4. Return ONLY a JSON array — no other text.\n\n## Output Format (use the EXACT path shown in the file listing)\n```json\n[\n  {\"path\": \"exact/relative/path/from/listing\", \"relevance\": \"high\", \"reason\": \"brief reason\"}\n]\n```",
+  "keyword_files": [
+    "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "/mnt/docs/S/Monroe_County_NY__10406.pdf",
+    "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf",
+    "/mnt/docs/S/Hartford_MERF__file.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "/mnt/docs/S/Monroe_County_NY__10406.pdf",
+    "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf",
+    "/mnt/docs/S/Hartford_MERF__file.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf"
+  ],
+  "directory_ranking": [
+    {
+      "path": "/mnt/docs/S/Monroe_County_NY__10406.pdf",
+      "filename": "Monroe_County_NY__10406.pdf",
+      "extension": ".pdf",
+      "size_bytes": 671723,
+      "modified_at": "2026-10-07T07:08:58",
+      "created_at": "2026-10-07T07:19:58.032026",
+      "mime_type": "application/pdf",
+      "title": "Deferred Comp RFP",
+      "author": "Monroe County",
+      "page_count": 18,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Monroe County"
+      ],
+      "preview": "Deferred Compensation Services: \n \nAdministrative/Recordkeeping Services, \nMarketing/Enrollment/Education Services, \nInvestment Management, and \nCustodial Trustee Services \n \nAugust 4, 2023 \nRequest for Proposals",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "RFP for deferred compensation administrative and recordkeeping services, but issued by Monroe County in 2023, not Delaware in 2021."
+    },
+    {
+      "path": "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+      "filename": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+      "extension": ".pdf",
+      "size_bytes": 2103688,
+      "modified_at": "2026-10-07T07:08:53",
+      "created_at": "2026-10-07T07:19:56.680050",
+      "mime_type": "application/pdf",
+      "title": "`REQUEST FOR PROPOSALS",
+      "author": "Clark County",
+      "page_count": 63,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Clark County"
+      ],
+      "preview": "REQUEST for PROPOSAL # 955 \nPROFESSIONAL, TECHNICAL AND EXPERT SERVICES \n \nClark County Washington \n \n          RELEASE DATE: WEDNESDAY, MAY 6, 2026  \n                DUE DATE: WEDNESDAY, JUNE 10, 2026 by 11:00 am \n \nLATE PROPOSALS WILL NOT BE ACCEPTED – NO EXCEPTIONS \n \nRequest for Proposal for: \n ",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "RFP for a deferred compensation plan administrator, but issued by Clark County, Washington, in 2026."
+    },
+    {
+      "path": "/mnt/docs/S/OCERS__custodian_services_rfp_questions_and_answers.pdf",
+      "filename": "OCERS__custodian_services_rfp_questions_and_answers.pdf",
+      "extension": ".pdf",
+      "size_bytes": 307624,
+      "modified_at": "2026-10-07T07:07:16",
+      "created_at": "2026-10-07T07:19:58.176023",
+      "mime_type": "application/pdf",
+      "title": "Custodian Services RFP Questions and Answers",
+      "author": "OCERS",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "OCERS",
+        "OCERS Custodian Services RFP Questions and Answers"
+      ],
+      "preview": "Custody Services \nRequest for Proposal \nQuestions & Answers \n \nOctober 2022 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nOrange County Employees Retirement System (OCERS) \nP.O. Box 1229 \nSanta Ana, CA 927021-(714)-558-6200 \nhttp://www.ocers.org",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Retirement-system services RFP Q&A, but concerns custody rather than Delaware's deferred compensation recordkeeping."
+    },
+    {
+      "path": "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+      "filename": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+      "extension": ".pdf",
+      "size_bytes": 793776,
+      "modified_at": "2026-10-07T07:14:27",
+      "created_at": "2026-10-07T07:19:58.852012",
+      "mime_type": "application/pdf",
+      "title": "SURS Sample Investment Manager RFP",
+      "author": "SURS",
+      "page_count": 44,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "SURS"
+      ],
+      "preview": "REQUEST FOR PROPOSAL \nEmerging \nMarkets Equity \nID: RFP-##-##-## \nIssued February 14, 2022 \nRespon\nses due via email \nby 4:30pm CT on March 31, 2022 \nPlease include RFP ID on all correspondence\nSample",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment-manager RFP template from Illinois, not the specified Delaware RFP."
+    },
+    {
+      "path": "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+      "filename": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1047277,
+      "modified_at": "2026-10-07T07:08:04",
+      "created_at": "2026-10-07T07:19:59.152007",
+      "mime_type": "application/pdf",
+      "title": "RFP for Private Equity Investment Consultant",
+      "author": "TRS",
+      "page_count": 95,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "TRS"
+      ],
+      "preview": "1\n \nT\neachers’ Retirement System \nof the State of Illinois \nREQUEST FOR PROPOSALS FOR \nPRIVATE EQUITY INVESTMENT CONSULTANT SERVICES \nIssued August 7, 2024 \nRe\nsponses due 2:00 CDT, Wednesday, September 4, 2024",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Illinois private-equity consultant RFP, unrelated to the specified services and issuer."
+    },
+    {
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+      "filename": "OCERS__investment_consultant_services_rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 630996,
+      "modified_at": "2026-10-07T07:02:13",
+      "created_at": "2026-10-07T07:19:58.220023",
+      "mime_type": "application/pdf",
+      "title": "OCERS Investment Consultant Services RFP",
+      "author": "OCERS",
+      "page_count": 37,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "OCERS",
+        "OCERS Investment Consultant Services RFP"
+      ],
+      "preview": "Investment Consultant Services \nfor:  \nGeneral Investments and Risk \nPrivate Equity \nReal Assets \nReal Estate \nRequests for Proposal \n \nIssued August 2021 \n \n \n \n \n \n \n \n \n \nOrange County Employees Retirement System (OCERS) \n2223 E Wellington Avenue Suite 100 \nSanta Ana, CA 92701 USA \n1-(714)-558-62",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Orange County investment-consultant RFP, not a Delaware deferred compensation RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+      "filename": "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 459895,
+      "modified_at": "2026-10-07T07:07:58",
+      "created_at": "2026-10-07T07:19:56.928045",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "",
+      "page_count": 32,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "Employees’ Retirement System of the State of Hawaii \nRequest for Proposals \n Private Equity Consultant Services  \nRFP 2022-04 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nIssued  \n \nAUGUST 29, 2022 \n \n \n \n \nFirms who wish to receive addenda to this RFP must register with the ERS as potential offerors.",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Hawaii private-equity consultant RFP from 2022."
+    },
+    {
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "filename": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 389091,
+      "modified_at": "2026-10-07T07:02:20",
+      "created_at": "2026-10-07T07:19:58.740014",
+      "mime_type": "application/pdf",
+      "title": "August 11, 2008",
+      "author": "dpcadmin",
+      "page_count": 21,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "dpcadmin"
+      ],
+      "preview": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM \nREQUEST FOR PROPOSAL (RFP) FOR \nGENERAL INVESTMENT CONSULTANT",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "San Diego investment-consultant RFP, not recordkeeping or administration services."
+    },
+    {
+      "path": "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+      "filename": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 337910,
+      "modified_at": "2026-10-07T07:08:01",
+      "created_at": "2026-10-07T07:19:57.996027",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Melissa Rackers",
+      "page_count": 21,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Melissa Rackers"
+      ],
+      "preview": "Page | 1 \n \n \n \n \nREQUEST FOR PROPOSAL \nPRIVATE MARKET CONSULTING SERVICES \nPrepared: July 1, 2024 \n \n \n \n \n \n \n \nMissouri Local Government Employees  \nRetirement System (LAGERS) \n701 W. Main Street, Jefferson City, MO  65101 \nRFP Contact: Scott Day \nEmail:  sday@molagers.org \nPhone:  573-632-6353",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Missouri private-market consulting RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+      "filename": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+      "extension": ".pdf",
+      "size_bytes": 148912,
+      "modified_at": "2026-10-07T07:05:50",
+      "created_at": "2026-10-07T07:19:56.808047",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - Investment Consultant RFP 2023.docx",
+      "author": "pkorzen",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "pkorzen"
+      ],
+      "preview": "JULY 27, 2023 \n \nCITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM \n \nCITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM \n \nINVESTMENT CONSULTANT SERVICES \n \nREQUEST FOR PROPOSAL (“RFP”) \n \nRE: INVESTMENT CONSULTING SERVICES \n \nThe City of Grand General Retirement System and the City of Gra nd Rapi",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Grand Rapids investment-consultant RFP from 2023."
+    },
+    {
+      "path": "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+      "filename": "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+      "extension": ".pdf",
+      "size_bytes": 360176,
+      "modified_at": "2026-10-07T07:06:38",
+      "created_at": "2026-10-07T07:19:57.420037",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - Private Markets RFP V3 2023.02.13",
+      "author": "mgreen",
+      "page_count": 33,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "mgreen"
+      ],
+      "preview": "Firefighters’ Pension Investment Fund \nRequest for Proposals \nfor \nPrivate Markets Investment Consulting and Discretionary OCIO Advisory Services \n \n \nFebruary 13, 2023",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Illinois private-markets consulting RFP from 2023."
+    },
+    {
+      "path": "/mnt/docs/S/Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf",
+      "filename": "Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf",
+      "extension": ".pdf",
+      "size_bytes": 55822,
+      "modified_at": "2026-10-07T07:17:59",
+      "created_at": "2026-10-07T07:19:58.856012",
+      "mime_type": "application/pdf",
+      "title": "Request for Proposal (RFP) for Outsourced Chief Investment Officer (OCIO) Services",
+      "author": "",
+      "page_count": 5,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "Request for Proposal (RFP) for Outsourced Chief Investment Officer \n(OCIO) Services  \nIssued By: Samuel Fels Fund \nContact: Uma Viswanathan uma@samfels.org; Nimrit \nKang kangnkgo@gmail.com  \n1. Introduction and Overview \nThe Samuel S. Fels Fund’s [Fels Fund] mission is to improve conditions and \nopp",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "OCIO services RFP for a private fund, not the Delaware plan."
+    },
+    {
+      "path": "/mnt/docs/S/York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf",
+      "filename": "York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf",
+      "extension": ".pdf",
+      "size_bytes": 943178,
+      "modified_at": "2026-10-07T07:17:46",
+      "created_at": "2026-10-07T07:19:59.264005",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - REQUEST FOR PROPOSALS DRAFT 2.3+ICON.docx",
+      "author": "Frederick",
+      "page_count": 9,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Frederick"
+      ],
+      "preview": "REQUEST FOR PROPOSALS \nFOR \nINVESTMENT \nMANAGER/ADVISER/CONSULTANT \n \n \n \n \n \nCITY OF YORK \nPENSION FUNDS \n \n \nNOVEMBER 28, 2016 \n \n \nRESPONSES DUE JANUARY 6, 2017",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "York pension-fund investment adviser RFP from 2016."
+    },
+    {
+      "path": "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+      "filename": "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 831223,
+      "modified_at": "2026-10-07T07:14:31",
+      "created_at": "2026-10-07T07:19:57.884029",
+      "mime_type": "application/pdf",
+      "title": "MassPRIM Active Global Core Equity Investment Management Services RFP",
+      "author": "Abouhala, Andre",
+      "page_count": 82,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Abouhala, Andre"
+      ],
+      "preview": "Pension Reserves Investment Management Board \n  \n \n \n \n \n \nDeborah B. Goldberg, Treasurer and Receiver General, Chair \nMichael G. Trotsky, CFA, Executive Director and Chief Investment Officer \n \nmapension.com | 53 State Street, Suite 600, Boston, MA 02109 | (617) 946-8401 \n \nSeptember 8, 2026 \n \nDea",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Massachusetts equity investment-management RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf",
+      "filename": "Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf",
+      "extension": ".pdf",
+      "size_bytes": 319279,
+      "modified_at": "2026-10-07T07:17:44",
+      "created_at": "2026-10-07T07:19:58.880011",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "",
+      "page_count": 10,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "SHREWSBURYCONTRIBUTORYRETIREMENTSYSTEM\nRequestforProposalsforInvestmentConsultantServices\nTheSHREWSBURYRETIREMENTBOARD,overseersoftheShrewsburyRetirementSystem,a\nMassachusettsmunicipalpublicpensionfindwithassetsofapproximately$125million,invitesqualified\nentitiestosubmitproposalsforInvestmentConsult",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Massachusetts retirement-system investment-consultant RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+      "filename": "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+      "extension": ".pdf",
+      "size_bytes": 257429,
+      "modified_at": "2026-10-07T07:05:42",
+      "created_at": "2026-10-07T07:19:56.220057",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "",
+      "page_count": 22,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "Board of  Trustees  PUBLIC SAFETY PERSONNEL RETIREMENT SYSTEM  Administration  \nScott McCarty , Chairman  CORRECTIONS OFFICER RETIREMENT PLAN Michael F. Townsend  \nHarry A. Papp, Vice Chairman  ELECTED OFFICIALS' RETIREMENT PLAN  Administrator  \nChristopher J.  Hemmen , Trustee 3010 East Camelback R",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Arizona retirement-system investment-consultant RFP."
+    },
+    {
+      "path": "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf",
+      "filename": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1444685,
+      "modified_at": "2026-10-07T07:15:06",
+      "created_at": "2026-10-07T07:19:58.528018",
+      "mime_type": "application/pdf",
+      "title": "Request for Proposal - Investment Consultant",
+      "author": "emoreno",
+      "page_count": 40,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "emoreno"
+      ],
+      "preview": "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION \nREQUEST FOR PROPOSAL (RFP) \nFOR \nINVESTMENT CONSULTING SERVICES",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "San Bernardino investment-consulting RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+      "filename": "Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+      "extension": ".pdf",
+      "size_bytes": 12825,
+      "modified_at": "2026-10-07T07:07:52",
+      "created_at": "2026-10-07T07:19:56.864046",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - ERS Private Equity AD (website.spo).docx",
+      "author": "misakil",
+      "page_count": 2,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "misakil"
+      ],
+      "preview": "STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM \nREQUEST FOR PROPOSAL (RFP) \nFOR PRIVATE EQUITY CONSULTING  \nAND INVESTMENT SERVICES \n \n \nThe Employees’ Retirement System of the State of Hawaii (ERS) is soliciting \nproposals for qualified firm(s) to provide private equity investment consulting and \nin",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "Hawaii private-equity consulting advertisement, not the requested RFP."
+    },
+    {
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+      "filename": "INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+      "extension": ".doc",
+      "size_bytes": 1211392,
+      "modified_at": "2026-10-07T07:12:11",
+      "created_at": "2026-10-07T07:19:57.328038",
+      "mime_type": "application/msword",
+      "title": "",
+      "author": "",
+      "page_count": 0,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Fund-of-funds due-diligence questionnaire, not a deferred compensation services RFP."
+    },
+    {
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "filename": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1022513,
+      "modified_at": "2026-10-07T07:12:08",
+      "created_at": "2026-10-07T07:19:57.396037",
+      "mime_type": "application/pdf",
+      "title": " ",
+      "author": "Constantin Sorlescu",
+      "page_count": 41,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Constantin Sorlescu"
+      ],
+      "preview": "1",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Real-estate investment due-diligence questionnaire, unrelated to the requested RFP."
+    }
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 655,
+      "timestamp": "2026-10-23 06:57:06.767115",
+      "metadata": {
+        "keywords": [
+          "Delaware Office of the State Treasurer",
+          "2021 RFP",
+          "deferred compensation plan",
+          "recordkeeping and administration services",
+          "proposal evaluation criteria",
+          "特拉华州财政部长办公室",
+          "递延薪酬计划",
+          "征求建议书",
+          "记录保存"
+        ],
+        "files_found": 8,
+        "files_discovered": [
+          "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+          "/mnt/docs/S/Monroe_County_NY__10406.pdf",
+          "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+          "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf",
+          "/mnt/docs/S/Hartford_MERF__file.pdf",
+          "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+          "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+          "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf"
+        ]
+      }
+    }
+  ],
+  "elapsed_s": 15.969,
+  "calls": 2,
+  "usage": {
+    "prompt_tokens": 3311,
+    "completion_tokens": 1477,
+    "total_tokens": 4788
+  },
+  "group": "R2",
+  "attempt": 1
+}

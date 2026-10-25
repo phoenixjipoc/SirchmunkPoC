@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "e16002a3dba6bdd6c36e",
+    "query_id": "CONS-09",
+    "question": "Which retirement system's investment consultant RFP requires firms to certify that they currently provide investment consulting services to clients whose combined assets total at least $50 billion?",
+    "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "expected_facts": "Teachers' Retirement System of the State of Illinois (TRS Illinois), in its FY23 investment consultant RFP (Appendix B, Statement of Minimum Qualifications).",
+    "acceptance": "TRS Illinois / Teachers’ Retirement System of the State of Illinois is sufficient; FY23 and appendix identifier are optional.",
+    "text_hash": "2e5c9ac10ac2943a19269fe0ceeab6dc6cca5c9b732ec461770764bed168feeb",
+    "source_text_sha256": "698b71034e03dda497378807f02ef9875cc985ad2aafde5d24accec7bdff2d4b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2016 South Carolina Retirement System Investment Commission RFP, not a TRS Illinois RFP. Its minimum qualification concerns a $10 billion client, not current consulting clients with combined assets of at least $50 billion.",
+      "quotes": [
+        "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+        "OPENING DATE: 9/30/2016",
+        "The firm selected must have at least one (1) defined benefit general consulting client with a minimum of $10 billion in assets."
+      ],
+      "quote_matches": [
+        {
+          "quote": "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+          "start": 106,
+          "end": 203
+        },
+        {
+          "quote": "OPENING DATE: 9/30/2016",
+          "start": 234,
+          "end": 257
+        },
+        {
+          "quote": "The firm selected must have at least one (1) defined benefit general consulting client with a minimum of $10 billion in assets.",
+          "start": 32245,
+          "end": 32372
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

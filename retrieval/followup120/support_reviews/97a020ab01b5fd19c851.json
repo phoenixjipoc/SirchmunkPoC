@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "97a020ab01b5fd19c851",
+    "query_id": "XD-08",
+    "question": "In the INREV Due Diligence Questionnaire 2022 for Funds of Funds and Multi Manager, which expense ratio must the manager provide under Fees and Expenses, and on what bases?",
+    "file": "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+    "expected_facts": "Question 1.6.2 asks for the INREV expense ratio (TGER): a forward-looking estimate (with the calculation method) if the vehicle has not been launched, or the historical INREV expense ratio (TGER) if it is an existing vehicle. It must be given on both NAV and GAV, with and without performance fees. If the INREV expense ratio is not used, a calculation in line with the INREV Fee and Expense Metrics module is required.",
+    "acceptance": "TGER; forward estimate for unlaunched versus historical for existing; NAV/GAV and with/without performance fees. Equivalent description of INREV-compatible fallback accepted.",
+    "text_hash": "b5feb817817e35edbb5bc0aa0af7c6df24842b1fc6b23f62b19531a928524887",
+    "source_text_sha256": "33e6d0f3b03cb97414ead33bc97801d7ca7b3799f628c39bac87276153cef3fe",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a 2025 City of Madison investment consulting RFP, not the INREV Due Diligence Questionnaire 2022. Its fee-proposal requirements do not state the TGER or any of the requested calculation bases and conditions.",
+      "quotes": [
+        "RFP No. 2025-0901 Investment Consulting Services",
+        "The fee proposal should address the above-described services on both a soft dollar and hard dollar, fixed fee basis."
+      ],
+      "quote_matches": [
+        {
+          "quote": "RFP No. 2025-0901 Investment Consulting Services",
+          "start": 159,
+          "end": 207
+        },
+        {
+          "quote": "The fee proposal should address the above-described services on both a soft dollar and hard dollar, fixed fee basis.",
+          "start": 28689,
+          "end": 28805
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "d1235288d48d02b14653",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "3b4fb541c2d35b7de747c8f6c26cc3a40bee097d58737ad466dbef56acdfa755",
+    "source_text_sha256": "a7628e3fc4e0a9323e896059440a5b708d424232eec8242be9362eb818e6b682",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Clark County request for proposals for a deferred compensation plan administrator, not the ILPA Due Diligence Questionnaire 2.0. Its table of contents lists different attachments and exhibits, and it does not support the required appendix count or titles.",
+      "quotes": [
+        "REQUEST for PROPOSAL # 955 PROFESSIONAL, TECHNICAL AND EXPERT SERVICES Clark County Washington",
+        "Request for Proposal for: DEFERRED COMPENSATION 457 PLAN ADMINISTRATOR",
+        "ATTACHMENTS A: Proposal Cover Sheet B: Letter of Interest C: Certification Regarding Debarment, Suspension and Other Responsibility Matters Form",
+        "EXHIBITS A. Total Plan Assets"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST for PROPOSAL # 955 PROFESSIONAL, TECHNICAL AND EXPERT SERVICES Clark County Washington",
+          "start": 13,
+          "end": 107
+        },
+        {
+          "quote": "Request for Proposal for: DEFERRED COMPENSATION 457 PLAN ADMINISTRATOR",
+          "start": 244,
+          "end": 314
+        },
+        {
+          "quote": "ATTACHMENTS A: Proposal Cover Sheet B: Letter of Interest C: Certification Regarding Debarment, Suspension and Other Responsibility Matters Form",
+          "start": 11347,
+          "end": 11491
+        },
+        {
+          "quote": "EXHIBITS A. Total Plan Assets",
+          "start": 11492,
+          "end": 11521
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "5c4fefea4de042519ace",
+    "query_id": "OTH-08",
+    "question": "A foundation is seeking an Outsourced Chief Investment Officer that can manage a sleeve of place-based private investments in Philadelphia. How large is its endowment, and what is the response deadline?",
+    "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "expected_facts": "About $50 million endowment; responses due no later than February 13, 2026, 5 PM (Samuel S. Fels Fund).",
+    "acceptance": "Approximately $50m and February13,2026 at 5pm. Foundation name is optional; no timezone is specified or required.",
+    "text_hash": "671c411958eb874cfc800e9ef62f40b39ce0a3618032e31c58dc0911d1ac78ca",
+    "source_text_sha256": "a59653c4763af085dd01d7961474b0d3e4d1e15ac1d4029f77327171d4183a79",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Missouri LAGERS RFP for private-market consulting, not the Philadelphia foundation’s OCIO solicitation. It provides neither the foundation’s endowment size nor its response deadline; its stated deadline is for a different RFP.",
+      "quotes": [
+        "Missouri Local Government Employees Retirement System (LAGERS) is issuing this Request for Proposal (RFP) for the purpose of soliciting qualified firms to provide private market consulting services.",
+        "The response deadline for this RFP is 5pm Central time on July 26, 2024."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Missouri Local Government Employees Retirement System (LAGERS) is issuing this Request for Proposal (RFP) for the purpose of soliciting qualified firms to provide private market consulting services.",
+          "start": 9735,
+          "end": 9933
+        },
+        {
+          "quote": "The response deadline for this RFP is 5pm Central time on July 26, 2024.",
+          "start": 51932,
+          "end": 52004
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

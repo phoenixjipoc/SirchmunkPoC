@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "92249869b007bbaea1ae",
+    "query_id": "CONS-14",
+    "question": "What are all the minimum requirements in Section 2 (pages 4–5) of the City of Hartford MERF general investment consultant RFP?",
+    "file": "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+    "expected_facts": "Section2 requires: (1) at least ten years providing general consulting; (2) senior leadership together at least three years; (3) no subcontracting account management, and all responsible personnel are employees; (4) currently consulting for at least five public pension funds each over $1.5bn; (5) primary consultant has at least five years of defined-benefit public-pension consulting and at least three years employed by proposer; (6) fiduciary service to MERF/OPEB and written compliance with their investment policies/guidelines; (7) no existing or potential material conflicts with the City Treasurer/staff, Pension Commission, OPEB Committee, actuary, auditor, managers or other providers; (8) agree to execute a contract similar to AppendixE; (9) current SEC investment-adviser registration; (10) carry or have applied by submission for general liability $5m, E&O/professional liability $5m, fiduciary liability $1m, workers' compensation/employer liability $1m, and cybersecurity $1m. Section2 says all qualifications must be met by March15,2024 at 5pm ET and AppendixA certification must be completed. AppendixA separately uses different client-threshold/history and insurance-date wording; this answer follows Section2 as asked.",
+    "acceptance": "Require all ten Section2 bullet requirements and five insurance limits when asking 'all'. If the question retains whole-document scope, allow explanation of Section2 versus AppendixA differences rather than forcing a single contradictory date or >/$1.5bn threshold.",
+    "text_hash": "a73f8098a99029a40e97e080d66cdb97fc9c585944212d49c8006ef52d55da0f",
+    "source_text_sha256": "9a236643d7b4204fbdc4d7e63cf40d28896fa6aca7d4dca0b56d53d6261f1016",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2021 Arizona Public Safety Personnel Retirement System RFP, not the City of Hartford MERF general investment consultant RFP. Its minimum requirements are different and do not support the requested Section 2 requirements.",
+      "quotes": [
+        "Board of Trustees of the Public Safety Personnel Retirement System",
+        "REQUEST FOR PROPOSAL For NON-DISCRETIONARY INVESTMENT CONSULTANT SERVICES",
+        "Submissions Due: 5:00 pm MST, October 29, 2021",
+        "Proposers must have experience with providing all service requirements identified in this solicitation to public pension trusts with assets under management of at least $10 billion;"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Board of Trustees of the Public Safety Personnel Retirement System",
+          "start": 670,
+          "end": 736
+        },
+        {
+          "quote": "REQUEST FOR PROPOSAL For NON-DISCRETIONARY INVESTMENT CONSULTANT SERVICES",
+          "start": 835,
+          "end": 908
+        },
+        {
+          "quote": "Submissions Due: 5:00 pm MST, October 29, 2021",
+          "start": 909,
+          "end": 955
+        },
+        {
+          "quote": "Proposers must have experience with providing all service requirements identified in this solicitation to public pension trusts with assets under management of at least $10 billion;",
+          "start": 12250,
+          "end": 12431
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

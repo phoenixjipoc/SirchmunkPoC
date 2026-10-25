@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "8f10a9962dc144570e4f",
+    "query_id": "SVC-19",
+    "question": "What minimum qualifications must a proposing firm certify in the City of Temple City's 2020 RFP for 457 plan administration and recordkeeping services?",
+    "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "expected_facts": "(1) At least 5 years of experience administering governmental 457 plans and currently providing sole-provider administration to at least five 457 plans with assets under $25 million; (2) no front-end or back-end charges and no restrictions/penalties on plan- or participant-initiated transfers or withdrawals (except capital preservation equity wash/put provisions and fund short-term trading fees); (3) full disclosure of all fund expense and revenue sharing arrangements, including fixed/general account products; (4) full disclosure of expenses and revenue for any service (platform fees, managed accounts, advice, financial planning, brokerage); (5) agree not to sell/promote products not affiliated with the Plan without written City authorization; (6) be qualified to do business in California and Temple City upon award; (7) offer a self-directed brokerage option; (8) be able to transition and continue administration of existing loans; (9) representatives attend City meetings in person as requested (no more than once per year); (10) knowledge of and compliance with applicable County, California and federal regulations; (11) RFP terms remain in place through negotiations and the final contract unless waived in writing.",
+    "acceptance": "Accept concise grouping of the eleven requirements; the five-year/five-plan/$25m threshold alone is incomplete for this broad list question. Examples of service fees are illustrative, not separate mandatory list items.",
+    "text_hash": "5afc5adec694c195f2977417c376c45b4856a88e72d30c0e1953e2403af08eac",
+    "source_text_sha256": "add3ba83b3e17f098f096c1bf8b5d5000ad39375300bba2e2b398c7d805cf7a6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is CCCERA’s April 2018 RFP for master custodial services, not the City of Temple City’s 2020 RFP for 457 plan administration and recordkeeping. Its minimum qualifications concern custodial services and do not establish the requested certification requirements.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+        "The Proposer must have a total number of at least 30 custodial defined benefit clients, including at least 10 public funds, with $1 billion each in tax-exempt assets or greater.",
+        "The Proposer must have been providing custody services for a minimum of ten (10) years."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+          "start": 13,
+          "end": 141
+        },
+        {
+          "quote": "The Proposer must have a total number of at least 30 custodial defined benefit clients, including at least 10 public funds, with $1 billion each in tax-exempt assets or greater.",
+          "start": 17329,
+          "end": 17506
+        },
+        {
+          "quote": "The Proposer must have been providing custody services for a minimum of ten (10) years.",
+          "start": 17510,
+          "end": 17597
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

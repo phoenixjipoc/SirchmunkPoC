@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "2d752dd518bfb8a953f9",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "dc7770ddf2eb0d0a22374752c7dc6794b8fb383b84a6cf93e4a10d4cf606f4a6",
+    "source_text_sha256": "e9d832947c5555fd08fbad4762996d02f44908b19826f8ed06865b1ee0a20b33",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Hawaii ERS private-equity consultant RFP, not the external-audit RFP Q&A. It does not state total contractual fees for FY2021 audits.",
+      "quotes": [
+        "Employees’ Retirement System of the State of Hawaii Request for Proposals Private Equity Consultant Services RFP 2022-04",
+        "The ERS is soliciting proposals from qualified firms to provide private equity investment consulting services to the Employees’ Retirement System of the State of Hawaii."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Employees’ Retirement System of the State of Hawaii Request for Proposals Private Equity Consultant Services RFP 2022-04",
+          "start": 13,
+          "end": 133
+        },
+        {
+          "quote": "The ERS is soliciting proposals from qualified firms to provide private equity investment consulting services to the Employees’ Retirement System of the State of Hawaii.",
+          "start": 9905,
+          "end": 10074
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,19 @@
+{
+  "frozen_source_and_corpus_verified": true,
+  "stop_marker_absent": true,
+  "files": {
+    "experiment.py": "268ce9592b042602078dae8806f6caa3d56f6365543fa5c1bf74d5a4dd3db497",
+    "adapter/runtime.py": "85cd76b2d8e682e7890d4d6f54b6d072f21160e00efa993e3fce36f8731835c8",
+    "adapter/basic_run.py": "305147f6d4f0cf029a74815813ab28f1b760f64f4e00681bc56e5961fc9df423",
+    "adapter/review_support.py": "ca76d016d8bb9ab92a675e1febbc2a3562d03d72d8de8057f075ea65646b2466",
+    "check_support.py": "2d6d4f38a47bc5d43aaa5fd22ad2709b229f5e5b20d216cf095db3b66d3e7d45",
+    "legacy_adapter.py": "7a9cc7600e39ba916b8708318a85428f3264c5c9c556f9f2319f08b33f6411ef",
+    "parser_replay.py": "38a33717d2a418198104bfe6703d8358f3c8ff66ab4efeede1f9ef7aea779543",
+    "parser_replay_corrected.py": "e075c4022de856e70d21a3f63a3f10e0540beee8a14e6c1e61950c92f28d0cef",
+    "transport_bootstrap.py": "c5f5cca982624399edf0f43e8abc5228c44d3b2b29d6f3a910be17f0f3c9994f"
+  },
+  "container_image_id": "sha256:d3a08d8cd3a738362ebf662ebf3dd261b63a12854c5fdb8c27fc58b95364927d",
+  "same_container_image": true,
+  "deployed_code_matches_local": true,
+  "passed": true
+}

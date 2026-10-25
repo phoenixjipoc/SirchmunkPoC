@@ -1,0 +1,12 @@
+{
+  "id": "153e1f31cf86c22ee0cc",
+  "query_id": "XD-10",
+  "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+  "file": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+  "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+  "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+  "text_hash": "73a211d25704cd40542a3505df46faf10d19379d806cf48206f01f9d9cb8fe3c",
+  "source_text_sha256": "84c0516b95d11d6444cd8b9463d95a6569acd34bb54cbc16e1b70c586ad78095",
+  "second_check_required": false,
+  "prior_reviews": []
+}

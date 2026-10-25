@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "b18ddd08e3df53ef739e",
+    "query_id": "CONS-14",
+    "question": "What are all the minimum requirements in Section 2 (pages 4–5) of the City of Hartford MERF general investment consultant RFP?",
+    "file": "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+    "expected_facts": "Section2 requires: (1) at least ten years providing general consulting; (2) senior leadership together at least three years; (3) no subcontracting account management, and all responsible personnel are employees; (4) currently consulting for at least five public pension funds each over $1.5bn; (5) primary consultant has at least five years of defined-benefit public-pension consulting and at least three years employed by proposer; (6) fiduciary service to MERF/OPEB and written compliance with their investment policies/guidelines; (7) no existing or potential material conflicts with the City Treasurer/staff, Pension Commission, OPEB Committee, actuary, auditor, managers or other providers; (8) agree to execute a contract similar to AppendixE; (9) current SEC investment-adviser registration; (10) carry or have applied by submission for general liability $5m, E&O/professional liability $5m, fiduciary liability $1m, workers' compensation/employer liability $1m, and cybersecurity $1m. Section2 says all qualifications must be met by March15,2024 at 5pm ET and AppendixA certification must be completed. AppendixA separately uses different client-threshold/history and insurance-date wording; this answer follows Section2 as asked.",
+    "acceptance": "Require all ten Section2 bullet requirements and five insurance limits when asking 'all'. If the question retains whole-document scope, allow explanation of Section2 versus AppendixA differences rather than forcing a single contradictory date or >/$1.5bn threshold.",
+    "text_hash": "576995e0f46f8d1ed568b3f11213a208a0e1dfe327b1dd5c1306846cd5741c1d",
+    "source_text_sha256": "2c50ab98d10c03c9aebdf033c0bf6a011506f6e8d75bc72ac45971559818570c",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a February 2023 Illinois Firefighters’ Pension Investment Fund RFP for private-markets consulting and OCIO services, not the City of Hartford MERF general investment consultant RFP. Its Section 2 addresses proposal content and does not provide the requested Hartford minimum requirements or insurance limits.",
+      "quotes": [
+        "Firefighters’ Pension Investment Fund Request for Proposals for Private Markets Investment Consulting and Discretionary OCIO Advisory Services February 13, 2023",
+        "2. Proposal Content",
+        "2.3. Minimum Qualifications Certification The Respondent must complete the certification of minimum qualifications attached as Exhibit C to this RFP."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Firefighters’ Pension Investment Fund Request for Proposals for Private Markets Investment Consulting and Discretionary OCIO Advisory Services February 13, 2023",
+          "start": 13,
+          "end": 173
+        },
+        {
+          "quote": "2. Proposal Content",
+          "start": 378,
+          "end": 397
+        },
+        {
+          "quote": "2.3. Minimum Qualifications Certification The Respondent must complete the certification of minimum qualifications attached as Exhibit C to this RFP.",
+          "start": 13813,
+          "end": 13962
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

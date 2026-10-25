@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "0d05b20e1f15813d65f0",
+    "query_id": "XD-09",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+    "file": "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+    "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+    "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+    "text_hash": "1e3dc8db2f90933455b7c59967386b76eea64636a15cef3b8eab8a745b55231f",
+    "source_text_sha256": "06485a707e23d6959251e5fd04214a5b46701f4130bbf13f2073c46e88f74e02",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a Baltimore City alternatives-consultant RFP, not the ILPA Due Diligence Questionnaire v1.2. Its table of contents lists three different appendices and provides no evidence for the requested ILPA appendices.",
+      "quotes": [
+        "THE EMPLOYEES’ RETIREMENT SYSTEM and OPEB TRUST – CITY OF BALTIMORE REQUEST FOR PROPOSALS (RFP) for ALTERNATIVES CONSULTANT",
+        "Appendix A: Representations and Warranties 26 Appendix B: Consultant Fee Schedule 27 Appendix C: Breakdown of Workforce by Ethnicity 28"
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE EMPLOYEES’ RETIREMENT SYSTEM and OPEB TRUST – CITY OF BALTIMORE REQUEST FOR PROPOSALS (RFP) for ALTERNATIVES CONSULTANT",
+          "start": 13,
+          "end": 136
+        },
+        {
+          "quote": "Appendix A: Representations and Warranties 26 Appendix B: Consultant Fee Schedule 27 Appendix C: Breakdown of Workforce by Ethnicity 28",
+          "start": 1655,
+          "end": 1790
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

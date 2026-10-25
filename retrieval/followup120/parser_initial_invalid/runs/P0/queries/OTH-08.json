@@ -1,0 +1,67 @@
+{
+  "query_id": "OTH-08",
+  "question": "A foundation is seeking an Outsourced Chief Investment Officer that can manage a sleeve of place-based private investments in Philadelphia. How large is its endowment, and what is the response deadline?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "/mnt/docs/S/Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "/mnt/docs/S/Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf"
+  ],
+  "keyword_terms": [
+    "Outsourced Chief Investment Officer",
+    "place-based private investments",
+    "private investment sleeve",
+    "外包首席投资官",
+    "基于地域的私人投资",
+    "费城"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 115,
+      "timestamp": "2026-10-25 15:45:10.157968",
+      "metadata": {
+        "keywords": [
+          "Outsourced Chief Investment Officer",
+          "place-based private investments",
+          "private investment sleeve",
+          "外包首席投资官",
+          "基于地域的私人投资",
+          "费城"
+        ],
+        "files_found": 2,
+        "files_discovered": [
+          "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+          "/mnt/docs/S/Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "path": "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf",
+      "path": "/mnt/docs/S/Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf"
+    }
+  ],
+  "elapsed_s": 2.483,
+  "calls": 0,
+  "usage": {}
+}

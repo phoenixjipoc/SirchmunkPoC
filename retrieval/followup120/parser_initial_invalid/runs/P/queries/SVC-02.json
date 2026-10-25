@@ -1,0 +1,91 @@
+{
+  "query_id": "SVC-02",
+  "question": "In the American Academy of Actuaries' 2011 RFP for retirement plan and related consulting services, what were the plan assets at 12/31/10 of each of its three retirement plans?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P",
+  "keyword_files": [
+    "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+    "/mnt/docs/S/American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf",
+    "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf",
+    "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+    "/mnt/docs/S/American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf",
+    "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf",
+    "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf"
+  ],
+  "keyword_terms": [
+    "American Academy of Actuaries",
+    "2011 RFP for retirement plan consulting services",
+    "three retirement plans",
+    "plan assets at 12/31/10",
+    "美国精算师学会",
+    "退休计划",
+    "计划资产"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 327,
+      "timestamp": "2026-10-25 15:36:31.971164",
+      "metadata": {
+        "keywords": [
+          "American Academy of Actuaries",
+          "2011 RFP for retirement plan consulting services",
+          "three retirement plans",
+          "plan assets at 12/31/10",
+          "美国精算师学会",
+          "退休计划",
+          "计划资产"
+        ],
+        "files_found": 5,
+        "files_discovered": [
+          "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+          "/mnt/docs/S/American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf",
+          "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+          "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf",
+          "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+      "path": "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf",
+      "path": "/mnt/docs/S/American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "LACERS__2025_actuarial_consulting_services_rfp.pdf",
+      "path": "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+      "path": "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf"
+    }
+  ],
+  "elapsed_s": 2.645,
+  "calls": 0,
+  "usage": {}
+}

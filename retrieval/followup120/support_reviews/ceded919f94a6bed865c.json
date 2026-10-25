@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "ceded919f94a6bed865c",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "OCERS__custodian_services_rfp_questions_and_answers.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "c2cd1ea39b4681195bfc15005be9f6982a0c6aa23fb1626dd5615b15f4e0d9b1",
+    "source_text_sha256": "a182eb705c5dc23e1b3ed20cf50b538c45e06c95d85392b4444daaf2a4fc66ac",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an October 2022 custody-services RFP Q&A from Orange County Employees Retirement System, not the external-audit RFP Q&A described in the question. Its fee disclosure concerns custodial services, not total contractual fees for FY2021 audits.",
+      "quotes": [
+        "Custody Services Request for Proposal Questions & Answers October 2022 Orange County Employees Retirement System (OCERS)",
+        "Question 27: What are your current custodial fees? Are the fees for the scope of work as described in this RFP?",
+        "Answer: We have a flat fee of $580,000 for custody, accounting, cash management, performance reporting, and risk report services."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Custody Services Request for Proposal Questions & Answers October 2022 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 133
+        },
+        {
+          "quote": "Question 27: What are your current custodial fees? Are the fees for the scope of work as described in this RFP?",
+          "start": 12639,
+          "end": 12750
+        },
+        {
+          "quote": "Answer: We have a flat fee of $580,000 for custody, accounting, cash management, performance reporting, and risk report services.",
+          "start": 12751,
+          "end": 12880
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

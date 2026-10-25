@@ -1,0 +1,77 @@
+{
+  "query_id": "OTH-01",
+  "question": "In the Oklahoma Public Employees Retirement System (OPERS) July 2023 RFP for index investment management services, what was the market value of the OPERS Russell 1000 Index mandate as of May 31, 2023, and what is its policy weight?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P",
+  "keyword_files": [
+    "/mnt/docs/S/Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+    "/mnt/docs/S/Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf",
+    "/mnt/docs/S/Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+    "/mnt/docs/S/Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf",
+    "/mnt/docs/S/Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf"
+  ],
+  "keyword_terms": [
+    "Oklahoma Public Employees Retirement System",
+    "July 2023 index investment management RFP",
+    "OPERS Russell 1000 Index mandate",
+    "May 31, 2023 market value",
+    "mandate policy weight",
+    "俄克拉荷马州公共雇员退休系统",
+    "罗素1000指数",
+    "政策权重"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 227,
+      "timestamp": "2026-10-25 16:17:00.232250",
+      "metadata": {
+        "keywords": [
+          "Oklahoma Public Employees Retirement System",
+          "July 2023 index investment management RFP",
+          "OPERS Russell 1000 Index mandate",
+          "May 31, 2023 market value",
+          "mandate policy weight",
+          "俄克拉荷马州公共雇员退休系统",
+          "罗素1000指数",
+          "政策权重"
+        ],
+        "files_found": 3,
+        "files_discovered": [
+          "/mnt/docs/S/Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+          "/mnt/docs/S/Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf",
+          "/mnt/docs/S/Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+      "path": "/mnt/docs/S/Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf",
+      "path": "/mnt/docs/S/Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+      "path": "/mnt/docs/S/Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf"
+    }
+  ],
+  "elapsed_s": 5.642,
+  "calls": 0,
+  "usage": {}
+}

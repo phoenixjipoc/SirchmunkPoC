@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "34cbeeb28130500d46d6",
+    "query_id": "XD-09",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+    "file": "INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+    "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+    "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+    "text_hash": "065f1ea66c1548e68c091fe4d5679904ddac15c41085d2b7285bc81d8909924a",
+    "source_text_sha256": "709d34ea15f8028111c01a36824ed3448bb46d8b226113de15b4a25b337bbfcf",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an INPRS core-plus fixed-income RFP, not the ILPA Due Diligence Questionnaire v1.2. Its table of contents lists different appendices and does not support the requested count or titles.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS (“RFP”) for CORE PLUS FIXED INCOME INVESTMENT MANAGEMENT RFP NUMBER 22-04",
+        "APPENDIX A – SAMPLE INVESTMENT MANAGEMENT AGREEMENT",
+        "APPENDIX B – MANDATORY RESPONDENT FORMS",
+        "APPENDIX C – QUESTIONNAIRE"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) for CORE PLUS FIXED INCOME INVESTMENT MANAGEMENT RFP NUMBER 22-04",
+          "start": 13,
+          "end": 108
+        },
+        {
+          "quote": "APPENDIX A – SAMPLE INVESTMENT MANAGEMENT AGREEMENT",
+          "start": 1806,
+          "end": 1857
+        },
+        {
+          "quote": "APPENDIX B – MANDATORY RESPONDENT FORMS",
+          "start": 1986,
+          "end": 2025
+        },
+        {
+          "quote": "APPENDIX C – QUESTIONNAIRE",
+          "start": 2175,
+          "end": 2201
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

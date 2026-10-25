@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "e4d3897691bba9fe9e6a",
+    "query_id": "INV-03",
+    "question": "In the Boston Retirement System's investment consulting services proposal questionnaire (Attachment 3), how many current public fund client references must be listed, and what minimum asset size must those clients have?",
+    "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "expected_facts": "Up to 10 current public fund clients with assets greater than $1 billion for whom similar work was performed, giving name, contact, telephone number, asset values, number of years the client has retained the firm and the service used.",
+    "acceptance": "Accept up to ten / no more than ten and >$1bn. Contact-detail fields and similar-work context are supplementary; exactly ten or at least $1bn is not equivalent.",
+    "text_hash": "ba38eb84b9e6630e06869a17bd0a8d39bbd7f3fbf79cf38deccbc05584512bde",
+    "source_text_sha256": "71f7dc2105be0914ed5549193987a3d5f6eda22588e7c5e025dd27c5e41ee8a0",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Illinois Teachers’ Retirement System RFP with a questionnaire in Appendix D, not the Boston Retirement System’s Attachment 3. Its reference requests do not state a limit of up to ten current public fund clients with assets greater than $1 billion.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES",
+        "APPENDIX D: QUESTIONNAIRE",
+        "Please identify four new mandates (discretionary and non-discretionary) and three client losses or RFPs not won as references"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES",
+          "start": 13,
+          "end": 137
+        },
+        {
+          "quote": "APPENDIX D: QUESTIONNAIRE",
+          "start": 31570,
+          "end": 31595
+        },
+        {
+          "quote": "Please identify four new mandates (discretionary and non-discretionary) and three client losses or RFPs not won as references",
+          "start": 34777,
+          "end": 34902
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

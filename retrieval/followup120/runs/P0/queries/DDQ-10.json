@@ -1,0 +1,55 @@
+{
+  "query_id": "DDQ-10",
+  "question": "What topics does the ILPA DDQ 2.0 cover under its ESG section?",
+  "type": "medium",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "keyword_terms": [
+    "ILPA DDQ 2.0",
+    "ESG section topics",
+    "DDQ 2.0 coverage",
+    "环境、社会与治理",
+    "尽职调查问卷"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 124,
+      "timestamp": "2026-10-25 16:15:59.943043",
+      "metadata": {
+        "keywords": [
+          "ILPA DDQ 2.0",
+          "ESG section topics",
+          "DDQ 2.0 coverage",
+          "环境、社会与治理",
+          "尽职调查问卷"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "ILPA__ILPA-DDQ-2.0.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+    }
+  ],
+  "elapsed_s": 3.894,
+  "calls": 0,
+  "usage": {}
+}

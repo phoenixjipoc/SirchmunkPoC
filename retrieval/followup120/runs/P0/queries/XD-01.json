@@ -1,0 +1,71 @@
+{
+  "query_id": "XD-01",
+  "question": "In the INREV Due Diligence Questionnaire 2022 for Funds of Funds and Multi Manager, when was the FoF / MM questionnaire originally launched, what two additions appear at the front of the DDQ, and how long may the manager's statement be?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "/mnt/docs/S/INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc"
+  ],
+  "keyword_terms": [
+    "INREV Due Diligence Questionnaire 2022",
+    "Funds of Funds and Multi Manager",
+    "FoF / MM questionnaire",
+    "front of the DDQ",
+    "manager's statement",
+    "尽职调查问卷",
+    "基金中的基金",
+    "多管理人",
+    "管理人声明"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 207,
+      "timestamp": "2026-10-25 16:06:45.542661",
+      "metadata": {
+        "keywords": [
+          "INREV Due Diligence Questionnaire 2022",
+          "Funds of Funds and Multi Manager",
+          "FoF / MM questionnaire",
+          "front of the DDQ",
+          "manager's statement",
+          "尽职调查问卷",
+          "基金中的基金",
+          "多管理人",
+          "管理人声明"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+      "path": "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx"
+    },
+    {
+      "rank": 2,
+      "file": "INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc"
+    }
+  ],
+  "elapsed_s": 5.745,
+  "calls": 0,
+  "usage": {}
+}

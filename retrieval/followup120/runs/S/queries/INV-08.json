@@ -1,0 +1,55 @@
+{
+  "query_id": "INV-08",
+  "question": "A sample investment management RFP for a domestic equity small cap growth mandate sets portfolio guidelines. What are the limits on single-issuer holdings, foreign issuers and cash, and which index must the portfolio outperform?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "S",
+  "references": [
+    {
+      "rank": 1,
+      "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+      "path": "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "MA_PRIM__PDF-Version-of-RFP.pdf",
+      "path": "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+      "path": "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf"
+    }
+  ],
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "baseline_sha256": "5793b63051a46906ee38de01bc3228ab229bb5a27c272366e6b22cc1dfc053a2",
+  "original_files": [
+    "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "MA_PRIM__PDF-Version-of-RFP.pdf"
+  ],
+  "ranking_prompt": "{\"question\": \"A sample investment management RFP for a domestic equity small cap growth mandate sets portfolio guidelines. What are the limits on single-issuer holdings, foreign issuers and cash, and which index must the portfolio outperform?\", \"candidates\": [{\"filename\": \"MA_PRIM__PDF-Version-of-RFP.pdf\", \"extension\": \".pdf\", \"title\": \"Pension reserves\", \"author\": \"Abouhala, Andre\", \"page_count\": 66, \"keywords\": [\"Abouhala, Andre\"], \"preview\": \"P\\nension Reserves Investment Management Board \\nDeborah B. Goldberg, Treasurer and Receiver General, Chair \\nMichael G. Trotsky, CFA, Executive Director and Chief Investment Officer \\nmapension.com | 53 State Street, Suite 600, Boston, MA 02109 | (617) 946-8401 \\nOctober 31, 2023 \\nD\\near Potential Provider: \\nTh\\ne Massachusetts Pension Reserves Investment Management Board (“PRIM”) is requesting responses \\nfrom firms interested in providing Multi-Asset Credit Investment Management Services. \\nT\\nhe Procurement Officer for this Request for Proposals (RFP) is Chuck LaPosta.  For responses to be \\nconsidered by PRIM, each prospective provider must respond to the RFP by submitting an electronic \\ncopy of its response, including attachments, via e-mail to rfpresponses@mapension.com. The response \\nmust be\", \"full_content\": \"\"}, {\"filename\": \"SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf\", \"extension\": \".pdf\", \"title\": \"Model RFP\", \"author\": \"Barbara Peters\", \"page_count\": 72, \"keywords\": [\"Barbara Peters\"], \"preview\": \"Request for Proposals for \\nGeneral Investment Consulting Services \\nfor the City and County of San Francisco \\nEmployees’ Retirement System \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nDate Issued:  November 1, 2022 \\nDeadline for Submission: December 15, 2022 at 5:00 PM Pacific Time\", \"full_content\": \"\"}, {\"filename\": \"SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf\", \"extension\": \".pdf\", \"title\": \"SURS Sample Investment Manager RFP\", \"author\": \"SURS\", \"page_count\": 44, \"keywords\": [\"SURS\"], \"preview\": \"REQUEST FOR PROPOSAL \\nEmerging \\nMarkets Equity \\nID: RFP-##-##-## \\nIssued February 14, 2022 \\nRespon\\nses due via email \\nby 4:30pm CT on March 31, 2022 \\nPlease include RFP ID on all correspondence\\nSample\", \"full_content\": \"\"}]}",
+  "keyword_files": [
+    "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+    "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf"
+  ],
+  "status": "ok",
+  "elapsed_s": 2.96,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 744,
+    "completion_tokens": 135,
+    "total_tokens": 879
+  },
+  "attempt": 1
+}

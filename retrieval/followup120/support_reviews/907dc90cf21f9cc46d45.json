@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "907dc90cf21f9cc46d45",
+    "query_id": "CONS-02",
+    "question": "In the NYC Board of Education Retirement System (BERS) RFP 2024-003 for investment consulting services, how many maximum evaluation points are assigned to the annual fee proposal?",
+    "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "expected_facts": "28 points (out of 100). Full breakdown: Program Plan/Narrative 18, Organizational Capacity/Knowledge and Experience 23, Demonstrated Effectiveness 22, Fee Proposal - Annual Fee 28, Fee Proposal - Hourly Rate 9.",
+    "acceptance": "28 points alone is sufficient. Other scoring categories and fee formula are optional.",
+    "text_hash": "81e913c98df37dcfd35af28d88b1b03c1dc82eb7e2f99c9c19de8d06866fc421",
+    "source_text_sha256": "2d54872fc00a587921e9e76823bb49d685f32d834a6c8320657ad95eb8fd8f87",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is INPRS RFP 23-09, not NYC BERS RFP 2024-003. Its evaluation criteria do not assign maximum points to an annual fee proposal.",
+      "quotes": [
+        "RFP NUMBER 23-09",
+        "INPRS is issuing this RFP in accordance with Indiana statutes governing the procurement of services and certain administrative policies of INPRS.",
+        "• Price (i.e., detail of fee proposal)"
+      ],
+      "quote_matches": [
+        {
+          "quote": "RFP NUMBER 23-09",
+          "start": 90,
+          "end": 106
+        },
+        {
+          "quote": "INPRS is issuing this RFP in accordance with Indiana statutes governing the procurement of services and certain administrative policies of INPRS.",
+          "start": 8369,
+          "end": 8514
+        },
+        {
+          "quote": "• Price (i.e., detail of fee proposal)",
+          "start": 36620,
+          "end": 36658
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

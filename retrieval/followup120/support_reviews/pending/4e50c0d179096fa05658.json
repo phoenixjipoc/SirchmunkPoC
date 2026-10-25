@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "4e50c0d179096fa05658",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "70ba69fa78a5262a5a903e6c962a7ed533f83b2f39cbeaae0d6efcae5122f669",
+    "source_text_sha256": "c0d34ab691e3323f8b02fd000d177f6559326d07370721a1d326e71475259a58",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Boston Retirement System investment consulting proposal questionnaire, not the external audit RFP Q&A. It does not state total contractual fees for FY2021 audits.",
+      "quotes": [
+        "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+        "ATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES PROPOSAL QUESTIONNAIRE",
+        "J. FEE PROPOSAL Prospective Consultants must submit their proposed fees in the format prescribed below."
+      ],
+      "quote_matches": [
+        {
+          "quote": "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+          "start": 86,
+          "end": 163
+        },
+        {
+          "quote": "ATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES PROPOSAL QUESTIONNAIRE",
+          "start": 13,
+          "end": 85
+        },
+        {
+          "quote": "J. FEE PROPOSAL Prospective Consultants must submit their proposed fees in the format prescribed below.",
+          "start": 27833,
+          "end": 27936
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

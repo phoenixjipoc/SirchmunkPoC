@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "283b97847f4351caeea2",
+    "query_id": "INV-02",
+    "question": "What is the proposal deadline, and how many copies must be submitted, for the City of Madison (Florida) Police Officers' and Firefighters' Retirement System RFP No. 2025-0901 for investment consulting services?",
+    "file": "Hartford_MERF__file.pdf",
+    "expected_facts": "Proposals must be received by 2:00 p.m. on September 1, 2025 at the City Clerk's office in Madison, FL (late proposals returned unopened); an original and five (5) copies must be submitted in a sealed envelope/package.",
+    "acceptance": "Accept 2pm September 1, 2025 and original plus five copies/six total. Address, sealing and late-return treatment are optional.",
+    "text_hash": "612ac769f6b20e395be5d2aa2b38b7e34b8ea2f3e26f8e98d474dcd3da97e895",
+    "source_text_sha256": "44a1836a1354f4ce795c9252d5b103625a8ebfa77400d6ce5e341b7d38a7561e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Hartford, Connecticut RFP for its MERF and OPEB funds, not the City of Madison, Florida RFP No. 2025-0901. Its proposal deadline and copy requirements therefore do not support the requested facts.",
+      "quotes": [
+        "CITY OF HARTFORD TREASURER’S OFFICE MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+        "Proposals shall be received no later than March 15, 2024 at 5 p.m. Eastern Time (subject to change)",
+        "Four original paper copies of the proposal, and one electronic copy, all fully signed and sealed, shall be submitted to:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF HARTFORD TREASURER’S OFFICE MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+          "start": 13,
+          "end": 141
+        },
+        {
+          "quote": "Proposals shall be received no later than March 15, 2024 at 5 p.m. Eastern Time (subject to change)",
+          "start": 15959,
+          "end": 16058
+        },
+        {
+          "quote": "Four original paper copies of the proposal, and one electronic copy, all fully signed and sealed, shall be submitted to:",
+          "start": 16353,
+          "end": 16473
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

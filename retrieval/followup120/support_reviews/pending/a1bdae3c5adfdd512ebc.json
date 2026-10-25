@@ -1,0 +1,77 @@
+{
+  "job": {
+    "id": "a1bdae3c5adfdd512ebc",
+    "query_id": "XD-04",
+    "question": "Which due diligence questionnaire in the corpus asks the manager whether it requires its underlying investments to submit data to sustainability performance evaluation organisations, and which organisation does it give as an example?",
+    "file": "MA_PRIM__PDF-Version-of-RFP.pdf",
+    "expected_facts": "The INREV DDQ 2022 for Funds of Funds and Multi Manager, question 3.8.1 (Supplementary Stage, section 3.8 Environmental, Social and Governance). The example given is the Global Real Estate Sustainability Benchmark (GRESB), and the manager is asked for its scores/results if it does require this.",
+    "acceptance": "Identify 2022 FoF/MM DDQ and Global Real Estate Sustainability Benchmark/GRESB. Question number and scores/results follow-up are optional.",
+    "text_hash": "c92320682456b11eb70addd3a356a98edfd3f865f21e453c8906eefe68b8b772",
+    "source_text_sha256": "e3fe5e9a4d6babe97bf46e2649b5484f28a2237abb15634af7dc30e35b1c2a49",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is PRIM’s 2023 Multi-Asset Credit RFP questionnaire, not the INREV 2022 Funds of Funds and Multi Manager DDQ. It does not ask whether underlying investments must submit data to sustainability performance evaluation organisations or name GRESB as an example.",
+      "quotes": [
+        "Pension Reserves Investment Management Board REQUEST FOR PROPOSALS (RFP) Multi-Asset Credit Investment Management Services October 31, 2023",
+        "VIII. QUESTIONNAIRE RESPONSES SHOULD BE AS OF SEPTEMBER 30, 2023",
+        "G. Do you track the performance of the subject product on the ESG factors described in Question F above? If so, what KPIs do you use to track such performance?"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Pension Reserves Investment Management Board REQUEST FOR PROPOSALS (RFP) Multi-Asset Credit Investment Management Services October 31, 2023",
+          "start": 1555,
+          "end": 1694
+        },
+        {
+          "quote": "VIII. QUESTIONNAIRE RESPONSES SHOULD BE AS OF SEPTEMBER 30, 2023",
+          "start": 21581,
+          "end": 21645
+        },
+        {
+          "quote": "G. Do you track the performance of the subject product on the ESG factors described in Question F above? If so, what KPIs do you use to track such performance?",
+          "start": 39907,
+          "end": 40066
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied source is PRIM’s 2023 Multi-Asset Credit Investment Management Services RFP, not the INREV DDQ 2022 for Funds of Funds and Multi Manager. Its ESG questionnaire does not ask whether underlying investments submit data to sustainability performance evaluation organisations or name GRESB.",
+      "quotes": [
+        "Pension Reserves Investment Management Board REQUEST FOR PROPOSALS (RFP) Multi-Asset Credit Investment Management Services October 31, 2023",
+        "7. Environmental, Social, and Governance (ESG)",
+        "G. Do you track the performance of the subject product on the ESG factors described in Question F above?"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Pension Reserves Investment Management Board REQUEST FOR PROPOSALS (RFP) Multi-Asset Credit Investment Management Services October 31, 2023",
+          "start": 1555,
+          "end": 1694
+        },
+        {
+          "quote": "7. Environmental, Social, and Governance (ESG)",
+          "start": 38720,
+          "end": 38766
+        },
+        {
+          "quote": "G. Do you track the performance of the subject product on the ESG factors described in Question F above?",
+          "start": 39907,
+          "end": 40011
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

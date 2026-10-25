@@ -1,0 +1,83 @@
+{
+  "query_id": "SVC-05",
+  "question": "In the Indiana Public Retirement System (INPRS) RFP 24-05 for audit services, which firm has provided INPRS's external audit services and since when, and what limit does INPRS's procurement policy place on contract length?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf",
+    "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf",
+    "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf"
+  ],
+  "keyword_terms": [
+    "Indiana Public Retirement System",
+    "RFP 24-05",
+    "external audit services",
+    "procurement policy contract length",
+    "印第安纳州公共退休系统",
+    "外部审计服务",
+    "采购政策"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 297,
+      "timestamp": "2026-10-25 15:36:45.713933",
+      "metadata": {
+        "keywords": [
+          "Indiana Public Retirement System",
+          "RFP 24-05",
+          "external audit services",
+          "procurement policy contract length",
+          "印第安纳州公共退休系统",
+          "外部审计服务",
+          "采购政策"
+        ],
+        "files_found": 4,
+        "files_discovered": [
+          "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf",
+          "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+          "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+          "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "INPRS__RFP24-05_AuditServices.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+      "path": "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf"
+    }
+  ],
+  "elapsed_s": 2.663,
+  "calls": 0,
+  "usage": {}
+}

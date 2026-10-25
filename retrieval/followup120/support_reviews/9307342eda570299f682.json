@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "9307342eda570299f682",
+    "query_id": "OTH-15",
+    "question": "In the Los Angeles City Employees' Retirement System (LACERS) actuarial RFP, how many years of experience must the lead actuary have?",
+    "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "expected_facts": "At least 15 years of experience with major public employee retirement systems, including at least 3 years with California public pension fund clients similar to LACERS.",
+    "acceptance": "Accept 15 total and three California years. Do not require credential details unrelated to the years asked.",
+    "text_hash": "afed2142cd9b5f90246d59a5737b84e7449b0c4dc717232226f57461b45a9b9e",
+    "source_text_sha256": "4e6f311f7c398d5daed9e60599d032ec43a08c449bc5eec7b5f5fb388433a80b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an SFERS investment-consulting RFP, not the LACERS actuarial RFP. Its experience requirement concerns an investment professional, not a lead actuary, and it does not support the specified total and California-client experience requirements.",
+      "quotes": [
+        "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System",
+        "At least one key professional member of the Firm proposed for the SFERS account must have a minimum of ten (10) years of experience working with institutional clients."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System",
+          "start": 13,
+          "end": 147
+        },
+        {
+          "quote": "At least one key professional member of the Firm proposed for the SFERS account must have a minimum of ten (10) years of experience working with institutional clients.",
+          "start": 13444,
+          "end": 13611
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

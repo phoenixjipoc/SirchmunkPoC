@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "b59eadcaf89aa181efdd",
+    "query_id": "INV-12",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for domestic equity small cap growth investment management, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+    "expected_facts": "Four primary factors: (a) People - stability of the organization, ownership structure and documented experience of key professionals; (b) Process - clearly defined, reasonable and repeatable investment strategy; (c) Performance - documented ability to meet investment performance benchmarks; (d) Pricing - fee schedule and associated costs.",
+    "acceptance": "Accept People, Process, Performance, Pricing and faithful descriptions; exact labels are not mandatory.",
+    "text_hash": "331a4f3a76ae4b017955d456e0d0109f9c5a8c6234151c5a77fc5602b03f12da",
+    "source_text_sha256": "62db2ddc08b6705150414332e929f3917945d4016cb8f2e1cd2436463593a880",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is INREV’s due diligence questionnaire for non-listed real estate investment vehicles, not the IMRF sample RFP for domestic equity small cap growth management. It does not state how IMRF evaluates and ranks respondents.",
+      "quotes": [
+        "Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles",
+        "The objective of the Preliminary Stage of the Due Diligence Questionnaire is to provide sufficient information to allow an investor to create an initial short list of vehicles to take forward for more detailed due diligence."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles",
+          "start": 4400,
+          "end": 4474
+        },
+        {
+          "quote": "The objective of the Preliminary Stage of the Due Diligence Questionnaire is to provide sufficient information to allow an investor to create an initial short list of vehicles to take forward for more detailed due diligence.",
+          "start": 3046,
+          "end": 3270
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

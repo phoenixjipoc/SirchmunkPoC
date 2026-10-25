@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "e6eb6c5027339dbed117",
+    "query_id": "CONS-09",
+    "question": "Which retirement system's investment consultant RFP requires firms to certify that they currently provide investment consulting services to clients whose combined assets total at least $50 billion?",
+    "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "expected_facts": "Teachers' Retirement System of the State of Illinois (TRS Illinois), in its FY23 investment consultant RFP (Appendix B, Statement of Minimum Qualifications).",
+    "acceptance": "TRS Illinois / Teachers’ Retirement System of the State of Illinois is sufficient; FY23 and appendix identifier are optional.",
+    "text_hash": "5afc5adec694c195f2977417c376c45b4856a88e72d30c0e1953e2403af08eac",
+    "source_text_sha256": "add3ba83b3e17f098f096c1bf8b5d5000ad39375300bba2e2b398c7d805cf7a6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2018 master custodian RFP issued by a different retirement association. Its minimum qualifications concern custody services, not the specified investment-consulting certification or $50 billion client-asset threshold.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+        "The Proposer responding to this RFP must meet the following minimum qualifications to be given further consideration:",
+        "The Proposer must have a total number of at least 30 custodial defined benefit clients, including at least 10 public funds, with $1 billion each in tax-exempt assets or greater."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+          "start": 13,
+          "end": 141
+        },
+        {
+          "quote": "The Proposer responding to this RFP must meet the following minimum qualifications to be given further consideration:",
+          "start": 16989,
+          "end": 17106
+        },
+        {
+          "quote": "The Proposer must have a total number of at least 30 custodial defined benefit clients, including at least 10 public funds, with $1 billion each in tax-exempt assets or greater.",
+          "start": 17329,
+          "end": 17506
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

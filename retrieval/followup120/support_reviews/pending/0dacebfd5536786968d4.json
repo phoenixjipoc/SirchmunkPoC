@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "0dacebfd5536786968d4",
+    "query_id": "OTH-06",
+    "question": "In Clark County, Washington's RFP 955 for a deferred compensation 457 plan administrator, how much was held in the 457 Plans as of December 31, 2025, and who is the current provider?",
+    "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "expected_facts": "Approximately $167 million; the current provider is Lincoln Financial.",
+    "acceptance": "Accept approximately $167m (or appropriately reconciled table total) and Lincoln Financial; not just County-only $162.85m.",
+    "text_hash": "7bf0434135598b4379264b9228ec0ae5d514d2497cf998a89da96d5f3d55878f",
+    "source_text_sha256": "1620734055a07375d68aca7dc5b3529168cc1928cf355fcdb11e514e6b786b4c",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Austin Employees’ Retirement System RFP for actuarial services, not Clark County, Washington’s RFP 955 for a deferred compensation 457 plan administrator. It provides neither the December 31, 2025 457 Plans balance nor their current provider.",
+      "quotes": [
+        "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM Request for Proposal (RFP)",
+        "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+        "The City of Austin Employees’ Retirement System (COAERS) is a single employer governmental defined benefit retirement system"
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM Request for Proposal (RFP)",
+          "start": 13,
+          "end": 83
+        },
+        {
+          "quote": "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+          "start": 163,
+          "end": 254
+        },
+        {
+          "quote": "The City of Austin Employees’ Retirement System (COAERS) is a single employer governmental defined benefit retirement system",
+          "start": 14586,
+          "end": 14710
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

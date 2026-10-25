@@ -1,0 +1,75 @@
+{
+  "query_id": "INV-08",
+  "question": "A sample investment management RFP for a domestic equity small cap growth mandate sets portfolio guidelines. What are the limits on single-issuer holdings, foreign issuers and cash, and which index must the portfolio outperform?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P",
+  "keyword_files": [
+    "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf"
+  ],
+  "keyword_terms": [
+    "investment management RFP",
+    "domestic equity small cap growth mandate",
+    "portfolio guidelines",
+    "single-issuer holdings",
+    "投资管理征求建议书",
+    "本国小盘成长股投资委托",
+    "单一发行人持仓"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 86,
+      "timestamp": "2026-10-25 15:58:19.806619",
+      "metadata": {
+        "keywords": [
+          "investment management RFP",
+          "domestic equity small cap growth mandate",
+          "portfolio guidelines",
+          "single-issuer holdings",
+          "投资管理征求建议书",
+          "本国小盘成长股投资委托",
+          "单一发行人持仓"
+        ],
+        "files_found": 2,
+        "files_discovered": [
+          "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+          "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+      "path": "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+      "path": "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "MA_PRIM__PDF-Version-of-RFP.pdf",
+      "path": "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf"
+    }
+  ],
+  "elapsed_s": 5.779,
+  "calls": 0,
+  "usage": {}
+}

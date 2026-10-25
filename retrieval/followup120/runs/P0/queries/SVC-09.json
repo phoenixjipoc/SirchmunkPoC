@@ -1,0 +1,59 @@
+{
+  "query_id": "SVC-09",
+  "question": "A county retirement system's custody RFP requires custody respondents to have at least $500 billion in total assets under custody as of December 31, 2021. How much of that must be in international equity and fixed income, and what minimum liability/professional errors and omissions insurance must respondents provide?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf"
+  ],
+  "keyword_terms": [
+    "county retirement system custody RFP",
+    "total assets under custody",
+    "international equity and fixed income",
+    "professional errors and omissions insurance",
+    "资产托管",
+    "国际股票与固定收益",
+    "职业责任及错误与遗漏保险"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 130,
+      "timestamp": "2026-10-25 16:03:25.490034",
+      "metadata": {
+        "keywords": [
+          "county retirement system custody RFP",
+          "total assets under custody",
+          "international equity and fixed income",
+          "professional errors and omissions insurance",
+          "资产托管",
+          "国际股票与固定收益",
+          "职业责任及错误与遗漏保险"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "OCERS__custodian_rfp_2022-2023.pdf",
+      "path": "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf"
+    }
+  ],
+  "elapsed_s": 8.962,
+  "calls": 0,
+  "usage": {}
+}

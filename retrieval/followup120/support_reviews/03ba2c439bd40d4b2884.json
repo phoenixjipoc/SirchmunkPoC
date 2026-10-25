@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "03ba2c439bd40d4b2884",
+    "query_id": "CONS-02",
+    "question": "In the NYC Board of Education Retirement System (BERS) RFP 2024-003 for investment consulting services, how many maximum evaluation points are assigned to the annual fee proposal?",
+    "file": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "expected_facts": "28 points (out of 100). Full breakdown: Program Plan/Narrative 18, Organizational Capacity/Knowledge and Experience 23, Demonstrated Effectiveness 22, Fee Proposal - Annual Fee 28, Fee Proposal - Hourly Rate 9.",
+    "acceptance": "28 points alone is sufficient. Other scoring categories and fee formula are optional.",
+    "text_hash": "e208b396d807c84110e10df7ec74d980a1905d8e99839a26651b44e9927a80ca",
+    "source_text_sha256": "48df375d7d5f4c68eef011c530a1b8e2446893a55aa03aa4e9c6a423a07b3e4c",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2011 District of Columbia Retirement Board RFP, not NYC BERS RFP 2024-003. Its fee-proposal criterion is 20% and does not assign 28 maximum points to an annual fee proposal.",
+      "quotes": [
+        "District of Columbia Retirement Board",
+        "Solicitation DCRB-2011-001",
+        "Issue Date: January 10, 2011",
+        "5. Fee proposal (20%)"
+      ],
+      "quote_matches": [
+        {
+          "quote": "District of Columbia Retirement Board",
+          "start": 13,
+          "end": 50
+        },
+        {
+          "quote": "Solicitation DCRB-2011-001",
+          "start": 169,
+          "end": 195
+        },
+        {
+          "quote": "Issue Date: January 10, 2011",
+          "start": 196,
+          "end": 224
+        },
+        {
+          "quote": "5. Fee proposal (20%)",
+          "start": 19587,
+          "end": 19608
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

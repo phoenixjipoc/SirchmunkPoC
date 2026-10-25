@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "b7bc51ff0635681e4432",
+    "query_id": "INV-20",
+    "question": "Which meetings must the investment consultant attend under the IMRF sample RFP for investment consulting, real estate consulting and performance measurement services, and how many days of meetings per year does IMRF estimate?",
+    "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "expected_facts": "(1) Monthly IMRF Board meetings; (2) Investment Committee meetings; (3) the Annual IMRF Roundtable; (4) regional meetings with investment managers; (5) related investment meetings and discussions; (6) formal interviews with existing and potential investment managers; (7) ad hoc due diligence meetings with investment managers and staff. IMRF estimates about sixty days of meetings per year with the Board and/or staff, plus frequent telephone discussions with staff.",
+    "acceptance": "All seven meeting categories and about 60 days/year. Frequent telephone calls and principal-attendance details are optional.",
+    "text_hash": "81e913c98df37dcfd35af28d88b1b03c1dc82eb7e2f99c9c19de8d06866fc421",
+    "source_text_sha256": "2d54872fc00a587921e9e76823bb49d685f32d834a6c8320657ad95eb8fd8f87",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an INPRS alternative-investment consulting RFP, not the IMRF sample RFP. Its meeting provisions do not establish the seven specified IMRF meeting categories or an estimate of about 60 meeting days per year.",
+      "quotes": [
+        "Request for Proposals (“RFP”) for Alternative Investment Consulting Services for the Indiana Public Retirement System (“INPRS” or the “System”).",
+        "Attend ad-hoc meetings at the request of INPRS Investment Staff.",
+        "At INPRS’s request and at mutually agreed upon times, Consultant shall meet with INPRS to review Consultant’s performance and to discuss Consultant’s present and future investment strategy."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals (“RFP”) for Alternative Investment Consulting Services for the Indiana Public Retirement System (“INPRS” or the “System”).",
+          "start": 2274,
+          "end": 2418
+        },
+        {
+          "quote": "Attend ad-hoc meetings at the request of INPRS Investment Staff.",
+          "start": 25796,
+          "end": 25860
+        },
+        {
+          "quote": "At INPRS’s request and at mutually agreed upon times, Consultant shall meet with INPRS to review Consultant’s performance and to discuss Consultant’s present and future investment strategy.",
+          "start": 52468,
+          "end": 52657
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

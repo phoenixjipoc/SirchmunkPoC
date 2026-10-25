@@ -1,0 +1,83 @@
+{
+  "job": {
+    "id": "ce38bc653cf1092f9b34",
+    "query_id": "XD-09",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+    "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+    "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+    "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+    "text_hash": "331a4f3a76ae4b017955d456e0d0109f9c5a8c6234151c5a77fc5602b03f12da",
+    "source_text_sha256": "62db2ddc08b6705150414332e929f3917945d4016cb8f2e1cd2436463593a880",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is an INREV questionnaire, not the ILPA Due Diligence Questionnaire v1.2. Its table of contents lists a single “Appendix” entry, so it does not support the requested lettered appendices or their titles.",
+      "quotes": [
+        "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007",
+        "As the non-listed real estate market has evolved, the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+        "Data Room 36 Appendix 37"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007",
+          "start": 1446,
+          "end": 1565
+        },
+        {
+          "quote": "As the non-listed real estate market has evolved, the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+          "start": 1998,
+          "end": 2135
+        },
+        {
+          "quote": "Data Room 36 Appendix 37",
+          "start": 1100,
+          "end": 1124
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is INREV’s 2018 due diligence questionnaire for non-listed real estate investment vehicles, not the ILPA Due Diligence Questionnaire v1.2. Its table of contents does not list the requested lettered appendices A–E.",
+      "quotes": [
+        "Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles",
+        "As the non-listed real estate market has evolved, the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+        "Data Room 36 Appendix 37",
+        "Appendix I. Investment Manager Statement Guidance"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles",
+          "start": 4400,
+          "end": 4474
+        },
+        {
+          "quote": "As the non-listed real estate market has evolved, the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+          "start": 1998,
+          "end": 2135
+        },
+        {
+          "quote": "Data Room 36 Appendix 37",
+          "start": 1100,
+          "end": 1124
+        },
+        {
+          "quote": "Appendix I. Investment Manager Statement Guidance",
+          "start": 50453,
+          "end": 50502
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

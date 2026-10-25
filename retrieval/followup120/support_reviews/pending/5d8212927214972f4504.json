@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "5d8212927214972f4504",
+    "query_id": "INV-20",
+    "question": "Which meetings must the investment consultant attend under the IMRF sample RFP for investment consulting, real estate consulting and performance measurement services, and how many days of meetings per year does IMRF estimate?",
+    "file": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "expected_facts": "(1) Monthly IMRF Board meetings; (2) Investment Committee meetings; (3) the Annual IMRF Roundtable; (4) regional meetings with investment managers; (5) related investment meetings and discussions; (6) formal interviews with existing and potential investment managers; (7) ad hoc due diligence meetings with investment managers and staff. IMRF estimates about sixty days of meetings per year with the Board and/or staff, plus frequent telephone discussions with staff.",
+    "acceptance": "All seven meeting categories and about 60 days/year. Frequent telephone calls and principal-attendance details are optional.",
+    "text_hash": "e208b396d807c84110e10df7ec74d980a1905d8e99839a26651b44e9927a80ca",
+    "source_text_sha256": "48df375d7d5f4c68eef011c530a1b8e2446893a55aa03aa4e9c6a423a07b3e4c",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a District of Columbia Retirement Board RFP, not the IMRF sample RFP. Its meeting requirements concern a different consultant and do not establish the seven IMRF meeting categories or IMRF’s estimate of about 60 meeting days per year.",
+      "quotes": [
+        "District of Columbia Retirement Board",
+        "Request for Proposal Real Assets Investment Consulting Services",
+        "Appear as requested at Board meetings and/or Investment Committee meetings or other meetings",
+        "Meet with Staff quarterly to review the real assets portfolio"
+      ],
+      "quote_matches": [
+        {
+          "quote": "District of Columbia Retirement Board",
+          "start": 13,
+          "end": 50
+        },
+        {
+          "quote": "Request for Proposal Real Assets Investment Consulting Services",
+          "start": 105,
+          "end": 168
+        },
+        {
+          "quote": "Appear as requested at Board meetings and/or Investment Committee meetings or other meetings",
+          "start": 8651,
+          "end": 8743
+        },
+        {
+          "quote": "Meet with Staff quarterly to review the real assets portfolio",
+          "start": 13572,
+          "end": 13633
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

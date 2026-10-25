@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "3c169bda9a4c72ce81d4",
+    "query_id": "INV-02",
+    "question": "What is the proposal deadline, and how many copies must be submitted, for the City of Madison (Florida) Police Officers' and Firefighters' Retirement System RFP No. 2025-0901 for investment consulting services?",
+    "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+    "expected_facts": "Proposals must be received by 2:00 p.m. on September 1, 2025 at the City Clerk's office in Madison, FL (late proposals returned unopened); an original and five (5) copies must be submitted in a sealed envelope/package.",
+    "acceptance": "Accept 2pm September 1, 2025 and original plus five copies/six total. Address, sealing and late-return treatment are optional.",
+    "text_hash": "70ba69fa78a5262a5a903e6c962a7ed533f83b2f39cbeaae0d6efcae5122f669",
+    "source_text_sha256": "c0d34ab691e3323f8b02fd000d177f6559326d07370721a1d326e71475259a58",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Boston Retirement System proposal questionnaire, not the City of Madison, Florida RFP No. 2025-0901. It does not state that RFP’s proposal deadline or required number of copies.",
+      "quotes": [
+        "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+        "This questionnaire is intended to provide BRS with specific information concerning your ability to provide General, Public and Private Markets Investment Consulting services"
+      ],
+      "quote_matches": [
+        {
+          "quote": "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+          "start": 86,
+          "end": 163
+        },
+        {
+          "quote": "This questionnaire is intended to provide BRS with specific information concerning your ability to provide General, Public and Private Markets Investment Consulting services",
+          "start": 971,
+          "end": 1144
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

@@ -1,0 +1,95 @@
+{
+  "job": {
+    "id": "ef6b384713ce6c70ba9e",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "7bf0434135598b4379264b9228ec0ae5d514d2497cf998a89da96d5f3d55878f",
+    "source_text_sha256": "1620734055a07375d68aca7dc5b3529168cc1928cf355fcdb11e514e6b786b4c",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a City of Austin Employees’ Retirement System actuarial-services RFP, not the ILPA Due Diligence Questionnaire 2.0. Its table of contents lists exhibits, not the requested appendices, and does not support their count or titles.",
+      "quotes": [
+        "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM Request for Proposal (RFP)",
+        "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+        "EXHIBIT A - PROPOSAL SUBMISSION SHEET",
+        "EXHIBIT H - COST PROPOSAL",
+        "EXHIBIT I - RESPONDENT’S PROPOSAL FORMAT AND REQUIREMENTS"
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM Request for Proposal (RFP)",
+          "start": 13,
+          "end": 83
+        },
+        {
+          "quote": "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+          "start": 163,
+          "end": 254
+        },
+        {
+          "quote": "EXHIBIT A - PROPOSAL SUBMISSION SHEET",
+          "start": 8952,
+          "end": 8989
+        },
+        {
+          "quote": "EXHIBIT H - COST PROPOSAL",
+          "start": 9825,
+          "end": 9850
+        },
+        {
+          "quote": "EXHIBIT I - RESPONDENT’S PROPOSAL FORMAT AND REQUIREMENTS",
+          "start": 9963,
+          "end": 10020
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a City of Austin Employees’ Retirement System actuarial-services RFP, not the ILPA Due Diligence Questionnaire 2.0. Its table of contents lists exhibits, not the requested ILPA appendices.",
+      "quotes": [
+        "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM Request for Proposal (RFP)",
+        "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+        "EXHIBIT A - PROPOSAL SUBMISSION SHEET",
+        "EXHIBIT I - RESPONDENT’S PROPOSAL FORMAT AND REQUIREMENTS"
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM Request for Proposal (RFP)",
+          "start": 13,
+          "end": 83
+        },
+        {
+          "quote": "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+          "start": 163,
+          "end": 254
+        },
+        {
+          "quote": "EXHIBIT A - PROPOSAL SUBMISSION SHEET",
+          "start": 8952,
+          "end": 8989
+        },
+        {
+          "quote": "EXHIBIT I - RESPONDENT’S PROPOSAL FORMAT AND REQUIREMENTS",
+          "start": 9963,
+          "end": 10020
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

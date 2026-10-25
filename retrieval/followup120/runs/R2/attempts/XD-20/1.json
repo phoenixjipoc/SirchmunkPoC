@@ -1,0 +1,504 @@
+{
+  "query_id": "XD-20",
+  "question": "What minimum GRESB score does INREV require a non-listed real estate vehicle to achieve to pass its due diligence questionnaire?",
+  "type": "unanswerable",
+  "pair_id": "",
+  "seed": 1205300270,
+  "references": [
+    {
+      "rank": 1,
+      "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+      "path": "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx"
+    },
+    {
+      "rank": 2,
+      "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "keywords": {
+    "minimum GRESB score": 9.0,
+    "INREV due diligence questionnaire": 10.0,
+    "non-listed real estate vehicle": 9.0,
+    "GRESB评分": 9.0,
+    "INREV尽职调查问卷": 10.0,
+    "非上市房地产投资工具": 9.0
+  },
+  "keyword_terms": [
+    "minimum GRESB score",
+    "INREV due diligence questionnaire",
+    "non-listed real estate vehicle",
+    "GRESB评分",
+    "INREV尽职调查问卷",
+    "非上市房地产投资工具"
+  ],
+  "directory_prompt": "You are a document triage specialist. Analyze the scanned files below and rank them by relevance to the user's query.\n\n## Directory Structure\nRoot: /mnt/docs/S\n```\n  ./ (20 files)\n```\n\n## User Query\nWhat minimum GRESB score does INREV require a non-listed real estate vehicle to achieve to pass its due diligence questionnaire?\n\n## Scanned Files\n- **SBCERA__investment_consultant_-_request_for_proposals.pdf** (.pdf, 1.4MB)\n  Title: Request for Proposal - Investment Consultant\n  Author: emoreno\n  Pages/Sheets: 40\n  Keywords: emoreno\n  Modified: 2026-10-07\n  Preview: SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION  REQUEST FOR PROPOSAL (RFP)  FOR  INVESTMENT CONSULTING SERVICES\n\n- **OCERS__investment_consultant_services_rfp.pdf** (.pdf, 616.2KB)\n  Title: OCERS Investment Consultant Services RFP\n  Author: OCERS\n  Pages/Sheets: 37\n  Keywords: OCERS, OCERS Investment Consultant Services RFP\n  Modified: 2026-10-07\n  Preview: Investment Consultant Services  for:   General Investments and Risk  Private Equity  Real Assets  Real Estate  Requests for Proposal    Issued August 2021                    Orange County Employees Re\n\n- **CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf** (.pdf, 526.6KB)\n  Author: Stephanie Shedd\n  Pages/Sheets: 86\n  Keywords: Stephanie Shedd\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS  FOR  MASTER CUSTODIAN AND  RELATED SERVICES      April 2018                        Contra Costa County Employees’ Retirement Association    1355 Willow Way, Suite 221  Concord,\n\n- **CAJPA__28._Appendix_Z-Sample_Invest.pdf** (.pdf, 48.1KB)\n  Title: Microsoft Word - 2009-2010 Accreditation Manual.doc\n  Author: JMcDonald\n  Pages/Sheets: 9\n  Keywords: JMcDonald\n  Modified: 2026-10-07\n  Preview: Z. SAMPLE INVESTMENT MANAGEMENT  REQUEST FOR PROPOSAL (RFP)  REQUEST FOR PROPOSAL FOR INVESTMENT MANAGEMENT SERVICES FOR [Name of JPA] RETURN PROPOSALS TO: John Doe Pool Administrator [Name of JPA] 123 Main Street City, CA XXXXX DEADLINE FOR FILING: [DATE] [TIME] Approved for inclusion in the Accreditation Manual  As revised November 2, 2010\n\n- **INPRS__RFP24-05_AuditServices.pdf** (.pdf, 477.8KB)\n  Author: Danny Sullivan\n  Pages/Sheets: 33\n  Keywords: Danny Sullivan\n  Modified: 2026-10-07\n  Preview: 1                                                                       REQUEST FOR PROPOSALS (“RFP”) for    AUDIT SERVICES      RFP NUMBER 24-05        RELEASE DATE: OCTOBER 2, 2024    DEADLINE FOR I\n\n- **Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf** (.pdf, 197.1KB)\n  Title: ATTACHMENT 3C – FOR BOTH GENERAL AND PUBLIC MARKET CONSULTANT AND ALTERNATIVE CONSULTANT—SERVICE LEVEL THREE\n  Author: DanielGr\n  Pages/Sheets: 12\n  Keywords: DanielGr\n  Modified: 2026-10-07\n  Preview: Attachment 3-1          ATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES  PROPOSAL QUESTIONNAIRE    BOSTON RETIREMENT SYSTEM    Investment Consulting Services   Request for Proposals  INSTRUCTIONS\n\n- **Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf** (.pdf, 449.1KB)\n  Pages/Sheets: 32\n  Modified: 2026-10-07\n  Preview: Employees’ Retirement System of the State of Hawaii  Request for Proposals   Private Equity Consultant Services   RFP 2022-04                                          Issued     AUGUST 29, 2022\n\n- **INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf** (.pdf, 771.3KB)\n  Author: KPMG\n  Pages/Sheets: 55\n  Keywords: KPMG\n  Modified: 2026-10-07\n  Preview: - 1 -                                                                           REQUEST FOR PROPOSALS (“RFP”) for    CORE PLUS FIXED INCOME INVESTMENT MANAGEMENT      RFP NUMBER 22-04    RELEASE DATE:\n\n- **INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf** (.pdf, 998.5KB)\n  Title:  \n  Author: Constantin Sorlescu\n  Pages/Sheets: 41\n  Keywords: Constantin Sorlescu\n  Modified: 2026-10-07\n  Preview: 1\n\n- **PRI__PRI-DDQ-ILPA-Covering-Note.pdf** (.pdf, 155.2KB)\n  Author: Marco Longhini\n  Pages/Sheets: 2\n  Keywords: Marco Longhini\n  Modified: 2026-10-07\n  Preview: PRINCIPLES FOR RESPONSIBLE INVESTMENT (PRI) LIMITED  PARTNERS PRIVATE EQUITY RESPONSIBLE INVESTMENT DUE  DILIGENCE QUESTIONNAIRE (DDQ) – 2021 UPDATE    PROCESS OVERVIEW    The first version of the PRI\n\n- **SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf** (.pdf, 776.6KB)\n  Author: Ashleigh Hollins\n  Pages/Sheets: 47\n  Keywords: Ashleigh Hollins\n  Modified: 2026-10-07\n  Preview: General Investment Consulting Services    Request for Proposals      September 30, 2016\n\n- **SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf** (.pdf, 380.0KB)\n  Title: August 11, 2008\n  Author: dpcadmin\n  Pages/Sheets: 21\n  Keywords: dpcadmin\n  Modified: 2026-10-07\n  Preview: SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM  REQUEST FOR PROPOSAL (RFP) FOR  GENERAL INVESTMENT CONSULTANT\n\n- **NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf** (.pdf, 197.3KB)\n  Author: Emmanuel Esochaghi\n  Pages/Sheets: 7\n  Keywords: Emmanuel Esochaghi\n  Modified: 2026-10-07\n  Preview: 15    APPENDIX A  DUE DILIGENCE QUESTIONNAIRE  Respondents to this notice are required to submit detailed responses to these questions as applicable,  which give insight into the prospective managers’\n\n- **SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf** (.pdf, 827.6KB)\n  Title: Model RFP\n  Author: Barbara Peters\n  Pages/Sheets: 72\n  Keywords: Barbara Peters\n  Modified: 2026-10-07\n  Preview: Request for Proposals for  General Investment Consulting Services  for the City and County of San Francisco  Employees’ Retirement System                                  Date Issued:  November 1, 202\n\n- **CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf** (.pdf, 183.1KB)\n  Title: Microsoft Word - 2025 RP Investment Consultant RFP 04 29 25\n  Author: Paul\n  Pages/Sheets: 12\n  Keywords: Paul\n  Modified: 2026-10-07\n  Preview: Retirement Plan for CTA  Employees  Investment Consulting   Request for Proposals              Advertised Date  April 29, 2025      Proposals Due via email  May 30, 2025  3:00 pm, Central Time  psidry\n\n- **York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf** (.pdf, 921.1KB)\n  Title: Microsoft Word - REQUEST FOR PROPOSALS DRAFT 2.3+ICON.docx\n  Author: Frederick\n  Pages/Sheets: 9\n  Keywords: Frederick\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS  FOR  INVESTMENT  MANAGER/ADVISER/CONSULTANT            CITY OF YORK  PENSION FUNDS      NOVEMBER 28, 2016      RESPONSES DUE JANUARY 6, 2017\n\n- **Rice_University__2021_Benefit_Plan_RFP_-_final.pdf** (.pdf, 167.9KB)\n  Title: Request for Proposal To Provide Audit Services for the\n  Author: Evelyn Stewart\n  Pages/Sheets: 6\n  Keywords: Evelyn Stewart\n  Modified: 2026-10-07\n  Preview: 1 | Page     Request for Proposal to Provide Audit Services for the   William Marsh Rice University Defined Contribution Retirement Plan    INTRODUCTION   Rice University (“the University”) requests a\n\n- **Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf** (.pdf, 66.5KB)\n  Title: Publish:\n  Author: konishig\n  Pages/Sheets: 1\n  Keywords: konishig\n  Modified: 2026-10-07\n  Preview: EMPLOYEES’ RETIREMENT SYSTEM   OF THE STATE OF HAWAII  REQUEST FOR PROPOSALS (RFP)  REAL ESTATE INVESTMENT CONSULTANT SERVICES      The Employees’ Retirement System of the State of Hawaii (ERS) is soliciting  proposals for a qualified firm to provide non-discretionary real estate investment  consulting services to the ERS.  The consulting firm must be United States  based, registered under the Investment Advisers Act of 1940, been in business  for a minimum of three years and have at least one d\n\n- **OCERS__custodian_services_rfp_questions_and_answers.pdf** (.pdf, 300.4KB)\n  Title: Custodian Services RFP Questions and Answers\n  Author: OCERS\n  Pages/Sheets: 12\n  Keywords: OCERS, OCERS Custodian Services RFP Questions and Answers\n  Modified: 2026-10-07\n  Preview: Custody Services  Request for Proposal  Questions & Answers    October 2022                                  Orange County Employees Retirement System (OCERS)  P.O. Box 1229  Santa Ana, CA 927021-(714\n\n- **Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf** (.pdf, 1.1MB)\n  Author: Lisa Giles\n  Pages/Sheets: 35\n  Keywords: Lisa Giles\n  Modified: 2026-10-07\n  Preview: TRS Request for Proposal # 715-2025-1002  J. KEVIN STITT GOVERNOR SARAH GREEN  EXECUTIVE DIRECTOR  Teachers’ Retirement System of Oklahoma  P.O. Box 53524  Oklahoma City, OK  73152-3524  Oklahoma.gov/\n\n## Instructions\n1. Evaluate EVERY file listed above. Consider directory names, filenames, titles, keywords, and preview content as relevance signals.\n2. Assign \"high\" (directly relevant), \"medium\" (possibly relevant), or \"low\" (unlikely relevant) to each file.\n3. For the \"path\" field, copy the **exact relative path** shown in bold (e.g. `subdir/file.pdf`) from the scan results above.\n4. Return ONLY a JSON array — no other text.\n\n## Output Format (use the EXACT path shown in the file listing)\n```json\n[\n  {\"path\": \"exact/relative/path/from/listing\", \"relevance\": \"high\", \"reason\": \"brief reason\"}\n]\n```",
+  "keyword_files": [
+    "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+  ],
+  "directory_ranking": [
+    {
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "filename": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1022513,
+      "modified_at": "2026-10-07T07:12:08",
+      "created_at": "2026-10-07T07:19:57.396037",
+      "mime_type": "application/pdf",
+      "title": " ",
+      "author": "Constantin Sorlescu",
+      "page_count": 41,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Constantin Sorlescu"
+      ],
+      "preview": "1",
+      "content_loaded": false,
+      "relevance": "high",
+      "reason": "INREV due diligence questionnaire for non-listed real estate vehicles; directly matches the query."
+    },
+    {
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+      "filename": "OCERS__investment_consultant_services_rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 630996,
+      "modified_at": "2026-10-07T07:02:13",
+      "created_at": "2026-10-07T07:19:58.220023",
+      "mime_type": "application/pdf",
+      "title": "OCERS Investment Consultant Services RFP",
+      "author": "OCERS",
+      "page_count": 37,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "OCERS",
+        "OCERS Investment Consultant Services RFP"
+      ],
+      "preview": "Investment Consultant Services \nfor:  \nGeneral Investments and Risk \nPrivate Equity \nReal Assets \nReal Estate \nRequests for Proposal \n \nIssued August 2021 \n \n \n \n \n \n \n \n \n \nOrange County Employees Retirement System (OCERS) \n2223 E Wellington Avenue Suite 100 \nSanta Ana, CA 92701 USA \n1-(714)-558-62",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Covers real estate investment consulting, but is not an INREV questionnaire."
+    },
+    {
+      "path": "/mnt/docs/S/Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+      "filename": "Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+      "extension": ".pdf",
+      "size_bytes": 68135,
+      "modified_at": "2026-10-07T07:08:12",
+      "created_at": "2026-10-07T07:19:56.904046",
+      "mime_type": "application/pdf",
+      "title": "Publish:",
+      "author": "konishig",
+      "page_count": 1,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "konishig"
+      ],
+      "preview": "EMPLOYEES’ RETIREMENT SYSTEM  \nOF THE STATE OF HAWAII \nREQUEST FOR PROPOSALS (RFP) \nREAL ESTATE INVESTMENT CONSULTANT SERVICES \n \n \nThe Employees’ Retirement System of the State of Hawaii (ERS) is soliciting \nproposals for a qualified firm to provide non-discretionary real estate investment \nconsult",
+      "content_loaded": true,
+      "relevance": "medium",
+      "reason": "Concerns real estate investment consulting, but is unlikely to state an INREV DDQ requirement."
+    },
+    {
+      "path": "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+      "filename": "PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+      "extension": ".pdf",
+      "size_bytes": 158934,
+      "modified_at": "2026-10-07T07:12:05",
+      "created_at": "2026-10-07T07:19:58.404020",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Marco Longhini",
+      "page_count": 2,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Marco Longhini"
+      ],
+      "preview": "PRINCIPLES FOR RESPONSIBLE INVESTMENT (PRI) LIMITED \nPARTNERS PRIVATE EQUITY RESPONSIBLE INVESTMENT DUE \nDILIGENCE QUESTIONNAIRE (DDQ) – 2021 UPDATE \n \nPROCESS OVERVIEW \n \nThe first version of the PRI Limited Partners Private Equity Responsible Investment Due Diligence \nQuestionnaire (DDQ) was launc",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Discusses a responsible-investment due diligence questionnaire, though not INREV's real estate DDQ."
+    },
+    {
+      "path": "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf",
+      "filename": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1444685,
+      "modified_at": "2026-10-07T07:15:06",
+      "created_at": "2026-10-07T07:19:58.528018",
+      "mime_type": "application/pdf",
+      "title": "Request for Proposal - Investment Consultant",
+      "author": "emoreno",
+      "page_count": 40,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "emoreno"
+      ],
+      "preview": "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION \nREQUEST FOR PROPOSAL (RFP) \nFOR \nINVESTMENT CONSULTING SERVICES",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "General investment consultant RFP with no apparent INREV or GRESB focus."
+    },
+    {
+      "path": "/mnt/docs/S/CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+      "filename": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+      "extension": ".pdf",
+      "size_bytes": 539265,
+      "modified_at": "2026-10-07T07:07:49",
+      "created_at": "2026-10-07T07:19:56.372055",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Stephanie Shedd",
+      "page_count": 86,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Stephanie Shedd"
+      ],
+      "preview": "REQUEST FOR PROPOSALS \nFOR \nMASTER CUSTODIAN AND \nRELATED SERVICES \n \n \nApril 2018 \n \n \n \n \n \n \n \n \n \n \n \nContra Costa County Employees’ Retirement Association\n  \n1355 Willow Way, Suite 221 \nConcord, CA  94520  \n(925) 521-3960 \nFax (925) 521-3969 \nwww.cccera.org",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Master custodian RFP, unrelated to the specified real estate questionnaire."
+    },
+    {
+      "path": "/mnt/docs/S/CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+      "filename": "CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+      "extension": ".pdf",
+      "size_bytes": 49230,
+      "modified_at": "2026-10-07T07:11:18",
+      "created_at": "2026-10-07T07:19:56.336056",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - 2009-2010 Accreditation Manual.doc",
+      "author": "JMcDonald",
+      "page_count": 9,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "JMcDonald"
+      ],
+      "preview": "Z. SAMPLE INVESTMENT MANAGEMENT \nREQUEST FOR PROPOSAL (RFP) \nREQUEST FOR PROPOSAL\nFOR\nINVESTMENT MANAGEMENT SERVICES\nFOR\n[Name of JPA]\nRETURN PROPOSALS TO:\nJohn Doe\nPool Administrator\n[Name of JPA]\n123 Main Street\nCity, CA XXXXX\nDEADLINE FOR FILING:\n[DATE]\n[TIME]\nApproved for inclusion in the Accred",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "Sample investment management RFP, not an INREV DDQ."
+    },
+    {
+      "path": "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf",
+      "filename": "INPRS__RFP24-05_AuditServices.pdf",
+      "extension": ".pdf",
+      "size_bytes": 489278,
+      "modified_at": "2026-10-07T07:14:45",
+      "created_at": "2026-10-07T07:19:57.216040",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Danny Sullivan",
+      "page_count": 33,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Danny Sullivan"
+      ],
+      "preview": "1  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nREQUEST FOR PROPOSALS (“RFP”) for \n \nAUDIT SERVICES \n \n \nRFP NUMBER 24-05 \n \n \n \nRELEASE DATE: OCTOBER 2, 2024 \n \nDEADLINE FOR INQUIRIES: OCTOBER 11, 2024 BY 3:00 PM EDT \n \nDEADLINE FOR SUBMISSION: NOVEMBER 1, 2024 BY 3:00 PM ED",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Audit services RFP, unrelated to GRESB scoring."
+    },
+    {
+      "path": "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "filename": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "extension": ".pdf",
+      "size_bytes": 201881,
+      "modified_at": "2026-10-07T07:05:47",
+      "created_at": "2026-10-07T07:19:56.272057",
+      "mime_type": "application/pdf",
+      "title": "ATTACHMENT 3C – FOR BOTH GENERAL AND PUBLIC MARKET CONSULTANT AND ALTERNATIVE CONSULTANT—SERVICE LEVEL THREE",
+      "author": "DanielGr",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "DanielGr"
+      ],
+      "preview": "Attachment 3-1 \n \n \n \n \nATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES \nPROPOSAL QUESTIONNAIRE \n \nBOSTON RETIREMENT SYSTEM \n \nInvestment Consulting Services  \nRequest for Proposals \nINSTRUCTIONS \n \nBRS is considering Proposals for a General Investment Services Consultant, which encompasses Public",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment consulting proposal questionnaire, not the INREV vehicle DDQ."
+    },
+    {
+      "path": "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+      "filename": "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 459895,
+      "modified_at": "2026-10-07T07:07:58",
+      "created_at": "2026-10-07T07:19:56.928045",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "",
+      "page_count": 32,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "Employees’ Retirement System of the State of Hawaii \nRequest for Proposals \n Private Equity Consultant Services  \nRFP 2022-04 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nIssued  \n \nAUGUST 29, 2022 \n \n \n \n \nFirms who wish to receive addenda to this RFP must register with the ERS as potential offerors.",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Private equity consultant RFP rather than a real estate vehicle questionnaire."
+    },
+    {
+      "path": "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+      "filename": "INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 789805,
+      "modified_at": "2026-10-07T07:06:32",
+      "created_at": "2026-10-07T07:19:57.184041",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "KPMG",
+      "page_count": 55,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "KPMG"
+      ],
+      "preview": "- 1 -  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nREQUEST FOR PROPOSALS (“RFP”) for \n \nCORE PLUS FIXED INCOME INVESTMENT MANAGEMENT \n \n \nRFP NUMBER 22-04 \n \nRELEASE DATE: OCTOBER 31 , 2022 \n \nDEADLINE FOR INQUIRIES: NOVEMBER 18, 2022 BY 3:00 PM EST \n \nDEADLINE FOR SUBMI",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Fixed-income management RFP, unrelated to GRESB or INREV."
+    },
+    {
+      "path": "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "filename": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "extension": ".pdf",
+      "size_bytes": 795256,
+      "modified_at": "2026-10-07T07:02:49",
+      "created_at": "2026-10-07T07:19:58.716014",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Ashleigh Hollins",
+      "page_count": 47,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Ashleigh Hollins"
+      ],
+      "preview": "General Investment Consulting Services \n \nRequest for Proposals \n \n \nSeptember 30, 2016",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "General investment consulting RFP with no apparent connection to the INREV DDQ."
+    },
+    {
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "filename": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 389091,
+      "modified_at": "2026-10-07T07:02:20",
+      "created_at": "2026-10-07T07:19:58.740014",
+      "mime_type": "application/pdf",
+      "title": "August 11, 2008",
+      "author": "dpcadmin",
+      "page_count": 21,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "dpcadmin"
+      ],
+      "preview": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM \nREQUEST FOR PROPOSAL (RFP) FOR \nGENERAL INVESTMENT CONSULTANT",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "General investment consultant RFP, not an INREV questionnaire."
+    },
+    {
+      "path": "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+      "filename": "NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+      "extension": ".pdf",
+      "size_bytes": 201996,
+      "modified_at": "2026-10-07T07:09:29",
+      "created_at": "2026-10-07T07:19:58.052026",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Emmanuel Esochaghi",
+      "page_count": 7,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Emmanuel Esochaghi"
+      ],
+      "preview": "15 \n \nAPPENDIX A \nDUE DILIGENCE QUESTIONNAIRE \nRespondents to this notice are required to submit detailed responses to these questions as applicable, \nwhich give insight into the prospective managers’ structure and policies. If not applicable, mark it “N/A” \n1.0 Respondent Firm: General Information ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Contains a due diligence questionnaire for a life-science seed fund, not non-listed real estate."
+    },
+    {
+      "path": "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+      "filename": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+      "extension": ".pdf",
+      "size_bytes": 847487,
+      "modified_at": "2026-10-07T07:17:56",
+      "created_at": "2026-10-07T07:19:58.796013",
+      "mime_type": "application/pdf",
+      "title": "Model RFP",
+      "author": "Barbara Peters",
+      "page_count": 72,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Barbara Peters"
+      ],
+      "preview": "Request for Proposals for \nGeneral Investment Consulting Services \nfor the City and County of San Francisco \nEmployees’ Retirement System \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nDate Issued:  November 1, 2022 \nDeadline for Submission: December 15, 2022 at 5:00 PM Pacific Time",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "General investment consulting RFP with no indicated INREV or GRESB requirement."
+    },
+    {
+      "path": "/mnt/docs/S/CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+      "filename": "CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+      "extension": ".pdf",
+      "size_bytes": 187488,
+      "modified_at": "2026-10-07T07:14:22",
+      "created_at": "2026-10-07T07:19:56.508053",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - 2025 RP Investment Consultant RFP 04 29 25",
+      "author": "Paul",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Paul"
+      ],
+      "preview": "Retirement Plan for CTA \nEmployees \nInvestment Consulting  \nRequest for Proposals \n \n \n \n \n \n \nAdvertised Date \nApril 29, 2025 \n \n \nProposals Due via email \nMay 30, 2025 \n3:00 pm, Central Time \npsidrys@ctapension.com \n \n55 W. Monroe, Suite 1950 \nChicago, IL 60603",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Retirement-plan investment consultant RFP, not the INREV DDQ."
+    },
+    {
+      "path": "/mnt/docs/S/York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf",
+      "filename": "York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf",
+      "extension": ".pdf",
+      "size_bytes": 943178,
+      "modified_at": "2026-10-07T07:17:46",
+      "created_at": "2026-10-07T07:19:59.264005",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - REQUEST FOR PROPOSALS DRAFT 2.3+ICON.docx",
+      "author": "Frederick",
+      "page_count": 9,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Frederick"
+      ],
+      "preview": "REQUEST FOR PROPOSALS \nFOR \nINVESTMENT \nMANAGER/ADVISER/CONSULTANT \n \n \n \n \n \nCITY OF YORK \nPENSION FUNDS \n \n \nNOVEMBER 28, 2016 \n \n \nRESPONSES DUE JANUARY 6, 2017",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "General investment manager and consultant RFP, unrelated to the specified questionnaire."
+    },
+    {
+      "path": "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+      "filename": "Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 171917,
+      "modified_at": "2026-10-07T07:14:54",
+      "created_at": "2026-10-07T07:19:58.420019",
+      "mime_type": "application/pdf",
+      "title": "Request for Proposal To Provide Audit Services for the",
+      "author": "Evelyn Stewart",
+      "page_count": 6,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Evelyn Stewart"
+      ],
+      "preview": "1 | Page  \n \nRequest for Proposal to Provide Audit Services for the  \nWilliam Marsh Rice University Defined Contribution Retirement Plan \n \nINTRODUCTION  \nRice University (“the University”) requests a proposal to provide external audit services for the \nWilliam Marsh Rice University Defined Contribu",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Benefit-plan audit services RFP, unrelated to real estate vehicle scoring."
+    },
+    {
+      "path": "/mnt/docs/S/OCERS__custodian_services_rfp_questions_and_answers.pdf",
+      "filename": "OCERS__custodian_services_rfp_questions_and_answers.pdf",
+      "extension": ".pdf",
+      "size_bytes": 307624,
+      "modified_at": "2026-10-07T07:07:16",
+      "created_at": "2026-10-07T07:19:58.176023",
+      "mime_type": "application/pdf",
+      "title": "Custodian Services RFP Questions and Answers",
+      "author": "OCERS",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "OCERS",
+        "OCERS Custodian Services RFP Questions and Answers"
+      ],
+      "preview": "Custody Services \nRequest for Proposal \nQuestions & Answers \n \nOctober 2022 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nOrange County Employees Retirement System (OCERS) \nP.O. Box 1229 \nSanta Ana, CA 927021-(714)-558-6200 \nhttp://www.ocers.org",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Custodian services questions and answers, not an INREV due diligence document."
+    },
+    {
+      "path": "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+      "filename": "Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1116389,
+      "modified_at": "2026-10-07T07:14:17",
+      "created_at": "2026-10-07T07:19:58.396020",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Lisa Giles",
+      "page_count": 35,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Lisa Giles"
+      ],
+      "preview": "TRS Request for Proposal # 715-2025-1002 \nJ. KEVIN STITT\nGOVERNOR\nSARAH GREEN \nEXECUTIVE DIRECTOR \nTeachers’ Retirement System of Oklahoma \nP.O. Box 53524 \nOklahoma City, OK  73152-3524 \nOklahoma.gov/trs \n405-521-2387\nREQUEST FOR PROPOSAL \nRFP #:   715-25-1002 RFP Date: November 19, 2025 \nTyp\ne of S",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment consultant RFP with no apparent INREV DDQ or GRESB focus."
+    }
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 217,
+      "timestamp": "2026-10-23 07:33:48.265746",
+      "metadata": {
+        "keywords": [
+          "minimum GRESB score",
+          "INREV due diligence questionnaire",
+          "non-listed real estate vehicle",
+          "GRESB评分",
+          "INREV尽职调查问卷",
+          "非上市房地产投资工具"
+        ],
+        "files_found": 2,
+        "files_discovered": [
+          "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+          "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+        ]
+      }
+    }
+  ],
+  "elapsed_s": 15.269,
+  "calls": 2,
+  "usage": {
+    "prompt_tokens": 3277,
+    "completion_tokens": 1418,
+    "total_tokens": 4695
+  },
+  "group": "R2",
+  "attempt": 1
+}

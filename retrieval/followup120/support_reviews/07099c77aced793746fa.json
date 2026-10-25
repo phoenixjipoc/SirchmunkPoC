@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "07099c77aced793746fa",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "30d68f8537639ec2cf4b5e89f75c53d4f7a34757aa577e6eaca8744b155f28c0",
+    "source_text_sha256": "53569804783646aac401541d4bd8f06ca4371d2199a59c44ad06613e10455875",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a PRIM request for proposals, not the ILPA Due Diligence Questionnaire 2.0. Its table of contents lists five PRIM exhibits, not the requested ILPA appendices.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS (RFP) Active Global Core Equity Investment Management Services September 8, 2026",
+        "Exhibits Description Page A. PRIM Service Providers 49 B. PRIM Disclosure Statement 50 C. Treasurer’s Principal Boards, Commissions and Authorities 53 D. PRIM Investment Policy 54 E. PRIM Investment Management Agreement 55"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS (RFP) Active Global Core Equity Investment Management Services September 8, 2026",
+          "start": 1613,
+          "end": 1715
+        },
+        {
+          "quote": "Exhibits Description Page A. PRIM Service Providers 49 B. PRIM Disclosure Statement 50 C. Treasurer’s Principal Boards, Commissions and Authorities 53 D. PRIM Investment Policy 54 E. PRIM Investment Management Agreement 55",
+          "start": 2230,
+          "end": 2452
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

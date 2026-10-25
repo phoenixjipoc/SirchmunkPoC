@@ -1,0 +1,88 @@
+{
+  "job": {
+    "id": "19ca6a5279c9e2956881",
+    "query_id": "OTH-05",
+    "question": "Under Missouri LAGERS' private markets consultant RFP, how many public fund clients of what minimum size must a respondent provide non-discretionary private market investment consulting to?",
+    "file": "CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+    "expected_facts": "At least three public fund clients with assets of at least $10 billion (as of March 31, 2024).",
+    "acceptance": "At least three public-fund clients with at least $10bn each. March31,2024 is a useful qualifier, not a separately asked fact.",
+    "text_hash": "5c98835d17ae19e74a1c69b0fc86fce32b5dedf1d99ddfe45a7e49317a1c8bd3",
+    "source_text_sha256": "60169ae3746f75165ace8effc688309245b22923d9ef350fc55e0ee0a593895b",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is the Retirement Plan for CTA Employees’ investment consulting RFP, not Missouri LAGERS’ private markets consultant RFP. Its three-client qualification uses a $1 billion threshold and does not establish the required non-discretionary private markets consulting qualification.",
+        "quotes": [
+          "Retirement Plan for CTA Employees Investment Consulting Request for Proposals",
+          "As of December 31, 2024, the firm must have at least three public fund clients, each with at least $1B in assets."
+        ],
+        "quote_matches": [
+          {
+            "quote": "Retirement Plan for CTA Employees Investment Consulting Request for Proposals",
+            "start": 13,
+            "end": 90
+          },
+          {
+            "quote": "As of December 31, 2024, the firm must have at least three public fund clients, each with at least $1B in assets.",
+            "start": 3150,
+            "end": 3263
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the Retirement Plan for CTA Employees’ investment consulting RFP, not Missouri LAGERS’ private markets consultant RFP. Its three-client qualification uses a $1 billion threshold and does not establish the required non-discretionary private markets consulting qualification.",
+      "quotes": [
+        "Retirement Plan for CTA Employees Investment Consulting Request for Proposals",
+        "As of December 31, 2024, the firm must have at least three public fund clients, each with at least $1B in assets."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Retirement Plan for CTA Employees Investment Consulting Request for Proposals",
+          "start": 13,
+          "end": 90
+        },
+        {
+          "quote": "As of December 31, 2024, the firm must have at least three public fund clients, each with at least $1B in assets.",
+          "start": 3150,
+          "end": 3263
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the Retirement Plan for CTA Employees’ investment consulting RFP, not Missouri LAGERS’ private markets consultant RFP. Its qualification is three public fund clients with at least $1 billion in assets each, not $10 billion, and it does not establish the requested non-discretionary private markets consulting requirement.",
+      "quotes": [
+        "Retirement Plan for CTA Employees Investment Consulting Request for Proposals",
+        "As of December 31, 2024, the firm must have at least three public fund clients, each with at least $1B in assets."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Retirement Plan for CTA Employees Investment Consulting Request for Proposals",
+          "start": 13,
+          "end": 90
+        },
+        {
+          "quote": "As of December 31, 2024, the firm must have at least three public fund clients, each with at least $1B in assets.",
+          "start": 3150,
+          "end": 3263
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

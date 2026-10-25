@@ -1,0 +1,71 @@
+{
+  "job": {
+    "id": "959090908cd185d6cb4b",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "b5feb817817e35edbb5bc0aa0af7c6df24842b1fc6b23f62b19531a928524887",
+    "source_text_sha256": "33e6d0f3b03cb97414ead33bc97801d7ca7b3799f628c39bac87276153cef3fe",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Madison, Florida investment consulting RFP, not the SBCERS global custody RFP. Its evaluation criteria have no percentage weights and do not support the four requested categories.",
+      "quotes": [
+        "RFP No. 2025-0901 Investment Consulting Services",
+        "The Board of Trustees for the City of Madison Police Officer’s & Firefighters’ Retirement System (the “Board”) is soliciting Requests for Proposals (RFP) for Investment Consulting firms",
+        "Evaluation consideration will include, but not be limited to, the following:",
+        "1. Responsiveness of the Proposal in clearly stating an understanding of the work to be performed.",
+        "2. Technical ability of the Proposer(s) and consultant assigned to the case to perform consulting services.",
+        "3. Experience of Proposer(s) and assigned consultant.",
+        "4. The fees and expenses are a significant factor."
+      ],
+      "quote_matches": [
+        {
+          "quote": "RFP No. 2025-0901 Investment Consulting Services",
+          "start": 159,
+          "end": 207
+        },
+        {
+          "quote": "The Board of Trustees for the City of Madison Police Officer’s & Firefighters’ Retirement System (the “Board”) is soliciting Requests for Proposals (RFP) for Investment Consulting firms",
+          "start": 2306,
+          "end": 2491
+        },
+        {
+          "quote": "Evaluation consideration will include, but not be limited to, the following:",
+          "start": 27262,
+          "end": 27338
+        },
+        {
+          "quote": "1. Responsiveness of the Proposal in clearly stating an understanding of the work to be performed.",
+          "start": 27339,
+          "end": 27437
+        },
+        {
+          "quote": "2. Technical ability of the Proposer(s) and consultant assigned to the case to perform consulting services.",
+          "start": 27438,
+          "end": 27545
+        },
+        {
+          "quote": "3. Experience of Proposer(s) and assigned consultant.",
+          "start": 27546,
+          "end": 27599
+        },
+        {
+          "quote": "4. The fees and expenses are a significant factor.",
+          "start": 27718,
+          "end": 27768
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

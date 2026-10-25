@@ -1,0 +1,112 @@
+{
+  "job": {
+    "id": "1f2521d1d500ab021ee9",
+    "query_id": "DDQ-02",
+    "question": "Which due diligence questionnaire asks respondents what percentage of their current portfolio companies are located in New Jersey and what percentage are Life Science/Healthcare companies?",
+    "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+    "expected_facts": "The NJEDA Appendix A Due Diligence Questionnaire (NJEDA Life Science Seed Fund notice of investment opportunity, 2023), question 4.6 under '4.0 Proposed Fund Investment Strategy'.",
+    "acceptance": "NJEDA Life Science Seed Fund DDQ is sufficient identification; 2023, Appendix A and Q4.6 are optional supporting detail.",
+    "text_hash": "331a4f3a76ae4b017955d456e0d0109f9c5a8c6234151c5a77fc5602b03f12da",
+    "source_text_sha256": "62db2ddc08b6705150414332e929f3917945d4016cb8f2e1cd2436463593a880",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is INREV’s 2018 questionnaire for non-listed real estate investment vehicles, not the NJEDA Life Science Seed Fund questionnaire. It does not ask for the percentages of current portfolio companies located in New Jersey or in Life Science/Healthcare.",
+        "quotes": [
+          "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007",
+          "the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+          "Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles"
+        ],
+        "quote_matches": [
+          {
+            "quote": "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007",
+            "start": 1446,
+            "end": 1565
+          },
+          {
+            "quote": "the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+            "start": 2048,
+            "end": 2135
+          },
+          {
+            "quote": "Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles",
+            "start": 4400,
+            "end": 4474
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is INREV’s 2018 questionnaire for non-listed real estate investment vehicles, not the NJEDA Life Science Seed Fund questionnaire. It does not ask for the percentages of current portfolio companies located in New Jersey or in Life Science/Healthcare.",
+      "quotes": [
+        "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007",
+        "the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+        "Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007",
+          "start": 1446,
+          "end": 1565
+        },
+        {
+          "quote": "the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+          "start": 2048,
+          "end": 2135
+        },
+        {
+          "quote": "Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles",
+          "start": 4400,
+          "end": 4474
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is INREV’s 2018 questionnaire for non-listed real estate investment vehicles, not the NJEDA Life Science Seed Fund DDQ. It does not ask for the percentages of current portfolio companies located in New Jersey or in Life Science/Healthcare.",
+      "quotes": [
+        "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007",
+        "the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+        "1.2 Existing Portfolio (Existing Vehicle) or Seed Assets (New Vehicle)",
+        "1.2.1 Complete the table in Appendix II for the subject vehicle to describe the composition of your portfolio."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007",
+          "start": 1446,
+          "end": 1565
+        },
+        {
+          "quote": "the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+          "start": 2048,
+          "end": 2135
+        },
+        {
+          "quote": "1.2 Existing Portfolio (Existing Vehicle) or Seed Assets (New Vehicle)",
+          "start": 158,
+          "end": 228
+        },
+        {
+          "quote": "1.2.1 Complete the table in Appendix II for the subject vehicle to describe the composition of your portfolio.",
+          "start": 10724,
+          "end": 10834
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

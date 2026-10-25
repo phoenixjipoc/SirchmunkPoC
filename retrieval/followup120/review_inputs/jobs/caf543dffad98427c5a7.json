@@ -1,0 +1,12 @@
+{
+  "id": "caf543dffad98427c5a7",
+  "query_id": "INV-08",
+  "question": "A sample investment management RFP for a domestic equity small cap growth mandate sets portfolio guidelines. What are the limits on single-issuer holdings, foreign issuers and cash, and which index must the portfolio outperform?",
+  "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+  "expected_facts": "No more than 5% of the portfolio (at time of purchase) in any single issuer other than the Federal Government/Agencies or the designated cash reserve fund; no more than 20% in foreign issuers, which must trade on the NYSE, ASE or NASDAQ; cash and equivalents no more than 10% except during cash withdrawals or contributions; the portfolio is expected to outperform the Russell 2000 Growth Index, net of fees. Issuer: Illinois Municipal Retirement Fund (IMRF) sample RFP.",
+  "acceptance": "Accept equivalent 5% single-issuer at purchase, 20% foreign listed on specified US exchanges, 10% cash, and Russell 2000 Growth net-of-fee target. Preserve material exceptions; issuer identification is optional.",
+  "text_hash": "bbc5aa974f33a642622995234835e9395ec434792cd34aee6fa6e2448cb34a49",
+  "source_text_sha256": "ef809dc88bd158929af52565b0c35337429a448aa163f0f9466c3d4c5f44b3bd",
+  "second_check_required": false,
+  "prior_reviews": []
+}

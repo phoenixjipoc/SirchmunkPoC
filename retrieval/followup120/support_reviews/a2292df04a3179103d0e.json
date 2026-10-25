@@ -1,0 +1,59 @@
+{
+  "job": {
+    "id": "a2292df04a3179103d0e",
+    "query_id": "INV-09",
+    "question": "An investment manager RFP template for an emerging markets equity strategy (issued February 14, 2022, responses due March 31, 2022) lists required minimum qualifications and 'preferred criteria'. What live track record does it require, and what public pension client base does it prefer?",
+    "file": "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+    "expected_facts": "Required: an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy (qualified women-, minority- or disabled-owned businesses are exempt). Preferred: at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan client with over $10 billion in total plan assets (plus no material litigation in the past five years). Issuer: State Universities Retirement System of Illinois (SURS).",
+    "acceptance": "Accept five-year live strategy record and the alternative client tests (two >$1bn U.S. public pensions OR one >$10bn public plan). Ownership exemption is a relevant qualification. Issuer, litigation criterion and placeholder date need not be volunteered.",
+    "text_hash": "53d9721d2e2c3d6a51e0fc4bfb31c9316f7e85c40c0e7f0d49e078816ff62d05",
+    "source_text_sha256": "c2664794e00ae7c2cedc789c6096ac5a57a34278a2e7017af86c3eed125ae7ab",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Cook County Fund manager-of-managers RFP issued in 2025, not the specified SURS emerging-markets-equity RFP issued in 2022. Its preferred three-year performance record is neither a required five-year live strategy record nor evidence of the specified public-pension client preferences.",
+      "quotes": [
+        "THE RETIREMENT BOARD OF THE COUNTY EMPLOYEES’ AND OFFICERS’ ANNUITY AND BENEFIT FUND OF COOK COUNTY",
+        "REQUEST FOR PROPOSALS (RFP) TO PROVIDE MANAGER OF MANAGERS INVESTMENT SERVICES",
+        "ISSUED ON: DECEMBER 4, 2025",
+        "The Responder should preferably have a three-year performance track record implementing the relevant strategy on behalf of institutional investors.",
+        "Established institutional client base, particularly tax-exempt clients"
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE RETIREMENT BOARD OF THE COUNTY EMPLOYEES’ AND OFFICERS’ ANNUITY AND BENEFIT FUND OF COOK COUNTY",
+          "start": 13,
+          "end": 112
+        },
+        {
+          "quote": "REQUEST FOR PROPOSALS (RFP) TO PROVIDE MANAGER OF MANAGERS INVESTMENT SERVICES",
+          "start": 212,
+          "end": 290
+        },
+        {
+          "quote": "ISSUED ON: DECEMBER 4, 2025",
+          "start": 291,
+          "end": 318
+        },
+        {
+          "quote": "The Responder should preferably have a three-year performance track record implementing the relevant strategy on behalf of institutional investors.",
+          "start": 9395,
+          "end": 9542
+        },
+        {
+          "quote": "Established institutional client base, particularly tax-exempt clients",
+          "start": 21828,
+          "end": 21898
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

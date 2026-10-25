@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "2a70f00bc62edc2bb107",
+    "query_id": "XD-06",
+    "question": "One private equity due diligence questionnaire asks whether the fund gives limited partners more than a certain number of business days' notice for capital calls. What is the threshold, and in which section of the questionnaire is this question?",
+    "file": "SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+    "expected_facts": "The threshold is more than 10 business days' notice for capital calls, either generally or in specific circumstances (e.g. when a single capital call is above an agreed and stated percentage of total unfunded commitment). It is question 7.14 in Section 7.0 Credit Facilities of the ILPA Due Diligence Questionnaire 2.0.",
+    "acceptance": "Accept more than ten business days and Credit Facilities. Question number, document version and illustrative circumstances are helpful but not all mandatory for the narrow threshold/section question.",
+    "text_hash": "74059d0858a2db0c8f58f5c826a4294c6484eb59297243278164fed6a06be3bd",
+    "source_text_sha256": "59ab22e6fcedca8392d9d5d47b28976ca7b9c0f646d18aac11ba6979231c5d9d",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a fixed-income investment-management RFP, not the private-equity due diligence questionnaire. It contains neither a capital-call notice threshold nor a Credit Facilities section.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL FIXED INCOME INVESTMENT MANAGEMENT SERVICES",
+        "VI. Client Specific Interrogatories"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL FIXED INCOME INVESTMENT MANAGEMENT SERVICES",
+          "start": 20,
+          "end": 84
+        },
+        {
+          "quote": "VI. Client Specific Interrogatories",
+          "start": 6610,
+          "end": 6645
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

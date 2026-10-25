@@ -1,0 +1,77 @@
+{
+  "job": {
+    "id": "70d09de809d44373b0ed",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "b1b58831638092aa2c4058820d103b7fbdbca636b18c44a0d4120044ca4b814b",
+    "source_text_sha256": "9f5bdf4dd9b56cf14ad12c68d7eac6a3122ac753ad93b2296c4763b688071979",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2020 SBCERS private equity consultant RFP, not the ILPA Due Diligence Questionnaire 2.0. Its table of contents lists two numbered appendices, not the eight lettered ILPA appendices; it provides no evidence for their titles.",
+      "quotes": [
+        "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+        "APPENDIX I: LIST OF CURRENT MANAGERS",
+        "APPENDIX II: QUIET PERIOD POLICY"
+      ],
+      "quote_matches": [
+        {
+          "quote": "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+          "start": 13,
+          "end": 143
+        },
+        {
+          "quote": "APPENDIX I: LIST OF CURRENT MANAGERS",
+          "start": 3556,
+          "end": 3592
+        },
+        {
+          "quote": "APPENDIX II: QUIET PERIOD POLICY",
+          "start": 3667,
+          "end": 3699
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied file is a 2020 SBCERS private-equity consultant RFP, not the ILPA Due Diligence Questionnaire 2.0. Its table of contents lists two numbered appendices, not eight lettered appendices, and provides none of the requested titles.",
+      "quotes": [
+        "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+        "APPENDIX I: LIST OF CURRENT MANAGERS",
+        "APPENDIX II: QUIET PERIOD POLICY"
+      ],
+      "quote_matches": [
+        {
+          "quote": "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+          "start": 13,
+          "end": 143
+        },
+        {
+          "quote": "APPENDIX I: LIST OF CURRENT MANAGERS",
+          "start": 3556,
+          "end": 3592
+        },
+        {
+          "quote": "APPENDIX II: QUIET PERIOD POLICY",
+          "start": 3667,
+          "end": 3699
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

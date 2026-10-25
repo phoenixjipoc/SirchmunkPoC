@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "59d3aea000bfc367a3dd",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "e208b396d807c84110e10df7ec74d980a1905d8e99839a26651b44e9927a80ca",
+    "source_text_sha256": "48df375d7d5f4c68eef011c530a1b8e2446893a55aa03aa4e9c6a423a07b3e4c",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2011 District of Columbia Retirement Board RFP, not the ILPA Due Diligence Questionnaire 2.0. Its table of contents lists seven attachments, not the eight requested appendices.",
+      "quotes": [
+        "District of Columbia Retirement Board Request for Proposal Real Assets Investment Consulting Services",
+        "Solicitation DCRB-2011-001 Issue Date: January 10, 2011",
+        "ATTACHMENTS A. Representations and Warranties B. Proposal Questionnaire C. Fee Schedule D. Fiduciary Definition E. Bonding Requirement F. List of Fiduciaries and Service Providers G. List of Current Real Assets Managers"
+      ],
+      "quote_matches": [
+        {
+          "quote": "District of Columbia Retirement Board Request for Proposal Real Assets Investment Consulting Services",
+          "start": 1000,
+          "end": 1101
+        },
+        {
+          "quote": "Solicitation DCRB-2011-001 Issue Date: January 10, 2011",
+          "start": 169,
+          "end": 224
+        },
+        {
+          "quote": "ATTACHMENTS A. Representations and Warranties B. Proposal Questionnaire C. Fee Schedule D. Fiduciary Definition E. Bonding Requirement F. List of Fiduciaries and Service Providers G. List of Current Real Assets Managers",
+          "start": 1545,
+          "end": 1764
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

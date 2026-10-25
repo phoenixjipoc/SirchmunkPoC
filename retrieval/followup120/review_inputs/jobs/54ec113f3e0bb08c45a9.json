@@ -1,0 +1,12 @@
+{
+  "id": "54ec113f3e0bb08c45a9",
+  "query_id": "CONS-02",
+  "question": "In the NYC Board of Education Retirement System (BERS) RFP 2024-003 for investment consulting services, how many maximum evaluation points are assigned to the annual fee proposal?",
+  "file": "IMRF__sample-investment-consulting-rfp.pdf",
+  "expected_facts": "28 points (out of 100). Full breakdown: Program Plan/Narrative 18, Organizational Capacity/Knowledge and Experience 23, Demonstrated Effectiveness 22, Fee Proposal - Annual Fee 28, Fee Proposal - Hourly Rate 9.",
+  "acceptance": "28 points alone is sufficient. Other scoring categories and fee formula are optional.",
+  "text_hash": "ea9d2789dbf2664c70adf4312c00b0ec81c54cf1741478e3e2757e93a2e66025",
+  "source_text_sha256": "9c1ec794ed5ca3d42e6eb1fbcbbbb339195c2c9b872a54f9d0d1536d9a860ec5",
+  "second_check_required": false,
+  "prior_reviews": []
+}

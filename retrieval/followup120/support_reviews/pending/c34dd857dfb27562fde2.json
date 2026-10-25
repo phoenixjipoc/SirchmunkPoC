@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "c34dd857dfb27562fde2",
+    "query_id": "CONS-14",
+    "question": "What are all the minimum requirements in Section 2 (pages 4–5) of the City of Hartford MERF general investment consultant RFP?",
+    "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "expected_facts": "Section2 requires: (1) at least ten years providing general consulting; (2) senior leadership together at least three years; (3) no subcontracting account management, and all responsible personnel are employees; (4) currently consulting for at least five public pension funds each over $1.5bn; (5) primary consultant has at least five years of defined-benefit public-pension consulting and at least three years employed by proposer; (6) fiduciary service to MERF/OPEB and written compliance with their investment policies/guidelines; (7) no existing or potential material conflicts with the City Treasurer/staff, Pension Commission, OPEB Committee, actuary, auditor, managers or other providers; (8) agree to execute a contract similar to AppendixE; (9) current SEC investment-adviser registration; (10) carry or have applied by submission for general liability $5m, E&O/professional liability $5m, fiduciary liability $1m, workers' compensation/employer liability $1m, and cybersecurity $1m. Section2 says all qualifications must be met by March15,2024 at 5pm ET and AppendixA certification must be completed. AppendixA separately uses different client-threshold/history and insurance-date wording; this answer follows Section2 as asked.",
+    "acceptance": "Require all ten Section2 bullet requirements and five insurance limits when asking 'all'. If the question retains whole-document scope, allow explanation of Section2 versus AppendixA differences rather than forcing a single contradictory date or >/$1.5bn threshold.",
+    "text_hash": "3b4fb541c2d35b7de747c8f6c26cc3a40bee097d58737ad466dbef56acdfa755",
+    "source_text_sha256": "a7628e3fc4e0a9323e896059440a5b708d424232eec8242be9362eb818e6b682",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is Clark County, Washington’s 2026 RFP for a deferred compensation 457 plan administrator, not the City of Hartford MERF general investment consultant RFP. Its minimum qualifications and insurance provisions concern a different issuer and role and cannot establish the requested Section 2 requirements.",
+      "quotes": [
+        "REQUEST for PROPOSAL # 955 PROFESSIONAL, TECHNICAL AND EXPERT SERVICES Clark County Washington",
+        "Request for Proposal for: DEFERRED COMPENSATION 457 PLAN ADMINISTRATOR",
+        "The County requires each Proposing Firm responding to this RFP to certify that it meets or agrees to the following criteria:",
+        "The Proposing Firm must have a minimum of five (5) years of experience administering governmental Section 457 deferred compensation plans"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST for PROPOSAL # 955 PROFESSIONAL, TECHNICAL AND EXPERT SERVICES Clark County Washington",
+          "start": 13,
+          "end": 107
+        },
+        {
+          "quote": "Request for Proposal for: DEFERRED COMPENSATION 457 PLAN ADMINISTRATOR",
+          "start": 244,
+          "end": 314
+        },
+        {
+          "quote": "The County requires each Proposing Firm responding to this RFP to certify that it meets or agrees to the following criteria:",
+          "start": 17600,
+          "end": 17724
+        },
+        {
+          "quote": "The Proposing Firm must have a minimum of five (5) years of experience administering governmental Section 457 deferred compensation plans",
+          "start": 17728,
+          "end": 17865
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

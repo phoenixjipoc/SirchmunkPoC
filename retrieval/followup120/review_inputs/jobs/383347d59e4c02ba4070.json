@@ -1,0 +1,36 @@
+{
+  "id": "383347d59e4c02ba4070",
+  "query_id": "OTH-05",
+  "question": "Under Missouri LAGERS' private markets consultant RFP, how many public fund clients of what minimum size must a respondent provide non-discretionary private market investment consulting to?",
+  "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+  "expected_facts": "At least three public fund clients with assets of at least $10 billion (as of March 31, 2024).",
+  "acceptance": "At least three public-fund clients with at least $10bn each. March31,2024 is a useful qualifier, not a separately asked fact.",
+  "text_hash": "70ba69fa78a5262a5a903e6c962a7ed533f83b2f39cbeaae0d6efcae5122f669",
+  "source_text_sha256": "c0d34ab691e3323f8b02fd000d177f6559326d07370721a1d326e71475259a58",
+  "second_check_required": true,
+  "prior_reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Boston Retirement System RFP attachment, not Missouri LAGERS’ private markets consultant RFP. Its request for up to 10 public-fund references with assets greater than $1 billion does not establish a requirement to provide non-discretionary private-market consulting to at least three public funds with at least $10 billion each.",
+      "quotes": [
+        "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+        "Provide a list of up to 10 current public fund clients with assets greater than $1 billion for whom work similar to that requested in this RFP has been performed by your firm."
+      ],
+      "quote_matches": [
+        {
+          "quote": "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+          "start": 86,
+          "end": 163
+        },
+        {
+          "quote": "Provide a list of up to 10 current public fund clients with assets greater than $1 billion for whom work similar to that requested in this RFP has been performed by your firm.",
+          "start": 7958,
+          "end": 8133
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ]
+}

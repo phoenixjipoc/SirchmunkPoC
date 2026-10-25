@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "421a3730e5228a117e1b",
+    "query_id": "INV-20",
+    "question": "Which meetings must the investment consultant attend under the IMRF sample RFP for investment consulting, real estate consulting and performance measurement services, and how many days of meetings per year does IMRF estimate?",
+    "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "expected_facts": "(1) Monthly IMRF Board meetings; (2) Investment Committee meetings; (3) the Annual IMRF Roundtable; (4) regional meetings with investment managers; (5) related investment meetings and discussions; (6) formal interviews with existing and potential investment managers; (7) ad hoc due diligence meetings with investment managers and staff. IMRF estimates about sixty days of meetings per year with the Board and/or staff, plus frequent telephone discussions with staff.",
+    "acceptance": "All seven meeting categories and about 60 days/year. Frequent telephone calls and principal-attendance details are optional.",
+    "text_hash": "7bf0434135598b4379264b9228ec0ae5d514d2497cf998a89da96d5f3d55878f",
+    "source_text_sha256": "1620734055a07375d68aca7dc5b3529168cc1928cf355fcdb11e514e6b786b4c",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is COAERS’s 2025 RFP for actuarial services, not the IMRF sample RFP for investment consulting, real estate consulting, and performance measurement services. It provides none of the required IMRF meeting categories or the estimate of about 60 meeting days per year.",
+      "quotes": [
+        "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM Request for Proposal (RFP)",
+        "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan June 26, 2025",
+        "Respondent will provide assistance and information to the COAERS Investment Consultant, in order to perform an Asset/Liability Study."
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM Request for Proposal (RFP)",
+          "start": 13,
+          "end": 83
+        },
+        {
+          "quote": "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan June 26, 2025",
+          "start": 163,
+          "end": 268
+        },
+        {
+          "quote": "Respondent will provide assistance and information to the COAERS Investment Consultant, in order to perform an Asset/Liability Study.",
+          "start": 36341,
+          "end": 36474
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

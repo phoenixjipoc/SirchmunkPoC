@@ -1,0 +1,135 @@
+{
+  "query_id": "SVC-12",
+  "question": "According to the Monroe County deferred compensation services RFP, how many participants did the plan have and what were its total assets?",
+  "type": "pair_b",
+  "pair_id": "P13",
+  "group": "S",
+  "references": [
+    {
+      "rank": 1,
+      "file": "Monroe_County_NY__10406.pdf",
+      "path": "/mnt/docs/S/Monroe_County_NY__10406.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+      "path": "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "path": "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "path": "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "OCERS__custodian_rfp_2022-2023.pdf",
+      "path": "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+      "path": "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf"
+    }
+  ],
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "baseline_sha256": "d5703756211c56ec2a5e42ce615890512ece3e33308bb2acc328d4f8904d2afd",
+  "original_files": [
+    "Monroe_County_NY__10406.pdf",
+    "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "Temple_City_CA__Recordkeeping-RFP.pdf",
+    "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "OCERS__custodian_rfp_2022-2023.pdf",
+    "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+  ],
+  "ranking_prompt": "{\"question\": \"According to the Monroe County deferred compensation services RFP, how many participants did the plan have and what were its total assets?\", \"candidates\": [{\"filename\": \"Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf\", \"extension\": \".pdf\", \"title\": \"`REQUEST FOR PROPOSALS\", \"author\": \"Clark County\", \"page_count\": 63, \"keywords\": [\"Clark County\"], \"preview\": \"REQUEST for PROPOSAL # 955 \\nPROFESSIONAL, TECHNICAL AND EXPERT SERVICES \\n \\nClark County Washington \\n \\n          RELEASE DATE: WEDNESDAY, MAY 6, 2026  \\n                DUE DATE: WEDNESDAY, JUNE 10, 2026 by 11:00 am \\n \\nLATE PROPOSALS WILL NOT BE ACCEPTED – NO EXCEPTIONS \\n \\nRequest for Proposal for: \\n \\nDEFERRED COMPENSATION 457 PLAN ADMINISTRATOR \\n \\nSUBMIT:   \\nOne (1) Original \\nTwo (2) Complete Copies \\nOne (1) Electronic Copy on a USB drive \\nof the Proposal to:  \\n \\nUnited Parcel Service / FedEx or Hand Delivery  \\n \\nClark County  \\nATTN: Office of Purchasing \\n1300 Franklin Street, 6th Floor, Suite 650 \\nVancouver WA 98660  \\n564-397-2323 \\nUnited States Postal Service \\n \\nNot Available \\n \\n \\n \\n \\nOffice Hours: 8:00 am – 3:00 pm, Monday – Friday, except Legal Holidays. \\nNo elect\", \"full_content\": \"\"}, {\"filename\": \"Delaware__TRE21101-RECDKEEPR-rfp.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Davis, Liza D (OST)\", \"page_count\": 109, \"keywords\": [\"Davis, Liza D (OST)\"], \"preview\": \"1 \\n \\nREQUEST FOR PROPOSAL FOR DEFERRED COMPENSATION PLAN \\nRECORDKEEPING AND ADMINISTRATION SERVICES ISSUED BY THE \\nOFFICE OF THE STATE TREASURER   \\nCONTRACT NUMBER:  TRE-CPM-21101- DEFERRED COMPENSATION PLAN \\nRECORDKEEPING AND ADMINISTRATION SERVICES \\n \\n \\nI. OVERVIEW \\n \\nBy this request for proposal (“RFP”), the Office of the State Treasurer (“OST”), on behalf of the Plans \\nManagement Board (“Board”), is seeking proposals from qualified vendors ( “Vendors”) to provide \\nrecordkeeping and administrative services for the three plans (collectively, the “Plans”) within the State’s \\nDeferred Compensation Program authorized under Chapter 60A of Title 29 of the Delaware Code (the \\n“DC Program ”) and applicable provisions of the Internal Revenue Code (“IRC”) . This request for \\nproposals (“R\", \"full_content\": \"\"}, {\"filename\": \"Monroe_County_NY__10406.pdf\", \"extension\": \".pdf\", \"title\": \"Deferred Comp RFP\", \"author\": \"Monroe County\", \"page_count\": 18, \"keywords\": [\"Monroe County\"], \"preview\": \"Deferred Compensation Services: \\n \\nAdministrative/Recordkeeping Services, \\nMarketing/Enrollment/Education Services, \\nInvestment Management, and \\nCustodial Trustee Services \\n \\nAugust 4, 2023 \\nRequest for Proposals\", \"full_content\": \"\"}, {\"filename\": \"OCERS__custodian_rfp_2022-2023.pdf\", \"extension\": \".pdf\", \"title\": \"Custodian RFP\", \"author\": \"OCERS\", \"page_count\": 51, \"keywords\": [\"OCERS\", \"RFP\", \"Investments\"], \"preview\": \"Custody Services \\nRequest for Proposal \\n \\nOctober 2022 \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nOrange County Employees Retirement System (OCERS) \\nP.O. Box 1229 \\nSanta Ana, CA 92702 \\n(714)-558-6200 \\nhttp://www.ocers.org\", \"full_content\": \"\"}, {\"filename\": \"SBCERA__investment_consultant_-_request_for_proposals.pdf\", \"extension\": \".pdf\", \"title\": \"Request for Proposal - Investment Consultant\", \"author\": \"emoreno\", \"page_count\": 40, \"keywords\": [\"emoreno\"], \"preview\": \"SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION \\nREQUEST FOR PROPOSAL (RFP) \\nFOR \\nINVESTMENT CONSULTING SERVICES\", \"full_content\": \"\"}, {\"filename\": \"SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Kristina Richter\", \"page_count\": 97, \"keywords\": [\"Kristina Richter\"], \"preview\": \"Santa Barbara County Employees’ Retirement System Global Custody and Related Services 1 \\n \\n \\nRequest for Proposal \\n \\n  \\nGlobal Custody and Related Services \\nSanta Barbara County Employees’ Retirement System \\n(“SBCERS”) \\n \\n  \\nIssue Date:       January 8, 2024 \\nQuestions Due:      January 12, 2024  \\nQ&A Responses Delivered:    January 22, 2024  \\nSubmission Deadline:      February 2, 2024  \\n \\n  \\nDesignated Contact: \\nJonathan Kowolik    Lindsey Longwell \\nSenior Consultant, Principal  Consultant \\nRVK, Inc.     RVK, Inc.  \\nOne Penn Plaza, Suite 2131  1211 SW 5th Avenue, Suite 900 \\nNew York, NY 10119   Portland, OR 97204 \\nJonathan.Kowolik@rvkinc.com  Lindsey.Longwell@rvkinc.com  \\nIOSG@rvkinc.com\", \"full_content\": \"\"}, {\"filename\": \"SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf\", \"extension\": \".pdf\", \"title\": \"August 11, 2008\", \"author\": \"dpcadmin\", \"page_count\": 21, \"keywords\": [\"dpcadmin\"], \"preview\": \"SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM \\nREQUEST FOR PROPOSAL (RFP) FOR \\nGENERAL INVESTMENT CONSULTANT\", \"full_content\": \"\"}, {\"filename\": \"TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf\", \"extension\": \".pdf\", \"title\": \" TMRS RFP General Investment Consulting Services\", \"author\": \"TMRS\", \"page_count\": 39, \"keywords\": [\"TMRS\"], \"preview\": \"1 \\n \\n \\n \\n \\nRequest for Proposal (RFP) \\nNON-DISCRETIONARY  \\nGENERAL INVESTMENT CONSULTING SERVICES \\n \\n \\nNotice to Prospective Respondents \\nFebruary 3, 2022 \\n \\nYou are invited to review and respond to this Texas Municipal Reti rement System (TMRS) Request \\nfor Proposal ( RFP) e ntitled Non-Discretionary General Investment  Consulting Services . In \\nsubmitting your proposal, you must comply with the instructions found herein.   \\n \\nResponses must be received  no later than 5:00 p.m. Central Standard Time (CST) on March 3, \\n2022.  Pro posals received after this  date and time will not be considered.  Please see Section -VII – \\nTransmittal instructions for detailed information on how to respond. \\n                            \\nRespondents requiring clarification of the content of this RFP may r\", \"full_content\": \"\"}, {\"filename\": \"TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf\", \"extension\": \".pdf\", \"title\": \"RFP for Private Equity Investment Consultant\", \"author\": \"TRS\", \"page_count\": 95, \"keywords\": [\"TRS\"], \"preview\": \"1\\n \\nT\\neachers’ Retirement System \\nof the State of Illinois \\nREQUEST FOR PROPOSALS FOR \\nPRIVATE EQUITY INVESTMENT CONSULTANT SERVICES \\nIssued August 7, 2024 \\nRe\\nsponses due 2:00 CDT, Wednesday, September 4, 2024\", \"full_content\": \"\"}, {\"filename\": \"Temple_City_CA__Recordkeeping-RFP.pdf\", \"extension\": \".pdf\", \"title\": \"REQUEST FOR PROPOSAL\", \"author\": \"kwelch\", \"page_count\": 57, \"keywords\": [\"kwelch\"], \"preview\": \"City of Temple City, California \\n457 Deferred Compensation Plan \\n \\nRequest for Proposals for \\nPlan Administration and Record Keeping Services \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nRFP DISTRIBUTION DATE: June 17, 2020 at 4:00 PM (Pacific Time) \\nDUE DATE FOR QUESTIONS: June 29, 2020 at 4:00 PM (Pacific Time) \\nDUE DATE FOR RESPONSE SUBMISSION: July 13, 2020, 2020 at 4:00 PM (Pacific Time) \\n \\nImportant Notice: If y ou received this solicitation from any source other than the Plan Sponsor’s Consultant, you must request a copy \\ndirectly from Hyas Group in order to receive answers as well as subsequent updates, amendments and/or other documents. Failur e to \\ncontact the Consultant may result in the rejection of your offer.\", \"full_content\": \"\"}]}",
+  "keyword_files": [
+    "/mnt/docs/S/Monroe_County_NY__10406.pdf",
+    "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf",
+    "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "/mnt/docs/S/DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "/mnt/docs/S/SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+    "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf",
+    "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+    "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf",
+    "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+    "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+    "/mnt/docs/S/CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+    "/mnt/docs/S/Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+    "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+    "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+    "/mnt/docs/S/Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+    "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/Monroe_County_NY__10406.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/Monroe_County_NY__10406.pdf",
+    "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf",
+    "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf"
+  ],
+  "status": "ok",
+  "elapsed_s": 6.141,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 2282,
+    "completion_tokens": 383,
+    "total_tokens": 2665
+  },
+  "attempt": 1
+}

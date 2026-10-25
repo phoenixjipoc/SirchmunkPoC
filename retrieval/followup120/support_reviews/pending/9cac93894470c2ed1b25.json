@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "9cac93894470c2ed1b25",
+    "query_id": "INV-03",
+    "question": "In the Boston Retirement System's investment consulting services proposal questionnaire (Attachment 3), how many current public fund client references must be listed, and what minimum asset size must those clients have?",
+    "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "expected_facts": "Up to 10 current public fund clients with assets greater than $1 billion for whom similar work was performed, giving name, contact, telephone number, asset values, number of years the client has retained the firm and the service used.",
+    "acceptance": "Accept up to ten / no more than ten and >$1bn. Contact-detail fields and similar-work context are supplementary; exactly ten or at least $1bn is not equivalent.",
+    "text_hash": "e529592be16077691cd54aac3c1a9e7ed524ba5b471c34ebf5ebe0296f8ab615",
+    "source_text_sha256": "40f6e66cda735b5ac3e65bb52c7627bc76b11a8e7017ca73d4ed3e9b2360ca3a",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Austin Employees’ Retirement System RFP, not the Boston Retirement System’s Attachment 3 questionnaire. Its reference requirement gives a different count and no asset threshold; its $1 billion criterion applies to minimum firm qualifications, not the requested client references.",
+      "quotes": [
+        "City of Austin Employees’ Retirement System",
+        "Section 5 should include a minimum of three references from clients for whom similar services are performed",
+        "The firm must have at least two U.S. public pension fund clients, each with assets in excess of one billion U.S. dollars as of December 31, 2023.",
+        "Investment consulting firms must complete the Questionnaire titled Appendix A, which can be found as a separate document on our website at www.coaers.org/gic-rfp."
+      ],
+      "quote_matches": [
+        {
+          "quote": "City of Austin Employees’ Retirement System",
+          "start": 154,
+          "end": 197
+        },
+        {
+          "quote": "Section 5 should include a minimum of three references from clients for whom similar services are performed",
+          "start": 45935,
+          "end": 46042
+        },
+        {
+          "quote": "The firm must have at least two U.S. public pension fund clients, each with assets in excess of one billion U.S. dollars as of December 31, 2023.",
+          "start": 60701,
+          "end": 60846
+        },
+        {
+          "quote": "Investment consulting firms must complete the Questionnaire titled Appendix A, which can be found as a separate document on our website at www.coaers.org/gic-rfp.",
+          "start": 63339,
+          "end": 63501
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

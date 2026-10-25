@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "661f54b34c0c589a436a",
+    "query_id": "OTH-06",
+    "question": "In Clark County, Washington's RFP 955 for a deferred compensation 457 plan administrator, how much was held in the 457 Plans as of December 31, 2025, and who is the current provider?",
+    "file": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+    "expected_facts": "Approximately $167 million; the current provider is Lincoln Financial.",
+    "acceptance": "Accept approximately $167m (or appropriately reconciled table total) and Lincoln Financial; not just County-only $162.85m.",
+    "text_hash": "6b179eedd0acf11d4033b486705b8677fb78308e47584950c128cde739d4f025",
+    "source_text_sha256": "81bbcbe9365fdc601c3f939281acb26f90195cb62f71e9af6d67ff79a5c33f94",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2022 Boston Retirement System RFP for pension actuarial services, not Clark County, Washington’s RFP 955 for a 457 plan administrator. It provides neither the December 31, 2025 plan holdings nor the current provider.",
+      "quotes": [
+        "Request for Proposal Actuarial and Consulting Services for Pension Benefits Boston Retirement System September 12, 2022",
+        "The Boston Retirement System (“BRS”), hereby requests sealed proposals from interested and qualified actuary firms (“Offerors”) to provide actuarial and consulting services"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Actuarial and Consulting Services for Pension Benefits Boston Retirement System September 12, 2022",
+          "start": 13,
+          "end": 132
+        },
+        {
+          "quote": "The Boston Retirement System (“BRS”), hereby requests sealed proposals from interested and qualified actuary firms (“Offerors”) to provide actuarial and consulting services",
+          "start": 9911,
+          "end": 10083
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

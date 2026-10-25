@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "8bb3751a31f5aec3eb0e",
+    "query_id": "INV-15",
+    "question": "In the Baltimore City Employees' Retirement Systems (BCERS) RFP for an alternatives consultant, how many years must the proposing firm have been in business?",
+    "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "expected_facts": "At least seven (7) years providing general consulting services plus private equity consulting services, or alternatives consulting services only (all minimum qualifications must be met as of November 8, 2024, 3:00 p.m. EDT).",
+    "acceptance": "Seven years is sufficient for the narrow question. Service type and qualification deadline are optional; five-year staff experience is not the firm threshold.",
+    "text_hash": "1293d72cf747218c60a7c2a6d672307dfc4ed9a219b9d94748104754f6a40b02",
+    "source_text_sha256": "7ed4136b9f78094e292fd0483fe60026c36824af173945e88edf069fb23a58f7",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a SURS emerging-markets equity RFP template, not the BCERS alternatives-consultant RFP. Its five-year requirement concerns a strategy track record, not how long the proposing firm has been in business.",
+      "quotes": [
+        "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+        "The proposing firm must have an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy as of 12/31/20__."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+          "start": 7442,
+          "end": 7531
+        },
+        {
+          "quote": "The proposing firm must have an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy as of 12/31/20__.",
+          "start": 14076,
+          "end": 14232
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

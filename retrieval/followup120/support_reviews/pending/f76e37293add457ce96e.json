@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "f76e37293add457ce96e",
+    "query_id": "INV-09",
+    "question": "An investment manager RFP template for an emerging markets equity strategy (issued February 14, 2022, responses due March 31, 2022) lists required minimum qualifications and 'preferred criteria'. What live track record does it require, and what public pension client base does it prefer?",
+    "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "expected_facts": "Required: an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy (qualified women-, minority- or disabled-owned businesses are exempt). Preferred: at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan client with over $10 billion in total plan assets (plus no material litigation in the past five years). Issuer: State Universities Retirement System of Illinois (SURS).",
+    "acceptance": "Accept five-year live strategy record and the alternative client tests (two >$1bn U.S. public pensions OR one >$10bn public plan). Ownership exemption is a relevant qualification. Issuer, litigation criterion and placeholder date need not be volunteered.",
+    "text_hash": "5afc5adec694c195f2977417c376c45b4856a88e72d30c0e1953e2403af08eac",
+    "source_text_sha256": "add3ba83b3e17f098f096c1bf8b5d5000ad39375300bba2e2b398c7d805cf7a6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is CCCERA’s April 2018 master custodian RFP, not the specified February 2022 emerging-markets equity investment-manager template. Its custody-service experience and public-fund client requirements do not support the requested strategy track record or preferred alternative client tests.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+        "The Proposer must have a total number of at least 30 custodial defined benefit clients, including at least 10 public funds, with $1 billion each in tax-exempt assets or greater.",
+        "The Proposer must have been providing custody services for a minimum of ten (10) years."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+          "start": 13,
+          "end": 141
+        },
+        {
+          "quote": "The Proposer must have a total number of at least 30 custodial defined benefit clients, including at least 10 public funds, with $1 billion each in tax-exempt assets or greater.",
+          "start": 17329,
+          "end": 17506
+        },
+        {
+          "quote": "The Proposer must have been providing custody services for a minimum of ten (10) years.",
+          "start": 17510,
+          "end": 17597
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

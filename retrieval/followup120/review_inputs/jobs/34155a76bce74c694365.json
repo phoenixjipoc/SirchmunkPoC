@@ -1,0 +1,12 @@
+{
+  "id": "34155a76bce74c694365",
+  "query_id": "INV-03",
+  "question": "In the Boston Retirement System's investment consulting services proposal questionnaire (Attachment 3), how many current public fund client references must be listed, and what minimum asset size must those clients have?",
+  "file": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+  "expected_facts": "Up to 10 current public fund clients with assets greater than $1 billion for whom similar work was performed, giving name, contact, telephone number, asset values, number of years the client has retained the firm and the service used.",
+  "acceptance": "Accept up to ten / no more than ten and >$1bn. Contact-detail fields and similar-work context are supplementary; exactly ten or at least $1bn is not equivalent.",
+  "text_hash": "3ecf7188afbf06d1992a2e369435746a5f1872698632985399a9e054bf75b408",
+  "source_text_sha256": "245be5bf903c98e9c43a03f3b620302180f76969b88872c25a7e2f9026336a20",
+  "second_check_required": false,
+  "prior_reviews": []
+}

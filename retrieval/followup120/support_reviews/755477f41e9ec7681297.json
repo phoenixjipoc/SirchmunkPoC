@@ -1,0 +1,118 @@
+{
+  "job": {
+    "id": "755477f41e9ec7681297",
+    "query_id": "SVC-12",
+    "question": "According to the Monroe County deferred compensation services RFP, how many participants did the plan have and what were its total assets?",
+    "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "expected_facts": "As of December 31, 2022: 4,398 plan participants and plan assets of $308,676,730. In addition, the OBRA part-time seasonal plan had 536 participants with assets of $926,785.",
+    "acceptance": "Main plan 4,398 participants / $308,676,730 is sufficient. OBRA 536 / $926,785 is supplementary and must not replace or be silently added to main-plan figures.",
+    "text_hash": "3b4fb541c2d35b7de747c8f6c26cc3a40bee097d58737ad466dbef56acdfa755",
+    "source_text_sha256": "a7628e3fc4e0a9323e896059440a5b708d424232eec8242be9362eb818e6b682",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is a Clark County, Washington RFP, not the Monroe County deferred compensation services RFP. Its plan figures cannot support the requested Monroe County participant count or assets.",
+        "quotes": [
+          "REQUEST for PROPOSAL # 955 PROFESSIONAL, TECHNICAL AND EXPERT SERVICES Clark County Washington",
+          "Clark County is soliciting proposals from qualified firms to provide retirement plan administration, record keeping, education, communications, investment-related, and other services for the 457 Deferred Compensation Plan effective January 1, 2027.",
+          "The larger Plan is the Clark County Plan and the smaller Plan is Clark Regional Emergency Services Agency (“CRESA”) which is a participating employer."
+        ],
+        "quote_matches": [
+          {
+            "quote": "REQUEST for PROPOSAL # 955 PROFESSIONAL, TECHNICAL AND EXPERT SERVICES Clark County Washington",
+            "start": 13,
+            "end": 107
+          },
+          {
+            "quote": "Clark County is soliciting proposals from qualified firms to provide retirement plan administration, record keeping, education, communications, investment-related, and other services for the 457 Deferred Compensation Plan effective January 1, 2027.",
+            "start": 11821,
+            "end": 12069
+          },
+          {
+            "quote": "The larger Plan is the Clark County Plan and the smaller Plan is Clark Regional Emergency Services Agency (“CRESA”) which is a participating employer.",
+            "start": 43653,
+            "end": 43803
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Clark County, Washington RFP, not the Monroe County deferred compensation services RFP. Its plan figures cannot support the requested Monroe County participant count or assets.",
+      "quotes": [
+        "REQUEST for PROPOSAL # 955 PROFESSIONAL, TECHNICAL AND EXPERT SERVICES Clark County Washington",
+        "Clark County is soliciting proposals from qualified firms to provide retirement plan administration, record keeping, education, communications, investment-related, and other services for the 457 Deferred Compensation Plan effective January 1, 2027.",
+        "The larger Plan is the Clark County Plan and the smaller Plan is Clark Regional Emergency Services Agency (“CRESA”) which is a participating employer."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST for PROPOSAL # 955 PROFESSIONAL, TECHNICAL AND EXPERT SERVICES Clark County Washington",
+          "start": 13,
+          "end": 107
+        },
+        {
+          "quote": "Clark County is soliciting proposals from qualified firms to provide retirement plan administration, record keeping, education, communications, investment-related, and other services for the 457 Deferred Compensation Plan effective January 1, 2027.",
+          "start": 11821,
+          "end": 12069
+        },
+        {
+          "quote": "The larger Plan is the Clark County Plan and the smaller Plan is Clark Regional Emergency Services Agency (“CRESA”) which is a participating employer.",
+          "start": 43653,
+          "end": 43803
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is a Clark County, Washington RFP, not the Monroe County deferred compensation services RFP. It does not evidence the requested main-plan figures of 4,398 participants and $308,676,730 in assets as of December 31, 2022.",
+      "quotes": [
+        "REQUEST for PROPOSAL # 955 PROFESSIONAL, TECHNICAL AND EXPERT SERVICES Clark County Washington",
+        "As of December 31, 2025, there was approximately $167 million total in the 457 Plans.",
+        "The larger Plan is the Clark County Plan and the smaller Plan is Clark Regional Emergency Services Agency (“CRESA”) which is a participating employer.",
+        "Total Assets ($) $162,847,830 $143,161,247 $127,401,510 $111,474,217",
+        "Total Participant Accounts (#) 1,482 1,401 1,351 1,300"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST for PROPOSAL # 955 PROFESSIONAL, TECHNICAL AND EXPERT SERVICES Clark County Washington",
+          "start": 13,
+          "end": 107
+        },
+        {
+          "quote": "As of December 31, 2025, there was approximately $167 million total in the 457 Plans.",
+          "start": 13164,
+          "end": 13249
+        },
+        {
+          "quote": "The larger Plan is the Clark County Plan and the smaller Plan is Clark Regional Emergency Services Agency (“CRESA”) which is a participating employer.",
+          "start": 43653,
+          "end": 43803
+        },
+        {
+          "quote": "Total Assets ($) $162,847,830 $143,161,247 $127,401,510 $111,474,217",
+          "start": 44005,
+          "end": 44073
+        },
+        {
+          "quote": "Total Participant Accounts (#) 1,482 1,401 1,351 1,300",
+          "start": 44074,
+          "end": 44128
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

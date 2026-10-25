@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "62f693befd25c0d7799a",
+    "query_id": "CONS-14",
+    "question": "What are all the minimum requirements in Section 2 (pages 4–5) of the City of Hartford MERF general investment consultant RFP?",
+    "file": "OCERS__custodian_rfp_2022-2023.pdf",
+    "expected_facts": "Section2 requires: (1) at least ten years providing general consulting; (2) senior leadership together at least three years; (3) no subcontracting account management, and all responsible personnel are employees; (4) currently consulting for at least five public pension funds each over $1.5bn; (5) primary consultant has at least five years of defined-benefit public-pension consulting and at least three years employed by proposer; (6) fiduciary service to MERF/OPEB and written compliance with their investment policies/guidelines; (7) no existing or potential material conflicts with the City Treasurer/staff, Pension Commission, OPEB Committee, actuary, auditor, managers or other providers; (8) agree to execute a contract similar to AppendixE; (9) current SEC investment-adviser registration; (10) carry or have applied by submission for general liability $5m, E&O/professional liability $5m, fiduciary liability $1m, workers' compensation/employer liability $1m, and cybersecurity $1m. Section2 says all qualifications must be met by March15,2024 at 5pm ET and AppendixA certification must be completed. AppendixA separately uses different client-threshold/history and insurance-date wording; this answer follows Section2 as asked.",
+    "acceptance": "Require all ten Section2 bullet requirements and five insurance limits when asking 'all'. If the question retains whole-document scope, allow explanation of Section2 versus AppendixA differences rather than forcing a single contradictory date or >/$1.5bn threshold.",
+    "text_hash": "2f1b263969ef09f6d98b625298c7af0518d618d780be107703d3e797ceb8169a",
+    "source_text_sha256": "2160dab5b593e917103890305a919f136c0a0f9f1c86c7a4b6fb2c4eaaf14ec2",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is OCERS’s October 2022 custody-services RFP, not the City of Hartford MERF general investment consultant RFP. Its Section 2 is background, and its minimum qualifications concern custody services; it does not support the requested Section 2 requirements.",
+      "quotes": [
+        "Custody Services Request for Proposal October 2022 Orange County Employees Retirement System (OCERS)",
+        "Section 2: Background",
+        "OCERS was established in 1945 under the provisions of the County Employees Retirement Law of 1937 (1937 Act)",
+        "Respondent must have been in continuous operation for at least five (5) years providing services similar to those described in the Scope of Services."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Custody Services Request for Proposal October 2022 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 113
+        },
+        {
+          "quote": "Section 2: Background",
+          "start": 267,
+          "end": 288
+        },
+        {
+          "quote": "OCERS was established in 1945 under the provisions of the County Employees Retirement Law of 1937 (1937 Act)",
+          "start": 7032,
+          "end": 7140
+        },
+        {
+          "quote": "Respondent must have been in continuous operation for at least five (5) years providing services similar to those described in the Scope of Services.",
+          "start": 37261,
+          "end": 37410
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

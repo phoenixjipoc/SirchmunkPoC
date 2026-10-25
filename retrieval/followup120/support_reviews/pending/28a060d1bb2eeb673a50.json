@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "28a060d1bb2eeb673a50",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "OCERS__ocers_pas_consultant_rfp.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "af1747fe366b6ece99095ff8194fc5b4085ff2909aa45282d0359249c94d81f4",
+    "source_text_sha256": "ff418f121d48959c4fddc69dbf01669d218269a5b873ad0f1daf40bc3ed37b33",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a September 2023 Orange County Employees Retirement System RFP for pension administration consulting, not an external-audit RFP Q&A. It does not state the FY2021 audit contractual fees.",
+      "quotes": [
+        "Pension Administration Project Oversight and Consultation Services Request for Proposal September 2023 Orange County Employees Retirement System (OCERS)",
+        "The Orange County Employees Retirement System (“OCERS”) is requesting proposals from qualified firms interested in providing consulting services to aid in the design, selection of, and smooth implementation of their new Pension Administration Solution (PAS)."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Pension Administration Project Oversight and Consultation Services Request for Proposal September 2023 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 165
+        },
+        {
+          "quote": "The Orange County Employees Retirement System (“OCERS”) is requesting proposals from qualified firms interested in providing consulting services to aid in the design, selection of, and smooth implementation of their new Pension Administration Solution (PAS).",
+          "start": 2395,
+          "end": 2653
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

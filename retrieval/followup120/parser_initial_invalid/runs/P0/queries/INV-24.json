@@ -1,0 +1,60 @@
+{
+  "query_id": "INV-24",
+  "question": "Which of the private equity, alternatives and real assets consultant RFPs in the corpus identify the incumbent or existing consultants, who are they, and may the incumbent compete?",
+  "type": "broad",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [],
+  "directory_files": [
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+    "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+    "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf"
+  ],
+  "keyword_terms": [
+    "private equity consultant RFPs",
+    "alternatives consultant RFPs",
+    "real assets consultant RFPs",
+    "existing consultants",
+    "私募股权",
+    "另类投资",
+    "实物资产",
+    "现任顾问"
+  ],
+  "keyword_logs": [],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+      "path": "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+      "path": "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "path": "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf"
+    }
+  ],
+  "elapsed_s": 6.998,
+  "calls": 0,
+  "usage": {}
+}

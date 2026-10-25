@@ -1,0 +1,12 @@
+{
+  "id": "41ff87fa09c80e43b5ff",
+  "query_id": "DDQ-03",
+  "question": "In the SAA investment manager questionnaire for fixed income investment management services, which services is the firm asked to indicate whether it offers, along with any additional fee?",
+  "file": "ILPA__ILPA-DDQ-2.0.pdf",
+  "expected_facts": "Five services: Schedule D investment accounting; asset/liability management (dynamic financial analysis); performance attribution; daily internet access of portfolio information; and SVO filing. For each, the firm marks Yes/No and gives an approximate fee.",
+  "acceptance": "Require all five services; Yes/No and approximate fee wording are useful context, not additional services.",
+  "text_hash": "8907145b1f077ef656f1eedcccb1c6e6cf91c5a42ababaeed03deb50236309d2",
+  "source_text_sha256": "acc7566c61a7afaabbe215a9f1337c86e1dd116ccf7ba67eeb84894f94ea4c98",
+  "second_check_required": false,
+  "prior_reviews": []
+}

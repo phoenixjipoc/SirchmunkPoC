@@ -1,0 +1,59 @@
+{
+  "job": {
+    "id": "4cdebda9ca29612c8e24",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "784bcfad5dec8c8cdc14ddc71afe9edac27cb190eaa8c0971bfb4139e6ce83d9",
+    "source_text_sha256": "75b693482e948ff921b1cec45e9ab6fae2d982d6719b2a34a7971859f300978e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is SBCERS’s Global Custody and Related Services RFP, not the ILPA Due Diligence Questionnaire 2.0. Its table of contents lists numbered RFP appendices, not the eight lettered ILPA appendices, and it does not explicitly restate the ILPA table of contents.",
+      "quotes": [
+        "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”)",
+        "Appendix 1 – Affirmation of Scope of Services Required",
+        "Appendix 2 – Affirmation of Contract Terms and Conditions Required",
+        "Appendix 3 – Technical/Services Questionnaire",
+        "Appendix 4 – Pricing Tables"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”)",
+          "start": 13,
+          "end": 130
+        },
+        {
+          "quote": "Appendix 1 – Affirmation of Scope of Services Required",
+          "start": -1,
+          "end": 53
+        },
+        {
+          "quote": "Appendix 2 – Affirmation of Contract Terms and Conditions Required",
+          "start": -1,
+          "end": 65
+        },
+        {
+          "quote": "Appendix 3 – Technical/Services Questionnaire",
+          "start": -1,
+          "end": 44
+        },
+        {
+          "quote": "Appendix 4 – Pricing Tables",
+          "start": 2286,
+          "end": 2313
+        }
+      ],
+      "all_quotes_grounded": false,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

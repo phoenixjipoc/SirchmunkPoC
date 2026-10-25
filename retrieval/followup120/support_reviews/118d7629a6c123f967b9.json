@@ -1,0 +1,59 @@
+{
+  "job": {
+    "id": "118d7629a6c123f967b9",
+    "query_id": "CONS-08",
+    "question": "Which retirement plan's investment consulting RFP requires that, as of December 31, 2024, the firm have at least three public fund clients each with at least $1B in assets and have been in business at least ten years?",
+    "file": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "expected_facts": "The Retirement Plan for CTA Employees (Chicago Transit Authority), in its April 29, 2025 investment consulting RFP.",
+    "acceptance": "Retirement Plan for CTA/Chicago Transit Authority Employees; publication date is optional.",
+    "text_hash": "73a211d25704cd40542a3505df46faf10d19379d806cf48206f01f9d9cb8fe3c",
+    "source_text_sha256": "84c0516b95d11d6444cd8b9463d95a6569acd34bb54cbc16e1b70c586ad78095",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is SBCERA’s 2021 RFP, not an RFP for the Retirement Plan for CTA Employees. Its minimum qualifications also specify seven years in business, three public pension clients with at least $5 billion each, and a December 31, 2020 qualification date—not the requirements in the question.",
+      "quotes": [
+        "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
+        "Release Date: March 1, 2021",
+        "The consulting firm must have been in existence for the past seven (7) years.",
+        "The consulting firm has at least three (3) existing U.S. based, public pension clients, each having at least $5 billion in current assets.",
+        "All minimum qualifications must be met by December 31, 2020."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 130
+        },
+        {
+          "quote": "Release Date: March 1, 2021",
+          "start": 4224,
+          "end": 4251
+        },
+        {
+          "quote": "The consulting firm must have been in existence for the past seven (7) years.",
+          "start": 11676,
+          "end": 11753
+        },
+        {
+          "quote": "The consulting firm has at least three (3) existing U.S. based, public pension clients, each having at least $5 billion in current assets.",
+          "start": 11757,
+          "end": 11895
+        },
+        {
+          "quote": "All minimum qualifications must be met by December 31, 2020.",
+          "start": 12373,
+          "end": 12433
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "5b6da8e3c44b98423604",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "30d68f8537639ec2cf4b5e89f75c53d4f7a34757aa577e6eaca8744b155f28c0",
+    "source_text_sha256": "53569804783646aac401541d4bd8f06ca4371d2199a59c44ad06613e10455875",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Massachusetts PRIM RFP for investment management services, not the external audit RFP Q&A described in the question. It provides no total contractual fees for FY2021 audits.",
+      "quotes": [
+        "The Massachusetts Pension Reserves Investment Management Board (“PRIM”) is requesting responses from firms interested in providing Active Global Core Equity Investment Management Services.",
+        "Questions received before the deadline will be answered and circulated by e-mail to all respondents who have proposed a question."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Massachusetts Pension Reserves Investment Management Board (“PRIM”) is requesting responses from firms interested in providing Active Global Core Equity Investment Management Services.",
+          "start": 101,
+          "end": 289
+        },
+        {
+          "quote": "Questions received before the deadline will be answered and circulated by e-mail to all respondents who have proposed a question.",
+          "start": 20465,
+          "end": 20594
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

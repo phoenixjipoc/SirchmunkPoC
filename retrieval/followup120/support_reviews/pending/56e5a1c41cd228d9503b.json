@@ -1,0 +1,124 @@
+{
+  "job": {
+    "id": "56e5a1c41cd228d9503b",
+    "query_id": "SVC-04",
+    "question": "In the Contra Costa County Employees' Retirement Association (CCCERA) April 2018 master custodian RFP, how many copies of the proposal must be submitted, and for how long must the proposal remain a firm and irrevocable offer?",
+    "file": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "expected_facts": "One (1) original proposal, four (4) hard copies and one (1) copy in electronic form; the proposal must be a firm and irrevocable offer good for one year from the proposal due date (due 5:00 p.m. PT, Friday, May 25, 2018).",
+    "acceptance": "Accept five paper sets total if the original is clearly included, plus one electronic copy; validity one year from due date. Actual proposal deadline is optional.",
+    "text_hash": "73a211d25704cd40542a3505df46faf10d19379d806cf48206f01f9d9cb8fe3c",
+    "source_text_sha256": "84c0516b95d11d6444cd8b9463d95a6569acd34bb54cbc16e1b70c586ad78095",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "The document is a March 2021 San Bernardino County investment consulting RFP, not CCCERA’s April 2018 master custodian RFP. Its email-only submission requirement and 240-day offer period do not support the requested copy count or one-year period.",
+        "quotes": [
+          "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
+          "March | 2021",
+          "Proposals must be submitted electronically to the RFP Administrator, InvestmentsRFP@sbcera.org by the due date stated above in the Key Dates and Other Information section.",
+          "A statement to the effect that the proposal is a firm and irrevocable offer good for 240 days from the proposal due date."
+        ],
+        "quote_matches": [
+          {
+            "quote": "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
+            "start": 13,
+            "end": 130
+          },
+          {
+            "quote": "March | 2021",
+            "start": 235,
+            "end": 247
+          },
+          {
+            "quote": "Proposals must be submitted electronically to the RFP Administrator, InvestmentsRFP@sbcera.org by the due date stated above in the Key Dates and Other Information section.",
+            "start": 13422,
+            "end": 13593
+          },
+          {
+            "quote": "A statement to the effect that the proposal is a firm and irrevocable offer good for 240 days from the proposal due date.",
+            "start": 15122,
+            "end": 15243
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a March 2021 San Bernardino County investment consulting RFP, not CCCERA’s April 2018 master custodian RFP. Its email-only submission requirement and 240-day offer period do not support the requested copy count or one-year period.",
+      "quotes": [
+        "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
+        "March | 2021",
+        "Proposals must be submitted electronically to the RFP Administrator, InvestmentsRFP@sbcera.org by the due date stated above in the Key Dates and Other Information section.",
+        "A statement to the effect that the proposal is a firm and irrevocable offer good for 240 days from the proposal due date."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 130
+        },
+        {
+          "quote": "March | 2021",
+          "start": 235,
+          "end": 247
+        },
+        {
+          "quote": "Proposals must be submitted electronically to the RFP Administrator, InvestmentsRFP@sbcera.org by the due date stated above in the Key Dates and Other Information section.",
+          "start": 13422,
+          "end": 13593
+        },
+        {
+          "quote": "A statement to the effect that the proposal is a firm and irrevocable offer good for 240 days from the proposal due date.",
+          "start": 15122,
+          "end": 15243
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is SBCERA’s 2021 investment consulting RFP, not CCCERA’s April 2018 master custodian RFP. It requires electronic submission only and a 240-day offer, so it does not evidence the requested copy count or one-year validity period.",
+      "quotes": [
+        "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
+        "RFP Responses Due: April 16, 2021 by 4:00 p.m. PDT Via email only to InvestmentsRFP@sbcera.org",
+        "Proposals must be submitted electronically to the RFP Administrator",
+        "the proposal is a firm and irrevocable offer good for 240 days from the proposal due date."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 130
+        },
+        {
+          "quote": "RFP Responses Due: April 16, 2021 by 4:00 p.m. PDT Via email only to InvestmentsRFP@sbcera.org",
+          "start": 4362,
+          "end": 4456
+        },
+        {
+          "quote": "Proposals must be submitted electronically to the RFP Administrator",
+          "start": 13422,
+          "end": 13489
+        },
+        {
+          "quote": "the proposal is a firm and irrevocable offer good for 240 days from the proposal due date.",
+          "start": 15153,
+          "end": 15243
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

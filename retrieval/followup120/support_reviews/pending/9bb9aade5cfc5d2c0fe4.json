@@ -1,0 +1,94 @@
+{
+  "job": {
+    "id": "9bb9aade5cfc5d2c0fe4",
+    "query_id": "OTH-01",
+    "question": "In the Oklahoma Public Employees Retirement System (OPERS) July 2023 RFP for index investment management services, what was the market value of the OPERS Russell 1000 Index mandate as of May 31, 2023, and what is its policy weight?",
+    "file": "Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+    "expected_facts": "$1,859,650,910 (policy weight 17.00%).",
+    "acceptance": "$1,859,650,910 and 17% (17.00%) match; clearly labeled approximation about $1.86bn is materially acceptable. Do not substitute URSJJ or Russell 1000 Value.",
+    "text_hash": "7974cf3ced5ece0c3df4520edc4dd6247ec6bbbc3297db171ad7ec83dd1f5ab2",
+    "source_text_sha256": "d065a0843dfa54da64a294e172b508cf8e712eb413bc4f30e72f609c24012fce",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is OPERS’s February 2022 RFP for investment consulting services, not its July 2023 RFP for index investment management services. It does not provide the May 31, 2023 market value or policy weight for the OPERS Russell 1000 Index mandate.",
+        "quotes": [
+          "REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+          "OPERS RFP – Investment Consulting Services – Issued February 18, 2022 Page 1 of 16"
+        ],
+        "quote_matches": [
+          {
+            "quote": "REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+            "start": 61,
+            "end": 124
+          },
+          {
+            "quote": "OPERS RFP – Investment Consulting Services – Issued February 18, 2022 Page 1 of 16",
+            "start": 2856,
+            "end": 2938
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is OPERS’s February 2022 RFP for investment consulting services, not its July 2023 RFP for index investment management services. It does not provide the May 31, 2023 market value or policy weight for the OPERS Russell 1000 Index mandate.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+        "OPERS RFP – Investment Consulting Services – Issued February 18, 2022 Page 1 of 16"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+          "start": 61,
+          "end": 124
+        },
+        {
+          "quote": "OPERS RFP – Investment Consulting Services – Issued February 18, 2022 Page 1 of 16",
+          "start": 2856,
+          "end": 2938
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is OPERS’s February 2022 RFP for investment consulting services, not its July 2023 RFP for index investment management services. It does not provide a May 31, 2023 market value or policy weight for the OPERS Russell 1000 Index mandate.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+        "OPERS RFP – Investment Consulting Services – Issued February 18, 2022",
+        "The asset allocation target mix for OPERS and URSJJ as of June 30, 2021 is as follows:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+          "start": 61,
+          "end": 124
+        },
+        {
+          "quote": "OPERS RFP – Investment Consulting Services – Issued February 18, 2022",
+          "start": 2856,
+          "end": 2925
+        },
+        {
+          "quote": "The asset allocation target mix for OPERS and URSJJ as of June 30, 2021 is as follows:",
+          "start": 13681,
+          "end": 13767
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "b95c9db14a2da002bbb4",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "5afc5adec694c195f2977417c376c45b4856a88e72d30c0e1953e2403af08eac",
+    "source_text_sha256": "add3ba83b3e17f098f096c1bf8b5d5000ad39375300bba2e2b398c7d805cf7a6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2018 master-custodian RFP from a different retirement system, not the external-audit RFP Q&A. It provides no total contractual fees for FY2021 audits.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+        "A compilation of all questions and responses, along with any RFP addenda will be posted on CCCERA’s website",
+        "EXHIBIT B CUSTODY FEE SCHEDULE OF THE CUSTODIAN AGREEMENT"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+          "start": 13,
+          "end": 141
+        },
+        {
+          "quote": "A compilation of all questions and responses, along with any RFP addenda will be posted on CCCERA’s website",
+          "start": 1088,
+          "end": 1195
+        },
+        {
+          "quote": "EXHIBIT B CUSTODY FEE SCHEDULE OF THE CUSTODIAN AGREEMENT",
+          "start": 178364,
+          "end": 178421
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

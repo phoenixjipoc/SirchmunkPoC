@@ -1,0 +1,95 @@
+{
+  "job": {
+    "id": "b874ad9ad62f46012aad",
+    "query_id": "SVC-10",
+    "question": "In the minimum-qualifications insurance list of the RFP for oversight of the pension administration system replacing V3, what umbrella-liability and professional-liability limits are specified?",
+    "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "expected_facts": "The minimum-qualifications list specifies umbrella liability of $5 million per occurrence and $5 million aggregate, and professional liability of $2 million per occurrence and $3 million aggregate. The sample agreement separately contains a wording inconsistency ('one million dollars ($2,000,000)' per occurrence).",
+    "acceptance": "The listed $5m/$5m umbrella and $2m/$3m professional limits are materially correct. Also accept that answer with the p21 written/numeric discrepancy explicitly flagged. Other insurance types and issuer date are optional. Do not accept an unexplained $1m as the sole professional limit.",
+    "text_hash": "7bf0434135598b4379264b9228ec0ae5d514d2497cf998a89da96d5f3d55878f",
+    "source_text_sha256": "1620734055a07375d68aca7dc5b3529168cc1928cf355fcdb11e514e6b786b4c",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an RFP for actuarial services, not for oversight of a pension administration system replacing V3. Its insurance section lists coverage types but gives no umbrella-liability or professional-liability limits.",
+      "quotes": [
+        "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+        "PensionGold Version 3, a product of Levi, Ray, and Shoup, is the pension administration application used for actuarial census data, participant recordkeeping, benefit claims, and benefits payroll.",
+        "3.8 Insurance Throughout the duration of this Agreement, Contractor will maintain insurance on an occurrence basis, primary and non-contributory, for the following types of coverage: 1. Errors and Omissions 2. Commercial General Liability 3. Automobile Liability 4. Workers Compensation"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+          "start": 163,
+          "end": 254
+        },
+        {
+          "quote": "PensionGold Version 3, a product of Levi, Ray, and Shoup, is the pension administration application used for actuarial census data, participant recordkeeping, benefit claims, and benefits payroll.",
+          "start": 18972,
+          "end": 19168
+        },
+        {
+          "quote": "3.8 Insurance Throughout the duration of this Agreement, Contractor will maintain insurance on an occurrence basis, primary and non-contributory, for the following types of coverage: 1. Errors and Omissions 2. Commercial General Liability 3. Automobile Liability 4. Workers Compensation",
+          "start": 43622,
+          "end": 43908
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is COAERS’s actuarial-services RFP, not an RFP for oversight of a pension administration system replacing V3. Its insurance section lists coverage types but does not specify the requested umbrella-liability or professional-liability limits.",
+      "quotes": [
+        "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+        "PensionGold Version 3, a product of Levi, Ray, and Shoup, is the pension administration application",
+        "3.8 Insurance",
+        "Throughout the duration of this Agreement, Contractor will maintain insurance on an occurrence basis, primary and non-contributory, for the following types of coverage:",
+        "1. Errors and Omissions 2. Commercial General Liability 3. Automobile Liability 4. Workers Compensation",
+        "Disclose your firm’s insurance coverage (carrier, coverage, and limits) for this engagement"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+          "start": 163,
+          "end": 254
+        },
+        {
+          "quote": "PensionGold Version 3, a product of Levi, Ray, and Shoup, is the pension administration application",
+          "start": 18972,
+          "end": 19071
+        },
+        {
+          "quote": "3.8 Insurance",
+          "start": 5537,
+          "end": 5550
+        },
+        {
+          "quote": "Throughout the duration of this Agreement, Contractor will maintain insurance on an occurrence basis, primary and non-contributory, for the following types of coverage:",
+          "start": 43636,
+          "end": 43804
+        },
+        {
+          "quote": "1. Errors and Omissions 2. Commercial General Liability 3. Automobile Liability 4. Workers Compensation",
+          "start": 43805,
+          "end": 43908
+        },
+        {
+          "quote": "Disclose your firm’s insurance coverage (carrier, coverage, and limits) for this engagement",
+          "start": 67621,
+          "end": 67712
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

@@ -1,0 +1,94 @@
+{
+  "job": {
+    "id": "9b7c9f312109ae150d8d",
+    "query_id": "XD-01",
+    "question": "In the INREV Due Diligence Questionnaire 2022 for Funds of Funds and Multi Manager, when was the FoF / MM questionnaire originally launched, what two additions appear at the front of the DDQ, and how long may the manager's statement be?",
+    "file": "INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+    "expected_facts": "The INREV FoF / MM DDQ was originally launched in 2014 as a variation of the INREV DDQ for Non-Listed Real Estate Investment Vehicles (most recently updated in 2018). The two additions at the front are (i) a Vehicle Fact Sheet, a snapshot of basic high-level vehicle information, and (ii) a Funds of Funds / Multi Manager Statement, where the manager showcases its platform and expertise. The statement should be short, no more than one page.",
+    "acceptance": "2014, both additions, and no more than one page suffice. April 2007 is protocol launch, not this questionnaire's launch.",
+    "text_hash": "4aa67eec4c20c31dd5bea026745ad60e494f4d41055e5282f36a63f51ac53b63",
+    "source_text_sha256": "872c9becc80ae87c8e0cc07ecfc15202e13fdf184eceaffab26855b50b7cfb9e",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "The supplied document describes itself as the first version of the questionnaire, not the specified 2022 edition. Its April 2007 date refers to the due diligence protocol, not the FoF / MM questionnaire. It does not state the requested launch year, identify the two front-of-DDQ additions, or give a page limit for the manager’s statement.",
+        "quotes": [
+          "The Due Diligence Questionnaire for Fund of Funds and Multi-Managers is part of the due diligence protocol which was first launched in April 2007.",
+          "This is the first version of the questionnaire."
+        ],
+        "quote_matches": [
+          {
+            "quote": "The Due Diligence Questionnaire for Fund of Funds and Multi-Managers is part of the due diligence protocol which was first launched in April 2007.",
+            "start": 4266,
+            "end": 4412
+          },
+          {
+            "quote": "This is the first version of the questionnaire.",
+            "start": 4413,
+            "end": 4460
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document describes itself as the first version of the questionnaire, not the specified 2022 edition. Its April 2007 date refers to the due diligence protocol, not the FoF / MM questionnaire. It does not state the requested launch year, identify the two front-of-DDQ additions, or give a page limit for the manager’s statement.",
+      "quotes": [
+        "The Due Diligence Questionnaire for Fund of Funds and Multi-Managers is part of the due diligence protocol which was first launched in April 2007.",
+        "This is the first version of the questionnaire."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Due Diligence Questionnaire for Fund of Funds and Multi-Managers is part of the due diligence protocol which was first launched in April 2007.",
+          "start": 4266,
+          "end": 4412
+        },
+        {
+          "quote": "This is the first version of the questionnaire.",
+          "start": 4413,
+          "end": 4460
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is an INREV Fund of Funds and Multi-Managers questionnaire, but it identifies itself as the first version, not the requested 2022 edition. It gives April 2007 as the launch of the due diligence protocol, not the questionnaire. It does not evidence the questionnaire’s 2014 launch, either addition at the front, or a one-page limit for the manager’s statement.",
+      "quotes": [
+        "The Due Diligence Questionnaire for Fund of Funds and Multi-Managers is part of the due diligence protocol which was first launched in April 2007.",
+        "This is the first version of the questionnaire.",
+        "3.1 Fund of funds snapshot"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Due Diligence Questionnaire for Fund of Funds and Multi-Managers is part of the due diligence protocol which was first launched in April 2007.",
+          "start": 4266,
+          "end": 4412
+        },
+        {
+          "quote": "This is the first version of the questionnaire.",
+          "start": 4413,
+          "end": 4460
+        },
+        {
+          "quote": "3.1 Fund of funds snapshot",
+          "start": 1666,
+          "end": 1692
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

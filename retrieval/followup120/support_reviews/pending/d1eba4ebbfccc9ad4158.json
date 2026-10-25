@@ -1,0 +1,130 @@
+{
+  "job": {
+    "id": "d1eba4ebbfccc9ad4158",
+    "query_id": "CONS-09",
+    "question": "Which retirement system's investment consultant RFP requires firms to certify that they currently provide investment consulting services to clients whose combined assets total at least $50 billion?",
+    "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "expected_facts": "Teachers' Retirement System of the State of Illinois (TRS Illinois), in its FY23 investment consultant RFP (Appendix B, Statement of Minimum Qualifications).",
+    "acceptance": "TRS Illinois / Teachers’ Retirement System of the State of Illinois is sufficient; FY23 and appendix identifier are optional.",
+    "text_hash": "d4a7ad33208d859c75d991a4bdd6d723d6061e0ed085744f8f70ab7d38ea9348",
+    "source_text_sha256": "13affe2ff2ccbd6aa2f31fc6b4abcaaac5703248b468311f148d40d5686f5ade",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is a 2024 State Retirement Systems RFP for actuarial consulting services, not the investment consultant RFP of the retirement system asked about. Its minimum qualifications do not require certification of current investment consulting clients with combined assets of at least $50 billion.",
+        "quotes": [
+          "State Retirement Systems Request for Proposal for Actuarial Consulting Services (System Reference # 24100) Issued on February 2, 2024",
+          "The State Retirement Systems are comprised of 3 retirement systems, the State Employees’ Retirement System (SERS), the Judges’ Retirement System (JRS), and the General Assembly Retirement System (GARS).",
+          "Appendix B: Minimum Qualifications The following experience and qualifications are required for this project.",
+          "The primary (senior) supervising actuary to be employed on this project is a Fellow of the Society of Actuaries (FSA) or an Enrolled Actuary."
+        ],
+        "quote_matches": [
+          {
+            "quote": "State Retirement Systems Request for Proposal for Actuarial Consulting Services (System Reference # 24100) Issued on February 2, 2024",
+            "start": 13,
+            "end": 146
+          },
+          {
+            "quote": "The State Retirement Systems are comprised of 3 retirement systems, the State Employees’ Retirement System (SERS), the Judges’ Retirement System (JRS), and the General Assembly Retirement System (GARS).",
+            "start": 2024,
+            "end": 2226
+          },
+          {
+            "quote": "Appendix B: Minimum Qualifications The following experience and qualifications are required for this project.",
+            "start": 42784,
+            "end": 42893
+          },
+          {
+            "quote": "The primary (senior) supervising actuary to be employed on this project is a Fellow of the Society of Actuaries (FSA) or an Enrolled Actuary.",
+            "start": 43064,
+            "end": 43205
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 State Retirement Systems RFP for actuarial consulting services, not the investment consultant RFP of the retirement system asked about. Its minimum qualifications do not require certification of current investment consulting clients with combined assets of at least $50 billion.",
+      "quotes": [
+        "State Retirement Systems Request for Proposal for Actuarial Consulting Services (System Reference # 24100) Issued on February 2, 2024",
+        "The State Retirement Systems are comprised of 3 retirement systems, the State Employees’ Retirement System (SERS), the Judges’ Retirement System (JRS), and the General Assembly Retirement System (GARS).",
+        "Appendix B: Minimum Qualifications The following experience and qualifications are required for this project.",
+        "The primary (senior) supervising actuary to be employed on this project is a Fellow of the Society of Actuaries (FSA) or an Enrolled Actuary."
+      ],
+      "quote_matches": [
+        {
+          "quote": "State Retirement Systems Request for Proposal for Actuarial Consulting Services (System Reference # 24100) Issued on February 2, 2024",
+          "start": 13,
+          "end": 146
+        },
+        {
+          "quote": "The State Retirement Systems are comprised of 3 retirement systems, the State Employees’ Retirement System (SERS), the Judges’ Retirement System (JRS), and the General Assembly Retirement System (GARS).",
+          "start": 2024,
+          "end": 2226
+        },
+        {
+          "quote": "Appendix B: Minimum Qualifications The following experience and qualifications are required for this project.",
+          "start": 42784,
+          "end": 42893
+        },
+        {
+          "quote": "The primary (senior) supervising actuary to be employed on this project is a Fellow of the Society of Actuaries (FSA) or an Enrolled Actuary.",
+          "start": 43064,
+          "end": 43205
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 actuarial consulting RFP from the State Retirement Systems, not the Teachers’ Retirement System of the State of Illinois investment consultant RFP. Its Appendix B lists actuarial qualifications and does not contain the $50 billion client-assets requirement.",
+      "quotes": [
+        "State Retirement Systems Request for Proposal for Actuarial Consulting Services",
+        "Issued on February 2, 2024",
+        "The State Retirement Systems are comprised of 3 retirement systems, the State Employees’ Retirement System (SERS), the Judges’ Retirement System (JRS), and the General Assembly Retirement System (GARS).",
+        "Appendix B: Minimum Qualifications",
+        "The primary (senior) supervising actuary to be employed on this project is a Fellow of the Society of Actuaries (FSA) or an Enrolled Actuary."
+      ],
+      "quote_matches": [
+        {
+          "quote": "State Retirement Systems Request for Proposal for Actuarial Consulting Services",
+          "start": 13,
+          "end": 92
+        },
+        {
+          "quote": "Issued on February 2, 2024",
+          "start": 120,
+          "end": 146
+        },
+        {
+          "quote": "The State Retirement Systems are comprised of 3 retirement systems, the State Employees’ Retirement System (SERS), the Judges’ Retirement System (JRS), and the General Assembly Retirement System (GARS).",
+          "start": 2024,
+          "end": 2226
+        },
+        {
+          "quote": "Appendix B: Minimum Qualifications",
+          "start": 42784,
+          "end": 42818
+        },
+        {
+          "quote": "The primary (senior) supervising actuary to be employed on this project is a Fellow of the Society of Actuaries (FSA) or an Enrolled Actuary.",
+          "start": 43064,
+          "end": 43205
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

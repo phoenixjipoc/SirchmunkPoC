@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "692e8473025aaad92b93",
+    "query_id": "INV-12",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for domestic equity small cap growth investment management, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+    "expected_facts": "Four primary factors: (a) People - stability of the organization, ownership structure and documented experience of key professionals; (b) Process - clearly defined, reasonable and repeatable investment strategy; (c) Performance - documented ability to meet investment performance benchmarks; (d) Pricing - fee schedule and associated costs.",
+    "acceptance": "Accept People, Process, Performance, Pricing and faithful descriptions; exact labels are not mandatory.",
+    "text_hash": "bf49c387d8a37c04a78d322964991be22059ee6783e6dc5d66c93cff8fa9271e",
+    "source_text_sha256": "9832ae165dde61dfd8e8dfc5d940d90cb11879b98946460d80a059b413bccc0b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a California JPA sample investment-management RFP, not the IMRF RFP for domestic equity small cap growth management. Its six selection criteria do not establish the four factors used by IMRF.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL FOR INVESTMENT MANAGEMENT SERVICES FOR [Name of JPA]",
+        "[Name of JPA] is a California public agency organized under Government Code sections 6500-6515.",
+        "Proposals will be evaluated based on the following criteria: 1. Understanding the scope of the assignment, 2. Experience and qualifications of firm and individuals assigned, 3. Recommended approach to management of [Name of JPA]’s portfolio, 4. Familiarity with State investment and reporting requirements, 5. Performance history, and 6. Fees."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL FOR INVESTMENT MANAGEMENT SERVICES FOR [Name of JPA]",
+          "start": 72,
+          "end": 145
+        },
+        {
+          "quote": "[Name of JPA] is a California public agency organized under Government Code sections 6500-6515.",
+          "start": 2269,
+          "end": 2364
+        },
+        {
+          "quote": "Proposals will be evaluated based on the following criteria: 1. Understanding the scope of the assignment, 2. Experience and qualifications of firm and individuals assigned, 3. Recommended approach to management of [Name of JPA]’s portfolio, 4. Familiarity with State investment and reporting requirements, 5. Performance history, and 6. Fees.",
+          "start": 3554,
+          "end": 3897
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

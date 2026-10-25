@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "1086e7784549a27383a4",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "6b179eedd0acf11d4033b486705b8677fb78308e47584950c128cde739d4f025",
+    "source_text_sha256": "81bbcbe9365fdc601c3f939281acb26f90195cb62f71e9af6d67ff79a5c33f94",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Boston Retirement System RFP for actuarial and consulting services, not the external audit RFP Q&A. It provides no total contractual fees for FY2021 audits.",
+      "quotes": [
+        "Request for Proposal Actuarial and Consulting Services for Pension Benefits Boston Retirement System September 12, 2022",
+        "The BRS is seeking proposals to obtain the services of an actuary for the calendar years beginning 2023, 2024, 2025, 2026, 2027"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Actuarial and Consulting Services for Pension Benefits Boston Retirement System September 12, 2022",
+          "start": 13,
+          "end": 132
+        },
+        {
+          "quote": "The BRS is seeking proposals to obtain the services of an actuary for the calendar years beginning 2023, 2024, 2025, 2026, 2027",
+          "start": 29236,
+          "end": 29363
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

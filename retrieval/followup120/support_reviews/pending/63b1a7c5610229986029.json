@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "63b1a7c5610229986029",
+    "query_id": "CONS-07",
+    "question": "Which pension system's investment consultant RFP requires respondents to have at least five defined benefit pension plan clients, two of which are public pension plans with total plan assets of at least $15 billion each?",
+    "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+    "expected_facts": "Orange County Employees Retirement System (OCERS), in its 2021 investment consultant services RFP (Appendix E, Minimum Qualifications Certification).",
+    "acceptance": "OCERS/Orange County Employees Retirement System suffices. Appendix designation, year and restatement of qualification are optional.",
+    "text_hash": "70ba69fa78a5262a5a903e6c962a7ed533f83b2f39cbeaae0d6efcae5122f669",
+    "source_text_sha256": "c0d34ab691e3323f8b02fd000d177f6559326d07370721a1d326e71475259a58",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Boston Retirement System questionnaire, not an OCERS RFP. It requests a list of up to 10 public-fund clients with assets over $1 billion, but does not state the required minimum of five defined benefit clients, including two public plans with at least $15 billion each.",
+      "quotes": [
+        "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+        "Provide a list of up to 10 current public fund clients with assets greater than $1 billion for whom work similar to that requested in this RFP has been performed by your firm."
+      ],
+      "quote_matches": [
+        {
+          "quote": "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+          "start": 86,
+          "end": 163
+        },
+        {
+          "quote": "Provide a list of up to 10 current public fund clients with assets greater than $1 billion for whom work similar to that requested in this RFP has been performed by your firm.",
+          "start": 7958,
+          "end": 8133
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

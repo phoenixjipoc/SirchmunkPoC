@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "cf7e801754ffae86e2c3",
+    "query_id": "XD-06",
+    "question": "One private equity due diligence questionnaire asks whether the fund gives limited partners more than a certain number of business days' notice for capital calls. What is the threshold, and in which section of the questionnaire is this question?",
+    "file": "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+    "expected_facts": "The threshold is more than 10 business days' notice for capital calls, either generally or in specific circumstances (e.g. when a single capital call is above an agreed and stated percentage of total unfunded commitment). It is question 7.14 in Section 7.0 Credit Facilities of the ILPA Due Diligence Questionnaire 2.0.",
+    "acceptance": "Accept more than ten business days and Credit Facilities. Question number, document version and illustrative circumstances are helpful but not all mandatory for the narrow threshold/section question.",
+    "text_hash": "dc7770ddf2eb0d0a22374752c7dc6794b8fb383b84a6cf93e4a10d4cf606f4a6",
+    "source_text_sha256": "e9d832947c5555fd08fbad4762996d02f44908b19826f8ed06865b1ee0a20b33",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Hawaii ERS request for proposals for private equity consultant services, not the ILPA Due Diligence Questionnaire 2.0. It mentions capital-call management but gives neither a notice threshold nor a Credit Facilities section containing the question.",
+      "quotes": [
+        "Employees’ Retirement System of the State of Hawaii Request for Proposals Private Equity Consultant Services RFP 2022-04",
+        "Capital call management-verify legitimacy and accuracy of capital calls, distributions (both cash and in-kind) and capital account balances",
+        "QUESTIONNAIRE (Please complete both the MS Word and the Excel questionnaires)."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Employees’ Retirement System of the State of Hawaii Request for Proposals Private Equity Consultant Services RFP 2022-04",
+          "start": 13,
+          "end": 133
+        },
+        {
+          "quote": "Capital call management-verify legitimacy and accuracy of capital calls, distributions (both cash and in-kind) and capital account balances",
+          "start": 52121,
+          "end": 52260
+        },
+        {
+          "quote": "QUESTIONNAIRE (Please complete both the MS Word and the Excel questionnaires).",
+          "start": 70831,
+          "end": 70909
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

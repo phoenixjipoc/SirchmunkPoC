@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "84c6f421d59ab9ba0e81",
+    "query_id": "CONS-10",
+    "question": "What is the proposal submission deadline in the Oklahoma Public Employees Retirement System (OPERS) investment consulting services RFP?",
+    "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "expected_facts": "4:30 p.m. Central Time on March 25, 2022.",
+    "acceptance": "Accept Central Time/CT; explicit equivalent timezone conversion acceptable.",
+    "text_hash": "24d5965850bb731d1f236f3c09eb9e9855009b90c82899fd35fc123fe3525d93",
+    "source_text_sha256": "206385c6cbc8b887e46333ea2f56fa3be1d68c7f94e466f08c17043704dfdec6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a San Diego City Employees' Retirement System RFP, not the OPERS investment consulting services RFP. Its submission deadline therefore does not support the requested OPERS deadline.",
+      "quotes": [
+        "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+        "The deadline for submission of the firm’s proposal is September 22, 2026 at 5:00 pm (PDT)."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+          "start": 13,
+          "end": 117
+        },
+        {
+          "quote": "The deadline for submission of the firm’s proposal is September 22, 2026 at 5:00 pm (PDT).",
+          "start": 10684,
+          "end": 10774
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

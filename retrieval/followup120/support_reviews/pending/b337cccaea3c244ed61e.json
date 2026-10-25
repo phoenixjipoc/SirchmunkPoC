@@ -1,0 +1,106 @@
+{
+  "job": {
+    "id": "b337cccaea3c244ed61e",
+    "query_id": "CONS-06",
+    "question": "Which retirement system's general investment consultant RFP requires respondents to currently provide non-discretionary general investment advice to at least 5 public pension plans larger than $5 billion and at least 2 public plans over $20 billion?",
+    "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "expected_facts": "Texas Municipal Retirement System (TMRS).",
+    "acceptance": "TMRS or the full system name is sufficient; repeating thresholds is optional.",
+    "text_hash": "24d5965850bb731d1f236f3c09eb9e9855009b90c82899fd35fc123fe3525d93",
+    "source_text_sha256": "206385c6cbc8b887e46333ea2f56fa3be1d68c7f94e466f08c17043704dfdec6",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is SDCERS’s general investment consultant RFP, not TMRS’s. Its stated minimum qualifications do not include the specified requirements for current non-discretionary advice to public pension plans above $5 billion and $20 billion.",
+        "quotes": [
+          "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+          "The San Diego City Employees' Retirement System (SDCERS) is requesting proposals from general investment consultants to provide comprehensive pension fund investment consulting services.",
+          "The consulting firm must have substantial experience advising multi-billion public pension plan retirement systems."
+        ],
+        "quote_matches": [
+          {
+            "quote": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+            "start": 13,
+            "end": 117
+          },
+          {
+            "quote": "The San Diego City Employees' Retirement System (SDCERS) is requesting proposals from general investment consultants to provide comprehensive pension fund investment consulting services.",
+            "start": 2127,
+            "end": 2313
+          },
+          {
+            "quote": "The consulting firm must have substantial experience advising multi-billion public pension plan retirement systems.",
+            "start": 3468,
+            "end": 3583
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is SDCERS’s general investment consultant RFP, not TMRS’s. Its stated minimum qualifications do not include the specified requirements for current non-discretionary advice to public pension plans above $5 billion and $20 billion.",
+      "quotes": [
+        "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+        "The San Diego City Employees' Retirement System (SDCERS) is requesting proposals from general investment consultants to provide comprehensive pension fund investment consulting services.",
+        "The consulting firm must have substantial experience advising multi-billion public pension plan retirement systems."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+          "start": 13,
+          "end": 117
+        },
+        {
+          "quote": "The San Diego City Employees' Retirement System (SDCERS) is requesting proposals from general investment consultants to provide comprehensive pension fund investment consulting services.",
+          "start": 2127,
+          "end": 2313
+        },
+        {
+          "quote": "The consulting firm must have substantial experience advising multi-billion public pension plan retirement systems.",
+          "start": 3468,
+          "end": 3583
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is SDCERS’s general investment consultant RFP, not TMRS’s. Its stated minimum qualifications do not include the specified requirements for advising five public pension plans larger than $5 billion and two over $20 billion.",
+      "quotes": [
+        "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+        "The San Diego City Employees' Retirement System (SDCERS) is requesting proposals from general investment consultants",
+        "The consulting firm must have substantial experience advising multi-billion public pension plan retirement systems."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+          "start": 13,
+          "end": 117
+        },
+        {
+          "quote": "The San Diego City Employees' Retirement System (SDCERS) is requesting proposals from general investment consultants",
+          "start": 2127,
+          "end": 2243
+        },
+        {
+          "quote": "The consulting firm must have substantial experience advising multi-billion public pension plan retirement systems.",
+          "start": 3468,
+          "end": 3583
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

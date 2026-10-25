@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "c4a9553bf3db4a1f2e51",
+    "query_id": "SVC-13",
+    "question": "What evaluation criteria and percentage weights does the Texas Municipal Retirement System (TMRS) global custody RFP use to evaluate respondents?",
+    "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 25%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Response and Additional Evidence of Capability - 10%; 4. Competitiveness & Reasonableness of Economics - 25%.",
+    "acceptance": "Accept faithful shorter criterion names with correct mapping 25/40/10/25. Supporting subcriteria are optional.",
+    "text_hash": "24d5965850bb731d1f236f3c09eb9e9855009b90c82899fd35fc123fe3525d93",
+    "source_text_sha256": "206385c6cbc8b887e46333ea2f56fa3be1d68c7f94e466f08c17043704dfdec6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is SDCERS’s August 2026 general investment consultant RFP, not TMRS’s global custody RFP. Its evaluation section lists general considerations but does not provide the requested criteria or percentage weights.",
+      "quotes": [
+        "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+        "SDCERS General Investment Consultant RFP – August 2026 Page 8",
+        "The following is a summary of the general considerations that will be used to determine the firms that will be selected as finalists:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+          "start": 13,
+          "end": 117
+        },
+        {
+          "quote": "SDCERS General Investment Consultant RFP – August 2026 Page 8",
+          "start": 11989,
+          "end": 12050
+        },
+        {
+          "quote": "The following is a summary of the general considerations that will be used to determine the firms that will be selected as finalists:",
+          "start": 11573,
+          "end": 11706
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

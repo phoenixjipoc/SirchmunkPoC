@@ -1,0 +1,75 @@
+{
+  "query_id": "DDQ-04",
+  "question": "Under the ILPA ESG Assessment Framework, how often does a GP review its ESG policy at the 'Intermediate' and at the 'Advanced' level of the 'Approach to Policy Review' component?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P",
+  "keyword_files": [
+    "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+    "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+    "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+    "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+    "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+  ],
+  "keyword_terms": [
+    "ILPA ESG Assessment Framework",
+    "Approach to Policy Review",
+    "ESG policy review",
+    "Intermediate and Advanced levels",
+    "ILPA ESG评估框架",
+    "政策审查",
+    "普通合伙人"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 143,
+      "timestamp": "2026-10-25 15:43:24.672602",
+      "metadata": {
+        "keywords": [
+          "ILPA ESG Assessment Framework",
+          "Approach to Policy Review",
+          "ESG policy review",
+          "Intermediate and Advanced levels",
+          "ILPA ESG评估框架",
+          "政策审查",
+          "普通合伙人"
+        ],
+        "files_found": 3,
+        "files_discovered": [
+          "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+          "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+          "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "ILPA__ILPA-ESG-Assessment-Framework.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+      "path": "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+      "path": "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+    }
+  ],
+  "elapsed_s": 3.192,
+  "calls": 0,
+  "usage": {}
+}

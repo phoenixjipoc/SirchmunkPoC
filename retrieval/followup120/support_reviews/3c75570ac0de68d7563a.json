@@ -1,0 +1,88 @@
+{
+  "job": {
+    "id": "3c75570ac0de68d7563a",
+    "query_id": "OTH-07",
+    "question": "One RFP for investment manager services, issued by an education foundation, limits proposals to five single-spaced typewritten pages. How many copies must be submitted and by what deadline?",
+    "file": "IMRF__sample_investment_manager_rfp.pdf",
+    "expected_facts": "Six copies, no later than 5 PM on July 1, 2016 (Broward Education Foundation).",
+    "acceptance": "Require six copies, July 1, 2016, 5 p.m.; issuer/addressee optional. No timezone is stated, so do not require one.",
+    "text_hash": "1d6500a43cb519702a3a7fba26b0e9ecd1b4b2bb1bb0ac004878183abcc2df76",
+    "source_text_sha256": "b904f613bceebade43840677e52ac82b24f5fe88526390405a0ab1d994b4049d",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is an IMRF sample RFP, not the education foundation’s RFP. Its six-copy requirement applies to IMRF, and its deadline is a placeholder at noon, so it does not support the requested deadline.",
+        "quotes": [
+          "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment management firms",
+          "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX."
+        ],
+        "quote_matches": [
+          {
+            "quote": "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment management firms",
+            "start": 274,
+            "end": 376
+          },
+          {
+            "quote": "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX.",
+            "start": 10455,
+            "end": 10551
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an IMRF sample RFP, not the education foundation’s RFP. Its six-copy requirement applies to IMRF, and its deadline is a placeholder at noon, so it does not support the requested deadline.",
+      "quotes": [
+        "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment management firms",
+        "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment management firms",
+          "start": 274,
+          "end": 376
+        },
+        {
+          "quote": "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX.",
+          "start": 10455,
+          "end": 10551
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "partial",
+      "identity": "wrong",
+      "reason": "This is an Illinois Municipal Retirement Fund sample RFP, not the Broward Education Foundation RFP. It specifies six copies, but its deadline is a placeholder at noon rather than 5 p.m. on July 1, 2016.",
+      "quotes": [
+        "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals",
+        "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals",
+          "start": 274,
+          "end": 343
+        },
+        {
+          "quote": "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX.",
+          "start": 10455,
+          "end": 10551
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

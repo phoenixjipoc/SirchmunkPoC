@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "e807ec63d36d4d435b0c",
+    "query_id": "CONS-08",
+    "question": "Which retirement plan's investment consulting RFP requires that, as of December 31, 2024, the firm have at least three public fund clients each with at least $1B in assets and have been in business at least ten years?",
+    "file": "Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+    "expected_facts": "The Retirement Plan for CTA Employees (Chicago Transit Authority), in its April 29, 2025 investment consulting RFP.",
+    "acceptance": "Retirement Plan for CTA/Chicago Transit Authority Employees; publication date is optional.",
+    "text_hash": "8fd38e162caf488a201e33490c21fd056c9a564499e2924af8e6061c596a2f16",
+    "source_text_sha256": "8b59ab7d10437cb899072f904aad9ef61f23fa42305e041c2ac89f370d96c76b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2023 Oklahoma OPERS investment management RFP, not the CTA Employees investment consulting RFP. Its ten-year criterion applies to senior investment professionals, not the firm's time in business; it does not require three public fund clients each with at least $1 billion in assets as of December 31, 2024.",
+      "quotes": [
+        "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM REQUEST FOR PROPOSAL #515-24-001 U.S. EQUITY, Non-U.S. EQUITY, AND FIXED INCOME (TIPS) INDEX INVESTMENT MANAGEMENT SERVICES",
+        "OPERS RFP – Investment Management Services – Issued July 20, 2023 Page 1 of 17",
+        "The senior investment professionals in charge of the proposed mandates must have at least ten years of institutional experience within fixed income and/or equity indexing space.",
+        "Provide three references for the largest public fund clients who employ your firm."
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM REQUEST FOR PROPOSAL #515-24-001 U.S. EQUITY, Non-U.S. EQUITY, AND FIXED INCOME (TIPS) INDEX INVESTMENT MANAGEMENT SERVICES",
+          "start": 13,
+          "end": 184
+        },
+        {
+          "quote": "OPERS RFP – Investment Management Services – Issued July 20, 2023 Page 1 of 17",
+          "start": 2757,
+          "end": 2835
+        },
+        {
+          "quote": "The senior investment professionals in charge of the proposed mandates must have at least ten years of institutional experience within fixed income and/or equity indexing space.",
+          "start": 16696,
+          "end": 16873
+        },
+        {
+          "quote": "Provide three references for the largest public fund clients who employ your firm.",
+          "start": 29595,
+          "end": 29677
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

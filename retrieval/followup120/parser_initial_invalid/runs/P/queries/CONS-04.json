@@ -1,0 +1,97 @@
+{
+  "query_id": "CONS-04",
+  "question": "According to the San Bernardino County Employees' Retirement Association (SBCERA) investment consultant RFP, approximately how large is SBCERA's investment portfolio?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P",
+  "keyword_files": [
+    "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "/mnt/docs/S/Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+    "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf",
+    "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "/mnt/docs/S/Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+    "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf",
+    "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+  ],
+  "keyword_terms": [
+    "San Bernardino County Employees' Retirement Association",
+    "investment consultant RFP",
+    "investment portfolio size",
+    "圣贝纳迪诺县雇员退休协会",
+    "投资顾问征求建议书",
+    "投资组合"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 342,
+      "timestamp": "2026-10-25 15:41:29.892117",
+      "metadata": {
+        "keywords": [
+          "San Bernardino County Employees' Retirement Association",
+          "investment consultant RFP",
+          "investment portfolio size",
+          "圣贝纳迪诺县雇员退休协会",
+          "投资顾问征求建议书",
+          "投资组合"
+        ],
+        "files_found": 6,
+        "files_discovered": [
+          "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf",
+          "/mnt/docs/S/Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+          "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf",
+          "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+          "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+          "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+      "path": "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+      "path": "/mnt/docs/S/Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "IMRF__sample-investment-consulting-rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+      "path": "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+    }
+  ],
+  "elapsed_s": 3.737,
+  "calls": 0,
+  "usage": {}
+}

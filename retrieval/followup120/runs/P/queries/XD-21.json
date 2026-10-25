@@ -1,0 +1,69 @@
+{
+  "query_id": "XD-21",
+  "question": "How many comments did the PRI receive from LPs and GPs during the 2021 update of its Limited Partners Private Equity Responsible Investment DDQ?",
+  "type": "unanswerable",
+  "pair_id": "",
+  "group": "P",
+  "keyword_files": [
+    "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+    "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+    "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf"
+  ],
+  "keyword_terms": [
+    "Limited Partners Private Equity Responsible Investment DDQ",
+    "2021 update",
+    "comments from LPs and GPs",
+    "私募股权",
+    "负责任投资尽职调查问卷",
+    "有限合伙人",
+    "普通合伙人"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 64,
+      "timestamp": "2026-10-25 16:10:16.416709",
+      "metadata": {
+        "keywords": [
+          "Limited Partners Private Equity Responsible Investment DDQ",
+          "2021 update",
+          "comments from LPs and GPs",
+          "私募股权",
+          "负责任投资尽职调查问卷",
+          "有限合伙人",
+          "普通合伙人"
+        ],
+        "files_found": 2,
+        "files_discovered": [
+          "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+          "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "ILPA__ILPA-DDQ-2.0.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+      "path": "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf"
+    }
+  ],
+  "elapsed_s": 5.098,
+  "calls": 0,
+  "usage": {}
+}

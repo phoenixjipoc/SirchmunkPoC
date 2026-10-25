@@ -1,0 +1,73 @@
+{
+  "query_id": "CONS-13",
+  "question": "How many printed copies of the proposal must be submitted in the San Francisco Employees' Retirement System (SFERS) general investment consultant RFP?",
+  "type": "pair_b",
+  "pair_id": "P2",
+  "group": "P",
+  "keyword_files": [
+    "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+  ],
+  "keyword_terms": [
+    "San Francisco Employees' Retirement System",
+    "general investment consultant RFP",
+    "printed copies of the proposal",
+    "旧金山雇员退休系统",
+    "投资顾问征求建议书",
+    "纸质副本"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 245,
+      "timestamp": "2026-10-25 15:42:30.678425",
+      "metadata": {
+        "keywords": [
+          "San Francisco Employees' Retirement System",
+          "general investment consultant RFP",
+          "printed copies of the proposal",
+          "旧金山雇员退休系统",
+          "投资顾问征求建议书",
+          "纸质副本"
+        ],
+        "files_found": 3,
+        "files_discovered": [
+          "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+          "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+          "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+      "path": "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+    }
+  ],
+  "elapsed_s": 3.596,
+  "calls": 0,
+  "usage": {}
+}

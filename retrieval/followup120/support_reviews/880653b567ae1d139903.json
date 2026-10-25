@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "880653b567ae1d139903",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "1293d72cf747218c60a7c2a6d672307dfc4ed9a219b9d94748104754f6a40b02",
+    "source_text_sha256": "7ed4136b9f78094e292fd0483fe60026c36824af173945e88edf069fb23a58f7",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a SURS investment-manager RFP template, not the retirement system’s external-audit RFP Q&A. It provides no total contractual fees for FY2021 audits.",
+      "quotes": [
+        "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+        "Emerging Markets Equity",
+        "These questions will be consolidated into a single Q&A document and responded to by SURS"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+          "start": 7442,
+          "end": 7531
+        },
+        {
+          "quote": "Emerging Markets Equity",
+          "start": 51,
+          "end": 74
+        },
+        {
+          "quote": "These questions will be consolidated into a single Q&A document and responded to by SURS",
+          "start": 24448,
+          "end": 24536
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "eb08efadfe2cb54fbd33",
+    "query_id": "CONS-09",
+    "question": "Which retirement system's investment consultant RFP requires firms to certify that they currently provide investment consulting services to clients whose combined assets total at least $50 billion?",
+    "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+    "expected_facts": "Teachers' Retirement System of the State of Illinois (TRS Illinois), in its FY23 investment consultant RFP (Appendix B, Statement of Minimum Qualifications).",
+    "acceptance": "TRS Illinois / Teachers’ Retirement System of the State of Illinois is sufficient; FY23 and appendix identifier are optional.",
+    "text_hash": "70ba69fa78a5262a5a903e6c962a7ed533f83b2f39cbeaae0d6efcae5122f669",
+    "source_text_sha256": "c0d34ab691e3323f8b02fd000d177f6559326d07370721a1d326e71475259a58",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Boston Retirement System RFP questionnaire, not a TRS Illinois RFP. It does not require firms to certify that their current investment-consulting clients have combined assets of at least $50 billion.",
+      "quotes": [
+        "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+        "Please indicate in the chart below the composition of your client base.",
+        "Provide a list of up to 10 current public fund clients with assets greater than $1 billion"
+      ],
+      "quote_matches": [
+        {
+          "quote": "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+          "start": 86,
+          "end": 163
+        },
+        {
+          "quote": "Please indicate in the chart below the composition of your client base.",
+          "start": 7583,
+          "end": 7654
+        },
+        {
+          "quote": "Provide a list of up to 10 current public fund clients with assets greater than $1 billion",
+          "start": 7958,
+          "end": 8048
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

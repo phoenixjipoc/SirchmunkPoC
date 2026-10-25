@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "61457182decc54cbb3b7",
+    "query_id": "SVC-09",
+    "question": "A county retirement system's custody RFP requires custody respondents to have at least $500 billion in total assets under custody as of December 31, 2021. How much of that must be in international equity and fixed income, and what minimum liability/professional errors and omissions insurance must respondents provide?",
+    "file": "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+    "expected_facts": "At least $100 billion in international equity and fixed income; liability/professional errors and omissions insurance of at least $75 million. Issuer: Orange County Employees Retirement System (OCERS), October 2022 custody services RFP.",
+    "acceptance": "Accept $100bn international equity/fixed income and $75m liability/professional E&O coverage. Issuer/date are optional.",
+    "text_hash": "3ceed69320130ef8b05d9121485e497c339c98312b01995788aaadc713b0e13e",
+    "source_text_sha256": "1592894378410e0e43afb1370a16e301ba0b8187e206d48f7c0eccbe1356784e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is TMRS’s December 2020 RFP, not the county retirement system’s October 2022 RFP. It does not state the required international-asset custody threshold, and its professional liability insurance minimum is different.",
+      "quotes": [
+        "Request for Proposal Global Custody and Related Services Texas Municipal Retirement System (TMRS) Issue Date: December 11, 2020",
+        "a. Errors & Omissions (professional liability) insurance with a limit of no less than $1,000,000 per claim made and $2,000,000 annual aggregate;"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Global Custody and Related Services Texas Municipal Retirement System (TMRS) Issue Date: December 11, 2020",
+          "start": 13,
+          "end": 140
+        },
+        {
+          "quote": "a. Errors & Omissions (professional liability) insurance with a limit of no less than $1,000,000 per claim made and $2,000,000 annual aggregate;",
+          "start": 63320,
+          "end": 63464
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

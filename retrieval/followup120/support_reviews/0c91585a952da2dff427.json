@@ -1,0 +1,35 @@
+{
+  "job": {
+    "id": "0c91585a952da2dff427",
+    "query_id": "XD-09",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+    "file": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+    "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+    "text_hash": "3ecf7188afbf06d1992a2e369435746a5f1872698632985399a9e054bf75b408",
+    "source_text_sha256": "245be5bf903c98e9c43a03f3b620302180f76969b88872c25a7e2f9026336a20",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a City of Grand Rapids investment-consultant RFP, not the ILPA Due Diligence Questionnaire v1.2. It does not list that questionnaire’s lettered appendices or their titles.",
+      "quotes": [
+        "CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM INVESTMENT CONSULTANT SERVICES REQUEST FOR PROPOSAL (“RFP”)"
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM INVESTMENT CONSULTANT SERVICES REQUEST FOR PROPOSAL (“RFP”)",
+          "start": 27,
+          "end": 188
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

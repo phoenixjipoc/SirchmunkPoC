@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "a5ab5a63435cdc8ef9fe",
+    "query_id": "SVC-19",
+    "question": "What minimum qualifications must a proposing firm certify in the City of Temple City's 2020 RFP for 457 plan administration and recordkeeping services?",
+    "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "expected_facts": "(1) At least 5 years of experience administering governmental 457 plans and currently providing sole-provider administration to at least five 457 plans with assets under $25 million; (2) no front-end or back-end charges and no restrictions/penalties on plan- or participant-initiated transfers or withdrawals (except capital preservation equity wash/put provisions and fund short-term trading fees); (3) full disclosure of all fund expense and revenue sharing arrangements, including fixed/general account products; (4) full disclosure of expenses and revenue for any service (platform fees, managed accounts, advice, financial planning, brokerage); (5) agree not to sell/promote products not affiliated with the Plan without written City authorization; (6) be qualified to do business in California and Temple City upon award; (7) offer a self-directed brokerage option; (8) be able to transition and continue administration of existing loans; (9) representatives attend City meetings in person as requested (no more than once per year); (10) knowledge of and compliance with applicable County, California and federal regulations; (11) RFP terms remain in place through negotiations and the final contract unless waived in writing.",
+    "acceptance": "Accept concise grouping of the eleven requirements; the five-year/five-plan/$25m threshold alone is incomplete for this broad list question. Examples of service fees are illustrative, not separate mandatory list items.",
+    "text_hash": "2e5c9ac10ac2943a19269fe0ceeab6dc6cca5c9b732ec461770764bed168feeb",
+    "source_text_sha256": "698b71034e03dda497378807f02ef9875cc985ad2aafde5d24accec7bdff2d4b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2016 South Carolina Retirement System Investment Commission RFP for general investment consulting, not Temple City’s 2020 RFP for 457 plan administration and recordkeeping. Its minimum qualifications concern a different engagement and do not support the requested requirements.",
+      "quotes": [
+        "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+        "OPENING DATE: 9/30/2016",
+        "The firm selected must have been in business providing general institutional investment consulting for or at least ten (10) years"
+      ],
+      "quote_matches": [
+        {
+          "quote": "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+          "start": 106,
+          "end": 203
+        },
+        {
+          "quote": "OPENING DATE: 9/30/2016",
+          "start": 234,
+          "end": 257
+        },
+        {
+          "quote": "The firm selected must have been in business providing general institutional investment consulting for or at least ten (10) years",
+          "start": 32049,
+          "end": 32178
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

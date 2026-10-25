@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "a9dbce45d4eb74a14c53",
+    "query_id": "CONS-07",
+    "question": "Which pension system's investment consultant RFP requires respondents to have at least five defined benefit pension plan clients, two of which are public pension plans with total plan assets of at least $15 billion each?",
+    "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "expected_facts": "Orange County Employees Retirement System (OCERS), in its 2021 investment consultant services RFP (Appendix E, Minimum Qualifications Certification).",
+    "acceptance": "OCERS/Orange County Employees Retirement System suffices. Appendix designation, year and restatement of qualification are optional.",
+    "text_hash": "5afc5adec694c195f2977417c376c45b4856a88e72d30c0e1953e2403af08eac",
+    "source_text_sha256": "add3ba83b3e17f098f096c1bf8b5d5000ad39375300bba2e2b398c7d805cf7a6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is Contra Costa County Employees’ Retirement Association’s 2018 master custodian RFP, not an investment consultant RFP. Its minimum qualification concerns custodial clients and does not state the specified five-client, two-public-plan, $15-billion requirement. It does not identify the pension system sought.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+        "The Proposer must have a total number of at least 30 custodial defined benefit clients, including at least 10 public funds, with $1 billion each in tax-exempt assets or greater."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+          "start": 13,
+          "end": 141
+        },
+        {
+          "quote": "The Proposer must have a total number of at least 30 custodial defined benefit clients, including at least 10 public funds, with $1 billion each in tax-exempt assets or greater.",
+          "start": 17329,
+          "end": 17506
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

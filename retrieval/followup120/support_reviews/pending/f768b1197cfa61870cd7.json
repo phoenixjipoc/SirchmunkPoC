@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "f768b1197cfa61870cd7",
+    "query_id": "SVC-07",
+    "question": "Which retirement system's global custody RFP states that the system does not currently participate in securities lending, and what is the planned start date for the custody contract?",
+    "file": "Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+    "expected_facts": "The Texas Municipal Retirement System (TMRS), in its December 2020 RFP for Global Custody and Related Services; the contract start date is January 3, 2022.",
+    "acceptance": "TMRS and January 3, 2022 suffice; issuance month and securities-lending support contingencies are optional.",
+    "text_hash": "7180429187038236fd14f0752492190d2d289b0c31609f0f0a2bf130924e85ac",
+    "source_text_sha256": "18abed4435894e587e3d010b5d205b6cafee38f9c9ad7a8505c1a10b5ee2150d",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2017 Hawaii ERS RFP for real estate investment consultant services, not the TMRS global custody RFP. It provides no support for the requested custody contract start date.",
+      "quotes": [
+        "EMPLOYEES’ RETIREMENT SYSTEM OF THE STATE OF HAWAII REQUEST FOR PROPOSALS (RFP) REAL ESTATE INVESTMENT CONSULTANT SERVICES",
+        "The RFP may be obtained by calling ((808) 586-1776) or downloaded from the ERS website http://ers.ehawaii.gov/resources/procurement starting from 9:30 a.m. (H.S.T.) on February 6, 2017."
+      ],
+      "quote_matches": [
+        {
+          "quote": "EMPLOYEES’ RETIREMENT SYSTEM OF THE STATE OF HAWAII REQUEST FOR PROPOSALS (RFP) REAL ESTATE INVESTMENT CONSULTANT SERVICES",
+          "start": 13,
+          "end": 135
+        },
+        {
+          "quote": "The RFP may be obtained by calling ((808) 586-1776) or downloaded from the ERS website http://ers.ehawaii.gov/resources/procurement starting from 9:30 a.m. (H.S.T.) on February 6, 2017.",
+          "start": 767,
+          "end": 952
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "2e3872b237a5ffd4927e",
+    "query_id": "INV-14",
+    "question": "In the Massachusetts PRIM Board's September 2026 RFP for Active Global Core Equity investment management services, what minimum total firm assets under management must a respondent have?",
+    "file": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "expected_facts": "At least $5 billion in total firm assets under management as of June 30, 2026.",
+    "acceptance": "At least $5bn total firm AUM as of June 30, 2026. Do not confuse firm AUM with product assets.",
+    "text_hash": "3ecf7188afbf06d1992a2e369435746a5f1872698632985399a9e054bf75b408",
+    "source_text_sha256": "245be5bf903c98e9c43a03f3b620302180f76969b88872c25a7e2f9026336a20",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a July 2023 Grand Rapids RFP for investment consulting services, not the Massachusetts PRIM Board’s September 2026 Active Global Core Equity RFP. It does not state the required minimum total firm assets under management as of June 30, 2026.",
+      "quotes": [
+        "JULY 27, 2023 CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM INVESTMENT CONSULTANT SERVICES REQUEST FOR PROPOSAL (“RFP”)",
+        "The Investment Consultant must provide services to at least one (1) public employee retirement system with at least $250 million in assets."
+      ],
+      "quote_matches": [
+        {
+          "quote": "JULY 27, 2023 CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM INVESTMENT CONSULTANT SERVICES REQUEST FOR PROPOSAL (“RFP”)",
+          "start": 13,
+          "end": 188
+        },
+        {
+          "quote": "The Investment Consultant must provide services to at least one (1) public employee retirement system with at least $250 million in assets.",
+          "start": 4820,
+          "end": 4959
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

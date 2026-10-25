@@ -1,0 +1,133 @@
+{
+  "query_id": "CONS-07",
+  "question": "Which pension system's investment consultant RFP requires respondents to have at least five defined benefit pension plan clients, two of which are public pension plans with total plan assets of at least $15 billion each?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "S",
+  "references": [
+    {
+      "rank": 1,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "IMRF__sample-investment-consulting-rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+      "path": "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+      "path": "/mnt/docs/S/Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+      "path": "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "OCERS__custodian_rfp_2022-2023.pdf",
+      "path": "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+      "path": "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf",
+      "path": "/mnt/docs/S/Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf"
+    }
+  ],
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "baseline_sha256": "64d813a25d41097f2db466e32b16eff042aca439ea42243eb8b10c2e198dcbb3",
+  "original_files": [
+    "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "IMRF__sample-investment-consulting-rfp.pdf",
+    "Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+    "Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "OCERS__investment_consultant_services_rfp.pdf",
+    "OCERS__custodian_rfp_2022-2023.pdf",
+    "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf"
+  ],
+  "ranking_prompt": "{\"question\": \"Which pension system's investment consultant RFP requires respondents to have at least five defined benefit pension plan clients, two of which are public pension plans with total plan assets of at least $15 billion each?\", \"candidates\": [{\"filename\": \"Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf\", \"extension\": \".pdf\", \"title\": \"Hawaii ERS\", \"author\": \"CAI\", \"page_count\": 37, \"keywords\": [\"CAI\"], \"preview\": \"Employees’ Retirement System of the State of Hawaii \\n(ERS) \\nRequest for Proposals \\nReal Assets Investment Consultant \\nRFP 2022-06 \\nIssued  \\n  October 3, 2022 \\nPOTENTIAL OFFERORS WHO WISH TO RECEIVE ADDENDA TO THIS \\nREQUEST FOR PROPOSALS MUST REGISTER WITH THE ERS AS \\nPOTENTIAL OFFERORS.\", \"full_content\": \"\"}, {\"filename\": \"Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf\", \"extension\": \".pdf\", \"title\": \"Publish:\", \"author\": \"konishig\", \"page_count\": 1, \"keywords\": [\"konishig\"], \"preview\": \"EMPLOYEES’ RETIREMENT SYSTEM  \\nOF THE STATE OF HAWAII \\nREQUEST FOR PROPOSALS (RFP) \\nREAL ESTATE INVESTMENT CONSULTANT SERVICES \\n \\n \\nThe Employees’ Retirement System of the State of Hawaii (ERS) is soliciting \\nproposals for a qualified firm to provide non-discretionary real estate investment \\nconsulting services to the ERS.  The consulting firm must be United States \\nbased, registered under the Investment Advisers Act of 1940, been in business \\nfor a minimum of three years and have at least one defined benefit public \\npension fund client with assets greater than $5 billion.  The primary consultant to \\nbe assigned to the ERS must have a minimum of seven years experience \\nproviding domestic and international real estate consulting services to public \\npension plans. \\n \\nThe RFP may be obtai\", \"full_content\": \" \\n \\nEMPLOYEES’ RETIREMENT SYSTEM  \\nOF THE STATE OF HAWAII \\nREQUEST FOR PROPOSALS (RFP) \\nREAL ESTATE INVESTMENT CONSULTANT SERVICES \\n \\n \\nThe Employees’ Retirement System of the State of Hawaii (ERS) is soliciting \\nproposals for a qualified firm to provide non-discretionary real estate investment \\nconsulting services to the ERS.  The consulting firm must be United States \\nbased, registered under the Investment Advisers Act of 1940, been in business \\nfor a minimum of three years and have at least one defined benefit public \\npension fund client with assets greater than $5 billion.  The primary consultant to \\nbe assigned to the ERS must have a minimum of seven years experience \\nproviding domestic and international real estate consulting services to public \\npension plans. \\n \\nThe RFP may be obtained by calling ((808) 586-1776) or downloaded from the \\nERS website http://ers.ehawaii.gov/resources/procurement starting from 9:30 \\na.m. (H.S.T.) on February 6, 2017.  The RFP will also be available online at \\nwww.spo.hawaii.gov.   \\n \\n \\nReal Estate Investment Consultant RFP \\nEmployees’ Retirement System of the State of Hawaii \\n201 Merchant Street, Suite 1400 \\n Honolulu, HI 96813-2980 \\n \\nPotential offerors who wish to receive addenda to the RFP must register with the \\nERS as potential offerors at:  dbf.ers.procure@hawaii.gov \\n \\nProposals must be received by the Employees’ Retirement System by 4:30 p.m. \\n(H.S.T.) on March 20, 2017.  Proposals received after this time will not be \\nconsidered. \\n \\n \"}, {\"filename\": \"IMRF__sample-investment-consulting-rfp.pdf\", \"extension\": \".pdf\", \"title\": \"4/20/98 DRAFT\", \"author\": \"Carmen Heredia\", \"page_count\": 31, \"keywords\": [\"Carmen Heredia\"], \"preview\": \"Request for Proposals - Investment Consulting, Real Estate Consulting and Performance \\nMeasurement Services \\n \\nPART 1 -- Introduction and Goal of the RFP \\n1.1 INTRODUCTION - General Information \\nThe Illinois Municipal Retirement Fund (IMRF) is requesting pro posals from investment \\nconsulting firms to provide general investment consulting , real estate consulting  and \\nperformance measurement services (bundled or unbundled) to its Board of Trustees and \\nalso to assist the IMRF Investment Department Staff.   \\nThere is no expressed or implied obligation for the IMRF to reimburse responding firms \\nfor any expenses incurred in preparing proposals in response to this request. \\nIMRF reserves the right to reject any or all proposals submitted.  All proposals submitted \\nwill be  evaluated\", \"full_content\": \"\"}, {\"filename\": \"Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"James Stivers\", \"page_count\": 48, \"keywords\": [\"James Stivers\"], \"preview\": \"State Retirement Systems \\n \\n \\n \\n \\n \\nRequest for Proposal \\nfor \\nActuarial Consulting Services \\n(System Reference # 24100) \\n \\n \\n \\nIssued on February 2, 2024 \\nResponses Due by 2:00 P.M. CST on March 4, 2024\", \"full_content\": \"\"}, {\"filename\": \"OCERS__custodian_rfp_2022-2023.pdf\", \"extension\": \".pdf\", \"title\": \"Custodian RFP\", \"author\": \"OCERS\", \"page_count\": 51, \"keywords\": [\"OCERS\", \"RFP\", \"Investments\"], \"preview\": \"Custody Services \\nRequest for Proposal \\n \\nOctober 2022 \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nOrange County Employees Retirement System (OCERS) \\nP.O. Box 1229 \\nSanta Ana, CA 92702 \\n(714)-558-6200 \\nhttp://www.ocers.org\", \"full_content\": \"\"}, {\"filename\": \"OCERS__investment_consultant_services_rfp.pdf\", \"extension\": \".pdf\", \"title\": \"OCERS Investment Consultant Services RFP\", \"author\": \"OCERS\", \"page_count\": 37, \"keywords\": [\"OCERS\", \"OCERS Investment Consultant Services RFP\"], \"preview\": \"Investment Consultant Services \\nfor:  \\nGeneral Investments and Risk \\nPrivate Equity \\nReal Assets \\nReal Estate \\nRequests for Proposal \\n \\nIssued August 2021 \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nOrange County Employees Retirement System (OCERS) \\n2223 E Wellington Avenue Suite 100 \\nSanta Ana, CA 92701 USA \\n1-(714)-558-6200 \\nhttp://www.ocers.org\", \"full_content\": \"\"}, {\"filename\": \"SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf\", \"extension\": \".pdf\", \"title\": \"August 11, 2008\", \"author\": \"dpcadmin\", \"page_count\": 21, \"keywords\": [\"dpcadmin\"], \"preview\": \"SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM \\nREQUEST FOR PROPOSAL (RFP) FOR \\nGENERAL INVESTMENT CONSULTANT\", \"full_content\": \"\"}, {\"filename\": \"SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf\", \"extension\": \".pdf\", \"title\": \"SURS Sample Investment Manager RFP\", \"author\": \"SURS\", \"page_count\": 44, \"keywords\": [\"SURS\"], \"preview\": \"REQUEST FOR PROPOSAL \\nEmerging \\nMarkets Equity \\nID: RFP-##-##-## \\nIssued February 14, 2022 \\nRespon\\nses due via email \\nby 4:30pm CT on March 31, 2022 \\nPlease include RFP ID on all correspondence\\nSample\", \"full_content\": \"\"}, {\"filename\": \"Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf\", \"extension\": \".pdf\", \"title\": \"BACKGROUND\", \"author\": \"Michael Sacco\", \"page_count\": 9, \"keywords\": [\"Michael Sacco\"], \"preview\": \"1 \\nREQUEST FOR PROPOSALS – ACTUARIAL SERVICES \\n \\n \\nBACKGROUND \\n \\nThe Stoneham Retirement System (“System”) is governed by the Stoneham Retirement Board (“Board”) \\nand is the pension system serving the Town of Stoneham and the Stoneham Housing Authority  in \\nMiddlesex County, Massachusetts. The Board  manages approximately $91 million in assets and employs \\na staff of two people in its office located in Stoneham, Massachusetts.  \\n \\nThe most recent valuation completed by the Board  is as of January 1, 2018 . The unfunded liability of \\nthe System is $30 million as of January 1, 2018. The System’s funding schedule calls for full funding of \\nits system by 2024.  \\n \\nAs of December 31, 2018, the System had 292 active participants, 98 inactive participants and 280 retired \\nparticipants and benefi\", \"full_content\": \"\"}, {\"filename\": \"TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf\", \"extension\": \".pdf\", \"title\": \" TMRS RFP General Investment Consulting Services\", \"author\": \"TMRS\", \"page_count\": 39, \"keywords\": [\"TMRS\"], \"preview\": \"1 \\n \\n \\n \\n \\nRequest for Proposal (RFP) \\nNON-DISCRETIONARY  \\nGENERAL INVESTMENT CONSULTING SERVICES \\n \\n \\nNotice to Prospective Respondents \\nFebruary 3, 2022 \\n \\nYou are invited to review and respond to this Texas Municipal Reti rement System (TMRS) Request \\nfor Proposal ( RFP) e ntitled Non-Discretionary General Investment  Consulting Services . In \\nsubmitting your proposal, you must comply with the instructions found herein.   \\n \\nResponses must be received  no later than 5:00 p.m. Central Standard Time (CST) on March 3, \\n2022.  Pro posals received after this  date and time will not be considered.  Please see Section -VII – \\nTransmittal instructions for detailed information on how to respond. \\n                            \\nRespondents requiring clarification of the content of this RFP may r\", \"full_content\": \"\"}]}",
+  "keyword_files": [
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf",
+    "/mnt/docs/S/Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+    "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+    "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "/mnt/docs/S/Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf",
+    "/mnt/docs/S/Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+    "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+    "/mnt/docs/S/Hartford_MERF__file.pdf",
+    "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "/mnt/docs/S/Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf",
+    "/mnt/docs/S/Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+    "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+    "/mnt/docs/S/CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+    "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+    "/mnt/docs/S/Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+    "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf",
+    "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+    "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf",
+    "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "/mnt/docs/S/Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+    "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+    "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "/mnt/docs/S/Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf"
+  ],
+  "status": "ok",
+  "elapsed_s": 7.267,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 2568,
+    "completion_tokens": 541,
+    "total_tokens": 3109
+  },
+  "attempt": 1
+}

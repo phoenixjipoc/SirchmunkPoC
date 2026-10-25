@@ -1,0 +1,59 @@
+{
+  "query_id": "SVC-06",
+  "question": "A county 457(b) deferred compensation plan RFP subject to the rules of the New York State Deferred Compensation Board states a minimum deferral amount required by the Model Plan. What is that minimum, and within how many business days must participant deferrals be invested?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/Monroe_County_NY__10406.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/Monroe_County_NY__10406.pdf"
+  ],
+  "keyword_terms": [
+    "New York State Deferred Compensation Board",
+    "457(b) deferred compensation plan",
+    "Model Plan minimum deferral amount",
+    "participant deferral investment deadline",
+    "纽约州递延薪酬委员会",
+    "457(b)递延薪酬计划",
+    "最低递延金额"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 127,
+      "timestamp": "2026-10-25 15:36:53.277815",
+      "metadata": {
+        "keywords": [
+          "New York State Deferred Compensation Board",
+          "457(b) deferred compensation plan",
+          "Model Plan minimum deferral amount",
+          "participant deferral investment deadline",
+          "纽约州递延薪酬委员会",
+          "457(b)递延薪酬计划",
+          "最低递延金额"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/Monroe_County_NY__10406.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "Monroe_County_NY__10406.pdf",
+      "path": "/mnt/docs/S/Monroe_County_NY__10406.pdf"
+    }
+  ],
+  "elapsed_s": 3.418,
+  "calls": 0,
+  "usage": {}
+}

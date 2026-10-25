@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "88820dfd1aee47b6dff7",
+    "query_id": "CONS-07",
+    "question": "Which pension system's investment consultant RFP requires respondents to have at least five defined benefit pension plan clients, two of which are public pension plans with total plan assets of at least $15 billion each?",
+    "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "expected_facts": "Orange County Employees Retirement System (OCERS), in its 2021 investment consultant services RFP (Appendix E, Minimum Qualifications Certification).",
+    "acceptance": "OCERS/Orange County Employees Retirement System suffices. Appendix designation, year and restatement of qualification are optional.",
+    "text_hash": "671c411958eb874cfc800e9ef62f40b39ce0a3618032e31c58dc0911d1ac78ca",
+    "source_text_sha256": "a59653c4763af085dd01d7961474b0d3e4d1e15ac1d4029f77327171d4183a79",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is LAGERS’ 2024 private market consulting RFP, not the OCERS investment consultant RFP. Its minimum client qualification is different, and it does not identify OCERS as the issuer of the requirement in the question.",
+      "quotes": [
+        "Missouri Local Government Employees Retirement System (LAGERS)",
+        "This RFP is being issued by LAGERS on July 5, 2024",
+        "As of March 31, 2024, must provide non-discretionary private market investment consulting to at least three public fund clients with assets of at least $10 billion."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Missouri Local Government Employees Retirement System (LAGERS)",
+          "start": 92,
+          "end": 154
+        },
+        {
+          "quote": "This RFP is being issued by LAGERS on July 5, 2024",
+          "start": 12517,
+          "end": 12567
+        },
+        {
+          "quote": "As of March 31, 2024, must provide non-discretionary private market investment consulting to at least three public fund clients with assets of at least $10 billion.",
+          "start": 19362,
+          "end": 19526
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

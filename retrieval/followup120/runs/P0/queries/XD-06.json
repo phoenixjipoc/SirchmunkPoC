@@ -1,0 +1,67 @@
+{
+  "query_id": "XD-06",
+  "question": "One private equity due diligence questionnaire asks whether the fund gives limited partners more than a certain number of business days' notice for capital calls. What is the threshold, and in which section of the questionnaire is this question?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf",
+    "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+  ],
+  "keyword_terms": [
+    "private equity due diligence questionnaire",
+    "limited partner capital call notice",
+    "business days' notice threshold",
+    "questionnaire section",
+    "私募股权尽职调查问卷",
+    "有限合伙人",
+    "出资通知"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 45,
+      "timestamp": "2026-10-25 16:07:35.286016",
+      "metadata": {
+        "keywords": [
+          "private equity due diligence questionnaire",
+          "limited partner capital call notice",
+          "business days' notice threshold",
+          "questionnaire section",
+          "私募股权尽职调查问卷",
+          "有限合伙人",
+          "出资通知"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "path": "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "path": "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+    }
+  ],
+  "elapsed_s": 5.435,
+  "calls": 0,
+  "usage": {}
+}

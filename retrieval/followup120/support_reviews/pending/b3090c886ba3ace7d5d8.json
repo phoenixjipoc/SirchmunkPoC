@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "b3090c886ba3ace7d5d8",
+    "query_id": "OTH-08",
+    "question": "A foundation is seeking an Outsourced Chief Investment Officer that can manage a sleeve of place-based private investments in Philadelphia. How large is its endowment, and what is the response deadline?",
+    "file": "MA_PRIM__PDF-Version-of-RFP.pdf",
+    "expected_facts": "About $50 million endowment; responses due no later than February 13, 2026, 5 PM (Samuel S. Fels Fund).",
+    "acceptance": "Approximately $50m and February13,2026 at 5pm. Foundation name is optional; no timezone is specified or required.",
+    "text_hash": "c92320682456b11eb70addd3a356a98edfd3f865f21e453c8906eefe68b8b772",
+    "source_text_sha256": "e3fe5e9a4d6babe97bf46e2649b5484f28a2237abb15634af7dc30e35b1c2a49",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Massachusetts pension board RFP for multi-asset credit management, not the Philadelphia foundation’s OCIO solicitation. Its asset figure concerns a pension fund, and its response deadline is in 2023; it does not support either mandatory fact for the foundation.",
+      "quotes": [
+        "The Massachusetts Pension Reserves Investment Management Board (“PRIM”) is soliciting responses from firms interested in providing Multi-Asset Credit Investment Management Services.",
+        "As of June 30, 2023, the PRIT Fund had net assets totaling approximately $96.6 billion.",
+        "RFP Response Deadline: December 1, 2023, 3:00 p.m. ET"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Massachusetts Pension Reserves Investment Management Board (“PRIM”) is soliciting responses from firms interested in providing Multi-Asset Credit Investment Management Services.",
+          "start": 2562,
+          "end": 2743
+        },
+        {
+          "quote": "As of June 30, 2023, the PRIT Fund had net assets totaling approximately $96.6 billion.",
+          "start": 6052,
+          "end": 6139
+        },
+        {
+          "quote": "RFP Response Deadline: December 1, 2023, 3:00 p.m. ET",
+          "start": 20783,
+          "end": 20836
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

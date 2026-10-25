@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "6a0600c91b4af826ebab",
+    "query_id": "INV-17",
+    "question": "What evaluation criteria and weights does the Arizona Public Safety Personnel Retirement System (PSPRS) use in its RFP for non-discretionary investment consultant services?",
+    "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "expected_facts": "25% - relevant knowledge and experience in similar consulting engagements and current organizational capacity to provide experienced staff; 30% - quality and extent of the firm's capabilities in strategic advice, new investment identification and evaluation, operational due diligence, investment due diligence, manager performance reporting and monitoring, and back office support; 25% - demonstrated ability to meet service requirements (communicating with the CIO, investment team, Trustees and the Board's consultant, the operational plan, quality of assigned staff); 20% - overall cost of the proposed services.",
+    "acceptance": "Accept concise synonymous descriptions of all four criteria at 25/30/25/20; sublists need not reproduce every phrase verbatim.",
+    "text_hash": "a98d524e6be406d219908f55d7669eccd66ebe00dac2da8fe751cb73c6c068e5",
+    "source_text_sha256": "f7992acf077bd43f56dcfe41af1dd3fdb115f4ea1c61bea284a8fb27b11a2ca2",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Texas Municipal Retirement System (TMRS) RFP, not a PSPRS RFP. It does not state the requested four evaluation criteria or their 25%/30%/25%/20% weights.",
+      "quotes": [
+        "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+        "The purpose of this RFP is for TMRS to seek proposals for services from qualified general investment consultants"
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+          "start": 4270,
+          "end": 4370
+        },
+        {
+          "quote": "The purpose of this RFP is for TMRS to seek proposals for services from qualified general investment consultants",
+          "start": 4394,
+          "end": 4506
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

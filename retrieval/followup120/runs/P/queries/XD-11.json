@@ -1,0 +1,93 @@
+{
+  "query_id": "XD-11",
+  "question": "What questions does the INREV DDQ 2022 for Funds of Funds and Multi Manager ask under section 3.3 'IT, Cyber and Physical Security'?",
+  "type": "medium",
+  "pair_id": "",
+  "group": "P",
+  "keyword_files": [
+    "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+  ],
+  "keyword_terms": [
+    "INREV DDQ 2022",
+    "Funds of Funds",
+    "Multi Manager",
+    "IT, Cyber and Physical Security",
+    "尽职调查问卷",
+    "基金中的基金",
+    "多管理人",
+    "网络与实体安全"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 239,
+      "timestamp": "2026-10-25 16:08:29.925590",
+      "metadata": {
+        "keywords": [
+          "INREV DDQ 2022",
+          "Funds of Funds",
+          "Multi Manager",
+          "IT, Cyber and Physical Security",
+          "尽职调查问卷",
+          "基金中的基金",
+          "多管理人",
+          "网络与实体安全"
+        ],
+        "files_found": 5,
+        "files_discovered": [
+          "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+          "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+          "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+          "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+          "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+      "path": "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx"
+    },
+    {
+      "rank": 2,
+      "file": "OCERS__custodian_rfp_2022-2023.pdf",
+      "path": "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+    }
+  ],
+  "elapsed_s": 5.341,
+  "calls": 0,
+  "usage": {}
+}

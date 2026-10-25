@@ -1,0 +1,42 @@
+{
+  "id": "3e4c8212d772fe76f016",
+  "query_id": "DDQ-06",
+  "question": "How many fund diligence topics does the ILPA Due Diligence Questionnaire v1.2 (2018) list in its Overview, and what is the last one?",
+  "file": "ILPA__ILPA-DDQ-2.0.pdf",
+  "expected_facts": "14 topics, numbered 1-14. The last is 14. Diversity and Inclusion, which was added in v1.2. The others are General Firm Information, General Fund Information, Investment Strategy, Investment Process, Team, Alignment of Interest, Market Environment, Fund Terms, Firm Governance/Risk/Compliance, ESG, Track Record, Accounting/Valuation/Reporting and Legal/Administration.",
+  "acceptance": "14 and Diversity and Inclusion suffice; list of earlier topics and version history are optional.",
+  "text_hash": "8907145b1f077ef656f1eedcccb1c6e6cf91c5a42ababaeed03deb50236309d2",
+  "source_text_sha256": "acc7566c61a7afaabbe215a9f1337c86e1dd116ccf7ba67eeb84894f94ea4c98",
+  "second_check_required": true,
+  "prior_reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is ILPA DDQ 2.0, updated in 2021. It mentions the 2018 v1.2 edition but does not state that edition’s Overview topic count or last topic. Its own Overview lists 20 topics and ends with a differently named topic.",
+      "quotes": [
+        "Due Diligence Questionnaire 2.0 Updated November 2021",
+        "Summary of Changes – overview of changes between the ILPA DDQ 2.0 and the previous version (ILPA DDQ 1.2 released in 2018)",
+        "20. Diversity, Equity and Inclusion"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Due Diligence Questionnaire 2.0 Updated November 2021",
+          "start": 13,
+          "end": 66
+        },
+        {
+          "quote": "Summary of Changes – overview of changes between the ILPA DDQ 2.0 and the previous version (ILPA DDQ 1.2 released in 2018)",
+          "start": 5678,
+          "end": 5800
+        },
+        {
+          "quote": "20. Diversity, Equity and Inclusion",
+          "start": 5133,
+          "end": 5168
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ]
+}

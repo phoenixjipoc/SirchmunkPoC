@@ -1,0 +1,65 @@
+{
+  "job": {
+    "id": "c91cb18435cc472376b2",
+    "query_id": "INV-01",
+    "question": "In the CAJPA sample investment management RFP (Appendix Z, 'Sample Investment Management Request for Proposal'), how many copies of the proposal must be sent?",
+    "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+    "expected_facts": "Ten (10) copies of the proposal and correspondence, sent to the pool administrator (shown as 'John Doe, 123 Main Street' in the template).",
+    "acceptance": "Ten/10 copies suffices; template addressee and correspondence wording are optional.",
+    "text_hash": "bbc5aa974f33a642622995234835e9395ec434792cd34aee6fa6e2448cb34a49",
+    "source_text_sha256": "ef809dc88bd158929af52565b0c35337429a448aa163f0f9466c3d4c5f44b3bd",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the Anchorage Police and Fire Retirement System’s 2025 investment consultant RFP, not the CAJPA Appendix Z sample investment management RFP. Its five-copy requirement does not support the requested ten-copy requirement.",
+      "quotes": [
+        "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+        "Five (5) copies of the proposal shall be submitted."
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+          "start": 743,
+          "end": 836
+        },
+        {
+          "quote": "Five (5) copies of the proposal shall be submitted.",
+          "start": 3110,
+          "end": 3161
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the Anchorage Police and Fire Retirement System’s 2025 RFP, not the CAJPA Appendix Z sample. It requires five copies, not ten.",
+      "quotes": [
+        "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+        "Five (5) copies of the proposal shall be submitted."
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+          "start": 743,
+          "end": 836
+        },
+        {
+          "quote": "Five (5) copies of the proposal shall be submitted.",
+          "start": 3110,
+          "end": 3161
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

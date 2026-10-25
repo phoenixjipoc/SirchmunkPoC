@@ -1,0 +1,36 @@
+{
+  "id": "4bf9e66514b5f2ab30b0",
+  "query_id": "SVC-15",
+  "question": "What contract term, including any extension options, does the Kern County Employees' Retirement Association (KCERA) RFP for audit services contemplate?",
+  "file": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+  "expected_facts": "A three-year agreement (audits of fiscal year ending June 30, 2023 and the two subsequent fiscal years), subject to annual Board review; the original term may be extended for up to an additional three years by mutual agreement of KCERA and the firm.",
+  "acceptance": "Accept 3+up to3 years, mutual extension. Audit fiscal years and annual-review/negotiation detail need not all be volunteered.",
+  "text_hash": "013acad3f1f8520c2684a10f9b3d8fe0a1e3b30393ebcfaf64bc1f9156b80e3a",
+  "source_text_sha256": "2ad75cdaeecab9651d3f225547abe579638bbba888408fcd731110baaa9f8322",
+  "second_check_required": true,
+  "prior_reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Los Angeles Fire and Police Pensions RFP, not KCERA’s. Its three-year term and two optional one-year renewals cannot establish KCERA’s contract term or extension provisions.",
+      "quotes": [
+        "The City of Los Angeles Fire & Police Pensions (“LAFPP” or the “Plan”) is seeking proposals from qualified certified public accounting firms",
+        "LAFPP intends to award a three-year contract with a maximum fee proposal for each fiscal year. The Board may choose to exercise its authority to extend this relationship beyond the three-year contract term through two one-year renewals."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The City of Los Angeles Fire & Police Pensions (“LAFPP” or the “Plan”) is seeking proposals from qualified certified public accounting firms",
+          "start": 5344,
+          "end": 5484
+        },
+        {
+          "quote": "LAFPP intends to award a three-year contract with a maximum fee proposal for each fiscal year. The Board may choose to exercise its authority to extend this relationship beyond the three-year contract term through two one-year renewals.",
+          "start": 15106,
+          "end": 15342
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "a00b2bd68aa81a01b4ad",
+  "query_id": "XD-09",
+  "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+  "file": "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+  "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+  "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+  "text_hash": "d9a2a163aae9999ec622d7aec59ce7e611db4184b600f4da1278390d065e044b",
+  "source_text_sha256": "160e96bb79418d07ec2fbcbd06fadf5a029ef68dec4598be1d24fd91b7188964",
+  "second_check_required": true,
+  "prior_reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 actuarial auditing services RFP and questionnaire from the Police Retirement System of St. Louis, not the ILPA Due Diligence Questionnaire v1.2. Its table of contents does not list the requested appendices.",
+      "quotes": [
+        "THE POLICE RETIREMENT SYSTEM OF ST. LOUIS 2020 MARKET STREET SAINT LOUIS, MISSOURI 63103 RFP Actuarial Auditing Services Date Issued – February 2, 2024",
+        "TABLE OF CONTENTS SECTION I – Introduction 3 SECTION II – Background 3 SECTION III – Scope of Services 3"
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE POLICE RETIREMENT SYSTEM OF ST. LOUIS 2020 MARKET STREET SAINT LOUIS, MISSOURI 63103 RFP Actuarial Auditing Services Date Issued – February 2, 2024",
+          "start": 13,
+          "end": 164
+        },
+        {
+          "quote": "TABLE OF CONTENTS SECTION I – Introduction 3 SECTION II – Background 3 SECTION III – Scope of Services 3",
+          "start": 895,
+          "end": 999
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "8256b5fa110bb73e4267",
+  "query_id": "XD-08",
+  "question": "In the INREV Due Diligence Questionnaire 2022 for Funds of Funds and Multi Manager, which expense ratio must the manager provide under Fees and Expenses, and on what bases?",
+  "file": "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+  "expected_facts": "Question 1.6.2 asks for the INREV expense ratio (TGER): a forward-looking estimate (with the calculation method) if the vehicle has not been launched, or the historical INREV expense ratio (TGER) if it is an existing vehicle. It must be given on both NAV and GAV, with and without performance fees. If the INREV expense ratio is not used, a calculation in line with the INREV Fee and Expense Metrics module is required.",
+  "acceptance": "TGER; forward estimate for unlaunched versus historical for existing; NAV/GAV and with/without performance fees. Equivalent description of INREV-compatible fallback accepted.",
+  "text_hash": "bf2ff9591480934c4901f72d774f1636c13045a54cff1cece6e2ebf281ee7ab0",
+  "source_text_sha256": "c6578f93d282847a1a6f2e480324ec05592b32a0acb1c62a36413c1930a6d499",
+  "second_check_required": false,
+  "prior_reviews": []
+}

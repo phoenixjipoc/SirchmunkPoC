@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "10c578c839c43781fe70",
+    "query_id": "INV-20",
+    "question": "Which meetings must the investment consultant attend under the IMRF sample RFP for investment consulting, real estate consulting and performance measurement services, and how many days of meetings per year does IMRF estimate?",
+    "file": "Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+    "expected_facts": "(1) Monthly IMRF Board meetings; (2) Investment Committee meetings; (3) the Annual IMRF Roundtable; (4) regional meetings with investment managers; (5) related investment meetings and discussions; (6) formal interviews with existing and potential investment managers; (7) ad hoc due diligence meetings with investment managers and staff. IMRF estimates about sixty days of meetings per year with the Board and/or staff, plus frequent telephone discussions with staff.",
+    "acceptance": "All seven meeting categories and about 60 days/year. Frequent telephone calls and principal-attendance details are optional.",
+    "text_hash": "4eb61147bf021f84f0cada43ff4b2b232286b7e1116578f906241e2567d3ddc2",
+    "source_text_sha256": "fbaa2e27e75163da5326b3c348163209510cae254f3439bcfc5184e58334c147",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Hawaii ERS RFP for private equity consulting and investment services, not the IMRF sample RFP. It provides no support for the seven specified meeting categories or IMRF’s estimate of about 60 meeting days per year.",
+      "quotes": [
+        "STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR PRIVATE EQUITY CONSULTING AND INVESTMENT SERVICES",
+        "The Employees’ Retirement System of the State of Hawaii (ERS) is soliciting proposals for qualified firm(s) to provide private equity investment consulting and investment management services to the ERS."
+      ],
+      "quote_matches": [
+        {
+          "quote": "STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR PRIVATE EQUITY CONSULTING AND INVESTMENT SERVICES",
+          "start": 13,
+          "end": 139
+        },
+        {
+          "quote": "The Employees’ Retirement System of the State of Hawaii (ERS) is soliciting proposals for qualified firm(s) to provide private equity investment consulting and investment management services to the ERS.",
+          "start": 140,
+          "end": 342
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

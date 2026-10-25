@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "b872690ed1c3acfd5383",
+    "query_id": "SVC-20",
+    "question": "What scope of services does the Kern County Employees' Retirement Association (KCERA) 2024 actuarial audit services RFP require?",
+    "file": "INPRS__RFP24-05_AuditServices.pdf",
+    "expected_facts": "A full actuarial audit of the assumptions, methods, calculations and experience used in KCERA's valuation, in two parts: (1) a peer review audit of the Actuarial Experience Study for July 1, 2019 - June 30, 2022 and the Review of Economic Actuarial Assumptions as of June 30, 2022 - evaluating the data (including comparison of census data), reconciling discrepancies with the consulting actuary, and evaluating the recommended economic and non-economic assumptions; and (2) a parallel valuation (independent reproduction) of the June 30, 2023 valuation, including the SRBR valuation and GASB 67 valuation, using the consulting actuary's assumptions and methods and reproducing all work without relying on the consulting actuary, with reconciliation of discrepancies. Results of both are to be communicated to the consulting actuary before completion of the June 30, 2024 valuation.",
+    "acceptance": "Require both experience-study peer review and independent June 30, 2023 parallel valuation, including SRBR/GASB67 and discrepancy reconciliation. A concise account may group data and assumption checks; sample-agreement delivery details are optional.",
+    "text_hash": "c91a90645d9659e59cf92c848073c9a4293275c8ab6c443e5ea6557a9cce6d3a",
+    "source_text_sha256": "cd68d7342246afa44a13ddc9cd569953afbc71f71001c6d34468336403cd1683",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Indiana Public Retirement System RFP for financial-statement and GASB 68 audits, not KCERA’s actuarial audit services RFP. It does not require the specified experience-study peer review or independent June 30, 2023 parallel valuation.",
+      "quotes": [
+        "Request for Proposals (“RFP”) for Audit Services for the Indiana Public Retirement System (“INPRS” or the “System”)",
+        "Perform an annual audit of INPRS’s financial statements",
+        "3.2 Services Required – GASB Statement No. 68 Schedules"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals (“RFP”) for Audit Services for the Indiana Public Retirement System (“INPRS” or the “System”)",
+          "start": 2169,
+          "end": 2284
+        },
+        {
+          "quote": "Perform an annual audit of INPRS’s financial statements",
+          "start": 22494,
+          "end": 22549
+        },
+        {
+          "quote": "3.2 Services Required – GASB Statement No. 68 Schedules",
+          "start": 26586,
+          "end": 26641
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

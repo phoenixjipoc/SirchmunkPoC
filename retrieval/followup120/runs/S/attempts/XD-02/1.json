@@ -1,0 +1,47 @@
+{
+  "query_id": "XD-02",
+  "question": "A 2021 covering note describes an update to a responsible-investment due diligence questionnaire for private equity limited partners. When was the first version of that questionnaire launched, who adopted it, when was the working group for the update set up, and over how long had LPs and GPs been giving comments?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "S",
+  "references": [
+    {
+      "rank": 1,
+      "file": "ILPA__ILPA-DDQ-2.0.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    }
+  ],
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "baseline_sha256": "86f8730a44b770173d2d253a67838c475e618f5ffee714f269cc117f1db1d295",
+  "original_files": [
+    "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "ranking_prompt": "{\"question\": \"A 2021 covering note describes an update to a responsible-investment due diligence questionnaire for private equity limited partners. When was the first version of that questionnaire launched, who adopted it, when was the working group for the update set up, and over how long had LPs and GPs been giving comments?\", \"candidates\": [{\"filename\": \"ILPA__ILPA-DDQ-2.0.pdf\", \"extension\": \".pdf\", \"title\": \"Due Diligence Questionnaire\", \"author\": \"ILPA\", \"page_count\": 58, \"keywords\": [\"ILPA\"], \"preview\": \"Due Diligence  \\nQuestionnaire 2.0 \\nUpdated November 2021\", \"full_content\": \"\"}, {\"filename\": \"SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Kristina Richter\", \"page_count\": 97, \"keywords\": [\"Kristina Richter\"], \"preview\": \"Santa Barbara County Employees’ Retirement System Global Custody and Related Services 1 \\n \\n \\nRequest for Proposal \\n \\n  \\nGlobal Custody and Related Services \\nSanta Barbara County Employees’ Retirement System \\n(“SBCERS”) \\n \\n  \\nIssue Date:       January 8, 2024 \\nQuestions Due:      January 12, 2024  \\nQ&A Responses Delivered:    January 22, 2024  \\nSubmission Deadline:      February 2, 2024  \\n \\n  \\nDesignated Contact: \\nJonathan Kowolik    Lindsey Longwell \\nSenior Consultant, Principal  Consultant \\nRVK, Inc.     RVK, Inc.  \\nOne Penn Plaza, Suite 2131  1211 SW 5th Avenue, Suite 900 \\nNew York, NY 10119   Portland, OR 97204 \\nJonathan.Kowolik@rvkinc.com  Lindsey.Longwell@rvkinc.com  \\nIOSG@rvkinc.com\", \"full_content\": \"\"}]}",
+  "keyword_files": [
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+  ],
+  "status": "ok",
+  "elapsed_s": 2.045,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 580,
+    "completion_tokens": 65,
+    "total_tokens": 645
+  },
+  "attempt": 1
+}

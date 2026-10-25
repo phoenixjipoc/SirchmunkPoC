@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "4936c087b34ed53b0e10",
+    "query_id": "CONS-10",
+    "question": "What is the proposal submission deadline in the Oklahoma Public Employees Retirement System (OPERS) investment consulting services RFP?",
+    "file": "Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf",
+    "expected_facts": "4:30 p.m. Central Time on March 25, 2022.",
+    "acceptance": "Accept Central Time/CT; explicit equivalent timezone conversion acceptable.",
+    "text_hash": "e76e63af4b0a8b49f88f8ef5ce43f66a889246bf25cd0b9219f57d5e1b2af89e",
+    "source_text_sha256": "5c949a43fde61d24122bc0cdc5ab1ce85b968190be12226f9661e62ecbde4522",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a City of Creve Coeur pension consulting RFP, not the Oklahoma Public Employees Retirement System investment consulting services RFP. Its stated proposal deadline is for the different solicitation and does not support the requested deadline.",
+      "quotes": [
+        "PENSION FUND CONSULTING SERVICES REQUEST FOR PROPOSAL (RFP) CITY OF CREVE COEUR EMPLOYEE PENSION PLAN",
+        "The RFP process will begin on May 1, 2020 and proposals will be due by 2:00 p.m. May 21, 2020."
+      ],
+      "quote_matches": [
+        {
+          "quote": "PENSION FUND CONSULTING SERVICES REQUEST FOR PROPOSAL (RFP) CITY OF CREVE COEUR EMPLOYEE PENSION PLAN",
+          "start": 13,
+          "end": 114
+        },
+        {
+          "quote": "The RFP process will begin on May 1, 2020 and proposals will be due by 2:00 p.m. May 21, 2020.",
+          "start": 2025,
+          "end": 2119
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "8145f306ff00bc907a03",
+    "query_id": "INV-09",
+    "question": "An investment manager RFP template for an emerging markets equity strategy (issued February 14, 2022, responses due March 31, 2022) lists required minimum qualifications and 'preferred criteria'. What live track record does it require, and what public pension client base does it prefer?",
+    "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "expected_facts": "Required: an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy (qualified women-, minority- or disabled-owned businesses are exempt). Preferred: at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan client with over $10 billion in total plan assets (plus no material litigation in the past five years). Issuer: State Universities Retirement System of Illinois (SURS).",
+    "acceptance": "Accept five-year live strategy record and the alternative client tests (two >$1bn U.S. public pensions OR one >$10bn public plan). Ownership exemption is a relevant qualification. Issuer, litigation criterion and placeholder date need not be volunteered.",
+    "text_hash": "24d5965850bb731d1f236f3c09eb9e9855009b90c82899fd35fc123fe3525d93",
+    "source_text_sha256": "206385c6cbc8b887e46333ea2f56fa3be1d68c7f94e466f08c17043704dfdec6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an August 2026 SDCERS RFP for general investment consulting, not the February 2022 SURS emerging-markets equity manager template. Its five-year requirement concerns consulting experience; it does not state the requested live-strategy track record or preferred alternative public-pension client tests.",
+      "quotes": [
+        "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+        "SDCERS General Investment Consultant RFP – August 2026 Page 2",
+        "The consulting firm must have at least five (5) years of continuous experience in performing general investment consulting for large institutional clients (endowments and foundations), corporate pension plans or tax-exempt public funds."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+          "start": 13,
+          "end": 117
+        },
+        {
+          "quote": "SDCERS General Investment Consultant RFP – August 2026 Page 2",
+          "start": 2036,
+          "end": 2097
+        },
+        {
+          "quote": "The consulting firm must have at least five (5) years of continuous experience in performing general investment consulting for large institutional clients (endowments and foundations), corporate pension plans or tax-exempt public funds.",
+          "start": 3587,
+          "end": 3823
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

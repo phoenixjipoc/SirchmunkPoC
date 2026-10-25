@@ -1,0 +1,12 @@
+{
+  "id": "add03e8f7fc441229f4b",
+  "query_id": "SVC-12",
+  "question": "According to the Monroe County deferred compensation services RFP, how many participants did the plan have and what were its total assets?",
+  "file": "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+  "expected_facts": "As of December 31, 2022: 4,398 plan participants and plan assets of $308,676,730. In addition, the OBRA part-time seasonal plan had 536 participants with assets of $926,785.",
+  "acceptance": "Main plan 4,398 participants / $308,676,730 is sufficient. OBRA 536 / $926,785 is supplementary and must not replace or be silently added to main-plan figures.",
+  "text_hash": "30d68f8537639ec2cf4b5e89f75c53d4f7a34757aa577e6eaca8744b155f28c0",
+  "source_text_sha256": "53569804783646aac401541d4bd8f06ca4371d2199a59c44ad06613e10455875",
+  "second_check_required": false,
+  "prior_reviews": []
+}

@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "3e251543dc3bac6e7e6f",
+    "query_id": "OTH-11",
+    "question": "What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2017?",
+    "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "expected_facts": "November 27, 2017 by 4:30 p.m. (H.S.T.).",
+    "acceptance": "November27,2017 at 4:30pm HST; equivalent date/time format accepted.",
+    "text_hash": "2e5c9ac10ac2943a19269fe0ceeab6dc6cca5c9b732ec461770764bed168feeb",
+    "source_text_sha256": "698b71034e03dda497378807f02ef9875cc985ad2aafde5d24accec7bdff2d4b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2016 South Carolina RSIC RFP for general investment consulting, not the 2017 Hawaii ERS RFP for private equity consulting. Its proposal deadline therefore does not support the requested deadline.",
+      "quotes": [
+        "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+        "Opening Date of RFP September 30, 2016",
+        "Deadline for Proposal Submission December 1, 2016 – 5:00 p.m. EST"
+      ],
+      "quote_matches": [
+        {
+          "quote": "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+          "start": 106,
+          "end": 203
+        },
+        {
+          "quote": "Opening Date of RFP September 30, 2016",
+          "start": 3433,
+          "end": 3471
+        },
+        {
+          "quote": "Deadline for Proposal Submission December 1, 2016 – 5:00 p.m. EST",
+          "start": 3723,
+          "end": 3788
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

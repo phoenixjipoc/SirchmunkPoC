@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "1bab3c677a2772bcb5ab",
+    "query_id": "SVC-12",
+    "question": "According to the Monroe County deferred compensation services RFP, how many participants did the plan have and what were its total assets?",
+    "file": "American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf",
+    "expected_facts": "As of December 31, 2022: 4,398 plan participants and plan assets of $308,676,730. In addition, the OBRA part-time seasonal plan had 536 participants with assets of $926,785.",
+    "acceptance": "Main plan 4,398 participants / $308,676,730 is sufficient. OBRA 536 / $926,785 is supplementary and must not replace or be silently added to main-plan figures.",
+    "text_hash": "4da0bb99d1bc9a99cb85e4152156515d63d280e9d6481930b4991ca9b694e89e",
+    "source_text_sha256": "e84ddfad92c2fc79e711f13416c118cdf2db28ca57c55b838d0f29c6c8dbced8",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2011 American Academy of Actuaries retirement-plan services RFP, not the Monroe County deferred compensation services RFP. Its participant and asset figures concern different plans and dates, so it does not support the requested main-plan figures.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL (RFP) Retirement Plan and Related Consulting Services May 12, 2011 American Academy of Actuaries",
+        "The Academy maintains three retirement plans on behalf of its employees:",
+        "Plan Assets at 12/31/10 $3,015,682 $1,993,513 $647,181",
+        "Participants at 12/31/09 50 53 49"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL (RFP) Retirement Plan and Related Consulting Services May 12, 2011 American Academy of Actuaries",
+          "start": 13,
+          "end": 130
+        },
+        {
+          "quote": "The Academy maintains three retirement plans on behalf of its employees:",
+          "start": 2615,
+          "end": 2687
+        },
+        {
+          "quote": "Plan Assets at 12/31/10 $3,015,682 $1,993,513 $647,181",
+          "start": 3886,
+          "end": 3940
+        },
+        {
+          "quote": "Participants at 12/31/09 50 53 49",
+          "start": 4038,
+          "end": 4071
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

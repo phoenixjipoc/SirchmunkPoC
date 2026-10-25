@@ -1,0 +1,71 @@
+{
+  "job": {
+    "id": "fd583f9d8271732df495",
+    "query_id": "CONS-09",
+    "question": "Which retirement system's investment consultant RFP requires firms to certify that they currently provide investment consulting services to clients whose combined assets total at least $50 billion?",
+    "file": "AVFPD__RFP-Actuatial-Services-2024.pdf",
+    "expected_facts": "Teachers' Retirement System of the State of Illinois (TRS Illinois), in its FY23 investment consultant RFP (Appendix B, Statement of Minimum Qualifications).",
+    "acceptance": "TRS Illinois / Teachers’ Retirement System of the State of Illinois is sufficient; FY23 and appendix identifier are optional.",
+    "text_hash": "3a3a615f1458b67d3bfc5c294a525209e96419db9c27c2ed4f8c0e8edf124915",
+    "source_text_sha256": "2720c071ab2e4d4cf73f35c7104e14da1ec02e1f996baaf906f4b20ede31f712",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is Apple Valley Fire Protection District’s 2024 RFP for OPEB actuarial services, not an investment consultant RFP from the retirement system in question. It does not state the $50 billion client-assets certification requirement.",
+      "quotes": [
+        "The Apple Valley Fire Protection District is accepting proposals from qualified consultants for Actuarial Services",
+        "The Apple Valley Fire Protection District is seeking proposals from qualified firms interested in providing actuarial services to AVFPD for valuation of OPEB offered by AVFPD."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Apple Valley Fire Protection District is accepting proposals from qualified consultants for Actuarial Services",
+          "start": 246,
+          "end": 360
+        },
+        {
+          "quote": "The Apple Valley Fire Protection District is seeking proposals from qualified firms interested in providing actuarial services to AVFPD for valuation of OPEB offered by AVFPD.",
+          "start": 4032,
+          "end": 4207
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is Apple Valley Fire Protection District’s 2024 RFP for OPEB actuarial services, not a TRS Illinois investment consultant RFP. It does not state the $50 billion client-assets qualification.",
+      "quotes": [
+        "The Apple Valley Fire Protection District is accepting proposals from qualified consultants for Actuarial Services",
+        "Proposals Due by 11:59 PM, July 31, 2024",
+        "The Apple Valley Fire Protection District is seeking proposals from qualified firms interested in providing actuarial services to AVFPD for valuation of OPEB offered by AVFPD."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Apple Valley Fire Protection District is accepting proposals from qualified consultants for Actuarial Services",
+          "start": 246,
+          "end": 360
+        },
+        {
+          "quote": "Proposals Due by 11:59 PM, July 31, 2024",
+          "start": 191,
+          "end": 231
+        },
+        {
+          "quote": "The Apple Valley Fire Protection District is seeking proposals from qualified firms interested in providing actuarial services to AVFPD for valuation of OPEB offered by AVFPD.",
+          "start": 4032,
+          "end": 4207
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

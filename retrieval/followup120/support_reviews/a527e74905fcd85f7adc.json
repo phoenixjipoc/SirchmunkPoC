@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "a527e74905fcd85f7adc",
+    "query_id": "CONS-07",
+    "question": "Which pension system's investment consultant RFP requires respondents to have at least five defined benefit pension plan clients, two of which are public pension plans with total plan assets of at least $15 billion each?",
+    "file": "Hartford_MERF__file.pdf",
+    "expected_facts": "Orange County Employees Retirement System (OCERS), in its 2021 investment consultant services RFP (Appendix E, Minimum Qualifications Certification).",
+    "acceptance": "OCERS/Orange County Employees Retirement System suffices. Appendix designation, year and restatement of qualification are optional.",
+    "text_hash": "612ac769f6b20e395be5d2aa2b38b7e34b8ea2f3e26f8e98d474dcd3da97e895",
+    "source_text_sha256": "44a1836a1354f4ce795c9252d5b103625a8ebfa77400d6ce5e341b7d38a7561e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Hartford investment consultant RFP, not the RFP described in the question. Its minimum qualification is five public pension fund clients with at least $1.5 billion in assets each; it does not state the specified five-defined-benefit-client and two-$15-billion-public-plan requirement.",
+      "quotes": [
+        "MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+        "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+        "The Proposer shall have consulted at least five (5) public pension fund clients each with total plan assets of at least $1.5 billion."
+      ],
+      "quote_matches": [
+        {
+          "quote": "MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+          "start": 49,
+          "end": 141
+        },
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+          "start": 235,
+          "end": 294
+        },
+        {
+          "quote": "The Proposer shall have consulted at least five (5) public pension fund clients each with total plan assets of at least $1.5 billion.",
+          "start": -1,
+          "end": 132
+        }
+      ],
+      "all_quotes_grounded": false,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

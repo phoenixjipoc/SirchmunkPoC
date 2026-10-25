@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "bc27946d789d9f7da82e",
+    "query_id": "INV-12",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for domestic equity small cap growth investment management, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "expected_facts": "Four primary factors: (a) People - stability of the organization, ownership structure and documented experience of key professionals; (b) Process - clearly defined, reasonable and repeatable investment strategy; (c) Performance - documented ability to meet investment performance benchmarks; (d) Pricing - fee schedule and associated costs.",
+    "acceptance": "Accept People, Process, Performance, Pricing and faithful descriptions; exact labels are not mandatory.",
+    "text_hash": "e529592be16077691cd54aac3c1a9e7ed524ba5b471c34ebf5ebe0296f8ab615",
+    "source_text_sha256": "40f6e66cda735b5ac3e65bb52c7627bc76b11a8e7017ca73d4ed3e9b2360ca3a",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a City of Austin Employees’ Retirement System RFP for a general investment consultant, not the IMRF sample RFP for domestic equity small cap growth investment management. Its evaluation criteria therefore do not establish the factors for the RFP in the question.",
+      "quotes": [
+        "Request for Proposal General Investment Consultant",
+        "City of Austin Employees’ Retirement System",
+        "COAERS is seeking the services of an investment consulting firm"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal General Investment Consultant",
+          "start": 13,
+          "end": 63
+        },
+        {
+          "quote": "City of Austin Employees’ Retirement System",
+          "start": 154,
+          "end": 197
+        },
+        {
+          "quote": "COAERS is seeking the services of an investment consulting firm",
+          "start": 16805,
+          "end": 16868
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

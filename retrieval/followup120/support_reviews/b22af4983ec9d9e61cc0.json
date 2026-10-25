@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "b22af4983ec9d9e61cc0",
+    "query_id": "CONS-02",
+    "question": "In the NYC Board of Education Retirement System (BERS) RFP 2024-003 for investment consulting services, how many maximum evaluation points are assigned to the annual fee proposal?",
+    "file": "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+    "expected_facts": "28 points (out of 100). Full breakdown: Program Plan/Narrative 18, Organizational Capacity/Knowledge and Experience 23, Demonstrated Effectiveness 22, Fee Proposal - Annual Fee 28, Fee Proposal - Hourly Rate 9.",
+    "acceptance": "28 points alone is sufficient. Other scoring categories and fee formula are optional.",
+    "text_hash": "576995e0f46f8d1ed568b3f11213a208a0e1dfe327b1dd5c1306846cd5741c1d",
+    "source_text_sha256": "2c50ab98d10c03c9aebdf033c0bf6a011506f6e8d75bc72ac45971559818570c",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2023 Illinois FPIF RFP, not NYC BERS RFP 2024-003. It does not state maximum evaluation points for an annual fee proposal.",
+      "quotes": [
+        "Firefighters’ Pension Investment Fund Request for Proposals for Private Markets Investment Consulting and Discretionary OCIO Advisory Services February 13, 2023",
+        "FPIF will select Contractors based on the proposal(s) that is (or are) determined to provide the best value for the scope described in this RFP."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Firefighters’ Pension Investment Fund Request for Proposals for Private Markets Investment Consulting and Discretionary OCIO Advisory Services February 13, 2023",
+          "start": 13,
+          "end": 173
+        },
+        {
+          "quote": "FPIF will select Contractors based on the proposal(s) that is (or are) determined to provide the best value for the scope described in this RFP.",
+          "start": 23415,
+          "end": 23559
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

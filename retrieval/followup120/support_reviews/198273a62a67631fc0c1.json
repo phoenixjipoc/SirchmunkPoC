@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "198273a62a67631fc0c1",
+    "query_id": "SVC-15",
+    "question": "What contract term, including any extension options, does the Kern County Employees' Retirement Association (KCERA) RFP for audit services contemplate?",
+    "file": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "expected_facts": "A three-year agreement (audits of fiscal year ending June 30, 2023 and the two subsequent fiscal years), subject to annual Board review; the original term may be extended for up to an additional three years by mutual agreement of KCERA and the firm.",
+    "acceptance": "Accept 3+up to3 years, mutual extension. Audit fiscal years and annual-review/negotiation detail need not all be volunteered.",
+    "text_hash": "e208b396d807c84110e10df7ec74d980a1905d8e99839a26651b44e9927a80ca",
+    "source_text_sha256": "48df375d7d5f4c68eef011c530a1b8e2446893a55aa03aa4e9c6a423a07b3e4c",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2011 District of Columbia Retirement Board RFP for real assets investment consulting, not KCERA’s audit-services RFP. Its three-year term therefore does not support the requested KCERA contract term or extension option.",
+      "quotes": [
+        "District of Columbia Retirement Board",
+        "Request for Proposal Real Assets Investment Consulting Services",
+        "Solicitation DCRB-2011-001",
+        "The term of the original Agreement shall be for a three year period."
+      ],
+      "quote_matches": [
+        {
+          "quote": "District of Columbia Retirement Board",
+          "start": 13,
+          "end": 50
+        },
+        {
+          "quote": "Request for Proposal Real Assets Investment Consulting Services",
+          "start": 105,
+          "end": 168
+        },
+        {
+          "quote": "Solicitation DCRB-2011-001",
+          "start": 169,
+          "end": 195
+        },
+        {
+          "quote": "The term of the original Agreement shall be for a three year period.",
+          "start": 13778,
+          "end": 13846
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

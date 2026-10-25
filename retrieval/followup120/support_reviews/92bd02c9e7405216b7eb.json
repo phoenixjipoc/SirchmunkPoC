@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "92bd02c9e7405216b7eb",
+    "query_id": "OTH-09",
+    "question": "A county pension fund is searching for a single manager of managers covering domestic equity, international equity and fixed income. What is the maximum mandate size, and what is the firm-level AUM limit for responders?",
+    "file": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "expected_facts": "A mandate of up to $350 million; responders must have less than $30 billion in firm-level assets under management (Cook County Fund, RFP 25-0004).",
+    "acceptance": "Accept up to $350m and firm AUM strictly below $30bn. Cook County identification is optional.",
+    "text_hash": "3ecf7188afbf06d1992a2e369435746a5f1872698632985399a9e054bf75b408",
+    "source_text_sha256": "245be5bf903c98e9c43a03f3b620302180f76969b88872c25a7e2f9026336a20",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Grand Rapids investment-consultant RFP, not the county pension fund’s manager-of-managers RFP. It states neither a maximum mandate size nor a firm-level AUM limit for responders. Its asset figures describe the plans or a minimum client-size qualification, not those requested limits.",
+      "quotes": [
+        "CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM INVESTMENT CONSULTANT SERVICES REQUEST FOR PROPOSAL (“RFP”)",
+        "The City of Grand Rapids General Retirement System has a total market value of approximately $437 Million as of June 30, 2023.",
+        "The Investment Consultant must provide services to at least one (1) public employee retirement system with at least $250 million in assets."
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM INVESTMENT CONSULTANT SERVICES REQUEST FOR PROPOSAL (“RFP”)",
+          "start": 27,
+          "end": 188
+        },
+        {
+          "quote": "The City of Grand Rapids General Retirement System has a total market value of approximately $437 Million as of June 30, 2023.",
+          "start": 1098,
+          "end": 1224
+        },
+        {
+          "quote": "The Investment Consultant must provide services to at least one (1) public employee retirement system with at least $250 million in assets.",
+          "start": 4820,
+          "end": 4959
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

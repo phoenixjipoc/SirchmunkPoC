@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "f2202970e79e0088b71d",
+    "query_id": "SVC-16",
+    "question": "What contract term, including any extension options, does the Los Angeles Fire and Police Pensions (LAFPP) RFP for financial statement audit services contemplate?",
+    "file": "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "expected_facts": "A three-year contract (fiscal years ending June 30, 2025, 2026 and 2027) with a maximum fee proposal for each fiscal year; the Board may extend beyond the three-year term through two one-year renewals.",
+    "acceptance": "Three years plus two optional one-year renewals, up to five years, suffices. Fiscal-year dates and fee-proposal details are optional.",
+    "text_hash": "0666a4752a3ae0a7910c24a7c285ffaaa10083f60e8c67b4342d3518c8062d73",
+    "source_text_sha256": "0b9aca72670eb972abc23eff3632645fe86fee9eaf9c4e0c3c722bd89a4d4b77",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is KCERA’s RFP for actuarial audit services, not LAFPP’s RFP for financial statement audit services. Its one-year term does not support the requested three-year term or two optional one-year renewals.",
+      "quotes": [
+        "This Request for Proposal (“RFP”) is issued by the Kern County Employees’ Retirement Association (“KCERA”)",
+        "to provide actuarial auditing services to the KCERA Board and KCERA staff.",
+        "The contract term shall be for a period of one year beginning on the date of final contract execution."
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (“RFP”) is issued by the Kern County Employees’ Retirement Association (“KCERA”)",
+          "start": 1600,
+          "end": 1706
+        },
+        {
+          "quote": "to provide actuarial auditing services to the KCERA Board and KCERA staff.",
+          "start": 1790,
+          "end": 1864
+        },
+        {
+          "quote": "The contract term shall be for a period of one year beginning on the date of final contract execution.",
+          "start": 32649,
+          "end": 32751
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

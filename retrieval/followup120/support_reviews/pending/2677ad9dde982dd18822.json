@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "2677ad9dde982dd18822",
+    "query_id": "INV-09",
+    "question": "An investment manager RFP template for an emerging markets equity strategy (issued February 14, 2022, responses due March 31, 2022) lists required minimum qualifications and 'preferred criteria'. What live track record does it require, and what public pension client base does it prefer?",
+    "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+    "expected_facts": "Required: an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy (qualified women-, minority- or disabled-owned businesses are exempt). Preferred: at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan client with over $10 billion in total plan assets (plus no material litigation in the past five years). Issuer: State Universities Retirement System of Illinois (SURS).",
+    "acceptance": "Accept five-year live strategy record and the alternative client tests (two >$1bn U.S. public pensions OR one >$10bn public plan). Ownership exemption is a relevant qualification. Issuer, litigation criterion and placeholder date need not be volunteered.",
+    "text_hash": "70ba69fa78a5262a5a903e6c962a7ed533f83b2f39cbeaae0d6efcae5122f669",
+    "source_text_sha256": "c0d34ab691e3323f8b02fd000d177f6559326d07370721a1d326e71475259a58",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Boston Retirement System questionnaire for investment consulting services, not the specified SURS emerging-markets equity investment-manager RFP. It does not state a required five-year live strategy track record or either preferred public-pension client test. Its five-year term concerns the consulting agreement, not a track record.",
+      "quotes": [
+        "ATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES PROPOSAL QUESTIONNAIRE BOSTON RETIREMENT SYSTEM",
+        "How many years has the firm been providing pension consulting services to pension funds?",
+        "Provide a list of up to 10 current public fund clients with assets greater than $1 billion for whom work similar to that requested in this RFP has been performed by your firm.",
+        "The length of the Agreement(s) will be five (5) years with two (2) one-year extension options."
+      ],
+      "quote_matches": [
+        {
+          "quote": "ATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES PROPOSAL QUESTIONNAIRE BOSTON RETIREMENT SYSTEM",
+          "start": 13,
+          "end": 110
+        },
+        {
+          "quote": "How many years has the firm been providing pension consulting services to pension funds?",
+          "start": 1731,
+          "end": 1819
+        },
+        {
+          "quote": "Provide a list of up to 10 current public fund clients with assets greater than $1 billion for whom work similar to that requested in this RFP has been performed by your firm.",
+          "start": 7958,
+          "end": 8133
+        },
+        {
+          "quote": "The length of the Agreement(s) will be five (5) years with two (2) one-year extension options.",
+          "start": 28458,
+          "end": 28552
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

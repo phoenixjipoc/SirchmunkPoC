@@ -1,0 +1,594 @@
+{
+  "query_id": "OTH-18",
+  "question": "What contract terms (initial length and any renewal or extension options) do the actuarial services RFPs in the corpus propose?",
+  "type": "broad",
+  "pair_id": "",
+  "seed": 745916130,
+  "references": [
+    {
+      "rank": 1,
+      "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+      "path": "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+      "path": "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "path": "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+      "path": "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "path": "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+      "path": "/mnt/docs/S/DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf"
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "keywords": {
+    "actuarial services RFPs": 9.0,
+    "contract terms": 5.0,
+    "initial length": 5.0,
+    "renewal options": 6.0,
+    "extension options": 6.0,
+    "精算服务": 8.0,
+    "征求建议书": 7.0,
+    "续约选项": 7.0
+  },
+  "keyword_terms": [
+    "actuarial services RFPs",
+    "contract terms",
+    "initial length",
+    "renewal options",
+    "extension options",
+    "精算服务",
+    "征求建议书",
+    "续约选项"
+  ],
+  "directory_prompt": "You are a document triage specialist. Analyze the scanned files below and rank them by relevance to the user's query.\n\n## Directory Structure\nRoot: /mnt/docs/S\n```\n  ./ (20 files)\n```\n\n## User Query\nWhat contract terms (initial length and any renewal or extension options) do the actuarial services RFPs in the corpus propose?\n\n## Scanned Files\n- **Monroe_County_NY__10406.pdf** (.pdf, 656.0KB)\n  Title: Deferred Comp RFP\n  Author: Monroe County\n  Pages/Sheets: 18\n  Keywords: Monroe County\n  Modified: 2026-10-07\n  Preview: Deferred Compensation Services:    Administrative/Recordkeeping Services,  Marketing/Enrollment/Education Services,  Investment Management, and  Custodial Trustee Services    August 4, 2023  Request f\n\n- **Hartford_MERF__file.pdf** (.pdf, 940.5KB)\n  Title: RFP INVESTMENT CONSULTANT ASSISTANCE\n  Author: Patricia Stokes\n  Pages/Sheets: 76\n  Keywords: Patricia Stokes\n  Modified: 2026-10-07\n  Preview: CITY OF HARTFORD TREASURER’S OFFICE  MUNICIPAL EMPLOYEES’ RETIREMENT  FUND of the CITY of HARTFORD and CITY of  HARTFORD OPEB TRUST   250 Constitution Plaza - 2nd Floor  HARTFORD, CONNECTICUT 06103  w\n\n- **KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf** (.pdf, 469.5KB)\n  Title: Microsoft Word - Audit Actuary RFP 2024 Final\n  Author: matt.henry\n  Pages/Sheets: 50\n  Keywords: matt.henry\n  Modified: 2026-10-07\n  Preview: Kern County Employees’ Retirement Association             Request for Proposal     ACTUARIAL AUDIT SERVICES            March 29, 2024\n\n- **SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf** (.pdf, 776.6KB)\n  Author: Ashleigh Hollins\n  Pages/Sheets: 47\n  Keywords: Ashleigh Hollins\n  Modified: 2026-10-07\n  Preview: General Investment Consulting Services    Request for Proposals      September 30, 2016\n\n- **CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf** (.pdf, 526.6KB)\n  Author: Stephanie Shedd\n  Pages/Sheets: 86\n  Keywords: Stephanie Shedd\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS  FOR  MASTER CUSTODIAN AND  RELATED SERVICES      April 2018                        Contra Costa County Employees’ Retirement Association    1355 Willow Way, Suite 221  Concord,\n\n- **OCERS__investment_consultant_services_rfp.pdf** (.pdf, 616.2KB)\n  Title: OCERS Investment Consultant Services RFP\n  Author: OCERS\n  Pages/Sheets: 37\n  Keywords: OCERS, OCERS Investment Consultant Services RFP\n  Modified: 2026-10-07\n  Preview: Investment Consultant Services  for:   General Investments and Risk  Private Equity  Real Assets  Real Estate  Requests for Proposal    Issued August 2021                    Orange County Employees Re\n\n- **IMRF__sample_investment_manager_rfp.pdf** (.pdf, 285.9KB)\n  Title:   \n  Author: Carmen Heredia-Lopez\n  Pages/Sheets: 26\n  Keywords: Carmen Heredia-Lopez\n  Modified: 2026-10-07\n  Preview: SAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP    Request for Proposals - Investment Management  Domestic Equity Small Cap Growth    SAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP\n\n- **NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf** (.pdf, 773.6KB)\n  Title: BOARD OF EDUCATION OF THE CITY OF NEW YORK\n  Author: ARodriguez\n  Pages/Sheets: 64\n  Keywords: ARodriguez\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS    FOR    INVESTMENT CONSULTING SERVICES    RFP # 2024-003      Proposals will be received   via email to: BERSProcurement@bers.nyc.gov      Until:  5:00 PM    On:  July 12, 2024\n\n- **INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf** (.pdf, 998.5KB)\n  Title:  \n  Author: Constantin Sorlescu\n  Pages/Sheets: 41\n  Keywords: Constantin Sorlescu\n  Modified: 2026-10-07\n  Preview: 1\n\n- **INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf** (.pdf, 1.0MB)\n  Author: Jeffrey Hutson\n  Pages/Sheets: 58\n  Keywords: Jeffrey Hutson\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS (“RFP”) for  ALTERNATIVE INVESTMENT CONSULTING SERVICES    RFP NUMBER 23-09      RELEASE DATE:  October 23, 2023  DEADLINE FOR INQUIRIES: November 13, 2023, 3:00 P.M. (EST)  DEAD\n\n- **SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf** (.pdf, 380.0KB)\n  Title: August 11, 2008\n  Author: dpcadmin\n  Pages/Sheets: 21\n  Keywords: dpcadmin\n  Modified: 2026-10-07\n  Preview: SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM  REQUEST FOR PROPOSAL (RFP) FOR  GENERAL INVESTMENT CONSULTANT\n\n- **Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf** (.pdf, 54.5KB)\n  Title: Request for Proposal (RFP) for Outsourced Chief Investment Officer (OCIO) Services\n  Pages/Sheets: 5\n  Modified: 2026-10-07\n  Preview: Request for Proposal (RFP) for Outsourced Chief Investment Officer  (OCIO) Services   Issued By: Samuel Fels Fund  Contact: Uma Viswanathan uma@samfels.org; Nimrit  Kang kangnkgo@gmail.com   1. Introduction and Overview  The Samuel S. Fels Fund’s [Fels Fund] mission is to improve conditions and  opportunities for communities that are and have been historically excluded and  marginalized in Philadelphia, and to move us towards a more socially, racially, and  economically just society.  The organi\n\n- **Anchorage_PFRS__RFP_2025_Final.pdf** (.pdf, 1012.3KB)\n  Author: steind\n  Pages/Sheets: 40\n  Keywords: steind\n  Modified: 2026-10-07\n  Preview: 1  Anchorage Police & Fire  Retirement System  Ap ril 15, 2025  REQ UEST FOR PROPOSAL  The Board of Trustees of the Anchorage Police and Fire Retirement System  is seeking proposals to provide investm\n\n- **OCERS__custodian_rfp_2022-2023.pdf** (.pdf, 711.9KB)\n  Title: Custodian RFP\n  Author: OCERS\n  Pages/Sheets: 51\n  Keywords: OCERS, RFP, Investments\n  Modified: 2026-10-07\n  Preview: Custody Services  Request for Proposal    October 2022                                  Orange County Employees Retirement System (OCERS)  P.O. Box 1229  Santa Ana, CA 92702  (714)-558-6200  http://ww\n\n- **SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf** (.pdf, 1.5MB)\n  Author: Kristina Richter\n  Pages/Sheets: 97\n  Keywords: Kristina Richter\n  Modified: 2026-10-07\n  Preview: Santa Barbara County Employees’ Retirement System Global Custody and Related Services 1      Request for Proposal       Global Custody and Related Services  Santa Barbara County Employees’ Retirement\n\n- **SBCERA__investment_consultant_-_request_for_proposals.pdf** (.pdf, 1.4MB)\n  Title: Request for Proposal - Investment Consultant\n  Author: emoreno\n  Pages/Sheets: 40\n  Keywords: emoreno\n  Modified: 2026-10-07\n  Preview: SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION  REQUEST FOR PROPOSAL (RFP)  FOR  INVESTMENT CONSULTING SERVICES\n\n- **Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf** (.pdf, 509.2KB)\n  Title: Hawaii ERS\n  Author: CAI\n  Pages/Sheets: 37\n  Keywords: CAI\n  Modified: 2026-10-07\n  Preview: Employees’ Retirement System of the State of Hawaii  (ERS)  Request for Proposals  Real Assets Investment Consultant  RFP 2022-06  Issued     October 3, 2022  POTENTIAL OFFERORS WHO WISH TO RECEIVE AD\n\n- **CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf** (.pdf, 183.1KB)\n  Title: Microsoft Word - 2025 RP Investment Consultant RFP 04 29 25\n  Author: Paul\n  Pages/Sheets: 12\n  Keywords: Paul\n  Modified: 2026-10-07\n  Preview: Retirement Plan for CTA  Employees  Investment Consulting   Request for Proposals              Advertised Date  April 29, 2025      Proposals Due via email  May 30, 2025  3:00 pm, Central Time  psidry\n\n- **Delaware__TRE21101-RECDKEEPR-rfp.pdf** (.pdf, 1.0MB)\n  Author: Davis, Liza D (OST)\n  Pages/Sheets: 109\n  Keywords: Davis, Liza D (OST)\n  Modified: 2026-10-07\n  Preview: 1    REQUEST FOR PROPOSAL FOR DEFERRED COMPENSATION PLAN  RECORDKEEPING AND ADMINISTRATION SERVICES ISSUED BY THE  OFFICE OF THE STATE TREASURER    CONTRACT NUMBER:  TRE-CPM-21101- DEFERRED COMPENSATI\n\n- **ILPA__ILPA-DDQ-2.0.pdf** (.pdf, 827.3KB)\n  Title: Due Diligence Questionnaire\n  Author: ILPA\n  Pages/Sheets: 58\n  Keywords: ILPA\n  Modified: 2026-10-07\n  Preview: Due Diligence   Questionnaire 2.0  Updated November 2021\n\n## Instructions\n1. Evaluate EVERY file listed above. Consider directory names, filenames, titles, keywords, and preview content as relevance signals.\n2. Assign \"high\" (directly relevant), \"medium\" (possibly relevant), or \"low\" (unlikely relevant) to each file.\n3. For the \"path\" field, copy the **exact relative path** shown in bold (e.g. `subdir/file.pdf`) from the scan results above.\n4. Return ONLY a JSON array — no other text.\n\n## Output Format (use the EXACT path shown in the file listing)\n```json\n[\n  {\"path\": \"exact/relative/path/from/listing\", \"relevance\": \"high\", \"reason\": \"brief reason\"}\n]\n```",
+  "keyword_files": [
+    "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+    "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "/mnt/docs/S/DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+    "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+    "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "/mnt/docs/S/Hartford_MERF__file.pdf",
+    "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+    "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "/mnt/docs/S/DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+    "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+    "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "/mnt/docs/S/Hartford_MERF__file.pdf",
+    "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+    "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf"
+  ],
+  "directory_ranking": [
+    {
+      "path": "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+      "filename": "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+      "extension": ".pdf",
+      "size_bytes": 480771,
+      "modified_at": "2026-10-07T07:11:26",
+      "created_at": "2026-10-07T07:19:57.692032",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - Audit Actuary RFP 2024 Final",
+      "author": "matt.henry",
+      "page_count": 50,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "matt.henry"
+      ],
+      "preview": "Kern County Employees’ Retirement Association \n \n  \n \n \n \nRequest for Proposal \n  \nACTUARIAL AUDIT SERVICES \n \n \n \n \n \nMarch 29, 2024",
+      "content_loaded": false,
+      "relevance": "high",
+      "reason": "RFP for actuarial audit services; likely states the proposed contract term and any options."
+    },
+    {
+      "path": "/mnt/docs/S/Monroe_County_NY__10406.pdf",
+      "filename": "Monroe_County_NY__10406.pdf",
+      "extension": ".pdf",
+      "size_bytes": 671723,
+      "modified_at": "2026-10-07T07:08:58",
+      "created_at": "2026-10-07T07:19:58.032026",
+      "mime_type": "application/pdf",
+      "title": "Deferred Comp RFP",
+      "author": "Monroe County",
+      "page_count": 18,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Monroe County"
+      ],
+      "preview": "Deferred Compensation Services: \n \nAdministrative/Recordkeeping Services, \nMarketing/Enrollment/Education Services, \nInvestment Management, and \nCustodial Trustee Services \n \nAugust 4, 2023 \nRequest for Proposals",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Deferred compensation administration, investment, and trustee services, not actuarial services."
+    },
+    {
+      "path": "/mnt/docs/S/Hartford_MERF__file.pdf",
+      "filename": "Hartford_MERF__file.pdf",
+      "extension": ".pdf",
+      "size_bytes": 963084,
+      "modified_at": "2026-10-07T07:17:51",
+      "created_at": "2026-10-07T07:19:56.864046",
+      "mime_type": "application/pdf",
+      "title": "RFP INVESTMENT CONSULTANT ASSISTANCE",
+      "author": "Patricia Stokes",
+      "page_count": 76,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Patricia Stokes"
+      ],
+      "preview": "CITY OF HARTFORD TREASURER’S OFFICE \nMUNICIPAL EMPLOYEES’ RETIREMENT \nFUND of the CITY of HARTFORD and CITY of \nHARTFORD OPEB TRUST  \n250 Constitution Plaza - 2nd Floor \nHARTFORD, CONNECTICUT 06103 \nwww.hartfordcitytreasurer.org \n \n \n REQUEST FOR PROPOSALS (“RFP”) \nGENERAL INVESTMENT CONSULTANT \n \nT",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment consultant RFP, not an actuarial services RFP."
+    },
+    {
+      "path": "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "filename": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "extension": ".pdf",
+      "size_bytes": 795256,
+      "modified_at": "2026-10-07T07:02:49",
+      "created_at": "2026-10-07T07:19:58.716014",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Ashleigh Hollins",
+      "page_count": 47,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Ashleigh Hollins"
+      ],
+      "preview": "General Investment Consulting Services \n \nRequest for Proposals \n \n \nSeptember 30, 2016",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "General investment consulting RFP."
+    },
+    {
+      "path": "/mnt/docs/S/CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+      "filename": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+      "extension": ".pdf",
+      "size_bytes": 539265,
+      "modified_at": "2026-10-07T07:07:49",
+      "created_at": "2026-10-07T07:19:56.372055",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Stephanie Shedd",
+      "page_count": 86,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Stephanie Shedd"
+      ],
+      "preview": "REQUEST FOR PROPOSALS \nFOR \nMASTER CUSTODIAN AND \nRELATED SERVICES \n \n \nApril 2018 \n \n \n \n \n \n \n \n \n \n \n \nContra Costa County Employees’ Retirement Association\n  \n1355 Willow Way, Suite 221 \nConcord, CA  94520  \n(925) 521-3960 \nFax (925) 521-3969 \nwww.cccera.org",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Master custodian services RFP."
+    },
+    {
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+      "filename": "OCERS__investment_consultant_services_rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 630996,
+      "modified_at": "2026-10-07T07:02:13",
+      "created_at": "2026-10-07T07:19:58.220023",
+      "mime_type": "application/pdf",
+      "title": "OCERS Investment Consultant Services RFP",
+      "author": "OCERS",
+      "page_count": 37,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "OCERS",
+        "OCERS Investment Consultant Services RFP"
+      ],
+      "preview": "Investment Consultant Services \nfor:  \nGeneral Investments and Risk \nPrivate Equity \nReal Assets \nReal Estate \nRequests for Proposal \n \nIssued August 2021 \n \n \n \n \n \n \n \n \n \nOrange County Employees Retirement System (OCERS) \n2223 E Wellington Avenue Suite 100 \nSanta Ana, CA 92701 USA \n1-(714)-558-62",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment consultant services RFP."
+    },
+    {
+      "path": "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf",
+      "filename": "IMRF__sample_investment_manager_rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 292790,
+      "modified_at": "2026-10-07T07:06:03",
+      "created_at": "2026-10-07T07:19:57.072043",
+      "mime_type": "application/pdf",
+      "title": "  ",
+      "author": "Carmen Heredia-Lopez",
+      "page_count": 26,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Carmen Heredia-Lopez"
+      ],
+      "preview": "SAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP \n \nRequest for Proposals - Investment Management \nDomestic Equity Small Cap Growth \n \nSAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP \n \nPART 1 -- Introduction and Goal of the RFP \n1.1 INTRODUCTION - General Information \nThe Illinois Mu",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Sample investment management RFP."
+    },
+    {
+      "path": "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+      "filename": "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+      "extension": ".pdf",
+      "size_bytes": 792177,
+      "modified_at": "2026-10-07T07:02:17",
+      "created_at": "2026-10-07T07:19:58.096025",
+      "mime_type": "application/pdf",
+      "title": "BOARD OF EDUCATION OF THE CITY OF NEW YORK",
+      "author": "ARodriguez",
+      "page_count": 64,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "ARodriguez"
+      ],
+      "preview": "REQUEST FOR PROPOSALS \n \nFOR \n \nINVESTMENT CONSULTING SERVICES \n \nRFP # 2024-003 \n \n \nProposals will be received  \nvia email to: BERSProcurement@bers.nyc.gov \n \n \nUntil:  5:00 PM    On:  July 12, 2024 \n \n \n. \nNO LATE PROPOSALS WILL BE ACCEPTED \n \nEACH PAGE OF THE SUBMISSION MUST \nBE LABELED WITH RFP",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment consulting services RFP."
+    },
+    {
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "filename": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1022513,
+      "modified_at": "2026-10-07T07:12:08",
+      "created_at": "2026-10-07T07:19:57.396037",
+      "mime_type": "application/pdf",
+      "title": " ",
+      "author": "Constantin Sorlescu",
+      "page_count": 41,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Constantin Sorlescu"
+      ],
+      "preview": "1",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Real estate investment due diligence questionnaire, not an actuarial RFP."
+    },
+    {
+      "path": "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "filename": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1063300,
+      "modified_at": "2026-10-07T07:15:02",
+      "created_at": "2026-10-07T07:19:57.136042",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Jeffrey Hutson",
+      "page_count": 58,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Jeffrey Hutson"
+      ],
+      "preview": "REQUEST FOR PROPOSALS (“RFP”) for \nALTERNATIVE INVESTMENT CONSULTING SERVICES \n \nRFP NUMBER 23-09 \n \n \nRELEASE DATE:  October 23, 2023 \nDEADLINE FOR INQUIRIES: November 13, 2023, 3:00 P.M. (EST) \nDEADLINE FOR SUBMISSION:  December 15, 2023, 3:00 P.M. (EST)",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Alternative investment consulting RFP."
+    },
+    {
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "filename": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 389091,
+      "modified_at": "2026-10-07T07:02:20",
+      "created_at": "2026-10-07T07:19:58.740014",
+      "mime_type": "application/pdf",
+      "title": "August 11, 2008",
+      "author": "dpcadmin",
+      "page_count": 21,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "dpcadmin"
+      ],
+      "preview": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM \nREQUEST FOR PROPOSAL (RFP) FOR \nGENERAL INVESTMENT CONSULTANT",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "General investment consultant RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf",
+      "filename": "Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf",
+      "extension": ".pdf",
+      "size_bytes": 55822,
+      "modified_at": "2026-10-07T07:17:59",
+      "created_at": "2026-10-07T07:19:58.856012",
+      "mime_type": "application/pdf",
+      "title": "Request for Proposal (RFP) for Outsourced Chief Investment Officer (OCIO) Services",
+      "author": "",
+      "page_count": 5,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "Request for Proposal (RFP) for Outsourced Chief Investment Officer \n(OCIO) Services  \nIssued By: Samuel Fels Fund \nContact: Uma Viswanathan uma@samfels.org; Nimrit \nKang kangnkgo@gmail.com  \n1. Introduction and Overview \nThe Samuel S. Fels Fund’s [Fels Fund] mission is to improve conditions and \nopp",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "Outsourced chief investment officer services RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf",
+      "filename": "Anchorage_PFRS__RFP_2025_Final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1036581,
+      "modified_at": "2026-10-07T07:05:38",
+      "created_at": "2026-10-07T07:19:56.200058",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "steind",
+      "page_count": 40,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "steind"
+      ],
+      "preview": "1 \nAnchorage Police & Fire \nRetirement System \nAp\nril 15, 2025 \nREQ\nUEST FOR PROPOSAL \nThe Board of Trustees of the Anchorage Police and Fire Retirement System \nis seeking proposals to provide investment advisory consultant services \nfrom a qualified institutional investment consulting firm. \nThe A\n",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Preview indicates an investment services RFP, not actuarial services."
+    },
+    {
+      "path": "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+      "filename": "OCERS__custodian_rfp_2022-2023.pdf",
+      "extension": ".pdf",
+      "size_bytes": 729008,
+      "modified_at": "2026-10-07T07:07:14",
+      "created_at": "2026-10-07T07:19:58.144024",
+      "mime_type": "application/pdf",
+      "title": "Custodian RFP",
+      "author": "OCERS",
+      "page_count": 51,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "OCERS",
+        "RFP",
+        "Investments"
+      ],
+      "preview": "Custody Services \nRequest for Proposal \n \nOctober 2022 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nOrange County Employees Retirement System (OCERS) \nP.O. Box 1229 \nSanta Ana, CA 92702 \n(714)-558-6200 \nhttp://www.ocers.org",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Custody services RFP."
+    },
+    {
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "filename": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1598389,
+      "modified_at": "2026-10-07T07:07:42",
+      "created_at": "2026-10-07T07:19:58.636015",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Kristina Richter",
+      "page_count": 97,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Kristina Richter"
+      ],
+      "preview": "Santa Barbara County Employees’ Retirement System Global Custody and Related Services 1 \n \n \nRequest for Proposal \n \n  \nGlobal Custody and Related Services \nSanta Barbara County Employees’ Retirement System \n(“SBCERS”) \n \n  \nIssue Date:       January 8, 2024 \nQuestions Due:      January 12, 2024  \nQ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Global custody services RFP."
+    },
+    {
+      "path": "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf",
+      "filename": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1444685,
+      "modified_at": "2026-10-07T07:15:06",
+      "created_at": "2026-10-07T07:19:58.528018",
+      "mime_type": "application/pdf",
+      "title": "Request for Proposal - Investment Consultant",
+      "author": "emoreno",
+      "page_count": 40,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "emoreno"
+      ],
+      "preview": "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION \nREQUEST FOR PROPOSAL (RFP) \nFOR \nINVESTMENT CONSULTING SERVICES",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment consulting services RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+      "filename": "Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+      "extension": ".pdf",
+      "size_bytes": 521433,
+      "modified_at": "2026-10-07T07:08:20",
+      "created_at": "2026-10-07T07:19:56.896046",
+      "mime_type": "application/pdf",
+      "title": "Hawaii ERS",
+      "author": "CAI",
+      "page_count": 37,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "CAI"
+      ],
+      "preview": "Employees’ Retirement System of the State of Hawaii \n(ERS) \nRequest for Proposals \nReal Assets Investment Consultant \nRFP 2022-06 \nIssued  \n  October 3, 2022 \nPOTENTIAL OFFERORS WHO WISH TO RECEIVE ADDENDA TO THIS \nREQUEST FOR PROPOSALS MUST REGISTER WITH THE ERS AS \nPOTENTIAL OFFERORS.",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Real assets investment consultant RFP."
+    },
+    {
+      "path": "/mnt/docs/S/CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+      "filename": "CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+      "extension": ".pdf",
+      "size_bytes": 187488,
+      "modified_at": "2026-10-07T07:14:22",
+      "created_at": "2026-10-07T07:19:56.508053",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - 2025 RP Investment Consultant RFP 04 29 25",
+      "author": "Paul",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Paul"
+      ],
+      "preview": "Retirement Plan for CTA \nEmployees \nInvestment Consulting  \nRequest for Proposals \n \n \n \n \n \n \nAdvertised Date \nApril 29, 2025 \n \n \nProposals Due via email \nMay 30, 2025 \n3:00 pm, Central Time \npsidrys@ctapension.com \n \n55 W. Monroe, Suite 1950 \nChicago, IL 60603",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment consulting RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "filename": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1089597,
+      "modified_at": "2026-10-07T07:09:07",
+      "created_at": "2026-10-07T07:19:56.800047",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Davis, Liza D (OST)",
+      "page_count": 109,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Davis, Liza D (OST)"
+      ],
+      "preview": "1 \n \nREQUEST FOR PROPOSAL FOR DEFERRED COMPENSATION PLAN \nRECORDKEEPING AND ADMINISTRATION SERVICES ISSUED BY THE \nOFFICE OF THE STATE TREASURER   \nCONTRACT NUMBER:  TRE-CPM-21101- DEFERRED COMPENSATION PLAN \nRECORDKEEPING AND ADMINISTRATION SERVICES \n \n \nI. OVERVIEW \n \nBy this request for proposal ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Deferred compensation recordkeeping and administration RFP."
+    },
+    {
+      "path": "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+      "filename": "ILPA__ILPA-DDQ-2.0.pdf",
+      "extension": ".pdf",
+      "size_bytes": 847190,
+      "modified_at": "2026-10-07T07:11:58",
+      "created_at": "2026-10-07T07:19:56.992044",
+      "mime_type": "application/pdf",
+      "title": "Due Diligence Questionnaire",
+      "author": "ILPA",
+      "page_count": 58,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "ILPA"
+      ],
+      "preview": "Due Diligence  \nQuestionnaire 2.0 \nUpdated November 2021",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Due diligence questionnaire, not an actuarial services RFP."
+    }
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 829,
+      "timestamp": "2026-10-23 08:31:57.927553",
+      "metadata": {
+        "keywords": [
+          "actuarial services RFPs",
+          "contract terms",
+          "initial length",
+          "renewal options",
+          "extension options",
+          "精算服务",
+          "征求建议书",
+          "续约选项"
+        ],
+        "files_found": 16,
+        "files_discovered": [
+          "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+          "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+          "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+          "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+          "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+          "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+          "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+          "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+          "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+          "/mnt/docs/S/DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+          "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+          "/mnt/docs/S/TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+          "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+          "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+          "/mnt/docs/S/Hartford_MERF__file.pdf",
+          "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf"
+        ]
+      }
+    }
+  ],
+  "elapsed_s": 13.51,
+  "calls": 2,
+  "usage": {
+    "prompt_tokens": 3290,
+    "completion_tokens": 1213,
+    "total_tokens": 4503
+  },
+  "group": "R3",
+  "attempt": 1
+}

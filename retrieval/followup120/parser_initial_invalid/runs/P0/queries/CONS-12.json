@@ -1,0 +1,73 @@
+{
+  "query_id": "CONS-12",
+  "question": "How many printed copies of the proposal must be submitted in the Boston Retirement System 2022 investment consulting services RFP?",
+  "type": "pair_a",
+  "pair_id": "P2",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf"
+  ],
+  "keyword_terms": [
+    "Boston Retirement System 2022",
+    "investment consulting services RFP",
+    "printed copies of the proposal",
+    "波士顿退休系统",
+    "投资咨询服务",
+    "纸质提案副本"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 110,
+      "timestamp": "2026-10-25 15:42:21.229547",
+      "metadata": {
+        "keywords": [
+          "Boston Retirement System 2022",
+          "investment consulting services RFP",
+          "printed copies of the proposal",
+          "波士顿退休系统",
+          "投资咨询服务",
+          "纸质提案副本"
+        ],
+        "files_found": 2,
+        "files_discovered": [
+          "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+          "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "path": "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+      "path": "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "path": "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf"
+    }
+  ],
+  "elapsed_s": 2.784,
+  "calls": 0,
+  "usage": {}
+}

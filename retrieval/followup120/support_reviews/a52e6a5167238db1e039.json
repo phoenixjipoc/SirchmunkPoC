@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "a52e6a5167238db1e039",
+    "query_id": "XD-04",
+    "question": "Which due diligence questionnaire in the corpus asks the manager whether it requires its underlying investments to submit data to sustainability performance evaluation organisations, and which organisation does it give as an example?",
+    "file": "INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+    "expected_facts": "The INREV DDQ 2022 for Funds of Funds and Multi Manager, question 3.8.1 (Supplementary Stage, section 3.8 Environmental, Social and Governance). The example given is the Global Real Estate Sustainability Benchmark (GRESB), and the manager is asked for its scores/results if it does require this.",
+    "acceptance": "Identify 2022 FoF/MM DDQ and Global Real Estate Sustainability Benchmark/GRESB. Question number and scores/results follow-up are optional.",
+    "text_hash": "4aa67eec4c20c31dd5bea026745ad60e494f4d41055e5282f36a63f51ac53b63",
+    "source_text_sha256": "872c9becc80ae87c8e0cc07ecfc15202e13fdf184eceaffab26855b50b7cfb9e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "partial",
+      "identity": "wrong",
+      "reason": "The document identifies an INREV fund-of-funds and multi-managers DDQ, but calls itself the first version rather than the 2022 edition. Its question 3.8.1 concerns liquidity, and it does not give GRESB as an example of a sustainability performance evaluation organisation.",
+      "quotes": [
+        "The Due Diligence Questionnaire for Fund of Funds and Multi-Managers is part of the due diligence protocol which was first launched in April 2007.",
+        "This is the first version of the questionnaire.",
+        "3.8 Liquidity and cash management",
+        "3.8.1 Please describe the liquidity policy of the fund, if any."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Due Diligence Questionnaire for Fund of Funds and Multi-Managers is part of the due diligence protocol which was first launched in April 2007.",
+          "start": 4266,
+          "end": 4412
+        },
+        {
+          "quote": "This is the first version of the questionnaire.",
+          "start": 4413,
+          "end": 4460
+        },
+        {
+          "quote": "3.8 Liquidity and cash management",
+          "start": 2311,
+          "end": 2344
+        },
+        {
+          "quote": "3.8.1 Please describe the liquidity policy of the fund, if any.",
+          "start": 51655,
+          "end": 51718
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

@@ -1,0 +1,56 @@
+{
+  "query_id": "CONS-06",
+  "question": "Which retirement system's general investment consultant RFP requires respondents to currently provide non-discretionary general investment advice to at least 5 public pension plans larger than $5 billion and at least 2 public plans over $20 billion?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "S",
+  "references": [
+    {
+      "rank": 1,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+    }
+  ],
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "baseline_sha256": "1470f8adf9d7f533cb90835464f20661d13032c933036d731ffc23bcc0ff55a4",
+  "original_files": [
+    "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+  ],
+  "ranking_prompt": "{\"question\": \"Which retirement system's general investment consultant RFP requires respondents to currently provide non-discretionary general investment advice to at least 5 public pension plans larger than $5 billion and at least 2 public plans over $20 billion?\", \"candidates\": [{\"filename\": \"COAERS__COAERS_General_Investment_Consultant_RFP.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Russell Nash\", \"page_count\": 30, \"keywords\": [\"Russell Nash\"], \"preview\": \"1 \\n \\n \\n \\nRequest for Proposal \\nGeneral Investment Consultant \\n \\n \\n \\n \\n \\n \\nProposals must be submitted on or before  \\n5:00 p.m. Central Standard Time  \\nFebruary 9, 2024 \\n \\n \\n \\n \\n \\n \\nCity of Austin Employees’ Retirement System \\n6850 Austin Center Blvd. \\nSuite 320 \\nAustin, TX  78731 \\n(512) 458-2551 \\nwww.coaers.org/gic-rfp\", \"full_content\": \"\"}, {\"filename\": \"SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf\", \"extension\": \".pdf\", \"title\": \"August 11, 2008\", \"author\": \"dpcadmin\", \"page_count\": 21, \"keywords\": [\"dpcadmin\"], \"preview\": \"SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM \\nREQUEST FOR PROPOSAL (RFP) FOR \\nGENERAL INVESTMENT CONSULTANT\", \"full_content\": \"\"}, {\"filename\": \"TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf\", \"extension\": \".pdf\", \"title\": \" TMRS RFP General Investment Consulting Services\", \"author\": \"TMRS\", \"page_count\": 39, \"keywords\": [\"TMRS\"], \"preview\": \"1 \\n \\n \\n \\n \\nRequest for Proposal (RFP) \\nNON-DISCRETIONARY  \\nGENERAL INVESTMENT CONSULTING SERVICES \\n \\n \\nNotice to Prospective Respondents \\nFebruary 3, 2022 \\n \\nYou are invited to review and respond to this Texas Municipal Reti rement System (TMRS) Request \\nfor Proposal ( RFP) e ntitled Non-Discretionary General Investment  Consulting Services . In \\nsubmitting your proposal, you must comply with the instructions found herein.   \\n \\nResponses must be received  no later than 5:00 p.m. Central Standard Time (CST) on March 3, \\n2022.  Pro posals received after this  date and time will not be considered.  Please see Section -VII – \\nTransmittal instructions for detailed information on how to respond. \\n                            \\nRespondents requiring clarification of the content of this RFP may r\", \"full_content\": \"\"}]}",
+  "keyword_files": [
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+  ],
+  "status": "ok",
+  "elapsed_s": 4.529,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 761,
+    "completion_tokens": 258,
+    "total_tokens": 1019
+  },
+  "attempt": 1
+}

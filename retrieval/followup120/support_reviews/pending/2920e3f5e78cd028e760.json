@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "2920e3f5e78cd028e760",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "INPRS__RFP24-05_AuditServices.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "c91a90645d9659e59cf92c848073c9a4293275c8ab6c443e5ea6557a9cce6d3a",
+    "source_text_sha256": "cd68d7342246afa44a13ddc9cd569953afbc71f71001c6d34468336403cd1683",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an INPRS audit-services RFP, not the ILPA Due Diligence Questionnaire 2.0. Its table of contents lists only two appendices, with different titles, so it does not support the required eight ILPA appendices.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS (“RFP”) for AUDIT SERVICES RFP NUMBER 24-05",
+        "APPENDIX A – SAMPLE CONTRACT FOR SERVICES",
+        "APPENDIX B – MANDATORY RESPONDENT FORMS"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) for AUDIT SERVICES RFP NUMBER 24-05",
+          "start": 13,
+          "end": 78
+        },
+        {
+          "quote": "APPENDIX A – SAMPLE CONTRACT FOR SERVICES",
+          "start": 1751,
+          "end": 1792
+        },
+        {
+          "quote": "APPENDIX B – MANDATORY RESPONDENT FORMS",
+          "start": 1926,
+          "end": 1965
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

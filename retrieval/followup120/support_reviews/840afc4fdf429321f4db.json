@@ -1,0 +1,59 @@
+{
+  "job": {
+    "id": "840afc4fdf429321f4db",
+    "query_id": "SVC-19",
+    "question": "What minimum qualifications must a proposing firm certify in the City of Temple City's 2020 RFP for 457 plan administration and recordkeeping services?",
+    "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "expected_facts": "(1) At least 5 years of experience administering governmental 457 plans and currently providing sole-provider administration to at least five 457 plans with assets under $25 million; (2) no front-end or back-end charges and no restrictions/penalties on plan- or participant-initiated transfers or withdrawals (except capital preservation equity wash/put provisions and fund short-term trading fees); (3) full disclosure of all fund expense and revenue sharing arrangements, including fixed/general account products; (4) full disclosure of expenses and revenue for any service (platform fees, managed accounts, advice, financial planning, brokerage); (5) agree not to sell/promote products not affiliated with the Plan without written City authorization; (6) be qualified to do business in California and Temple City upon award; (7) offer a self-directed brokerage option; (8) be able to transition and continue administration of existing loans; (9) representatives attend City meetings in person as requested (no more than once per year); (10) knowledge of and compliance with applicable County, California and federal regulations; (11) RFP terms remain in place through negotiations and the final contract unless waived in writing.",
+    "acceptance": "Accept concise grouping of the eleven requirements; the five-year/five-plan/$25m threshold alone is incomplete for this broad list question. Examples of service fees are illustrative, not separate mandatory list items.",
+    "text_hash": "3b4fb541c2d35b7de747c8f6c26cc3a40bee097d58737ad466dbef56acdfa755",
+    "source_text_sha256": "a7628e3fc4e0a9323e896059440a5b708d424232eec8242be9362eb818e6b682",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is Clark County, Washington’s 2026 RFP, not the City of Temple City’s 2020 RFP. Its minimum qualifications also differ, including the plan-count and asset thresholds and the state in which the firm must qualify. Requirements for a different issuer do not support the question.",
+      "quotes": [
+        "Clark County Washington RELEASE DATE: WEDNESDAY, MAY 6, 2026",
+        "Request for Proposal for: DEFERRED COMPENSATION 457 PLAN ADMINISTRATOR",
+        "The County requires each Proposing Firm responding to this RFP to certify that it meets or agrees to the following criteria:",
+        "a minimum of three (3) Section 457 deferred compensation retirement plans with an asset size of at least $100 million in each.",
+        "Upon award of the contract, the selected Proposing Firm must be duly qualified to do business in the State of Washington."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Clark County Washington RELEASE DATE: WEDNESDAY, MAY 6, 2026",
+          "start": 84,
+          "end": 144
+        },
+        {
+          "quote": "Request for Proposal for: DEFERRED COMPENSATION 457 PLAN ADMINISTRATOR",
+          "start": 244,
+          "end": 314
+        },
+        {
+          "quote": "The County requires each Proposing Firm responding to this RFP to certify that it meets or agrees to the following criteria:",
+          "start": 17600,
+          "end": 17724
+        },
+        {
+          "quote": "a minimum of three (3) Section 457 deferred compensation retirement plans with an asset size of at least $100 million in each.",
+          "start": 17926,
+          "end": 18052
+        },
+        {
+          "quote": "Upon award of the contract, the selected Proposing Firm must be duly qualified to do business in the State of Washington.",
+          "start": 19354,
+          "end": 19475
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

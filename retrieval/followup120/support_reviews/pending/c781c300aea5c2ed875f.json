@@ -1,0 +1,77 @@
+{
+  "job": {
+    "id": "c781c300aea5c2ed875f",
+    "query_id": "INV-04",
+    "question": "In the Illinois Firefighters' Pension Investment Fund (FPIF) February 2023 RFP for private markets investment consulting and discretionary OCIO advisory services, what long-term target allocation to private markets is FPIF building, and how is it split across asset classes?",
+    "file": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "expected_facts": "A long-term target of 31% to private market asset classes: 10% private equity, 7% private debt, 10% real estate and 4% infrastructure. (FPIF seeks one non-discretionary consultant and approximately three discretionary OCIO advisors for this portfolio.)",
+    "acceptance": "Require total 31% and 10% PE / 7% private debt / 10% real estate / 4% infrastructure. Consultant/advisor counts and core/non-core splits are optional.",
+    "text_hash": "9442e2b4c086526d3a2fdbcfd889eca2ceeb00c6b9e5d09ba8003815529b2dfc",
+    "source_text_sha256": "a03af1cb5588edbe010abae942bbd4d97b649d15b5280a5db6c40f3e111a54fd",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a February 2022 Boston Retirement System RFP, not the February 2023 FPIF RFP. It does not state FPIF’s long-term private-markets target or the required asset-class allocations.",
+      "quotes": [
+        "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+        "BRS Issues RFP February 7, 2022",
+        "Once during the term of the agreement, prepare and present to the BRS a written plan establishing investment objectives and target asset mix for BRS"
+      ],
+      "quote_matches": [
+        {
+          "quote": "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+          "start": 13,
+          "end": 106
+        },
+        {
+          "quote": "BRS Issues RFP February 7, 2022",
+          "start": 129,
+          "end": 160
+        },
+        {
+          "quote": "Once during the term of the agreement, prepare and present to the BRS a written plan establishing investment objectives and target asset mix for BRS",
+          "start": 5651,
+          "end": 5799
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is a February 2022 Boston Retirement System investment consulting RFP, not the February 2023 Illinois FPIF RFP. It does not state FPIF’s 31% long-term private-markets target or the required asset-class allocations.",
+      "quotes": [
+        "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+        "BRS Issues RFP February 7, 2022",
+        "BRS seeks the following services with respect to its Private Markets investment portfolio that currently consists of private equity funds; private debt and private real estate funds:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+          "start": 13,
+          "end": 106
+        },
+        {
+          "quote": "BRS Issues RFP February 7, 2022",
+          "start": 129,
+          "end": 160
+        },
+        {
+          "quote": "BRS seeks the following services with respect to its Private Markets investment portfolio that currently consists of private equity funds; private debt and private real estate funds:",
+          "start": 11408,
+          "end": 11590
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

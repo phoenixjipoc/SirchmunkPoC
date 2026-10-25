@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "4c71bc31153c240474ee",
+    "query_id": "INV-15",
+    "question": "In the Baltimore City Employees' Retirement Systems (BCERS) RFP for an alternatives consultant, how many years must the proposing firm have been in business?",
+    "file": "York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf",
+    "expected_facts": "At least seven (7) years providing general consulting services plus private equity consulting services, or alternatives consulting services only (all minimum qualifications must be met as of November 8, 2024, 3:00 p.m. EDT).",
+    "acceptance": "Seven years is sufficient for the narrow question. Service type and qualification deadline are optional; five-year staff experience is not the firm threshold.",
+    "text_hash": "5891a32259564f9ac415f972a2fc2b35470c2879a7cd7b6e29f839b11820bf0e",
+    "source_text_sha256": "5e156c52da582a64548638b8df5e29eb5da1bbd97adae5e313d2840797c6ca4b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of York, Pennsylvania RFP, not the BCERS alternatives-consultant RFP. It asks firms to report their history but states no minimum number of years in business.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR INVESTMENT MANAGER/ADVISER/CONSULTANT CITY OF YORK PENSION FUNDS NOVEMBER 28, 2016",
+        "The City of York, Pennsylvania, (the “City” or “York”) seeks an Investment Manager, Adviser or Consultant for its Municipal Pension Funds",
+        "Time since inception and brief history of Firm’s provision of this service"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR INVESTMENT MANAGER/ADVISER/CONSULTANT CITY OF YORK PENSION FUNDS NOVEMBER 28, 2016",
+          "start": 13,
+          "end": 121
+        },
+        {
+          "quote": "The City of York, Pennsylvania, (the “City” or “York”) seeks an Investment Manager, Adviser or Consultant for its Municipal Pension Funds",
+          "start": 4795,
+          "end": 4932
+        },
+        {
+          "quote": "Time since inception and brief history of Firm’s provision of this service",
+          "start": 14955,
+          "end": 15029
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

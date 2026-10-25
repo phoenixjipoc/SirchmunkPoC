@@ -1,0 +1,508 @@
+{
+  "query_id": "OTH-06",
+  "question": "In Clark County, Washington's RFP 955 for a deferred compensation 457 plan administrator, how much was held in the 457 Plans as of December 31, 2025, and who is the current provider?",
+  "type": "detail",
+  "pair_id": "",
+  "seed": 966878651,
+  "references": [
+    {
+      "rank": 1,
+      "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+      "path": "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+      "path": "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf"
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "keywords": {
+    "Clark County, Washington": 8.0,
+    "RFP 955": 9.0,
+    "deferred compensation 457 plan": 9.0,
+    "December 31, 2025": 7.0,
+    "克拉克县": 7.0,
+    "递延薪酬457计划": 9.0,
+    "计划管理机构": 6.0
+  },
+  "keyword_terms": [
+    "Clark County, Washington",
+    "RFP 955",
+    "deferred compensation 457 plan",
+    "December 31, 2025",
+    "克拉克县",
+    "递延薪酬457计划",
+    "计划管理机构"
+  ],
+  "directory_prompt": "You are a document triage specialist. Analyze the scanned files below and rank them by relevance to the user's query.\n\n## Directory Structure\nRoot: /mnt/docs/S\n```\n  ./ (20 files)\n```\n\n## User Query\nIn Clark County, Washington's RFP 955 for a deferred compensation 457 plan administrator, how much was held in the 457 Plans as of December 31, 2025, and who is the current provider?\n\n## Scanned Files\n- **ILPA__ESG-Assessment-Framework-FAQ.pdf** (.pdf, 121.1KB)\n  Author: Microsoft Office User\n  Pages/Sheets: 3\n  Keywords: Microsoft Office User\n  Modified: 2026-10-07\n  Preview: Institutional Limited Partners Association                              1776 I St. NW Suite 525 Washington, D.C. 20006    ESG Assessment Framework – Key Considerations and FAQ    Overview   ILPA relea\n\n- **NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf** (.pdf, 197.3KB)\n  Author: Emmanuel Esochaghi\n  Pages/Sheets: 7\n  Keywords: Emmanuel Esochaghi\n  Modified: 2026-10-07\n  Preview: 15    APPENDIX A  DUE DILIGENCE QUESTIONNAIRE  Respondents to this notice are required to submit detailed responses to these questions as applicable,  which give insight into the prospective managers’\n\n- **SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf** (.pdf, 1.5MB)\n  Author: Kristina Richter\n  Pages/Sheets: 97\n  Keywords: Kristina Richter\n  Modified: 2026-10-07\n  Preview: Santa Barbara County Employees’ Retirement System Global Custody and Related Services 1      Request for Proposal       Global Custody and Related Services  Santa Barbara County Employees’ Retirement\n\n- **Hawaii_ERS__ERS-Private-Equity-AD.pdf** (.pdf, 12.5KB)\n  Title: Microsoft Word - ERS Private Equity AD (website.spo).docx\n  Author: misakil\n  Pages/Sheets: 2\n  Keywords: misakil\n  Modified: 2026-10-07\n  Preview: STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM  REQUEST FOR PROPOSAL (RFP)  FOR PRIVATE EQUITY CONSULTING   AND INVESTMENT SERVICES      The Employees’ Retirement System of the State of Hawaii (ERS) is soliciting  proposals for qualified firm(s) to provide private equity investment consulting and  investment management services to the ERS.  The consulting firm(s) must be  United States based, registered under the Investment Advisors Act of 1940, been  in business for a minimum of five years and h\n\n- **Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf** (.pdf, 330.0KB)\n  Author: Melissa Rackers\n  Pages/Sheets: 21\n  Keywords: Melissa Rackers\n  Modified: 2026-10-07\n  Preview: Page | 1          REQUEST FOR PROPOSAL  PRIVATE MARKET CONSULTING SERVICES  Prepared: July 1, 2024                Missouri Local Government Employees   Retirement System (LAGERS)  701 W. Main Street,\n\n- **INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc** (.doc, 1.2MB)\n  Modified: 2026-10-07\n\n- **NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf** (.pdf, 773.6KB)\n  Title: BOARD OF EDUCATION OF THE CITY OF NEW YORK\n  Author: ARodriguez\n  Pages/Sheets: 64\n  Keywords: ARodriguez\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS    FOR    INVESTMENT CONSULTING SERVICES    RFP # 2024-003      Proposals will be received   via email to: BERSProcurement@bers.nyc.gov      Until:  5:00 PM    On:  July 12, 2024\n\n- **SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf** (.pdf, 775.2KB)\n  Title: SURS Sample Investment Manager RFP\n  Author: SURS\n  Pages/Sheets: 44\n  Keywords: SURS\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSAL  Emerging  Markets Equity  ID: RFP-##-##-##  Issued February 14, 2022  Respon ses due via email  by 4:30pm CT on March 31, 2022  Please include RFP ID on all correspondence Sample\n\n- **SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf** (.pdf, 776.6KB)\n  Author: Ashleigh Hollins\n  Pages/Sheets: 47\n  Keywords: Ashleigh Hollins\n  Modified: 2026-10-07\n  Preview: General Investment Consulting Services    Request for Proposals      September 30, 2016\n\n- **AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf** (.pdf, 185.4KB)\n  Title: Private Markets Due Diligence Questionnaire\n  Pages/Sheets: 4\n  Modified: 2026-10-07\n  Preview: As you explore potential partnerships in private markets, it’s important to recognize that these investments work differently  than traditional public market investments held in daily liquid vehicles,\n\n- **MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf** (.pdf, 811.7KB)\n  Title: MassPRIM Active Global Core Equity Investment Management Services RFP\n  Author: Abouhala, Andre\n  Pages/Sheets: 82\n  Keywords: Abouhala, Andre\n  Modified: 2026-10-07\n  Preview: Pension Reserves Investment Management Board               Deborah B. Goldberg, Treasurer and Receiver General, Chair  Michael G. Trotsky, CFA, Executive Director and Chief Investment Officer    mapen\n\n- **Rice_University__2021_Benefit_Plan_RFP_-_final.pdf** (.pdf, 167.9KB)\n  Title: Request for Proposal To Provide Audit Services for the\n  Author: Evelyn Stewart\n  Pages/Sheets: 6\n  Keywords: Evelyn Stewart\n  Modified: 2026-10-07\n  Preview: 1 | Page     Request for Proposal to Provide Audit Services for the   William Marsh Rice University Defined Contribution Retirement Plan    INTRODUCTION   Rice University (“the University”) requests a\n\n- **OCERS__custodian_services_rfp_questions_and_answers.pdf** (.pdf, 300.4KB)\n  Title: Custodian Services RFP Questions and Answers\n  Author: OCERS\n  Pages/Sheets: 12\n  Keywords: OCERS, OCERS Custodian Services RFP Questions and Answers\n  Modified: 2026-10-07\n  Preview: Custody Services  Request for Proposal  Questions & Answers    October 2022                                  Orange County Employees Retirement System (OCERS)  P.O. Box 1229  Santa Ana, CA 927021-(714\n\n- **Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf** (.pdf, 451.8KB)\n  Title: RFP INVESTMENT CONSULTANT ASSISTANCE\n  Author: Patricia Stokes\n  Pages/Sheets: 28\n  Keywords: Patricia Stokes\n  Modified: 2026-10-07\n  Preview: THE EMPLOYEES’ RETIREMENT SYSTEM  and OPEB TRUST – CITY OF BALTIMORE      REQUEST FOR PROPOSALS (RFP)  for    ALTERNATIVES CONSULTANT     __________________________________________    Timeline   Date\n\n- **St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf** (.pdf, 437.2KB)\n  Title: Microsoft Word - PRS Actuarial Auditor Services RFP+Questionnaire\n  Author: MLawson\n  Pages/Sheets: 19\n  Keywords: MLawson\n  Modified: 2026-10-07\n  Preview: 1  THE POLICE RETIREMENT SYSTEM  OF ST. LOUIS  2020 MARKET STREET  SAINT LOUIS, MISSOURI  63103       RFP Actuarial Auditing Services     Date Issued – February 2, 2024                     ___________\n\n- **ILPA__ILPA-ESG-Assessment-Framework.pdf** (.pdf, 255.6KB)\n  Pages/Sheets: 12\n  Modified: 2026-10-07\n  Preview: 1 ILPA ESG Assessment Framework ESG ASSESSMENT FRAMEWORK OVERVIEW - HOW TO USE THIS FRAMEWORK ILPA released this ESG Assessment Framework as a resource for limited partners looking to build a tool to\n\n- **CAJPA__28._Appendix_Z-Sample_Invest.pdf** (.pdf, 48.1KB)\n  Title: Microsoft Word - 2009-2010 Accreditation Manual.doc\n  Author: JMcDonald\n  Pages/Sheets: 9\n  Keywords: JMcDonald\n  Modified: 2026-10-07\n  Preview: Z. SAMPLE INVESTMENT MANAGEMENT  REQUEST FOR PROPOSAL (RFP)  REQUEST FOR PROPOSAL FOR INVESTMENT MANAGEMENT SERVICES FOR [Name of JPA] RETURN PROPOSALS TO: John Doe Pool Administrator [Name of JPA] 123 Main Street City, CA XXXXX DEADLINE FOR FILING: [DATE] [TIME] Approved for inclusion in the Accreditation Manual  As revised November 2, 2010\n\n- **AVFPD__RFP-Actuatial-Services-2024.pdf** (.pdf, 701.0KB)\n  Title: Microsoft Word - REQUEST FOR PROPOSAL - Actuarial Services 2024\n  Author: Exley, Amber\n  Pages/Sheets: 9\n  Keywords: Exley, Amber\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS  for  ACTUARIAL SERVICES TO VALUE OTHER POST-EMPLOYMENT BENEFITS  (OPEB) IN COMPLIANCE WITH GOVERNMENTAL ACCOUNTING STANDARDS  BOARD STATEMENT NO. 75 (GASB 75)  Proposals Due by\n\n- **York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf** (.pdf, 921.1KB)\n  Title: Microsoft Word - REQUEST FOR PROPOSALS DRAFT 2.3+ICON.docx\n  Author: Frederick\n  Pages/Sheets: 9\n  Keywords: Frederick\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS  FOR  INVESTMENT  MANAGER/ADVISER/CONSULTANT            CITY OF YORK  PENSION FUNDS      NOVEMBER 28, 2016      RESPONSES DUE JANUARY 6, 2017\n\n- **American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf** (.pdf, 33.9KB)\n  Title: Microsoft Word - REQUEST FOR PROPOSAL - American Academy of Actuaries Retirement Plan Service - Final.doc\n  Author: baccam\n  Pages/Sheets: 6\n  Keywords: baccam\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSAL (RFP)     Retirement Plan and Related Consulting Services     May 12, 2011    American Academy of Actuaries  1850 M Street, NW   Suite 300  Washington, DC 20036  ATTN: Steve Knell  Tel (202) 785-6933  Fax (202) 872-1948  knell@actuary.org       Introduction     The American Academy of Actuaries (Academy) periodically conducts both formal and informal reviews  of its service provider contracts.  These due diligence processes are designed to assist Academy staff in  evaluating\n\n## Instructions\n1. Evaluate EVERY file listed above. Consider directory names, filenames, titles, keywords, and preview content as relevance signals.\n2. Assign \"high\" (directly relevant), \"medium\" (possibly relevant), or \"low\" (unlikely relevant) to each file.\n3. For the \"path\" field, copy the **exact relative path** shown in bold (e.g. `subdir/file.pdf`) from the scan results above.\n4. Return ONLY a JSON array — no other text.\n\n## Output Format (use the EXACT path shown in the file listing)\n```json\n[\n  {\"path\": \"exact/relative/path/from/listing\", \"relevance\": \"high\", \"reason\": \"brief reason\"}\n]\n```",
+  "keyword_files": [
+    "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf"
+  ],
+  "directory_ranking": [
+    {
+      "path": "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+      "filename": "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+      "extension": ".pdf",
+      "size_bytes": 124004,
+      "modified_at": "2026-10-07T07:12:01",
+      "created_at": "2026-10-07T07:19:56.944045",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Microsoft Office User",
+      "page_count": 3,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Microsoft Office User"
+      ],
+      "preview": "Institutional Limited Partners Association                              1776 I St. NW Suite 525 Washington, D.C. 20006 \n \nESG Assessment Framework – Key Considerations and FAQ \n \nOverview  \nILPA released this ESG Assessment Framework as a resource for limited partners looking to build a tool \nto eva",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "ESG framework FAQ, not Clark County’s 457 plan RFP."
+    },
+    {
+      "path": "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+      "filename": "NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+      "extension": ".pdf",
+      "size_bytes": 201996,
+      "modified_at": "2026-10-07T07:09:29",
+      "created_at": "2026-10-07T07:19:58.052026",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Emmanuel Esochaghi",
+      "page_count": 7,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Emmanuel Esochaghi"
+      ],
+      "preview": "15 \n \nAPPENDIX A \nDUE DILIGENCE QUESTIONNAIRE \nRespondents to this notice are required to submit detailed responses to these questions as applicable, \nwhich give insight into the prospective managers’ structure and policies. If not applicable, mark it “N/A” \n1.0 Respondent Firm: General Information ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "New Jersey life-science investment notice, not the requested RFP."
+    },
+    {
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "filename": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1598389,
+      "modified_at": "2026-10-07T07:07:42",
+      "created_at": "2026-10-07T07:19:58.636015",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Kristina Richter",
+      "page_count": 97,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Kristina Richter"
+      ],
+      "preview": "Santa Barbara County Employees’ Retirement System Global Custody and Related Services 1 \n \n \nRequest for Proposal \n \n  \nGlobal Custody and Related Services \nSanta Barbara County Employees’ Retirement System \n(“SBCERS”) \n \n  \nIssue Date:       January 8, 2024 \nQuestions Due:      January 12, 2024  \nQ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Santa Barbara retirement-system custody RFP, not Clark County’s 457 plan."
+    },
+    {
+      "path": "/mnt/docs/S/Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+      "filename": "Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+      "extension": ".pdf",
+      "size_bytes": 12825,
+      "modified_at": "2026-10-07T07:07:52",
+      "created_at": "2026-10-07T07:19:56.864046",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - ERS Private Equity AD (website.spo).docx",
+      "author": "misakil",
+      "page_count": 2,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "misakil"
+      ],
+      "preview": "STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM \nREQUEST FOR PROPOSAL (RFP) \nFOR PRIVATE EQUITY CONSULTING  \nAND INVESTMENT SERVICES \n \n \nThe Employees’ Retirement System of the State of Hawaii (ERS) is soliciting \nproposals for qualified firm(s) to provide private equity investment consulting and \nin",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "Hawaii retirement-system private-equity solicitation."
+    },
+    {
+      "path": "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+      "filename": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 337910,
+      "modified_at": "2026-10-07T07:08:01",
+      "created_at": "2026-10-07T07:19:57.996027",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Melissa Rackers",
+      "page_count": 21,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Melissa Rackers"
+      ],
+      "preview": "Page | 1 \n \n \n \n \nREQUEST FOR PROPOSAL \nPRIVATE MARKET CONSULTING SERVICES \nPrepared: July 1, 2024 \n \n \n \n \n \n \n \nMissouri Local Government Employees  \nRetirement System (LAGERS) \n701 W. Main Street, Jefferson City, MO  65101 \nRFP Contact: Scott Day \nEmail:  sday@molagers.org \nPhone:  573-632-6353",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Missouri retirement-system consulting RFP."
+    },
+    {
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+      "filename": "INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+      "extension": ".doc",
+      "size_bytes": 1211392,
+      "modified_at": "2026-10-07T07:12:11",
+      "created_at": "2026-10-07T07:19:57.328038",
+      "mime_type": "application/msword",
+      "title": "",
+      "author": "",
+      "page_count": 0,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Fund-of-funds due-diligence questionnaire, not a 457 plan RFP."
+    },
+    {
+      "path": "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+      "filename": "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+      "extension": ".pdf",
+      "size_bytes": 792177,
+      "modified_at": "2026-10-07T07:02:17",
+      "created_at": "2026-10-07T07:19:58.096025",
+      "mime_type": "application/pdf",
+      "title": "BOARD OF EDUCATION OF THE CITY OF NEW YORK",
+      "author": "ARodriguez",
+      "page_count": 64,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "ARodriguez"
+      ],
+      "preview": "REQUEST FOR PROPOSALS \n \nFOR \n \nINVESTMENT CONSULTING SERVICES \n \nRFP # 2024-003 \n \n \nProposals will be received  \nvia email to: BERSProcurement@bers.nyc.gov \n \n \nUntil:  5:00 PM    On:  July 12, 2024 \n \n \n. \nNO LATE PROPOSALS WILL BE ACCEPTED \n \nEACH PAGE OF THE SUBMISSION MUST \nBE LABELED WITH RFP",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "New York City investment-consulting RFP."
+    },
+    {
+      "path": "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+      "filename": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+      "extension": ".pdf",
+      "size_bytes": 793776,
+      "modified_at": "2026-10-07T07:14:27",
+      "created_at": "2026-10-07T07:19:58.852012",
+      "mime_type": "application/pdf",
+      "title": "SURS Sample Investment Manager RFP",
+      "author": "SURS",
+      "page_count": 44,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "SURS"
+      ],
+      "preview": "REQUEST FOR PROPOSAL \nEmerging \nMarkets Equity \nID: RFP-##-##-## \nIssued February 14, 2022 \nRespon\nses due via email \nby 4:30pm CT on March 31, 2022 \nPlease include RFP ID on all correspondence\nSample",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Illinois investment-manager RFP template."
+    },
+    {
+      "path": "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "filename": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "extension": ".pdf",
+      "size_bytes": 795256,
+      "modified_at": "2026-10-07T07:02:49",
+      "created_at": "2026-10-07T07:19:58.716014",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Ashleigh Hollins",
+      "page_count": 47,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Ashleigh Hollins"
+      ],
+      "preview": "General Investment Consulting Services \n \nRequest for Proposals \n \n \nSeptember 30, 2016",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "South Carolina investment-consulting RFP from 2016."
+    },
+    {
+      "path": "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "filename": "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "extension": ".pdf",
+      "size_bytes": 189839,
+      "modified_at": "2026-10-07T07:15:10",
+      "created_at": "2026-10-07T07:19:56.012061",
+      "mime_type": "application/pdf",
+      "title": "Private Markets Due Diligence Questionnaire",
+      "author": "",
+      "page_count": 4,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "As you explore potential partnerships in private markets, it’s important to recognize that these investments work differently \nthan traditional public market investments held in daily liquid vehicles, such as mutual funds and ETFs. This questionnaire is \ndesigned to help you navigate those differenc",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Private-markets questionnaire, unrelated to Clark County’s plan."
+    },
+    {
+      "path": "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+      "filename": "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 831223,
+      "modified_at": "2026-10-07T07:14:31",
+      "created_at": "2026-10-07T07:19:57.884029",
+      "mime_type": "application/pdf",
+      "title": "MassPRIM Active Global Core Equity Investment Management Services RFP",
+      "author": "Abouhala, Andre",
+      "page_count": 82,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Abouhala, Andre"
+      ],
+      "preview": "Pension Reserves Investment Management Board \n  \n \n \n \n \n \nDeborah B. Goldberg, Treasurer and Receiver General, Chair \nMichael G. Trotsky, CFA, Executive Director and Chief Investment Officer \n \nmapension.com | 53 State Street, Suite 600, Boston, MA 02109 | (617) 946-8401 \n \nSeptember 8, 2026 \n \nDea",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Massachusetts equity investment-management RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+      "filename": "Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 171917,
+      "modified_at": "2026-10-07T07:14:54",
+      "created_at": "2026-10-07T07:19:58.420019",
+      "mime_type": "application/pdf",
+      "title": "Request for Proposal To Provide Audit Services for the",
+      "author": "Evelyn Stewart",
+      "page_count": 6,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Evelyn Stewart"
+      ],
+      "preview": "1 | Page  \n \nRequest for Proposal to Provide Audit Services for the  \nWilliam Marsh Rice University Defined Contribution Retirement Plan \n \nINTRODUCTION  \nRice University (“the University”) requests a proposal to provide external audit services for the \nWilliam Marsh Rice University Defined Contribu",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Rice University retirement-plan audit-services RFP."
+    },
+    {
+      "path": "/mnt/docs/S/OCERS__custodian_services_rfp_questions_and_answers.pdf",
+      "filename": "OCERS__custodian_services_rfp_questions_and_answers.pdf",
+      "extension": ".pdf",
+      "size_bytes": 307624,
+      "modified_at": "2026-10-07T07:07:16",
+      "created_at": "2026-10-07T07:19:58.176023",
+      "mime_type": "application/pdf",
+      "title": "Custodian Services RFP Questions and Answers",
+      "author": "OCERS",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "OCERS",
+        "OCERS Custodian Services RFP Questions and Answers"
+      ],
+      "preview": "Custody Services \nRequest for Proposal \nQuestions & Answers \n \nOctober 2022 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nOrange County Employees Retirement System (OCERS) \nP.O. Box 1229 \nSanta Ana, CA 927021-(714)-558-6200 \nhttp://www.ocers.org",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Orange County retirement-system custody-services Q&A."
+    },
+    {
+      "path": "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+      "filename": "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+      "extension": ".pdf",
+      "size_bytes": 462653,
+      "modified_at": "2026-10-07T07:08:10",
+      "created_at": "2026-10-07T07:19:56.260057",
+      "mime_type": "application/pdf",
+      "title": "RFP INVESTMENT CONSULTANT ASSISTANCE",
+      "author": "Patricia Stokes",
+      "page_count": 28,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Patricia Stokes"
+      ],
+      "preview": "THE EMPLOYEES’ RETIREMENT SYSTEM \nand OPEB TRUST – CITY OF BALTIMORE \n \n \nREQUEST FOR PROPOSALS (RFP) \nfor   \nALTERNATIVES CONSULTANT  \n \n__________________________________________ \n \nTimeline \n Date of RFP process Approval August 15, 2024 \n Deadline for written questions to BCERS October 4, 2024 \n ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Baltimore retirement-system alternatives-consultant RFP."
+    },
+    {
+      "path": "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+      "filename": "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+      "extension": ".pdf",
+      "size_bytes": 447673,
+      "modified_at": "2026-10-07T07:07:06",
+      "created_at": "2026-10-07T07:19:58.916011",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - PRS Actuarial Auditor Services RFP+Questionnaire",
+      "author": "MLawson",
+      "page_count": 19,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "MLawson"
+      ],
+      "preview": "1\n THE POLICE RETIREMENT SYSTEM \nOF ST. LOUIS \n2020 MARKET STREET \nSAINT LOUIS, MISSOURI  63103 \n \n   RFP Actuarial Auditing Services \n   Date Issued – February 2, 2024 \n \n \n \n \n \n \n \n \n  \n________________________________________________________________________ \nRequest for Proposal \nIssued: Februar",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "St. Louis police retirement-system actuarial-auditing RFP."
+    },
+    {
+      "path": "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+      "filename": "ILPA__ILPA-ESG-Assessment-Framework.pdf",
+      "extension": ".pdf",
+      "size_bytes": 261766,
+      "modified_at": "2026-10-07T07:12:00",
+      "created_at": "2026-10-07T07:19:57.004044",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "1\nILPA ESG Assessment Framework\nESG ASSESSMENT FRAMEWORK\nOVERVIEW - HOW TO USE THIS FRAMEWORK\nILPA released this ESG Assessment Framework as a resource for limited partners looking to build a tool to evaluate and understand the \nvarious stages of ESG integration that peers are observing among genera",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "ESG assessment framework, not a deferred-compensation RFP."
+    },
+    {
+      "path": "/mnt/docs/S/CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+      "filename": "CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+      "extension": ".pdf",
+      "size_bytes": 49230,
+      "modified_at": "2026-10-07T07:11:18",
+      "created_at": "2026-10-07T07:19:56.336056",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - 2009-2010 Accreditation Manual.doc",
+      "author": "JMcDonald",
+      "page_count": 9,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "JMcDonald"
+      ],
+      "preview": "Z. SAMPLE INVESTMENT MANAGEMENT \nREQUEST FOR PROPOSAL (RFP) \nREQUEST FOR PROPOSAL\nFOR\nINVESTMENT MANAGEMENT SERVICES\nFOR\n[Name of JPA]\nRETURN PROPOSALS TO:\nJohn Doe\nPool Administrator\n[Name of JPA]\n123 Main Street\nCity, CA XXXXX\nDEADLINE FOR FILING:\n[DATE]\n[TIME]\nApproved for inclusion in the Accred",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "Sample investment-management RFP, not Clark County RFP 955."
+    },
+    {
+      "path": "/mnt/docs/S/AVFPD__RFP-Actuatial-Services-2024.pdf",
+      "filename": "AVFPD__RFP-Actuatial-Services-2024.pdf",
+      "extension": ".pdf",
+      "size_bytes": 717841,
+      "modified_at": "2026-10-07T07:06:44",
+      "created_at": "2026-10-07T07:19:56.080060",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - REQUEST FOR PROPOSAL - Actuarial Services 2024",
+      "author": "Exley, Amber",
+      "page_count": 9,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Exley, Amber"
+      ],
+      "preview": "REQUEST FOR PROPOSALS \nfor \nACTUARIAL SERVICES TO VALUE OTHER POST-EMPLOYMENT BENEFITS \n(OPEB) IN COMPLIANCE WITH GOVERNMENTAL ACCOUNTING STANDARDS \nBOARD STATEMENT NO. 75 (GASB 75) \nProposals Due by 11:59 PM, July 31, 2024 \n \nIntroduction: \nThe Apple Valley Fire Protection District is accepting pro",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Actuarial-services RFP for post-employment benefits."
+    },
+    {
+      "path": "/mnt/docs/S/York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf",
+      "filename": "York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf",
+      "extension": ".pdf",
+      "size_bytes": 943178,
+      "modified_at": "2026-10-07T07:17:46",
+      "created_at": "2026-10-07T07:19:59.264005",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - REQUEST FOR PROPOSALS DRAFT 2.3+ICON.docx",
+      "author": "Frederick",
+      "page_count": 9,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Frederick"
+      ],
+      "preview": "REQUEST FOR PROPOSALS \nFOR \nINVESTMENT \nMANAGER/ADVISER/CONSULTANT \n \n \n \n \n \nCITY OF YORK \nPENSION FUNDS \n \n \nNOVEMBER 28, 2016 \n \n \nRESPONSES DUE JANUARY 6, 2017",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "City of York pension investment-services RFP from 2016."
+    },
+    {
+      "path": "/mnt/docs/S/American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf",
+      "filename": "American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf",
+      "extension": ".pdf",
+      "size_bytes": 34665,
+      "modified_at": "2026-10-07T07:14:40",
+      "created_at": "2026-10-07T07:19:56.088060",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - REQUEST FOR PROPOSAL - American Academy of Actuaries Retirement Plan Service - Final.doc",
+      "author": "baccam",
+      "page_count": 6,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "baccam"
+      ],
+      "preview": "REQUEST FOR PROPOSAL (RFP)\n \n \nRetirement Plan and Related Consulting Services \n  \nMay 12, 2011 \n \nAmerican Academy of Actuaries \n1850 M Street, NW  \nSuite 300 \nWashington, DC 20036 \nATTN: Steve Knell \nTel (202) 785-6933 \nFax (202) 872-1948 \nknell@actuary.org\n \n \n \nIntroduction\n \n \nThe American Acad",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "Retirement-plan consulting RFP for a different organization."
+    }
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 171,
+      "timestamp": "2026-10-23 08:28:33.652012",
+      "metadata": {
+        "keywords": [
+          "Clark County, Washington",
+          "RFP 955",
+          "deferred compensation 457 plan",
+          "December 31, 2025",
+          "克拉克县",
+          "递延薪酬457计划",
+          "计划管理机构"
+        ],
+        "files_found": 3,
+        "files_discovered": [
+          "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+          "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+          "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf"
+        ]
+      }
+    }
+  ],
+  "elapsed_s": 18.202,
+  "calls": 2,
+  "usage": {
+    "prompt_tokens": 3496,
+    "completion_tokens": 1460,
+    "total_tokens": 4956
+  },
+  "group": "R3",
+  "attempt": 1
+}

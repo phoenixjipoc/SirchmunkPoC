@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "41ff87fa09c80e43b5ff",
+    "query_id": "DDQ-03",
+    "question": "In the SAA investment manager questionnaire for fixed income investment management services, which services is the firm asked to indicate whether it offers, along with any additional fee?",
+    "file": "ILPA__ILPA-DDQ-2.0.pdf",
+    "expected_facts": "Five services: Schedule D investment accounting; asset/liability management (dynamic financial analysis); performance attribution; daily internet access of portfolio information; and SVO filing. For each, the firm marks Yes/No and gives an approximate fee.",
+    "acceptance": "Require all five services; Yes/No and approximate fee wording are useful context, not additional services.",
+    "text_hash": "8907145b1f077ef656f1eedcccb1c6e6cf91c5a42ababaeed03deb50236309d2",
+    "source_text_sha256": "acc7566c61a7afaabbe215a9f1337c86e1dd116ccf7ba67eeb84894f94ea4c98",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is ILPA’s private-equity due diligence questionnaire, not the SAA fixed-income investment manager questionnaire. It does not ask firms to indicate whether they offer the specified five services or give an approximate fee for each.",
+      "quotes": [
+        "Due Diligence Questionnaire 2.0 Updated November 2021",
+        "The ILPA DDQ covers the following topics related to fund diligence:",
+        "As the private equity industry continues to evolve, ILPA is committed to keeping the DDQ relevant"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Due Diligence Questionnaire 2.0 Updated November 2021",
+          "start": 13,
+          "end": 66
+        },
+        {
+          "quote": "The ILPA DDQ covers the following topics related to fund diligence:",
+          "start": 4607,
+          "end": 4674
+        },
+        {
+          "quote": "As the private equity industry continues to evolve, ILPA is committed to keeping the DDQ relevant",
+          "start": 6491,
+          "end": 6588
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "0bd16e270d2ed685d326",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "2e5c9ac10ac2943a19269fe0ceeab6dc6cca5c9b732ec461770764bed168feeb",
+    "source_text_sha256": "698b71034e03dda497378807f02ef9875cc985ad2aafde5d24accec7bdff2d4b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2016 South Carolina investment consulting RFP, not the external audit RFP Q&A. It does not state total contractual fees for FY2021 audits.",
+      "quotes": [
+        "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+        "OPENING DATE: 9/30/2016",
+        "EXHIBIT D - FEE PROPOSAL"
+      ],
+      "quote_matches": [
+        {
+          "quote": "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+          "start": 106,
+          "end": 203
+        },
+        {
+          "quote": "OPENING DATE: 9/30/2016",
+          "start": 234,
+          "end": 257
+        },
+        {
+          "quote": "EXHIBIT D - FEE PROPOSAL",
+          "start": 16492,
+          "end": 16516
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

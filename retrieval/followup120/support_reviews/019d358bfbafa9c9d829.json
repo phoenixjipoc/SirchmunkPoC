@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "019d358bfbafa9c9d829",
+    "query_id": "XD-08",
+    "question": "In the INREV Due Diligence Questionnaire 2022 for Funds of Funds and Multi Manager, which expense ratio must the manager provide under Fees and Expenses, and on what bases?",
+    "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "expected_facts": "Question 1.6.2 asks for the INREV expense ratio (TGER): a forward-looking estimate (with the calculation method) if the vehicle has not been launched, or the historical INREV expense ratio (TGER) if it is an existing vehicle. It must be given on both NAV and GAV, with and without performance fees. If the INREV expense ratio is not used, a calculation in line with the INREV Fee and Expense Metrics module is required.",
+    "acceptance": "TGER; forward estimate for unlaunched versus historical for existing; NAV/GAV and with/without performance fees. Equivalent description of INREV-compatible fallback accepted.",
+    "text_hash": "6c44b43272ac16f4bd8efdebfb5b71a666753ca71b3f0242c213453c6a30a56a",
+    "source_text_sha256": "a171986940a15f77f516b2eed48ea13f5e49967c592369ad8f87250248f2b907",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a 2021 Delaware deferred-compensation recordkeeping RFP, not the INREV Due Diligence Questionnaire 2022. Its fee provisions do not state the requested INREV expense ratio or its calculation bases.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL FOR DEFERRED COMPENSATION PLAN RECORDKEEPING AND ADMINISTRATION SERVICES ISSUED BY THE OFFICE OF THE STATE TREASURER",
+        "RFP Published July 26, 2021",
+        "Vendor is required to provide transparent disclosure, in an ERISA format, of all fees and expenses to all fiduciaries and plan participants."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL FOR DEFERRED COMPENSATION PLAN RECORDKEEPING AND ADMINISTRATION SERVICES ISSUED BY THE OFFICE OF THE STATE TREASURER",
+          "start": 13,
+          "end": 150
+        },
+        {
+          "quote": "RFP Published July 26, 2021",
+          "start": 976,
+          "end": 1003
+        },
+        {
+          "quote": "Vendor is required to provide transparent disclosure, in an ERISA format, of all fees and expenses to all fiduciaries and plan participants.",
+          "start": 100527,
+          "end": 100667
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

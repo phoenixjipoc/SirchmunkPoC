@@ -1,0 +1,1593 @@
+{
+  "groups": {
+    "R1": {
+      "questions": 120,
+      "single_document": 98,
+      "hits": {
+        "1": {
+          "n": 98,
+          "hits": 51,
+          "unknown": 0,
+          "lower_pct": 52.04,
+          "upper_pct": 52.04
+        },
+        "5": {
+          "n": 98,
+          "hits": 74,
+          "unknown": 0,
+          "lower_pct": 75.51,
+          "upper_pct": 75.51
+        },
+        "10": {
+          "n": 98,
+          "hits": 80,
+          "unknown": 0,
+          "lower_pct": 81.63,
+          "upper_pct": 81.63
+        }
+      },
+      "mrr10_lower": 0.6283568189180434,
+      "mrr10_upper": 0.6283568189180434,
+      "macro_document_top1_lower_pct": 52.716849315068494,
+      "by_type": {
+        "detail": {
+          "1": {
+            "n": 50,
+            "hits": 28,
+            "unknown": 0,
+            "lower_pct": 56.0,
+            "upper_pct": 56.0
+          },
+          "5": {
+            "n": 50,
+            "hits": 41,
+            "unknown": 0,
+            "lower_pct": 82.0,
+            "upper_pct": 82.0
+          },
+          "10": {
+            "n": 50,
+            "hits": 44,
+            "unknown": 0,
+            "lower_pct": 88.0,
+            "upper_pct": 88.0
+          }
+        },
+        "medium": {
+          "1": {
+            "n": 18,
+            "hits": 9,
+            "unknown": 0,
+            "lower_pct": 50.0,
+            "upper_pct": 50.0
+          },
+          "5": {
+            "n": 18,
+            "hits": 12,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          },
+          "10": {
+            "n": 18,
+            "hits": 15,
+            "unknown": 0,
+            "lower_pct": 83.33,
+            "upper_pct": 83.33
+          }
+        },
+        "pair_a": {
+          "1": {
+            "n": 15,
+            "hits": 8,
+            "unknown": 0,
+            "lower_pct": 53.33,
+            "upper_pct": 53.33
+          },
+          "5": {
+            "n": 15,
+            "hits": 11,
+            "unknown": 0,
+            "lower_pct": 73.33,
+            "upper_pct": 73.33
+          },
+          "10": {
+            "n": 15,
+            "hits": 11,
+            "unknown": 0,
+            "lower_pct": 73.33,
+            "upper_pct": 73.33
+          }
+        },
+        "pair_b": {
+          "1": {
+            "n": 15,
+            "hits": 6,
+            "unknown": 0,
+            "lower_pct": 40.0,
+            "upper_pct": 40.0
+          },
+          "5": {
+            "n": 15,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          },
+          "10": {
+            "n": 15,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          }
+        }
+      },
+      "failures": {
+        "top1_hit": 51,
+        "support_rank_2_5": 23,
+        "absent_from_candidates": 11,
+        "support_rank_6_10": 6,
+        "beyond_cutoff": 4,
+        "empty_retrieval": 3
+      },
+      "statuses": {
+        "ok": 117,
+        "empty_retrieval": 3
+      },
+      "pairs_both": {
+        "1": 3,
+        "5": 8,
+        "10": 8
+      },
+      "opposite_first": 2,
+      "required_combinations": {
+        "1": {
+          "n": 12,
+          "complete": 0,
+          "mean_coverage": 0.13819444444444445
+        },
+        "5": {
+          "n": 12,
+          "complete": 1,
+          "mean_coverage": 0.325
+        },
+        "10": {
+          "n": 12,
+          "complete": 2,
+          "mean_coverage": 0.4083333333333333
+        }
+      },
+      "median_query_s": 13.812999999999999,
+      "completed_query_s": 1748.718,
+      "calls": 310,
+      "call_errors": 69,
+      "incomplete_call_records": 0,
+      "technical_attempts": 0,
+      "technical_attempt_seconds": 0,
+      "preflight_calls": 0,
+      "preflight_tokens": 0,
+      "total_tokens": 583332,
+      "successful_models": [
+        "gpt-6-sol"
+      ]
+    },
+    "R2": {
+      "questions": 120,
+      "single_document": 98,
+      "hits": {
+        "1": {
+          "n": 98,
+          "hits": 51,
+          "unknown": 0,
+          "lower_pct": 52.04,
+          "upper_pct": 52.04
+        },
+        "5": {
+          "n": 98,
+          "hits": 72,
+          "unknown": 0,
+          "lower_pct": 73.47,
+          "upper_pct": 73.47
+        },
+        "10": {
+          "n": 98,
+          "hits": 77,
+          "unknown": 0,
+          "lower_pct": 78.57,
+          "upper_pct": 78.57
+        }
+      },
+      "mrr10_lower": 0.6131924198250729,
+      "mrr10_upper": 0.6131924198250729,
+      "macro_document_top1_lower_pct": 52.716849315068494,
+      "by_type": {
+        "detail": {
+          "1": {
+            "n": 50,
+            "hits": 26,
+            "unknown": 0,
+            "lower_pct": 52.0,
+            "upper_pct": 52.0
+          },
+          "5": {
+            "n": 50,
+            "hits": 37,
+            "unknown": 0,
+            "lower_pct": 74.0,
+            "upper_pct": 74.0
+          },
+          "10": {
+            "n": 50,
+            "hits": 42,
+            "unknown": 0,
+            "lower_pct": 84.0,
+            "upper_pct": 84.0
+          }
+        },
+        "medium": {
+          "1": {
+            "n": 18,
+            "hits": 12,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          },
+          "5": {
+            "n": 18,
+            "hits": 14,
+            "unknown": 0,
+            "lower_pct": 77.78,
+            "upper_pct": 77.78
+          },
+          "10": {
+            "n": 18,
+            "hits": 14,
+            "unknown": 0,
+            "lower_pct": 77.78,
+            "upper_pct": 77.78
+          }
+        },
+        "pair_a": {
+          "1": {
+            "n": 15,
+            "hits": 7,
+            "unknown": 0,
+            "lower_pct": 46.67,
+            "upper_pct": 46.67
+          },
+          "5": {
+            "n": 15,
+            "hits": 11,
+            "unknown": 0,
+            "lower_pct": 73.33,
+            "upper_pct": 73.33
+          },
+          "10": {
+            "n": 15,
+            "hits": 11,
+            "unknown": 0,
+            "lower_pct": 73.33,
+            "upper_pct": 73.33
+          }
+        },
+        "pair_b": {
+          "1": {
+            "n": 15,
+            "hits": 6,
+            "unknown": 0,
+            "lower_pct": 40.0,
+            "upper_pct": 40.0
+          },
+          "5": {
+            "n": 15,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          },
+          "10": {
+            "n": 15,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          }
+        }
+      },
+      "failures": {
+        "empty_retrieval": 5,
+        "top1_hit": 51,
+        "support_rank_2_5": 21,
+        "absent_from_candidates": 8,
+        "beyond_cutoff": 8,
+        "support_rank_6_10": 5
+      },
+      "statuses": {
+        "empty_retrieval": 5,
+        "ok": 115
+      },
+      "pairs_both": {
+        "1": 4,
+        "5": 9,
+        "10": 9
+      },
+      "opposite_first": 3,
+      "required_combinations": {
+        "1": {
+          "n": 12,
+          "complete": 0,
+          "mean_coverage": 0.11597222222222223
+        },
+        "5": {
+          "n": 12,
+          "complete": 1,
+          "mean_coverage": 0.2833333333333333
+        },
+        "10": {
+          "n": 12,
+          "complete": 2,
+          "mean_coverage": 0.3833333333333333
+        }
+      },
+      "median_query_s": 15.0685,
+      "completed_query_s": 2192.369,
+      "calls": 242,
+      "call_errors": 2,
+      "incomplete_call_records": 0,
+      "technical_attempts": 2,
+      "technical_attempt_seconds": 4.482,
+      "preflight_calls": 5,
+      "preflight_tokens": 58,
+      "total_tokens": 583682,
+      "successful_models": [
+        "gpt-6-sol"
+      ]
+    },
+    "R3": {
+      "questions": 120,
+      "single_document": 98,
+      "hits": {
+        "1": {
+          "n": 98,
+          "hits": 45,
+          "unknown": 0,
+          "lower_pct": 45.92,
+          "upper_pct": 45.92
+        },
+        "5": {
+          "n": 98,
+          "hits": 70,
+          "unknown": 0,
+          "lower_pct": 71.43,
+          "upper_pct": 71.43
+        },
+        "10": {
+          "n": 98,
+          "hits": 76,
+          "unknown": 0,
+          "lower_pct": 77.55,
+          "upper_pct": 77.55
+        }
+      },
+      "mrr10_lower": 0.5766561386459346,
+      "mrr10_upper": 0.5766561386459346,
+      "macro_document_top1_lower_pct": 46.78082191780822,
+      "by_type": {
+        "detail": {
+          "1": {
+            "n": 50,
+            "hits": 23,
+            "unknown": 0,
+            "lower_pct": 46.0,
+            "upper_pct": 46.0
+          },
+          "5": {
+            "n": 50,
+            "hits": 36,
+            "unknown": 0,
+            "lower_pct": 72.0,
+            "upper_pct": 72.0
+          },
+          "10": {
+            "n": 50,
+            "hits": 40,
+            "unknown": 0,
+            "lower_pct": 80.0,
+            "upper_pct": 80.0
+          }
+        },
+        "medium": {
+          "1": {
+            "n": 18,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 55.56,
+            "upper_pct": 55.56
+          },
+          "5": {
+            "n": 18,
+            "hits": 12,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          },
+          "10": {
+            "n": 18,
+            "hits": 13,
+            "unknown": 0,
+            "lower_pct": 72.22,
+            "upper_pct": 72.22
+          }
+        },
+        "pair_a": {
+          "1": {
+            "n": 15,
+            "hits": 5,
+            "unknown": 0,
+            "lower_pct": 33.33,
+            "upper_pct": 33.33
+          },
+          "5": {
+            "n": 15,
+            "hits": 12,
+            "unknown": 0,
+            "lower_pct": 80.0,
+            "upper_pct": 80.0
+          },
+          "10": {
+            "n": 15,
+            "hits": 12,
+            "unknown": 0,
+            "lower_pct": 80.0,
+            "upper_pct": 80.0
+          }
+        },
+        "pair_b": {
+          "1": {
+            "n": 15,
+            "hits": 7,
+            "unknown": 0,
+            "lower_pct": 46.67,
+            "upper_pct": 46.67
+          },
+          "5": {
+            "n": 15,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          },
+          "10": {
+            "n": 15,
+            "hits": 11,
+            "unknown": 0,
+            "lower_pct": 73.33,
+            "upper_pct": 73.33
+          }
+        }
+      },
+      "failures": {
+        "absent_from_candidates": 9,
+        "support_rank_6_10": 6,
+        "support_rank_2_5": 25,
+        "top1_hit": 45,
+        "empty_retrieval": 4,
+        "beyond_cutoff": 9
+      },
+      "statuses": {
+        "ok": 116,
+        "empty_retrieval": 4
+      },
+      "pairs_both": {
+        "1": 1,
+        "5": 9,
+        "10": 10
+      },
+      "opposite_first": 6,
+      "required_combinations": {
+        "1": {
+          "n": 12,
+          "complete": 0,
+          "mean_coverage": 0.08263888888888889
+        },
+        "5": {
+          "n": 12,
+          "complete": 1,
+          "mean_coverage": 0.27361111111111114
+        },
+        "10": {
+          "n": 12,
+          "complete": 2,
+          "mean_coverage": 0.39652777777777776
+        }
+      },
+      "median_query_s": 15.774000000000001,
+      "completed_query_s": 1992.473,
+      "calls": 246,
+      "call_errors": 3,
+      "incomplete_call_records": 0,
+      "technical_attempts": 3,
+      "technical_attempt_seconds": 89.29599999999999,
+      "preflight_calls": 5,
+      "preflight_tokens": 72,
+      "total_tokens": 583836,
+      "successful_models": [
+        "gpt-6-sol"
+      ]
+    },
+    "S": {
+      "questions": 120,
+      "single_document": 98,
+      "hits": {
+        "1": {
+          "n": 98,
+          "hits": 79,
+          "unknown": 0,
+          "lower_pct": 80.61,
+          "upper_pct": 80.61
+        },
+        "5": {
+          "n": 98,
+          "hits": 80,
+          "unknown": 0,
+          "lower_pct": 81.63,
+          "upper_pct": 81.63
+        },
+        "10": {
+          "n": 98,
+          "hits": 80,
+          "unknown": 0,
+          "lower_pct": 81.63,
+          "upper_pct": 81.63
+        }
+      },
+      "mrr10_lower": 0.8095238095238095,
+      "mrr10_upper": 0.8095238095238095,
+      "macro_document_top1_lower_pct": 80.22835616438356,
+      "by_type": {
+        "detail": {
+          "1": {
+            "n": 50,
+            "hits": 43,
+            "unknown": 0,
+            "lower_pct": 86.0,
+            "upper_pct": 86.0
+          },
+          "5": {
+            "n": 50,
+            "hits": 44,
+            "unknown": 0,
+            "lower_pct": 88.0,
+            "upper_pct": 88.0
+          },
+          "10": {
+            "n": 50,
+            "hits": 44,
+            "unknown": 0,
+            "lower_pct": 88.0,
+            "upper_pct": 88.0
+          }
+        },
+        "medium": {
+          "1": {
+            "n": 18,
+            "hits": 15,
+            "unknown": 0,
+            "lower_pct": 83.33,
+            "upper_pct": 83.33
+          },
+          "5": {
+            "n": 18,
+            "hits": 15,
+            "unknown": 0,
+            "lower_pct": 83.33,
+            "upper_pct": 83.33
+          },
+          "10": {
+            "n": 18,
+            "hits": 15,
+            "unknown": 0,
+            "lower_pct": 83.33,
+            "upper_pct": 83.33
+          }
+        },
+        "pair_a": {
+          "1": {
+            "n": 15,
+            "hits": 11,
+            "unknown": 0,
+            "lower_pct": 73.33,
+            "upper_pct": 73.33
+          },
+          "5": {
+            "n": 15,
+            "hits": 11,
+            "unknown": 0,
+            "lower_pct": 73.33,
+            "upper_pct": 73.33
+          },
+          "10": {
+            "n": 15,
+            "hits": 11,
+            "unknown": 0,
+            "lower_pct": 73.33,
+            "upper_pct": 73.33
+          }
+        },
+        "pair_b": {
+          "1": {
+            "n": 15,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          },
+          "5": {
+            "n": 15,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          },
+          "10": {
+            "n": 15,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          }
+        }
+      },
+      "failures": {
+        "top1_hit": 79,
+        "absent_from_candidates": 11,
+        "outside_fixed_candidate_pool": 4,
+        "support_rank_2_5": 1,
+        "empty_retrieval": 3
+      },
+      "statuses": {
+        "ok": 117,
+        "empty_retrieval": 3
+      },
+      "pairs_both": {
+        "1": 8,
+        "5": 8,
+        "10": 8
+      },
+      "opposite_first": 0,
+      "required_combinations": {
+        "1": {
+          "n": 12,
+          "complete": 0,
+          "mean_coverage": 0.11736111111111111
+        },
+        "5": {
+          "n": 12,
+          "complete": 2,
+          "mean_coverage": 0.4083333333333333
+        },
+        "10": {
+          "n": 12,
+          "complete": 2,
+          "mean_coverage": 0.4083333333333333
+        }
+      },
+      "median_query_s": 3.708,
+      "completed_query_s": 389.104,
+      "calls": 95,
+      "call_errors": 2,
+      "incomplete_call_records": 0,
+      "technical_attempts": 2,
+      "technical_attempt_seconds": 1.052,
+      "preflight_calls": 5,
+      "preflight_tokens": 68,
+      "total_tokens": 208738,
+      "successful_models": [
+        "gpt-6-sol"
+      ]
+    },
+    "D": {
+      "questions": 120,
+      "single_document": 98,
+      "hits": {
+        "1": {
+          "n": 98,
+          "hits": 54,
+          "unknown": 0,
+          "lower_pct": 55.1,
+          "upper_pct": 55.1
+        },
+        "5": {
+          "n": 98,
+          "hits": 83,
+          "unknown": 0,
+          "lower_pct": 84.69,
+          "upper_pct": 84.69
+        },
+        "10": {
+          "n": 98,
+          "hits": 90,
+          "unknown": 0,
+          "lower_pct": 91.84,
+          "upper_pct": 91.84
+        }
+      },
+      "mrr10_lower": 0.6854996760609006,
+      "mrr10_upper": 0.6854996760609006,
+      "macro_document_top1_lower_pct": 55.73054794520548,
+      "by_type": {
+        "detail": {
+          "1": {
+            "n": 50,
+            "hits": 28,
+            "unknown": 0,
+            "lower_pct": 56.0,
+            "upper_pct": 56.0
+          },
+          "5": {
+            "n": 50,
+            "hits": 45,
+            "unknown": 0,
+            "lower_pct": 90.0,
+            "upper_pct": 90.0
+          },
+          "10": {
+            "n": 50,
+            "hits": 48,
+            "unknown": 0,
+            "lower_pct": 96.0,
+            "upper_pct": 96.0
+          }
+        },
+        "medium": {
+          "1": {
+            "n": 18,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 55.56,
+            "upper_pct": 55.56
+          },
+          "5": {
+            "n": 18,
+            "hits": 14,
+            "unknown": 0,
+            "lower_pct": 77.78,
+            "upper_pct": 77.78
+          },
+          "10": {
+            "n": 18,
+            "hits": 17,
+            "unknown": 0,
+            "lower_pct": 94.44,
+            "upper_pct": 94.44
+          }
+        },
+        "pair_a": {
+          "1": {
+            "n": 15,
+            "hits": 9,
+            "unknown": 0,
+            "lower_pct": 60.0,
+            "upper_pct": 60.0
+          },
+          "5": {
+            "n": 15,
+            "hits": 13,
+            "unknown": 0,
+            "lower_pct": 86.67,
+            "upper_pct": 86.67
+          },
+          "10": {
+            "n": 15,
+            "hits": 13,
+            "unknown": 0,
+            "lower_pct": 86.67,
+            "upper_pct": 86.67
+          }
+        },
+        "pair_b": {
+          "1": {
+            "n": 15,
+            "hits": 7,
+            "unknown": 0,
+            "lower_pct": 46.67,
+            "upper_pct": 46.67
+          },
+          "5": {
+            "n": 15,
+            "hits": 11,
+            "unknown": 0,
+            "lower_pct": 73.33,
+            "upper_pct": 73.33
+          },
+          "10": {
+            "n": 15,
+            "hits": 12,
+            "unknown": 0,
+            "lower_pct": 80.0,
+            "upper_pct": 80.0
+          }
+        }
+      },
+      "failures": {
+        "top1_hit": 54,
+        "support_rank_2_5": 29,
+        "beyond_cutoff": 8,
+        "support_rank_6_10": 7
+      },
+      "statuses": {
+        "ok": 119,
+        "empty_retrieval": 1
+      },
+      "pairs_both": {
+        "1": 5,
+        "5": 11,
+        "10": 12
+      },
+      "opposite_first": 2,
+      "required_combinations": {
+        "1": {
+          "n": 12,
+          "complete": 0,
+          "mean_coverage": 0.12291666666666666
+        },
+        "5": {
+          "n": 12,
+          "complete": 1,
+          "mean_coverage": 0.3875
+        },
+        "10": {
+          "n": 12,
+          "complete": 4,
+          "mean_coverage": 0.5888888888888889
+        }
+      },
+      "median_query_s": 22.877000000000002,
+      "completed_query_s": 2964.289,
+      "calls": 121,
+      "call_errors": 1,
+      "incomplete_call_records": 0,
+      "technical_attempts": 1,
+      "technical_attempt_seconds": 0.329,
+      "preflight_calls": 6,
+      "preflight_tokens": 30,
+      "total_tokens": 1658240,
+      "successful_models": [
+        "gpt-6-sol"
+      ]
+    },
+    "P": {
+      "questions": 120,
+      "single_document": 98,
+      "hits": {
+        "1": {
+          "n": 98,
+          "hits": 50,
+          "unknown": 0,
+          "lower_pct": 51.02,
+          "upper_pct": 51.02
+        },
+        "5": {
+          "n": 98,
+          "hits": 74,
+          "unknown": 0,
+          "lower_pct": 75.51,
+          "upper_pct": 75.51
+        },
+        "10": {
+          "n": 98,
+          "hits": 78,
+          "unknown": 0,
+          "lower_pct": 79.59,
+          "upper_pct": 79.59
+        }
+      },
+      "mrr10_lower": 0.6187763200518303,
+      "mrr10_upper": 0.6187763200518303,
+      "macro_document_top1_lower_pct": 50.89041095890411,
+      "by_type": {
+        "detail": {
+          "1": {
+            "n": 50,
+            "hits": 26,
+            "unknown": 0,
+            "lower_pct": 52.0,
+            "upper_pct": 52.0
+          },
+          "5": {
+            "n": 50,
+            "hits": 41,
+            "unknown": 0,
+            "lower_pct": 82.0,
+            "upper_pct": 82.0
+          },
+          "10": {
+            "n": 50,
+            "hits": 43,
+            "unknown": 0,
+            "lower_pct": 86.0,
+            "upper_pct": 86.0
+          }
+        },
+        "medium": {
+          "1": {
+            "n": 18,
+            "hits": 11,
+            "unknown": 0,
+            "lower_pct": 61.11,
+            "upper_pct": 61.11
+          },
+          "5": {
+            "n": 18,
+            "hits": 12,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          },
+          "10": {
+            "n": 18,
+            "hits": 14,
+            "unknown": 0,
+            "lower_pct": 77.78,
+            "upper_pct": 77.78
+          }
+        },
+        "pair_a": {
+          "1": {
+            "n": 15,
+            "hits": 7,
+            "unknown": 0,
+            "lower_pct": 46.67,
+            "upper_pct": 46.67
+          },
+          "5": {
+            "n": 15,
+            "hits": 11,
+            "unknown": 0,
+            "lower_pct": 73.33,
+            "upper_pct": 73.33
+          },
+          "10": {
+            "n": 15,
+            "hits": 11,
+            "unknown": 0,
+            "lower_pct": 73.33,
+            "upper_pct": 73.33
+          }
+        },
+        "pair_b": {
+          "1": {
+            "n": 15,
+            "hits": 6,
+            "unknown": 0,
+            "lower_pct": 40.0,
+            "upper_pct": 40.0
+          },
+          "5": {
+            "n": 15,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          },
+          "10": {
+            "n": 15,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          }
+        }
+      },
+      "failures": {
+        "top1_hit": 50,
+        "support_rank_2_5": 24,
+        "absent_from_candidates": 11,
+        "beyond_cutoff": 6,
+        "support_rank_6_10": 4,
+        "empty_retrieval": 3
+      },
+      "statuses": {
+        "ok": 117,
+        "empty_retrieval": 3
+      },
+      "pairs_both": {
+        "1": 1,
+        "5": 8,
+        "10": 8
+      },
+      "opposite_first": 3,
+      "required_combinations": {
+        "1": {
+          "n": 12,
+          "complete": 0,
+          "mean_coverage": 0.11736111111111111
+        },
+        "5": {
+          "n": 12,
+          "complete": 1,
+          "mean_coverage": 0.36666666666666664
+        },
+        "10": {
+          "n": 12,
+          "complete": 2,
+          "mean_coverage": 0.42916666666666664
+        }
+      },
+      "median_query_s": 5.737,
+      "completed_query_s": 753.225,
+      "calls": 0,
+      "call_errors": 0,
+      "incomplete_call_records": 0,
+      "technical_attempts": 0,
+      "technical_attempt_seconds": 0,
+      "preflight_calls": 0,
+      "preflight_tokens": 0,
+      "total_tokens": 0,
+      "successful_models": []
+    },
+    "P0": {
+      "questions": 120,
+      "single_document": 98,
+      "hits": {
+        "1": {
+          "n": 98,
+          "hits": 50,
+          "unknown": 0,
+          "lower_pct": 51.02,
+          "upper_pct": 51.02
+        },
+        "5": {
+          "n": 98,
+          "hits": 74,
+          "unknown": 0,
+          "lower_pct": 75.51,
+          "upper_pct": 75.51
+        },
+        "10": {
+          "n": 98,
+          "hits": 78,
+          "unknown": 0,
+          "lower_pct": 79.59,
+          "upper_pct": 79.59
+        }
+      },
+      "mrr10_lower": 0.6190597667638484,
+      "mrr10_upper": 0.6190597667638484,
+      "macro_document_top1_lower_pct": 50.89041095890411,
+      "by_type": {
+        "detail": {
+          "1": {
+            "n": 50,
+            "hits": 26,
+            "unknown": 0,
+            "lower_pct": 52.0,
+            "upper_pct": 52.0
+          },
+          "5": {
+            "n": 50,
+            "hits": 41,
+            "unknown": 0,
+            "lower_pct": 82.0,
+            "upper_pct": 82.0
+          },
+          "10": {
+            "n": 50,
+            "hits": 43,
+            "unknown": 0,
+            "lower_pct": 86.0,
+            "upper_pct": 86.0
+          }
+        },
+        "medium": {
+          "1": {
+            "n": 18,
+            "hits": 11,
+            "unknown": 0,
+            "lower_pct": 61.11,
+            "upper_pct": 61.11
+          },
+          "5": {
+            "n": 18,
+            "hits": 12,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          },
+          "10": {
+            "n": 18,
+            "hits": 14,
+            "unknown": 0,
+            "lower_pct": 77.78,
+            "upper_pct": 77.78
+          }
+        },
+        "pair_a": {
+          "1": {
+            "n": 15,
+            "hits": 7,
+            "unknown": 0,
+            "lower_pct": 46.67,
+            "upper_pct": 46.67
+          },
+          "5": {
+            "n": 15,
+            "hits": 11,
+            "unknown": 0,
+            "lower_pct": 73.33,
+            "upper_pct": 73.33
+          },
+          "10": {
+            "n": 15,
+            "hits": 11,
+            "unknown": 0,
+            "lower_pct": 73.33,
+            "upper_pct": 73.33
+          }
+        },
+        "pair_b": {
+          "1": {
+            "n": 15,
+            "hits": 6,
+            "unknown": 0,
+            "lower_pct": 40.0,
+            "upper_pct": 40.0
+          },
+          "5": {
+            "n": 15,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          },
+          "10": {
+            "n": 15,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          }
+        }
+      },
+      "failures": {
+        "top1_hit": 50,
+        "support_rank_2_5": 24,
+        "absent_from_candidates": 11,
+        "beyond_cutoff": 6,
+        "support_rank_6_10": 4,
+        "empty_retrieval": 3
+      },
+      "statuses": {
+        "ok": 117,
+        "empty_retrieval": 3
+      },
+      "pairs_both": {
+        "1": 1,
+        "5": 8,
+        "10": 8
+      },
+      "opposite_first": 3,
+      "required_combinations": {
+        "1": {
+          "n": 12,
+          "complete": 0,
+          "mean_coverage": 0.11736111111111111
+        },
+        "5": {
+          "n": 12,
+          "complete": 1,
+          "mean_coverage": 0.3458333333333333
+        },
+        "10": {
+          "n": 12,
+          "complete": 2,
+          "mean_coverage": 0.4083333333333333
+        }
+      },
+      "median_query_s": 5.7175,
+      "completed_query_s": 715.719,
+      "calls": 0,
+      "call_errors": 0,
+      "incomplete_call_records": 0,
+      "technical_attempts": 0,
+      "technical_attempt_seconds": 0,
+      "preflight_calls": 0,
+      "preflight_tokens": 0,
+      "total_tokens": 0,
+      "successful_models": []
+    },
+    "K": {
+      "questions": 120,
+      "single_document": 98,
+      "hits": {
+        "1": {
+          "n": 98,
+          "hits": 49,
+          "unknown": 0,
+          "lower_pct": 50.0,
+          "upper_pct": 50.0
+        },
+        "5": {
+          "n": 98,
+          "hits": 71,
+          "unknown": 0,
+          "lower_pct": 72.45,
+          "upper_pct": 72.45
+        },
+        "10": {
+          "n": 98,
+          "hits": 77,
+          "unknown": 0,
+          "lower_pct": 78.57,
+          "upper_pct": 78.57
+        }
+      },
+      "mrr10_lower": 0.6028466148364108,
+      "mrr10_upper": 0.6028466148364108,
+      "macro_document_top1_lower_pct": 50.66205479452055,
+      "by_type": {
+        "detail": {
+          "1": {
+            "n": 50,
+            "hits": 26,
+            "unknown": 0,
+            "lower_pct": 52.0,
+            "upper_pct": 52.0
+          },
+          "5": {
+            "n": 50,
+            "hits": 38,
+            "unknown": 0,
+            "lower_pct": 76.0,
+            "upper_pct": 76.0
+          },
+          "10": {
+            "n": 50,
+            "hits": 41,
+            "unknown": 0,
+            "lower_pct": 82.0,
+            "upper_pct": 82.0
+          }
+        },
+        "medium": {
+          "1": {
+            "n": 18,
+            "hits": 9,
+            "unknown": 0,
+            "lower_pct": 50.0,
+            "upper_pct": 50.0
+          },
+          "5": {
+            "n": 18,
+            "hits": 12,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          },
+          "10": {
+            "n": 18,
+            "hits": 15,
+            "unknown": 0,
+            "lower_pct": 83.33,
+            "upper_pct": 83.33
+          }
+        },
+        "pair_a": {
+          "1": {
+            "n": 15,
+            "hits": 8,
+            "unknown": 0,
+            "lower_pct": 53.33,
+            "upper_pct": 53.33
+          },
+          "5": {
+            "n": 15,
+            "hits": 11,
+            "unknown": 0,
+            "lower_pct": 73.33,
+            "upper_pct": 73.33
+          },
+          "10": {
+            "n": 15,
+            "hits": 11,
+            "unknown": 0,
+            "lower_pct": 73.33,
+            "upper_pct": 73.33
+          }
+        },
+        "pair_b": {
+          "1": {
+            "n": 15,
+            "hits": 6,
+            "unknown": 0,
+            "lower_pct": 40.0,
+            "upper_pct": 40.0
+          },
+          "5": {
+            "n": 15,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          },
+          "10": {
+            "n": 15,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          }
+        }
+      },
+      "failures": {
+        "empty_retrieval": 6,
+        "top1_hit": 49,
+        "support_rank_2_5": 22,
+        "absent_from_candidates": 11,
+        "support_rank_6_10": 6,
+        "beyond_cutoff": 4
+      },
+      "statuses": {
+        "empty_retrieval": 13,
+        "ok": 107
+      },
+      "pairs_both": {
+        "1": 3,
+        "5": 8,
+        "10": 8
+      },
+      "opposite_first": 2,
+      "required_combinations": {
+        "1": {
+          "n": 12,
+          "complete": 0,
+          "mean_coverage": 0.07291666666666667
+        },
+        "5": {
+          "n": 12,
+          "complete": 1,
+          "mean_coverage": 0.1875
+        },
+        "10": {
+          "n": 12,
+          "complete": 2,
+          "mean_coverage": 0.25
+        }
+      },
+      "median_query_s": 0.0,
+      "completed_query_s": 0,
+      "calls": 0,
+      "call_errors": 0,
+      "incomplete_call_records": 0,
+      "technical_attempts": 0,
+      "technical_attempt_seconds": 0,
+      "preflight_calls": 0,
+      "preflight_tokens": 0,
+      "total_tokens": 0,
+      "successful_models": []
+    },
+    "T": {
+      "questions": 120,
+      "single_document": 98,
+      "hits": {
+        "1": {
+          "n": 98,
+          "hits": 17,
+          "unknown": 0,
+          "lower_pct": 17.35,
+          "upper_pct": 17.35
+        },
+        "5": {
+          "n": 98,
+          "hits": 17,
+          "unknown": 0,
+          "lower_pct": 17.35,
+          "upper_pct": 17.35
+        },
+        "10": {
+          "n": 98,
+          "hits": 17,
+          "unknown": 0,
+          "lower_pct": 17.35,
+          "upper_pct": 17.35
+        }
+      },
+      "mrr10_lower": 0.17346938775510204,
+      "mrr10_upper": 0.17346938775510204,
+      "macro_document_top1_lower_pct": 17.80821917808219,
+      "by_type": {
+        "detail": {
+          "1": {
+            "n": 50,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 20.0,
+            "upper_pct": 20.0
+          },
+          "5": {
+            "n": 50,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 20.0,
+            "upper_pct": 20.0
+          },
+          "10": {
+            "n": 50,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 20.0,
+            "upper_pct": 20.0
+          }
+        },
+        "medium": {
+          "1": {
+            "n": 18,
+            "hits": 4,
+            "unknown": 0,
+            "lower_pct": 22.22,
+            "upper_pct": 22.22
+          },
+          "5": {
+            "n": 18,
+            "hits": 4,
+            "unknown": 0,
+            "lower_pct": 22.22,
+            "upper_pct": 22.22
+          },
+          "10": {
+            "n": 18,
+            "hits": 4,
+            "unknown": 0,
+            "lower_pct": 22.22,
+            "upper_pct": 22.22
+          }
+        },
+        "pair_a": {
+          "1": {
+            "n": 15,
+            "hits": 0,
+            "unknown": 0,
+            "lower_pct": 0.0,
+            "upper_pct": 0.0
+          },
+          "5": {
+            "n": 15,
+            "hits": 0,
+            "unknown": 0,
+            "lower_pct": 0.0,
+            "upper_pct": 0.0
+          },
+          "10": {
+            "n": 15,
+            "hits": 0,
+            "unknown": 0,
+            "lower_pct": 0.0,
+            "upper_pct": 0.0
+          }
+        },
+        "pair_b": {
+          "1": {
+            "n": 15,
+            "hits": 3,
+            "unknown": 0,
+            "lower_pct": 20.0,
+            "upper_pct": 20.0
+          },
+          "5": {
+            "n": 15,
+            "hits": 3,
+            "unknown": 0,
+            "lower_pct": 20.0,
+            "upper_pct": 20.0
+          },
+          "10": {
+            "n": 15,
+            "hits": 3,
+            "unknown": 0,
+            "lower_pct": 20.0,
+            "upper_pct": 20.0
+          }
+        }
+      },
+      "failures": {
+        "top1_hit": 17,
+        "empty_retrieval": 61,
+        "absent_from_candidates": 20
+      },
+      "statuses": {
+        "ok": 53,
+        "empty_retrieval": 67
+      },
+      "pairs_both": {
+        "1": 0,
+        "5": 0,
+        "10": 0
+      },
+      "opposite_first": 0,
+      "required_combinations": {
+        "1": {
+          "n": 12,
+          "complete": 0,
+          "mean_coverage": 0.11736111111111111
+        },
+        "5": {
+          "n": 12,
+          "complete": 0,
+          "mean_coverage": 0.23124999999999998
+        },
+        "10": {
+          "n": 12,
+          "complete": 0,
+          "mean_coverage": 0.2520833333333333
+        }
+      },
+      "median_query_s": 0.0,
+      "completed_query_s": 0,
+      "calls": 0,
+      "call_errors": 0,
+      "incomplete_call_records": 0,
+      "technical_attempts": 0,
+      "technical_attempt_seconds": 0,
+      "preflight_calls": 0,
+      "preflight_tokens": 0,
+      "total_tokens": 0,
+      "successful_models": []
+    }
+  },
+  "stability": {
+    "n": 98,
+    "all_three_hit": 32,
+    "all_three_miss": 28,
+    "correctness_changes": 38,
+    "top1_file_changes": 56,
+    "unknown": 0,
+    "mean_top1_pct": 50.0,
+    "min_top1_pct": 45.92,
+    "max_top1_pct": 52.04
+  },
+  "matched": {
+    "R2": {
+      "gains": 13,
+      "losses": 13
+    },
+    "R3": {
+      "gains": 11,
+      "losses": 17
+    },
+    "S": {
+      "gains": 28,
+      "losses": 0
+    },
+    "D": {
+      "gains": 4,
+      "losses": 1
+    },
+    "P": {
+      "gains": 0,
+      "losses": 0
+    },
+    "P0": {
+      "gains": 6,
+      "losses": 7
+    },
+    "K": {
+      "gains": 0,
+      "losses": 2
+    },
+    "T": {
+      "gains": 7,
+      "losses": 41
+    }
+  },
+  "source_check_usage": {
+    "calls": 707,
+    "errors": 0,
+    "total_tokens": 12309020,
+    "completion": {
+      "jobs": 563,
+      "workers": 4,
+      "elapsed_s": 55.215
+    }
+  }
+}

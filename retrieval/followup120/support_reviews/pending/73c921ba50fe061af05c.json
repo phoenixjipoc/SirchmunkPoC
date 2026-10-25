@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "73c921ba50fe061af05c",
+    "query_id": "SVC-19",
+    "question": "What minimum qualifications must a proposing firm certify in the City of Temple City's 2020 RFP for 457 plan administration and recordkeeping services?",
+    "file": "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+    "expected_facts": "(1) At least 5 years of experience administering governmental 457 plans and currently providing sole-provider administration to at least five 457 plans with assets under $25 million; (2) no front-end or back-end charges and no restrictions/penalties on plan- or participant-initiated transfers or withdrawals (except capital preservation equity wash/put provisions and fund short-term trading fees); (3) full disclosure of all fund expense and revenue sharing arrangements, including fixed/general account products; (4) full disclosure of expenses and revenue for any service (platform fees, managed accounts, advice, financial planning, brokerage); (5) agree not to sell/promote products not affiliated with the Plan without written City authorization; (6) be qualified to do business in California and Temple City upon award; (7) offer a self-directed brokerage option; (8) be able to transition and continue administration of existing loans; (9) representatives attend City meetings in person as requested (no more than once per year); (10) knowledge of and compliance with applicable County, California and federal regulations; (11) RFP terms remain in place through negotiations and the final contract unless waived in writing.",
+    "acceptance": "Accept concise grouping of the eleven requirements; the five-year/five-plan/$25m threshold alone is incomplete for this broad list question. Examples of service fees are illustrative, not separate mandatory list items.",
+    "text_hash": "a73f8098a99029a40e97e080d66cdb97fc9c585944212d49c8006ef52d55da0f",
+    "source_text_sha256": "9a236643d7b4204fbdc4d7e63cf40d28896fa6aca7d4dca0b56d53d6261f1016",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2021 Arizona PSPRS RFP for non-discretionary investment consultant services, not the City of Temple City’s 2020 RFP for 457 plan administration and recordkeeping. Its minimum requirements do not support the requested certifications.",
+      "quotes": [
+        "Board of Trustees of the Public Safety Personnel Retirement System Acting in their Capacity as Administrators of the Public Safety Personnel Retirement System Trust",
+        "REQUEST FOR PROPOSAL For NON-DISCRETIONARY INVESTMENT CONSULTANT SERVICES",
+        "Submissions Due: 5:00 pm MST, October 29, 2021",
+        "Proposers must have experience with providing all service requirements identified in this solicitation to public pension trusts with assets under management of at least $10 billion;"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Board of Trustees of the Public Safety Personnel Retirement System Acting in their Capacity as Administrators of the Public Safety Personnel Retirement System Trust",
+          "start": 670,
+          "end": 834
+        },
+        {
+          "quote": "REQUEST FOR PROPOSAL For NON-DISCRETIONARY INVESTMENT CONSULTANT SERVICES",
+          "start": 835,
+          "end": 908
+        },
+        {
+          "quote": "Submissions Due: 5:00 pm MST, October 29, 2021",
+          "start": 909,
+          "end": 955
+        },
+        {
+          "quote": "Proposers must have experience with providing all service requirements identified in this solicitation to public pension trusts with assets under management of at least $10 billion;",
+          "start": 12250,
+          "end": 12431
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

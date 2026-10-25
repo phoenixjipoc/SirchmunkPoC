@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "5927062d2847b367f72e",
+    "query_id": "INV-20",
+    "question": "Which meetings must the investment consultant attend under the IMRF sample RFP for investment consulting, real estate consulting and performance measurement services, and how many days of meetings per year does IMRF estimate?",
+    "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "expected_facts": "(1) Monthly IMRF Board meetings; (2) Investment Committee meetings; (3) the Annual IMRF Roundtable; (4) regional meetings with investment managers; (5) related investment meetings and discussions; (6) formal interviews with existing and potential investment managers; (7) ad hoc due diligence meetings with investment managers and staff. IMRF estimates about sixty days of meetings per year with the Board and/or staff, plus frequent telephone discussions with staff.",
+    "acceptance": "All seven meeting categories and about 60 days/year. Frequent telephone calls and principal-attendance details are optional.",
+    "text_hash": "2e5c9ac10ac2943a19269fe0ceeab6dc6cca5c9b732ec461770764bed168feeb",
+    "source_text_sha256": "698b71034e03dda497378807f02ef9875cc985ad2aafde5d24accec7bdff2d4b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a South Carolina RSIC RFP, not the IMRF sample RFP. Its meeting requirements differ, and it does not provide IMRF’s seven meeting categories or its estimate of about 60 meeting days per year.",
+      "quotes": [
+        "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+        "Consultant will attend all investment-related Commission meetings.",
+        "Meetings generally occur on the third or fourth Thursday of February, April, June, September, and November of each year."
+      ],
+      "quote_matches": [
+        {
+          "quote": "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+          "start": 106,
+          "end": 203
+        },
+        {
+          "quote": "Consultant will attend all investment-related Commission meetings.",
+          "start": 28920,
+          "end": 28986
+        },
+        {
+          "quote": "Meetings generally occur on the third or fourth Thursday of February, April, June, September, and November of each year.",
+          "start": 28987,
+          "end": 29107
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

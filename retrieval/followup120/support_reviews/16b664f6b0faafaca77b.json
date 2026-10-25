@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "16b664f6b0faafaca77b",
+    "query_id": "INV-10",
+    "question": "An alternative investment consulting RFP describes a private equity portfolio of 225 holdings across 105 general partners. What are the approximate net asset values of the system's absolute return, private credit, private equity and real assets portfolios?",
+    "file": "ILPA__ILPA-DDQ-2.0.pdf",
+    "expected_facts": "Absolute Return about $2.6 billion (11 funds across 10 managers); Private Credit about $1.8 billion (26 holdings, 16 GPs); Private Equity about $4.5 billion (225 holdings, 105 GPs); Real Assets about $3.1 billion (87 holdings, 58 GPs). Issuer: Indiana Public Retirement System (INPRS), RFP 23-09.",
+    "acceptance": "Require correct asset-class mapping to $2.6bn/$1.8bn/$4.5bn/$3.1bn; holdings/GP counts and issuer identification are optional.",
+    "text_hash": "8907145b1f077ef656f1eedcccb1c6e6cf91c5a42ababaeed03deb50236309d2",
+    "source_text_sha256": "acc7566c61a7afaabbe215a9f1337c86e1dd116ccf7ba67eeb84894f94ea4c98",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an ILPA due diligence questionnaire, not the Indiana Public Retirement System alternative investment consulting RFP. It provides none of the four requested portfolio net asset values or their asset-class mappings.",
+      "quotes": [
+        "Due Diligence Questionnaire 2.0 Updated November 2021",
+        "Institutional Limited Partners Association",
+        "The ILPA Due Diligence Questionnaire (DDQ) reflects the view of the participants involved in the creation thereof as to best practices with respect to fund diligence."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Due Diligence Questionnaire 2.0 Updated November 2021",
+          "start": 13,
+          "end": 66
+        },
+        {
+          "quote": "Institutional Limited Partners Association",
+          "start": 1463,
+          "end": 1505
+        },
+        {
+          "quote": "The ILPA Due Diligence Questionnaire (DDQ) reflects the view of the participants involved in the creation thereof as to best practices with respect to fund diligence.",
+          "start": 1788,
+          "end": 1954
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

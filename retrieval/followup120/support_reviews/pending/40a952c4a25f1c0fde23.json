@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "40a952c4a25f1c0fde23",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "692bb03e4db6aebeca97a36c01c5604f00e3b195fbee2231ed7ff5e34f2a4f12",
+    "source_text_sha256": "6ba69ebab9df521e3753ddda5ed3603b1beb1c275996a315567f040067214998",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is Rice University’s retirement-plan audit-services RFP, not SBCERS’s global custody RFP. Its evaluation criteria differ, and it provides none of the required percentage weights.",
+      "quotes": [
+        "Request for Proposal to Provide Audit Services for the William Marsh Rice University Defined Contribution Retirement Plan",
+        "• Qualifications and experience with similar institutions • Ability to meet scope and deliverable requirements • Pricing • Diversity in team structure • Requirements met as stated in proposal"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal to Provide Audit Services for the William Marsh Rice University Defined Contribution Retirement Plan",
+          "start": 13,
+          "end": 134
+        },
+        {
+          "quote": "• Qualifications and experience with similar institutions • Ability to meet scope and deliverable requirements • Pricing • Diversity in team structure • Requirements met as stated in proposal",
+          "start": 12967,
+          "end": 13158
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

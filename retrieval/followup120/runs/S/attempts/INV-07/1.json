@@ -1,0 +1,47 @@
+{
+  "query_id": "INV-07",
+  "question": "In the published questions and answers for a city's pension fund consulting RFP, the city says it sent the RFP to 21 firms and last ran such a search in 2013. What does the plan currently pay for advisory services on its equities and for management of its fixed income?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "S",
+  "references": [
+    {
+      "rank": 1,
+      "file": "Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf",
+      "path": "/mnt/docs/S/Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf"
+    }
+  ],
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "baseline_sha256": "ff28e03535add873ccce20a1d1d596e96496dff542ec406805559f1e316d8db0",
+  "original_files": [
+    "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf"
+  ],
+  "ranking_prompt": "{\"question\": \"In the published questions and answers for a city's pension fund consulting RFP, the city says it sent the RFP to 21 firms and last ran such a search in 2013. What does the plan currently pay for advisory services on its equities and for management of its fixed income?\", \"candidates\": [{\"filename\": \"Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Obermoeller, Lori\", \"page_count\": 1, \"keywords\": [\"Obermoeller, Lori\"], \"preview\": \"RFP for Pension Fund Consulting Services\\nQuestions and Answers\\n1. Can you provide some color as to why the City is considering a potential change?   I ’m hoping to \\nunderstand what items may be most critical to the City of Creve Coeur going forward.   Also, can \\nyou share with me how many RFP ’s have been sent?  We have sent 21 out.  We are doing our due \\ndiligence in sending out a proposal every so many years and the last one was done in  2013.  Some  \\nboard members have questioned the allocation structure, the percentage in fixed vs equities, w hat \\nperformance benchmarks should be used, as well as other things, so I don't think that the board really\\nknows what they are looking for specifically, but more wondering if they need to make a change in \\nhow things are being done or if what the\", \"full_content\": \"RFP for Pension Fund Consulting Services\\nQuestions and Answers\\n1. Can you provide some color as to why the City is considering a potential change?   I ’m hoping to \\nunderstand what items may be most critical to the City of Creve Coeur going forward.   Also, can \\nyou share with me how many RFP ’s have been sent?  We have sent 21 out.  We are doing our due \\ndiligence in sending out a proposal every so many years and the last one was done in  2013.  Some  \\nboard members have questioned the allocation structure, the percentage in fixed vs equities, w hat \\nperformance benchmarks should be used, as well as other things, so I don't think that the board really\\nknows what they are looking for specifically, but more wondering if they need to make a change in \\nhow things are being done or if what they are doing, is the best for the Plan.  I think they are really \\nlooking for some consulting advice on how to best structure and manage the Plan.  The current \\nstructure may be ok, but they want someone else to help them figure that out.\\n2. Is there intent to keep portfolio split like it is now (Commerce Trust // Fiduciary Advisors) or a hope \\nto consolidate? No preference?  Don't know.  Will see what recommendations are in proposals.\\n3. Our firm provides both advisory and discretionary (OCIO) services to institutional clients.  Would \\nyou like us to answer with both solutions in mind? Or specifically one or the other?  Both would \\nprobably be best.\\n4. Are you able to share what your organization currently pays (fixed fee/bps) for advisory or \\ninvestment management services?  $20K year for advisory of Equity investments (70% of Plan \\nFunds) held by Fiduciary Advisors and .30% first $10M, .20% next $40M, and .15% on remaining \\nbalance for the Fixed investments (30% of Plan Funds) which is our custodian and paying agent held\\nby Commerce Bank.\\n5. What is the timeline for making a decision?  Estimate a decision will be made in June.\\n6. What is the reason the city has issued the RFP? Contract expiration of current vendor or some other \\nreason?  We are doing the RFP because it's best practice to do every so often and we haven't done \\nsince 2013.  \\n7. Which firm currently provides these services and is the firm eligible to rebid?  Currently , we use \\nFiduciary Advisors to consult and manage the equity investments of the Pension Plan, and we use \\nCommerce Bank as the investment manager, custodian and paying agent of the fixed income \\ninvestments of the Pension Plan.  Both are eligible to rebid.\\n8. The RFP indicates that it is for the benefit of city employees, including police.   Are there multiple \\nplans within a master trust or are you simply just highlighting that the police fall under the same \\nplan?  We also have LAGERS, but think it was to emphasize that the Police fall under the Plan as \\nwell\\n9.  For fee purposes, are you considering selecting one investment advisor (discretionary investment \\nmanager) or are you looking at separating fixed income and equities?  We don't know and are \\nleaving it up to the proposals to give recommendations.\\n10. As indicated in the RFP , Commerce is the custodian and investment advisor for the fixed income.  \\nFiduciary appears to be using Schwab as their custodian.   How are you consolidating the two for \\naccounting/performance purposes?  Fiduciary Advisors combines both in overall quarterly reporting,\\nbut Creve Coeur reconciles both separately every month.\\n11. For the pension disbursements can you provide me with the number of monthly payments as \\nwell as the estimated annual lump sums?  We disburse almost $2M per year to about 81 \\nretirees.\"}, {\"filename\": \"TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf\", \"extension\": \".pdf\", \"title\": \"Investment Consultant RFP 2023\", \"author\": \"TRS\", \"page_count\": 41, \"keywords\": [\"TRS\"], \"preview\": \"Teachers’ Retirement System  \\nof the State of Illinois \\n \\n \\n \\n \\n \\n \\nREQUEST FOR PROPOSALS FOR \\nINVESTMENT CONSULTING SERVICES \\n \\n \\n \\n \\n \\n \\n \\n \\nIssued January 13, 2023 \\n \\n \\nResponses due February 9, 2023, by 2:00 pm CST\", \"full_content\": \"\"}]}",
+  "keyword_files": [
+    "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf"
+  ],
+  "status": "ok",
+  "elapsed_s": 2.084,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 1491,
+    "completion_tokens": 56,
+    "total_tokens": 1547
+  },
+  "attempt": 1
+}

@@ -1,0 +1,67 @@
+{
+  "query_id": "XD-02",
+  "question": "A 2021 covering note describes an update to a responsible-investment due diligence questionnaire for private equity limited partners. When was the first version of that questionnaire launched, who adopted it, when was the working group for the update set up, and over how long had LPs and GPs been giving comments?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P",
+  "keyword_files": [
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "keyword_terms": [
+    "responsible-investment due diligence questionnaire",
+    "private equity limited partners",
+    "2021 covering note",
+    "questionnaire update working group",
+    "责任投资尽职调查问卷",
+    "私募股权有限合伙人",
+    "普通合伙人"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 50,
+      "timestamp": "2026-10-25 15:38:48.229570",
+      "metadata": {
+        "keywords": [
+          "responsible-investment due diligence questionnaire",
+          "private equity limited partners",
+          "2021 covering note",
+          "questionnaire update working group",
+          "责任投资尽职调查问卷",
+          "私募股权有限合伙人",
+          "普通合伙人"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "ILPA__ILPA-DDQ-2.0.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+    }
+  ],
+  "elapsed_s": 2.666,
+  "calls": 0,
+  "usage": {}
+}

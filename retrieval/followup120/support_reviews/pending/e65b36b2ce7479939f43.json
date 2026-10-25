@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "e65b36b2ce7479939f43",
+    "query_id": "INV-09",
+    "question": "An investment manager RFP template for an emerging markets equity strategy (issued February 14, 2022, responses due March 31, 2022) lists required minimum qualifications and 'preferred criteria'. What live track record does it require, and what public pension client base does it prefer?",
+    "file": "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+    "expected_facts": "Required: an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy (qualified women-, minority- or disabled-owned businesses are exempt). Preferred: at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan client with over $10 billion in total plan assets (plus no material litigation in the past five years). Issuer: State Universities Retirement System of Illinois (SURS).",
+    "acceptance": "Accept five-year live strategy record and the alternative client tests (two >$1bn U.S. public pensions OR one >$10bn public plan). Ownership exemption is a relevant qualification. Issuer, litigation criterion and placeholder date need not be volunteered.",
+    "text_hash": "dc7770ddf2eb0d0a22374752c7dc6794b8fb383b84a6cf93e4a10d4cf606f4a6",
+    "source_text_sha256": "e9d832947c5555fd08fbad4762996d02f44908b19826f8ed06865b1ee0a20b33",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Hawaii ERS RFP for private equity consultant services, not the specified SURS emerging-markets equity investment-manager template. Its five-year business-history requirement and public-retirement-client thresholds do not support the requested strategy track record or preferred alternative client tests.",
+      "quotes": [
+        "Employees’ Retirement System of the State of Hawaii Request for Proposals Private Equity Consultant Services RFP 2022-04 Issued AUGUST 29, 2022",
+        "Offeror has been in business as an investment consultant for a minimum of five years.",
+        "Offeror provides investment consulting services to at least one public retirement system defined benefit client with assets greater than $3 billion."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Employees’ Retirement System of the State of Hawaii Request for Proposals Private Equity Consultant Services RFP 2022-04 Issued AUGUST 29, 2022",
+          "start": 13,
+          "end": 156
+        },
+        {
+          "quote": "Offeror has been in business as an investment consultant for a minimum of five years.",
+          "start": 67833,
+          "end": 67918
+        },
+        {
+          "quote": "Offeror provides investment consulting services to at least one public retirement system defined benefit client with assets greater than $3 billion.",
+          "start": 68028,
+          "end": 68176
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

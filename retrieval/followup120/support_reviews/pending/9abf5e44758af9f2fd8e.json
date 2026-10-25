@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "9abf5e44758af9f2fd8e",
+    "query_id": "INV-12",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for domestic equity small cap growth investment management, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+    "expected_facts": "Four primary factors: (a) People - stability of the organization, ownership structure and documented experience of key professionals; (b) Process - clearly defined, reasonable and repeatable investment strategy; (c) Performance - documented ability to meet investment performance benchmarks; (d) Pricing - fee schedule and associated costs.",
+    "acceptance": "Accept People, Process, Performance, Pricing and faithful descriptions; exact labels are not mandatory.",
+    "text_hash": "4eb61147bf021f84f0cada43ff4b2b232286b7e1116578f906241e2567d3ddc2",
+    "source_text_sha256": "fbaa2e27e75163da5326b3c348163209510cae254f3439bcfc5184e58334c147",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Hawaii ERS RFP for private equity consulting and investment services, not the IMRF sample RFP for domestic equity small cap growth investment management. It does not provide the requested selection factors.",
+      "quotes": [
+        "STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR PRIVATE EQUITY CONSULTING AND INVESTMENT SERVICES",
+        "The Employees’ Retirement System of the State of Hawaii (ERS) is soliciting proposals for qualified firm(s) to provide private equity investment consulting and investment management services to the ERS."
+      ],
+      "quote_matches": [
+        {
+          "quote": "STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR PRIVATE EQUITY CONSULTING AND INVESTMENT SERVICES",
+          "start": 13,
+          "end": 139
+        },
+        {
+          "quote": "The Employees’ Retirement System of the State of Hawaii (ERS) is soliciting proposals for qualified firm(s) to provide private equity investment consulting and investment management services to the ERS.",
+          "start": 140,
+          "end": 342
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

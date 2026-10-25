@@ -1,0 +1,12 @@
+{
+  "id": "0f9a2a4ca3c0da36e43d",
+  "query_id": "DDQ-01",
+  "question": "Which due diligence questionnaire in the corpus asks the manager 'What kills a deal for your team?', and who published it?",
+  "file": "INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+  "expected_facts": "The Private Markets Due Diligence Questionnaire ('Your Resource for Evaluating Private Market Partners') published by Calamos Investments with Aksia (file AC_Private_Markets). The question appears under General Questions > Investment Strategy and asks the manager to describe a recent example.",
+  "acceptance": "AC Private Markets / Calamos with Aksia accepted. Subtitle, copyright year and recent-example follow-up are optional.",
+  "text_hash": "4aa67eec4c20c31dd5bea026745ad60e494f4d41055e5282f36a63f51ac53b63",
+  "source_text_sha256": "872c9becc80ae87c8e0cc07ecfc15202e13fdf184eceaffab26855b50b7cfb9e",
+  "second_check_required": false,
+  "prior_reviews": []
+}

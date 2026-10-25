@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "1e04b6067060d013bc98",
+    "query_id": "SVC-04",
+    "question": "In the Contra Costa County Employees' Retirement Association (CCCERA) April 2018 master custodian RFP, how many copies of the proposal must be submitted, and for how long must the proposal remain a firm and irrevocable offer?",
+    "file": "IMRF__sample_investment_manager_rfp.pdf",
+    "expected_facts": "One (1) original proposal, four (4) hard copies and one (1) copy in electronic form; the proposal must be a firm and irrevocable offer good for one year from the proposal due date (due 5:00 p.m. PT, Friday, May 25, 2018).",
+    "acceptance": "Accept five paper sets total if the original is clearly included, plus one electronic copy; validity one year from due date. Actual proposal deadline is optional.",
+    "text_hash": "1d6500a43cb519702a3a7fba26b0e9ecd1b4b2bb1bb0ac004878183abcc2df76",
+    "source_text_sha256": "b904f613bceebade43840677e52ac82b24f5fe88526390405a0ab1d994b4049d",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an IMRF sample RFP for investment management, not CCCERA’s April 2018 master custodian RFP. Its six-copy requirement and optional electronic submission do not support the requested copy requirement, and it gives no one-year firm-offer period.",
+      "quotes": [
+        "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment management firms to provide domestic equity small cap growth investment management services.",
+        "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX.",
+        "Electronic submission of the proposal is also acceptable"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment management firms to provide domestic equity small cap growth investment management services.",
+          "start": 274,
+          "end": 452
+        },
+        {
+          "quote": "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX.",
+          "start": 10455,
+          "end": 10551
+        },
+        {
+          "quote": "Electronic submission of the proposal is also acceptable",
+          "start": 10737,
+          "end": 10793
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

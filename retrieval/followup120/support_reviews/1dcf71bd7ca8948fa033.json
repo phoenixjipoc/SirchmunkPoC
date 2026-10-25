@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "1dcf71bd7ca8948fa033",
+    "query_id": "CONS-05",
+    "question": "In the Shrewsbury Contributory Retirement System RFP for investment consultant services, how long is the chosen consultant expected to be retained?",
+    "file": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "expected_facts": "For five (5) years, not to exceed seven (7) years including any renewal, extension or option. The Board can terminate on thirty (30) days written notice.",
+    "acceptance": "Five years and seven-year total ceiling including renewals/extensions/options. Thirty-day termination is optional.",
+    "text_hash": "3ecf7188afbf06d1992a2e369435746a5f1872698632985399a9e054bf75b408",
+    "source_text_sha256": "245be5bf903c98e9c43a03f3b620302180f76969b88872c25a7e2f9026336a20",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Grand Rapids retirement systems RFP, not the Shrewsbury Contributory Retirement System RFP. It does not state a five-year consultant retention term or a seven-year ceiling. Its five-year figure concerns minimum experience, not retention.",
+      "quotes": [
+        "CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM INVESTMENT CONSULTANT SERVICES REQUEST FOR PROPOSAL (“RFP”)",
+        "The Investment Consultant must have a minimum of five (5) years of experience in providing institutional investor consulting services."
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM INVESTMENT CONSULTANT SERVICES REQUEST FOR PROPOSAL (“RFP”)",
+          "start": 27,
+          "end": 188
+        },
+        {
+          "quote": "The Investment Consultant must have a minimum of five (5) years of experience in providing institutional investor consulting services.",
+          "start": 4682,
+          "end": 4816
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

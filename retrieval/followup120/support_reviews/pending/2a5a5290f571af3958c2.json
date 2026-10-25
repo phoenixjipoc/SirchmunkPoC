@@ -1,0 +1,65 @@
+{
+  "job": {
+    "id": "2a5a5290f571af3958c2",
+    "query_id": "CONS-12",
+    "question": "How many printed copies of the proposal must be submitted in the Boston Retirement System 2022 investment consulting services RFP?",
+    "file": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+    "expected_facts": "Seven (7) printed copies plus one (1) electronic version.",
+    "acceptance": "Seven printed copies alone answers the question; electronic copy is optional context.",
+    "text_hash": "6b179eedd0acf11d4033b486705b8677fb78308e47584950c128cde739d4f025",
+    "source_text_sha256": "81bbcbe9365fdc601c3f939281acb26f90195cb62f71e9af6d67ff79a5c33f94",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2022 RFP for actuarial and consulting services for pension benefits, not investment consulting services. Its submission requirement is one original and five copies, so it does not support the requested RFP’s printed-copy count.",
+      "quotes": [
+        "Request for Proposal Actuarial and Consulting Services for Pension Benefits Boston Retirement System September 12, 2022",
+        "Please submit one (1) original and five (5) copies of the Proposal to:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Actuarial and Consulting Services for Pension Benefits Boston Retirement System September 12, 2022",
+          "start": 13,
+          "end": 132
+        },
+        {
+          "quote": "Please submit one (1) original and five (5) copies of the Proposal to:",
+          "start": 12454,
+          "end": 12524
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is a Boston Retirement System RFP for actuarial and consulting services for pension benefits, not investment consulting services. It requires one original and five copies (six printed copies total), so it does not evidence the seven printed copies asked about.",
+      "quotes": [
+        "Request for Proposal Actuarial and Consulting Services for Pension Benefits Boston Retirement System September 12, 2022",
+        "Please submit one (1) original and five (5) copies of the Proposal to:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Actuarial and Consulting Services for Pension Benefits Boston Retirement System September 12, 2022",
+          "start": 13,
+          "end": 132
+        },
+        {
+          "quote": "Please submit one (1) original and five (5) copies of the Proposal to:",
+          "start": 12454,
+          "end": 12524
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

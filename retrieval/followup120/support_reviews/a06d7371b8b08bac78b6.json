@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "a06d7371b8b08bac78b6",
+    "query_id": "DDQ-10",
+    "question": "What topics does the ILPA DDQ 2.0 cover under its ESG section?",
+    "file": "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+    "expected_facts": "Section19 has seven subsections: 19.1 Policy—ESG policies, governance and oversight; 19.2 Fundraising—ESG commitments in fund documentation; 19.3 Pre-investment—material ESG risks/opportunities and due diligence; 19.4 Post-investment—portfolio-company mitigation, value creation and monitoring; 19.5 Reporting and Disclosure—LP monitoring/reporting and material incidents; 19.6 Climate Change—GHG measurement/reporting, commitments/actions and TCFD reporting; 19.7 Additional Information—other ESG topics/practices not otherwise covered and management-company internal ESG risks/opportunities and performance.",
+    "acceptance": "Seven subsection groups, including Additional Information and management company's own ESG. Examples under each group are optional; do not treat six as the complete count.",
+    "text_hash": "ac6b0e905afe63d321b93322365c44bd32fcacb84541a4f193cc55bfb02de248",
+    "source_text_sha256": "d3cdf2eaaca64cc0351c56cbf51120b2c7f76276c9cf4af290c8dbdd368f2733",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an ILPA ESG Assessment Framework FAQ, not the ILPA DDQ 2.0. It mentions using the framework alongside the DDQ but does not identify or describe the DDQ’s seven ESG subsections.",
+      "quotes": [
+        "ESG Assessment Framework – Key Considerations & FAQ",
+        "Can the ESG Assessment Framework be used in conjunction with the ILPA Due Diligence Questionnaire?",
+        "Yes. The ESG Assessment Framework can help LPs evaluate GP responses to due diligence questionnaires"
+      ],
+      "quote_matches": [
+        {
+          "quote": "ESG Assessment Framework – Key Considerations & FAQ",
+          "start": 13,
+          "end": 64
+        },
+        {
+          "quote": "Can the ESG Assessment Framework be used in conjunction with the ILPA Due Diligence Questionnaire?",
+          "start": 5432,
+          "end": 5530
+        },
+        {
+          "quote": "Yes. The ESG Assessment Framework can help LPs evaluate GP responses to due diligence questionnaires",
+          "start": 5531,
+          "end": 5631
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

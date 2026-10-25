@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "226b40f5d546e85f29e9",
+    "query_id": "INV-16",
+    "question": "In the Santa Barbara County Employees' Retirement System (SBCERS) 2020 RFP for a discretionary private equity consultant, how many years must the proposing firm have been in business?",
+    "file": "American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf",
+    "expected_facts": "At least five (5) years providing services similar to those in the Scope of Services, measured as of December 31, 2020. (Separately, the organization must have provided investment management services for private equity transactions for five or more years.)",
+    "acceptance": "At least five years providing similar services suffices. The as-of date and separate five-year investment-management-services condition are optional for this question.",
+    "text_hash": "4da0bb99d1bc9a99cb85e4152156515d63d280e9d6481930b4991ca9b694e89e",
+    "source_text_sha256": "e84ddfad92c2fc79e711f13416c118cdf2db28ca57c55b838d0f29c6c8dbced8",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2011 American Academy of Actuaries RFP for retirement-plan services, not the SBCERS 2020 RFP for a discretionary private equity consultant. It asks proposers to state their years in business but provides no minimum.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL (RFP) Retirement Plan and Related Consulting Services May 12, 2011 American Academy of Actuaries",
+        "General background information about you or your firm, number of years in business, location(s), and principal(s);"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL (RFP) Retirement Plan and Related Consulting Services May 12, 2011 American Academy of Actuaries",
+          "start": 13,
+          "end": 130
+        },
+        {
+          "quote": "General background information about you or your firm, number of years in business, location(s), and principal(s);",
+          "start": 9312,
+          "end": 9426
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

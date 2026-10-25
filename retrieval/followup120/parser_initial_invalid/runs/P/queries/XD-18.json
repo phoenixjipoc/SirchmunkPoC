@@ -1,0 +1,52 @@
+{
+  "query_id": "XD-18",
+  "question": "Apart from ILPA's own publications and the PRI covering note, which documents in the corpus refer to ILPA, and for what purpose?",
+  "type": "broad",
+  "pair_id": "",
+  "group": "P",
+  "keyword_files": [],
+  "directory_files": [
+    "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "/mnt/docs/S/Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+    "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "/mnt/docs/S/Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+    "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+  ],
+  "keyword_terms": [
+    "ILPA publications",
+    "PRI covering note",
+    "documents referring to ILPA",
+    "purpose of ILPA references",
+    "附函",
+    "出版物",
+    "语料库"
+  ],
+  "keyword_logs": [],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+      "path": "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+      "path": "/mnt/docs/S/Hawaii_ERS__ERS-Private-Equity-AD.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "path": "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+    }
+  ],
+  "elapsed_s": 3.944,
+  "calls": 0,
+  "usage": {}
+}

@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "dca9f1b67dd1d2ca02d1",
+    "query_id": "CONS-08",
+    "question": "Which retirement plan's investment consulting RFP requires that, as of December 31, 2024, the firm have at least three public fund clients each with at least $1B in assets and have been in business at least ten years?",
+    "file": "Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+    "expected_facts": "The Retirement Plan for CTA Employees (Chicago Transit Authority), in its April 29, 2025 investment consulting RFP.",
+    "acceptance": "Retirement Plan for CTA/Chicago Transit Authority Employees; publication date is optional.",
+    "text_hash": "7974cf3ced5ece0c3df4520edc4dd6247ec6bbbc3297db171ad7ec83dd1f5ab2",
+    "source_text_sha256": "d065a0843dfa54da64a294e172b508cf8e712eb413bc4f30e72f609c24012fce",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2022 Oklahoma OPERS RFP, not the Retirement Plan for CTA Employees RFP. Its qualifications require five public pension plans with at least $1 billion each as of June 30, 2021, and ten years of experience for senior investment professionals—not ten years in business for the firm.",
+      "quotes": [
+        "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+        "OPERS RFP – Investment Consulting Services – Issued February 18, 2022",
+        "The proposed investment consultant must have acted as full-service consultant to at least five public pension plans, each with at least $1 billion in assets, as of June 30, 2021.",
+        "The senior investment professionals in charge of the proposed consulting services must have at least ten years of institutional consulting experience within the industry."
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 124
+        },
+        {
+          "quote": "OPERS RFP – Investment Consulting Services – Issued February 18, 2022",
+          "start": 2856,
+          "end": 2925
+        },
+        {
+          "quote": "The proposed investment consultant must have acted as full-service consultant to at least five public pension plans, each with at least $1 billion in assets, as of June 30, 2021.",
+          "start": 21262,
+          "end": 21440
+        },
+        {
+          "quote": "The senior investment professionals in charge of the proposed consulting services must have at least ten years of institutional consulting experience within the industry.",
+          "start": 21444,
+          "end": 21614
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

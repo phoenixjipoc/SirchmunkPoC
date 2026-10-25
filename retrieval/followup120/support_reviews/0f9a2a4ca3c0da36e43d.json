@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "0f9a2a4ca3c0da36e43d",
+    "query_id": "DDQ-01",
+    "question": "Which due diligence questionnaire in the corpus asks the manager 'What kills a deal for your team?', and who published it?",
+    "file": "INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+    "expected_facts": "The Private Markets Due Diligence Questionnaire ('Your Resource for Evaluating Private Market Partners') published by Calamos Investments with Aksia (file AC_Private_Markets). The question appears under General Questions > Investment Strategy and asks the manager to describe a recent example.",
+    "acceptance": "AC Private Markets / Calamos with Aksia accepted. Subtitle, copyright year and recent-example follow-up are optional.",
+    "text_hash": "4aa67eec4c20c31dd5bea026745ad60e494f4d41055e5282f36a63f51ac53b63",
+    "source_text_sha256": "872c9becc80ae87c8e0cc07ecfc15202e13fdf184eceaffab26855b50b7cfb9e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is INREV’s questionnaire for real estate fund-of-funds and multi-manager mandates, not the Calamos Investments/Aksia private-markets questionnaire. It does not contain the quoted deal-killer question or explicitly discuss the questionnaire that does.",
+      "quotes": [
+        "The Due Diligence Questionnaire for Fund of Funds and Multi-Managers is part of the due diligence protocol which was first launched in April 2007.",
+        "INREV and its members do not take any responsibility for the correction and completion of this questionnaire."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Due Diligence Questionnaire for Fund of Funds and Multi-Managers is part of the due diligence protocol which was first launched in April 2007.",
+          "start": 4266,
+          "end": 4412
+        },
+        {
+          "quote": "INREV and its members do not take any responsibility for the correction and completion of this questionnaire.",
+          "start": 6247,
+          "end": 6356
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

@@ -1,0 +1,574 @@
+{
+  "query_id": "CONS-01",
+  "question": "In the Grand Rapids General Retirement System investment consultant RFP, what was the total market value of the General Retirement System and as of what date?",
+  "type": "detail",
+  "pair_id": "",
+  "seed": 1737720141,
+  "references": [
+    {
+      "rank": 1,
+      "file": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+      "path": "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+      "path": "/mnt/docs/S/Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "IMRF__sample-investment-consulting-rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+      "path": "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+      "path": "/mnt/docs/S/Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+      "path": "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "OCERS__custodian_services_rfp_questions_and_answers.pdf",
+      "path": "/mnt/docs/S/OCERS__custodian_services_rfp_questions_and_answers.pdf"
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "keywords": {
+    "Grand Rapids General Retirement System": 9.0,
+    "investment consultant RFP": 8.0,
+    "total market value": 5.0,
+    "大急流城普通退休制度": 9.0,
+    "投资顾问征求建议书": 8.0,
+    "总市值": 5.0
+  },
+  "keyword_terms": [
+    "Grand Rapids General Retirement System",
+    "investment consultant RFP",
+    "total market value",
+    "大急流城普通退休制度",
+    "投资顾问征求建议书",
+    "总市值"
+  ],
+  "directory_prompt": "You are a document triage specialist. Analyze the scanned files below and rank them by relevance to the user's query.\n\n## Directory Structure\nRoot: /mnt/docs/S\n```\n  ./ (20 files)\n```\n\n## User Query\nIn the Grand Rapids General Retirement System investment consultant RFP, what was the total market value of the General Retirement System and as of what date?\n\n## Scanned Files\n- **Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf** (.pdf, 217.9KB)\n  Author: John Kelly\n  Pages/Sheets: 15\n  Keywords: John Kelly\n  Modified: 2026-10-07\n  Preview: BOSTON  RETIREMENT SYSTEM  (“BRS”)    INVESTMENT CONSULTING SERVICES  REQUEST FOR PROPOSALS  (“RFP”)\n\n- **Delaware__TRE21101-RECDKEEPR-rfp.pdf** (.pdf, 1.0MB)\n  Author: Davis, Liza D (OST)\n  Pages/Sheets: 109\n  Keywords: Davis, Liza D (OST)\n  Modified: 2026-10-07\n  Preview: 1    REQUEST FOR PROPOSAL FOR DEFERRED COMPENSATION PLAN  RECORDKEEPING AND ADMINISTRATION SERVICES ISSUED BY THE  OFFICE OF THE STATE TREASURER    CONTRACT NUMBER:  TRE-CPM-21101- DEFERRED COMPENSATI\n\n- **CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf** (.pdf, 526.6KB)\n  Author: Stephanie Shedd\n  Pages/Sheets: 86\n  Keywords: Stephanie Shedd\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS  FOR  MASTER CUSTODIAN AND  RELATED SERVICES      April 2018                        Contra Costa County Employees’ Retirement Association    1355 Willow Way, Suite 221  Concord,\n\n- **SBCERS__2020-Private-Equity-RFP.pdf** (.pdf, 265.3KB)\n  Title: Microsoft Word - 2020 Private Equity RFP\n  Author: lthompson\n  Pages/Sheets: 34\n  Keywords: lthompson\n  Modified: 2026-10-07\n  Preview: 1    SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM    REQUEST FOR PROPOSALS (RFP)  FOR  DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES          TIMELINE  Date of RFP issuance July 27, 2020  Dead\n\n- **Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf** (.pdf, 54.5KB)\n  Title: Request for Proposal (RFP) for Outsourced Chief Investment Officer (OCIO) Services\n  Pages/Sheets: 5\n  Modified: 2026-10-07\n  Preview: Request for Proposal (RFP) for Outsourced Chief Investment Officer  (OCIO) Services   Issued By: Samuel Fels Fund  Contact: Uma Viswanathan uma@samfels.org; Nimrit  Kang kangnkgo@gmail.com   1. Introduction and Overview  The Samuel S. Fels Fund’s [Fels Fund] mission is to improve conditions and  opportunities for communities that are and have been historically excluded and  marginalized in Philadelphia, and to move us towards a more socially, racially, and  economically just society.  The organi\n\n- **AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf** (.pdf, 185.4KB)\n  Title: Private Markets Due Diligence Questionnaire\n  Pages/Sheets: 4\n  Modified: 2026-10-07\n  Preview: As you explore potential partnerships in private markets, it’s important to recognize that these investments work differently  than traditional public market investments held in daily liquid vehicles,\n\n- **ILPA__ESG-Assessment-Framework-FAQ.pdf** (.pdf, 121.1KB)\n  Author: Microsoft Office User\n  Pages/Sheets: 3\n  Keywords: Microsoft Office User\n  Modified: 2026-10-07\n  Preview: Institutional Limited Partners Association                              1776 I St. NW Suite 525 Washington, D.C. 20006    ESG Assessment Framework – Key Considerations and FAQ    Overview   ILPA relea\n\n- **Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf** (.pdf, 197.1KB)\n  Title: ATTACHMENT 3C – FOR BOTH GENERAL AND PUBLIC MARKET CONSULTANT AND ALTERNATIVE CONSULTANT—SERVICE LEVEL THREE\n  Author: DanielGr\n  Pages/Sheets: 12\n  Keywords: DanielGr\n  Modified: 2026-10-07\n  Preview: Attachment 3-1          ATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES  PROPOSAL QUESTIONNAIRE    BOSTON RETIREMENT SYSTEM    Investment Consulting Services   Request for Proposals  INSTRUCTIONS\n\n- **MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf** (.pdf, 811.7KB)\n  Title: MassPRIM Active Global Core Equity Investment Management Services RFP\n  Author: Abouhala, Andre\n  Pages/Sheets: 82\n  Keywords: Abouhala, Andre\n  Modified: 2026-10-07\n  Preview: Pension Reserves Investment Management Board               Deborah B. Goldberg, Treasurer and Receiver General, Chair  Michael G. Trotsky, CFA, Executive Director and Chief Investment Officer    mapen\n\n- **Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf** (.pdf, 2.0MB)\n  Title: `REQUEST FOR PROPOSALS\n  Author: Clark County\n  Pages/Sheets: 63\n  Keywords: Clark County\n  Modified: 2026-10-07\n  Preview: REQUEST for PROPOSAL # 955  PROFESSIONAL, TECHNICAL AND EXPERT SERVICES    Clark County Washington              RELEASE DATE: WEDNESDAY, MAY 6, 2026                   DUE DATE: WEDNESDAY, JUNE 10, 202\n\n- **SAA__SAA-Investment-Manager-Database-Questionnaire.docx** (.docx, 41.1KB)\n  Title: RFP – Fixed Income Investment Management Services\n  Author: Alton Cogert\n  Lines: ~132\n  Keywords: Alton Cogert\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSAL FIXED INCOME INVESTMENT MANAGEMENT SERVICES I. Background Information Firm Name: Year of Organization: Total Number of Employees: Total Number of Investment Professionals: Address: Telephone: Fax Number: Contact for Questionnaire: Telephone: Insurance Client Contact: Telephone: Firm ownership and any changes within the past five years:  (please indicate majority owner of the investment firm); Insurance affiliations: (please indicate any direct or indirect affiliations with a\n\n- **York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf** (.pdf, 921.1KB)\n  Title: Microsoft Word - REQUEST FOR PROPOSALS DRAFT 2.3+ICON.docx\n  Author: Frederick\n  Pages/Sheets: 9\n  Keywords: Frederick\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS  FOR  INVESTMENT  MANAGER/ADVISER/CONSULTANT            CITY OF YORK  PENSION FUNDS      NOVEMBER 28, 2016      RESPONSES DUE JANUARY 6, 2017\n\n- **Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf** (.pdf, 241.5KB)\n  Author: Fernando Vinzons\n  Pages/Sheets: 14\n  Keywords: Fernando Vinzons\n  Modified: 2026-10-07\n  Preview: 1        THE RETIREMENT BOARD   OF THE COUNTY EMPLOYEES’ AND OFFICERS’ ANNUITY AND BENEFIT FUND   OF COOK COUNTY AND EX OFFICIO FOR THE FOREST PRESERVE DISTRICT  EMPLOYEES’ ANNUITY AND BENEFIT FUND OF\n\n- **Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf** (.pdf, 145.4KB)\n  Title: Microsoft Word - Investment Consultant RFP 2023.docx\n  Author: pkorzen\n  Pages/Sheets: 12\n  Keywords: pkorzen\n  Modified: 2026-10-07\n  Preview: JULY 27, 2023    CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM    CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM    INVESTMENT CONSULTANT SERVICES    REQUEST FOR PROPOSAL (“RFP”)    RE: INVES\n\n- **INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf** (.pdf, 1.0MB)\n  Author: Jeffrey Hutson\n  Pages/Sheets: 58\n  Keywords: Jeffrey Hutson\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS (“RFP”) for  ALTERNATIVE INVESTMENT CONSULTING SERVICES    RFP NUMBER 23-09      RELEASE DATE:  October 23, 2023  DEADLINE FOR INQUIRIES: November 13, 2023, 3:00 P.M. (EST)  DEAD\n\n- **INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf** (.pdf, 998.5KB)\n  Title:  \n  Author: Constantin Sorlescu\n  Pages/Sheets: 41\n  Keywords: Constantin Sorlescu\n  Modified: 2026-10-07\n  Preview: 1\n\n- **OCERS__investment_consultant_services_rfp.pdf** (.pdf, 616.2KB)\n  Title: OCERS Investment Consultant Services RFP\n  Author: OCERS\n  Pages/Sheets: 37\n  Keywords: OCERS, OCERS Investment Consultant Services RFP\n  Modified: 2026-10-07\n  Preview: Investment Consultant Services  for:   General Investments and Risk  Private Equity  Real Assets  Real Estate  Requests for Proposal    Issued August 2021                    Orange County Employees Re\n\n- **Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf** (.pdf, 426.2KB)\n  Title: Request for Proposal\n  Author: Cummings, Meg\n  Pages/Sheets: 24\n  Keywords: Cummings, Meg\n  Modified: 2026-10-07\n  Preview: 3    Request for Proposal  Actuarial and Consulting  Services for Pension Benefits                                                B o s t o n  R e t i r e m e n t  S y s t e m   B o s t o n  C i t y\n\n- **SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf** (.pdf, 1.5MB)\n  Author: Kristina Richter\n  Pages/Sheets: 97\n  Keywords: Kristina Richter\n  Modified: 2026-10-07\n  Preview: Santa Barbara County Employees’ Retirement System Global Custody and Related Services 1      Request for Proposal       Global Custody and Related Services  Santa Barbara County Employees’ Retirement\n\n- **TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf** (.pdf, 752.5KB)\n  Title: TMRS • Request for Proposal • Global Custody and Related Services\n  Author: TMRS\n  Pages/Sheets: 79\n  Keywords: TMRS\n  Modified: 2026-10-07\n  Preview: 1 Request for Proposal  Global Custody  and Related Services   Texas Municipal Retirement System (TMRS)  Is s u e  D a t e :  De c e m b e r  1 1 ,  2 0 2 0   Q u e s t i o n s  D u e :  De c e m b e\n\n## Instructions\n1. Evaluate EVERY file listed above. Consider directory names, filenames, titles, keywords, and preview content as relevance signals.\n2. Assign \"high\" (directly relevant), \"medium\" (possibly relevant), or \"low\" (unlikely relevant) to each file.\n3. For the \"path\" field, copy the **exact relative path** shown in bold (e.g. `subdir/file.pdf`) from the scan results above.\n4. Return ONLY a JSON array — no other text.\n\n## Output Format (use the EXACT path shown in the file listing)\n```json\n[\n  {\"path\": \"exact/relative/path/from/listing\", \"relevance\": \"high\", \"reason\": \"brief reason\"}\n]\n```",
+  "keyword_files": [
+    "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "/mnt/docs/S/Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "/mnt/docs/S/Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf",
+    "/mnt/docs/S/OCERS__custodian_services_rfp_questions_and_answers.pdf",
+    "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+    "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "/mnt/docs/S/Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "/mnt/docs/S/Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf",
+    "/mnt/docs/S/OCERS__custodian_services_rfp_questions_and_answers.pdf",
+    "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+    "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf"
+  ],
+  "directory_ranking": [
+    {
+      "path": "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+      "filename": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+      "extension": ".pdf",
+      "size_bytes": 148912,
+      "modified_at": "2026-10-07T07:05:50",
+      "created_at": "2026-10-07T07:19:56.808047",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - Investment Consultant RFP 2023.docx",
+      "author": "pkorzen",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "pkorzen"
+      ],
+      "preview": "JULY 27, 2023 \n \nCITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM \n \nCITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM \n \nINVESTMENT CONSULTANT SERVICES \n \nREQUEST FOR PROPOSAL (“RFP”) \n \nRE: INVESTMENT CONSULTING SERVICES \n \nThe City of Grand General Retirement System and the City of Gra nd Rapi",
+      "content_loaded": false,
+      "relevance": "high",
+      "reason": "The Grand Rapids General Retirement System investment consultant RFP named in the query."
+    },
+    {
+      "path": "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+      "filename": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+      "extension": ".pdf",
+      "size_bytes": 223136,
+      "modified_at": "2026-10-07T07:05:45",
+      "created_at": "2026-10-07T07:19:56.288056",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "John Kelly",
+      "page_count": 15,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "John Kelly"
+      ],
+      "preview": "BOSTON \nRETIREMENT SYSTEM \n(“BRS”) \n \nINVESTMENT CONSULTING SERVICES \nREQUEST FOR PROPOSALS \n(“RFP”)",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment consultant RFP for Boston, not Grand Rapids."
+    },
+    {
+      "path": "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "filename": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1089597,
+      "modified_at": "2026-10-07T07:09:07",
+      "created_at": "2026-10-07T07:19:56.800047",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Davis, Liza D (OST)",
+      "page_count": 109,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Davis, Liza D (OST)"
+      ],
+      "preview": "1 \n \nREQUEST FOR PROPOSAL FOR DEFERRED COMPENSATION PLAN \nRECORDKEEPING AND ADMINISTRATION SERVICES ISSUED BY THE \nOFFICE OF THE STATE TREASURER   \nCONTRACT NUMBER:  TRE-CPM-21101- DEFERRED COMPENSATION PLAN \nRECORDKEEPING AND ADMINISTRATION SERVICES \n \n \nI. OVERVIEW \n \nBy this request for proposal ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Delaware deferred compensation recordkeeping RFP."
+    },
+    {
+      "path": "/mnt/docs/S/CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+      "filename": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+      "extension": ".pdf",
+      "size_bytes": 539265,
+      "modified_at": "2026-10-07T07:07:49",
+      "created_at": "2026-10-07T07:19:56.372055",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Stephanie Shedd",
+      "page_count": 86,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Stephanie Shedd"
+      ],
+      "preview": "REQUEST FOR PROPOSALS \nFOR \nMASTER CUSTODIAN AND \nRELATED SERVICES \n \n \nApril 2018 \n \n \n \n \n \n \n \n \n \n \n \nContra Costa County Employees’ Retirement Association\n  \n1355 Willow Way, Suite 221 \nConcord, CA  94520  \n(925) 521-3960 \nFax (925) 521-3969 \nwww.cccera.org",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Custodian RFP for a different retirement system."
+    },
+    {
+      "path": "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+      "filename": "SBCERS__2020-Private-Equity-RFP.pdf",
+      "extension": ".pdf",
+      "size_bytes": 271669,
+      "modified_at": "2026-10-07T07:07:55",
+      "created_at": "2026-10-07T07:19:58.656015",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - 2020 Private Equity RFP",
+      "author": "lthompson",
+      "page_count": 34,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "lthompson"
+      ],
+      "preview": "1 \n \nSANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM \n \nREQUEST FOR PROPOSALS (RFP) \nFOR \nDISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES \n \n \n \n \nTIMELINE \nDate of RFP issuance July 27, 2020 \nDeadline for written questions to SBCERS August 10, 2020 \nDeadline for submission of Proposals August 21",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Private equity consultant RFP for a different retirement system."
+    },
+    {
+      "path": "/mnt/docs/S/Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf",
+      "filename": "Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf",
+      "extension": ".pdf",
+      "size_bytes": 55822,
+      "modified_at": "2026-10-07T07:17:59",
+      "created_at": "2026-10-07T07:19:58.856012",
+      "mime_type": "application/pdf",
+      "title": "Request for Proposal (RFP) for Outsourced Chief Investment Officer (OCIO) Services",
+      "author": "",
+      "page_count": 5,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "Request for Proposal (RFP) for Outsourced Chief Investment Officer \n(OCIO) Services  \nIssued By: Samuel Fels Fund \nContact: Uma Viswanathan uma@samfels.org; Nimrit \nKang kangnkgo@gmail.com  \n1. Introduction and Overview \nThe Samuel S. Fels Fund’s [Fels Fund] mission is to improve conditions and \nopp",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "OCIO RFP for an unrelated fund."
+    },
+    {
+      "path": "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "filename": "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "extension": ".pdf",
+      "size_bytes": 189839,
+      "modified_at": "2026-10-07T07:15:10",
+      "created_at": "2026-10-07T07:19:56.012061",
+      "mime_type": "application/pdf",
+      "title": "Private Markets Due Diligence Questionnaire",
+      "author": "",
+      "page_count": 4,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "As you explore potential partnerships in private markets, it’s important to recognize that these investments work differently \nthan traditional public market investments held in daily liquid vehicles, such as mutual funds and ETFs. This questionnaire is \ndesigned to help you navigate those differenc",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "General private markets questionnaire."
+    },
+    {
+      "path": "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+      "filename": "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+      "extension": ".pdf",
+      "size_bytes": 124004,
+      "modified_at": "2026-10-07T07:12:01",
+      "created_at": "2026-10-07T07:19:56.944045",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Microsoft Office User",
+      "page_count": 3,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Microsoft Office User"
+      ],
+      "preview": "Institutional Limited Partners Association                              1776 I St. NW Suite 525 Washington, D.C. 20006 \n \nESG Assessment Framework – Key Considerations and FAQ \n \nOverview  \nILPA released this ESG Assessment Framework as a resource for limited partners looking to build a tool \nto eva",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "ESG framework FAQ, not a retirement system RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "filename": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "extension": ".pdf",
+      "size_bytes": 201881,
+      "modified_at": "2026-10-07T07:05:47",
+      "created_at": "2026-10-07T07:19:56.272057",
+      "mime_type": "application/pdf",
+      "title": "ATTACHMENT 3C – FOR BOTH GENERAL AND PUBLIC MARKET CONSULTANT AND ALTERNATIVE CONSULTANT—SERVICE LEVEL THREE",
+      "author": "DanielGr",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "DanielGr"
+      ],
+      "preview": "Attachment 3-1 \n \n \n \n \nATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES \nPROPOSAL QUESTIONNAIRE \n \nBOSTON RETIREMENT SYSTEM \n \nInvestment Consulting Services  \nRequest for Proposals \nINSTRUCTIONS \n \nBRS is considering Proposals for a General Investment Services Consultant, which encompasses Public",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Boston investment consultant RFP attachment."
+    },
+    {
+      "path": "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+      "filename": "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 831223,
+      "modified_at": "2026-10-07T07:14:31",
+      "created_at": "2026-10-07T07:19:57.884029",
+      "mime_type": "application/pdf",
+      "title": "MassPRIM Active Global Core Equity Investment Management Services RFP",
+      "author": "Abouhala, Andre",
+      "page_count": 82,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Abouhala, Andre"
+      ],
+      "preview": "Pension Reserves Investment Management Board \n  \n \n \n \n \n \nDeborah B. Goldberg, Treasurer and Receiver General, Chair \nMichael G. Trotsky, CFA, Executive Director and Chief Investment Officer \n \nmapension.com | 53 State Street, Suite 600, Boston, MA 02109 | (617) 946-8401 \n \nSeptember 8, 2026 \n \nDea",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment management RFP for MassPRIM."
+    },
+    {
+      "path": "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+      "filename": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+      "extension": ".pdf",
+      "size_bytes": 2103688,
+      "modified_at": "2026-10-07T07:08:53",
+      "created_at": "2026-10-07T07:19:56.680050",
+      "mime_type": "application/pdf",
+      "title": "`REQUEST FOR PROPOSALS",
+      "author": "Clark County",
+      "page_count": 63,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Clark County"
+      ],
+      "preview": "REQUEST for PROPOSAL # 955 \nPROFESSIONAL, TECHNICAL AND EXPERT SERVICES \n \nClark County Washington \n \n          RELEASE DATE: WEDNESDAY, MAY 6, 2026  \n                DUE DATE: WEDNESDAY, JUNE 10, 2026 by 11:00 am \n \nLATE PROPOSALS WILL NOT BE ACCEPTED – NO EXCEPTIONS \n \nRequest for Proposal for: \n ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Deferred compensation administrator RFP for Clark County."
+    },
+    {
+      "path": "/mnt/docs/S/SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+      "filename": "SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+      "extension": ".docx",
+      "size_bytes": 42087,
+      "modified_at": "2026-10-07T07:11:23",
+      "created_at": "2026-10-07T07:19:58.424019",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "title": "RFP – Fixed Income Investment Management Services",
+      "author": "Alton Cogert",
+      "page_count": 0,
+      "encoding": "",
+      "line_count": 132,
+      "keywords": [
+        "Alton Cogert"
+      ],
+      "preview": "REQUEST FOR PROPOSAL\nFIXED INCOME INVESTMENT MANAGEMENT SERVICES\nI. Background Information\nFirm Name:\nYear of Organization:\nTotal Number of Employees:\nTotal Number of Investment Professionals:\nAddress:\nTelephone:\nFax Number:\nContact for Questionnaire:\nTelephone:\nInsurance Client Contact:\nTelephone:\n",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "Investment manager questionnaire unrelated to Grand Rapids."
+    },
+    {
+      "path": "/mnt/docs/S/York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf",
+      "filename": "York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf",
+      "extension": ".pdf",
+      "size_bytes": 943178,
+      "modified_at": "2026-10-07T07:17:46",
+      "created_at": "2026-10-07T07:19:59.264005",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - REQUEST FOR PROPOSALS DRAFT 2.3+ICON.docx",
+      "author": "Frederick",
+      "page_count": 9,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Frederick"
+      ],
+      "preview": "REQUEST FOR PROPOSALS \nFOR \nINVESTMENT \nMANAGER/ADVISER/CONSULTANT \n \n \n \n \n \nCITY OF YORK \nPENSION FUNDS \n \n \nNOVEMBER 28, 2016 \n \n \nRESPONSES DUE JANUARY 6, 2017",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment consultant RFP for York pension funds."
+    },
+    {
+      "path": "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+      "filename": "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+      "extension": ".pdf",
+      "size_bytes": 247306,
+      "modified_at": "2026-10-07T07:06:18",
+      "created_at": "2026-10-07T07:19:56.696049",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Fernando Vinzons",
+      "page_count": 14,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Fernando Vinzons"
+      ],
+      "preview": "1 \n \n \n \nTHE RETIREMENT BOARD  \nOF THE COUNTY EMPLOYEES’ AND OFFICERS’ ANNUITY AND BENEFIT FUND  \nOF COOK COUNTY AND EX OFFICIO FOR THE FOREST PRESERVE DISTRICT \nEMPLOYEES’ ANNUITY AND BENEFIT FUND OF COOK COUNTY  \n \n \n \n \nREQUEST FOR PROPOSALS (RFP) \nTO PROVIDE \nMANAGER OF MANAGERS INVESTMENT SERVI",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "RFP for Cook County pension funds."
+    },
+    {
+      "path": "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "filename": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1063300,
+      "modified_at": "2026-10-07T07:15:02",
+      "created_at": "2026-10-07T07:19:57.136042",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Jeffrey Hutson",
+      "page_count": 58,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Jeffrey Hutson"
+      ],
+      "preview": "REQUEST FOR PROPOSALS (“RFP”) for \nALTERNATIVE INVESTMENT CONSULTING SERVICES \n \nRFP NUMBER 23-09 \n \n \nRELEASE DATE:  October 23, 2023 \nDEADLINE FOR INQUIRIES: November 13, 2023, 3:00 P.M. (EST) \nDEADLINE FOR SUBMISSION:  December 15, 2023, 3:00 P.M. (EST)",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Alternative investment consulting RFP for Indiana."
+    },
+    {
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "filename": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1022513,
+      "modified_at": "2026-10-07T07:12:08",
+      "created_at": "2026-10-07T07:19:57.396037",
+      "mime_type": "application/pdf",
+      "title": " ",
+      "author": "Constantin Sorlescu",
+      "page_count": 41,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Constantin Sorlescu"
+      ],
+      "preview": "1",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Real estate due diligence questionnaire."
+    },
+    {
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+      "filename": "OCERS__investment_consultant_services_rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 630996,
+      "modified_at": "2026-10-07T07:02:13",
+      "created_at": "2026-10-07T07:19:58.220023",
+      "mime_type": "application/pdf",
+      "title": "OCERS Investment Consultant Services RFP",
+      "author": "OCERS",
+      "page_count": 37,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "OCERS",
+        "OCERS Investment Consultant Services RFP"
+      ],
+      "preview": "Investment Consultant Services \nfor:  \nGeneral Investments and Risk \nPrivate Equity \nReal Assets \nReal Estate \nRequests for Proposal \n \nIssued August 2021 \n \n \n \n \n \n \n \n \n \nOrange County Employees Retirement System (OCERS) \n2223 E Wellington Avenue Suite 100 \nSanta Ana, CA 92701 USA \n1-(714)-558-62",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment consultant RFP for Orange County."
+    },
+    {
+      "path": "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+      "filename": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+      "extension": ".pdf",
+      "size_bytes": 436410,
+      "modified_at": "2026-10-07T07:07:11",
+      "created_at": "2026-10-07T07:19:56.324056",
+      "mime_type": "application/pdf",
+      "title": "Request for Proposal",
+      "author": "Cummings, Meg",
+      "page_count": 24,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Cummings, Meg"
+      ],
+      "preview": "3 \n \nRequest for Proposal \nActuarial and Consulting \nServices for Pension Benefits  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \nB o s t o n  R e t i r e m e n t  S y s t e m  \nB o s t o n  C i t y  H a l l ,  R o o m  8 1 6  \nO n e  C i t y  H a l l  S q u a r e  \nB o s t o n ,  M A   0 2 2 0 1  \n",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Boston actuarial consulting RFP."
+    },
+    {
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "filename": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1598389,
+      "modified_at": "2026-10-07T07:07:42",
+      "created_at": "2026-10-07T07:19:58.636015",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Kristina Richter",
+      "page_count": 97,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Kristina Richter"
+      ],
+      "preview": "Santa Barbara County Employees’ Retirement System Global Custody and Related Services 1 \n \n \nRequest for Proposal \n \n  \nGlobal Custody and Related Services \nSanta Barbara County Employees’ Retirement System \n(“SBCERS”) \n \n  \nIssue Date:       January 8, 2024 \nQuestions Due:      January 12, 2024  \nQ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Custody RFP for Santa Barbara County."
+    },
+    {
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+      "filename": "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+      "extension": ".pdf",
+      "size_bytes": 770536,
+      "modified_at": "2026-10-07T07:07:47",
+      "created_at": "2026-10-07T07:19:59.048008",
+      "mime_type": "application/pdf",
+      "title": "TMRS • Request for Proposal • Global Custody and Related Services",
+      "author": "TMRS",
+      "page_count": 79,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "TMRS"
+      ],
+      "preview": "1\nRequest for Proposal \nGlobal Custody\n and Related Services  \nTexas Municipal Retirement System (TMRS) \nIs\ns u e  D a t e :  De c e m b e r  1 1 ,  2 0 2 0  \nQ u e s t i o n s  D u e :  De c e m b e r  2 8 ,  2 0 2 0  \nQ&A Responses Delivered: January 8, 2021 \nSubmission Deadline:   January 27, 202",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Custody RFP for the Texas Municipal Retirement System."
+    }
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 715,
+      "timestamp": "2026-10-23 08:18:38.612296",
+      "metadata": {
+        "keywords": [
+          "Grand Rapids General Retirement System",
+          "investment consultant RFP",
+          "total market value",
+          "大急流城普通退休制度",
+          "投资顾问征求建议书",
+          "总市值"
+        ],
+        "files_found": 13,
+        "files_discovered": [
+          "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+          "/mnt/docs/S/Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+          "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+          "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf",
+          "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+          "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+          "/mnt/docs/S/Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+          "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+          "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf",
+          "/mnt/docs/S/OCERS__custodian_services_rfp_questions_and_answers.pdf",
+          "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf",
+          "/mnt/docs/S/TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+          "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf"
+        ]
+      }
+    }
+  ],
+  "elapsed_s": 14.125,
+  "calls": 2,
+  "usage": {
+    "prompt_tokens": 3470,
+    "completion_tokens": 1264,
+    "total_tokens": 4734
+  },
+  "group": "R3",
+  "attempt": 2
+}

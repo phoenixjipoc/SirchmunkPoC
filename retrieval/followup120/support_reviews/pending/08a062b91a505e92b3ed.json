@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "08a062b91a505e92b3ed",
+    "query_id": "XD-09",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+    "file": "CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+    "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+    "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+    "text_hash": "bf49c387d8a37c04a78d322964991be22059ee6783e6dc5d66c93cff8fa9271e",
+    "source_text_sha256": "9832ae165dde61dfd8e8dfc5d940d90cb11879b98946460d80a059b413bccc0b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a JPA sample investment management RFP, not the ILPA Due Diligence Questionnaire v1.2. Its table of contents does not list the requested lettered appendices.",
+      "quotes": [
+        "Z. SAMPLE INVESTMENT MANAGEMENT REQUEST FOR PROPOSAL (RFP)",
+        "REQUEST FOR PROPOSAL FOR INVESTMENT MANAGEMENT SERVICES FOR [Name of JPA] TABLE OF CONTENTS",
+        "I. INTRODUCTION…………………………………………………………...3 II. SCOPE OF SERVICES……………………………………………………..3 III. PROPOSAL REQUIREMENTS…………………………………………….4"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Z. SAMPLE INVESTMENT MANAGEMENT REQUEST FOR PROPOSAL (RFP)",
+          "start": 13,
+          "end": 71
+        },
+        {
+          "quote": "REQUEST FOR PROPOSAL FOR INVESTMENT MANAGEMENT SERVICES FOR [Name of JPA] TABLE OF CONTENTS",
+          "start": 367,
+          "end": 458
+        },
+        {
+          "quote": "I. INTRODUCTION…………………………………………………………...3 II. SCOPE OF SERVICES……………………………………………………..3 III. PROPOSAL REQUIREMENTS…………………………………………….4",
+          "start": 459,
+          "end": 591
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

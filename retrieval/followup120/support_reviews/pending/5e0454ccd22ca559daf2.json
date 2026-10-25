@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "5e0454ccd22ca559daf2",
+    "query_id": "SVC-18",
+    "question": "What minimum qualifications must an audit firm meet in the Kern County Employees' Retirement Association (KCERA) RFP for audit services?",
+    "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "expected_facts": "(1) Professional public accounting firm organized at least on a regional basis providing audit and attest services; (2) within the last five years, at least five audits of defined benefit pension plans with assets over $2 billion; (3) experience auditing equity securities (domestic and foreign), fixed income, real estate, alternative investments, commodities and securities lending; (4) an established office in the United States; (5) independent, licensed by and in good standing with California under the Accountancy Act; (6) Engagement Partner (and signing partner) located in the U.S. with at least 10 years of public accounting experience including DB pension plan audits, California-licensed CPA; (7) Engagement Manager located in the U.S. with at least 5 years of public accounting experience including DB plan audits, CPA licensed in a U.S. state; (8) On-Site Audit Supervisor located in the U.S. with at least 3 years of auditing experience including DB plan audits, CPA licensed in a U.S. state; (9) Engagement Manager and Supervisor available for consultations and in-person meetings throughout the year.",
+    "acceptance": "Accept a faithful summary of the nine requirements. Do not impose desirable two audits of >$3bn plans or a California license for manager/supervisor as minimums; a U.S.-state license suffices for those roles.",
+    "text_hash": "671c411958eb874cfc800e9ef62f40b39ce0a3618032e31c58dc0911d1ac78ca",
+    "source_text_sha256": "a59653c4763af085dd01d7961474b0d3e4d1e15ac1d4029f77327171d4183a79",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Missouri LAGERS RFP for private market consulting services, not KCERA’s RFP for audit services. Its minimum requirements do not establish the audit-firm or audit-team qualifications in the question.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL PRIVATE MARKET CONSULTING SERVICES",
+        "Missouri Local Government Employees Retirement System (LAGERS)",
+        "Missouri Local Government Employees Retirement System (LAGERS) is issuing this Request for Proposal (RFP) for the purpose of soliciting qualified firms to provide private market consulting services."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL PRIVATE MARKET CONSULTING SERVICES",
+          "start": 13,
+          "end": 68
+        },
+        {
+          "quote": "Missouri Local Government Employees Retirement System (LAGERS)",
+          "start": 92,
+          "end": 154
+        },
+        {
+          "quote": "Missouri Local Government Employees Retirement System (LAGERS) is issuing this Request for Proposal (RFP) for the purpose of soliciting qualified firms to provide private market consulting services.",
+          "start": 9735,
+          "end": 9933
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

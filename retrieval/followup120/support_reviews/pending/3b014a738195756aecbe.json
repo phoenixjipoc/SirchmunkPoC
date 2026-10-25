@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "3b014a738195756aecbe",
+    "query_id": "CONS-09",
+    "question": "Which retirement system's investment consultant RFP requires firms to certify that they currently provide investment consulting services to clients whose combined assets total at least $50 billion?",
+    "file": "CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+    "expected_facts": "Teachers' Retirement System of the State of Illinois (TRS Illinois), in its FY23 investment consultant RFP (Appendix B, Statement of Minimum Qualifications).",
+    "acceptance": "TRS Illinois / Teachers’ Retirement System of the State of Illinois is sufficient; FY23 and appendix identifier are optional.",
+    "text_hash": "5c98835d17ae19e74a1c69b0fc86fce32b5dedf1d99ddfe45a7e49317a1c8bd3",
+    "source_text_sha256": "60169ae3746f75165ace8effc688309245b22923d9ef350fc55e0ee0a593895b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the Retirement Plan for CTA Employees’ 2025 RFP, not a TRS Illinois RFP. Its qualifications do not require certification that the firm currently serves investment-consulting clients with combined assets of at least $50 billion.",
+      "quotes": [
+        "Retirement Plan for CTA Employees Investment Consulting Request for Proposals",
+        "Advertised Date April 29, 2025",
+        "As of December 31, 2024, the firm must have at least three public fund clients, each with at least $1B in assets."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Retirement Plan for CTA Employees Investment Consulting Request for Proposals",
+          "start": 13,
+          "end": 90
+        },
+        {
+          "quote": "Advertised Date April 29, 2025",
+          "start": 91,
+          "end": 121
+        },
+        {
+          "quote": "As of December 31, 2024, the firm must have at least three public fund clients, each with at least $1B in assets.",
+          "start": 3150,
+          "end": 3263
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

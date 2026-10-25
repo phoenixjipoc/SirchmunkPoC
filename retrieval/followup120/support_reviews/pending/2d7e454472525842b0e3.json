@@ -1,0 +1,77 @@
+{
+  "job": {
+    "id": "2d7e454472525842b0e3",
+    "query_id": "XD-06",
+    "question": "One private equity due diligence questionnaire asks whether the fund gives limited partners more than a certain number of business days' notice for capital calls. What is the threshold, and in which section of the questionnaire is this question?",
+    "file": "NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+    "expected_facts": "The threshold is more than 10 business days' notice for capital calls, either generally or in specific circumstances (e.g. when a single capital call is above an agreed and stated percentage of total unfunded commitment). It is question 7.14 in Section 7.0 Credit Facilities of the ILPA Due Diligence Questionnaire 2.0.",
+    "acceptance": "Accept more than ten business days and Credit Facilities. Question number, document version and illustrative circumstances are helpful but not all mandatory for the narrow threshold/section question.",
+    "text_hash": "3516f06942296a13790d5250dd3dc95e16beeedcedf43881e04dbdadcf57a737",
+    "source_text_sha256": "08f79c49a998e8248f8328721eb10847c01f41d0d431e9afc498a5d3f2e09555",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a different due diligence questionnaire. Its Section 7.0 is Reporting, not Credit Facilities, and its capital-calls question does not specify a notice threshold.",
+      "quotes": [
+        "APPENDIX A DUE DILIGENCE QUESTIONNAIRE",
+        "7.0 Reporting",
+        "11.3. Detail the processes and procedures for capital movements (capital calls, transfers of cash, investment acquisitions and distributions)."
+      ],
+      "quote_matches": [
+        {
+          "quote": "APPENDIX A DUE DILIGENCE QUESTIONNAIRE",
+          "start": 13,
+          "end": 51
+        },
+        {
+          "quote": "7.0 Reporting",
+          "start": 12427,
+          "end": 12440
+        },
+        {
+          "quote": "11.3. Detail the processes and procedures for capital movements (capital calls, transfers of cash, investment acquisitions and distributions).",
+          "start": 18476,
+          "end": 18618
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied source is a NJEDA due diligence questionnaire, not the ILPA Due Diligence Questionnaire 2.0. Its Section 7.0 is Reporting, not Credit Facilities. It mentions capital calls but does not state a notice threshold in business days.",
+      "quotes": [
+        "APPENDIX A DUE DILIGENCE QUESTIONNAIRE",
+        "7.0 Reporting",
+        "11.3. Detail the processes and procedures for capital movements (capital calls, transfers of cash, investment acquisitions and distributions)."
+      ],
+      "quote_matches": [
+        {
+          "quote": "APPENDIX A DUE DILIGENCE QUESTIONNAIRE",
+          "start": 13,
+          "end": 51
+        },
+        {
+          "quote": "7.0 Reporting",
+          "start": 12427,
+          "end": 12440
+        },
+        {
+          "quote": "11.3. Detail the processes and procedures for capital movements (capital calls, transfers of cash, investment acquisitions and distributions).",
+          "start": 18476,
+          "end": 18618
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

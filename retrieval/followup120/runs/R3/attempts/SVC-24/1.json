@@ -1,0 +1,520 @@
+{
+  "query_id": "SVC-24",
+  "question": "What contract terms (initial length and any renewal or extension options) do the deferred compensation / 457 plan recordkeeping RFPs in the corpus propose?",
+  "type": "broad",
+  "pair_id": "",
+  "seed": 3246747923,
+  "references": [
+    {
+      "rank": 1,
+      "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "path": "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Monroe_County_NY__10406.pdf",
+      "path": "/mnt/docs/S/Monroe_County_NY__10406.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+      "path": "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "path": "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "keywords": {
+    "deferred compensation plans": 7.0,
+    "457 plan recordkeeping RFPs": 9.0,
+    "initial contract length": 5.0,
+    "renewal or extension options": 6.0,
+    "递延薪酬": 7.0,
+    "457计划": 8.0,
+    "记录管理": 6.0,
+    "征求建议书": 7.0
+  },
+  "keyword_terms": [
+    "deferred compensation plans",
+    "457 plan recordkeeping RFPs",
+    "initial contract length",
+    "renewal or extension options",
+    "递延薪酬",
+    "457计划",
+    "记录管理",
+    "征求建议书"
+  ],
+  "directory_prompt": "You are a document triage specialist. Analyze the scanned files below and rank them by relevance to the user's query.\n\n## Directory Structure\nRoot: /mnt/docs/S\n```\n  ./ (20 files)\n```\n\n## User Query\nWhat contract terms (initial length and any renewal or extension options) do the deferred compensation / 457 plan recordkeeping RFPs in the corpus propose?\n\n## Scanned Files\n- **DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf** (.pdf, 439.7KB)\n  Title: Microsoft Word - Real Assets Consultant RFP - 2011 v3.docx\n  Author: Katie Schultz\n  Pages/Sheets: 25\n  Modified: 2026-10-07\n\n- **Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf** (.pdf, 285.5KB)\n  Author: Brad Tillberg\n  Pages/Sheets: 17\n  Keywords: Brad Tillberg\n  Modified: 2026-10-07\n  Preview: OPERS RFP – Investment Management Services – Issued July 20, 2023  Page 1 of 17  THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM    REQUEST FOR PROPOSAL  #515-24-001    U.S. EQUITY, Non-U.S. EQUITY, A\n\n- **York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf** (.pdf, 921.1KB)\n  Title: Microsoft Word - REQUEST FOR PROPOSALS DRAFT 2.3+ICON.docx\n  Author: Frederick\n  Pages/Sheets: 9\n  Keywords: Frederick\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS  FOR  INVESTMENT  MANAGER/ADVISER/CONSULTANT            CITY OF YORK  PENSION FUNDS      NOVEMBER 28, 2016      RESPONSES DUE JANUARY 6, 2017\n\n- **SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf** (.pdf, 380.0KB)\n  Title: August 11, 2008\n  Author: dpcadmin\n  Pages/Sheets: 21\n  Keywords: dpcadmin\n  Modified: 2026-10-07\n  Preview: SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM  REQUEST FOR PROPOSAL (RFP) FOR  GENERAL INVESTMENT CONSULTANT\n\n- **INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf** (.pdf, 1.0MB)\n  Author: Jeffrey Hutson\n  Pages/Sheets: 58\n  Keywords: Jeffrey Hutson\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS (“RFP”) for  ALTERNATIVE INVESTMENT CONSULTING SERVICES    RFP NUMBER 23-09      RELEASE DATE:  October 23, 2023  DEADLINE FOR INQUIRIES: November 13, 2023, 3:00 P.M. (EST)  DEAD\n\n- **AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf** (.pdf, 185.4KB)\n  Title: Private Markets Due Diligence Questionnaire\n  Pages/Sheets: 4\n  Modified: 2026-10-07\n  Preview: As you explore potential partnerships in private markets, it’s important to recognize that these investments work differently  than traditional public market investments held in daily liquid vehicles,\n\n- **Hawaii_ERS__ERS-Private-Equity-AD.pdf** (.pdf, 12.5KB)\n  Title: Microsoft Word - ERS Private Equity AD (website.spo).docx\n  Author: misakil\n  Pages/Sheets: 2\n  Keywords: misakil\n  Modified: 2026-10-07\n  Preview: STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM  REQUEST FOR PROPOSAL (RFP)  FOR PRIVATE EQUITY CONSULTING   AND INVESTMENT SERVICES      The Employees’ Retirement System of the State of Hawaii (ERS) is soliciting  proposals for qualified firm(s) to provide private equity investment consulting and  investment management services to the ERS.  The consulting firm(s) must be  United States based, registered under the Investment Advisors Act of 1940, been  in business for a minimum of five years and h\n\n- **Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf** (.pdf, 66.5KB)\n  Title: Publish:\n  Author: konishig\n  Pages/Sheets: 1\n  Keywords: konishig\n  Modified: 2026-10-07\n  Preview: EMPLOYEES’ RETIREMENT SYSTEM   OF THE STATE OF HAWAII  REQUEST FOR PROPOSALS (RFP)  REAL ESTATE INVESTMENT CONSULTANT SERVICES      The Employees’ Retirement System of the State of Hawaii (ERS) is soliciting  proposals for a qualified firm to provide non-discretionary real estate investment  consulting services to the ERS.  The consulting firm must be United States  based, registered under the Investment Advisers Act of 1940, been in business  for a minimum of three years and have at least one d\n\n- **Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf** (.pdf, 1.1MB)\n  Author: Lisa Giles\n  Pages/Sheets: 35\n  Keywords: Lisa Giles\n  Modified: 2026-10-07\n  Preview: TRS Request for Proposal # 715-2025-1002  J. KEVIN STITT GOVERNOR SARAH GREEN  EXECUTIVE DIRECTOR  Teachers’ Retirement System of Oklahoma  P.O. Box 53524  Oklahoma City, OK  73152-3524  Oklahoma.gov/\n\n- **KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf** (.pdf, 469.5KB)\n  Title: Microsoft Word - Audit Actuary RFP 2024 Final\n  Author: matt.henry\n  Pages/Sheets: 50\n  Keywords: matt.henry\n  Modified: 2026-10-07\n  Preview: Kern County Employees’ Retirement Association             Request for Proposal     ACTUARIAL AUDIT SERVICES            March 29, 2024\n\n- **OCERS__ocers_pas_consultant_rfp.pdf** (.pdf, 602.1KB)\n  Title: Pension Administration Project Oversight and Consultation Services RFP\n  Author: OCERS\n  Pages/Sheets: 39\n  Keywords: OCERS, Pension Administration Project Oversight and Consultation Services OCERS RFP\n  Modified: 2026-10-07\n  Preview: Pension Administration System Consulting RFP Page 1    Pension Administration Project  Oversight and Consultation  Services  Request for Proposal    September 2023                                  Ora\n\n- **LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf** (.pdf, 1.6MB)\n  Author: Jennifer Van\n  Pages/Sheets: 67\n  Keywords: Jennifer Van\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS  FINANCIAL STATEMENT AUDIT SERVICES  Release Date: January 31, 2025  RFP Number: DCFS25-01  Proposal Due Date: March 5, 2025, 3:00 P.M. PST  Los Angeles Fire and Police Pensions\n\n- **Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf** (.pdf, 54.5KB)\n  Title: Request for Proposal (RFP) for Outsourced Chief Investment Officer (OCIO) Services\n  Pages/Sheets: 5\n  Modified: 2026-10-07\n  Preview: Request for Proposal (RFP) for Outsourced Chief Investment Officer  (OCIO) Services   Issued By: Samuel Fels Fund  Contact: Uma Viswanathan uma@samfels.org; Nimrit  Kang kangnkgo@gmail.com   1. Introduction and Overview  The Samuel S. Fels Fund’s [Fels Fund] mission is to improve conditions and  opportunities for communities that are and have been historically excluded and  marginalized in Philadelphia, and to move us towards a more socially, racially, and  economically just society.  The organi\n\n- **ILPA__ESG-Assessment-Framework-FAQ.pdf** (.pdf, 121.1KB)\n  Author: Microsoft Office User\n  Pages/Sheets: 3\n  Keywords: Microsoft Office User\n  Modified: 2026-10-07\n  Preview: Institutional Limited Partners Association                              1776 I St. NW Suite 525 Washington, D.C. 20006    ESG Assessment Framework – Key Considerations and FAQ    Overview   ILPA relea\n\n- **CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf** (.pdf, 183.1KB)\n  Title: Microsoft Word - 2025 RP Investment Consultant RFP 04 29 25\n  Author: Paul\n  Pages/Sheets: 12\n  Keywords: Paul\n  Modified: 2026-10-07\n  Preview: Retirement Plan for CTA  Employees  Investment Consulting   Request for Proposals              Advertised Date  April 29, 2025      Proposals Due via email  May 30, 2025  3:00 pm, Central Time  psidry\n\n- **Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf** (.pdf, 351.7KB)\n  Title: Microsoft Word - Private Markets RFP V3 2023.02.13\n  Author: mgreen\n  Pages/Sheets: 33\n  Keywords: mgreen\n  Modified: 2026-10-07\n  Preview: Firefighters’ Pension Investment Fund  Request for Proposals  for  Private Markets Investment Consulting and Discretionary OCIO Advisory Services      February 13, 2023\n\n- **Hartford_MERF__file.pdf** (.pdf, 940.5KB)\n  Title: RFP INVESTMENT CONSULTANT ASSISTANCE\n  Author: Patricia Stokes\n  Pages/Sheets: 76\n  Keywords: Patricia Stokes\n  Modified: 2026-10-07\n  Preview: CITY OF HARTFORD TREASURER’S OFFICE  MUNICIPAL EMPLOYEES’ RETIREMENT  FUND of the CITY of HARTFORD and CITY of  HARTFORD OPEB TRUST   250 Constitution Plaza - 2nd Floor  HARTFORD, CONNECTICUT 06103  w\n\n- **OCERS__custodian_services_rfp_questions_and_answers.pdf** (.pdf, 300.4KB)\n  Title: Custodian Services RFP Questions and Answers\n  Author: OCERS\n  Pages/Sheets: 12\n  Keywords: OCERS, OCERS Custodian Services RFP Questions and Answers\n  Modified: 2026-10-07\n  Preview: Custody Services  Request for Proposal  Questions & Answers    October 2022                                  Orange County Employees Retirement System (OCERS)  P.O. Box 1229  Santa Ana, CA 927021-(714\n\n- **TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf** (.pdf, 431.9KB)\n  Title:  TMRS RFP General Investment Consulting Services\n  Author: TMRS\n  Pages/Sheets: 39\n  Keywords: TMRS\n  Modified: 2026-10-07\n  Preview: 1          Request for Proposal (RFP)  NON-DISCRETIONARY   GENERAL INVESTMENT CONSULTING SERVICES      Notice to Prospective Respondents  February 3, 2022    You are invited to review and respond to t\n\n- **Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf** (.pdf, 451.8KB)\n  Title: RFP INVESTMENT CONSULTANT ASSISTANCE\n  Author: Patricia Stokes\n  Pages/Sheets: 28\n  Keywords: Patricia Stokes\n  Modified: 2026-10-07\n  Preview: THE EMPLOYEES’ RETIREMENT SYSTEM  and OPEB TRUST – CITY OF BALTIMORE      REQUEST FOR PROPOSALS (RFP)  for    ALTERNATIVES CONSULTANT     __________________________________________    Timeline   Date\n\n## Instructions\n1. Evaluate EVERY file listed above. Consider directory names, filenames, titles, keywords, and preview content as relevance signals.\n2. Assign \"high\" (directly relevant), \"medium\" (possibly relevant), or \"low\" (unlikely relevant) to each file.\n3. For the \"path\" field, copy the **exact relative path** shown in bold (e.g. `subdir/file.pdf`) from the scan results above.\n4. Return ONLY a JSON array — no other text.\n\n## Output Format (use the EXACT path shown in the file listing)\n```json\n[\n  {\"path\": \"exact/relative/path/from/listing\", \"relevance\": \"high\", \"reason\": \"brief reason\"}\n]\n```",
+  "keyword_files": [
+    "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf",
+    "/mnt/docs/S/Monroe_County_NY__10406.pdf",
+    "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf",
+    "/mnt/docs/S/Monroe_County_NY__10406.pdf",
+    "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+  ],
+  "directory_ranking": [
+    {
+      "path": "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf",
+      "filename": "OCERS__ocers_pas_consultant_rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 616526,
+      "modified_at": "2026-10-07T07:09:11",
+      "created_at": "2026-10-07T07:19:58.264022",
+      "mime_type": "application/pdf",
+      "title": "Pension Administration Project Oversight and Consultation Services RFP",
+      "author": "OCERS",
+      "page_count": 39,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "OCERS",
+        "Pension Administration Project Oversight and Consultation Services OCERS RFP"
+      ],
+      "preview": "Pension Administration System Consulting RFP Page 1 \n \nPension Administration Project \nOversight and Consultation \nServices \nRequest for Proposal \n \nSeptember 2023 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nOrange County Employees Retirement System (OCERS) \n2223 E Wellington Avenue Suite 100 \nSanta Ana, CA 92",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Pension administration system consulting is adjacent to plan administration, but the RFP is not identified as 457 recordkeeping."
+    },
+    {
+      "path": "/mnt/docs/S/DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+      "filename": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+      "extension": ".pdf",
+      "size_bytes": 450240,
+      "modified_at": "2026-10-07T07:08:17",
+      "created_at": "2026-10-07T07:19:56.732049",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - Real Assets Consultant RFP - 2011 v3.docx",
+      "author": "Katie Schultz",
+      "page_count": 25,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Real-assets investment consulting, not deferred compensation recordkeeping."
+    },
+    {
+      "path": "/mnt/docs/S/Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+      "filename": "Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 292309,
+      "modified_at": "2026-10-07T07:06:35",
+      "created_at": "2026-10-07T07:19:58.324021",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Brad Tillberg",
+      "page_count": 17,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Brad Tillberg"
+      ],
+      "preview": "OPERS RFP – Investment Management Services – Issued July 20, 2023 \nPage 1 of 17 \nTHE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM \n \nREQUEST FOR PROPOSAL \n#515-24-001 \n \nU.S. EQUITY, Non-U.S. EQUITY, AND FIXED INCOME (TIPS) INDEX \nINVESTMENT MANAGEMENT SERVICES \n \nThe Board of Trustees of the Oklahom",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment management mandates, not 457 plan recordkeeping."
+    },
+    {
+      "path": "/mnt/docs/S/York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf",
+      "filename": "York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf",
+      "extension": ".pdf",
+      "size_bytes": 943178,
+      "modified_at": "2026-10-07T07:17:46",
+      "created_at": "2026-10-07T07:19:59.264005",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - REQUEST FOR PROPOSALS DRAFT 2.3+ICON.docx",
+      "author": "Frederick",
+      "page_count": 9,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Frederick"
+      ],
+      "preview": "REQUEST FOR PROPOSALS \nFOR \nINVESTMENT \nMANAGER/ADVISER/CONSULTANT \n \n \n \n \n \nCITY OF YORK \nPENSION FUNDS \n \n \nNOVEMBER 28, 2016 \n \n \nRESPONSES DUE JANUARY 6, 2017",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Pension investment manager and consultant RFP."
+    },
+    {
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "filename": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 389091,
+      "modified_at": "2026-10-07T07:02:20",
+      "created_at": "2026-10-07T07:19:58.740014",
+      "mime_type": "application/pdf",
+      "title": "August 11, 2008",
+      "author": "dpcadmin",
+      "page_count": 21,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "dpcadmin"
+      ],
+      "preview": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM \nREQUEST FOR PROPOSAL (RFP) FOR \nGENERAL INVESTMENT CONSULTANT",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "General investment consultant RFP, not recordkeeping."
+    },
+    {
+      "path": "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "filename": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1063300,
+      "modified_at": "2026-10-07T07:15:02",
+      "created_at": "2026-10-07T07:19:57.136042",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Jeffrey Hutson",
+      "page_count": 58,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Jeffrey Hutson"
+      ],
+      "preview": "REQUEST FOR PROPOSALS (“RFP”) for \nALTERNATIVE INVESTMENT CONSULTING SERVICES \n \nRFP NUMBER 23-09 \n \n \nRELEASE DATE:  October 23, 2023 \nDEADLINE FOR INQUIRIES: November 13, 2023, 3:00 P.M. (EST) \nDEADLINE FOR SUBMISSION:  December 15, 2023, 3:00 P.M. (EST)",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Alternative investment consulting RFP."
+    },
+    {
+      "path": "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "filename": "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "extension": ".pdf",
+      "size_bytes": 189839,
+      "modified_at": "2026-10-07T07:15:10",
+      "created_at": "2026-10-07T07:19:56.012061",
+      "mime_type": "application/pdf",
+      "title": "Private Markets Due Diligence Questionnaire",
+      "author": "",
+      "page_count": 4,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "As you explore potential partnerships in private markets, it’s important to recognize that these investments work differently \nthan traditional public market investments held in daily liquid vehicles, such as mutual funds and ETFs. This questionnaire is \ndesigned to help you navigate those differenc",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Private-markets questionnaire, not a recordkeeping RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+      "filename": "Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+      "extension": ".pdf",
+      "size_bytes": 12825,
+      "modified_at": "2026-10-07T07:07:52",
+      "created_at": "2026-10-07T07:19:56.864046",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - ERS Private Equity AD (website.spo).docx",
+      "author": "misakil",
+      "page_count": 2,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "misakil"
+      ],
+      "preview": "STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM \nREQUEST FOR PROPOSAL (RFP) \nFOR PRIVATE EQUITY CONSULTING  \nAND INVESTMENT SERVICES \n \n \nThe Employees’ Retirement System of the State of Hawaii (ERS) is soliciting \nproposals for qualified firm(s) to provide private equity investment consulting and \nin",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "Private-equity consulting and investment services notice."
+    },
+    {
+      "path": "/mnt/docs/S/Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+      "filename": "Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+      "extension": ".pdf",
+      "size_bytes": 68135,
+      "modified_at": "2026-10-07T07:08:12",
+      "created_at": "2026-10-07T07:19:56.904046",
+      "mime_type": "application/pdf",
+      "title": "Publish:",
+      "author": "konishig",
+      "page_count": 1,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "konishig"
+      ],
+      "preview": "EMPLOYEES’ RETIREMENT SYSTEM  \nOF THE STATE OF HAWAII \nREQUEST FOR PROPOSALS (RFP) \nREAL ESTATE INVESTMENT CONSULTANT SERVICES \n \n \nThe Employees’ Retirement System of the State of Hawaii (ERS) is soliciting \nproposals for a qualified firm to provide non-discretionary real estate investment \nconsult",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "Real-estate investment consultant notice."
+    },
+    {
+      "path": "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+      "filename": "Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1116389,
+      "modified_at": "2026-10-07T07:14:17",
+      "created_at": "2026-10-07T07:19:58.396020",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Lisa Giles",
+      "page_count": 35,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Lisa Giles"
+      ],
+      "preview": "TRS Request for Proposal # 715-2025-1002 \nJ. KEVIN STITT\nGOVERNOR\nSARAH GREEN \nEXECUTIVE DIRECTOR \nTeachers’ Retirement System of Oklahoma \nP.O. Box 53524 \nOklahoma City, OK  73152-3524 \nOklahoma.gov/trs \n405-521-2387\nREQUEST FOR PROPOSAL \nRFP #:   715-25-1002 RFP Date: November 19, 2025 \nTyp\ne of S",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment consultant RFP, not 457 plan recordkeeping."
+    },
+    {
+      "path": "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+      "filename": "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+      "extension": ".pdf",
+      "size_bytes": 480771,
+      "modified_at": "2026-10-07T07:11:26",
+      "created_at": "2026-10-07T07:19:57.692032",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - Audit Actuary RFP 2024 Final",
+      "author": "matt.henry",
+      "page_count": 50,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "matt.henry"
+      ],
+      "preview": "Kern County Employees’ Retirement Association \n \n  \n \n \n \nRequest for Proposal \n  \nACTUARIAL AUDIT SERVICES \n \n \n \n \n \nMarch 29, 2024",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Actuarial audit RFP and sample agreement."
+    },
+    {
+      "path": "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+      "filename": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1645690,
+      "modified_at": "2026-10-07T07:14:52",
+      "created_at": "2026-10-07T07:19:57.828030",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Jennifer Van",
+      "page_count": 67,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Jennifer Van"
+      ],
+      "preview": "REQUEST FOR PROPOSALS \nFINANCIAL STATEMENT AUDIT SERVICES \nRelease Date: January 31, 2025 \nRFP Number: DCFS25-01 \nProposal Due Date: March 5, 2025, 3:00 P.M. PST \nLos Angeles Fire and Police Pensions  \nInternal Audit Section \nEmail to: internalaudit@lafpp.com \nAll questions must be e-\nmailed to the ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Financial statement audit services RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf",
+      "filename": "Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf",
+      "extension": ".pdf",
+      "size_bytes": 55822,
+      "modified_at": "2026-10-07T07:17:59",
+      "created_at": "2026-10-07T07:19:58.856012",
+      "mime_type": "application/pdf",
+      "title": "Request for Proposal (RFP) for Outsourced Chief Investment Officer (OCIO) Services",
+      "author": "",
+      "page_count": 5,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "Request for Proposal (RFP) for Outsourced Chief Investment Officer \n(OCIO) Services  \nIssued By: Samuel Fels Fund \nContact: Uma Viswanathan uma@samfels.org; Nimrit \nKang kangnkgo@gmail.com  \n1. Introduction and Overview \nThe Samuel S. Fels Fund’s [Fels Fund] mission is to improve conditions and \nopp",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "Outsourced investment officer services RFP."
+    },
+    {
+      "path": "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+      "filename": "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+      "extension": ".pdf",
+      "size_bytes": 124004,
+      "modified_at": "2026-10-07T07:12:01",
+      "created_at": "2026-10-07T07:19:56.944045",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Microsoft Office User",
+      "page_count": 3,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Microsoft Office User"
+      ],
+      "preview": "Institutional Limited Partners Association                              1776 I St. NW Suite 525 Washington, D.C. 20006 \n \nESG Assessment Framework – Key Considerations and FAQ \n \nOverview  \nILPA released this ESG Assessment Framework as a resource for limited partners looking to build a tool \nto eva",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "ESG framework FAQ, not an RFP."
+    },
+    {
+      "path": "/mnt/docs/S/CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+      "filename": "CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+      "extension": ".pdf",
+      "size_bytes": 187488,
+      "modified_at": "2026-10-07T07:14:22",
+      "created_at": "2026-10-07T07:19:56.508053",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - 2025 RP Investment Consultant RFP 04 29 25",
+      "author": "Paul",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Paul"
+      ],
+      "preview": "Retirement Plan for CTA \nEmployees \nInvestment Consulting  \nRequest for Proposals \n \n \n \n \n \n \nAdvertised Date \nApril 29, 2025 \n \n \nProposals Due via email \nMay 30, 2025 \n3:00 pm, Central Time \npsidrys@ctapension.com \n \n55 W. Monroe, Suite 1950 \nChicago, IL 60603",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Retirement plan investment consulting, not recordkeeping."
+    },
+    {
+      "path": "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+      "filename": "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+      "extension": ".pdf",
+      "size_bytes": 360176,
+      "modified_at": "2026-10-07T07:06:38",
+      "created_at": "2026-10-07T07:19:57.420037",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - Private Markets RFP V3 2023.02.13",
+      "author": "mgreen",
+      "page_count": 33,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "mgreen"
+      ],
+      "preview": "Firefighters’ Pension Investment Fund \nRequest for Proposals \nfor \nPrivate Markets Investment Consulting and Discretionary OCIO Advisory Services \n \n \nFebruary 13, 2023",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Private-markets consulting and OCIO advisory RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Hartford_MERF__file.pdf",
+      "filename": "Hartford_MERF__file.pdf",
+      "extension": ".pdf",
+      "size_bytes": 963084,
+      "modified_at": "2026-10-07T07:17:51",
+      "created_at": "2026-10-07T07:19:56.864046",
+      "mime_type": "application/pdf",
+      "title": "RFP INVESTMENT CONSULTANT ASSISTANCE",
+      "author": "Patricia Stokes",
+      "page_count": 76,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Patricia Stokes"
+      ],
+      "preview": "CITY OF HARTFORD TREASURER’S OFFICE \nMUNICIPAL EMPLOYEES’ RETIREMENT \nFUND of the CITY of HARTFORD and CITY of \nHARTFORD OPEB TRUST  \n250 Constitution Plaza - 2nd Floor \nHARTFORD, CONNECTICUT 06103 \nwww.hartfordcitytreasurer.org \n \n \n REQUEST FOR PROPOSALS (“RFP”) \nGENERAL INVESTMENT CONSULTANT \n \nT",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Municipal retirement fund investment consultant RFP."
+    },
+    {
+      "path": "/mnt/docs/S/OCERS__custodian_services_rfp_questions_and_answers.pdf",
+      "filename": "OCERS__custodian_services_rfp_questions_and_answers.pdf",
+      "extension": ".pdf",
+      "size_bytes": 307624,
+      "modified_at": "2026-10-07T07:07:16",
+      "created_at": "2026-10-07T07:19:58.176023",
+      "mime_type": "application/pdf",
+      "title": "Custodian Services RFP Questions and Answers",
+      "author": "OCERS",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "OCERS",
+        "OCERS Custodian Services RFP Questions and Answers"
+      ],
+      "preview": "Custody Services \nRequest for Proposal \nQuestions & Answers \n \nOctober 2022 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nOrange County Employees Retirement System (OCERS) \nP.O. Box 1229 \nSanta Ana, CA 927021-(714)-558-6200 \nhttp://www.ocers.org",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Custody services questions and answers, not recordkeeping terms."
+    },
+    {
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "filename": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "extension": ".pdf",
+      "size_bytes": 442309,
+      "modified_at": "2026-10-07T07:17:39",
+      "created_at": "2026-10-07T07:19:58.980010",
+      "mime_type": "application/pdf",
+      "title": " TMRS RFP General Investment Consulting Services",
+      "author": "TMRS",
+      "page_count": 39,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "TMRS"
+      ],
+      "preview": "1 \n \n \n \n \nRequest for Proposal (RFP) \nNON-DISCRETIONARY  \nGENERAL INVESTMENT CONSULTING SERVICES \n \n \nNotice to Prospective Respondents \nFebruary 3, 2022 \n \nYou are invited to review and respond to this Texas Municipal Reti rement System (TMRS) Request \nfor Proposal ( RFP) e ntitled Non-Discretiona",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "General investment consulting services RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+      "filename": "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+      "extension": ".pdf",
+      "size_bytes": 462653,
+      "modified_at": "2026-10-07T07:08:10",
+      "created_at": "2026-10-07T07:19:56.260057",
+      "mime_type": "application/pdf",
+      "title": "RFP INVESTMENT CONSULTANT ASSISTANCE",
+      "author": "Patricia Stokes",
+      "page_count": 28,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Patricia Stokes"
+      ],
+      "preview": "THE EMPLOYEES’ RETIREMENT SYSTEM \nand OPEB TRUST – CITY OF BALTIMORE \n \n \nREQUEST FOR PROPOSALS (RFP) \nfor   \nALTERNATIVES CONSULTANT  \n \n__________________________________________ \n \nTimeline \n Date of RFP process Approval August 15, 2024 \n Deadline for written questions to BCERS October 4, 2024 \n ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Alternatives investment consultant RFP."
+    }
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 214,
+      "timestamp": "2026-10-23 07:59:38.113989",
+      "metadata": {
+        "keywords": [
+          "deferred compensation plans",
+          "457 plan recordkeeping RFPs",
+          "initial contract length",
+          "renewal or extension options",
+          "递延薪酬",
+          "457计划",
+          "记录管理",
+          "征求建议书"
+        ],
+        "files_found": 4,
+        "files_discovered": [
+          "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf",
+          "/mnt/docs/S/Monroe_County_NY__10406.pdf",
+          "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+          "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+        ]
+      }
+    }
+  ],
+  "elapsed_s": 15.866,
+  "calls": 2,
+  "usage": {
+    "prompt_tokens": 3551,
+    "completion_tokens": 1431,
+    "total_tokens": 4982
+  },
+  "group": "R3",
+  "attempt": 1
+}

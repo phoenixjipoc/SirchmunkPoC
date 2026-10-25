@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "3ce814bbdc82bd009493",
+    "query_id": "SVC-07",
+    "question": "Which retirement system's global custody RFP states that the system does not currently participate in securities lending, and what is the planned start date for the custody contract?",
+    "file": "INPRS__RFP24-05_AuditServices.pdf",
+    "expected_facts": "The Texas Municipal Retirement System (TMRS), in its December 2020 RFP for Global Custody and Related Services; the contract start date is January 3, 2022.",
+    "acceptance": "TMRS and January 3, 2022 suffice; issuance month and securities-lending support contingencies are optional.",
+    "text_hash": "c91a90645d9659e59cf92c848073c9a4293275c8ab6c443e5ea6557a9cce6d3a",
+    "source_text_sha256": "cd68d7342246afa44a13ddc9cd569953afbc71f71001c6d34468336403cd1683",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Indiana Public Retirement System RFP for audit services, not the TMRS global custody RFP. It does not support the securities-lending statement or the requested custody contract start date.",
+      "quotes": [
+        "Request for Proposals (“RFP”) for Audit Services for the Indiana Public Retirement System (“INPRS” or the “System”)",
+        "INPRS is issuing this RFP in accordance with Indiana statutes governing the procurement of services and certain administrative policies of INPRS.",
+        "Effective Date of Contract No later than March 1, 2025"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals (“RFP”) for Audit Services for the Indiana Public Retirement System (“INPRS” or the “System”)",
+          "start": 2169,
+          "end": 2284
+        },
+        {
+          "quote": "INPRS is issuing this RFP in accordance with Indiana statutes governing the procurement of services and certain administrative policies of INPRS.",
+          "start": 5031,
+          "end": 5176
+        },
+        {
+          "quote": "Effective Date of Contract No later than March 1, 2025",
+          "start": 12582,
+          "end": 12636
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

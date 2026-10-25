@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "acd3be44bf3cd7a9f4b2",
+    "query_id": "SVC-18",
+    "question": "What minimum qualifications must an audit firm meet in the Kern County Employees' Retirement Association (KCERA) RFP for audit services?",
+    "file": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "expected_facts": "(1) Professional public accounting firm organized at least on a regional basis providing audit and attest services; (2) within the last five years, at least five audits of defined benefit pension plans with assets over $2 billion; (3) experience auditing equity securities (domestic and foreign), fixed income, real estate, alternative investments, commodities and securities lending; (4) an established office in the United States; (5) independent, licensed by and in good standing with California under the Accountancy Act; (6) Engagement Partner (and signing partner) located in the U.S. with at least 10 years of public accounting experience including DB pension plan audits, California-licensed CPA; (7) Engagement Manager located in the U.S. with at least 5 years of public accounting experience including DB plan audits, CPA licensed in a U.S. state; (8) On-Site Audit Supervisor located in the U.S. with at least 3 years of auditing experience including DB plan audits, CPA licensed in a U.S. state; (9) Engagement Manager and Supervisor available for consultations and in-person meetings throughout the year.",
+    "acceptance": "Accept a faithful summary of the nine requirements. Do not impose desirable two audits of >$3bn plans or a California license for manager/supervisor as minimums; a U.S.-state license suffices for those roles.",
+    "text_hash": "9442e2b4c086526d3a2fdbcfd889eca2ceeb00c6b9e5d09ba8003815529b2dfc",
+    "source_text_sha256": "a03af1cb5588edbe010abae942bbd4d97b649d15b5280a5db6c40f3e111a54fd",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Boston Retirement System RFP for investment consulting services, not KCERA’s RFP for audit services. Its minimum qualifications concern investment consultants and do not support the audit-firm or audit-team requirements in the question.",
+      "quotes": [
+        "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+        "IV MINIMUM QUALIFICATIONS Prospective Consultants must meet the minimum qualifications as listed in Attachment 2 (Minimum Qualification Certification).",
+        "Does the Prospective Consultant firm have at least three (3) years of experience performing substantially similar services for institutional clients?"
+      ],
+      "quote_matches": [
+        {
+          "quote": "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+          "start": 13,
+          "end": 106
+        },
+        {
+          "quote": "IV MINIMUM QUALIFICATIONS Prospective Consultants must meet the minimum qualifications as listed in Attachment 2 (Minimum Qualification Certification).",
+          "start": 13549,
+          "end": 13700
+        },
+        {
+          "quote": "Does the Prospective Consultant firm have at least three (3) years of experience performing substantially similar services for institutional clients?",
+          "start": 13701,
+          "end": 13850
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

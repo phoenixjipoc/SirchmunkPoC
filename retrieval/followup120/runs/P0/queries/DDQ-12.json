@@ -1,0 +1,75 @@
+{
+  "query_id": "DDQ-12",
+  "question": "Which bucket (Not Present, Developing, Intermediate or Advanced) did ILPA assign to KKR under the ILPA ESG Assessment Framework, and what numerical score did KKR receive?",
+  "type": "unanswerable",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+    "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+    "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+    "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+    "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf"
+  ],
+  "keyword_terms": [
+    "ILPA ESG Assessment Framework",
+    "KKR bucket classification",
+    "KKR numerical score",
+    "ESG评估框架",
+    "分级",
+    "评分"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 143,
+      "timestamp": "2026-10-25 16:16:24.118886",
+      "metadata": {
+        "keywords": [
+          "ILPA ESG Assessment Framework",
+          "KKR bucket classification",
+          "KKR numerical score",
+          "ESG评估框架",
+          "分级",
+          "评分"
+        ],
+        "files_found": 3,
+        "files_discovered": [
+          "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+          "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+          "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+      "path": "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+      "path": "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "ILPA__ILPA-ESG-Assessment-Framework.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf"
+    }
+  ],
+  "elapsed_s": 5.791,
+  "calls": 0,
+  "usage": {}
+}

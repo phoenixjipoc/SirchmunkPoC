@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "0b28ff5f6415d52c61ec",
+    "query_id": "OTH-03",
+    "question": "In Rice University's 2021 RFP for audit services for its retirement plans, how many participants did the 401(a) plan and the 403(b) plan have as of December 31, 2020?",
+    "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+    "expected_facts": "401(a) plan: 8,828 participants; 403(b) plan: 7,533 participants (as of December 31, 2020).",
+    "acceptance": "Accept 8,828 for 401(a) and 7,533 for 403(b); do not transpose.",
+    "text_hash": "aa32d205efb4a8f5c43054ea38fe8bb413e446bbe6440d32846410e99aba3560",
+    "source_text_sha256": "ba46410ea5b8731139363c20c23c9e0ed7804d7854e543119bc174f6333ad4d1",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the City of Temple City’s 2020 RFP for 457 plan administration and recordkeeping, not Rice University’s 2021 RFP for retirement-plan audit services. It does not provide the requested 401(a) and 403(b) participant counts as of December 31, 2020.",
+      "quotes": [
+        "City of Temple City, California 457 Deferred Compensation Plan Request for Proposals for Plan Administration and Record Keeping Services",
+        "RFP DISTRIBUTION DATE: June 17, 2020 at 4:00 PM (Pacific Time)",
+        "The Plan as of March 31, 2020 had 31 actively contributing participants and 15 non-active participants for a total of 46 participants with a balance."
+      ],
+      "quote_matches": [
+        {
+          "quote": "City of Temple City, California 457 Deferred Compensation Plan Request for Proposals for Plan Administration and Record Keeping Services",
+          "start": 13,
+          "end": 149
+        },
+        {
+          "quote": "RFP DISTRIBUTION DATE: June 17, 2020 at 4:00 PM (Pacific Time)",
+          "start": 150,
+          "end": 212
+        },
+        {
+          "quote": "The Plan as of March 31, 2020 had 31 actively contributing participants and 15 non-active participants for a total of 46 participants with a balance.",
+          "start": 14180,
+          "end": 14329
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

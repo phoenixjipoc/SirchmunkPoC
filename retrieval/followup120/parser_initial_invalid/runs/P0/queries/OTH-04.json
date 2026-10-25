@@ -1,0 +1,59 @@
+{
+  "query_id": "OTH-04",
+  "question": "According to the Santa Barbara County Employees' Retirement System (SBCERS) custody RFP, how much in assets did SBCERS have as of September 30, 2023?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+  ],
+  "keyword_terms": [
+    "Santa Barbara County Employees' Retirement System",
+    "SBCERS custody RFP",
+    "assets as of September 30, 2023",
+    "圣巴巴拉县雇员退休系统",
+    "托管服务征求建议书",
+    "资产"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 54,
+      "timestamp": "2026-10-25 15:44:48.860217",
+      "metadata": {
+        "keywords": [
+          "Santa Barbara County Employees' Retirement System",
+          "SBCERS custody RFP",
+          "assets as of September 30, 2023",
+          "圣巴巴拉县雇员退休系统",
+          "托管服务征求建议书",
+          "资产"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    }
+  ],
+  "elapsed_s": 2.33,
+  "calls": 0,
+  "usage": {}
+}

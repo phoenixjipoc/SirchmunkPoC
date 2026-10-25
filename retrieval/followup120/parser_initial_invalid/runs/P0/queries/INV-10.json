@@ -1,0 +1,71 @@
+{
+  "query_id": "INV-10",
+  "question": "An alternative investment consulting RFP describes a private equity portfolio of 225 holdings across 105 general partners. What are the approximate net asset values of the system's absolute return, private credit, private equity and real assets portfolios?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf"
+  ],
+  "keyword_terms": [
+    "alternative investment consulting RFP",
+    "private equity portfolio of 225 holdings",
+    "105 general partners",
+    "absolute return and private credit portfolios",
+    "private equity and real assets portfolios",
+    "另类投资咨询",
+    "私募股权",
+    "净资产价值",
+    "私人信贷"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 48,
+      "timestamp": "2026-10-25 15:34:06.183680",
+      "metadata": {
+        "keywords": [
+          "alternative investment consulting RFP",
+          "private equity portfolio of 225 holdings",
+          "105 general partners",
+          "absolute return and private credit portfolios",
+          "private equity and real assets portfolios",
+          "另类投资咨询",
+          "私募股权",
+          "净资产价值",
+          "私人信贷"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+      "path": "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf"
+    }
+  ],
+  "elapsed_s": 3.71,
+  "calls": 0,
+  "usage": {}
+}

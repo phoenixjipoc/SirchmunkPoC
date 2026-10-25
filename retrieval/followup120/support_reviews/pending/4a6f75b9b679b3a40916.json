@@ -1,0 +1,65 @@
+{
+  "job": {
+    "id": "4a6f75b9b679b3a40916",
+    "query_id": "XD-09",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+    "file": "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+    "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+    "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+    "text_hash": "dc7770ddf2eb0d0a22374752c7dc6794b8fb383b84a6cf93e4a10d4cf606f4a6",
+    "source_text_sha256": "e9d832947c5555fd08fbad4762996d02f44908b19826f8ed06865b1ee0a20b33",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Hawaii ERS private equity consultant RFP, not the ILPA Due Diligence Questionnaire v1.2. It does not identify or list the five ILPA appendices in a table of contents.",
+      "quotes": [
+        "Employees’ Retirement System of the State of Hawaii Request for Proposals Private Equity Consultant Services RFP 2022-04 Issued AUGUST 29, 2022",
+        "FEE PROPOSAL .......................................................................................................... 29 QUESTIONNAIRE ATTACHMENT A -- SAMPLE CONTRACT"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Employees’ Retirement System of the State of Hawaii Request for Proposals Private Equity Consultant Services RFP 2022-04 Issued AUGUST 29, 2022",
+          "start": 13,
+          "end": 156
+        },
+        {
+          "quote": "FEE PROPOSAL .......................................................................................................... 29 QUESTIONNAIRE ATTACHMENT A -- SAMPLE CONTRACT",
+          "start": 7534,
+          "end": 7702
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a Hawaii ERS private-equity consultant RFP, not the ILPA Due Diligence Questionnaire v1.2. Its table of contents does not list the requested lettered appendices.",
+      "quotes": [
+        "Employees’ Retirement System of the State of Hawaii Request for Proposals Private Equity Consultant Services RFP 2022-04",
+        "QUESTIONNAIRE ATTACHMENT A -- SAMPLE CONTRACT"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Employees’ Retirement System of the State of Hawaii Request for Proposals Private Equity Consultant Services RFP 2022-04",
+          "start": 13,
+          "end": 133
+        },
+        {
+          "quote": "QUESTIONNAIRE ATTACHMENT A -- SAMPLE CONTRACT",
+          "start": 7657,
+          "end": 7702
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

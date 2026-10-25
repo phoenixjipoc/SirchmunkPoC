@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "b286b6801be8bdbfd71b",
+    "query_id": "INV-11",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for investment consulting, real estate consulting and performance measurement services, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf",
+    "expected_facts": "Three factors: (1) Organization - stability, ownership, documented experience of key professionals; (2) Consulting Skill - investment philosophy, investment manager information collection and monitoring systems, risk management tools, performance measurement systems, and breadth of consulting expertise and experience; (3) Fees - consulting fees for services requested and associated costs.",
+    "acceptance": "Three factors with substantively equivalent descriptions suffice; exact wording and order are unnecessary.",
+    "text_hash": "e76e63af4b0a8b49f88f8ef5ce43f66a889246bf25cd0b9219f57d5e1b2af89e",
+    "source_text_sha256": "5c949a43fde61d24122bc0cdc5ab1ce85b968190be12226f9661e62ecbde4522",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Creve Coeur, Missouri RFP, not the IMRF sample RFP. It does not explicitly restate IMRF’s selection and ranking factors.",
+      "quotes": [
+        "CITY OF CREVE COEUR EMPLOYEE PENSION PLAN",
+        "The Board plans to review the proposals and invite a small number (3-5) to participate in interviews."
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF CREVE COEUR EMPLOYEE PENSION PLAN",
+          "start": 73,
+          "end": 114
+        },
+        {
+          "quote": "The Board plans to review the proposals and invite a small number (3-5) to participate in interviews.",
+          "start": 1923,
+          "end": 2024
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

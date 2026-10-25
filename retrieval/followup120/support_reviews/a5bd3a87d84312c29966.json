@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "a5bd3a87d84312c29966",
+    "query_id": "SVC-07",
+    "question": "Which retirement system's global custody RFP states that the system does not currently participate in securities lending, and what is the planned start date for the custody contract?",
+    "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "expected_facts": "The Texas Municipal Retirement System (TMRS), in its December 2020 RFP for Global Custody and Related Services; the contract start date is January 3, 2022.",
+    "acceptance": "TMRS and January 3, 2022 suffice; issuance month and securities-lending support contingencies are optional.",
+    "text_hash": "7bf0434135598b4379264b9228ec0ae5d514d2497cf998a89da96d5f3d55878f",
+    "source_text_sha256": "1620734055a07375d68aca7dc5b3529168cc1928cf355fcdb11e514e6b786b4c",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a June 2025 City of Austin Employees’ Retirement System actuarial-services RFP, not the specified retirement system’s global-custody RFP. Its contract begins January 1, 2026, and it does not state the securities-lending fact.",
+      "quotes": [
+        "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM",
+        "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+        "The services requested shall be provided for a term of five years beginning January 1, 2026 and ending December 31, 2030."
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM",
+          "start": 13,
+          "end": 56
+        },
+        {
+          "quote": "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+          "start": 163,
+          "end": 254
+        },
+        {
+          "quote": "The services requested shall be provided for a term of five years beginning January 1, 2026 and ending December 31, 2030.",
+          "start": 38585,
+          "end": 38706
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

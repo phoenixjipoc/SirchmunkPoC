@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "a610b686ca380fc0df82",
+    "query_id": "OTH-12",
+    "question": "What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2022?",
+    "file": "OCERS__investment_consultant_services_rfp.pdf",
+    "expected_facts": "September 30, 2022 by 4:30 p.m. (H.S.T.) (RFP 2022-04, issued August 29, 2022).",
+    "acceptance": "Accept date/time/Hawaii Standard Time equivalents. Issue date, RFP number and later best-and-final deadline are optional context.",
+    "text_hash": "5b64c217e92c2749a5177225f6fda52ea0dd775fcbdd0d850a456eb5dfcd1a1f",
+    "source_text_sha256": "31ba78f454a82dc69e8946299253c94f905a157c0bee42fe28fb33f65c2dcfa1",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Orange County Employees Retirement System RFP issued in 2021, not the 2022 Hawaii ERS RFP. Its proposal deadline does not support the requested deadline.",
+      "quotes": [
+        "Orange County Employees Retirement System (OCERS)",
+        "Requests for Proposal Issued August 2021",
+        "Those who wish to be considered must submit their completed proposal, via email to the Point of Contact, by 5:00 p.m., PT, October 1, 2021."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Orange County Employees Retirement System (OCERS)",
+          "start": 158,
+          "end": 207
+        },
+        {
+          "quote": "Requests for Proposal Issued August 2021",
+          "start": 117,
+          "end": 157
+        },
+        {
+          "quote": "Those who wish to be considered must submit their completed proposal, via email to the Point of Contact, by 5:00 p.m., PT, October 1, 2021.",
+          "start": 5382,
+          "end": 5521
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

@@ -1,0 +1,67 @@
+{
+  "query_id": "INV-16",
+  "question": "In the Santa Barbara County Employees' Retirement System (SBCERS) 2020 RFP for a discretionary private equity consultant, how many years must the proposing firm have been in business?",
+  "type": "pair_b",
+  "pair_id": "P12",
+  "group": "P",
+  "keyword_files": [
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf"
+  ],
+  "keyword_terms": [
+    "Santa Barbara County Employees' Retirement System",
+    "2020 RFP",
+    "discretionary private equity consultant",
+    "proposing firm years in business",
+    "圣巴巴拉县雇员退休系统",
+    "私募股权顾问",
+    "征求建议书"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 81,
+      "timestamp": "2026-10-25 15:59:52.050184",
+      "metadata": {
+        "keywords": [
+          "Santa Barbara County Employees' Retirement System",
+          "2020 RFP",
+          "discretionary private equity consultant",
+          "proposing firm years in business",
+          "圣巴巴拉县雇员退休系统",
+          "私募股权顾问",
+          "征求建议书"
+        ],
+        "files_found": 2,
+        "files_discovered": [
+          "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+          "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+      "path": "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf"
+    }
+  ],
+  "elapsed_s": 5.037,
+  "calls": 0,
+  "usage": {}
+}

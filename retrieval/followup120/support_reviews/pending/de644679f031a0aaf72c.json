@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "de644679f031a0aaf72c",
+    "query_id": "CONS-12",
+    "question": "How many printed copies of the proposal must be submitted in the Boston Retirement System 2022 investment consulting services RFP?",
+    "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "expected_facts": "Seven (7) printed copies plus one (1) electronic version.",
+    "acceptance": "Seven printed copies alone answers the question; electronic copy is optional context.",
+    "text_hash": "a98d524e6be406d219908f55d7669eccd66ebe00dac2da8fe751cb73c6c068e5",
+    "source_text_sha256": "f7992acf077bd43f56dcfe41af1dd3fdb115f4ea1c61bea284a8fb27b11a2ca2",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2022 Texas Municipal Retirement System RFP, not a Boston Retirement System RFP. Its submission requirement specifies three electronic proposals and does not support a printed-copy count for Boston.",
+      "quotes": [
+        "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+        "Please submit three (3) electronic Proposals, labeled as indicated below:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+          "start": 4270,
+          "end": 4370
+        },
+        {
+          "quote": "Please submit three (3) electronic Proposals, labeled as indicated below:",
+          "start": 16593,
+          "end": 16666
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

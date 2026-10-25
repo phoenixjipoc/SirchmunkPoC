@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "e71198960f6b4ebe14a7",
+    "query_id": "XD-06",
+    "question": "One private equity due diligence questionnaire asks whether the fund gives limited partners more than a certain number of business days' notice for capital calls. What is the threshold, and in which section of the questionnaire is this question?",
+    "file": "ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+    "expected_facts": "The threshold is more than 10 business days' notice for capital calls, either generally or in specific circumstances (e.g. when a single capital call is above an agreed and stated percentage of total unfunded commitment). It is question 7.14 in Section 7.0 Credit Facilities of the ILPA Due Diligence Questionnaire 2.0.",
+    "acceptance": "Accept more than ten business days and Credit Facilities. Question number, document version and illustrative circumstances are helpful but not all mandatory for the narrow threshold/section question.",
+    "text_hash": "4f7b225da38ba2910c55f1ea4315e95ab8e744efe8938a4f9bf7e044a4cb4ef3",
+    "source_text_sha256": "98e8f8f7a68546605480b8e76d3f362a5feebe06263622702fa575595bb98128",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is ILPA DDQ version 1.2, not version 2.0. Its Section 7.0 is Market Environment, not Credit Facilities, and it does not state a business-day notice threshold for capital calls.",
+      "quotes": [
+        "New in Version 1.2 (released in September 2018)",
+        "7.0 Market Environment",
+        "13.6. Detail the processes and procedures for capital movements (capital calls, transfers of cash, investment acquisitions and distributions)."
+      ],
+      "quote_matches": [
+        {
+          "quote": "New in Version 1.2 (released in September 2018)",
+          "start": 1199,
+          "end": 1246
+        },
+        {
+          "quote": "7.0 Market Environment",
+          "start": 16002,
+          "end": 16024
+        },
+        {
+          "quote": "13.6. Detail the processes and procedures for capital movements (capital calls, transfers of cash, investment acquisitions and distributions).",
+          "start": 51622,
+          "end": 51764
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

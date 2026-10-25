@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "bf27ab44cf7fa5561e80",
+    "query_id": "SVC-16",
+    "question": "What contract term, including any extension options, does the Los Angeles Fire and Police Pensions (LAFPP) RFP for financial statement audit services contemplate?",
+    "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "expected_facts": "A three-year contract (fiscal years ending June 30, 2025, 2026 and 2027) with a maximum fee proposal for each fiscal year; the Board may extend beyond the three-year term through two one-year renewals.",
+    "acceptance": "Three years plus two optional one-year renewals, up to five years, suffices. Fiscal-year dates and fee-proposal details are optional.",
+    "text_hash": "afed2142cd9b5f90246d59a5737b84e7449b0c4dc717232226f57461b45a9b9e",
+    "source_text_sha256": "4e6f311f7c398d5daed9e60599d032ec43a08c449bc5eec7b5f5fb388433a80b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an SFERS RFP for general investment consulting services, not an LAFPP RFP for financial statement audit services. Its matching contract-term language applies to SFERS and does not support the requested LAFPP term.",
+      "quotes": [
+        "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System",
+        "The contracts anticipated under this RFP will have an initial term of three (3) years. In addition, SFERS shall have two (2) options to extend the term of the agreements for a period of one (1) year which SFERS may exercise in its sole and absolute discretion."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System",
+          "start": 13,
+          "end": 147
+        },
+        {
+          "quote": "The contracts anticipated under this RFP will have an initial term of three (3) years. In addition, SFERS shall have two (2) options to extend the term of the agreements for a period of one (1) year which SFERS may exercise in its sole and absolute discretion.",
+          "start": 3317,
+          "end": 3577
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

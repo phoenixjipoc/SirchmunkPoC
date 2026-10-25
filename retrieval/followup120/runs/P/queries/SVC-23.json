@@ -1,0 +1,76 @@
+{
+  "query_id": "SVC-23",
+  "question": "Which audit-services RFP documents in the corpus cover audits of GASB Statement No. 68 schedules, and what does each say about that work?",
+  "type": "broad",
+  "pair_id": "",
+  "group": "P",
+  "keyword_files": [
+    "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf",
+    "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf",
+    "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf"
+  ],
+  "keyword_terms": [
+    "audit-services RFP documents",
+    "GASB Statement No. 68 schedules",
+    "audits of schedules",
+    "审计服务征求建议书",
+    "政府会计准则委员会第68号公告",
+    "审计"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 138,
+      "timestamp": "2026-10-25 16:06:27.744540",
+      "metadata": {
+        "keywords": [
+          "audit-services RFP documents",
+          "GASB Statement No. 68 schedules",
+          "audits of schedules",
+          "审计服务征求建议书",
+          "政府会计准则委员会第68号公告",
+          "审计"
+        ],
+        "files_found": 3,
+        "files_discovered": [
+          "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf",
+          "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+          "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "INPRS__RFP24-05_AuditServices.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+      "path": "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+      "path": "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf"
+    }
+  ],
+  "elapsed_s": 5.588,
+  "calls": 0,
+  "usage": {}
+}

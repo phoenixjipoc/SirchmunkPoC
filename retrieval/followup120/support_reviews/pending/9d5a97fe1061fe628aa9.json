@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "9d5a97fe1061fe628aa9",
+    "query_id": "SVC-08",
+    "question": "One deferred compensation recordkeeping RFP requires vendors to have at least 500,000 participant plan accounts on their defined contribution recordkeeping system. What minimum amount of defined contribution assets under administration does it require, and which consulting firm is named as the Board's consultant?",
+    "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "expected_facts": "A minimum of $20 billion in defined contribution assets under administration; the Board's consultant is CAPTRUST. Issuer: Delaware Office of the State Treasurer on behalf of the Plans Management Board (contract TRE-CPM-21101, 2021).",
+    "acceptance": "$20bn DC assets under administration and CAPTRUST suffice. Issuer, contract number and date are optional.",
+    "text_hash": "3b4fb541c2d35b7de747c8f6c26cc3a40bee097d58737ad466dbef56acdfa755",
+    "source_text_sha256": "a7628e3fc4e0a9323e896059440a5b708d424232eec8242be9362eb818e6b682",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Clark County, Washington RFP, not the specified Delaware RFP. It does not state the required minimum of defined contribution assets under administration or name the Board’s consultant.",
+      "quotes": [
+        "REQUEST for PROPOSAL # 955 PROFESSIONAL, TECHNICAL AND EXPERT SERVICES Clark County Washington",
+        "The County requires each Proposing Firm responding to this RFP to certify that it meets or agrees to the following criteria:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST for PROPOSAL # 955 PROFESSIONAL, TECHNICAL AND EXPERT SERVICES Clark County Washington",
+          "start": 13,
+          "end": 107
+        },
+        {
+          "quote": "The County requires each Proposing Firm responding to this RFP to certify that it meets or agrees to the following criteria:",
+          "start": 17600,
+          "end": 17724
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

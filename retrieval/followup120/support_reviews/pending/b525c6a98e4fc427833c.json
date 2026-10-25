@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "b525c6a98e4fc427833c",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "1e3dc8db2f90933455b7c59967386b76eea64636a15cef3b8eab8a745b55231f",
+    "source_text_sha256": "06485a707e23d6959251e5fd04214a5b46701f4130bbf13f2073c46e88f74e02",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 Baltimore retirement system RFP for an alternatives consultant, not the external audit RFP Q&A. It provides no total contractual fees for FY2021 audits.",
+      "quotes": [
+        "THE EMPLOYEES’ RETIREMENT SYSTEM and OPEB TRUST – CITY OF BALTIMORE REQUEST FOR PROPOSALS (RFP) for ALTERNATIVES CONSULTANT",
+        "Year 1 $_________________"
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE EMPLOYEES’ RETIREMENT SYSTEM and OPEB TRUST – CITY OF BALTIMORE REQUEST FOR PROPOSALS (RFP) for ALTERNATIVES CONSULTANT",
+          "start": 13,
+          "end": 136
+        },
+        {
+          "quote": "Year 1 $_________________",
+          "start": 58068,
+          "end": 58093
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,12 @@
+{"time_utc": "2026-10-25T14:59:19Z", "action": "host_dns_refreshed", "addresses": ["162.159.140.245", "172.66.0.243"]}
+{"time_utc": "2026-10-25T14:59:19Z", "action": "stage_started", "stage": "retrieval", "attempt": 1, "log": "retrieval_1792940359_1.log"}
+{"time_utc": "2026-10-25T15:31:20Z", "action": "stage_exited", "stage": "retrieval", "attempt": 1, "exit_code": 0}
+{"time_utc": "2026-10-25T15:31:44Z", "action": "all_retrieval_collected"}
+{"time_utc": "2026-10-25T15:31:45Z", "action": "stage_started", "stage": "parser", "attempt": 1, "log": "parser_1792942305_1.log"}
+{"time_utc": "2026-10-25T15:46:16Z", "action": "stage_exited", "stage": "parser", "attempt": 1, "exit_code": 0}
+{"time_utc": "2026-10-25T15:46:52Z", "action": "parser_collected"}
+{"time_utc": "2026-10-25T15:47:21Z", "action": "source_check_jobs_prepared", "manifest": {"groups": ["R1", "R2", "R3", "S", "D", "P", "P0", "K", "T"], "pooled_unlisted_associations": 1001, "reused": 402, "new_or_upgraded_jobs": 599, "upgrades": 71}}
+{"time_utc": "2026-10-25T15:47:25Z", "action": "host_dns_refreshed", "addresses": ["162.159.140.245", "172.66.0.243"]}
+{"time_utc": "2026-10-25T15:47:25Z", "action": "stage_started", "stage": "source_checks", "attempt": 1, "log": "source_checks_1792943245_1.log"}
+{"time_utc": "2026-10-25T15:54:58Z", "action": "stage_exited", "stage": "source_checks", "attempt": 1, "exit_code": 0}
+{"time_utc": "2026-10-25T15:55:11Z", "action": "source_checks_collected"}

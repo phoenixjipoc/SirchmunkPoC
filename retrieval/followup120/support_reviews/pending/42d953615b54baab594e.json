@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "42d953615b54baab594e",
+    "query_id": "XD-08",
+    "question": "In the INREV Due Diligence Questionnaire 2022 for Funds of Funds and Multi Manager, which expense ratio must the manager provide under Fees and Expenses, and on what bases?",
+    "file": "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "expected_facts": "Question 1.6.2 asks for the INREV expense ratio (TGER): a forward-looking estimate (with the calculation method) if the vehicle has not been launched, or the historical INREV expense ratio (TGER) if it is an existing vehicle. It must be given on both NAV and GAV, with and without performance fees. If the INREV expense ratio is not used, a calculation in line with the INREV Fee and Expense Metrics module is required.",
+    "acceptance": "TGER; forward estimate for unlaunched versus historical for existing; NAV/GAV and with/without performance fees. Equivalent description of INREV-compatible fallback accepted.",
+    "text_hash": "4d17b63a1511a6035e3a2c08797dc7e2c193555a97c765a553008ba340318074",
+    "source_text_sha256": "9ba8b34157c475227b613d2f9c05b6397a2e14952507ce6c1cae052ff9d4e2e8",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is KCERA’s audit-services RFP, not the INREV Due Diligence Questionnaire 2022. It contains no support for the requested expense ratio or the bases on which a manager must provide it.",
+      "quotes": [
+        "Kern County Employees’ Retirement Association REQUEST FOR PROPOSAL – AUDIT SERVICES",
+        "KCERA is soliciting the services of qualified firms of certified public accountants to audit its financial statements"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Kern County Employees’ Retirement Association REQUEST FOR PROPOSAL – AUDIT SERVICES",
+          "start": 13,
+          "end": 96
+        },
+        {
+          "quote": "KCERA is soliciting the services of qualified firms of certified public accountants to audit its financial statements",
+          "start": 14103,
+          "end": 14220
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "89250f05c152df852365",
+    "query_id": "INV-20",
+    "question": "Which meetings must the investment consultant attend under the IMRF sample RFP for investment consulting, real estate consulting and performance measurement services, and how many days of meetings per year does IMRF estimate?",
+    "file": "OCERS__custodian_rfp_2022-2023.pdf",
+    "expected_facts": "(1) Monthly IMRF Board meetings; (2) Investment Committee meetings; (3) the Annual IMRF Roundtable; (4) regional meetings with investment managers; (5) related investment meetings and discussions; (6) formal interviews with existing and potential investment managers; (7) ad hoc due diligence meetings with investment managers and staff. IMRF estimates about sixty days of meetings per year with the Board and/or staff, plus frequent telephone discussions with staff.",
+    "acceptance": "All seven meeting categories and about 60 days/year. Frequent telephone calls and principal-attendance details are optional.",
+    "text_hash": "2f1b263969ef09f6d98b625298c7af0518d618d780be107703d3e797ceb8169a",
+    "source_text_sha256": "2160dab5b593e917103890305a919f136c0a0f9f1c86c7a4b6fb2c4eaaf14ec2",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an OCERS custody-services RFP, not the IMRF sample RFP for investment consulting, real estate consulting and performance measurement services. Its meeting provisions concern OCERS personnel and do not support the seven IMRF meeting categories or the estimated annual meeting days.",
+      "quotes": [
+        "Custody Services Request for Proposal October 2022 Orange County Employees Retirement System (OCERS)",
+        "OCERS is requesting proposals from qualified firms with expertise in providing a comprehensive set of custody services.",
+        "assigned personnel should be available to meet with OCERS staff at dates and times determined by OCERS at least semi-annually, or more frequently if required by OCERS"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Custody Services Request for Proposal October 2022 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 113
+        },
+        {
+          "quote": "OCERS is requesting proposals from qualified firms with expertise in providing a comprehensive set of custody services.",
+          "start": -1,
+          "end": 118
+        },
+        {
+          "quote": "assigned personnel should be available to meet with OCERS staff at dates and times determined by OCERS at least semi-annually, or more frequently if required by OCERS",
+          "start": 21099,
+          "end": 21265
+        }
+      ],
+      "all_quotes_grounded": false,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

@@ -1,0 +1,17 @@
+{
+  "custom_adapters": [
+    {
+      "name": "legacy_word97",
+      "version": 1,
+      "description": "Corpus-specific Word97 piece-table parser",
+      "extensions": [
+        "doc"
+      ],
+      "binary": "python",
+      "args": [
+        "/retrieval_followup_20261023/legacy_adapter.py"
+      ],
+      "disabled_by_default": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "query_id": "SVC-01",
+  "question": "In the Apple Valley Fire Protection District's 2024 RFP for GASB 75 OPEB actuarial services, as of which dates must the actuary deliver the biennial OPEB valuations and the biennial roll-forward updates?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "S",
+  "references": [
+    {
+      "rank": 1,
+      "file": "AVFPD__RFP-Actuatial-Services-2024.pdf",
+      "path": "/mnt/docs/S/AVFPD__RFP-Actuatial-Services-2024.pdf"
+    }
+  ],
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "baseline_sha256": "48148c32ed573387130f823f99a9fa357bd16de74b356cc7c76f4b7698b2cc4b",
+  "original_files": [
+    "AVFPD__RFP-Actuatial-Services-2024.pdf"
+  ],
+  "keyword_files": [
+    "/mnt/docs/S/AVFPD__RFP-Actuatial-Services-2024.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/AVFPD__RFP-Actuatial-Services-2024.pdf"
+  ],
+  "status": "ok",
+  "elapsed_s": 0.0,
+  "calls": 0,
+  "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  },
+  "attempt": 1
+}

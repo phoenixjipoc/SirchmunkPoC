@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "d970c192735719ac3bb9",
+    "query_id": "XD-09",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+    "file": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+    "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+    "text_hash": "9442e2b4c086526d3a2fdbcfd889eca2ceeb00c6b9e5d09ba8003815529b2dfc",
+    "source_text_sha256": "a03af1cb5588edbe010abae942bbd4d97b649d15b5280a5db6c40f3e111a54fd",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a Boston Retirement System investment consulting RFP, not the ILPA Due Diligence Questionnaire v1.2. Its table of contents lists attachments, not the requested lettered appendices.",
+      "quotes": [
+        "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+        "ATTACHMENT 1 REQUIRED ATTACHMENT CHECKLIST ATTACHMENT 2 MINIMUM QUALIFICATION CERTIFICATION ATTACHMENT 3 INVESTMENT CONSULTANT PROPOSAL QUESTIONNAIRE ATTACHMENT 4 PROSPECTIVE CONSULTANT CERTIFICATION SHEET"
+      ],
+      "quote_matches": [
+        {
+          "quote": "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+          "start": 13,
+          "end": 106
+        },
+        {
+          "quote": "ATTACHMENT 1 REQUIRED ATTACHMENT CHECKLIST ATTACHMENT 2 MINIMUM QUALIFICATION CERTIFICATION ATTACHMENT 3 INVESTMENT CONSULTANT PROPOSAL QUESTIONNAIRE ATTACHMENT 4 PROSPECTIVE CONSULTANT CERTIFICATION SHEET",
+          "start": 1301,
+          "end": 1506
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

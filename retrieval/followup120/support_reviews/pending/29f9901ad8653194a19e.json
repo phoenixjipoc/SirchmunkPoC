@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "29f9901ad8653194a19e",
+    "query_id": "INV-07",
+    "question": "In the published questions and answers for a city's pension fund consulting RFP, the city says it sent the RFP to 21 firms and last ran such a search in 2013. What does the plan currently pay for advisory services on its equities and for management of its fixed income?",
+    "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+    "expected_facts": "$20K per year for advisory of the equity investments (about 70% of plan funds, held by Fiduciary Advisors); for the fixed income investments (about 30% of plan funds, held by Commerce Bank, the custodian and paying agent) 0.30% on the first $10M, 0.20% on the next $40M and 0.15% on the remaining balance. Issuer: City of Creve Coeur, MO.",
+    "acceptance": "$20,000 annually plus 0.30% first $10m, 0.20% next $40m and 0.15% remainder. Basis-point equivalents 30/20/15 are acceptable. Provider names and 70/30 allocation are optional.",
+    "text_hash": "bbc5aa974f33a642622995234835e9395ec434792cd34aee6fa6e2448cb34a49",
+    "source_text_sha256": "ef809dc88bd158929af52565b0c35337429a448aa163f0f9466c3d4c5f44b3bd",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2025 RFP issued by the Anchorage Police and Fire Retirement System, not published questions and answers from the City of Creve Coeur. Its fee schedule asks proposers for a fee; it does not state the plan’s current equity-advisory payment or fixed-income management rates.",
+      "quotes": [
+        "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+        "Annual Fee, all inclusive of cost, flat dollar, no percentage: REQUIRED: ___________________________"
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+          "start": 743,
+          "end": 836
+        },
+        {
+          "quote": "Annual Fee, all inclusive of cost, flat dollar, no percentage: REQUIRED: ___________________________",
+          "start": 19286,
+          "end": 19386
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "d5a0ce1832509de8918a",
+    "query_id": "CONS-14",
+    "question": "What are all the minimum requirements in Section 2 (pages 4–5) of the City of Hartford MERF general investment consultant RFP?",
+    "file": "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+    "expected_facts": "Section2 requires: (1) at least ten years providing general consulting; (2) senior leadership together at least three years; (3) no subcontracting account management, and all responsible personnel are employees; (4) currently consulting for at least five public pension funds each over $1.5bn; (5) primary consultant has at least five years of defined-benefit public-pension consulting and at least three years employed by proposer; (6) fiduciary service to MERF/OPEB and written compliance with their investment policies/guidelines; (7) no existing or potential material conflicts with the City Treasurer/staff, Pension Commission, OPEB Committee, actuary, auditor, managers or other providers; (8) agree to execute a contract similar to AppendixE; (9) current SEC investment-adviser registration; (10) carry or have applied by submission for general liability $5m, E&O/professional liability $5m, fiduciary liability $1m, workers' compensation/employer liability $1m, and cybersecurity $1m. Section2 says all qualifications must be met by March15,2024 at 5pm ET and AppendixA certification must be completed. AppendixA separately uses different client-threshold/history and insurance-date wording; this answer follows Section2 as asked.",
+    "acceptance": "Require all ten Section2 bullet requirements and five insurance limits when asking 'all'. If the question retains whole-document scope, allow explanation of Section2 versus AppendixA differences rather than forcing a single contradictory date or >/$1.5bn threshold.",
+    "text_hash": "d9a2a163aae9999ec622d7aec59ce7e611db4184b600f4da1278390d065e044b",
+    "source_text_sha256": "160e96bb79418d07ec2fbcbd06fadf5a029ef68dec4598be1d24fd91b7188964",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the Police Retirement System of St. Louis actuarial auditing RFP, not the City of Hartford MERF general investment consultant RFP. Its qualifications, deadline, and insurance requirements cannot establish what Hartford’s Section 2 requires.",
+      "quotes": [
+        "THE POLICE RETIREMENT SYSTEM OF ST. LOUIS",
+        "RFP Actuarial Auditing Services",
+        "The firm must be a professional actuarial firm that has within its business framework the providing of actuarial valuations, experience studies, actuarial audits, and pension consulting services for public pension plans for a minimum of five (5) years;",
+        "Proposals will be accepted until 4:00 pm, CST, Friday, March 8, 2024"
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE POLICE RETIREMENT SYSTEM OF ST. LOUIS",
+          "start": 13,
+          "end": 54
+        },
+        {
+          "quote": "RFP Actuarial Auditing Services",
+          "start": 102,
+          "end": 133
+        },
+        {
+          "quote": "The firm must be a professional actuarial firm that has within its business framework the providing of actuarial valuations, experience studies, actuarial audits, and pension consulting services for public pension plans for a minimum of five (5) years;",
+          "start": 12206,
+          "end": 12458
+        },
+        {
+          "quote": "Proposals will be accepted until 4:00 pm, CST, Friday, March 8, 2024",
+          "start": 7183,
+          "end": 7251
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

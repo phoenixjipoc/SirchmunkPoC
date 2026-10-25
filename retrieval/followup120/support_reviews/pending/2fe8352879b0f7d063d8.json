@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "2fe8352879b0f7d063d8",
+    "query_id": "INV-11",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for investment consulting, real estate consulting and performance measurement services, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+    "expected_facts": "Three factors: (1) Organization - stability, ownership, documented experience of key professionals; (2) Consulting Skill - investment philosophy, investment manager information collection and monitoring systems, risk management tools, performance measurement systems, and breadth of consulting expertise and experience; (3) Fees - consulting fees for services requested and associated costs.",
+    "acceptance": "Three factors with substantively equivalent descriptions suffice; exact wording and order are unnecessary.",
+    "text_hash": "bbc5aa974f33a642622995234835e9395ec434792cd34aee6fa6e2448cb34a49",
+    "source_text_sha256": "ef809dc88bd158929af52565b0c35337429a448aa163f0f9466c3d4c5f44b3bd",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Anchorage Police and Fire Retirement System RFP, not the IMRF sample RFP. It does not state the three respondent evaluation and ranking factors for the requested RFP.",
+      "quotes": [
+        "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+        "The initial evaluation is to determine which, if any, firms are to be interviewed."
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+          "start": 743,
+          "end": 836
+        },
+        {
+          "quote": "The initial evaluation is to determine which, if any, firms are to be interviewed.",
+          "start": 3988,
+          "end": 4070
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,42 @@
+{
+  "id": "d810f9a6685edd5d69ff",
+  "query_id": "XD-11",
+  "question": "What questions does the INREV DDQ 2022 for Funds of Funds and Multi Manager ask under section 3.3 'IT, Cyber and Physical Security'?",
+  "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+  "expected_facts": "Fourteen questions (3.3.1-3.3.14): (1) position, responsibilities and members of the IT function, and an overview of outsourced IT and how vendors are monitored; (2) compliance with ISO 27001 or other cyber/information security certifications; (3) whether IT and physical security is a standing board agenda item; (4) a formal, documented Cyber Incident Response Plan; (5) any material cyber/information security incident in the past three years; (6) approved antivirus on all servers, workstations and remote devices; (7) how often staff get IT security training; (8) phishing/social engineering tests on staff; (9) how often full (physical and system) vulnerability assessments are done; (10) how often internal and external penetration tests are done; (11) critical/high-risk findings outstanding for over six months; (12) an external cyber security specialist engaged as first point of contact; (13) how physical access to the server/communication room is controlled; (14) a policy on physical access outside standard office hours, e.g. whether permanent staff are on the premises when third-party suppliers work.",
+  "acceptance": "All fourteen topics may be grouped in prose. Preserve three-year incident lookback and six-month outstanding high-risk findings; no need to reproduce every question verbatim.",
+  "text_hash": "ba38eb84b9e6630e06869a17bd0a8d39bbd7f3fbf79cf38deccbc05584512bde",
+  "source_text_sha256": "71f7dc2105be0914ed5549193987a3d5f6eda22588e7c5e025dd27c5e41ee8a0",
+  "second_check_required": true,
+  "prior_reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 Teachers’ Retirement System of Illinois RFP, not the INREV DDQ 2022 for Funds of Funds and Multi Manager. Its questionnaire and data-security addendum do not identify or reproduce INREV section 3.3 or its fourteen questions.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+        "APPENDIX D: QUESTIONNAIRE",
+        "EXHIBIT B DATA SECURITY ADDENDUM"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+          "start": 13,
+          "end": 159
+        },
+        {
+          "quote": "APPENDIX D: QUESTIONNAIRE",
+          "start": 31570,
+          "end": 31595
+        },
+        {
+          "quote": "EXHIBIT B DATA SECURITY ADDENDUM",
+          "start": 105297,
+          "end": 105329
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ce38bc653cf1092f9b34",
+  "query_id": "XD-09",
+  "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+  "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+  "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+  "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+  "text_hash": "331a4f3a76ae4b017955d456e0d0109f9c5a8c6234151c5a77fc5602b03f12da",
+  "source_text_sha256": "62db2ddc08b6705150414332e929f3917945d4016cb8f2e1cd2436463593a880",
+  "second_check_required": true,
+  "prior_reviews": []
+}

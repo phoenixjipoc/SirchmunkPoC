@@ -1,0 +1,62 @@
+{
+  "query_id": "SVC-05",
+  "question": "In the Indiana Public Retirement System (INPRS) RFP 24-05 for audit services, which firm has provided INPRS's external audit services and since when, and what limit does INPRS's procurement policy place on contract length?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "S",
+  "references": [
+    {
+      "rank": 1,
+      "file": "INPRS__RFP24-05_AuditServices.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+      "path": "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf"
+    }
+  ],
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "baseline_sha256": "f6317994acb888594d718e0ed149ec659066d2f7e81fc03fb539fe6824660440",
+  "original_files": [
+    "INPRS__RFP24-05_AuditServices.pdf",
+    "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+    "Rice_University__2021_Benefit_Plan_RFP_-_final.pdf"
+  ],
+  "ranking_prompt": "{\"question\": \"In the Indiana Public Retirement System (INPRS) RFP 24-05 for audit services, which firm has provided INPRS's external audit services and since when, and what limit does INPRS's procurement policy place on contract length?\", \"candidates\": [{\"filename\": \"INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Jeffrey Hutson\", \"page_count\": 58, \"keywords\": [\"Jeffrey Hutson\"], \"preview\": \"REQUEST FOR PROPOSALS (“RFP”) for \\nALTERNATIVE INVESTMENT CONSULTING SERVICES \\n \\nRFP NUMBER 23-09 \\n \\n \\nRELEASE DATE:  October 23, 2023 \\nDEADLINE FOR INQUIRIES: November 13, 2023, 3:00 P.M. (EST) \\nDEADLINE FOR SUBMISSION:  December 15, 2023, 3:00 P.M. (EST)\", \"full_content\": \"\"}, {\"filename\": \"INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"KPMG\", \"page_count\": 55, \"keywords\": [\"KPMG\"], \"preview\": \"- 1 -  \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nREQUEST FOR PROPOSALS (“RFP”) for \\n \\nCORE PLUS FIXED INCOME INVESTMENT MANAGEMENT \\n \\n \\nRFP NUMBER 22-04 \\n \\nRELEASE DATE: OCTOBER 31 , 2022 \\n \\nDEADLINE FOR INQUIRIES: NOVEMBER 18, 2022 BY 3:00 PM EST \\n \\nDEADLINE FOR SUBMISSION: DECEMBER 23, 2022 BY 3:00 PM EST\", \"full_content\": \"\"}, {\"filename\": \"INPRS__RFP24-05_AuditServices.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Danny Sullivan\", \"page_count\": 33, \"keywords\": [\"Danny Sullivan\"], \"preview\": \"1  \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nREQUEST FOR PROPOSALS (“RFP”) for \\n \\nAUDIT SERVICES \\n \\n \\nRFP NUMBER 24-05 \\n \\n \\n \\nRELEASE DATE: OCTOBER 2, 2024 \\n \\nDEADLINE FOR INQUIRIES: OCTOBER 11, 2024 BY 3:00 PM EDT \\n \\nDEADLINE FOR SUBMISSION: NOVEMBER 1, 2024 BY 3:00 PM EDT\", \"full_content\": \"\"}, {\"filename\": \"Rice_University__2021_Benefit_Plan_RFP_-_final.pdf\", \"extension\": \".pdf\", \"title\": \"Request for Proposal To Provide Audit Services for the\", \"author\": \"Evelyn Stewart\", \"page_count\": 6, \"keywords\": [\"Evelyn Stewart\"], \"preview\": \"1 | Page  \\n \\nRequest for Proposal to Provide Audit Services for the  \\nWilliam Marsh Rice University Defined Contribution Retirement Plan \\n \\nINTRODUCTION  \\nRice University (“the University”) requests a proposal to provide external audit services for the \\nWilliam Marsh Rice University Defined Contribution and Supplemental 403(b) Retirement \\nPlans, as required under Department of Labor regulations. As more fully described in this \\nmemorandum, you should submit a written proposal outlining your firm’s qualifications, \\napproach, and fees for this work.  \\n \\nIt is the practice of the University to appoint or reappoint a plan auditor on an annual basis. \\nHowever, the University expects a continuing relationship with the firm selected and will \\nconsider an initial appointment of up to three years,\", \"full_content\": \"\"}]}",
+  "keyword_files": [
+    "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf",
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+    "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf",
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+    "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf"
+  ],
+  "status": "ok",
+  "elapsed_s": 3.167,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 1089,
+    "completion_tokens": 178,
+    "total_tokens": 1267
+  },
+  "attempt": 1
+}

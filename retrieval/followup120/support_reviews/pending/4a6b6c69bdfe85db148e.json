@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "4a6b6c69bdfe85db148e",
+    "query_id": "SVC-07",
+    "question": "Which retirement system's global custody RFP states that the system does not currently participate in securities lending, and what is the planned start date for the custody contract?",
+    "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "expected_facts": "The Texas Municipal Retirement System (TMRS), in its December 2020 RFP for Global Custody and Related Services; the contract start date is January 3, 2022.",
+    "acceptance": "TMRS and January 3, 2022 suffice; issuance month and securities-lending support contingencies are optional.",
+    "text_hash": "2e5c9ac10ac2943a19269fe0ceeab6dc6cca5c9b732ec461770764bed168feeb",
+    "source_text_sha256": "698b71034e03dda497378807f02ef9875cc985ad2aafde5d24accec7bdff2d4b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2016 South Carolina Retirement System Investment Commission RFP for investment consulting, not TMRS’s global custody RFP. Its anticipated contract start date is July 1, 2017; it does not support the requested issuer or date.",
+      "quotes": [
+        "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+        "Opening Date of RFP September 30, 2016",
+        "Anticipated Contract Start Date July 1, 2017"
+      ],
+      "quote_matches": [
+        {
+          "quote": "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+          "start": 106,
+          "end": 203
+        },
+        {
+          "quote": "Opening Date of RFP September 30, 2016",
+          "start": 3433,
+          "end": 3471
+        },
+        {
+          "quote": "Anticipated Contract Start Date July 1, 2017",
+          "start": 4080,
+          "end": 4124
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

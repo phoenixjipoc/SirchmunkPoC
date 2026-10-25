@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "545911e1df8a99fe8f24",
+    "query_id": "INV-20",
+    "question": "Which meetings must the investment consultant attend under the IMRF sample RFP for investment consulting, real estate consulting and performance measurement services, and how many days of meetings per year does IMRF estimate?",
+    "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "expected_facts": "(1) Monthly IMRF Board meetings; (2) Investment Committee meetings; (3) the Annual IMRF Roundtable; (4) regional meetings with investment managers; (5) related investment meetings and discussions; (6) formal interviews with existing and potential investment managers; (7) ad hoc due diligence meetings with investment managers and staff. IMRF estimates about sixty days of meetings per year with the Board and/or staff, plus frequent telephone discussions with staff.",
+    "acceptance": "All seven meeting categories and about 60 days/year. Frequent telephone calls and principal-attendance details are optional.",
+    "text_hash": "e529592be16077691cd54aac3c1a9e7ed524ba5b471c34ebf5ebe0296f8ab615",
+    "source_text_sha256": "40f6e66cda735b5ac3e65bb52c7627bc76b11a8e7017ca73d4ed3e9b2360ca3a",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a COAERS general investment consultant RFP, not the IMRF sample RFP. Its meeting requirements concern COAERS and do not support the seven IMRF meeting categories or IMRF’s estimate of about 60 meeting days per year.",
+      "quotes": [
+        "Request for Proposal General Investment Consultant",
+        "City of Austin Employees’ Retirement System",
+        "Attend Investment Committee (8 per year in Austin, Texas) and Board meetings (4 per year in Austin, Texas) to review performance, assess investment program and make recommendations."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal General Investment Consultant",
+          "start": 13,
+          "end": 63
+        },
+        {
+          "quote": "City of Austin Employees’ Retirement System",
+          "start": 154,
+          "end": 197
+        },
+        {
+          "quote": "Attend Investment Committee (8 per year in Austin, Texas) and Board meetings (4 per year in Austin, Texas) to review performance, assess investment program and make recommendations.",
+          "start": 23243,
+          "end": 23424
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

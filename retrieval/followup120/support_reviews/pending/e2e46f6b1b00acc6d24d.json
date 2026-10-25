@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "e2e46f6b1b00acc6d24d",
+    "query_id": "CONS-07",
+    "question": "Which pension system's investment consultant RFP requires respondents to have at least five defined benefit pension plan clients, two of which are public pension plans with total plan assets of at least $15 billion each?",
+    "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "expected_facts": "Orange County Employees Retirement System (OCERS), in its 2021 investment consultant services RFP (Appendix E, Minimum Qualifications Certification).",
+    "acceptance": "OCERS/Orange County Employees Retirement System suffices. Appendix designation, year and restatement of qualification are optional.",
+    "text_hash": "81e913c98df37dcfd35af28d88b1b03c1dc82eb7e2f99c9c19de8d06866fc421",
+    "source_text_sha256": "2d54872fc00a587921e9e76823bb49d685f32d834a6c8320657ad95eb8fd8f87",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Indiana Public Retirement System RFP, not an OCERS RFP. Its minimum qualification calls for two public pension fund clients with alternative-investment portfolios of at least $2 billion, not five defined benefit plan clients including two public plans with total assets of at least $15 billion each.",
+      "quotes": [
+        "Request for Proposals (“RFP”) for Alternative Investment Consulting Services for the Indiana Public Retirement System (“INPRS” or the “System”).",
+        "The investment consulting firm must have a minimum of two (2) public pension fund clients, with at least $2.0 billion or more in an Alternative Investment portfolio."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals (“RFP”) for Alternative Investment Consulting Services for the Indiana Public Retirement System (“INPRS” or the “System”).",
+          "start": 2274,
+          "end": 2418
+        },
+        {
+          "quote": "The investment consulting firm must have a minimum of two (2) public pension fund clients, with at least $2.0 billion or more in an Alternative Investment portfolio.",
+          "start": 22142,
+          "end": 22307
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "03e832d94f5d6affa116",
+    "query_id": "OTH-09",
+    "question": "A county pension fund is searching for a single manager of managers covering domestic equity, international equity and fixed income. What is the maximum mandate size, and what is the firm-level AUM limit for responders?",
+    "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "expected_facts": "A mandate of up to $350 million; responders must have less than $30 billion in firm-level assets under management (Cook County Fund, RFP 25-0004).",
+    "acceptance": "Accept up to $350m and firm AUM strictly below $30bn. Cook County identification is optional.",
+    "text_hash": "afed2142cd9b5f90246d59a5737b84e7449b0c4dc717232226f57461b45a9b9e",
+    "source_text_sha256": "4e6f311f7c398d5daed9e60599d032ec43a08c449bc5eec7b5f5fb388433a80b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a San Francisco retirement system RFP for non-discretionary investment consulting, not the manager-of-managers search described. It provides neither a maximum mandate size nor a firm-level AUM limit for responders. Its approximately $34 billion figure is the fund’s value, not a responder limit.",
+      "quotes": [
+        "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System",
+        "The Fund had a total market value of approximately $34 billion as of June 30, 2022.",
+        "The general scope of work for this RFP is to provide non-discretionary professional investment consulting services.",
+        "A Proposer must meet the following minimum qualification to SFERS’ satisfaction:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System",
+          "start": 13,
+          "end": 147
+        },
+        {
+          "quote": "The Fund had a total market value of approximately $34 billion as of June 30, 2022.",
+          "start": 933,
+          "end": 1016
+        },
+        {
+          "quote": "The general scope of work for this RFP is to provide non-discretionary professional investment consulting services.",
+          "start": 3596,
+          "end": 3711
+        },
+        {
+          "quote": "A Proposer must meet the following minimum qualification to SFERS’ satisfaction:",
+          "start": 13360,
+          "end": 13440
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

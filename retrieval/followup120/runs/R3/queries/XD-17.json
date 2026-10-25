@@ -1,0 +1,574 @@
+{
+  "query_id": "XD-17",
+  "question": "Which RFPs in the corpus contain Iran-related certification, disclosure or compliance requirements for respondents?",
+  "type": "broad",
+  "pair_id": "",
+  "seed": 4069165801,
+  "references": [
+    {
+      "rank": 1,
+      "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+      "path": "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+      "path": "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+      "path": "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+      "path": "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "AVFPD__RFP-Actuatial-Services-2024.pdf",
+      "path": "/mnt/docs/S/AVFPD__RFP-Actuatial-Services-2024.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+      "path": "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "IMRF__sample_investment_manager_rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf",
+      "path": "/mnt/docs/S/York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf"
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "keywords": {
+    "Iran-related certification": 8.0,
+    "disclosure requirements": 6.0,
+    "compliance requirements for respondents": 8.0,
+    "RFP corpus": 7.0,
+    "伊朗": 6.0,
+    "征求建议书": 7.0,
+    "信息披露": 6.0,
+    "合规要求": 6.0
+  },
+  "keyword_terms": [
+    "Iran-related certification",
+    "disclosure requirements",
+    "compliance requirements for respondents",
+    "RFP corpus",
+    "伊朗",
+    "征求建议书",
+    "信息披露",
+    "合规要求"
+  ],
+  "directory_prompt": "You are a document triage specialist. Analyze the scanned files below and rank them by relevance to the user's query.\n\n## Directory Structure\nRoot: /mnt/docs/S\n```\n  ./ (20 files)\n```\n\n## User Query\nWhich RFPs in the corpus contain Iran-related certification, disclosure or compliance requirements for respondents?\n\n## Scanned Files\n- **KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf** (.pdf, 2.7MB)\n  Title: Microsoft Word - KCERA RFP for Audit Services\n  Author: matt.henry\n  Pages/Sheets: 55\n  Keywords: matt.henry\n  Modified: 2026-10-07\n  Preview: Kern County Employees’ Retirement Association  REQUEST FOR PROPOSAL – AUDIT SERVICES                              Kern County Employees’ Retirement Association  11125 River Run Boulevard Bakersfield C\n\n- **AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf** (.pdf, 185.4KB)\n  Title: Private Markets Due Diligence Questionnaire\n  Pages/Sheets: 4\n  Modified: 2026-10-07\n  Preview: As you explore potential partnerships in private markets, it’s important to recognize that these investments work differently  than traditional public market investments held in daily liquid vehicles,\n\n- **Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf** (.pdf, 442.2KB)\n  Title: BACKGROUND\n  Author: Michael Sacco\n  Pages/Sheets: 9\n  Keywords: Michael Sacco\n  Modified: 2026-10-07\n  Preview: 1  REQUEST FOR PROPOSALS – ACTUARIAL SERVICES      BACKGROUND    The Stoneham Retirement System (“System”) is governed by the Stoneham Retirement Board (“Board”)  and is the pension system serving the\n\n- **Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf** (.pdf, 217.9KB)\n  Author: John Kelly\n  Pages/Sheets: 15\n  Keywords: John Kelly\n  Modified: 2026-10-07\n  Preview: BOSTON  RETIREMENT SYSTEM  (“BRS”)    INVESTMENT CONSULTING SERVICES  REQUEST FOR PROPOSALS  (“RFP”)\n\n- **INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc** (.doc, 1.2MB)\n  Modified: 2026-10-07\n\n- **York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf** (.pdf, 921.1KB)\n  Title: Microsoft Word - REQUEST FOR PROPOSALS DRAFT 2.3+ICON.docx\n  Author: Frederick\n  Pages/Sheets: 9\n  Keywords: Frederick\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS  FOR  INVESTMENT  MANAGER/ADVISER/CONSULTANT            CITY OF YORK  PENSION FUNDS      NOVEMBER 28, 2016      RESPONSES DUE JANUARY 6, 2017\n\n- **Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf** (.pdf, 426.2KB)\n  Title: Request for Proposal\n  Author: Cummings, Meg\n  Pages/Sheets: 24\n  Keywords: Cummings, Meg\n  Modified: 2026-10-07\n  Preview: 3    Request for Proposal  Actuarial and Consulting  Services for Pension Benefits                                                B o s t o n  R e t i r e m e n t  S y s t e m   B o s t o n  C i t y\n\n- **KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf** (.pdf, 469.5KB)\n  Title: Microsoft Word - Audit Actuary RFP 2024 Final\n  Author: matt.henry\n  Pages/Sheets: 50\n  Keywords: matt.henry\n  Modified: 2026-10-07\n  Preview: Kern County Employees’ Retirement Association             Request for Proposal     ACTUARIAL AUDIT SERVICES            March 29, 2024\n\n- **INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx** (.docx, 505.6KB)\n  Title:  \n  Author: Constantin Sorlescu\n  Lines: ~409\n  Keywords: Constantin Sorlescu\n  Modified: 2026-10-07\n  Preview: Table of Contents Introduction As the non-listed real estate market has matured, both in terms of number of vehicles on offer and geographical reach, there is an increasing necessity for a more standa\n\n- **Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf** (.pdf, 201.6KB)\n  Author: Jason Harjo\n  Pages/Sheets: 3\n  Keywords: Jason Harjo\n  Modified: 2026-10-07\n  Preview: OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM    Question and Answer Document    External Audit DB Plans  RFP 515-22-300    1. QUESTION:  What are some things you would like to see improved in the finan\n\n- **ILPA__ESG-Assessment-Framework-FAQ.pdf** (.pdf, 121.1KB)\n  Author: Microsoft Office User\n  Pages/Sheets: 3\n  Keywords: Microsoft Office User\n  Modified: 2026-10-07\n  Preview: Institutional Limited Partners Association                              1776 I St. NW Suite 525 Washington, D.C. 20006    ESG Assessment Framework – Key Considerations and FAQ    Overview   ILPA relea\n\n- **OCERS__investment_consultant_services_rfp.pdf** (.pdf, 616.2KB)\n  Title: OCERS Investment Consultant Services RFP\n  Author: OCERS\n  Pages/Sheets: 37\n  Keywords: OCERS, OCERS Investment Consultant Services RFP\n  Modified: 2026-10-07\n  Preview: Investment Consultant Services  for:   General Investments and Risk  Private Equity  Real Assets  Real Estate  Requests for Proposal    Issued August 2021                    Orange County Employees Re\n\n- **Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf** (.pdf, 667.3KB)\n  Author: James Stivers\n  Pages/Sheets: 48\n  Keywords: James Stivers\n  Modified: 2026-10-07\n  Preview: State Retirement Systems            Request for Proposal  for  Actuarial Consulting Services  (System Reference # 24100)        Issued on February 2, 2024  Responses Due by 2:00 P.M. CST on March 4, 2\n\n- **Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf** (.pdf, 197.1KB)\n  Title: ATTACHMENT 3C – FOR BOTH GENERAL AND PUBLIC MARKET CONSULTANT AND ALTERNATIVE CONSULTANT—SERVICE LEVEL THREE\n  Author: DanielGr\n  Pages/Sheets: 12\n  Keywords: DanielGr\n  Modified: 2026-10-07\n  Preview: Attachment 3-1          ATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES  PROPOSAL QUESTIONNAIRE    BOSTON RETIREMENT SYSTEM    Investment Consulting Services   Request for Proposals  INSTRUCTIONS\n\n- **Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf** (.pdf, 241.5KB)\n  Author: Fernando Vinzons\n  Pages/Sheets: 14\n  Keywords: Fernando Vinzons\n  Modified: 2026-10-07\n  Preview: 1        THE RETIREMENT BOARD   OF THE COUNTY EMPLOYEES’ AND OFFICERS’ ANNUITY AND BENEFIT FUND   OF COOK COUNTY AND EX OFFICIO FOR THE FOREST PRESERVE DISTRICT  EMPLOYEES’ ANNUITY AND BENEFIT FUND OF\n\n- **SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf** (.pdf, 775.2KB)\n  Title: SURS Sample Investment Manager RFP\n  Author: SURS\n  Pages/Sheets: 44\n  Keywords: SURS\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSAL  Emerging  Markets Equity  ID: RFP-##-##-##  Issued February 14, 2022  Respon ses due via email  by 4:30pm CT on March 31, 2022  Please include RFP ID on all correspondence Sample\n\n- **SAA__SAA-Investment-Manager-Database-Questionnaire.docx** (.docx, 41.1KB)\n  Title: RFP – Fixed Income Investment Management Services\n  Author: Alton Cogert\n  Lines: ~132\n  Keywords: Alton Cogert\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSAL FIXED INCOME INVESTMENT MANAGEMENT SERVICES I. Background Information Firm Name: Year of Organization: Total Number of Employees: Total Number of Investment Professionals: Address: Telephone: Fax Number: Contact for Questionnaire: Telephone: Insurance Client Contact: Telephone: Firm ownership and any changes within the past five years:  (please indicate majority owner of the investment firm); Insurance affiliations: (please indicate any direct or indirect affiliations with a\n\n- **ILPA__ILPA-ESG-Assessment-Framework.pdf** (.pdf, 255.6KB)\n  Pages/Sheets: 12\n  Modified: 2026-10-07\n  Preview: 1 ILPA ESG Assessment Framework ESG ASSESSMENT FRAMEWORK OVERVIEW - HOW TO USE THIS FRAMEWORK ILPA released this ESG Assessment Framework as a resource for limited partners looking to build a tool to\n\n- **IMRF__sample_investment_manager_rfp.pdf** (.pdf, 285.9KB)\n  Title:   \n  Author: Carmen Heredia-Lopez\n  Pages/Sheets: 26\n  Keywords: Carmen Heredia-Lopez\n  Modified: 2026-10-07\n  Preview: SAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP    Request for Proposals - Investment Management  Domestic Equity Small Cap Growth    SAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP\n\n- **OCERS__ocers_pas_consultant_rfp.pdf** (.pdf, 602.1KB)\n  Title: Pension Administration Project Oversight and Consultation Services RFP\n  Author: OCERS\n  Pages/Sheets: 39\n  Keywords: OCERS, Pension Administration Project Oversight and Consultation Services OCERS RFP\n  Modified: 2026-10-07\n  Preview: Pension Administration System Consulting RFP Page 1    Pension Administration Project  Oversight and Consultation  Services  Request for Proposal    September 2023                                  Ora\n\n## Instructions\n1. Evaluate EVERY file listed above. Consider directory names, filenames, titles, keywords, and preview content as relevance signals.\n2. Assign \"high\" (directly relevant), \"medium\" (possibly relevant), or \"low\" (unlikely relevant) to each file.\n3. For the \"path\" field, copy the **exact relative path** shown in bold (e.g. `subdir/file.pdf`) from the scan results above.\n4. Return ONLY a JSON array — no other text.\n\n## Output Format (use the EXACT path shown in the file listing)\n```json\n[\n  {\"path\": \"exact/relative/path/from/listing\", \"relevance\": \"high\", \"reason\": \"brief reason\"}\n]\n```",
+  "keyword_files": [
+    "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+    "/mnt/docs/S/AVFPD__RFP-Actuatial-Services-2024.pdf",
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf",
+    "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+    "/mnt/docs/S/York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf",
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf",
+    "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+    "/mnt/docs/S/AVFPD__RFP-Actuatial-Services-2024.pdf",
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf",
+    "/mnt/docs/S/York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf",
+    "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf",
+    "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf"
+  ],
+  "directory_ranking": [
+    {
+      "path": "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+      "filename": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+      "extension": ".pdf",
+      "size_bytes": 683303,
+      "modified_at": "2026-10-07T07:06:48",
+      "created_at": "2026-10-07T07:19:57.472036",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "James Stivers",
+      "page_count": 48,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "James Stivers"
+      ],
+      "preview": "State Retirement Systems \n \n \n \n \n \nRequest for Proposal \nfor \nActuarial Consulting Services \n(System Reference # 24100) \n \n \n \nIssued on February 2, 2024 \nResponses Due by 2:00 P.M. CST on March 4, 2024",
+      "content_loaded": false,
+      "relevance": "high",
+      "reason": "Illinois public-system RFP; respondent certifications and statutory compliance requirements are likely."
+    },
+    {
+      "path": "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+      "filename": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+      "extension": ".pdf",
+      "size_bytes": 793776,
+      "modified_at": "2026-10-07T07:14:27",
+      "created_at": "2026-10-07T07:19:58.852012",
+      "mime_type": "application/pdf",
+      "title": "SURS Sample Investment Manager RFP",
+      "author": "SURS",
+      "page_count": 44,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "SURS"
+      ],
+      "preview": "REQUEST FOR PROPOSAL \nEmerging \nMarkets Equity \nID: RFP-##-##-## \nIssued February 14, 2022 \nRespon\nses due via email \nby 4:30pm CT on March 31, 2022 \nPlease include RFP ID on all correspondence\nSample",
+      "content_loaded": false,
+      "relevance": "high",
+      "reason": "Illinois investment-manager RFP template is a strong candidate for Iran-related investment disclosures or certifications."
+    },
+    {
+      "path": "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf",
+      "filename": "IMRF__sample_investment_manager_rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 292790,
+      "modified_at": "2026-10-07T07:06:03",
+      "created_at": "2026-10-07T07:19:57.072043",
+      "mime_type": "application/pdf",
+      "title": "  ",
+      "author": "Carmen Heredia-Lopez",
+      "page_count": 26,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Carmen Heredia-Lopez"
+      ],
+      "preview": "SAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP \n \nRequest for Proposals - Investment Management \nDomestic Equity Small Cap Growth \n \nSAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP \n \nPART 1 -- Introduction and Goal of the RFP \n1.1 INTRODUCTION - General Information \nThe Illinois Mu",
+      "content_loaded": false,
+      "relevance": "high",
+      "reason": "Illinois public-pension investment RFP is a strong candidate for Iran-related respondent requirements."
+    },
+    {
+      "path": "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+      "filename": "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+      "extension": ".pdf",
+      "size_bytes": 247306,
+      "modified_at": "2026-10-07T07:06:18",
+      "created_at": "2026-10-07T07:19:56.696049",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Fernando Vinzons",
+      "page_count": 14,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Fernando Vinzons"
+      ],
+      "preview": "1 \n \n \n \nTHE RETIREMENT BOARD  \nOF THE COUNTY EMPLOYEES’ AND OFFICERS’ ANNUITY AND BENEFIT FUND  \nOF COOK COUNTY AND EX OFFICIO FOR THE FOREST PRESERVE DISTRICT \nEMPLOYEES’ ANNUITY AND BENEFIT FUND OF COOK COUNTY  \n \n \n \n \nREQUEST FOR PROPOSALS (RFP) \nTO PROVIDE \nMANAGER OF MANAGERS INVESTMENT SERVI",
+      "content_loaded": false,
+      "relevance": "high",
+      "reason": "Illinois public-pension manager RFP may require Iran-related investment or compliance disclosures."
+    },
+    {
+      "path": "/mnt/docs/S/York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf",
+      "filename": "York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf",
+      "extension": ".pdf",
+      "size_bytes": 943178,
+      "modified_at": "2026-10-07T07:17:46",
+      "created_at": "2026-10-07T07:19:59.264005",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - REQUEST FOR PROPOSALS DRAFT 2.3+ICON.docx",
+      "author": "Frederick",
+      "page_count": 9,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Frederick"
+      ],
+      "preview": "REQUEST FOR PROPOSALS \nFOR \nINVESTMENT \nMANAGER/ADVISER/CONSULTANT \n \n \n \n \n \nCITY OF YORK \nPENSION FUNDS \n \n \nNOVEMBER 28, 2016 \n \n \nRESPONSES DUE JANUARY 6, 2017",
+      "content_loaded": false,
+      "relevance": "high",
+      "reason": "Pennsylvania public-pension procurement may include an Iran-free procurement certification."
+    },
+    {
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+      "filename": "OCERS__investment_consultant_services_rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 630996,
+      "modified_at": "2026-10-07T07:02:13",
+      "created_at": "2026-10-07T07:19:58.220023",
+      "mime_type": "application/pdf",
+      "title": "OCERS Investment Consultant Services RFP",
+      "author": "OCERS",
+      "page_count": 37,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "OCERS",
+        "OCERS Investment Consultant Services RFP"
+      ],
+      "preview": "Investment Consultant Services \nfor:  \nGeneral Investments and Risk \nPrivate Equity \nReal Assets \nReal Estate \nRequests for Proposal \n \nIssued August 2021 \n \n \n \n \n \n \n \n \n \nOrange County Employees Retirement System (OCERS) \n2223 E Wellington Avenue Suite 100 \nSanta Ana, CA 92701 USA \n1-(714)-558-62",
+      "content_loaded": false,
+      "relevance": "high",
+      "reason": "California public-pension consultant RFP may include an Iran Contracting Act certification."
+    },
+    {
+      "path": "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf",
+      "filename": "OCERS__ocers_pas_consultant_rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 616526,
+      "modified_at": "2026-10-07T07:09:11",
+      "created_at": "2026-10-07T07:19:58.264022",
+      "mime_type": "application/pdf",
+      "title": "Pension Administration Project Oversight and Consultation Services RFP",
+      "author": "OCERS",
+      "page_count": 39,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "OCERS",
+        "Pension Administration Project Oversight and Consultation Services OCERS RFP"
+      ],
+      "preview": "Pension Administration System Consulting RFP Page 1 \n \nPension Administration Project \nOversight and Consultation \nServices \nRequest for Proposal \n \nSeptember 2023 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nOrange County Employees Retirement System (OCERS) \n2223 E Wellington Avenue Suite 100 \nSanta Ana, CA 92",
+      "content_loaded": false,
+      "relevance": "high",
+      "reason": "California public-system consultant RFP may include an Iran Contracting Act certification."
+    },
+    {
+      "path": "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+      "filename": "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+      "extension": ".pdf",
+      "size_bytes": 2825104,
+      "modified_at": "2026-10-07T07:14:36",
+      "created_at": "2026-10-07T07:19:57.660033",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - KCERA RFP for Audit Services",
+      "author": "matt.henry",
+      "page_count": 55,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "matt.henry"
+      ],
+      "preview": "Kern County Employees’ Retirement Association \nREQUEST FOR PROPOSAL – AUDIT SERVICES \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nKern County Employees’ Retirement Association \n11125 River Run Boulevard Bakersfield CA 93311 \n661‐381‐7700 Fax: 661‐381‐7799 \nwww.kcera.org",
+      "content_loaded": false,
+      "relevance": "high",
+      "reason": "California public-system RFP with attachments is a strong candidate for an Iran Contracting Act certification."
+    },
+    {
+      "path": "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+      "filename": "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+      "extension": ".pdf",
+      "size_bytes": 480771,
+      "modified_at": "2026-10-07T07:11:26",
+      "created_at": "2026-10-07T07:19:57.692032",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - Audit Actuary RFP 2024 Final",
+      "author": "matt.henry",
+      "page_count": 50,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "matt.henry"
+      ],
+      "preview": "Kern County Employees’ Retirement Association \n \n  \n \n \n \nRequest for Proposal \n  \nACTUARIAL AUDIT SERVICES \n \n \n \n \n \nMarch 29, 2024",
+      "content_loaded": false,
+      "relevance": "high",
+      "reason": "California public-system RFP and sample agreement may impose Iran-related contracting compliance."
+    },
+    {
+      "path": "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+      "filename": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+      "extension": ".pdf",
+      "size_bytes": 223136,
+      "modified_at": "2026-10-07T07:05:45",
+      "created_at": "2026-10-07T07:19:56.288056",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "John Kelly",
+      "page_count": 15,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "John Kelly"
+      ],
+      "preview": "BOSTON \nRETIREMENT SYSTEM \n(“BRS”) \n \nINVESTMENT CONSULTING SERVICES \nREQUEST FOR PROPOSALS \n(“RFP”)",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Massachusetts public-pension RFP could contain an Iran-related vendor certification; the preview does not confirm one."
+    },
+    {
+      "path": "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "filename": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "extension": ".pdf",
+      "size_bytes": 201881,
+      "modified_at": "2026-10-07T07:05:47",
+      "created_at": "2026-10-07T07:19:56.272057",
+      "mime_type": "application/pdf",
+      "title": "ATTACHMENT 3C – FOR BOTH GENERAL AND PUBLIC MARKET CONSULTANT AND ALTERNATIVE CONSULTANT—SERVICE LEVEL THREE",
+      "author": "DanielGr",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "DanielGr"
+      ],
+      "preview": "Attachment 3-1 \n \n \n \n \nATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES \nPROPOSAL QUESTIONNAIRE \n \nBOSTON RETIREMENT SYSTEM \n \nInvestment Consulting Services  \nRequest for Proposals \nINSTRUCTIONS \n \nBRS is considering Proposals for a General Investment Services Consultant, which encompasses Public",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Respondent questionnaire could request Iran-related disclosures; the preview does not confirm one."
+    },
+    {
+      "path": "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+      "filename": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+      "extension": ".pdf",
+      "size_bytes": 436410,
+      "modified_at": "2026-10-07T07:07:11",
+      "created_at": "2026-10-07T07:19:56.324056",
+      "mime_type": "application/pdf",
+      "title": "Request for Proposal",
+      "author": "Cummings, Meg",
+      "page_count": 24,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Cummings, Meg"
+      ],
+      "preview": "3 \n \nRequest for Proposal \nActuarial and Consulting \nServices for Pension Benefits  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \nB o s t o n  R e t i r e m e n t  S y s t e m  \nB o s t o n  C i t y  H a l l ,  R o o m  8 1 6  \nO n e  C i t y  H a l l  S q u a r e  \nB o s t o n ,  M A   0 2 2 0 1  \n",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Massachusetts public-system RFP could include an Iran-related procurement certification."
+    },
+    {
+      "path": "/mnt/docs/S/Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf",
+      "filename": "Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf",
+      "extension": ".pdf",
+      "size_bytes": 452824,
+      "modified_at": "2026-10-07T07:06:52",
+      "created_at": "2026-10-07T07:19:58.944010",
+      "mime_type": "application/pdf",
+      "title": "BACKGROUND",
+      "author": "Michael Sacco",
+      "page_count": 9,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Michael Sacco"
+      ],
+      "preview": "1 \nREQUEST FOR PROPOSALS – ACTUARIAL SERVICES \n \n \nBACKGROUND \n \nThe Stoneham Retirement System (“System”) is governed by the Stoneham Retirement Board (“Board”) \nand is the pension system serving the Town of Stoneham and the Stoneham Housing Authority  in \nMiddlesex County, Massachusetts. The Board",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Massachusetts retirement-system RFP could include an Iran-related vendor requirement."
+    },
+    {
+      "path": "/mnt/docs/S/SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+      "filename": "SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+      "extension": ".docx",
+      "size_bytes": 42087,
+      "modified_at": "2026-10-07T07:11:23",
+      "created_at": "2026-10-07T07:19:58.424019",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "title": "RFP – Fixed Income Investment Management Services",
+      "author": "Alton Cogert",
+      "page_count": 0,
+      "encoding": "",
+      "line_count": 132,
+      "keywords": [
+        "Alton Cogert"
+      ],
+      "preview": "REQUEST FOR PROPOSAL\nFIXED INCOME INVESTMENT MANAGEMENT SERVICES\nI. Background Information\nFirm Name:\nYear of Organization:\nTotal Number of Employees:\nTotal Number of Investment Professionals:\nAddress:\nTelephone:\nFax Number:\nContact for Questionnaire:\nTelephone:\nInsurance Client Contact:\nTelephone:\n",
+      "content_loaded": true,
+      "relevance": "medium",
+      "reason": "Investment-manager RFP questionnaire might ask about restricted investments, but no Iran requirement is visible."
+    },
+    {
+      "path": "/mnt/docs/S/Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf",
+      "filename": "Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf",
+      "extension": ".pdf",
+      "size_bytes": 206391,
+      "modified_at": "2026-10-07T07:14:48",
+      "created_at": "2026-10-07T07:19:58.300021",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Jason Harjo",
+      "page_count": 3,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Jason Harjo"
+      ],
+      "preview": "OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM \n \nQuestion and Answer Document \n \nExternal Audit DB Plans \nRFP 515-22-300 \n \n1. QUESTION:  What are some things you would like to see improved in the financial audit process \ncompared to previous years? \n \nANSWER:  Due to the diligent work of the accounti",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Short Q&A supplement, rather than the RFP or its respondent-certification forms."
+    },
+    {
+      "path": "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "filename": "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "extension": ".pdf",
+      "size_bytes": 189839,
+      "modified_at": "2026-10-07T07:15:10",
+      "created_at": "2026-10-07T07:19:56.012061",
+      "mime_type": "application/pdf",
+      "title": "Private Markets Due Diligence Questionnaire",
+      "author": "",
+      "page_count": 4,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "As you explore potential partnerships in private markets, it’s important to recognize that these investments work differently \nthan traditional public market investments held in daily liquid vehicles, such as mutual funds and ETFs. This questionnaire is \ndesigned to help you navigate those differenc",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "General due-diligence questionnaire, not an identified public RFP."
+    },
+    {
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+      "filename": "INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+      "extension": ".doc",
+      "size_bytes": 1211392,
+      "modified_at": "2026-10-07T07:12:11",
+      "created_at": "2026-10-07T07:19:57.328038",
+      "mime_type": "application/msword",
+      "title": "",
+      "author": "",
+      "page_count": 0,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Industry-standard due-diligence questionnaire, not an identified public RFP."
+    },
+    {
+      "path": "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+      "filename": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+      "extension": ".docx",
+      "size_bytes": 517687,
+      "modified_at": "2026-10-07T07:12:14",
+      "created_at": "2026-10-07T07:19:57.248040",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "title": " ",
+      "author": "Constantin Sorlescu",
+      "page_count": 0,
+      "encoding": "",
+      "line_count": 409,
+      "keywords": [
+        "Constantin Sorlescu"
+      ],
+      "preview": "Table of Contents\nIntroduction\nAs the non-listed real estate market has matured, both in terms of number of vehicles on offer and geographical reach, there is an increasing necessity for a more standardised due diligence process to assist investors at all levels to easily access vehicle and manager ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Industry-standard due-diligence questionnaire, not an identified public RFP."
+    },
+    {
+      "path": "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+      "filename": "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+      "extension": ".pdf",
+      "size_bytes": 124004,
+      "modified_at": "2026-10-07T07:12:01",
+      "created_at": "2026-10-07T07:19:56.944045",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Microsoft Office User",
+      "page_count": 3,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Microsoft Office User"
+      ],
+      "preview": "Institutional Limited Partners Association                              1776 I St. NW Suite 525 Washington, D.C. 20006 \n \nESG Assessment Framework – Key Considerations and FAQ \n \nOverview  \nILPA released this ESG Assessment Framework as a resource for limited partners looking to build a tool \nto eva",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "ESG framework FAQ, not an RFP or respondent certification."
+    },
+    {
+      "path": "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+      "filename": "ILPA__ILPA-ESG-Assessment-Framework.pdf",
+      "extension": ".pdf",
+      "size_bytes": 261766,
+      "modified_at": "2026-10-07T07:12:00",
+      "created_at": "2026-10-07T07:19:57.004044",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "1\nILPA ESG Assessment Framework\nESG ASSESSMENT FRAMEWORK\nOVERVIEW - HOW TO USE THIS FRAMEWORK\nILPA released this ESG Assessment Framework as a resource for limited partners looking to build a tool to evaluate and understand the \nvarious stages of ESG integration that peers are observing among genera",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "ESG assessment guidance, not an RFP or respondent certification."
+    }
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 375,
+      "timestamp": "2026-10-23 08:04:04.732463",
+      "metadata": {
+        "keywords": [
+          "Iran-related certification",
+          "disclosure requirements",
+          "compliance requirements for respondents",
+          "RFP corpus",
+          "伊朗",
+          "征求建议书",
+          "信息披露",
+          "合规要求"
+        ],
+        "files_found": 7,
+        "files_discovered": [
+          "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+          "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+          "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+          "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+          "/mnt/docs/S/AVFPD__RFP-Actuatial-Services-2024.pdf",
+          "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+          "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+        ]
+      }
+    }
+  ],
+  "elapsed_s": 25.39,
+  "calls": 2,
+  "usage": {
+    "prompt_tokens": 3231,
+    "completion_tokens": 1982,
+    "total_tokens": 5213
+  },
+  "group": "R3",
+  "attempt": 1
+}

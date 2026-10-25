@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "4b8b433fe318102ba6b3",
+    "query_id": "XD-07",
+    "question": "In the INREV Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles (2018), which expense ratio must the manager provide under Fees and Expenses, and on what bases?",
+    "file": "OCERS__ocers_pas_consultant_rfp.pdf",
+    "expected_facts": "Question 1.6.2 asks for the INREV Total Expense Ratio (TER): a forward-looking estimate (with the calculation method) if the vehicle has not been launched, or the INREV TER if it is an existing vehicle. The TER must be given on both NAV and GAV, with and without performance fees. If INREV TER is not used, a calculation in line with INREV TER (INREV Fee and Expense Metrics) is required.",
+    "acceptance": "TER, both NAV/GAV bases, and both with/without performance fees answer the question. Launch-status estimation instructions and fallback aligned calculation may be included but are not necessary to a narrow ratio-and-bases answer.",
+    "text_hash": "af1747fe366b6ece99095ff8194fc5b4085ff2909aa45282d0359249c94d81f4",
+    "source_text_sha256": "ff418f121d48959c4fddc69dbf01669d218269a5b873ad0f1daf40bc3ed37b33",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a September 2023 OCERS pension-administration consulting RFP, not the 2018 INREV Due Diligence Questionnaire. Its Fees and Expenses provision concerns contractor compensation and does not specify an INREV TER or NAV/GAV and performance-fee bases.",
+      "quotes": [
+        "Pension Administration Project Oversight and Consultation Services Request for Proposal September 2023 Orange County Employees Retirement System (OCERS)",
+        "Contractor agrees to accept the compensation set forth in this Exhibit B as full payment for performing all Services"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Pension Administration Project Oversight and Consultation Services Request for Proposal September 2023 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 165
+        },
+        {
+          "quote": "Contractor agrees to accept the compensation set forth in this Exhibit B as full payment for performing all Services",
+          "start": 69478,
+          "end": 69594
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

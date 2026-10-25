@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "a1ee038bedf142e61c5c",
+    "query_id": "INV-15",
+    "question": "In the Baltimore City Employees' Retirement Systems (BCERS) RFP for an alternatives consultant, how many years must the proposing firm have been in business?",
+    "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "expected_facts": "At least seven (7) years providing general consulting services plus private equity consulting services, or alternatives consulting services only (all minimum qualifications must be met as of November 8, 2024, 3:00 p.m. EDT).",
+    "acceptance": "Seven years is sufficient for the narrow question. Service type and qualification deadline are optional; five-year staff experience is not the firm threshold.",
+    "text_hash": "5afc5adec694c195f2977417c376c45b4856a88e72d30c0e1953e2403af08eac",
+    "source_text_sha256": "add3ba83b3e17f098f096c1bf8b5d5000ad39375300bba2e2b398c7d805cf7a6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is CCCERA’s 2018 master custodian RFP, not the BCERS alternatives consultant RFP. Its ten-year custody-services qualification does not support the requested firm-in-business threshold.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+        "The Proposer must have been providing custody services for a minimum of ten (10) years."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+          "start": 13,
+          "end": 141
+        },
+        {
+          "quote": "The Proposer must have been providing custody services for a minimum of ten (10) years.",
+          "start": 17510,
+          "end": 17597
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

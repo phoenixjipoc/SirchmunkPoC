@@ -1,0 +1,12 @@
+{
+  "id": "a16a1ae67de81b088fe1",
+  "query_id": "CONS-01",
+  "question": "In the Grand Rapids General Retirement System investment consultant RFP, what was the total market value of the General Retirement System and as of what date?",
+  "file": "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+  "expected_facts": "Approximately $437 million as of June 30, 2023 (the separate Grand Rapids Police and Fire Retirement System covered by the same RFP was approximately $479 million).",
+  "acceptance": "Require $437m approximately and June 30, 2023. Separate Police and Fire amount is optional.",
+  "text_hash": "3ceed69320130ef8b05d9121485e497c339c98312b01995788aaadc713b0e13e",
+  "source_text_sha256": "1592894378410e0e43afb1370a16e301ba0b8187e206d48f7c0eccbe1356784e",
+  "second_check_required": false,
+  "prior_reviews": []
+}

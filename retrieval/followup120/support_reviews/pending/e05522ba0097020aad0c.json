@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "e05522ba0097020aad0c",
+    "query_id": "XD-09",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+    "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+    "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+    "text_hash": "7bf0434135598b4379264b9228ec0ae5d514d2497cf998a89da96d5f3d55878f",
+    "source_text_sha256": "1620734055a07375d68aca7dc5b3529168cc1928cf355fcdb11e514e6b786b4c",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a COAERS actuarial-services RFP, not the ILPA Due Diligence Questionnaire v1.2. Its table of contents lists exhibits, not the requested ILPA appendices, and provides no evidence for their number or titles.",
+      "quotes": [
+        "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM Request for Proposal (RFP)",
+        "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+        "EXHIBIT A - PROPOSAL SUBMISSION SHEET",
+        "EXHIBIT E - PROFESSIONAL STAFF INFORMATION"
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM Request for Proposal (RFP)",
+          "start": 13,
+          "end": 83
+        },
+        {
+          "quote": "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+          "start": 163,
+          "end": 254
+        },
+        {
+          "quote": "EXHIBIT A - PROPOSAL SUBMISSION SHEET",
+          "start": 8952,
+          "end": 8989
+        },
+        {
+          "quote": "EXHIBIT E - PROFESSIONAL STAFF INFORMATION",
+          "start": 9446,
+          "end": 9488
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

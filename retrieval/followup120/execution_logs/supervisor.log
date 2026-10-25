@@ -1,0 +1,36 @@
+{"time_utc": "2026-10-23T08:18:25Z", "action": "host_dns_refreshed", "addresses": ["162.159.140.245", "172.66.0.243"]}
+{"time_utc": "2026-10-23T08:18:26Z", "action": "stage_started", "stage": "retrieval", "attempt": 1, "log": "retrieval_1792743506_1.log"}
+{"time_utc": "2026-10-23T08:42:28Z", "action": "stage_exited", "stage": "retrieval", "attempt": 1, "exit_code": 1}
+{"time_utc": "2026-10-23T08:42:28Z", "action": "network_recovery_wait", "stage": "retrieval", "seconds": 30}
+{"time_utc": "2026-10-23T08:43:00Z", "action": "host_dns_refreshed", "addresses": ["162.159.140.245", "172.66.0.243"]}
+{"time_utc": "2026-10-23T08:43:02Z", "action": "stage_started", "stage": "retrieval", "attempt": 2, "log": "retrieval_1792744982_2.log"}
+{"time_utc": "2026-10-23T08:47:34Z", "action": "stage_exited", "stage": "retrieval", "attempt": 2, "exit_code": 1}
+{"time_utc": "2026-10-23T08:47:34Z", "action": "network_recovery_wait", "stage": "retrieval", "seconds": 30}
+{"time_utc": "2026-10-23T08:48:05Z", "action": "host_dns_refreshed", "addresses": ["162.159.140.245", "172.66.0.243"]}
+{"time_utc": "2026-10-23T08:48:05Z", "action": "stage_started", "stage": "retrieval", "attempt": 3, "log": "retrieval_1792745285_3.log"}
+{"time_utc": "2026-10-23T14:32:32Z", "action": "stage_exited", "stage": "retrieval", "attempt": 3, "exit_code": 1}
+{"time_utc": "2026-10-23T14:32:32Z", "action": "network_recovery_wait", "stage": "retrieval", "seconds": 30}
+{"time_utc": "2026-10-25T14:50:55Z", "action": "host_dns_refreshed", "addresses": ["162.159.140.245", "172.66.0.243"]}
+{"time_utc": "2026-10-25T14:50:58Z", "action": "stage_started", "stage": "retrieval", "attempt": 4, "log": "retrieval_1792939858_4.log"}
+{"time_utc": "2026-10-25T14:51:10Z", "action": "stage_exited", "stage": "retrieval", "attempt": 4, "exit_code": 1}
+{"time_utc": "2026-10-25T14:51:10Z", "action": "network_recovery_wait", "stage": "retrieval", "seconds": 30}
+{"time_utc": "2026-10-25T14:51:41Z", "action": "host_dns_refreshed", "addresses": ["162.159.140.245", "172.66.0.243"]}
+{"time_utc": "2026-10-25T14:51:42Z", "action": "stage_started", "stage": "retrieval", "attempt": 5, "log": "retrieval_1792939902_5.log"}
+{"time_utc": "2026-10-25T14:51:50Z", "action": "stage_exited", "stage": "retrieval", "attempt": 5, "exit_code": 1}
+{"time_utc": "2026-10-25T14:51:50Z", "action": "network_recovery_wait", "stage": "retrieval", "seconds": 30}
+{"time_utc": "2026-10-25T14:52:20Z", "action": "host_dns_refreshed", "addresses": ["162.159.140.245", "172.66.0.243"]}
+{"time_utc": "2026-10-25T14:52:21Z", "action": "stage_started", "stage": "retrieval", "attempt": 6, "log": "retrieval_1792939941_6.log"}
+{"time_utc": "2026-10-25T14:52:26Z", "action": "stage_exited", "stage": "retrieval", "attempt": 6, "exit_code": 1}
+{"time_utc": "2026-10-25T14:52:26Z", "action": "network_recovery_wait", "stage": "retrieval", "seconds": 30}
+{"time_utc": "2026-10-25T14:52:56Z", "action": "host_dns_retry", "stage": "retrieval", "error": "[Errno 11001] getaddrinfo failed"}
+{"time_utc": "2026-10-25T14:53:26Z", "action": "host_dns_retry", "stage": "retrieval", "error": "[Errno 11001] getaddrinfo failed"}
+Traceback (most recent call last):
+  File "C:\Users\XUJI\OneDrive - Capco\Desktop\Sirchmunk_PoC\SirchmunkPoC_Retrieval\retrieval\followup120\supervise.py", line 122, in <module>
+    if __name__=='__main__': main()
+                             ~~~~^^
+  File "C:\Users\XUJI\OneDrive - Capco\Desktop\Sirchmunk_PoC\SirchmunkPoC_Retrieval\retrieval\followup120\supervise.py", line 97, in main
+    if remaining: remote_stage('retrieval','experiment.py',['--groups',*remaining])
+                  ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XUJI\OneDrive - Capco\Desktop\Sirchmunk_PoC\SirchmunkPoC_Retrieval\retrieval\followup120\supervise.py", line 85, in remote_stage
+    raise RuntimeError(f'{name}: recovery limit reached')
+RuntimeError: retrieval: recovery limit reached

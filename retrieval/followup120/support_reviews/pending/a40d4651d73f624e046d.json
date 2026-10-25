@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "a40d4651d73f624e046d",
+    "query_id": "CONS-13",
+    "question": "How many printed copies of the proposal must be submitted in the San Francisco Employees' Retirement System (SFERS) general investment consultant RFP?",
+    "file": "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+    "expected_facts": "Three (3) paper (hard) copies plus one full electronic copy.",
+    "acceptance": "Three hard/paper/printed copies is fully correct. Electronic-copy mention is optional, not a required extra.",
+    "text_hash": "7ca1e14444ead93c558b519eddbe0502bb5f080ce8678e247801de0ecb9652b8",
+    "source_text_sha256": "ff5ef248d4411638a865914ce676b07109767b5888006ef4708fd3c12c06a986",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a New York City BERS investment consulting RFP, not the SFERS general investment consultant RFP. It requires submission by email and provides no support for an SFERS printed-copy requirement.",
+      "quotes": [
+        "This Request for Proposals (“RFP”) is issued by the NYC Board of Education Retirement System (“BERS” or the “Agency”).",
+        "Each proposer must submit their proposal package via email to BERSProcurement@bers.nyc.gov."
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposals (“RFP”) is issued by the NYC Board of Education Retirement System (“BERS” or the “Agency”).",
+          "start": 5004,
+          "end": 5122
+        },
+        {
+          "quote": "Each proposer must submit their proposal package via email to BERSProcurement@bers.nyc.gov.",
+          "start": 61301,
+          "end": 61392
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,42 @@
+{
+  "id": "6eefed0cb5b1856c05f3",
+  "query_id": "XD-04",
+  "question": "Which due diligence questionnaire in the corpus asks the manager whether it requires its underlying investments to submit data to sustainability performance evaluation organisations, and which organisation does it give as an example?",
+  "file": "ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+  "expected_facts": "The INREV DDQ 2022 for Funds of Funds and Multi Manager, question 3.8.1 (Supplementary Stage, section 3.8 Environmental, Social and Governance). The example given is the Global Real Estate Sustainability Benchmark (GRESB), and the manager is asked for its scores/results if it does require this.",
+  "acceptance": "Identify 2022 FoF/MM DDQ and Global Real Estate Sustainability Benchmark/GRESB. Question number and scores/results follow-up are optional.",
+  "text_hash": "4f7b225da38ba2910c55f1ea4315e95ab8e744efe8938a4f9bf7e044a4cb4ef3",
+  "source_text_sha256": "98e8f8f7a68546605480b8e76d3f362a5feebe06263622702fa575595bb98128",
+  "second_check_required": true,
+  "prior_reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the ILPA Due Diligence Questionnaire version 1.2, released in 2018, not the 2022 INREV Funds of Funds and Multi Manager DDQ. It does not identify GRESB or ask whether underlying investments must submit data to sustainability performance evaluation organisations.",
+      "quotes": [
+        "The ILPA Due Diligence Questionnaire (DDQ) reflects the view of the participants involved in the creation thereof as to best practices with respect to fund diligence.",
+        "New in Version 1.2 (released in September 2018)",
+        "10.0 Environmental, Social & Governance (ESG) (per PRI's LP Responsible Investment DDQ)"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The ILPA Due Diligence Questionnaire (DDQ) reflects the view of the participants involved in the creation thereof as to best practices with respect to fund diligence.",
+          "start": 1962,
+          "end": 2128
+        },
+        {
+          "quote": "New in Version 1.2 (released in September 2018)",
+          "start": 1199,
+          "end": 1246
+        },
+        {
+          "quote": "10.0 Environmental, Social & Governance (ESG) (per PRI's LP Responsible Investment DDQ)",
+          "start": 43717,
+          "end": 43804
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "d6c75ca9ee4dd9e76a88",
+    "query_id": "SVC-19",
+    "question": "What minimum qualifications must a proposing firm certify in the City of Temple City's 2020 RFP for 457 plan administration and recordkeeping services?",
+    "file": "OCERS__custodian_services_rfp_questions_and_answers.pdf",
+    "expected_facts": "(1) At least 5 years of experience administering governmental 457 plans and currently providing sole-provider administration to at least five 457 plans with assets under $25 million; (2) no front-end or back-end charges and no restrictions/penalties on plan- or participant-initiated transfers or withdrawals (except capital preservation equity wash/put provisions and fund short-term trading fees); (3) full disclosure of all fund expense and revenue sharing arrangements, including fixed/general account products; (4) full disclosure of expenses and revenue for any service (platform fees, managed accounts, advice, financial planning, brokerage); (5) agree not to sell/promote products not affiliated with the Plan without written City authorization; (6) be qualified to do business in California and Temple City upon award; (7) offer a self-directed brokerage option; (8) be able to transition and continue administration of existing loans; (9) representatives attend City meetings in person as requested (no more than once per year); (10) knowledge of and compliance with applicable County, California and federal regulations; (11) RFP terms remain in place through negotiations and the final contract unless waived in writing.",
+    "acceptance": "Accept concise grouping of the eleven requirements; the five-year/five-plan/$25m threshold alone is incomplete for this broad list question. Examples of service fees are illustrative, not separate mandatory list items.",
+    "text_hash": "c2cd1ea39b4681195bfc15005be9f6982a0c6aa23fb1626dd5615b15f4e0d9b1",
+    "source_text_sha256": "a182eb705c5dc23e1b3ed20cf50b538c45e06c95d85392b4444daaf2a4fc66ac",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is OCERS’s October 2022 custody-services RFP questions and answers, not the City of Temple City’s 2020 RFP for 457 plan administration and recordkeeping. It does not state the required minimum qualifications for that RFP.",
+      "quotes": [
+        "Custody Services Request for Proposal Questions & Answers October 2022 Orange County Employees Retirement System (OCERS)",
+        "Exhibit C: Minimum Qualifications Certification – Securities Lending Respondents"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Custody Services Request for Proposal Questions & Answers October 2022 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 133
+        },
+        {
+          "quote": "Exhibit C: Minimum Qualifications Certification – Securities Lending Respondents",
+          "start": 21477,
+          "end": 21557
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

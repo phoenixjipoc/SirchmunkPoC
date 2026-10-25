@@ -1,0 +1,12 @@
+{
+  "id": "1bab3c677a2772bcb5ab",
+  "query_id": "SVC-12",
+  "question": "According to the Monroe County deferred compensation services RFP, how many participants did the plan have and what were its total assets?",
+  "file": "American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf",
+  "expected_facts": "As of December 31, 2022: 4,398 plan participants and plan assets of $308,676,730. In addition, the OBRA part-time seasonal plan had 536 participants with assets of $926,785.",
+  "acceptance": "Main plan 4,398 participants / $308,676,730 is sufficient. OBRA 536 / $926,785 is supplementary and must not replace or be silently added to main-plan figures.",
+  "text_hash": "4da0bb99d1bc9a99cb85e4152156515d63d280e9d6481930b4991ca9b694e89e",
+  "source_text_sha256": "e84ddfad92c2fc79e711f13416c118cdf2db28ca57c55b838d0f29c6c8dbced8",
+  "second_check_required": false,
+  "prior_reviews": []
+}

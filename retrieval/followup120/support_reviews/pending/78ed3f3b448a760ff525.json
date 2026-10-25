@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "78ed3f3b448a760ff525",
+    "query_id": "SVC-16",
+    "question": "What contract term, including any extension options, does the Los Angeles Fire and Police Pensions (LAFPP) RFP for financial statement audit services contemplate?",
+    "file": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+    "expected_facts": "A three-year contract (fiscal years ending June 30, 2025, 2026 and 2027) with a maximum fee proposal for each fiscal year; the Board may extend beyond the three-year term through two one-year renewals.",
+    "acceptance": "Three years plus two optional one-year renewals, up to five years, suffices. Fiscal-year dates and fee-proposal details are optional.",
+    "text_hash": "6b179eedd0acf11d4033b486705b8677fb78308e47584950c128cde739d4f025",
+    "source_text_sha256": "81bbcbe9365fdc601c3f939281acb26f90195cb62f71e9af6d67ff79a5c33f94",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Boston Retirement System RFP for actuarial and consulting services, not the LAFPP RFP for financial statement audit services. Its five-year term and possible extensions do not support the requested contract term.",
+      "quotes": [
+        "Request for Proposal Actuarial and Consulting Services for Pension Benefits Boston Retirement System September 12, 2022",
+        "The term of the contract shall be for five (5) years. The Board reserves the right to extend this contract for an additional one (1) or two (2) years without further advertising."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Actuarial and Consulting Services for Pension Benefits Boston Retirement System September 12, 2022",
+          "start": 13,
+          "end": 132
+        },
+        {
+          "quote": "The term of the contract shall be for five (5) years. The Board reserves the right to extend this contract for an additional one (1) or two (2) years without further advertising.",
+          "start": 13255,
+          "end": 13433
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

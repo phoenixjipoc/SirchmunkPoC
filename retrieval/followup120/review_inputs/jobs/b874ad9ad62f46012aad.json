@@ -1,0 +1,12 @@
+{
+  "id": "b874ad9ad62f46012aad",
+  "query_id": "SVC-10",
+  "question": "In the minimum-qualifications insurance list of the RFP for oversight of the pension administration system replacing V3, what umbrella-liability and professional-liability limits are specified?",
+  "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+  "expected_facts": "The minimum-qualifications list specifies umbrella liability of $5 million per occurrence and $5 million aggregate, and professional liability of $2 million per occurrence and $3 million aggregate. The sample agreement separately contains a wording inconsistency ('one million dollars ($2,000,000)' per occurrence).",
+  "acceptance": "The listed $5m/$5m umbrella and $2m/$3m professional limits are materially correct. Also accept that answer with the p21 written/numeric discrepancy explicitly flagged. Other insurance types and issuer date are optional. Do not accept an unexplained $1m as the sole professional limit.",
+  "text_hash": "7bf0434135598b4379264b9228ec0ae5d514d2497cf998a89da96d5f3d55878f",
+  "source_text_sha256": "1620734055a07375d68aca7dc5b3529168cc1928cf355fcdb11e514e6b786b4c",
+  "second_check_required": true,
+  "prior_reviews": []
+}

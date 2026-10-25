@@ -1,0 +1,12 @@
+{
+  "id": "4ef4f7d9cc3cb8c80969",
+  "query_id": "SVC-02",
+  "question": "In the American Academy of Actuaries' 2011 RFP for retirement plan and related consulting services, what were the plan assets at 12/31/10 of each of its three retirement plans?",
+  "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+  "expected_facts": "Money Purchase plan: $3,015,682; 401(k) plan: $1,993,513; Defined Benefit plan: $647,181 (all as of 12/31/10).",
+  "acceptance": "Accept amounts mapped correctly to Money Purchase, 401(k), and Defined Benefit; profit-sharing description is optional.",
+  "text_hash": "6c44b43272ac16f4bd8efdebfb5b71a666753ca71b3f0242c213453c6a30a56a",
+  "source_text_sha256": "a171986940a15f77f516b2eed48ea13f5e49967c592369ad8f87250248f2b907",
+  "second_check_required": false,
+  "prior_reviews": []
+}

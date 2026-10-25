@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "38cbe5a9fabadde595ef",
+    "query_id": "SVC-12",
+    "question": "According to the Monroe County deferred compensation services RFP, how many participants did the plan have and what were its total assets?",
+    "file": "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+    "expected_facts": "As of December 31, 2022: 4,398 plan participants and plan assets of $308,676,730. In addition, the OBRA part-time seasonal plan had 536 participants with assets of $926,785.",
+    "acceptance": "Main plan 4,398 participants / $308,676,730 is sufficient. OBRA 536 / $926,785 is supplementary and must not replace or be silently added to main-plan figures.",
+    "text_hash": "1e3dc8db2f90933455b7c59967386b76eea64636a15cef3b8eab8a745b55231f",
+    "source_text_sha256": "06485a707e23d6959251e5fd04214a5b46701f4130bbf13f2073c46e88f74e02",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a City of Baltimore alternatives-consultant RFP, not the Monroe County deferred compensation services RFP. Its membership and asset figures concern a different retirement system and date; it does not support the requested Monroe County plan figures.",
+      "quotes": [
+        "THE EMPLOYEES’ RETIREMENT SYSTEM and OPEB TRUST – CITY OF BALTIMORE REQUEST FOR PROPOSALS (RFP) for ALTERNATIVES CONSULTANT",
+        "As of June 30, 2024, total ERS membership was 17,869.",
+        "As of 6/30/24, BCERS' total portfolio was valued at about $2.1 billion"
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE EMPLOYEES’ RETIREMENT SYSTEM and OPEB TRUST – CITY OF BALTIMORE REQUEST FOR PROPOSALS (RFP) for ALTERNATIVES CONSULTANT",
+          "start": 13,
+          "end": 136
+        },
+        {
+          "quote": "As of June 30, 2024, total ERS membership was 17,869.",
+          "start": 3196,
+          "end": 3249
+        },
+        {
+          "quote": "As of 6/30/24, BCERS' total portfolio was valued at about $2.1 billion",
+          "start": 4956,
+          "end": 5026
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

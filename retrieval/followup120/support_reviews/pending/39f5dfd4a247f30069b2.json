@@ -1,0 +1,71 @@
+{
+  "job": {
+    "id": "39f5dfd4a247f30069b2",
+    "query_id": "SVC-09",
+    "question": "A county retirement system's custody RFP requires custody respondents to have at least $500 billion in total assets under custody as of December 31, 2021. How much of that must be in international equity and fixed income, and what minimum liability/professional errors and omissions insurance must respondents provide?",
+    "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "expected_facts": "At least $100 billion in international equity and fixed income; liability/professional errors and omissions insurance of at least $75 million. Issuer: Orange County Employees Retirement System (OCERS), October 2022 custody services RFP.",
+    "acceptance": "Accept $100bn international equity/fixed income and $75m liability/professional E&O coverage. Issuer/date are optional.",
+    "text_hash": "784bcfad5dec8c8cdc14ddc71afe9edac27cb190eaa8c0971bfb4139e6ce83d9",
+    "source_text_sha256": "75b693482e948ff921b1cec45e9ab6fae2d982d6719b2a34a7971859f300978e",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "partial",
+      "identity": "wrong",
+      "reason": "This is SBCERS’s January 2024 RFP, not the OCERS October 2022 RFP. It specifies a $75 million Banker’s Professional Liability limit, but does not state the required $100 billion international equity and fixed-income custody threshold or explicitly identify the coverage as professional errors and omissions insurance.",
+      "quotes": [
+        "Santa Barbara County Employees’ Retirement System (“SBCERS”) Issue Date: January 8, 2024",
+        "(c) Banker’s Professional Liability. A program of Banker’s Professional Liability Insurance with limits of $75,000,000."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Santa Barbara County Employees’ Retirement System (“SBCERS”) Issue Date: January 8, 2024",
+          "start": 70,
+          "end": 158
+        },
+        {
+          "quote": "(c) Banker’s Professional Liability. A program of Banker’s Professional Liability Insurance with limits of $75,000,000.",
+          "start": 165471,
+          "end": 165590
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "partial",
+      "identity": "wrong",
+      "reason": "This is Santa Barbara County Employees’ Retirement System’s January 2024 RFP, not OCERS’s October 2022 RFP. It specifies $75 million in banker’s professional liability insurance, but does not establish the requested professional errors and omissions coverage or a $100 billion international equity and fixed income custody qualification as of December 31, 2021.",
+      "quotes": [
+        "Santa Barbara County Employees’ Retirement System (“SBCERS”) Issue Date: January 8, 2024",
+        "5. What is the total of all assets held in custody at 9/30/2023?",
+        "(c) Banker’s Professional Liability. A program of Banker’s Professional Liability Insurance with limits of $75,000,000."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Santa Barbara County Employees’ Retirement System (“SBCERS”) Issue Date: January 8, 2024",
+          "start": 70,
+          "end": 158
+        },
+        {
+          "quote": "5. What is the total of all assets held in custody at 9/30/2023?",
+          "start": 186842,
+          "end": 186906
+        },
+        {
+          "quote": "(c) Banker’s Professional Liability. A program of Banker’s Professional Liability Insurance with limits of $75,000,000.",
+          "start": 165471,
+          "end": 165590
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

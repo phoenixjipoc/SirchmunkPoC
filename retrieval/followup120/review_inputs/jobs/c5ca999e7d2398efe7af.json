@@ -1,0 +1,12 @@
+{
+  "id": "c5ca999e7d2398efe7af",
+  "query_id": "SVC-13",
+  "question": "What evaluation criteria and percentage weights does the Texas Municipal Retirement System (TMRS) global custody RFP use to evaluate respondents?",
+  "file": "Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+  "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 25%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Response and Additional Evidence of Capability - 10%; 4. Competitiveness & Reasonableness of Economics - 25%.",
+  "acceptance": "Accept faithful shorter criterion names with correct mapping 25/40/10/25. Supporting subcriteria are optional.",
+  "text_hash": "692bb03e4db6aebeca97a36c01c5604f00e3b195fbee2231ed7ff5e34f2a4f12",
+  "source_text_sha256": "6ba69ebab9df521e3753ddda5ed3603b1beb1c275996a315567f040067214998",
+  "second_check_required": false,
+  "prior_reviews": []
+}

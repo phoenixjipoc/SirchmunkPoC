@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "d49616dd0556ff60b8ee",
+    "query_id": "SVC-16",
+    "question": "What contract term, including any extension options, does the Los Angeles Fire and Police Pensions (LAFPP) RFP for financial statement audit services contemplate?",
+    "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "expected_facts": "A three-year contract (fiscal years ending June 30, 2025, 2026 and 2027) with a maximum fee proposal for each fiscal year; the Board may extend beyond the three-year term through two one-year renewals.",
+    "acceptance": "Three years plus two optional one-year renewals, up to five years, suffices. Fiscal-year dates and fee-proposal details are optional.",
+    "text_hash": "5afc5adec694c195f2977417c376c45b4856a88e72d30c0e1953e2403af08eac",
+    "source_text_sha256": "add3ba83b3e17f098f096c1bf8b5d5000ad39375300bba2e2b398c7d805cf7a6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is CCCERA’s April 2018 RFP for master custodial services, not LAFPP’s RFP for financial statement audit services. Its anticipated engagement of at least five years does not establish the requested three-year term with two optional one-year renewals.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES",
+        "April 2018 Contra Costa County Employees’ Retirement Association",
+        "It is anticipated that the engagement period of a contract may be at least five years or more."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES",
+          "start": 13,
+          "end": 76
+        },
+        {
+          "quote": "April 2018 Contra Costa County Employees’ Retirement Association",
+          "start": 77,
+          "end": 141
+        },
+        {
+          "quote": "It is anticipated that the engagement period of a contract may be at least five years or more.",
+          "start": 28525,
+          "end": 28619
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

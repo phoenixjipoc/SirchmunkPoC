@@ -1,0 +1,97 @@
+{
+  "query_id": "OTH-03",
+  "question": "In Rice University's 2021 RFP for audit services for its retirement plans, how many participants did the 401(a) plan and the 403(b) plan have as of December 31, 2020?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+    "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+    "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+    "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+    "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf"
+  ],
+  "keyword_terms": [
+    "Rice University 2021 RFP",
+    "retirement plan audit services",
+    "401(a) plan participants",
+    "403(b) plan participants",
+    "December 31, 2020",
+    "莱斯大学",
+    "退休计划",
+    "审计服务",
+    "计划参与人数"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 400,
+      "timestamp": "2026-10-25 15:44:43.111068",
+      "metadata": {
+        "keywords": [
+          "Rice University 2021 RFP",
+          "retirement plan audit services",
+          "401(a) plan participants",
+          "403(b) plan participants",
+          "December 31, 2020",
+          "莱斯大学",
+          "退休计划",
+          "审计服务",
+          "计划参与人数"
+        ],
+        "files_found": 5,
+        "files_discovered": [
+          "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+          "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+          "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+          "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+          "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "path": "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+      "path": "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+      "path": "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+      "path": "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf"
+    }
+  ],
+  "elapsed_s": 3.516,
+  "calls": 0,
+  "usage": {}
+}

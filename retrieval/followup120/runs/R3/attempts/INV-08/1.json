@@ -1,0 +1,510 @@
+{
+  "query_id": "INV-08",
+  "question": "A sample investment management RFP for a domestic equity small cap growth mandate sets portfolio guidelines. What are the limits on single-issuer holdings, foreign issuers and cash, and which index must the portfolio outperform?",
+  "type": "detail",
+  "pair_id": "",
+  "seed": 499353430,
+  "references": [
+    {
+      "rank": 1,
+      "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+      "path": "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+      "path": "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "MA_PRIM__PDF-Version-of-RFP.pdf",
+      "path": "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf"
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "keywords": {
+    "investment management RFP": 8.0,
+    "domestic equity small cap growth mandate": 9.0,
+    "portfolio guidelines": 6.0,
+    "single-issuer holdings": 8.0,
+    "国内小盘成长股": 8.0,
+    "单一发行人": 8.0,
+    "外国发行人": 7.0
+  },
+  "keyword_terms": [
+    "investment management RFP",
+    "domestic equity small cap growth mandate",
+    "portfolio guidelines",
+    "single-issuer holdings",
+    "国内小盘成长股",
+    "单一发行人",
+    "外国发行人"
+  ],
+  "directory_prompt": "You are a document triage specialist. Analyze the scanned files below and rank them by relevance to the user's query.\n\n## Directory Structure\nRoot: /mnt/docs/S\n```\n  ./ (20 files)\n```\n\n## User Query\nA sample investment management RFP for a domestic equity small cap growth mandate sets portfolio guidelines. What are the limits on single-issuer holdings, foreign issuers and cash, and which index must the portfolio outperform?\n\n## Scanned Files\n- **TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf** (.pdf, 752.5KB)\n  Title: TMRS • Request for Proposal • Global Custody and Related Services\n  Author: TMRS\n  Pages/Sheets: 79\n  Keywords: TMRS\n  Modified: 2026-10-07\n  Preview: 1 Request for Proposal  Global Custody  and Related Services   Texas Municipal Retirement System (TMRS)  Is s u e  D a t e :  De c e m b e r  1 1 ,  2 0 2 0   Q u e s t i o n s  D u e :  De c e m b e\n\n- **Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf** (.pdf, 44.3KB)\n  Author: Obermoeller, Lori\n  Pages/Sheets: 1\n  Keywords: Obermoeller, Lori\n  Modified: 2026-10-07\n  Preview: RFP for Pension Fund Consulting Services Questions and Answers 1. Can you provide some color as to why the City is considering a potential change?   I ’m hoping to  understand what items may be most critical to the City of Creve Coeur going forward.   Also, can  you share with me how many RFP ’s have been sent?  We have sent 21 out.  We are doing our due  diligence in sending out a proposal every so many years and the last one was done in  2013.  Some   board members have questioned the allocati\n\n- **Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf** (.pdf, 449.1KB)\n  Pages/Sheets: 32\n  Modified: 2026-10-07\n  Preview: Employees’ Retirement System of the State of Hawaii  Request for Proposals   Private Equity Consultant Services   RFP 2022-04                                          Issued     AUGUST 29, 2022\n\n- **Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf** (.pdf, 197.1KB)\n  Title: ATTACHMENT 3C – FOR BOTH GENERAL AND PUBLIC MARKET CONSULTANT AND ALTERNATIVE CONSULTANT—SERVICE LEVEL THREE\n  Author: DanielGr\n  Pages/Sheets: 12\n  Keywords: DanielGr\n  Modified: 2026-10-07\n  Preview: Attachment 3-1          ATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES  PROPOSAL QUESTIONNAIRE    BOSTON RETIREMENT SYSTEM    Investment Consulting Services   Request for Proposals  INSTRUCTIONS\n\n- **Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf** (.pdf, 298.1KB)\n  Title: Madison PF RFP for Investment Manager 3.9.2020 (01259332).DOCX\n  Author: Byron Poore\n  Pages/Sheets: 17\n  Keywords: Byron Poore\n  Modified: 2026-10-07\n  Preview: 01259332-1  RFP No. 2025-__ - Investment Consulting and Management Services Page 1    4898-5945-2974, v. 1                    Police Officers’ and Firefighters’   Retirement System  Board of Trustees\n\n- **Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf** (.pdf, 251.4KB)\n  Pages/Sheets: 22\n  Modified: 2026-10-07\n  Preview: Board of  Trustees  PUBLIC SAFETY PERSONNEL RETIREMENT SYSTEM  Administration   Scott McCarty , Chairman  CORRECTIONS OFFICER RETIREMENT PLAN Michael F. Townsend   Harry A. Papp, Vice Chairman  ELECTE\n\n- **COAERS__COAERS_General_Investment_Consultant_RFP.pdf** (.pdf, 553.5KB)\n  Author: Russell Nash\n  Pages/Sheets: 30\n  Keywords: Russell Nash\n  Modified: 2026-10-07\n  Preview: 1        Request for Proposal  General Investment Consultant              Proposals must be submitted on or before   5:00 p.m. Central Standard Time   February 9, 2024              City of Austin Empl\n\n- **SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf** (.pdf, 380.0KB)\n  Title: August 11, 2008\n  Author: dpcadmin\n  Pages/Sheets: 21\n  Keywords: dpcadmin\n  Modified: 2026-10-07\n  Preview: SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM  REQUEST FOR PROPOSAL (RFP) FOR  GENERAL INVESTMENT CONSULTANT\n\n- **OCERS__investment_consultant_services_rfp.pdf** (.pdf, 616.2KB)\n  Title: OCERS Investment Consultant Services RFP\n  Author: OCERS\n  Pages/Sheets: 37\n  Keywords: OCERS, OCERS Investment Consultant Services RFP\n  Modified: 2026-10-07\n  Preview: Investment Consultant Services  for:   General Investments and Risk  Private Equity  Real Assets  Real Estate  Requests for Proposal    Issued August 2021                    Orange County Employees Re\n\n- **Rice_University__2021_Benefit_Plan_RFP_-_final.pdf** (.pdf, 167.9KB)\n  Title: Request for Proposal To Provide Audit Services for the\n  Author: Evelyn Stewart\n  Pages/Sheets: 6\n  Keywords: Evelyn Stewart\n  Modified: 2026-10-07\n  Preview: 1 | Page     Request for Proposal to Provide Audit Services for the   William Marsh Rice University Defined Contribution Retirement Plan    INTRODUCTION   Rice University (“the University”) requests a\n\n- **OCERS__custodian_rfp_2022-2023.pdf** (.pdf, 711.9KB)\n  Title: Custodian RFP\n  Author: OCERS\n  Pages/Sheets: 51\n  Keywords: OCERS, RFP, Investments\n  Modified: 2026-10-07\n  Preview: Custody Services  Request for Proposal    October 2022                                  Orange County Employees Retirement System (OCERS)  P.O. Box 1229  Santa Ana, CA 92702  (714)-558-6200  http://ww\n\n- **Temple_City_CA__Recordkeeping-RFP.pdf** (.pdf, 925.0KB)\n  Title: REQUEST FOR PROPOSAL\n  Author: kwelch\n  Pages/Sheets: 57\n  Keywords: kwelch\n  Modified: 2026-10-07\n  Preview: City of Temple City, California  457 Deferred Compensation Plan    Request for Proposals for  Plan Administration and Record Keeping Services                        RFP DISTRIBUTION DATE: June 17, 202\n\n- **IMRF__sample-investment-consulting-rfp.pdf** (.pdf, 187.0KB)\n  Title: 4/20/98 DRAFT\n  Author: Carmen Heredia\n  Pages/Sheets: 31\n  Keywords: Carmen Heredia\n  Modified: 2026-10-07\n  Preview: Request for Proposals - Investment Consulting, Real Estate Consulting and Performance  Measurement Services    PART 1 -- Introduction and Goal of the RFP  1.1 INTRODUCTION - General Information  The I\n\n- **Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf** (.pdf, 442.2KB)\n  Title: BACKGROUND\n  Author: Michael Sacco\n  Pages/Sheets: 9\n  Keywords: Michael Sacco\n  Modified: 2026-10-07\n  Preview: 1  REQUEST FOR PROPOSALS – ACTUARIAL SERVICES      BACKGROUND    The Stoneham Retirement System (“System”) is governed by the Stoneham Retirement Board (“Board”)  and is the pension system serving the\n\n- **Hawaii_ERS__ERS-Private-Equity-AD.pdf** (.pdf, 12.5KB)\n  Title: Microsoft Word - ERS Private Equity AD (website.spo).docx\n  Author: misakil\n  Pages/Sheets: 2\n  Keywords: misakil\n  Modified: 2026-10-07\n  Preview: STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM  REQUEST FOR PROPOSAL (RFP)  FOR PRIVATE EQUITY CONSULTING   AND INVESTMENT SERVICES      The Employees’ Retirement System of the State of Hawaii (ERS) is soliciting  proposals for qualified firm(s) to provide private equity investment consulting and  investment management services to the ERS.  The consulting firm(s) must be  United States based, registered under the Investment Advisors Act of 1940, been  in business for a minimum of five years and h\n\n- **INPRS__RFP24-05_AuditServices.pdf** (.pdf, 477.8KB)\n  Author: Danny Sullivan\n  Pages/Sheets: 33\n  Keywords: Danny Sullivan\n  Modified: 2026-10-07\n  Preview: 1                                                                       REQUEST FOR PROPOSALS (“RFP”) for    AUDIT SERVICES      RFP NUMBER 24-05        RELEASE DATE: OCTOBER 2, 2024    DEADLINE FOR I\n\n- **Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf** (.pdf, 426.2KB)\n  Title: Request for Proposal\n  Author: Cummings, Meg\n  Pages/Sheets: 24\n  Keywords: Cummings, Meg\n  Modified: 2026-10-07\n  Preview: 3    Request for Proposal  Actuarial and Consulting  Services for Pension Benefits                                                B o s t o n  R e t i r e m e n t  S y s t e m   B o s t o n  C i t y\n\n- **MA_PRIM__PDF-Version-of-RFP.pdf** (.pdf, 1.2MB)\n  Title: Pension reserves\n  Author: Abouhala, Andre\n  Pages/Sheets: 66\n  Keywords: Abouhala, Andre\n  Modified: 2026-10-07\n  Preview: P ension Reserves Investment Management Board  Deborah B. Goldberg, Treasurer and Receiver General, Chair  Michael G. Trotsky, CFA, Executive Director and Chief Investment Officer  mapension.com | 53\n\n- **AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf** (.pdf, 185.4KB)\n  Title: Private Markets Due Diligence Questionnaire\n  Pages/Sheets: 4\n  Modified: 2026-10-07\n  Preview: As you explore potential partnerships in private markets, it’s important to recognize that these investments work differently  than traditional public market investments held in daily liquid vehicles,\n\n- **Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf** (.pdf, 667.3KB)\n  Author: James Stivers\n  Pages/Sheets: 48\n  Keywords: James Stivers\n  Modified: 2026-10-07\n  Preview: State Retirement Systems            Request for Proposal  for  Actuarial Consulting Services  (System Reference # 24100)        Issued on February 2, 2024  Responses Due by 2:00 P.M. CST on March 4, 2\n\n## Instructions\n1. Evaluate EVERY file listed above. Consider directory names, filenames, titles, keywords, and preview content as relevance signals.\n2. Assign \"high\" (directly relevant), \"medium\" (possibly relevant), or \"low\" (unlikely relevant) to each file.\n3. For the \"path\" field, copy the **exact relative path** shown in bold (e.g. `subdir/file.pdf`) from the scan results above.\n4. Return ONLY a JSON array — no other text.\n\n## Output Format (use the EXACT path shown in the file listing)\n```json\n[\n  {\"path\": \"exact/relative/path/from/listing\", \"relevance\": \"high\", \"reason\": \"brief reason\"}\n]\n```",
+  "keyword_files": [
+    "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf"
+  ],
+  "directory_ranking": [
+    {
+      "path": "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+      "filename": "MA_PRIM__PDF-Version-of-RFP.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1309036,
+      "modified_at": "2026-10-07T07:06:12",
+      "created_at": "2026-10-07T07:19:57.960027",
+      "mime_type": "application/pdf",
+      "title": "Pension reserves",
+      "author": "Abouhala, Andre",
+      "page_count": 66,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Abouhala, Andre"
+      ],
+      "preview": "P\nension Reserves Investment Management Board \nDeborah B. Goldberg, Treasurer and Receiver General, Chair \nMichael G. Trotsky, CFA, Executive Director and Chief Investment Officer \nmapension.com | 53 State Street, Suite 600, Boston, MA 02109 | (617) 946-8401 \nOctober 31, 2023 \nD\near Potential Provid",
+      "content_loaded": false,
+      "relevance": "high",
+      "reason": "Investment management board RFP; strongest candidate for the specified equity mandate and portfolio guidelines."
+    },
+    {
+      "path": "/mnt/docs/S/Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+      "filename": "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+      "extension": ".pdf",
+      "size_bytes": 305260,
+      "modified_at": "2026-10-07T07:05:33",
+      "created_at": "2026-10-07T07:19:57.972027",
+      "mime_type": "application/pdf",
+      "title": "Madison PF RFP for Investment Manager 3.9.2020 (01259332).DOCX",
+      "author": "Byron Poore",
+      "page_count": 17,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Byron Poore"
+      ],
+      "preview": "01259332-1  RFP No. 2025-__ - Investment Consulting and Management Services Page 1 \n \n4898-5945-2974, v. 1 \n \n \n \n \n \n \n \n \n \nPolice Officers’ and Firefighters’  \nRetirement System \nBoard of Trustees  \n \n************************************************************************** \n \nRFP No. 2025-0901 ",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Includes investment management services, though no small-cap growth mandate is indicated."
+    },
+    {
+      "path": "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf",
+      "filename": "IMRF__sample-investment-consulting-rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 191530,
+      "modified_at": "2026-10-07T07:05:26",
+      "created_at": "2026-10-07T07:19:57.056043",
+      "mime_type": "application/pdf",
+      "title": "4/20/98 DRAFT",
+      "author": "Carmen Heredia",
+      "page_count": 31,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Carmen Heredia"
+      ],
+      "preview": "Request for Proposals - Investment Consulting, Real Estate Consulting and Performance \nMeasurement Services \n \nPART 1 -- Introduction and Goal of the RFP \n1.1 INTRODUCTION - General Information \nThe Illinois Municipal Retirement Fund (IMRF) is requesting pro posals from investment \nconsulting firms ",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "A sample investment RFP, but its stated focus is consulting rather than a small-cap growth management mandate."
+    },
+    {
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+      "filename": "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+      "extension": ".pdf",
+      "size_bytes": 770536,
+      "modified_at": "2026-10-07T07:07:47",
+      "created_at": "2026-10-07T07:19:59.048008",
+      "mime_type": "application/pdf",
+      "title": "TMRS • Request for Proposal • Global Custody and Related Services",
+      "author": "TMRS",
+      "page_count": 79,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "TMRS"
+      ],
+      "preview": "1\nRequest for Proposal \nGlobal Custody\n and Related Services  \nTexas Municipal Retirement System (TMRS) \nIs\ns u e  D a t e :  De c e m b e r  1 1 ,  2 0 2 0  \nQ u e s t i o n s  D u e :  De c e m b e r  2 8 ,  2 0 2 0  \nQ&A Responses Delivered: January 8, 2021 \nSubmission Deadline:   January 27, 202",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "RFP for custody services, not a small-cap growth investment mandate."
+    },
+    {
+      "path": "/mnt/docs/S/Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf",
+      "filename": "Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf",
+      "extension": ".pdf",
+      "size_bytes": 45345,
+      "modified_at": "2026-10-07T07:10:56",
+      "created_at": "2026-10-07T07:19:56.700049",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Obermoeller, Lori",
+      "page_count": 1,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Obermoeller, Lori"
+      ],
+      "preview": "RFP for Pension Fund Consulting Services\nQuestions and Answers\n1. Can you provide some color as to why the City is considering a potential change?   I ’m hoping to \nunderstand what items may be most critical to the City of Creve Coeur going forward.   Also, can \nyou share with me how many RFP ’s hav",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "Pension consulting Q&A, not portfolio guidelines."
+    },
+    {
+      "path": "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+      "filename": "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 459895,
+      "modified_at": "2026-10-07T07:07:58",
+      "created_at": "2026-10-07T07:19:56.928045",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "",
+      "page_count": 32,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "Employees’ Retirement System of the State of Hawaii \nRequest for Proposals \n Private Equity Consultant Services  \nRFP 2022-04 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nIssued  \n \nAUGUST 29, 2022 \n \n \n \n \nFirms who wish to receive addenda to this RFP must register with the ERS as potential offerors.",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Private equity consultant RFP, not domestic equity management."
+    },
+    {
+      "path": "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "filename": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "extension": ".pdf",
+      "size_bytes": 201881,
+      "modified_at": "2026-10-07T07:05:47",
+      "created_at": "2026-10-07T07:19:56.272057",
+      "mime_type": "application/pdf",
+      "title": "ATTACHMENT 3C – FOR BOTH GENERAL AND PUBLIC MARKET CONSULTANT AND ALTERNATIVE CONSULTANT—SERVICE LEVEL THREE",
+      "author": "DanielGr",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "DanielGr"
+      ],
+      "preview": "Attachment 3-1 \n \n \n \n \nATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES \nPROPOSAL QUESTIONNAIRE \n \nBOSTON RETIREMENT SYSTEM \n \nInvestment Consulting Services  \nRequest for Proposals \nINSTRUCTIONS \n \nBRS is considering Proposals for a General Investment Services Consultant, which encompasses Public",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment consultant questionnaire rather than a management-mandate RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+      "filename": "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+      "extension": ".pdf",
+      "size_bytes": 257429,
+      "modified_at": "2026-10-07T07:05:42",
+      "created_at": "2026-10-07T07:19:56.220057",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "",
+      "page_count": 22,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "Board of  Trustees  PUBLIC SAFETY PERSONNEL RETIREMENT SYSTEM  Administration  \nScott McCarty , Chairman  CORRECTIONS OFFICER RETIREMENT PLAN Michael F. Townsend  \nHarry A. Papp, Vice Chairman  ELECTED OFFICIALS' RETIREMENT PLAN  Administrator  \nChristopher J.  Hemmen , Trustee 3010 East Camelback R",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment consultant RFP, not a specific equity mandate."
+    },
+    {
+      "path": "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+      "filename": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+      "extension": ".pdf",
+      "size_bytes": 566831,
+      "modified_at": "2026-10-07T07:05:56",
+      "created_at": "2026-10-07T07:19:56.500053",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Russell Nash",
+      "page_count": 30,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Russell Nash"
+      ],
+      "preview": "1 \n \n \n \nRequest for Proposal \nGeneral Investment Consultant \n \n \n \n \n \n \nProposals must be submitted on or before  \n5:00 p.m. Central Standard Time  \nFebruary 9, 2024 \n \n \n \n \n \n \nCity of Austin Employees’ Retirement System \n6850 Austin Center Blvd. \nSuite 320 \nAustin, TX  78731 \n(512) 458-2551 \nww",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "General investment consultant RFP."
+    },
+    {
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "filename": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 389091,
+      "modified_at": "2026-10-07T07:02:20",
+      "created_at": "2026-10-07T07:19:58.740014",
+      "mime_type": "application/pdf",
+      "title": "August 11, 2008",
+      "author": "dpcadmin",
+      "page_count": 21,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "dpcadmin"
+      ],
+      "preview": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM \nREQUEST FOR PROPOSAL (RFP) FOR \nGENERAL INVESTMENT CONSULTANT",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "General investment consultant RFP."
+    },
+    {
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+      "filename": "OCERS__investment_consultant_services_rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 630996,
+      "modified_at": "2026-10-07T07:02:13",
+      "created_at": "2026-10-07T07:19:58.220023",
+      "mime_type": "application/pdf",
+      "title": "OCERS Investment Consultant Services RFP",
+      "author": "OCERS",
+      "page_count": 37,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "OCERS",
+        "OCERS Investment Consultant Services RFP"
+      ],
+      "preview": "Investment Consultant Services \nfor:  \nGeneral Investments and Risk \nPrivate Equity \nReal Assets \nReal Estate \nRequests for Proposal \n \nIssued August 2021 \n \n \n \n \n \n \n \n \n \nOrange County Employees Retirement System (OCERS) \n2223 E Wellington Avenue Suite 100 \nSanta Ana, CA 92701 USA \n1-(714)-558-62",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment consultant services RFP, not a small-cap growth manager RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+      "filename": "Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 171917,
+      "modified_at": "2026-10-07T07:14:54",
+      "created_at": "2026-10-07T07:19:58.420019",
+      "mime_type": "application/pdf",
+      "title": "Request for Proposal To Provide Audit Services for the",
+      "author": "Evelyn Stewart",
+      "page_count": 6,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Evelyn Stewart"
+      ],
+      "preview": "1 | Page  \n \nRequest for Proposal to Provide Audit Services for the  \nWilliam Marsh Rice University Defined Contribution Retirement Plan \n \nINTRODUCTION  \nRice University (“the University”) requests a proposal to provide external audit services for the \nWilliam Marsh Rice University Defined Contribu",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Retirement plan audit services RFP."
+    },
+    {
+      "path": "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+      "filename": "OCERS__custodian_rfp_2022-2023.pdf",
+      "extension": ".pdf",
+      "size_bytes": 729008,
+      "modified_at": "2026-10-07T07:07:14",
+      "created_at": "2026-10-07T07:19:58.144024",
+      "mime_type": "application/pdf",
+      "title": "Custodian RFP",
+      "author": "OCERS",
+      "page_count": 51,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "OCERS",
+        "RFP",
+        "Investments"
+      ],
+      "preview": "Custody Services \nRequest for Proposal \n \nOctober 2022 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nOrange County Employees Retirement System (OCERS) \nP.O. Box 1229 \nSanta Ana, CA 92702 \n(714)-558-6200 \nhttp://www.ocers.org",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Custody services RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf",
+      "filename": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "extension": ".pdf",
+      "size_bytes": 947221,
+      "modified_at": "2026-10-07T07:08:46",
+      "created_at": "2026-10-07T07:19:59.212006",
+      "mime_type": "application/pdf",
+      "title": "REQUEST FOR PROPOSAL",
+      "author": "kwelch",
+      "page_count": 57,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "kwelch"
+      ],
+      "preview": "City of Temple City, California \n457 Deferred Compensation Plan \n \nRequest for Proposals for \nPlan Administration and Record Keeping Services \n \n \n \n \n \n \n \n \n \n \n \nRFP DISTRIBUTION DATE: June 17, 2020 at 4:00 PM (Pacific Time) \nDUE DATE FOR QUESTIONS: June 29, 2020 at 4:00 PM (Pacific Time) \nDUE DA",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Plan administration and recordkeeping RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf",
+      "filename": "Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf",
+      "extension": ".pdf",
+      "size_bytes": 452824,
+      "modified_at": "2026-10-07T07:06:52",
+      "created_at": "2026-10-07T07:19:58.944010",
+      "mime_type": "application/pdf",
+      "title": "BACKGROUND",
+      "author": "Michael Sacco",
+      "page_count": 9,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Michael Sacco"
+      ],
+      "preview": "1 \nREQUEST FOR PROPOSALS – ACTUARIAL SERVICES \n \n \nBACKGROUND \n \nThe Stoneham Retirement System (“System”) is governed by the Stoneham Retirement Board (“Board”) \nand is the pension system serving the Town of Stoneham and the Stoneham Housing Authority  in \nMiddlesex County, Massachusetts. The Board",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Actuarial services RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+      "filename": "Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+      "extension": ".pdf",
+      "size_bytes": 12825,
+      "modified_at": "2026-10-07T07:07:52",
+      "created_at": "2026-10-07T07:19:56.864046",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - ERS Private Equity AD (website.spo).docx",
+      "author": "misakil",
+      "page_count": 2,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "misakil"
+      ],
+      "preview": "STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM \nREQUEST FOR PROPOSAL (RFP) \nFOR PRIVATE EQUITY CONSULTING  \nAND INVESTMENT SERVICES \n \n \nThe Employees’ Retirement System of the State of Hawaii (ERS) is soliciting \nproposals for qualified firm(s) to provide private equity investment consulting and \nin",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "Private equity consulting and management advertisement."
+    },
+    {
+      "path": "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf",
+      "filename": "INPRS__RFP24-05_AuditServices.pdf",
+      "extension": ".pdf",
+      "size_bytes": 489278,
+      "modified_at": "2026-10-07T07:14:45",
+      "created_at": "2026-10-07T07:19:57.216040",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Danny Sullivan",
+      "page_count": 33,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Danny Sullivan"
+      ],
+      "preview": "1  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nREQUEST FOR PROPOSALS (“RFP”) for \n \nAUDIT SERVICES \n \n \nRFP NUMBER 24-05 \n \n \n \nRELEASE DATE: OCTOBER 2, 2024 \n \nDEADLINE FOR INQUIRIES: OCTOBER 11, 2024 BY 3:00 PM EDT \n \nDEADLINE FOR SUBMISSION: NOVEMBER 1, 2024 BY 3:00 PM ED",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Audit services RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+      "filename": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+      "extension": ".pdf",
+      "size_bytes": 436410,
+      "modified_at": "2026-10-07T07:07:11",
+      "created_at": "2026-10-07T07:19:56.324056",
+      "mime_type": "application/pdf",
+      "title": "Request for Proposal",
+      "author": "Cummings, Meg",
+      "page_count": 24,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Cummings, Meg"
+      ],
+      "preview": "3 \n \nRequest for Proposal \nActuarial and Consulting \nServices for Pension Benefits  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \nB o s t o n  R e t i r e m e n t  S y s t e m  \nB o s t o n  C i t y  H a l l ,  R o o m  8 1 6  \nO n e  C i t y  H a l l  S q u a r e  \nB o s t o n ,  M A   0 2 2 0 1  \n",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Pension actuarial and consulting services RFP."
+    },
+    {
+      "path": "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "filename": "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "extension": ".pdf",
+      "size_bytes": 189839,
+      "modified_at": "2026-10-07T07:15:10",
+      "created_at": "2026-10-07T07:19:56.012061",
+      "mime_type": "application/pdf",
+      "title": "Private Markets Due Diligence Questionnaire",
+      "author": "",
+      "page_count": 4,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "As you explore potential partnerships in private markets, it’s important to recognize that these investments work differently \nthan traditional public market investments held in daily liquid vehicles, such as mutual funds and ETFs. This questionnaire is \ndesigned to help you navigate those differenc",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Private-markets questionnaire, not a domestic equity RFP."
+    },
+    {
+      "path": "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+      "filename": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+      "extension": ".pdf",
+      "size_bytes": 683303,
+      "modified_at": "2026-10-07T07:06:48",
+      "created_at": "2026-10-07T07:19:57.472036",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "James Stivers",
+      "page_count": 48,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "James Stivers"
+      ],
+      "preview": "State Retirement Systems \n \n \n \n \n \nRequest for Proposal \nfor \nActuarial Consulting Services \n(System Reference # 24100) \n \n \n \nIssued on February 2, 2024 \nResponses Due by 2:00 P.M. CST on March 4, 2024",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Actuarial consulting services RFP."
+    }
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 86,
+      "timestamp": "2026-10-23 07:49:26.852128",
+      "metadata": {
+        "keywords": [
+          "investment management RFP",
+          "domestic equity small cap growth mandate",
+          "portfolio guidelines",
+          "single-issuer holdings",
+          "国内小盘成长股",
+          "单一发行人",
+          "外国发行人"
+        ],
+        "files_found": 2,
+        "files_discovered": [
+          "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+          "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+        ]
+      }
+    }
+  ],
+  "elapsed_s": 16.045,
+  "calls": 2,
+  "usage": {
+    "prompt_tokens": 3413,
+    "completion_tokens": 1541,
+    "total_tokens": 4954
+  },
+  "group": "R3",
+  "attempt": 1
+}

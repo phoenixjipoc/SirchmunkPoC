@@ -1,0 +1,12 @@
+{
+  "id": "e55e2ccc70a1ee2c9140",
+  "query_id": "INV-01",
+  "question": "In the CAJPA sample investment management RFP (Appendix Z, 'Sample Investment Management Request for Proposal'), how many copies of the proposal must be sent?",
+  "file": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+  "expected_facts": "Ten (10) copies of the proposal and correspondence, sent to the pool administrator (shown as 'John Doe, 123 Main Street' in the template).",
+  "acceptance": "Ten/10 copies suffices; template addressee and correspondence wording are optional.",
+  "text_hash": "e208b396d807c84110e10df7ec74d980a1905d8e99839a26651b44e9927a80ca",
+  "source_text_sha256": "48df375d7d5f4c68eef011c530a1b8e2446893a55aa03aa4e9c6a423a07b3e4c",
+  "second_check_required": false,
+  "prior_reviews": []
+}

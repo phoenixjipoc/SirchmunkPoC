@@ -1,0 +1,57 @@
+{
+  "query_id": "OTH-16",
+  "question": "In the Police Retirement System of St. Louis (PRS-STL) actuarial RFP, how many years of experience must the principal actuary have?",
+  "type": "pair_b",
+  "pair_id": "P5",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf"
+  ],
+  "keyword_terms": [
+    "Police Retirement System of St. Louis",
+    "actuarial RFP",
+    "principal actuary experience",
+    "圣路易斯警察退休制度",
+    "首席精算师",
+    "精算服务征求建议书"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 97,
+      "timestamp": "2026-10-25 16:20:00.442895",
+      "metadata": {
+        "keywords": [
+          "Police Retirement System of St. Louis",
+          "actuarial RFP",
+          "principal actuary experience",
+          "圣路易斯警察退休制度",
+          "首席精算师",
+          "精算服务征求建议书"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+      "path": "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf"
+    }
+  ],
+  "elapsed_s": 6.32,
+  "calls": 0,
+  "usage": {}
+}

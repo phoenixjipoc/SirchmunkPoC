@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "5e90c870ebe5108ee09e",
+    "query_id": "INV-20",
+    "question": "Which meetings must the investment consultant attend under the IMRF sample RFP for investment consulting, real estate consulting and performance measurement services, and how many days of meetings per year does IMRF estimate?",
+    "file": "Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf",
+    "expected_facts": "(1) Monthly IMRF Board meetings; (2) Investment Committee meetings; (3) the Annual IMRF Roundtable; (4) regional meetings with investment managers; (5) related investment meetings and discussions; (6) formal interviews with existing and potential investment managers; (7) ad hoc due diligence meetings with investment managers and staff. IMRF estimates about sixty days of meetings per year with the Board and/or staff, plus frequent telephone discussions with staff.",
+    "acceptance": "All seven meeting categories and about 60 days/year. Frequent telephone calls and principal-attendance details are optional.",
+    "text_hash": "e76e63af4b0a8b49f88f8ef5ce43f66a889246bf25cd0b9219f57d5e1b2af89e",
+    "source_text_sha256": "5c949a43fde61d24122bc0cdc5ab1ce85b968190be12226f9661e62ecbde4522",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Creve Coeur pension consulting RFP, not the IMRF sample RFP. It does not support the seven specified IMRF meeting categories or the estimate of about 60 meeting days per year.",
+      "quotes": [
+        "PENSION FUND CONSULTING SERVICES REQUEST FOR PROPOSAL (RFP) CITY OF CREVE COEUR EMPLOYEE PENSION PLAN",
+        "Follow recommended investments closely and meet with the Pension Board quarterly in person, monthly or as needed by phone."
+      ],
+      "quote_matches": [
+        {
+          "quote": "PENSION FUND CONSULTING SERVICES REQUEST FOR PROPOSAL (RFP) CITY OF CREVE COEUR EMPLOYEE PENSION PLAN",
+          "start": 13,
+          "end": 114
+        },
+        {
+          "quote": "Follow recommended investments closely and meet with the Pension Board quarterly in person, monthly or as needed by phone.",
+          "start": 3082,
+          "end": 3204
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,125 @@
+{
+  "job": {
+    "id": "e1752f2042e4e067c5fe",
+    "query_id": "DDQ-08",
+    "question": "In the 2021 version of ILPA's ESG Assessment Framework FAQ, how many resources are listed in answer to 'Where can I find additional resources pertaining to ESG?', and what are they?",
+    "file": "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+    "expected_facts": "6 resources: ILPA's ESG Roadmap; ILPA's Diversity in Action Initiative; UNPRI's Private Equity Page; Sustainability Accounting Standards Board (SASB); Task Force on Climate Related Financial Disclosures (TCFD); The Institutional Investors Group on Climate Change (IIGCC).",
+    "acceptance": "Accept six and recognisable names/acronyms. No publication-date proof is required in the answer; do not mix in the two additional 2024 resources.",
+    "text_hash": "ac6b0e905afe63d321b93322365c44bd32fcacb84541a4f193cc55bfb02de248",
+    "source_text_sha256": "d3cdf2eaaca64cc0351c56cbf51120b2c7f76276c9cf4af290c8dbdd368f2733",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "partial",
+      "identity": "wrong",
+      "reason": "This is the September 2024 revision, not the 2021 version. It lists eight current resources and explicitly confirms only that SASB was previously listed; it does not establish the 2021 list of six or identify all six resources.",
+      "quotes": [
+        "The Framework was first released in 2021 and most recently revised in September of 2024.",
+        "The ESG Data Convergence Initiative",
+        "The Private Markets Decarbonization Roadmap",
+        "the Sustainability Accounting Standards Board (SASB), which was previously listed in this FAQ"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Framework was first released in 2021 and most recently revised in September of 2024.",
+          "start": 906,
+          "end": 994
+        },
+        {
+          "quote": "The ESG Data Convergence Initiative",
+          "start": 7273,
+          "end": 7308
+        },
+        {
+          "quote": "The Private Markets Decarbonization Roadmap",
+          "start": 7311,
+          "end": 7354
+        },
+        {
+          "quote": "the Sustainability Accounting Standards Board (SASB), which was previously listed in this FAQ",
+          "start": 7424,
+          "end": 7517
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "partial",
+      "identity": "wrong",
+      "reason": "This is ILPA’s September 2024 revision, not the requested 2021 version. Its answer lists eight resources, including resources not in the requested six, and does not list the 2021 ESG Roadmap or Diversity in Action Initiative. A note says SASB was previously listed, but that does not establish the complete 2021 answer.",
+      "quotes": [
+        "The Framework was first released in 2021 and most recently revised in September of 2024.",
+        "Where can I find additional resources pertaining to ESG?",
+        "• ILPA’s ESG and Sustainable Investing Hub",
+        "• ILPA’s Diversity, Equity, and Inclusion Hub",
+        "• UNPRI's Private Equity Page",
+        "• The ESG Data Convergence Initiative",
+        "• The Private Markets Decarbonization Roadmap",
+        "• IFRS’s International Sustainability Standards Board (ISSB) – note, the Sustainability Accounting Standards Board (SASB), which was previously listed in this FAQ, is now part of the IFRS Foundation",
+        "• Task Force on Climate-Related Financial Disclosures",
+        "• The Institutional Investors Group on Climate Change (IIGCC)"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Framework was first released in 2021 and most recently revised in September of 2024.",
+          "start": 906,
+          "end": 994
+        },
+        {
+          "quote": "Where can I find additional resources pertaining to ESG?",
+          "start": 6875,
+          "end": 6931
+        },
+        {
+          "quote": "• ILPA’s ESG and Sustainable Investing Hub",
+          "start": 7152,
+          "end": 7194
+        },
+        {
+          "quote": "• ILPA’s Diversity, Equity, and Inclusion Hub",
+          "start": 7195,
+          "end": 7240
+        },
+        {
+          "quote": "• UNPRI's Private Equity Page",
+          "start": 7241,
+          "end": 7270
+        },
+        {
+          "quote": "• The ESG Data Convergence Initiative",
+          "start": 7271,
+          "end": 7308
+        },
+        {
+          "quote": "• The Private Markets Decarbonization Roadmap",
+          "start": 7309,
+          "end": 7354
+        },
+        {
+          "quote": "• IFRS’s International Sustainability Standards Board (ISSB) – note, the Sustainability Accounting Standards Board (SASB), which was previously listed in this FAQ, is now part of the IFRS Foundation",
+          "start": 7355,
+          "end": 7553
+        },
+        {
+          "quote": "• Task Force on Climate-Related Financial Disclosures",
+          "start": 7554,
+          "end": 7607
+        },
+        {
+          "quote": "• The Institutional Investors Group on Climate Change (IIGCC)",
+          "start": 7826,
+          "end": 7887
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

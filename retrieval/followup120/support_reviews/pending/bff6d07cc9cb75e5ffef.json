@@ -1,0 +1,100 @@
+{
+  "job": {
+    "id": "bff6d07cc9cb75e5ffef",
+    "query_id": "DDQ-02",
+    "question": "Which due diligence questionnaire asks respondents what percentage of their current portfolio companies are located in New Jersey and what percentage are Life Science/Healthcare companies?",
+    "file": "ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+    "expected_facts": "The NJEDA Appendix A Due Diligence Questionnaire (NJEDA Life Science Seed Fund notice of investment opportunity, 2023), question 4.6 under '4.0 Proposed Fund Investment Strategy'.",
+    "acceptance": "NJEDA Life Science Seed Fund DDQ is sufficient identification; 2023, Appendix A and Q4.6 are optional supporting detail.",
+    "text_hash": "4f7b225da38ba2910c55f1ea4315e95ab8e744efe8938a4f9bf7e044a4cb4ef3",
+    "source_text_sha256": "98e8f8f7a68546605480b8e76d3f362a5feebe06263622702fa575595bb98128",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is the ILPA Due Diligence Questionnaire, not the NJEDA Life Science Seed Fund questionnaire. Its question 4.6 asks about contractual protections, not the percentages of portfolio companies located in New Jersey or in Life Science/Healthcare.",
+        "quotes": [
+          "The ILPA Due Diligence Questionnaire (“ILPA DDQ”) was compiled from over a dozen sample questionnaires provided by LPs, GPs and third parties.",
+          "4.6. Provide examples of provisions that the Firm incorporates in contracts to protect its investments."
+        ],
+        "quote_matches": [
+          {
+            "quote": "The ILPA Due Diligence Questionnaire (“ILPA DDQ”) was compiled from over a dozen sample questionnaires provided by LPs, GPs and third parties.",
+            "start": 4100,
+            "end": 4242
+          },
+          {
+            "quote": "4.6. Provide examples of provisions that the Firm incorporates in contracts to protect its investments.",
+            "start": 33858,
+            "end": 33961
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the ILPA Due Diligence Questionnaire, not the NJEDA Life Science Seed Fund questionnaire. Its question 4.6 asks about contractual protections, not the percentages of portfolio companies located in New Jersey or in Life Science/Healthcare.",
+      "quotes": [
+        "The ILPA Due Diligence Questionnaire (“ILPA DDQ”) was compiled from over a dozen sample questionnaires provided by LPs, GPs and third parties.",
+        "4.6. Provide examples of provisions that the Firm incorporates in contracts to protect its investments."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The ILPA Due Diligence Questionnaire (“ILPA DDQ”) was compiled from over a dozen sample questionnaires provided by LPs, GPs and third parties.",
+          "start": 4100,
+          "end": 4242
+        },
+        {
+          "quote": "4.6. Provide examples of provisions that the Firm incorporates in contracts to protect its investments.",
+          "start": 33858,
+          "end": 33961
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is the ILPA Due Diligence Questionnaire v1.2, not the NJEDA Life Science Seed Fund questionnaire. Its question 4.6 asks about contractual protections, not percentages of portfolio companies in New Jersey or Life Science/Healthcare.",
+      "quotes": [
+        "The ILPA Due Diligence Questionnaire (DDQ) reflects the view of the participants involved in the creation thereof as to best practices with respect to fund diligence.",
+        "New in Version 1.2 (released in September 2018)",
+        "4.0 Investment Process",
+        "4.6. Provide examples of provisions that the Firm incorporates in contracts to protect its investments."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The ILPA Due Diligence Questionnaire (DDQ) reflects the view of the participants involved in the creation thereof as to best practices with respect to fund diligence.",
+          "start": 1962,
+          "end": 2128
+        },
+        {
+          "quote": "New in Version 1.2 (released in September 2018)",
+          "start": 1199,
+          "end": 1246
+        },
+        {
+          "quote": "4.0 Investment Process",
+          "start": 14365,
+          "end": 14387
+        },
+        {
+          "quote": "4.6. Provide examples of provisions that the Firm incorporates in contracts to protect its investments.",
+          "start": 33858,
+          "end": 33961
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

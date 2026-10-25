@@ -1,0 +1,106 @@
+{
+  "job": {
+    "id": "8259bb664ca883c385cb",
+    "query_id": "CONS-08",
+    "question": "Which retirement plan's investment consulting RFP requires that, as of December 31, 2024, the firm have at least three public fund clients each with at least $1B in assets and have been in business at least ten years?",
+    "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+    "expected_facts": "The Retirement Plan for CTA Employees (Chicago Transit Authority), in its April 29, 2025 investment consulting RFP.",
+    "acceptance": "Retirement Plan for CTA/Chicago Transit Authority Employees; publication date is optional.",
+    "text_hash": "70ba69fa78a5262a5a903e6c962a7ed533f83b2f39cbeaae0d6efcae5122f669",
+    "source_text_sha256": "c0d34ab691e3323f8b02fd000d177f6559326d07370721a1d326e71475259a58",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is a Boston Retirement System questionnaire, not the CTA Employees retirement plan RFP. It asks for up to 10 public-fund client references and asks how long the firm has provided consulting services; it does not require at least three qualifying clients as of December 31, 2024, or at least ten years in business.",
+        "quotes": [
+          "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+          "Provide a list of up to 10 current public fund clients with assets greater than $1 billion",
+          "How many years has the firm been providing pension consulting services to pension funds?"
+        ],
+        "quote_matches": [
+          {
+            "quote": "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+            "start": 86,
+            "end": 163
+          },
+          {
+            "quote": "Provide a list of up to 10 current public fund clients with assets greater than $1 billion",
+            "start": 7958,
+            "end": 8048
+          },
+          {
+            "quote": "How many years has the firm been providing pension consulting services to pension funds?",
+            "start": 1731,
+            "end": 1819
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Boston Retirement System questionnaire, not the CTA Employees retirement plan RFP. It asks for up to 10 public-fund client references and asks how long the firm has provided consulting services; it does not require at least three qualifying clients as of December 31, 2024, or at least ten years in business.",
+      "quotes": [
+        "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+        "Provide a list of up to 10 current public fund clients with assets greater than $1 billion",
+        "How many years has the firm been providing pension consulting services to pension funds?"
+      ],
+      "quote_matches": [
+        {
+          "quote": "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+          "start": 86,
+          "end": 163
+        },
+        {
+          "quote": "Provide a list of up to 10 current public fund clients with assets greater than $1 billion",
+          "start": 7958,
+          "end": 8048
+        },
+        {
+          "quote": "How many years has the firm been providing pension consulting services to pension funds?",
+          "start": 1731,
+          "end": 1819
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is a Boston Retirement System questionnaire, not the Retirement Plan for CTA Employees RFP. It asks for up to 10 public-fund client references and asks how long the firm has provided consulting services, but does not impose the specified three-client, $1 billion, 10-year qualifications as of December 31, 2024.",
+      "quotes": [
+        "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+        "How many years has the firm been providing pension consulting services to pension funds?",
+        "Provide a list of up to 10 current public fund clients with assets greater than $1 billion for whom work similar to that requested in this RFP has been performed by your firm."
+      ],
+      "quote_matches": [
+        {
+          "quote": "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+          "start": 86,
+          "end": 163
+        },
+        {
+          "quote": "How many years has the firm been providing pension consulting services to pension funds?",
+          "start": 1731,
+          "end": 1819
+        },
+        {
+          "quote": "Provide a list of up to 10 current public fund clients with assets greater than $1 billion for whom work similar to that requested in this RFP has been performed by your firm.",
+          "start": 7958,
+          "end": 8133
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

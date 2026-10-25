@@ -1,0 +1,117 @@
+{
+  "query_id": "XD-16",
+  "question": "Which documents in the corpus directly ask whether the responding firm is a signatory to the (UN) Principles for Responsible Investment?",
+  "type": "broad",
+  "pair_id": "",
+  "group": "S",
+  "references": [
+    {
+      "rank": 1,
+      "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+      "path": "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx"
+    },
+    {
+      "rank": 2,
+      "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+      "path": "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "MA_PRIM__PDF-Version-of-RFP.pdf",
+      "path": "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "IMRF__sample_investment_manager_rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+      "path": "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+      "path": "/mnt/docs/S/CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "IMRF__sample-investment-consulting-rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf"
+    }
+  ],
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "baseline_sha256": "b3dd3cf423b9101de76fc1b81bc62e0da6b72282b1e5bdf093877911b2cf6395",
+  "original_files": [
+    "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+    "CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+    "IMRF__sample_investment_manager_rfp.pdf",
+    "IMRF__sample-investment-consulting-rfp.pdf",
+    "MA_PRIM__PDF-Version-of-RFP.pdf",
+    "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+    "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf"
+  ],
+  "ranking_prompt": "{\"question\": \"Which documents in the corpus directly ask whether the responding firm is a signatory to the (UN) Principles for Responsible Investment?\", \"candidates\": [{\"filename\": \"CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf\", \"extension\": \".pdf\", \"title\": \"Microsoft Word - 2025 RP Investment Consultant RFP 04 29 25\", \"author\": \"Paul\", \"page_count\": 12, \"keywords\": [\"Paul\"], \"preview\": \"Retirement Plan for CTA \\nEmployees \\nInvestment Consulting  \\nRequest for Proposals \\n \\n \\n \\n \\n \\n \\nAdvertised Date \\nApril 29, 2025 \\n \\n \\nProposals Due via email \\nMay 30, 2025 \\n3:00 pm, Central Time \\npsidrys@ctapension.com \\n \\n55 W. Monroe, Suite 1950 \\nChicago, IL 60603\", \"full_content\": \"\"}, {\"filename\": \"Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Fernando Vinzons\", \"page_count\": 14, \"keywords\": [\"Fernando Vinzons\"], \"preview\": \"1 \\n \\n \\n \\nTHE RETIREMENT BOARD  \\nOF THE COUNTY EMPLOYEES’ AND OFFICERS’ ANNUITY AND BENEFIT FUND  \\nOF COOK COUNTY AND EX OFFICIO FOR THE FOREST PRESERVE DISTRICT \\nEMPLOYEES’ ANNUITY AND BENEFIT FUND OF COOK COUNTY  \\n \\n \\n \\n \\nREQUEST FOR PROPOSALS (RFP) \\nTO PROVIDE \\nMANAGER OF MANAGERS INVESTMENT SERVICES \\n \\n \\n \\nISSUED ON:   DECEMBER 4, 2025 \\n \\n \\n \\n \\nELECTRONIC RESPONSES MUST BE RECEIVED  \\nON OR BEFORE 4:30 P.M. (CDT) ON JANUARY 9, 2026.\", \"full_content\": \"\"}, {\"filename\": \"IMRF__sample-investment-consulting-rfp.pdf\", \"extension\": \".pdf\", \"title\": \"4/20/98 DRAFT\", \"author\": \"Carmen Heredia\", \"page_count\": 31, \"keywords\": [\"Carmen Heredia\"], \"preview\": \"Request for Proposals - Investment Consulting, Real Estate Consulting and Performance \\nMeasurement Services \\n \\nPART 1 -- Introduction and Goal of the RFP \\n1.1 INTRODUCTION - General Information \\nThe Illinois Municipal Retirement Fund (IMRF) is requesting pro posals from investment \\nconsulting firms to provide general investment consulting , real estate consulting  and \\nperformance measurement services (bundled or unbundled) to its Board of Trustees and \\nalso to assist the IMRF Investment Department Staff.   \\nThere is no expressed or implied obligation for the IMRF to reimburse responding firms \\nfor any expenses incurred in preparing proposals in response to this request. \\nIMRF reserves the right to reject any or all proposals submitted.  All proposals submitted \\nwill be  evaluated\", \"full_content\": \"\"}, {\"filename\": \"IMRF__sample_investment_manager_rfp.pdf\", \"extension\": \".pdf\", \"title\": \"  \", \"author\": \"Carmen Heredia-Lopez\", \"page_count\": 26, \"keywords\": [\"Carmen Heredia-Lopez\"], \"preview\": \"SAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP \\n \\nRequest for Proposals - Investment Management \\nDomestic Equity Small Cap Growth \\n \\nSAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP  *  SAMPLE RFP \\n \\nPART 1 -- Introduction and Goal of the RFP \\n1.1 INTRODUCTION - General Information \\nThe Illinois Municipal Retirement Fund (IMRF) is requesting proposals from \\ninvestment management  firms to provide domestic equity small cap growth  \\ninvestment management services.  There is no expressed or implied obligation for \\nthe IMRF to reimburse responding firms for any expenses incurred in preparing \\nproposals in response to this request. \\n \\n IMRF reserves the right to reject any or all proposals submitted.  All proposals \\nsubmitted will be evaluated by members of the IMRF  Investment Dep\", \"full_content\": \"\"}, {\"filename\": \"INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Jeffrey Hutson\", \"page_count\": 58, \"keywords\": [\"Jeffrey Hutson\"], \"preview\": \"REQUEST FOR PROPOSALS (“RFP”) for \\nALTERNATIVE INVESTMENT CONSULTING SERVICES \\n \\nRFP NUMBER 23-09 \\n \\n \\nRELEASE DATE:  October 23, 2023 \\nDEADLINE FOR INQUIRIES: November 13, 2023, 3:00 P.M. (EST) \\nDEADLINE FOR SUBMISSION:  December 15, 2023, 3:00 P.M. (EST)\", \"full_content\": \"\"}, {\"filename\": \"INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx\", \"extension\": \".docx\", \"title\": \" \", \"author\": \"Constantin Sorlescu\", \"page_count\": 0, \"keywords\": [\"Constantin Sorlescu\"], \"preview\": \"Table of Contents\\nIntroduction\\nAs the non-listed real estate market has matured, both in terms of number of vehicles on offer and geographical reach, there is an increasing necessity for a more standardised due diligence process to assist investors at all levels to easily access vehicle and manager information.\\nThe Due Diligence Questionnaire (DDQ) for Funds of Funds and Multi Manager (INREV FoF / MM DDQ) is part of the due diligence protocol which was first launched in April 2007. Originally launched in 2014, INREV FoF / MM is a variation of the INREV Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles (INREV DDQ) most recently updated in 2018.\\nIt assists an investor or consultant in determining, in principle, whether a proposal fits the investor’s investment object\", \"full_content\": \"\"}, {\"filename\": \"INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf\", \"extension\": \".pdf\", \"title\": \" \", \"author\": \"Constantin Sorlescu\", \"page_count\": 41, \"keywords\": [\"Constantin Sorlescu\"], \"preview\": \"1\", \"full_content\": \"\"}, {\"filename\": \"MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf\", \"extension\": \".pdf\", \"title\": \"MassPRIM Active Global Core Equity Investment Management Services RFP\", \"author\": \"Abouhala, Andre\", \"page_count\": 82, \"keywords\": [\"Abouhala, Andre\"], \"preview\": \"Pension Reserves Investment Management Board \\n  \\n \\n \\n \\n \\n \\nDeborah B. Goldberg, Treasurer and Receiver General, Chair \\nMichael G. Trotsky, CFA, Executive Director and Chief Investment Officer \\n \\nmapension.com | 53 State Street, Suite 600, Boston, MA 02109 | (617) 946-8401 \\n \\nSeptember 8, 2026 \\n \\nDear Potential Provider: \\n \\nThe Massachusetts Pension Reserves Investment Management Board (“PRIM”) is requesting responses \\nfrom firms interested in providing Active Global Core Equity Investment Management Services.  \\n \\nThe Procurement Officer for this Request for Proposals (RFP) is Andre Abouhala.  For responses to be \\nconsidered by PRIM, each prospective provider must respond to the RFP by submitting an electronic copy \\nof its response, including attachments, via e -mail to rfpresponses@m\", \"full_content\": \"\"}, {\"filename\": \"MA_PRIM__PDF-Version-of-RFP.pdf\", \"extension\": \".pdf\", \"title\": \"Pension reserves\", \"author\": \"Abouhala, Andre\", \"page_count\": 66, \"keywords\": [\"Abouhala, Andre\"], \"preview\": \"P\\nension Reserves Investment Management Board \\nDeborah B. Goldberg, Treasurer and Receiver General, Chair \\nMichael G. Trotsky, CFA, Executive Director and Chief Investment Officer \\nmapension.com | 53 State Street, Suite 600, Boston, MA 02109 | (617) 946-8401 \\nOctober 31, 2023 \\nD\\near Potential Provider: \\nTh\\ne Massachusetts Pension Reserves Investment Management Board (“PRIM”) is requesting responses \\nfrom firms interested in providing Multi-Asset Credit Investment Management Services. \\nT\\nhe Procurement Officer for this Request for Proposals (RFP) is Chuck LaPosta.  For responses to be \\nconsidered by PRIM, each prospective provider must respond to the RFP by submitting an electronic \\ncopy of its response, including attachments, via e-mail to rfpresponses@mapension.com. The response \\nmust be\", \"full_content\": \"\"}, {\"filename\": \"TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf\", \"extension\": \".pdf\", \"title\": \"RFP for Private Equity Investment Consultant\", \"author\": \"TRS\", \"page_count\": 95, \"keywords\": [\"TRS\"], \"preview\": \"1\\n \\nT\\neachers’ Retirement System \\nof the State of Illinois \\nREQUEST FOR PROPOSALS FOR \\nPRIVATE EQUITY INVESTMENT CONSULTANT SERVICES \\nIssued August 7, 2024 \\nRe\\nsponses due 2:00 CDT, Wednesday, September 4, 2024\", \"full_content\": \"\"}]}",
+  "keyword_files": [
+    "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+    "/mnt/docs/S/CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+    "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf",
+    "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf",
+    "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+    "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+    "/mnt/docs/S/AVFPD__RFP-Actuatial-Services-2024.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "/mnt/docs/S/Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+    "/mnt/docs/S/INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+    "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+    "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf",
+    "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "/mnt/docs/S/CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+    "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf"
+  ],
+  "status": "ok",
+  "elapsed_s": 6.704,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 2304,
+    "completion_tokens": 467,
+    "total_tokens": 2771
+  },
+  "attempt": 1
+}

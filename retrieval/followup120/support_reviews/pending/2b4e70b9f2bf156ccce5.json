@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "2b4e70b9f2bf156ccce5",
+    "query_id": "INV-14",
+    "question": "In the Massachusetts PRIM Board's September 2026 RFP for Active Global Core Equity investment management services, what minimum total firm assets under management must a respondent have?",
+    "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "expected_facts": "At least $5 billion in total firm assets under management as of June 30, 2026.",
+    "acceptance": "At least $5bn total firm AUM as of June 30, 2026. Do not confuse firm AUM with product assets.",
+    "text_hash": "afed2142cd9b5f90246d59a5737b84e7449b0c4dc717232226f57461b45a9b9e",
+    "source_text_sha256": "4e6f311f7c398d5daed9e60599d032ec43a08c449bc5eec7b5f5fb388433a80b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a November 2022 SFERS general investment consulting RFP, not the Massachusetts PRIM Board’s September 2026 Active Global Core Equity RFP. It does not state the required minimum total firm AUM as of June 30, 2026; its separate investment-manager guideline concerns discretionary institutional assets and permits exceptions.",
+      "quotes": [
+        "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System",
+        "Date Issued: November 1, 2022",
+        "In general, firms should have at least $250 million of discretionary institutional assets under management",
+        "Exceptions may be made on a case-by-case basis."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System",
+          "start": 13,
+          "end": 147
+        },
+        {
+          "quote": "Date Issued: November 1, 2022",
+          "start": 148,
+          "end": 177
+        },
+        {
+          "quote": "In general, firms should have at least $250 million of discretionary institutional assets under management",
+          "start": 127494,
+          "end": 127600
+        },
+        {
+          "quote": "Exceptions may be made on a case-by-case basis.",
+          "start": 127728,
+          "end": 127775
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

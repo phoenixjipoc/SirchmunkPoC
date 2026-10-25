@@ -1,0 +1,95 @@
+{
+  "job": {
+    "id": "6e5e3bab7f1bceb44921",
+    "query_id": "OTH-03",
+    "question": "In Rice University's 2021 RFP for audit services for its retirement plans, how many participants did the 401(a) plan and the 403(b) plan have as of December 31, 2020?",
+    "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "expected_facts": "401(a) plan: 8,828 participants; 403(b) plan: 7,533 participants (as of December 31, 2020).",
+    "acceptance": "Accept 8,828 for 401(a) and 7,533 for 403(b); do not transpose.",
+    "text_hash": "3b4fb541c2d35b7de747c8f6c26cc3a40bee097d58737ad466dbef56acdfa755",
+    "source_text_sha256": "a7628e3fc4e0a9323e896059440a5b708d424232eec8242be9362eb818e6b682",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is Clark County, Washington’s 2026 RFP for a 457 plan administrator, not Rice University’s 2021 audit-services RFP. It does not provide the requested 401(a) and 403(b) participant counts as of December 31, 2020.",
+      "quotes": [
+        "REQUEST for PROPOSAL # 955 PROFESSIONAL, TECHNICAL AND EXPERT SERVICES Clark County Washington",
+        "RELEASE DATE: WEDNESDAY, MAY 6, 2026",
+        "Request for Proposal for: DEFERRED COMPENSATION 457 PLAN ADMINISTRATOR",
+        "Below are two tables; one for each plan with data as of December 31, 2025."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST for PROPOSAL # 955 PROFESSIONAL, TECHNICAL AND EXPERT SERVICES Clark County Washington",
+          "start": 13,
+          "end": 107
+        },
+        {
+          "quote": "RELEASE DATE: WEDNESDAY, MAY 6, 2026",
+          "start": 108,
+          "end": 144
+        },
+        {
+          "quote": "Request for Proposal for: DEFERRED COMPENSATION 457 PLAN ADMINISTRATOR",
+          "start": 244,
+          "end": 314
+        },
+        {
+          "quote": "Below are two tables; one for each plan with data as of December 31, 2025.",
+          "start": 43520,
+          "end": 43594
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is Clark County, Washington’s 2026 RFP for a 457 plan administrator, not Rice University’s 2021 RFP for retirement-plan audit services. It does not evidence participant counts for Rice’s 401(a) and 403(b) plans as of December 31, 2020.",
+      "quotes": [
+        "REQUEST for PROPOSAL # 955",
+        "Clark County Washington",
+        "RELEASE DATE: WEDNESDAY, MAY 6, 2026",
+        "Request for Proposal for: DEFERRED COMPENSATION 457 PLAN ADMINISTRATOR",
+        "Below are two tables; one for each plan with data as of December 31, 2025."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST for PROPOSAL # 955",
+          "start": 13,
+          "end": 39
+        },
+        {
+          "quote": "Clark County Washington",
+          "start": 84,
+          "end": 107
+        },
+        {
+          "quote": "RELEASE DATE: WEDNESDAY, MAY 6, 2026",
+          "start": 108,
+          "end": 144
+        },
+        {
+          "quote": "Request for Proposal for: DEFERRED COMPENSATION 457 PLAN ADMINISTRATOR",
+          "start": 244,
+          "end": 314
+        },
+        {
+          "quote": "Below are two tables; one for each plan with data as of December 31, 2025.",
+          "start": 43520,
+          "end": 43594
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

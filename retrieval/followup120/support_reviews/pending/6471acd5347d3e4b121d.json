@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "6471acd5347d3e4b121d",
+    "query_id": "SVC-20",
+    "question": "What scope of services does the Kern County Employees' Retirement Association (KCERA) 2024 actuarial audit services RFP require?",
+    "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "expected_facts": "A full actuarial audit of the assumptions, methods, calculations and experience used in KCERA's valuation, in two parts: (1) a peer review audit of the Actuarial Experience Study for July 1, 2019 - June 30, 2022 and the Review of Economic Actuarial Assumptions as of June 30, 2022 - evaluating the data (including comparison of census data), reconciling discrepancies with the consulting actuary, and evaluating the recommended economic and non-economic assumptions; and (2) a parallel valuation (independent reproduction) of the June 30, 2023 valuation, including the SRBR valuation and GASB 67 valuation, using the consulting actuary's assumptions and methods and reproducing all work without relying on the consulting actuary, with reconciliation of discrepancies. Results of both are to be communicated to the consulting actuary before completion of the June 30, 2024 valuation.",
+    "acceptance": "Require both experience-study peer review and independent June 30, 2023 parallel valuation, including SRBR/GASB67 and discrepancy reconciliation. A concise account may group data and assumption checks; sample-agreement delivery details are optional.",
+    "text_hash": "5afc5adec694c195f2977417c376c45b4856a88e72d30c0e1953e2403af08eac",
+    "source_text_sha256": "add3ba83b3e17f098f096c1bf8b5d5000ad39375300bba2e2b398c7d805cf7a6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is CCCERA’s April 2018 RFP for master custodial services, not KCERA’s 2024 actuarial audit services RFP. It provides no support for the required experience-study peer review or independent June 30, 2023 parallel valuation.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+        "The Contra Costa County Employees’ Retirement Association (CCCERA), issues this Request for Proposals (RFP) to solicit proposals from qualified vendors (Proposers) to provide comprehensive domestic and international master custodial services"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+          "start": 13,
+          "end": 141
+        },
+        {
+          "quote": "The Contra Costa County Employees’ Retirement Association (CCCERA), issues this Request for Proposals (RFP) to solicit proposals from qualified vendors (Proposers) to provide comprehensive domestic and international master custodial services",
+          "start": 2072,
+          "end": 2313
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "9af4a23e61dec29cda3b",
+    "query_id": "INV-14",
+    "question": "In the Massachusetts PRIM Board's September 2026 RFP for Active Global Core Equity investment management services, what minimum total firm assets under management must a respondent have?",
+    "file": "Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf",
+    "expected_facts": "At least $5 billion in total firm assets under management as of June 30, 2026.",
+    "acceptance": "At least $5bn total firm AUM as of June 30, 2026. Do not confuse firm AUM with product assets.",
+    "text_hash": "9005ad4fc3613103f3e98a54812943e8b23aded75cd7da3fa65a8c17755605cb",
+    "source_text_sha256": "13c422c5c268bbaa5684a3788ed366160f4693ea63ecbb2e6edc3a648d06e3f6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Samuel Fels Fund RFP for OCIO services, not the Massachusetts PRIM Board’s September 2026 Active Global Core Equity RFP. It asks firms to provide AUM but states no minimum total firm AUM or June 30, 2026 measurement date.",
+      "quotes": [
+        "Request for Proposal (RFP) for Outsourced Chief Investment Officer (OCIO) Services Issued By: Samuel Fels Fund",
+        "Deadline: Please submit your response in a single PDF document via email to Uma Viswanathan (Uma@samfels.org) and Nimrit Kang (kangnkgo@gmail.com) no later than February 13, 2026, 5 PM.",
+        "Firm Overview: Provide your firm's name, address, AUM, and ownership structure."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal (RFP) for Outsourced Chief Investment Officer (OCIO) Services Issued By: Samuel Fels Fund",
+          "start": 13,
+          "end": 123
+        },
+        {
+          "quote": "Deadline: Please submit your response in a single PDF document via email to Uma Viswanathan (Uma@samfels.org) and Nimrit Kang (kangnkgo@gmail.com) no later than February 13, 2026, 5 PM.",
+          "start": 4937,
+          "end": 5122
+        },
+        {
+          "quote": "Firm Overview: Provide your firm's name, address, AUM, and ownership structure.",
+          "start": 5356,
+          "end": 5435
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

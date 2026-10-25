@@ -1,0 +1,42 @@
+{
+  "id": "e5a8a19cc63cf3e27a8b",
+  "query_id": "CONS-07",
+  "question": "Which pension system's investment consultant RFP requires respondents to have at least five defined benefit pension plan clients, two of which are public pension plans with total plan assets of at least $15 billion each?",
+  "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+  "expected_facts": "Orange County Employees Retirement System (OCERS), in its 2021 investment consultant services RFP (Appendix E, Minimum Qualifications Certification).",
+  "acceptance": "OCERS/Orange County Employees Retirement System suffices. Appendix designation, year and restatement of qualification are optional.",
+  "text_hash": "24d5965850bb731d1f236f3c09eb9e9855009b90c82899fd35fc123fe3525d93",
+  "source_text_sha256": "206385c6cbc8b887e46333ea2f56fa3be1d68c7f94e466f08c17043704dfdec6",
+  "second_check_required": true,
+  "prior_reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is SDCERS’s 2026 RFP, not OCERS’s RFP. Its stated minimum qualifications do not include the specified requirement for five defined benefit pension plan clients, including two public plans with at least $15 billion in assets each.",
+      "quotes": [
+        "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+        "General Investment Consulting firms wishing to respond to this RFP must meet the following minimum qualifications as of January 1, 2027:",
+        "The consulting firm must have substantial experience advising multi-billion public pension plan retirement systems."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+          "start": 13,
+          "end": 117
+        },
+        {
+          "quote": "General Investment Consulting firms wishing to respond to this RFP must meet the following minimum qualifications as of January 1, 2027:",
+          "start": 2873,
+          "end": 3009
+        },
+        {
+          "quote": "The consulting firm must have substantial experience advising multi-billion public pension plan retirement systems.",
+          "start": 3468,
+          "end": 3583
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ]
+}

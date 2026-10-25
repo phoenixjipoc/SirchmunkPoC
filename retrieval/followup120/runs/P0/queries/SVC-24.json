@@ -1,0 +1,87 @@
+{
+  "query_id": "SVC-24",
+  "question": "What contract terms (initial length and any renewal or extension options) do the deferred compensation / 457 plan recordkeeping RFPs in the corpus propose?",
+  "type": "broad",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "/mnt/docs/S/Monroe_County_NY__10406.pdf",
+    "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/Monroe_County_NY__10406.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "/mnt/docs/S/Monroe_County_NY__10406.pdf",
+    "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+  ],
+  "keyword_terms": [
+    "deferred compensation",
+    "457 plan recordkeeping RFPs",
+    "initial contract length",
+    "renewal or extension options",
+    "递延薪酬",
+    "457计划",
+    "记录管理",
+    "征求建议书"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 377,
+      "timestamp": "2026-10-25 16:06:34.099668",
+      "metadata": {
+        "keywords": [
+          "deferred compensation",
+          "457 plan recordkeeping RFPs",
+          "initial contract length",
+          "renewal or extension options",
+          "递延薪酬",
+          "457计划",
+          "记录管理",
+          "征求建议书"
+        ],
+        "files_found": 4,
+        "files_discovered": [
+          "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+          "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+          "/mnt/docs/S/Monroe_County_NY__10406.pdf",
+          "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+      "path": "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "path": "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Monroe_County_NY__10406.pdf",
+      "path": "/mnt/docs/S/Monroe_County_NY__10406.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "path": "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+    }
+  ],
+  "elapsed_s": 6.354,
+  "calls": 0,
+  "usage": {}
+}

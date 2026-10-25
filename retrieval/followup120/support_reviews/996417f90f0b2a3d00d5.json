@@ -1,0 +1,124 @@
+{
+  "job": {
+    "id": "996417f90f0b2a3d00d5",
+    "query_id": "SVC-20",
+    "question": "What scope of services does the Kern County Employees' Retirement Association (KCERA) 2024 actuarial audit services RFP require?",
+    "file": "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "expected_facts": "A full actuarial audit of the assumptions, methods, calculations and experience used in KCERA's valuation, in two parts: (1) a peer review audit of the Actuarial Experience Study for July 1, 2019 - June 30, 2022 and the Review of Economic Actuarial Assumptions as of June 30, 2022 - evaluating the data (including comparison of census data), reconciling discrepancies with the consulting actuary, and evaluating the recommended economic and non-economic assumptions; and (2) a parallel valuation (independent reproduction) of the June 30, 2023 valuation, including the SRBR valuation and GASB 67 valuation, using the consulting actuary's assumptions and methods and reproducing all work without relying on the consulting actuary, with reconciliation of discrepancies. Results of both are to be communicated to the consulting actuary before completion of the June 30, 2024 valuation.",
+    "acceptance": "Require both experience-study peer review and independent June 30, 2023 parallel valuation, including SRBR/GASB67 and discrepancy reconciliation. A concise account may group data and assumption checks; sample-agreement delivery details are optional.",
+    "text_hash": "4d17b63a1511a6035e3a2c08797dc7e2c193555a97c765a553008ba340318074",
+    "source_text_sha256": "9ba8b34157c475227b613d2f9c05b6397a2e14952507ce6c1cae052ff9d4e2e8",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is KCERA’s 2023 financial-statement audit RFP, not its 2024 actuarial audit services RFP. It does not require an experience-study peer review or an independent June 30, 2023 parallel valuation, including SRBR and GASB 67 valuations and discrepancy reconciliation.",
+        "quotes": [
+          "The Kern County Employees’ Retirement Association (KCERA) is requesting proposals from qualified firms of certified public accountants (“Auditor”) to audit its financial statements for the fiscal year ending June 30, 2023, and for each of the two (2) subsequent fiscal years",
+          "Request for Proposal issued January 16, 2023",
+          "KCERA requires the Auditor to express an opinion on the fair presentation of the financial statements in conformity with generally accepted accounting principles.",
+          "The Auditor is not required to audit the introductory, investment, actuarial and statistical sections of the report but to review them for consistency."
+        ],
+        "quote_matches": [
+          {
+            "quote": "The Kern County Employees’ Retirement Association (KCERA) is requesting proposals from qualified firms of certified public accountants (“Auditor”) to audit its financial statements for the fiscal year ending June 30, 2023, and for each of the two (2) subsequent fiscal years",
+            "start": 2687,
+            "end": 2961
+          },
+          {
+            "quote": "Request for Proposal issued January 16, 2023",
+            "start": 20592,
+            "end": 20636
+          },
+          {
+            "quote": "KCERA requires the Auditor to express an opinion on the fair presentation of the financial statements in conformity with generally accepted accounting principles.",
+            "start": 14424,
+            "end": 14586
+          },
+          {
+            "quote": "The Auditor is not required to audit the introductory, investment, actuarial and statistical sections of the report but to review them for consistency.",
+            "start": 15507,
+            "end": 15658
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is KCERA’s 2023 financial-statement audit RFP, not its 2024 actuarial audit services RFP. It does not require an experience-study peer review or an independent June 30, 2023 parallel valuation, including SRBR and GASB 67 valuations and discrepancy reconciliation.",
+      "quotes": [
+        "The Kern County Employees’ Retirement Association (KCERA) is requesting proposals from qualified firms of certified public accountants (“Auditor”) to audit its financial statements for the fiscal year ending June 30, 2023, and for each of the two (2) subsequent fiscal years",
+        "Request for Proposal issued January 16, 2023",
+        "KCERA requires the Auditor to express an opinion on the fair presentation of the financial statements in conformity with generally accepted accounting principles.",
+        "The Auditor is not required to audit the introductory, investment, actuarial and statistical sections of the report but to review them for consistency."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Kern County Employees’ Retirement Association (KCERA) is requesting proposals from qualified firms of certified public accountants (“Auditor”) to audit its financial statements for the fiscal year ending June 30, 2023, and for each of the two (2) subsequent fiscal years",
+          "start": 2687,
+          "end": 2961
+        },
+        {
+          "quote": "Request for Proposal issued January 16, 2023",
+          "start": 20592,
+          "end": 20636
+        },
+        {
+          "quote": "KCERA requires the Auditor to express an opinion on the fair presentation of the financial statements in conformity with generally accepted accounting principles.",
+          "start": 14424,
+          "end": 14586
+        },
+        {
+          "quote": "The Auditor is not required to audit the introductory, investment, actuarial and statistical sections of the report but to review them for consistency.",
+          "start": 15507,
+          "end": 15658
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is KCERA’s 2023 RFP for a certified-public-accountant audit of financial statements, not the 2024 actuarial audit services RFP. It does not require an experience-study peer review or an independent June 30, 2023 parallel valuation including SRBR and GASB 67, nor reconciliation of actuarial discrepancies.",
+      "quotes": [
+        "The Kern County Employees’ Retirement Association (KCERA) is requesting proposals from qualified firms of certified public accountants (“Auditor”) to audit its financial statements for the fiscal year ending June 30, 2023, and for each of the two (2) subsequent fiscal years",
+        "The deadline for submission of the proposal is no later than March 3, 2023, at 2:00 p.m., PST.",
+        "KCERA requires the Auditor to express an opinion on the fair presentation of the financial statements in conformity with generally accepted accounting principles.",
+        "The Auditor is not required to audit the introductory, investment, actuarial and statistical sections of the report but to review them for consistency."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Kern County Employees’ Retirement Association (KCERA) is requesting proposals from qualified firms of certified public accountants (“Auditor”) to audit its financial statements for the fiscal year ending June 30, 2023, and for each of the two (2) subsequent fiscal years",
+          "start": 2687,
+          "end": 2961
+        },
+        {
+          "quote": "The deadline for submission of the proposal is no later than March 3, 2023, at 2:00 p.m., PST.",
+          "start": 3429,
+          "end": 3523
+        },
+        {
+          "quote": "KCERA requires the Auditor to express an opinion on the fair presentation of the financial statements in conformity with generally accepted accounting principles.",
+          "start": 14424,
+          "end": 14586
+        },
+        {
+          "quote": "The Auditor is not required to audit the introductory, investment, actuarial and statistical sections of the report but to review them for consistency.",
+          "start": 15507,
+          "end": 15658
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

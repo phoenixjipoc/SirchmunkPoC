@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "0bd878f1239d814ac901",
+    "query_id": "CONS-14",
+    "question": "What are all the minimum requirements in Section 2 (pages 4–5) of the City of Hartford MERF general investment consultant RFP?",
+    "file": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "expected_facts": "Section2 requires: (1) at least ten years providing general consulting; (2) senior leadership together at least three years; (3) no subcontracting account management, and all responsible personnel are employees; (4) currently consulting for at least five public pension funds each over $1.5bn; (5) primary consultant has at least five years of defined-benefit public-pension consulting and at least three years employed by proposer; (6) fiduciary service to MERF/OPEB and written compliance with their investment policies/guidelines; (7) no existing or potential material conflicts with the City Treasurer/staff, Pension Commission, OPEB Committee, actuary, auditor, managers or other providers; (8) agree to execute a contract similar to AppendixE; (9) current SEC investment-adviser registration; (10) carry or have applied by submission for general liability $5m, E&O/professional liability $5m, fiduciary liability $1m, workers' compensation/employer liability $1m, and cybersecurity $1m. Section2 says all qualifications must be met by March15,2024 at 5pm ET and AppendixA certification must be completed. AppendixA separately uses different client-threshold/history and insurance-date wording; this answer follows Section2 as asked.",
+    "acceptance": "Require all ten Section2 bullet requirements and five insurance limits when asking 'all'. If the question retains whole-document scope, allow explanation of Section2 versus AppendixA differences rather than forcing a single contradictory date or >/$1.5bn threshold.",
+    "text_hash": "3ecf7188afbf06d1992a2e369435746a5f1872698632985399a9e054bf75b408",
+    "source_text_sha256": "245be5bf903c98e9c43a03f3b620302180f76969b88872c25a7e2f9026336a20",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a City of Grand Rapids retirement-systems RFP, not the City of Hartford MERF RFP. Its minimum requirements have different experience and client-asset thresholds, so it cannot support the requested Section 2 requirements.",
+      "quotes": [
+        "CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM INVESTMENT CONSULTANT SERVICES REQUEST FOR PROPOSAL (“RFP”)",
+        "B. MINIMUM REQUIREMENTS",
+        "The Investment Consultant must have a minimum of five (5) years of experience in providing institutional investor consulting services.",
+        "The Investment Consultant must provide services to at least one (1) public employee retirement system with at least $250 million in assets."
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM INVESTMENT CONSULTANT SERVICES REQUEST FOR PROPOSAL (“RFP”)",
+          "start": 27,
+          "end": 188
+        },
+        {
+          "quote": "B. MINIMUM REQUIREMENTS",
+          "start": 4655,
+          "end": 4678
+        },
+        {
+          "quote": "The Investment Consultant must have a minimum of five (5) years of experience in providing institutional investor consulting services.",
+          "start": 4682,
+          "end": 4816
+        },
+        {
+          "quote": "The Investment Consultant must provide services to at least one (1) public employee retirement system with at least $250 million in assets.",
+          "start": 4820,
+          "end": 4959
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

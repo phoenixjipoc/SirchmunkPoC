@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "6a06bab430620a2d7ac4",
+    "query_id": "OTH-13",
+    "question": "What was the proposal deadline in the Hawaii ERS 2017 RFP for real estate investment consultant services?",
+    "file": "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "expected_facts": "4:30 p.m. (H.S.T.) on March 20, 2017.",
+    "acceptance": "March 20, 2017, 4:30 p.m. HST or explicit equivalent timezone conversion.",
+    "text_hash": "bb72821830d3b79720e84bd7d293578b1b367fc714f7a0632d7937278f6fccd7",
+    "source_text_sha256": "c942d0c8eb27f166bc67c995927bcd0e03513c3bbbfb1318905a941cab877fac",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2023 Illinois TRS RFP for general investment consulting services, not the Hawaii ERS 2017 RFP for real estate investment consultant services. Its deadline does not support the requested deadline.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES Issued January 13, 2023 Responses due February 9, 2023, by 2:00 pm CST",
+        "The Teachers’ Retirement System of the State of Illinois (the System or TRS) is requesting proposals to provide general investment consulting services"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES Issued January 13, 2023 Responses due February 9, 2023, by 2:00 pm CST",
+          "start": 13,
+          "end": 193
+        },
+        {
+          "quote": "The Teachers’ Retirement System of the State of Illinois (the System or TRS) is requesting proposals to provide general investment consulting services",
+          "start": 2224,
+          "end": 2374
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

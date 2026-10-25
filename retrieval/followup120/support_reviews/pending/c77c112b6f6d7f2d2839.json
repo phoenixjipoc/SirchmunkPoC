@@ -1,0 +1,71 @@
+{
+  "job": {
+    "id": "c77c112b6f6d7f2d2839",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "IMRF__sample_investment_manager_rfp.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "1d6500a43cb519702a3a7fba26b0e9ecd1b4b2bb1bb0ac004878183abcc2df76",
+    "source_text_sha256": "b904f613bceebade43840677e52ac82b24f5fe88526390405a0ab1d994b4049d",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Illinois Municipal Retirement Fund sample RFP for investment management, not the external audit RFP Q&A. It provides no FY2021 audit contractual fees.",
+      "quotes": [
+        "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment management firms to provide domestic equity small cap growth investment management services.",
+        "PART 10—RFP QUESTIONNAIRE: INVESTMENT MANAGEMENT SERVICES, DOMESTIC EQUITY – SMALL CAP GROWTH"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment management firms to provide domestic equity small cap growth investment management services.",
+          "start": 274,
+          "end": 452
+        },
+        {
+          "quote": "PART 10—RFP QUESTIONNAIRE: INVESTMENT MANAGEMENT SERVICES, DOMESTIC EQUITY – SMALL CAP GROWTH",
+          "start": 17118,
+          "end": 17211
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is an Illinois Municipal Retirement Fund sample RFP for investment management, not the external-audit RFP Q&A. It does not state the total contractual fees for FY2021 audits.",
+      "quotes": [
+        "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment management firms",
+        "Request for Proposals - Investment Management Domestic Equity Small Cap Growth",
+        "IMRF Sample RFP Page 26 of 26"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment management firms",
+          "start": 274,
+          "end": 376
+        },
+        {
+          "quote": "Request for Proposals - Investment Management Domestic Equity Small Cap Growth",
+          "start": 63,
+          "end": 141
+        },
+        {
+          "quote": "IMRF Sample RFP Page 26 of 26",
+          "start": 42105,
+          "end": 42134
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

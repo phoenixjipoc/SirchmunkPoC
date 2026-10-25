@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "9aa82a000785f91d8e0c",
+    "query_id": "XD-08",
+    "question": "In the INREV Due Diligence Questionnaire 2022 for Funds of Funds and Multi Manager, which expense ratio must the manager provide under Fees and Expenses, and on what bases?",
+    "file": "MA_PRIM__PDF-Version-of-RFP.pdf",
+    "expected_facts": "Question 1.6.2 asks for the INREV expense ratio (TGER): a forward-looking estimate (with the calculation method) if the vehicle has not been launched, or the historical INREV expense ratio (TGER) if it is an existing vehicle. It must be given on both NAV and GAV, with and without performance fees. If the INREV expense ratio is not used, a calculation in line with the INREV Fee and Expense Metrics module is required.",
+    "acceptance": "TGER; forward estimate for unlaunched versus historical for existing; NAV/GAV and with/without performance fees. Equivalent description of INREV-compatible fallback accepted.",
+    "text_hash": "c92320682456b11eb70addd3a356a98edfd3f865f21e453c8906eefe68b8b772",
+    "source_text_sha256": "e3fe5e9a4d6babe97bf46e2649b5484f28a2237abb15634af7dc30e35b1c2a49",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is PRIM’s 2023 Multi-Asset Credit Investment Management Services RFP, not the INREV Due Diligence Questionnaire 2022 for Funds of Funds and Multi Manager. It does not state the requested INREV expense ratio (TGER), the vehicle-status distinction, the NAV/GAV and performance-fee bases, or the fallback calculation.",
+      "quotes": [
+        "Pension Reserves Investment Management Board REQUEST FOR PROPOSALS (RFP) Multi-Asset Credit Investment Management Services October 31, 2023",
+        "IX. Fee Proposal Please detail the type of fee arrangements that you propose."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Pension Reserves Investment Management Board REQUEST FOR PROPOSALS (RFP) Multi-Asset Credit Investment Management Services October 31, 2023",
+          "start": 1555,
+          "end": 1694
+        },
+        {
+          "quote": "IX. Fee Proposal Please detail the type of fee arrangements that you propose.",
+          "start": 47145,
+          "end": 47222
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

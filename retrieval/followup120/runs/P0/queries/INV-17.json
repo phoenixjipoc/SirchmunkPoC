@@ -1,0 +1,61 @@
+{
+  "query_id": "INV-17",
+  "question": "What evaluation criteria and weights does the Arizona Public Safety Personnel Retirement System (PSPRS) use in its RFP for non-discretionary investment consultant services?",
+  "type": "medium",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf"
+  ],
+  "keyword_terms": [
+    "Arizona Public Safety Personnel Retirement System",
+    "non-discretionary investment consultant services",
+    "evaluation criteria and weights",
+    "亚利桑那州公共安全人员退休制度",
+    "非全权委托投资顾问服务",
+    "评估标准",
+    "权重"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 116,
+      "timestamp": "2026-10-25 15:59:57.030898",
+      "metadata": {
+        "keywords": [
+          "Arizona Public Safety Personnel Retirement System",
+          "non-discretionary investment consultant services",
+          "evaluation criteria and weights",
+          "亚利桑那州公共安全人员退休制度",
+          "非全权委托投资顾问服务",
+          "评估标准",
+          "权重"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+      "path": "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf"
+    }
+  ],
+  "elapsed_s": 4.98,
+  "calls": 0,
+  "usage": {}
+}

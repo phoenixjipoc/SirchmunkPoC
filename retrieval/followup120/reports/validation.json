@@ -1,0 +1,375 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "retrieval_code_and_inputs_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "parser_code_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "scoring_code_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transport_code_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "parser_correction_code_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same_120_question_inputs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "baseline_records_byte_identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "completed_R2_results_unchanged_after_recovery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R1_exact_120_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R1_ordered_unique_references",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R1_no_answer_sampling_cluster",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R2_exact_120_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R2_ordered_unique_references",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R2_no_answer_sampling_cluster",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R2_model_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R2_allowed_phases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R2_valid_result_not_retried",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R3_exact_120_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R3_ordered_unique_references",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R3_no_answer_sampling_cluster",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R3_model_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R3_allowed_phases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R3_valid_result_not_retried",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S_exact_120_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S_ordered_unique_references",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S_no_answer_sampling_cluster",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S_model_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S_allowed_phases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S_valid_result_not_retried",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "D_exact_120_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "D_ordered_unique_references",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "D_no_answer_sampling_cluster",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "D_model_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "D_allowed_phases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "D_valid_result_not_retried",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P_exact_120_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P_ordered_unique_references",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P_no_answer_sampling_cluster",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_exact_120_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_ordered_unique_references",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_no_answer_sampling_cluster",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "K_exact_120_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "K_ordered_unique_references",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "K_no_answer_sampling_cluster",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "T_exact_120_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "T_ordered_unique_references",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "T_no_answer_sampling_cluster",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S_exact_same_candidate_sets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S_prompt_has_no_gold_fields",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "D_keyword_results_frozen",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "D_prompt_contains_all_81_files",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P_P0_same_terms_and_directory",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "parser_checks_cover_both_81_file_sets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "legacy_doc_readable_with_adapter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "parser_live_async_hook_and_sort_confirmed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "parser_integration_smoke_passed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "parser_actual_invocation_flags",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "parser_nonlegacy_order_and_membership_controlled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "initial_invalid_parser_results_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "scoring_inputs_equal_published_baseline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "scope_denominators",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_360_anchors_supported_by_text_or_page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "anchor_page_images_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_new_checks_completed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "first_position_checks_have_two_votes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "new_positive_support_requires_two_grounded_votes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "review_text_hashes_match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_check_model_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_checks_only_use_support_phase",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "adjudication_evidence_grounded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unmatched_review_quotes_adjudicated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hit_cutoffs_monotone",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MRR_bounds_valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S_top10_invariant_on_completed_permutations",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

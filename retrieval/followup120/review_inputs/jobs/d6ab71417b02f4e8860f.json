@@ -1,0 +1,12 @@
+{
+  "id": "d6ab71417b02f4e8860f",
+  "query_id": "OTH-15",
+  "question": "In the Los Angeles City Employees' Retirement System (LACERS) actuarial RFP, how many years of experience must the lead actuary have?",
+  "file": "INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+  "expected_facts": "At least 15 years of experience with major public employee retirement systems, including at least 3 years with California public pension fund clients similar to LACERS.",
+  "acceptance": "Accept 15 total and three California years. Do not require credential details unrelated to the years asked.",
+  "text_hash": "4aa67eec4c20c31dd5bea026745ad60e494f4d41055e5282f36a63f51ac53b63",
+  "source_text_sha256": "872c9becc80ae87c8e0cc07ecfc15202e13fdf184eceaffab26855b50b7cfb9e",
+  "second_check_required": false,
+  "prior_reviews": []
+}

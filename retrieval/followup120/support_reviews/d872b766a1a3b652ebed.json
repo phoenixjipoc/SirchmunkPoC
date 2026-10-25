@@ -1,0 +1,106 @@
+{
+  "job": {
+    "id": "d872b766a1a3b652ebed",
+    "query_id": "SVC-02",
+    "question": "In the American Academy of Actuaries' 2011 RFP for retirement plan and related consulting services, what were the plan assets at 12/31/10 of each of its three retirement plans?",
+    "file": "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+    "expected_facts": "Money Purchase plan: $3,015,682; 401(k) plan: $1,993,513; Defined Benefit plan: $647,181 (all as of 12/31/10).",
+    "acceptance": "Accept amounts mapped correctly to Money Purchase, 401(k), and Defined Benefit; profit-sharing description is optional.",
+    "text_hash": "d9a2a163aae9999ec622d7aec59ce7e611db4184b600f4da1278390d065e044b",
+    "source_text_sha256": "160e96bb79418d07ec2fbcbd06fadf5a029ef68dec4598be1d24fd91b7188964",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is a 2024 actuarial-auditing RFP issued by the Police Retirement System of St. Louis, not the American Academy of Actuaries’ 2011 consulting-services RFP. It does not provide the three requested plan-asset amounts as of 12/31/10.",
+        "quotes": [
+          "THE POLICE RETIREMENT SYSTEM OF ST. LOUIS",
+          "RFP Actuarial Auditing Services Date Issued – February 2, 2024",
+          "The Police Retirement System of St. Louis (“PRS-STL”) is requesting proposals from qualified firms interested in providing actuarial auditing services."
+        ],
+        "quote_matches": [
+          {
+            "quote": "THE POLICE RETIREMENT SYSTEM OF ST. LOUIS",
+            "start": 13,
+            "end": 54
+          },
+          {
+            "quote": "RFP Actuarial Auditing Services Date Issued – February 2, 2024",
+            "start": 102,
+            "end": 164
+          },
+          {
+            "quote": "The Police Retirement System of St. Louis (“PRS-STL”) is requesting proposals from qualified firms interested in providing actuarial auditing services.",
+            "start": 1595,
+            "end": 1746
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 actuarial-auditing RFP issued by the Police Retirement System of St. Louis, not the American Academy of Actuaries’ 2011 consulting-services RFP. It does not provide the three requested plan-asset amounts as of 12/31/10.",
+      "quotes": [
+        "THE POLICE RETIREMENT SYSTEM OF ST. LOUIS",
+        "RFP Actuarial Auditing Services Date Issued – February 2, 2024",
+        "The Police Retirement System of St. Louis (“PRS-STL”) is requesting proposals from qualified firms interested in providing actuarial auditing services."
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE POLICE RETIREMENT SYSTEM OF ST. LOUIS",
+          "start": 13,
+          "end": 54
+        },
+        {
+          "quote": "RFP Actuarial Auditing Services Date Issued – February 2, 2024",
+          "start": 102,
+          "end": 164
+        },
+        {
+          "quote": "The Police Retirement System of St. Louis (“PRS-STL”) is requesting proposals from qualified firms interested in providing actuarial auditing services.",
+          "start": 1595,
+          "end": 1746
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a 2024 actuarial-auditing RFP issued by the Police Retirement System of St. Louis, not the American Academy of Actuaries’ 2011 RFP. It provides none of the requested retirement-plan asset amounts as of 12/31/10.",
+      "quotes": [
+        "THE POLICE RETIREMENT SYSTEM OF ST. LOUIS",
+        "RFP Actuarial Auditing Services Date Issued – February 2, 2024",
+        "The Police Retirement System of St. Louis (“PRS-STL”) is requesting proposals from qualified firms interested in providing actuarial auditing services."
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE POLICE RETIREMENT SYSTEM OF ST. LOUIS",
+          "start": 13,
+          "end": 54
+        },
+        {
+          "quote": "RFP Actuarial Auditing Services Date Issued – February 2, 2024",
+          "start": 102,
+          "end": 164
+        },
+        {
+          "quote": "The Police Retirement System of St. Louis (“PRS-STL”) is requesting proposals from qualified firms interested in providing actuarial auditing services.",
+          "start": 1595,
+          "end": 1746
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

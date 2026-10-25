@@ -1,0 +1,148 @@
+{
+  "job": {
+    "id": "edecf2226cdd6f434f5c",
+    "query_id": "INV-08",
+    "question": "A sample investment management RFP for a domestic equity small cap growth mandate sets portfolio guidelines. What are the limits on single-issuer holdings, foreign issuers and cash, and which index must the portfolio outperform?",
+    "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "expected_facts": "No more than 5% of the portfolio (at time of purchase) in any single issuer other than the Federal Government/Agencies or the designated cash reserve fund; no more than 20% in foreign issuers, which must trade on the NYSE, ASE or NASDAQ; cash and equivalents no more than 10% except during cash withdrawals or contributions; the portfolio is expected to outperform the Russell 2000 Growth Index, net of fees. Issuer: Illinois Municipal Retirement Fund (IMRF) sample RFP.",
+    "acceptance": "Accept equivalent 5% single-issuer at purchase, 20% foreign listed on specified US exchanges, 10% cash, and Russell 2000 Growth net-of-fee target. Preserve material exceptions; issuer identification is optional.",
+    "text_hash": "1293d72cf747218c60a7c2a6d672307dfc4ed9a219b9d94748104754f6a40b02",
+    "source_text_sha256": "7ed4136b9f78094e292fd0483fe60026c36824af173945e88edf069fb23a58f7",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is a SURS sample RFP for an emerging markets equity strategy, not the domestic small-cap growth RFP. Its questionnaire asks respondents to supply portfolio limits and a benchmark; it does not state the specified limits, exceptions, exchange requirements, or Russell 2000 Growth net-of-fees target.",
+        "quotes": [
+          "Emerging Markets Equity",
+          "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+          "Suggested benchmark",
+          "Max Cash Position",
+          "Max Position Size"
+        ],
+        "quote_matches": [
+          {
+            "quote": "Emerging Markets Equity",
+            "start": 51,
+            "end": 74
+          },
+          {
+            "quote": "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+            "start": 7442,
+            "end": 7531
+          },
+          {
+            "quote": "Suggested benchmark",
+            "start": 39666,
+            "end": 39685
+          },
+          {
+            "quote": "Max Cash Position",
+            "start": 51642,
+            "end": 51659
+          },
+          {
+            "quote": "Max Position Size",
+            "start": 51736,
+            "end": 51753
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a SURS sample RFP for an emerging markets equity strategy, not the domestic small-cap growth RFP. Its questionnaire asks respondents to supply portfolio limits and a benchmark; it does not state the specified limits, exceptions, exchange requirements, or Russell 2000 Growth net-of-fees target.",
+      "quotes": [
+        "Emerging Markets Equity",
+        "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+        "Suggested benchmark",
+        "Max Cash Position",
+        "Max Position Size"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Emerging Markets Equity",
+          "start": 51,
+          "end": 74
+        },
+        {
+          "quote": "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+          "start": 7442,
+          "end": 7531
+        },
+        {
+          "quote": "Suggested benchmark",
+          "start": 39666,
+          "end": 39685
+        },
+        {
+          "quote": "Max Cash Position",
+          "start": 51642,
+          "end": 51659
+        },
+        {
+          "quote": "Max Position Size",
+          "start": 51736,
+          "end": 51753
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a SURS emerging-markets equity RFP template, not the domestic small-cap growth sample RFP. Its portfolio-limit table is blank, and it asks respondents to propose a benchmark. It does not state the requested limits, exceptions, exchange requirement, or net-of-fees index target.",
+      "quotes": [
+        "Emerging Markets Equity",
+        "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+        "39. What is the most appropriate benchmark for your product? Why?",
+        "58. PARTthePleasestrategy?supply4: RISKIf so, CONTROLplease describe. a. the internal investment guidelines for the proposed strategy and b. complete the table below",
+        "Max Cash Position",
+        "Max Position Size"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Emerging Markets Equity",
+          "start": 51,
+          "end": 74
+        },
+        {
+          "quote": "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+          "start": 7442,
+          "end": 7531
+        },
+        {
+          "quote": "39. What is the most appropriate benchmark for your product? Why?",
+          "start": 48591,
+          "end": 48656
+        },
+        {
+          "quote": "58. PARTthePleasestrategy?supply4: RISKIf so, CONTROLplease describe. a. the internal investment guidelines for the proposed strategy and b. complete the table below",
+          "start": 51377,
+          "end": 51542
+        },
+        {
+          "quote": "Max Cash Position",
+          "start": 51642,
+          "end": 51659
+        },
+        {
+          "quote": "Max Position Size",
+          "start": 51736,
+          "end": 51753
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

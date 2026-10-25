@@ -1,0 +1,72 @@
+{
+  "query_id": "OTH-03",
+  "question": "In Rice University's 2021 RFP for audit services for its retirement plans, how many participants did the 401(a) plan and the 403(b) plan have as of December 31, 2020?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "S",
+  "references": [
+    {
+      "rank": 1,
+      "file": "Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+      "path": "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "path": "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+      "path": "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+      "path": "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf"
+    }
+  ],
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "baseline_sha256": "c79fbe6c2d8581e749d375527273a74ef05e80d87f2baa14a3ae36901bb193fc",
+  "original_files": [
+    "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "OCERS__investment_consultant_services_rfp.pdf",
+    "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "SBCERS__2020-Private-Equity-RFP.pdf",
+    "Rice_University__2021_Benefit_Plan_RFP_-_final.pdf"
+  ],
+  "ranking_prompt": "{\"question\": \"In Rice University's 2021 RFP for audit services for its retirement plans, how many participants did the 401(a) plan and the 403(b) plan have as of December 31, 2020?\", \"candidates\": [{\"filename\": \"Delaware__TRE21101-RECDKEEPR-rfp.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Davis, Liza D (OST)\", \"page_count\": 109, \"keywords\": [\"Davis, Liza D (OST)\"], \"preview\": \"1 \\n \\nREQUEST FOR PROPOSAL FOR DEFERRED COMPENSATION PLAN \\nRECORDKEEPING AND ADMINISTRATION SERVICES ISSUED BY THE \\nOFFICE OF THE STATE TREASURER   \\nCONTRACT NUMBER:  TRE-CPM-21101- DEFERRED COMPENSATION PLAN \\nRECORDKEEPING AND ADMINISTRATION SERVICES \\n \\n \\nI. OVERVIEW \\n \\nBy this request for proposal (“RFP”), the Office of the State Treasurer (“OST”), on behalf of the Plans \\nManagement Board (“Board”), is seeking proposals from qualified vendors ( “Vendors”) to provide \\nrecordkeeping and administrative services for the three plans (collectively, the “Plans”) within the State’s \\nDeferred Compensation Program authorized under Chapter 60A of Title 29 of the Delaware Code (the \\n“DC Program ”) and applicable provisions of the Internal Revenue Code (“IRC”) . This request for \\nproposals (“R\", \"full_content\": \"\"}, {\"filename\": \"OCERS__investment_consultant_services_rfp.pdf\", \"extension\": \".pdf\", \"title\": \"OCERS Investment Consultant Services RFP\", \"author\": \"OCERS\", \"page_count\": 37, \"keywords\": [\"OCERS\", \"OCERS Investment Consultant Services RFP\"], \"preview\": \"Investment Consultant Services \\nfor:  \\nGeneral Investments and Risk \\nPrivate Equity \\nReal Assets \\nReal Estate \\nRequests for Proposal \\n \\nIssued August 2021 \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nOrange County Employees Retirement System (OCERS) \\n2223 E Wellington Avenue Suite 100 \\nSanta Ana, CA 92701 USA \\n1-(714)-558-6200 \\nhttp://www.ocers.org\", \"full_content\": \"\"}, {\"filename\": \"Rice_University__2021_Benefit_Plan_RFP_-_final.pdf\", \"extension\": \".pdf\", \"title\": \"Request for Proposal To Provide Audit Services for the\", \"author\": \"Evelyn Stewart\", \"page_count\": 6, \"keywords\": [\"Evelyn Stewart\"], \"preview\": \"1 | Page  \\n \\nRequest for Proposal to Provide Audit Services for the  \\nWilliam Marsh Rice University Defined Contribution Retirement Plan \\n \\nINTRODUCTION  \\nRice University (“the University”) requests a proposal to provide external audit services for the \\nWilliam Marsh Rice University Defined Contribution and Supplemental 403(b) Retirement \\nPlans, as required under Department of Labor regulations. As more fully described in this \\nmemorandum, you should submit a written proposal outlining your firm’s qualifications, \\napproach, and fees for this work.  \\n \\nIt is the practice of the University to appoint or reappoint a plan auditor on an annual basis. \\nHowever, the University expects a continuing relationship with the firm selected and will \\nconsider an initial appointment of up to three years,\", \"full_content\": \"\"}, {\"filename\": \"SBCERA__investment_consultant_-_request_for_proposals.pdf\", \"extension\": \".pdf\", \"title\": \"Request for Proposal - Investment Consultant\", \"author\": \"emoreno\", \"page_count\": 40, \"keywords\": [\"emoreno\"], \"preview\": \"SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION \\nREQUEST FOR PROPOSAL (RFP) \\nFOR \\nINVESTMENT CONSULTING SERVICES\", \"full_content\": \"\"}, {\"filename\": \"SBCERS__2020-Private-Equity-RFP.pdf\", \"extension\": \".pdf\", \"title\": \"Microsoft Word - 2020 Private Equity RFP\", \"author\": \"lthompson\", \"page_count\": 34, \"keywords\": [\"lthompson\"], \"preview\": \"1 \\n \\nSANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM \\n \\nREQUEST FOR PROPOSALS (RFP) \\nFOR \\nDISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES \\n \\n \\n \\n \\nTIMELINE \\nDate of RFP issuance July 27, 2020 \\nDeadline for written questions to SBCERS August 10, 2020 \\nDeadline for submission of Proposals August 21, 2020 \\nTentative interview dates October 28, 2020 \\n \\n \\n \\nDelivery of Proposals \\n \\nProposals are to be delivered as follows:  \\n \\nThree (3) printed copies, one (1) electronic version to be delivered to:  \\n  \\nMs. Lauren Thompson \\nSanta Barbara County Employees’ Retirement System \\n130 Robin Hill Road, Suite 100 \\nGoleta, CA 93117 \\ninvestments@sbcers.org \\n \\nNote that both the electronic copy and the paper copy shall include signatures as required \\nby this RFP.  The electronic copy shall be emailed to\", \"full_content\": \"\"}]}",
+  "keyword_files": [
+    "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+    "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+    "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf"
+  ],
+  "status": "ok",
+  "elapsed_s": 3.365,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 1312,
+    "completion_tokens": 197,
+    "total_tokens": 1509
+  },
+  "attempt": 1
+}

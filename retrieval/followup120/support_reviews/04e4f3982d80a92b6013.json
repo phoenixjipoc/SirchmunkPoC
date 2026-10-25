@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "04e4f3982d80a92b6013",
+    "query_id": "SVC-18",
+    "question": "What minimum qualifications must an audit firm meet in the Kern County Employees' Retirement Association (KCERA) RFP for audit services?",
+    "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "expected_facts": "(1) Professional public accounting firm organized at least on a regional basis providing audit and attest services; (2) within the last five years, at least five audits of defined benefit pension plans with assets over $2 billion; (3) experience auditing equity securities (domestic and foreign), fixed income, real estate, alternative investments, commodities and securities lending; (4) an established office in the United States; (5) independent, licensed by and in good standing with California under the Accountancy Act; (6) Engagement Partner (and signing partner) located in the U.S. with at least 10 years of public accounting experience including DB pension plan audits, California-licensed CPA; (7) Engagement Manager located in the U.S. with at least 5 years of public accounting experience including DB plan audits, CPA licensed in a U.S. state; (8) On-Site Audit Supervisor located in the U.S. with at least 3 years of auditing experience including DB plan audits, CPA licensed in a U.S. state; (9) Engagement Manager and Supervisor available for consultations and in-person meetings throughout the year.",
+    "acceptance": "Accept a faithful summary of the nine requirements. Do not impose desirable two audits of >$3bn plans or a California license for manager/supervisor as minimums; a U.S.-state license suffices for those roles.",
+    "text_hash": "2e5c9ac10ac2943a19269fe0ceeab6dc6cca5c9b732ec461770764bed168feeb",
+    "source_text_sha256": "698b71034e03dda497378807f02ef9875cc985ad2aafde5d24accec7bdff2d4b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a South Carolina Retirement System Investment Commission RFP for investment consulting, not KCERA’s audit-services RFP. It does not establish the required audit-firm qualifications or engagement-team requirements.",
+      "quotes": [
+        "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+        "The South Carolina Retirement System Investment Commission (“RSIC”, or “Client”) is requesting competitive proposals",
+        "The firm selected must have been in business providing general institutional investment consulting for or at least ten (10) years"
+      ],
+      "quote_matches": [
+        {
+          "quote": "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+          "start": 106,
+          "end": 203
+        },
+        {
+          "quote": "The South Carolina Retirement System Investment Commission (“RSIC”, or “Client”) is requesting competitive proposals",
+          "start": 304,
+          "end": 420
+        },
+        {
+          "quote": "The firm selected must have been in business providing general institutional investment consulting for or at least ten (10) years",
+          "start": 32049,
+          "end": 32178
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

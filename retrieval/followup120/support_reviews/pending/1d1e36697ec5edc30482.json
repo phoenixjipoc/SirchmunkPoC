@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "1d1e36697ec5edc30482",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "7ca1e14444ead93c558b519eddbe0502bb5f080ce8678e247801de0ecb9652b8",
+    "source_text_sha256": "ff5ef248d4411638a865914ce676b07109767b5888006ef4708fd3c12c06a986",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a New York City BERS investment consulting RFP, not SBCERS’s global custody RFP. Its evaluation criteria use different categories and point values, so it does not support the requested weights.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES RFP # 2024-003",
+        "This Request for Proposals (“RFP”) is issued by the NYC Board of Education Retirement System (“BERS” or the “Agency”).",
+        "Criteria are worth the point values indicated in the table, adding up to a maximum possible total of 100 points."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES RFP # 2024-003",
+          "start": 13,
+          "end": 84
+        },
+        {
+          "quote": "This Request for Proposals (“RFP”) is issued by the NYC Board of Education Retirement System (“BERS” or the “Agency”).",
+          "start": 5004,
+          "end": 5122
+        },
+        {
+          "quote": "Criteria are worth the point values indicated in the table, adding up to a maximum possible total of 100 points.",
+          "start": 57622,
+          "end": 57734
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "4d7a91c4569e61184158",
+    "query_id": "OTH-12",
+    "question": "What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2022?",
+    "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "expected_facts": "September 30, 2022 by 4:30 p.m. (H.S.T.) (RFP 2022-04, issued August 29, 2022).",
+    "acceptance": "Accept date/time/Hawaii Standard Time equivalents. Issue date, RFP number and later best-and-final deadline are optional context.",
+    "text_hash": "6c44b43272ac16f4bd8efdebfb5b71a666753ca71b3f0242c213453c6a30a56a",
+    "source_text_sha256": "a171986940a15f77f516b2eed48ea13f5e49967c592369ad8f87250248f2b907",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Delaware RFP for deferred compensation plan recordkeeping, not the 2022 Hawaii ERS RFP for private equity consulting services. Its proposal deadline does not support the deadline asked about.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL FOR DEFERRED COMPENSATION PLAN RECORDKEEPING AND ADMINISTRATION SERVICES ISSUED BY THE OFFICE OF THE STATE TREASURER",
+        "All proposals must be received no later than 4:00 p.m., prevailing Eastern time, on August 20, 2021 (the “Proposal Deadline”)."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL FOR DEFERRED COMPENSATION PLAN RECORDKEEPING AND ADMINISTRATION SERVICES ISSUED BY THE OFFICE OF THE STATE TREASURER",
+          "start": 13,
+          "end": 150
+        },
+        {
+          "quote": "All proposals must be received no later than 4:00 p.m., prevailing Eastern time, on August 20, 2021 (the “Proposal Deadline”).",
+          "start": 24416,
+          "end": 24542
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

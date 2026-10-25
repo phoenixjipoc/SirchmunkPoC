@@ -1,0 +1,144 @@
+{
+  "query_id": "XD-10",
+  "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+  "type": "pair_b",
+  "pair_id": "P17",
+  "group": "S",
+  "references": [
+    {
+      "rank": 1,
+      "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+      "path": "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx"
+    },
+    {
+      "rank": 2,
+      "file": "Hartford_MERF__file.pdf",
+      "path": "/mnt/docs/S/Hartford_MERF__file.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+      "path": "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "path": "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+      "path": "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+      "path": "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+      "path": "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+      "path": "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf"
+    }
+  ],
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "baseline_sha256": "8511803d5824ef28d7244f159686c03917b32fd676deed02f012111af1cc8dbb",
+  "original_files": [
+    "Anchorage_PFRS__RFP_2025_Final.pdf",
+    "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "Hartford_MERF__file.pdf",
+    "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf"
+  ],
+  "ranking_prompt": "{\"question\": \"How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?\", \"candidates\": [{\"filename\": \"Anchorage_PFRS__RFP_2025_Final.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"steind\", \"page_count\": 40, \"keywords\": [\"steind\"], \"preview\": \"1 \\nAnchorage Police & Fire \\nRetirement System \\nAp\\nril 15, 2025 \\nREQ\\nUEST FOR PROPOSAL \\nThe Board of Trustees of the Anchorage Police and Fire Retirement System \\nis seeking proposals to provide investment advisory consultant services \\nfrom a qualified institutional investment consulting firm. \\nThe A\\nnchorage Police and Fire Retirement System is a public pension plan \\nconsisting of three defined benefit plans (Plans I, II, III) which includes a \\nsurplus benefit plan sponsored by the Municipality of Anchorage for police \\nofficers and firefighters and admin istered by a Board of Trustees under \\nChapter 3.85 of the Anchorage Municipal Code (AMC).  The Board of \\nTrustees has overall responsibility for the administration of the Retirement \\nSystem.   \\nTh\\nis Request f or Proposal (RFP) is issued by\", \"full_content\": \"\"}, {\"filename\": \"Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"John Kelly\", \"page_count\": 15, \"keywords\": [\"John Kelly\"], \"preview\": \"BOSTON \\nRETIREMENT SYSTEM \\n(“BRS”) \\n \\nINVESTMENT CONSULTING SERVICES \\nREQUEST FOR PROPOSALS \\n(“RFP”)\", \"full_content\": \"\"}, {\"filename\": \"Hartford_MERF__file.pdf\", \"extension\": \".pdf\", \"title\": \"RFP INVESTMENT CONSULTANT ASSISTANCE\", \"author\": \"Patricia Stokes\", \"page_count\": 76, \"keywords\": [\"Patricia Stokes\"], \"preview\": \"CITY OF HARTFORD TREASURER’S OFFICE \\nMUNICIPAL EMPLOYEES’ RETIREMENT \\nFUND of the CITY of HARTFORD and CITY of \\nHARTFORD OPEB TRUST  \\n250 Constitution Plaza - 2nd Floor \\nHARTFORD, CONNECTICUT 06103 \\nwww.hartfordcitytreasurer.org \\n \\n \\n REQUEST FOR PROPOSALS (“RFP”) \\nGENERAL INVESTMENT CONSULTANT \\n \\nTable of Contents \\n \\nSection I: Introduction Section Page(s) \\n1.   Introduction and Background 2-3 \\n2. Minimum Requirements 4-5 \\n3. Scope of Services 6-9 \\n4. Proposal Contents and Processing 10-13 \\n5. Proposal Evaluation Criteria & Process 14 \\n \\nSection II: Contents of Proposal  \\n6. Part A: Requested Materials & Additional Information  15 \\n7. Part B: Questionnaire       16-23 \\n \\nAppendix \\nAppendix A: Minimum Qualifications Certification 24 \\nAppendix B: Representations and Warranties 25 \\nAppendix\", \"full_content\": \"\"}, {\"filename\": \"INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Jeffrey Hutson\", \"page_count\": 58, \"keywords\": [\"Jeffrey Hutson\"], \"preview\": \"REQUEST FOR PROPOSALS (“RFP”) for \\nALTERNATIVE INVESTMENT CONSULTING SERVICES \\n \\nRFP NUMBER 23-09 \\n \\n \\nRELEASE DATE:  October 23, 2023 \\nDEADLINE FOR INQUIRIES: November 13, 2023, 3:00 P.M. (EST) \\nDEADLINE FOR SUBMISSION:  December 15, 2023, 3:00 P.M. (EST)\", \"full_content\": \"\"}, {\"filename\": \"INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx\", \"extension\": \".docx\", \"title\": \" \", \"author\": \"Constantin Sorlescu\", \"page_count\": 0, \"keywords\": [\"Constantin Sorlescu\"], \"preview\": \"Table of Contents\\nIntroduction\\nAs the non-listed real estate market has matured, both in terms of number of vehicles on offer and geographical reach, there is an increasing necessity for a more standardised due diligence process to assist investors at all levels to easily access vehicle and manager information.\\nThe Due Diligence Questionnaire (DDQ) for Funds of Funds and Multi Manager (INREV FoF / MM DDQ) is part of the due diligence protocol which was first launched in April 2007. Originally launched in 2014, INREV FoF / MM is a variation of the INREV Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles (INREV DDQ) most recently updated in 2018.\\nIt assists an investor or consultant in determining, in principle, whether a proposal fits the investor’s investment object\", \"full_content\": \"\"}, {\"filename\": \"Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"James Stivers\", \"page_count\": 48, \"keywords\": [\"James Stivers\"], \"preview\": \"State Retirement Systems \\n \\n \\n \\n \\n \\nRequest for Proposal \\nfor \\nActuarial Consulting Services \\n(System Reference # 24100) \\n \\n \\n \\nIssued on February 2, 2024 \\nResponses Due by 2:00 P.M. CST on March 4, 2024\", \"full_content\": \"\"}, {\"filename\": \"KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf\", \"extension\": \".pdf\", \"title\": \"Microsoft Word - KCERA RFP for Audit Services\", \"author\": \"matt.henry\", \"page_count\": 55, \"keywords\": [\"matt.henry\"], \"preview\": \"Kern County Employees’ Retirement Association \\nREQUEST FOR PROPOSAL – AUDIT SERVICES \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nKern County Employees’ Retirement Association \\n11125 River Run Boulevard Bakersfield CA 93311 \\n661‐381‐7700 Fax: 661‐381‐7799 \\nwww.kcera.org\", \"full_content\": \"\"}, {\"filename\": \"SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Ashleigh Hollins\", \"page_count\": 47, \"keywords\": [\"Ashleigh Hollins\"], \"preview\": \"General Investment Consulting Services \\n \\nRequest for Proposals \\n \\n \\nSeptember 30, 2016\", \"full_content\": \"\"}, {\"filename\": \"SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf\", \"extension\": \".pdf\", \"title\": \"SURS Sample Investment Manager RFP\", \"author\": \"SURS\", \"page_count\": 44, \"keywords\": [\"SURS\"], \"preview\": \"REQUEST FOR PROPOSAL \\nEmerging \\nMarkets Equity \\nID: RFP-##-##-## \\nIssued February 14, 2022 \\nRespon\\nses due via email \\nby 4:30pm CT on March 31, 2022 \\nPlease include RFP ID on all correspondence\\nSample\", \"full_content\": \"\"}, {\"filename\": \"TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf\", \"extension\": \".pdf\", \"title\": \" TMRS RFP General Investment Consulting Services\", \"author\": \"TMRS\", \"page_count\": 39, \"keywords\": [\"TMRS\"], \"preview\": \"1 \\n \\n \\n \\n \\nRequest for Proposal (RFP) \\nNON-DISCRETIONARY  \\nGENERAL INVESTMENT CONSULTING SERVICES \\n \\n \\nNotice to Prospective Respondents \\nFebruary 3, 2022 \\n \\nYou are invited to review and respond to this Texas Municipal Reti rement System (TMRS) Request \\nfor Proposal ( RFP) e ntitled Non-Discretionary General Investment  Consulting Services . In \\nsubmitting your proposal, you must comply with the instructions found herein.   \\n \\nResponses must be received  no later than 5:00 p.m. Central Standard Time (CST) on March 3, \\n2022.  Pro posals received after this  date and time will not be considered.  Please see Section -VII – \\nTransmittal instructions for detailed information on how to respond. \\n                            \\nRespondents requiring clarification of the content of this RFP may r\", \"full_content\": \"\"}]}",
+  "keyword_files": [
+    "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf",
+    "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "/mnt/docs/S/Hartford_MERF__file.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+    "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "/mnt/docs/S/CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+    "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "/mnt/docs/S/Monroe_County_NY__10406.pdf",
+    "/mnt/docs/S/DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+    "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+    "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+    "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+    "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf",
+    "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+    "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+    "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf",
+    "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+    "/mnt/docs/S/CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+    "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+    "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+    "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "/mnt/docs/S/Hartford_MERF__file.pdf",
+    "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf",
+    "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf"
+  ],
+  "status": "ok",
+  "elapsed_s": 3.879,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 2132,
+    "completion_tokens": 269,
+    "total_tokens": 2401
+  },
+  "attempt": 1
+}

@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "15cd92270a33f2ead5f0",
+    "query_id": "OTH-07",
+    "question": "One RFP for investment manager services, issued by an education foundation, limits proposals to five single-spaced typewritten pages. How many copies must be submitted and by what deadline?",
+    "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "expected_facts": "Six copies, no later than 5 PM on July 1, 2016 (Broward Education Foundation).",
+    "acceptance": "Require six copies, July 1, 2016, 5 p.m.; issuer/addressee optional. No timezone is stated, so do not require one.",
+    "text_hash": "a98d524e6be406d219908f55d7669eccd66ebe00dac2da8fe751cb73c6c068e5",
+    "source_text_sha256": "f7992acf077bd43f56dcfe41af1dd3fdb115f4ea1c61bea284a8fb27b11a2ca2",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2022 Texas Municipal Retirement System RFP, not the education foundation’s RFP. It requires three electronic proposals by March 3, 2022, so it does not support the requested copy count or deadline.",
+      "quotes": [
+        "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+        "Please submit three (3) electronic Proposals, labeled as indicated below:",
+        "Responses must be received no later than 5:00 p.m. Central Standard Time (CST) on March 3, 2022."
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+          "start": 4270,
+          "end": 4370
+        },
+        {
+          "quote": "Please submit three (3) electronic Proposals, labeled as indicated below:",
+          "start": 16593,
+          "end": 16666
+        },
+        {
+          "quote": "Responses must be received no later than 5:00 p.m. Central Standard Time (CST) on March 3, 2022.",
+          "start": 410,
+          "end": 506
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "74825af4e0fc02461fbf",
+    "query_id": "CONS-08",
+    "question": "Which retirement plan's investment consulting RFP requires that, as of December 31, 2024, the firm have at least three public fund clients each with at least $1B in assets and have been in business at least ten years?",
+    "file": "Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+    "expected_facts": "The Retirement Plan for CTA Employees (Chicago Transit Authority), in its April 29, 2025 investment consulting RFP.",
+    "acceptance": "Retirement Plan for CTA/Chicago Transit Authority Employees; publication date is optional.",
+    "text_hash": "99dfb2e29a476692e5a1c4068d93257297301148b093cad540ee7efb375b7ad6",
+    "source_text_sha256": "4d16256427fde508295fb4e71f62f53f894c4425b7d8bb636c1f23e43bd33253",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a November 2025 investment consulting RFP from the Teachers’ Retirement System of Oklahoma, not the CTA Employees retirement plan. Its general-consultant minimum is five public pension clients with at least $10 billion each as of June 30, 2025; it does not establish the specified three-client, $1 billion, ten-year requirement.",
+      "quotes": [
+        "RFP Date: November 19, 2025",
+        "The Teachers’ Retirement System of Oklahoma (TRS) is seeking proposals from qualified firms to provide investment consultant services.",
+        "D.3.2. The investment consultant must currently serve as a full-service consultant to at least five (5) U.S.- based public pension plans, each having at least $10 billion in assets as of June 30, 2025."
+      ],
+      "quote_matches": [
+        {
+          "quote": "RFP Date: November 19, 2025",
+          "start": 222,
+          "end": 249
+        },
+        {
+          "quote": "The Teachers’ Retirement System of Oklahoma (TRS) is seeking proposals from qualified firms to provide investment consultant services.",
+          "start": 341,
+          "end": 475
+        },
+        {
+          "quote": "D.3.2. The investment consultant must currently serve as a full-service consultant to at least five (5) U.S.- based public pension plans, each having at least $10 billion in assets as of June 30, 2025.",
+          "start": 35036,
+          "end": 35237
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

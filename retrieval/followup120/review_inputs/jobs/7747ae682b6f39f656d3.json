@@ -1,0 +1,12 @@
+{
+  "id": "7747ae682b6f39f656d3",
+  "query_id": "SVC-03",
+  "question": "According to the questions and answers for OCERS' October 2022 custody services RFP, what flat fee does OCERS currently pay its custodian, and what is the current securities lending fee split?",
+  "file": "OCERS__custodian_rfp_2022-2023.pdf",
+  "expected_facts": "A flat fee of $580,000 covering custody, accounting, cash management, performance reporting and risk report services (all services in Section 3 Scope of Services); the securities lending fee split is 80% OCERS / 20% State Street.",
+  "acceptance": "Accept $580,000 flat and 80% OCERS / 20% State Street. Service enumeration is optional. Do not insist on annual frequency, which the quoted answer does not expressly state.",
+  "text_hash": "2f1b263969ef09f6d98b625298c7af0518d618d780be107703d3e797ceb8169a",
+  "source_text_sha256": "2160dab5b593e917103890305a919f136c0a0f9f1c86c7a4b6fb2c4eaaf14ec2",
+  "second_check_required": false,
+  "prior_reviews": []
+}

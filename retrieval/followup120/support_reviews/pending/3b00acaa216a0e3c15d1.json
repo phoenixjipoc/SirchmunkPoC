@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "3b00acaa216a0e3c15d1",
+    "query_id": "SVC-17",
+    "question": "What evaluation criteria and point values are used to score proposals in the Delaware Office of the State Treasurer's 2021 RFP for deferred compensation plan recordkeeping and administration services?",
+    "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "expected_facts": "Total 100 points: (I) Vendor History and Depth of Public Defined Contribution Plan Experience - 10; (II) Scope of Vendor Operations and Ability to Meet Full Range of Requested Services - 20; (III) Plan Sponsor Experience: Website Access & Quality, Administrative and Compliance Support, Relationship Management, Performance Reporting and Industry/Trend Evaluation and Communication - 30; (IV) Participant Communication & Education: Custom Website, Voice Response System and Participant Call Center; Commitment to Customer Service/Issue Resolution; Custom Communication and Education Capabilities, Branding, Onsite Representatives and Guidance/Advice Tools - 30; (V) Overall Cost to Plans and Plan Participants - 10.",
+    "acceptance": "Five categories with 10/20/30/30/10 points, correctly distinguishing plan-sponsor from participant services. Exhaustive examples within categories are optional.",
+    "text_hash": "7bf0434135598b4379264b9228ec0ae5d514d2497cf998a89da96d5f3d55878f",
+    "source_text_sha256": "1620734055a07375d68aca7dc5b3529168cc1928cf355fcdb11e514e6b786b4c",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2025 City of Austin Employees’ Retirement System RFP for actuarial services, not the Delaware Office of the State Treasurer’s 2021 deferred-compensation recordkeeping RFP. Its evaluation criteria have no stated point values and do not support the requested five-category scoring scheme.",
+      "quotes": [
+        "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM",
+        "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+        "June 26, 2025",
+        "COAERS may consider any of the following information when evaluating a proposal in determining which Respondent provides the services at the best value for COAERS, in no particular order of importance:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM",
+          "start": 13,
+          "end": 56
+        },
+        {
+          "quote": "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+          "start": 163,
+          "end": 254
+        },
+        {
+          "quote": "June 26, 2025",
+          "start": 255,
+          "end": 268
+        },
+        {
+          "quote": "COAERS may consider any of the following information when evaluating a proposal in determining which Respondent provides the services at the best value for COAERS, in no particular order of importance:",
+          "start": 58328,
+          "end": 58529
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

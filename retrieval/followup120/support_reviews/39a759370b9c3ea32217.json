@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "39a759370b9c3ea32217",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "9442e2b4c086526d3a2fdbcfd889eca2ceeb00c6b9e5d09ba8003815529b2dfc",
+    "source_text_sha256": "a03af1cb5588edbe010abae942bbd4d97b649d15b5280a5db6c40f3e111a54fd",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Boston Retirement System investment consulting RFP, not the external audit RFP Q&A. It does not state the total contractual fees for FY2021 audits.",
+      "quotes": [
+        "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+        "BRS requests proposals from qualified firms interested in providing overall general investment consulting services"
+      ],
+      "quote_matches": [
+        {
+          "quote": "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+          "start": 13,
+          "end": 106
+        },
+        {
+          "quote": "BRS requests proposals from qualified firms interested in providing overall general investment consulting services",
+          "start": 4663,
+          "end": 4777
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

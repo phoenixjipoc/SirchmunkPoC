@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "7d84f09b5ff07d45f165",
+    "query_id": "INV-14",
+    "question": "In the Massachusetts PRIM Board's September 2026 RFP for Active Global Core Equity investment management services, what minimum total firm assets under management must a respondent have?",
+    "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "expected_facts": "At least $5 billion in total firm assets under management as of June 30, 2026.",
+    "acceptance": "At least $5bn total firm AUM as of June 30, 2026. Do not confuse firm AUM with product assets.",
+    "text_hash": "81e913c98df37dcfd35af28d88b1b03c1dc82eb7e2f99c9c19de8d06866fc421",
+    "source_text_sha256": "2d54872fc00a587921e9e76823bb49d685f32d834a6c8320657ad95eb8fd8f87",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Indiana Public Retirement System RFP for alternative investment consulting services released in October 2023, not the Massachusetts PRIM Board’s September 2026 RFP for Active Global Core Equity investment management. It asks firms to report assets under management but states no $5 billion minimum as of June 30, 2026.",
+      "quotes": [
+        "Request for Proposals (“RFP”) for Alternative Investment Consulting Services for the Indiana Public Retirement System (“INPRS” or the “System”).",
+        "RELEASE DATE: October 23, 2023",
+        "Please list all lines of business and assets under management and assets under advisement of your firm."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals (“RFP”) for Alternative Investment Consulting Services for the Indiana Public Retirement System (“INPRS” or the “System”).",
+          "start": 2274,
+          "end": 2418
+        },
+        {
+          "quote": "RELEASE DATE: October 23, 2023",
+          "start": 107,
+          "end": 137
+        },
+        {
+          "quote": "Please list all lines of business and assets under management and assets under advisement of your firm.",
+          "start": 99100,
+          "end": 99203
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

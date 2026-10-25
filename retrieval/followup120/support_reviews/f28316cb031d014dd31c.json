@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "f28316cb031d014dd31c",
+    "query_id": "SVC-05",
+    "question": "In the Indiana Public Retirement System (INPRS) RFP 24-05 for audit services, which firm has provided INPRS's external audit services and since when, and what limit does INPRS's procurement policy place on contract length?",
+    "file": "Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+    "expected_facts": "RSM has provided external audit services since 2014. The procurement policy in the INPRS Board Governance Manual limits contract length to 10 years and requires new bids at least every 10 years. (Before 2014 the Indiana State Board of Accounts performed the audits.)",
+    "acceptance": "RSM, since 2014, ten-year maximum and rebidding at least every ten years. Prior SBOA history is optional.",
+    "text_hash": "99dfb2e29a476692e5a1c4068d93257297301148b093cad540ee7efb375b7ad6",
+    "source_text_sha256": "4d16256427fde508295fb4e71f62f53f894c4425b7d8bb636c1f23e43bd33253",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Oklahoma TRS investment-consulting RFP, not INPRS RFP 24-05 for audit services. It does not identify INPRS’s external auditor or state INPRS’s procurement-policy limit on contract length and rebidding.",
+      "quotes": [
+        "The Teachers’ Retirement System of Oklahoma (TRS) is seeking proposals from qualified firms to provide investment consultant services.",
+        "RFP #: 715-25-1002",
+        "Contracts will last five (5) years with annual renewals."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Teachers’ Retirement System of Oklahoma (TRS) is seeking proposals from qualified firms to provide investment consultant services.",
+          "start": 341,
+          "end": 475
+        },
+        {
+          "quote": "RFP #: 715-25-1002",
+          "start": 203,
+          "end": 221
+        },
+        {
+          "quote": "Contracts will last five (5) years with annual renewals.",
+          "start": 1146,
+          "end": 1202
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

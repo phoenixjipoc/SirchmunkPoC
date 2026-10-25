@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "7af8d61c8b9eebfe1ba9",
+    "query_id": "INV-14",
+    "question": "In the Massachusetts PRIM Board's September 2026 RFP for Active Global Core Equity investment management services, what minimum total firm assets under management must a respondent have?",
+    "file": "INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+    "expected_facts": "At least $5 billion in total firm assets under management as of June 30, 2026.",
+    "acceptance": "At least $5bn total firm AUM as of June 30, 2026. Do not confuse firm AUM with product assets.",
+    "text_hash": "065f1ea66c1548e68c091fe4d5679904ddac15c41085d2b7285bc81d8909924a",
+    "source_text_sha256": "709d34ea15f8028111c01a36824ed3448bb46d8b226113de15b4a25b337bbfcf",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an Indiana Public Retirement System RFP for core plus fixed income services released in 2022, not the Massachusetts PRIM Board’s September 2026 Active Global Core Equity RFP. Its $2 billion firm-AUM requirement does not support the requirement asked about.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS (“RFP”) for CORE PLUS FIXED INCOME INVESTMENT MANAGEMENT RFP NUMBER 22-04 RELEASE DATE: OCTOBER 31 , 2022",
+        "INPRS is issuing this RFP in accordance with Indiana statutes governing the procurement of services and certain administrative policies of INPRS.",
+        "Have existing Firm AUM of at least $2 billion."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) for CORE PLUS FIXED INCOME INVESTMENT MANAGEMENT RFP NUMBER 22-04 RELEASE DATE: OCTOBER 31 , 2022",
+          "start": 13,
+          "end": 140
+        },
+        {
+          "quote": "INPRS is issuing this RFP in accordance with Indiana statutes governing the procurement of services and certain administrative policies of INPRS.",
+          "start": 5365,
+          "end": 5510
+        },
+        {
+          "quote": "Have existing Firm AUM of at least $2 billion.",
+          "start": 19700,
+          "end": 19746
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

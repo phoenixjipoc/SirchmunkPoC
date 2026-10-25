@@ -1,0 +1,19 @@
+{
+  "model": "gpt-6-sol",
+  "seeds": {
+    "R2": 17012,
+    "R3": 17013
+  },
+  "max_attempts": 3,
+  "rga_cache": "/retrieval_basic_20261023_v2/cache/rga",
+  "groups": [
+    "R2",
+    "R3",
+    "S",
+    "D"
+  ],
+  "directory_candidates": 81,
+  "top_k": 10,
+  "rerank_input": "frozen_metadata_only",
+  "question_count": 120
+}

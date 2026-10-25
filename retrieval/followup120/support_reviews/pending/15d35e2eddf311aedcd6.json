@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "15d35e2eddf311aedcd6",
+    "query_id": "INV-11",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for investment consulting, real estate consulting and performance measurement services, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "expected_facts": "Three factors: (1) Organization - stability, ownership, documented experience of key professionals; (2) Consulting Skill - investment philosophy, investment manager information collection and monitoring systems, risk management tools, performance measurement systems, and breadth of consulting expertise and experience; (3) Fees - consulting fees for services requested and associated costs.",
+    "acceptance": "Three factors with substantively equivalent descriptions suffice; exact wording and order are unnecessary.",
+    "text_hash": "3ecf7188afbf06d1992a2e369435746a5f1872698632985399a9e054bf75b408",
+    "source_text_sha256": "245be5bf903c98e9c43a03f3b620302180f76969b88872c25a7e2f9026336a20",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Grand Rapids retirement systems RFP, not the IMRF sample RFP. It does not state the three factors used to evaluate and rank respondents in the IMRF selection process.",
+      "quotes": [
+        "CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM INVESTMENT CONSULTANT SERVICES REQUEST FOR PROPOSAL (“RFP”)",
+        "The Boards of Trustees of the City of Grand Rapids General Retirement System and City of Grand Rapids Police and Fire Retirement System (collectively the “Board”) are in the process of reviewing their investment consultant services."
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM INVESTMENT CONSULTANT SERVICES REQUEST FOR PROPOSAL (“RFP”)",
+          "start": 27,
+          "end": 188
+        },
+        {
+          "quote": "The Boards of Trustees of the City of Grand Rapids General Retirement System and City of Grand Rapids Police and Fire Retirement System (collectively the “Board”) are in the process of reviewing their investment consultant services.",
+          "start": 472,
+          "end": 704
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

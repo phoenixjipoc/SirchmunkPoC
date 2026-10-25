@@ -1,0 +1,57 @@
+{
+  "query_id": "CONS-03",
+  "question": "In the Anchorage Police and Fire Retirement System 2025 investment consultant RFP, what is the minimum amount of assets under management a firm must have?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf"
+  ],
+  "keyword_terms": [
+    "Anchorage Police and Fire Retirement System",
+    "2025 investment consultant RFP",
+    "minimum assets under management",
+    "安克雷奇警察与消防员退休系统",
+    "投资顾问征求建议书",
+    "资产管理规模"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 79,
+      "timestamp": "2026-10-25 16:11:13.912806",
+      "metadata": {
+        "keywords": [
+          "Anchorage Police and Fire Retirement System",
+          "2025 investment consultant RFP",
+          "minimum assets under management",
+          "安克雷奇警察与消防员退休系统",
+          "投资顾问征求建议书",
+          "资产管理规模"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+      "path": "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf"
+    }
+  ],
+  "elapsed_s": 4.745,
+  "calls": 0,
+  "usage": {}
+}

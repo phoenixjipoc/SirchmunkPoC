@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "110bb1e6976e6759b2e2",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "Monroe_County_NY__10406.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "5d6c1b9f9242df668205b792cbc1dea026ee8ef0e4aabeeeeac4e0c341a7f6f8",
+    "source_text_sha256": "7b3f27d9504ca7c7c594e455ea0695752566e185651ccdd3eb547409c2e9f252",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Monroe County deferred compensation services RFP, not an SBCERS global custody RFP. Its evaluation section does not state the four requested criteria or their percentage weights.",
+      "quotes": [
+        "Request for Proposals Deferred Compensation Services: Administrative/Recordkeeping Services, Marketing/Enrollment/Education Services, Investment Management, and Custodial Trustee Services August 4, 2023",
+        "The Monroe County Deferred Compensation Plan Committee (the Committee) developed this Request For Proposals (RFP)",
+        "All qualified proposals, sought in conjunction with the requirements of Section 9003.2 of the Regulations, will be evaluated and awards made to the Proposer or Proposers whose bid is determined to be in the best interest of the plan participants."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals Deferred Compensation Services: Administrative/Recordkeeping Services, Marketing/Enrollment/Education Services, Investment Management, and Custodial Trustee Services August 4, 2023",
+          "start": 13,
+          "end": 215
+        },
+        {
+          "quote": "The Monroe County Deferred Compensation Plan Committee (the Committee) developed this Request For Proposals (RFP)",
+          "start": 4267,
+          "end": 4380
+        },
+        {
+          "quote": "All qualified proposals, sought in conjunction with the requirements of Section 9003.2 of the Regulations, will be evaluated and awards made to the Proposer or Proposers whose bid is determined to be in the best interest of the plan participants.",
+          "start": 9443,
+          "end": 9689
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

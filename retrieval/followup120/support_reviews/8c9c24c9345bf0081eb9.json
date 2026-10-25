@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "8c9c24c9345bf0081eb9",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "4d17b63a1511a6035e3a2c08797dc7e2c193555a97c765a553008ba340318074",
+    "source_text_sha256": "9ba8b34157c475227b613d2f9c05b6397a2e14952507ce6c1cae052ff9d4e2e8",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is KCERA’s audit-services RFP, not the requested retirement system’s Q&A. It identifies Microsoft Dynamics Great Plains rather than Dynamics SL, and its cost-bid form contains blank proposed prices, not contractual fees for FY2021 audits.",
+      "quotes": [
+        "Kern County Employees’ Retirement Association REQUEST FOR PROPOSAL – AUDIT SERVICES",
+        "KCERA uses Microsoft Dynamics Great Plains software for its accounting functions, including general ledger, accounts payable and capital assets.",
+        "DOLLAR COST BID (NOT-TO-EXCEED MAXIMUM PRICE) FY 2022-23 FY 2023-24 FY 2024-25 Total"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Kern County Employees’ Retirement Association REQUEST FOR PROPOSAL – AUDIT SERVICES",
+          "start": 13,
+          "end": 96
+        },
+        {
+          "quote": "KCERA uses Microsoft Dynamics Great Plains software for its accounting functions, including general ledger, accounts payable and capital assets.",
+          "start": 9416,
+          "end": 9560
+        },
+        {
+          "quote": "DOLLAR COST BID (NOT-TO-EXCEED MAXIMUM PRICE) FY 2022-23 FY 2023-24 FY 2024-25 Total",
+          "start": 56430,
+          "end": 56514
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

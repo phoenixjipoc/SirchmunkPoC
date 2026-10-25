@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "c55f2f34ccb5f4ca3c26",
+    "query_id": "SVC-17",
+    "question": "What evaluation criteria and point values are used to score proposals in the Delaware Office of the State Treasurer's 2021 RFP for deferred compensation plan recordkeeping and administration services?",
+    "file": "Hartford_MERF__file.pdf",
+    "expected_facts": "Total 100 points: (I) Vendor History and Depth of Public Defined Contribution Plan Experience - 10; (II) Scope of Vendor Operations and Ability to Meet Full Range of Requested Services - 20; (III) Plan Sponsor Experience: Website Access & Quality, Administrative and Compliance Support, Relationship Management, Performance Reporting and Industry/Trend Evaluation and Communication - 30; (IV) Participant Communication & Education: Custom Website, Voice Response System and Participant Call Center; Commitment to Customer Service/Issue Resolution; Custom Communication and Education Capabilities, Branding, Onsite Representatives and Guidance/Advice Tools - 30; (V) Overall Cost to Plans and Plan Participants - 10.",
+    "acceptance": "Five categories with 10/20/30/30/10 points, correctly distinguishing plan-sponsor from participant services. Exhaustive examples within categories are optional.",
+    "text_hash": "612ac769f6b20e395be5d2aa2b38b7e34b8ea2f3e26f8e98d474dcd3da97e895",
+    "source_text_sha256": "44a1836a1354f4ce795c9252d5b103625a8ebfa77400d6ce5e341b7d38a7561e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Hartford, Connecticut RFP for a general investment consultant, distributed in 2024—not the Delaware Office of the State Treasurer’s 2021 deferred compensation recordkeeping RFP. Its evaluation section provides general considerations, not the requested five scored categories and point values.",
+      "quotes": [
+        "CITY OF HARTFORD TREASURER’S OFFICE MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+        "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+        "February 9, 2024 RFP distributed to firms",
+        "The following is a summary of some of the general considerations that will be used to determine the firms that will be selected as finalists:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF HARTFORD TREASURER’S OFFICE MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+          "start": 13,
+          "end": 141
+        },
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+          "start": 235,
+          "end": 294
+        },
+        {
+          "quote": "February 9, 2024 RFP distributed to firms",
+          "start": 16788,
+          "end": 16829
+        },
+        {
+          "quote": "The following is a summary of some of the general considerations that will be used to determine the firms that will be selected as finalists:",
+          "start": 18850,
+          "end": 18991
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

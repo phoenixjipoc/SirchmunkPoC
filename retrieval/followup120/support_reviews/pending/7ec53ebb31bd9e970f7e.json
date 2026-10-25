@@ -1,0 +1,65 @@
+{
+  "job": {
+    "id": "7ec53ebb31bd9e970f7e",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "a73f8098a99029a40e97e080d66cdb97fc9c585944212d49c8006ef52d55da0f",
+    "source_text_sha256": "9a236643d7b4204fbdc4d7e63cf40d28896fa6aca7d4dca0b56d53d6261f1016",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Arizona Public Safety Personnel Retirement System RFP for non-discretionary investment consultant services, not the SBCERS global custody RFP. Its evaluation categories and weights differ from those requested.",
+      "quotes": [
+        "Board of Trustees of the Public Safety Personnel Retirement System",
+        "REQUEST FOR PROPOSAL For NON-DISCRETIONARY INVESTMENT CONSULTANT SERVICES",
+        "25 percent - Relevant knowledge and experience in similar consulting engagements",
+        "30 percent - Quality and extent of the firm’s capabilities regarding:",
+        "25 percent - Demonstrated ability to meet service requirements",
+        "20 percent - Overall cost of firm’s proposed services."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Board of Trustees of the Public Safety Personnel Retirement System",
+          "start": 670,
+          "end": 736
+        },
+        {
+          "quote": "REQUEST FOR PROPOSAL For NON-DISCRETIONARY INVESTMENT CONSULTANT SERVICES",
+          "start": 835,
+          "end": 908
+        },
+        {
+          "quote": "25 percent - Relevant knowledge and experience in similar consulting engagements",
+          "start": 12934,
+          "end": 13014
+        },
+        {
+          "quote": "30 percent - Quality and extent of the firm’s capabilities regarding:",
+          "start": 13172,
+          "end": 13241
+        },
+        {
+          "quote": "25 percent - Demonstrated ability to meet service requirements",
+          "start": 13434,
+          "end": 13496
+        },
+        {
+          "quote": "20 percent - Overall cost of firm’s proposed services.",
+          "start": 13817,
+          "end": 13871
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

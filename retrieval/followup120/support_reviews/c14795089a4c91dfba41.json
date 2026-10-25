@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "c14795089a4c91dfba41",
+    "query_id": "CONS-09",
+    "question": "Which retirement system's investment consultant RFP requires firms to certify that they currently provide investment consulting services to clients whose combined assets total at least $50 billion?",
+    "file": "Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+    "expected_facts": "Teachers' Retirement System of the State of Illinois (TRS Illinois), in its FY23 investment consultant RFP (Appendix B, Statement of Minimum Qualifications).",
+    "acceptance": "TRS Illinois / Teachers’ Retirement System of the State of Illinois is sufficient; FY23 and appendix identifier are optional.",
+    "text_hash": "7180429187038236fd14f0752492190d2d289b0c31609f0f0a2bf130924e85ac",
+    "source_text_sha256": "18abed4435894e587e3d010b5d205b6cafee38f9c9ad7a8505c1a10b5ee2150d",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2017 RFP from Hawaii ERS, not TRS Illinois. Its qualification concerns one public pension fund client with assets greater than $5 billion, not current consulting clients with combined assets of at least $50 billion.",
+      "quotes": [
+        "EMPLOYEES’ RETIREMENT SYSTEM OF THE STATE OF HAWAII",
+        "REAL ESTATE INVESTMENT CONSULTANT SERVICES",
+        "have at least one defined benefit public pension fund client with assets greater than $5 billion",
+        "starting from 9:30 a.m. (H.S.T.) on February 6, 2017"
+      ],
+      "quote_matches": [
+        {
+          "quote": "EMPLOYEES’ RETIREMENT SYSTEM OF THE STATE OF HAWAII",
+          "start": 13,
+          "end": 64
+        },
+        {
+          "quote": "REAL ESTATE INVESTMENT CONSULTANT SERVICES",
+          "start": 93,
+          "end": 135
+        },
+        {
+          "quote": "have at least one defined benefit public pension fund client with assets greater than $5 billion",
+          "start": 480,
+          "end": 576
+        },
+        {
+          "quote": "starting from 9:30 a.m. (H.S.T.) on February 6, 2017",
+          "start": 899,
+          "end": 951
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

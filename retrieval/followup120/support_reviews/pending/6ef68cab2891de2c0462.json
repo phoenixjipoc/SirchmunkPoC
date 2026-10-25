@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "6ef68cab2891de2c0462",
+    "query_id": "INV-10",
+    "question": "An alternative investment consulting RFP describes a private equity portfolio of 225 holdings across 105 general partners. What are the approximate net asset values of the system's absolute return, private credit, private equity and real assets portfolios?",
+    "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+    "expected_facts": "Absolute Return about $2.6 billion (11 funds across 10 managers); Private Credit about $1.8 billion (26 holdings, 16 GPs); Private Equity about $4.5 billion (225 holdings, 105 GPs); Real Assets about $3.1 billion (87 holdings, 58 GPs). Issuer: Indiana Public Retirement System (INPRS), RFP 23-09.",
+    "acceptance": "Require correct asset-class mapping to $2.6bn/$1.8bn/$4.5bn/$3.1bn; holdings/GP counts and issuer identification are optional.",
+    "text_hash": "70ba69fa78a5262a5a903e6c962a7ed533f83b2f39cbeaae0d6efcae5122f669",
+    "source_text_sha256": "c0d34ab691e3323f8b02fd000d177f6559326d07370721a1d326e71475259a58",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Boston Retirement System consultant questionnaire, not the INPRS RFP identified in the question. It provides no net asset values for the four portfolios.",
+      "quotes": [
+        "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+        "Please describe your firm’s process and sources of data for providing analysis, valuation and oversight of the BRS Private Equity Portfolio."
+      ],
+      "quote_matches": [
+        {
+          "quote": "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+          "start": 86,
+          "end": 163
+        },
+        {
+          "quote": "Please describe your firm’s process and sources of data for providing analysis, valuation and oversight of the BRS Private Equity Portfolio.",
+          "start": 21597,
+          "end": 21737
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "9f0e8cefb16bf334ae5d",
+    "query_id": "OTH-11",
+    "question": "What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2017?",
+    "file": "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "expected_facts": "November 27, 2017 by 4:30 p.m. (H.S.T.).",
+    "acceptance": "November27,2017 at 4:30pm HST; equivalent date/time format accepted.",
+    "text_hash": "bb72821830d3b79720e84bd7d293578b1b367fc714f7a0632d7937278f6fccd7",
+    "source_text_sha256": "c942d0c8eb27f166bc67c995927bcd0e03513c3bbbfb1318905a941cab877fac",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2023 Illinois Teachers’ Retirement System RFP for investment consulting services, not the 2017 Hawaii ERS RFP for private equity consulting services. Its deadline does not support the requested deadline.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES",
+        "Issued January 13, 2023 Responses due February 9, 2023, by 2:00 pm CST"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 122
+        },
+        {
+          "quote": "Issued January 13, 2023 Responses due February 9, 2023, by 2:00 pm CST",
+          "start": 123,
+          "end": 193
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

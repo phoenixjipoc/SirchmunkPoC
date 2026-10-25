@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "6b24e2715158849cc47c",
+    "query_id": "INV-02",
+    "question": "What is the proposal deadline, and how many copies must be submitted, for the City of Madison (Florida) Police Officers' and Firefighters' Retirement System RFP No. 2025-0901 for investment consulting services?",
+    "file": "Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+    "expected_facts": "Proposals must be received by 2:00 p.m. on September 1, 2025 at the City Clerk's office in Madison, FL (late proposals returned unopened); an original and five (5) copies must be submitted in a sealed envelope/package.",
+    "acceptance": "Accept 2pm September 1, 2025 and original plus five copies/six total. Address, sealing and late-return treatment are optional.",
+    "text_hash": "99dfb2e29a476692e5a1c4068d93257297301148b093cad540ee7efb375b7ad6",
+    "source_text_sha256": "4d16256427fde508295fb4e71f62f53f894c4425b7d8bb636c1f23e43bd33253",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an Oklahoma Teachers’ Retirement System RFP, not the City of Madison, Florida RFP No. 2025-0901. Its deadline differs, and it requires electronic submission rather than an original and five copies.",
+      "quotes": [
+        "The Teachers’ Retirement System of Oklahoma (TRS) is seeking proposals from qualified firms to provide investment consultant services.",
+        "RFP #: 715-25-1002",
+        "The deadline for receipt of completed proposals is 4:00 p.m. Central Time, on January 14, 2026.",
+        "All bids shall be submitted in electronic format to Kristen Banta at Kristen.Banta@trs.ok.gov"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Teachers’ Retirement System of Oklahoma (TRS) is seeking proposals from qualified firms to provide investment consultant services.",
+          "start": 341,
+          "end": 475
+        },
+        {
+          "quote": "RFP #: 715-25-1002",
+          "start": 203,
+          "end": 221
+        },
+        {
+          "quote": "The deadline for receipt of completed proposals is 4:00 p.m. Central Time, on January 14, 2026.",
+          "start": 50247,
+          "end": 50342
+        },
+        {
+          "quote": "All bids shall be submitted in electronic format to Kristen Banta at Kristen.Banta@trs.ok.gov",
+          "start": 8609,
+          "end": 8702
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

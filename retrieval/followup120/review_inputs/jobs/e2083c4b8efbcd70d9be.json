@@ -1,0 +1,36 @@
+{
+  "id": "e2083c4b8efbcd70d9be",
+  "query_id": "SVC-12",
+  "question": "According to the Monroe County deferred compensation services RFP, how many participants did the plan have and what were its total assets?",
+  "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+  "expected_facts": "As of December 31, 2022: 4,398 plan participants and plan assets of $308,676,730. In addition, the OBRA part-time seasonal plan had 536 participants with assets of $926,785.",
+  "acceptance": "Main plan 4,398 participants / $308,676,730 is sufficient. OBRA 536 / $926,785 is supplementary and must not replace or be silently added to main-plan figures.",
+  "text_hash": "ba38eb84b9e6630e06869a17bd0a8d39bbd7f3fbf79cf38deccbc05584512bde",
+  "source_text_sha256": "71f7dc2105be0914ed5549193987a3d5f6eda22588e7c5e025dd27c5e41ee8a0",
+  "second_check_required": true,
+  "prior_reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Illinois Teachers’ Retirement System RFP for private equity investment consultant services, not the Monroe County deferred compensation services RFP. Its membership and asset figures concern TRS as of March 31, 2024, so it does not support the requested main-plan figures.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES",
+        "The System serves over 448,000 members and had over $70 billion in assets held in trust for its membership as of March 31, 2024."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES",
+          "start": 13,
+          "end": 137
+        },
+        {
+          "quote": "The System serves over 448,000 members and had over $70 billion in assets held in trust for its membership as of March 31, 2024.",
+          "start": 4035,
+          "end": 4163
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ]
+}

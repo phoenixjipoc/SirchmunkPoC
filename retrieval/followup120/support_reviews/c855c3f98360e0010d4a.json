@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "c855c3f98360e0010d4a",
+    "query_id": "XD-09",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+    "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+    "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+    "text_hash": "8001c2935fd31d857e13d33885aca5873ce1465a74d1278f1e59f19d21fdfb34",
+    "source_text_sha256": "f8a7e1654c092344faef93294e84556e3d65ac1d18c78ee01b0fed8bc16b22fb",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is INREV’s 2022 Funds of Funds / Multi Manager DDQ, not the ILPA Due Diligence Questionnaire v1.2. Its table of contents does not list the requested five lettered appendices; the letters A–E appear as Data Room information-request labels, not appendix titles.",
+      "quotes": [
+        "Funds of Funds / Multi Manager DDQ 2022",
+        "The Due Diligence Questionnaire (DDQ) for Funds of Funds and Multi Manager (INREV FoF / MM DDQ) is part of the due diligence protocol which was first launched in April 2007.",
+        "3.8Environmental, Social and Governance (ESG)39 Data Room41 Appendix42",
+        "Information requested Question Information included or reference to PPM Advanced Stage A Breakdown of gross-to-net returns 2.1.1.4"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Funds of Funds / Multi Manager DDQ 2022",
+          "start": 61797,
+          "end": 61836
+        },
+        {
+          "quote": "The Due Diligence Questionnaire (DDQ) for Funds of Funds and Multi Manager (INREV FoF / MM DDQ) is part of the due diligence protocol which was first launched in April 2007.",
+          "start": 1256,
+          "end": 1429
+        },
+        {
+          "quote": "3.8Environmental, Social and Governance (ESG)39 Data Room41 Appendix42",
+          "start": 890,
+          "end": 960
+        },
+        {
+          "quote": "Information requested Question Information included or reference to PPM Advanced Stage A Breakdown of gross-to-net returns 2.1.1.4",
+          "start": 55289,
+          "end": 55419
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

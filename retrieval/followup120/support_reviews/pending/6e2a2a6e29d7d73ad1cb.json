@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "6e2a2a6e29d7d73ad1cb",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "8fd38e162caf488a201e33490c21fd056c9a564499e2924af8e6061c596a2f16",
+    "source_text_sha256": "8b59ab7d10437cb899072f904aad9ef61f23fa42305e041c2ac89f370d96c76b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is OPERS RFP #515-24-001 for investment management services, not the external audit RFP Q&A. It does not state the total contractual fees for FY2021 audits.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL #515-24-001 U.S. EQUITY, Non-U.S. EQUITY, AND FIXED INCOME (TIPS) INDEX INVESTMENT MANAGEMENT SERVICES",
+        "All questions and answers will be consolidated into a single Q&A document and posted to the site www.opers.ok.gov/Investment-Management-Index-Mandates- RFP."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL #515-24-001 U.S. EQUITY, Non-U.S. EQUITY, AND FIXED INCOME (TIPS) INDEX INVESTMENT MANAGEMENT SERVICES",
+          "start": 61,
+          "end": 184
+        },
+        {
+          "quote": "All questions and answers will be consolidated into a single Q&A document and posted to the site www.opers.ok.gov/Investment-Management-Index-Mandates- RFP.",
+          "start": 7998,
+          "end": 8154
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

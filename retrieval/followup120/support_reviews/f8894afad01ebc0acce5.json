@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "f8894afad01ebc0acce5",
+    "query_id": "SVC-07",
+    "question": "Which retirement system's global custody RFP states that the system does not currently participate in securities lending, and what is the planned start date for the custody contract?",
+    "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+    "expected_facts": "The Texas Municipal Retirement System (TMRS), in its December 2020 RFP for Global Custody and Related Services; the contract start date is January 3, 2022.",
+    "acceptance": "TMRS and January 3, 2022 suffice; issuance month and securities-lending support contingencies are optional.",
+    "text_hash": "b1b58831638092aa2c4058820d103b7fbdbca636b18c44a0d4120044ca4b814b",
+    "source_text_sha256": "9f5bdf4dd9b56cf14ad12c68d7eac6a3122ac753ad93b2296c4763b688071979",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Santa Barbara County Employees’ Retirement System RFP for private equity consulting, not a TMRS global custody RFP. It does not state the securities-lending fact or a January 3, 2022 custody-contract start date.",
+      "quotes": [
+        "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+        "Date of RFP issuance July 27, 2020"
+      ],
+      "quote_matches": [
+        {
+          "quote": "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+          "start": 13,
+          "end": 143
+        },
+        {
+          "quote": "Date of RFP issuance July 27, 2020",
+          "start": 153,
+          "end": 187
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

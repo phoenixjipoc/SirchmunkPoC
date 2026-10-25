@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "61ce3bd39c63710b344d",
+    "query_id": "SVC-20",
+    "question": "What scope of services does the Kern County Employees' Retirement Association (KCERA) 2024 actuarial audit services RFP require?",
+    "file": "Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "expected_facts": "A full actuarial audit of the assumptions, methods, calculations and experience used in KCERA's valuation, in two parts: (1) a peer review audit of the Actuarial Experience Study for July 1, 2019 - June 30, 2022 and the Review of Economic Actuarial Assumptions as of June 30, 2022 - evaluating the data (including comparison of census data), reconciling discrepancies with the consulting actuary, and evaluating the recommended economic and non-economic assumptions; and (2) a parallel valuation (independent reproduction) of the June 30, 2023 valuation, including the SRBR valuation and GASB 67 valuation, using the consulting actuary's assumptions and methods and reproducing all work without relying on the consulting actuary, with reconciliation of discrepancies. Results of both are to be communicated to the consulting actuary before completion of the June 30, 2024 valuation.",
+    "acceptance": "Require both experience-study peer review and independent June 30, 2023 parallel valuation, including SRBR/GASB67 and discrepancy reconciliation. A concise account may group data and assumption checks; sample-agreement delivery details are optional.",
+    "text_hash": "78e9f93c919309a5d2fa10dd95a99a9aa10570f812813a72ac38438337250997",
+    "source_text_sha256": "9509203a806d2bcdf58a836ebe10e970d4ddb42b4cd79e65aeab8cd010579820",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2022 Hawaii ERS real-assets investment consultant RFP, not KCERA’s 2024 actuarial audit services RFP. It does not support the required experience-study peer review or independent June 30, 2023 parallel valuation, including SRBR and GASB 67.",
+      "quotes": [
+        "Employees’ Retirement System of the State of Hawaii (ERS) Request for Proposals Real Assets Investment Consultant RFP 2022-06 Issued October 3, 2022",
+        "ERS is seeking proposals for a dedicated Non-Discretionary Real Assets Investment Consultant (real estate and other real assets) to review the performance of the real assets managers and the real assets program for the Employees’ Retirement System of the State of Hawaii."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Employees’ Retirement System of the State of Hawaii (ERS) Request for Proposals Real Assets Investment Consultant RFP 2022-06 Issued October 3, 2022",
+          "start": 13,
+          "end": 161
+        },
+        {
+          "quote": "ERS is seeking proposals for a dedicated Non-Discretionary Real Assets Investment Consultant (real estate and other real assets) to review the performance of the real assets managers and the real assets program for the Employees’ Retirement System of the State of Hawaii.",
+          "start": 10705,
+          "end": 10976
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

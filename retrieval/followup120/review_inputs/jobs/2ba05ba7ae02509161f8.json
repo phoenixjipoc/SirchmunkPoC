@@ -1,0 +1,48 @@
+{
+  "id": "2ba05ba7ae02509161f8",
+  "query_id": "SVC-17",
+  "question": "What evaluation criteria and point values are used to score proposals in the Delaware Office of the State Treasurer's 2021 RFP for deferred compensation plan recordkeeping and administration services?",
+  "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+  "expected_facts": "Total 100 points: (I) Vendor History and Depth of Public Defined Contribution Plan Experience - 10; (II) Scope of Vendor Operations and Ability to Meet Full Range of Requested Services - 20; (III) Plan Sponsor Experience: Website Access & Quality, Administrative and Compliance Support, Relationship Management, Performance Reporting and Industry/Trend Evaluation and Communication - 30; (IV) Participant Communication & Education: Custom Website, Voice Response System and Participant Call Center; Commitment to Customer Service/Issue Resolution; Custom Communication and Education Capabilities, Branding, Onsite Representatives and Guidance/Advice Tools - 30; (V) Overall Cost to Plans and Plan Participants - 10.",
+  "acceptance": "Five categories with 10/20/30/30/10 points, correctly distinguishing plan-sponsor from participant services. Exhaustive examples within categories are optional.",
+  "text_hash": "3b4fb541c2d35b7de747c8f6c26cc3a40bee097d58737ad466dbef56acdfa755",
+  "source_text_sha256": "a7628e3fc4e0a9323e896059440a5b708d424232eec8242be9362eb818e6b682",
+  "second_check_required": true,
+  "prior_reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is Clark County, Washington’s 2026 RFP #955, not the Delaware Office of the State Treasurer’s 2021 RFP. Its two-tier scoring system does not support the requested five categories or their point values.",
+      "quotes": [
+        "REQUEST for PROPOSAL # 955 PROFESSIONAL, TECHNICAL AND EXPERT SERVICES Clark County Washington RELEASE DATE: WEDNESDAY, MAY 6, 2026",
+        "This will be a Two-Tier scoring evaluation. A one hundred (100) point system will be used for each Tier (total of 200 points)",
+        "Tier 1: Initial Review of Responses",
+        "Tier 2: Finalist Presentations / Best and Final Offers"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST for PROPOSAL # 955 PROFESSIONAL, TECHNICAL AND EXPERT SERVICES Clark County Washington RELEASE DATE: WEDNESDAY, MAY 6, 2026",
+          "start": 13,
+          "end": 144
+        },
+        {
+          "quote": "This will be a Two-Tier scoring evaluation. A one hundred (100) point system will be used for each Tier (total of 200 points)",
+          "start": 37384,
+          "end": 37509
+        },
+        {
+          "quote": "Tier 1: Initial Review of Responses",
+          "start": 37552,
+          "end": 37587
+        },
+        {
+          "quote": "Tier 2: Finalist Presentations / Best and Final Offers",
+          "start": 37779,
+          "end": 37833
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ]
+}

@@ -1,10 +1,12 @@
 # Sirchmunk PoC
 
-This branch adds a **document retrieval baseline**: 120 questions, one pass, and up to ten ordered files per question. The primary measure is whether the first file contains the required facts. No final answers or knowledge clusters are produced.
+This branch tests **document retrieval** using the same 120 questions and 81 raw documents. Comparisons cover repeated runs, candidate ordering, directory coverage and a separate parser diagnostic. No final answers or knowledge clusters are produced.
 
-For the 98 single-document questions: **Top-1 52.04% (51/98), Top-5 75.51% (74/98), Top-10 81.63% (80/98)**. Cross-document and unanswerable questions are reported separately.
+For the 98 single-document questions, baseline Top-1 is **52.04% (51/98)**. Across three runs, Top-1 ranges from **45.92% to 52.04%**, averaging **50.00%**; 38 questions change between a first-position hit and miss. Cross-document and negative questions are reported separately.
 
-See the [retrieval plan](retrieval/PLAN.md), [execution guide](retrieval/README.md), and [retrieval results](retrieval/reports/basic120/REPORT.md). The earlier answer and cluster-reuse experiments below remain separate.
+Reranking the original first ten candidates raises Top-1 to **80.61% (79/98)**, with Top-10 unchanged at **81.63% (80/98)**. Considering all 81 directory candidates raises Top-10 to **91.84% (90/98)**, while Top-1 reaches **55.10% (54/98)**. These changes were tested separately; their combined effect was not measured.
+
+See the [follow-up results](retrieval/followup120/reports/REPORT.md), [plan](retrieval/followup120/PLAN.md), [execution guide](retrieval/followup120/README.md), and [original baseline](retrieval/reports/basic120/REPORT.md). The earlier answer and cluster-reuse experiments below remain separate.
 
 This repository tests two questions:
 

@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "ffab32a390c4980818a6",
+    "query_id": "CONS-07",
+    "question": "Which pension system's investment consultant RFP requires respondents to have at least five defined benefit pension plan clients, two of which are public pension plans with total plan assets of at least $15 billion each?",
+    "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "expected_facts": "Orange County Employees Retirement System (OCERS), in its 2021 investment consultant services RFP (Appendix E, Minimum Qualifications Certification).",
+    "acceptance": "OCERS/Orange County Employees Retirement System suffices. Appendix designation, year and restatement of qualification are optional.",
+    "text_hash": "ba38eb84b9e6630e06869a17bd0a8d39bbd7f3fbf79cf38deccbc05584512bde",
+    "source_text_sha256": "71f7dc2105be0914ed5549193987a3d5f6eda22588e7c5e025dd27c5e41ee8a0",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 RFP issued by the Teachers’ Retirement System of the State of Illinois, not the specified pension system’s RFP. Its minimum qualifications do not require five defined benefit pension plan clients, including two public plans with at least $15 billion in total assets each.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+        "APPENDIX B: STATEMENT OF MINIMUM QUALIFICATIONS",
+        "The firm and/or its principals have experience providing private equity consulting services to clients, in aggregate, with private equity portfolio assets of at least $10 billion."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+          "start": 13,
+          "end": 159
+        },
+        {
+          "quote": "APPENDIX B: STATEMENT OF MINIMUM QUALIFICATIONS",
+          "start": 29546,
+          "end": 29593
+        },
+        {
+          "quote": "The firm and/or its principals have experience providing private equity consulting services to clients, in aggregate, with private equity portfolio assets of at least $10 billion.",
+          "start": 29751,
+          "end": 29930
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

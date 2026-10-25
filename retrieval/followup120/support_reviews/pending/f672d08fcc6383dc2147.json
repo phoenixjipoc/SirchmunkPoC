@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "f672d08fcc6383dc2147",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "MA_PRIM__PDF-Version-of-RFP.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "c92320682456b11eb70addd3a356a98edfd3f865f21e453c8906eefe68b8b772",
+    "source_text_sha256": "e3fe5e9a4d6babe97bf46e2649b5484f28a2237abb15634af7dc30e35b1c2a49",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a PRIM Multi-Asset Credit Investment Management Services RFP, not the ILPA Due Diligence Questionnaire 2.0. Its table of contents lists PRIM exhibits, not the eight requested ILPA appendices.",
+      "quotes": [
+        "Pension Reserves Investment Management Board REQUEST FOR PROPOSALS (RFP) Multi-Asset Credit Investment Management Services October 31, 2023",
+        "Exhibits Description Page A. PRIM Service Providers 28 B. PRIM Disclosure Statement 29 C. Treasurer’s Principal Boards, Commissions and Authorities 33 D. PRIM Investment Policy 35 E. PRIM Investment Management Agreement 36"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Pension Reserves Investment Management Board REQUEST FOR PROPOSALS (RFP) Multi-Asset Credit Investment Management Services October 31, 2023",
+          "start": 1555,
+          "end": 1694
+        },
+        {
+          "quote": "Exhibits Description Page A. PRIM Service Providers 28 B. PRIM Disclosure Statement 29 C. Treasurer’s Principal Boards, Commissions and Authorities 33 D. PRIM Investment Policy 35 E. PRIM Investment Management Agreement 36",
+          "start": 2177,
+          "end": 2399
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,83 @@
+{
+  "job": {
+    "id": "e72617cb3e4685711080",
+    "query_id": "INV-10",
+    "question": "An alternative investment consulting RFP describes a private equity portfolio of 225 holdings across 105 general partners. What are the approximate net asset values of the system's absolute return, private credit, private equity and real assets portfolios?",
+    "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+    "expected_facts": "Absolute Return about $2.6 billion (11 funds across 10 managers); Private Credit about $1.8 billion (26 holdings, 16 GPs); Private Equity about $4.5 billion (225 holdings, 105 GPs); Real Assets about $3.1 billion (87 holdings, 58 GPs). Issuer: Indiana Public Retirement System (INPRS), RFP 23-09.",
+    "acceptance": "Require correct asset-class mapping to $2.6bn/$1.8bn/$4.5bn/$3.1bn; holdings/GP counts and issuer identification are optional.",
+    "text_hash": "b1b58831638092aa2c4058820d103b7fbdbca636b18c44a0d4120044ca4b814b",
+    "source_text_sha256": "9f5bdf4dd9b56cf14ad12c68d7eac6a3122ac753ad93b2296c4763b688071979",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2020 Santa Barbara County Employees’ Retirement System RFP, not the INPRS RFP described in the question. Its $3.1 billion figure is total system assets, not real assets portfolio NAV, and its private equity figure is approximately $311 million. It does not provide the four requested portfolio NAVs.",
+      "quotes": [
+        "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+        "Date of RFP issuance July 27, 2020",
+        "It has assets of approximately $3.1 billion",
+        "SBCERS has approximately $311M invested in private equity as of June 30, 2020."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+          "start": 13,
+          "end": 143
+        },
+        {
+          "quote": "Date of RFP issuance July 27, 2020",
+          "start": 153,
+          "end": 187
+        },
+        {
+          "quote": "It has assets of approximately $3.1 billion",
+          "start": 4272,
+          "end": 4315
+        },
+        {
+          "quote": "SBCERS has approximately $311M invested in private equity as of June 30, 2020.",
+          "start": 6707,
+          "end": 6785
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2020 Santa Barbara County Employees’ Retirement System RFP, not the Indiana Public Retirement System RFP. It does not provide the requested net asset values by asset class; its approximately $3.1 billion figure refers to total system assets, not the real assets portfolio.",
+      "quotes": [
+        "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+        "SBCERS was established on January 1, 1944. It has assets of approximately $3.1 billion",
+        "SBCERS has approximately $311M invested in private equity as of June 30, 2020."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+          "start": 13,
+          "end": 143
+        },
+        {
+          "quote": "SBCERS was established on January 1, 1944. It has assets of approximately $3.1 billion",
+          "start": 4229,
+          "end": 4315
+        },
+        {
+          "quote": "SBCERS has approximately $311M invested in private equity as of June 30, 2020.",
+          "start": 6707,
+          "end": 6785
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

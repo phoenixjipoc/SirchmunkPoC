@@ -1,0 +1,59 @@
+{
+  "query_id": "SVC-21",
+  "question": "What project oversight services does OCERS require from the consultant in its 2023 RFP for Pension Administration Project Oversight and Consultation Services?",
+  "type": "medium",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf"
+  ],
+  "keyword_terms": [
+    "Pension Administration Project Oversight",
+    "Consultation Services",
+    "2023 RFP",
+    "project oversight services",
+    "养老金管理",
+    "项目监督",
+    "咨询服务"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 38,
+      "timestamp": "2026-10-25 15:38:18.199639",
+      "metadata": {
+        "keywords": [
+          "Pension Administration Project Oversight",
+          "Consultation Services",
+          "2023 RFP",
+          "project oversight services",
+          "养老金管理",
+          "项目监督",
+          "咨询服务"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "OCERS__ocers_pas_consultant_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf"
+    }
+  ],
+  "elapsed_s": 3.401,
+  "calls": 0,
+  "usage": {}
+}

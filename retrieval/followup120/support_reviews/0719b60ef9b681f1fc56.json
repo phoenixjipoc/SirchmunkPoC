@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "0719b60ef9b681f1fc56",
+    "query_id": "SVC-15",
+    "question": "What contract term, including any extension options, does the Kern County Employees' Retirement Association (KCERA) RFP for audit services contemplate?",
+    "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "expected_facts": "A three-year agreement (audits of fiscal year ending June 30, 2023 and the two subsequent fiscal years), subject to annual Board review; the original term may be extended for up to an additional three years by mutual agreement of KCERA and the firm.",
+    "acceptance": "Accept 3+up to3 years, mutual extension. Audit fiscal years and annual-review/negotiation detail need not all be volunteered.",
+    "text_hash": "3b4fb541c2d35b7de747c8f6c26cc3a40bee097d58737ad466dbef56acdfa755",
+    "source_text_sha256": "a7628e3fc4e0a9323e896059440a5b708d424232eec8242be9362eb818e6b682",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Clark County, Washington RFP for deferred compensation plan administration, not KCERA’s RFP for audit services. Its three-year term and seven-year extension option concern a different contract and do not support the requested facts.",
+      "quotes": [
+        "Request for Proposal #955 Deferred Compensation 457 Plan Administrator",
+        "Clark County is soliciting proposals from qualified firms to provide retirement plan administration, record keeping, education, communications, investment-related, and other services for the 457 Deferred Compensation Plan effective January 1, 2027.",
+        "Clark County reserves the right to extend the contract resulting from this RFP for a period of seven (7) additional years, in one (1) year increments"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal #955 Deferred Compensation 457 Plan Administrator",
+          "start": 11545,
+          "end": 11615
+        },
+        {
+          "quote": "Clark County is soliciting proposals from qualified firms to provide retirement plan administration, record keeping, education, communications, investment-related, and other services for the 457 Deferred Compensation Plan effective January 1, 2027.",
+          "start": 11821,
+          "end": 12069
+        },
+        {
+          "quote": "Clark County reserves the right to extend the contract resulting from this RFP for a period of seven (7) additional years, in one (1) year increments",
+          "start": 22623,
+          "end": 22772
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

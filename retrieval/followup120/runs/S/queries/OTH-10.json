@@ -1,0 +1,155 @@
+{
+  "query_id": "OTH-10",
+  "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "S",
+  "references": [
+    {
+      "rank": 1,
+      "file": "INPRS__RFP24-05_AuditServices.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+      "path": "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+      "path": "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+      "path": "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+      "path": "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "OCERS__custodian_rfp_2022-2023.pdf",
+      "path": "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+      "path": "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "AVFPD__RFP-Actuatial-Services-2024.pdf",
+      "path": "/mnt/docs/S/AVFPD__RFP-Actuatial-Services-2024.pdf"
+    }
+  ],
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "baseline_sha256": "0d43af561debf254d173773cb7d971518a7f236b05da8b7cdfa720ca8d28aeab",
+  "original_files": [
+    "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+    "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "INPRS__RFP24-05_AuditServices.pdf",
+    "OCERS__custodian_rfp_2022-2023.pdf",
+    "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "SBCERS__2020-Private-Equity-RFP.pdf",
+    "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "AVFPD__RFP-Actuatial-Services-2024.pdf"
+  ],
+  "ranking_prompt": "{\"question\": \"In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?\", \"candidates\": [{\"filename\": \"AVFPD__RFP-Actuatial-Services-2024.pdf\", \"extension\": \".pdf\", \"title\": \"Microsoft Word - REQUEST FOR PROPOSAL - Actuarial Services 2024\", \"author\": \"Exley, Amber\", \"page_count\": 9, \"keywords\": [\"Exley, Amber\"], \"preview\": \"REQUEST FOR PROPOSALS \\nfor \\nACTUARIAL SERVICES TO VALUE OTHER POST-EMPLOYMENT BENEFITS \\n(OPEB) IN COMPLIANCE WITH GOVERNMENTAL ACCOUNTING STANDARDS \\nBOARD STATEMENT NO. 75 (GASB 75) \\nProposals Due by 11:59 PM, July 31, 2024 \\n \\nIntroduction: \\nThe Apple Valley Fire Protection District is accepting proposals from qualified consultants \\nfor Actuarial Services in accordance with the included specifications, terms, and conditions \\nincluded in this Request for Proposal (RFP). Prospective respondents are advised to read \\nthis information over carefully prior to submitting a proposal. \\n \\nA pdf of the proposal should be submitted to the Apple Valley Fire Protection District by \\n11:59 PM, July 31, 2024. Proposal shall be submitted via email to: Amber Exley \\n(aexley@avfpd.org) with the subject line\", \"full_content\": \"\"}, {\"filename\": \"Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"\", \"page_count\": 22, \"keywords\": [], \"preview\": \"Board of  Trustees  PUBLIC SAFETY PERSONNEL RETIREMENT SYSTEM  Administration  \\nScott McCarty , Chairman  CORRECTIONS OFFICER RETIREMENT PLAN Michael F. Townsend  \\nHarry A. Papp, Vice Chairman  ELECTED OFFICIALS' RETIREMENT PLAN  Administrator  \\nChristopher J.  Hemmen , Trustee 3010 East Camelback Road, Suite 200 Michael Smarik \\nAlan Maguire , Trustee Phoenix, Arizona 85016-4416 Deputy Administrator \\nBrian V. Moore , Trustee Telephone: (602) 255-5575 Bret H. Parke  \\nDean M. Scheinert , Trustee Fax: (602) 255-5572 Assistant Administrator \\nRandie A. Stein , Trustee www.psprs.com General Counsel \\nNate Weber , Trustee   Mark Steed \\nDarren Wunderle , Trustee  Chief Investment Officer \\n \\n \\n \\n \\n \\nBoard of Trustees of the \\nPublic Safety Personnel Retirement System \\n \\nActing in their Capacity as \\nA\", \"full_content\": \"\"}, {\"filename\": \"COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Russell Nash\", \"page_count\": 39, \"keywords\": [\"Russell Nash\"], \"preview\": \"1 \\n \\nCITY OF AUSTIN  \\nEMPLOYEES’ RETIREMENT SYSTEM \\nRequest for Proposal (RFP) \\n______________________________________________________________________________ \\n \\nActuarial Services \\nfor an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan \\nJune 26, 2025 \\n \\n______________________________________________________________________________ \\n \\n \\nDeadline for Submission of Questions  On or before 5:00 PM, Central Time, July 16, 2025 \\nPre-Proposal Conference  Noon, Central Time, July 24, 2025 \\nDeadline for Submission of Proposals On or before 5:00 PM, Central Time, July 30, 2025 \\nBid Opening Noon, Central Time, July 31, 2025 \\nCommittee Finalist Review Time TBD, November 13, 2025 \\nRFP Website www.coaers.org/RFP \\nProposal Submission Email Address rfp@coaers.org \\n \\n \\n__________________\", \"full_content\": \"\"}, {\"filename\": \"INPRS__RFP24-05_AuditServices.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Danny Sullivan\", \"page_count\": 33, \"keywords\": [\"Danny Sullivan\"], \"preview\": \"1  \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nREQUEST FOR PROPOSALS (“RFP”) for \\n \\nAUDIT SERVICES \\n \\n \\nRFP NUMBER 24-05 \\n \\n \\n \\nRELEASE DATE: OCTOBER 2, 2024 \\n \\nDEADLINE FOR INQUIRIES: OCTOBER 11, 2024 BY 3:00 PM EDT \\n \\nDEADLINE FOR SUBMISSION: NOVEMBER 1, 2024 BY 3:00 PM EDT\", \"full_content\": \"\"}, {\"filename\": \"Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"James Stivers\", \"page_count\": 48, \"keywords\": [\"James Stivers\"], \"preview\": \"State Retirement Systems \\n \\n \\n \\n \\n \\nRequest for Proposal \\nfor \\nActuarial Consulting Services \\n(System Reference # 24100) \\n \\n \\n \\nIssued on February 2, 2024 \\nResponses Due by 2:00 P.M. CST on March 4, 2024\", \"full_content\": \"\"}, {\"filename\": \"KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf\", \"extension\": \".pdf\", \"title\": \"Microsoft Word - Audit Actuary RFP 2024 Final\", \"author\": \"matt.henry\", \"page_count\": 50, \"keywords\": [\"matt.henry\"], \"preview\": \"Kern County Employees’ Retirement Association \\n \\n  \\n \\n \\n \\nRequest for Proposal \\n  \\nACTUARIAL AUDIT SERVICES \\n \\n \\n \\n \\n \\nMarch 29, 2024\", \"full_content\": \"\"}, {\"filename\": \"LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Jennifer Van\", \"page_count\": 67, \"keywords\": [\"Jennifer Van\"], \"preview\": \"REQUEST FOR PROPOSALS \\nFINANCIAL STATEMENT AUDIT SERVICES \\nRelease Date: January 31, 2025 \\nRFP Number: DCFS25-01 \\nProposal Due Date: March 5, 2025, 3:00 P.M. PST \\nLos Angeles Fire and Police Pensions  \\nInternal Audit Section \\nEmail to: internalaudit@lafpp.com \\nAll questions must be e-\\nmailed to the RFP \\nAdministrator no later than: \\nFebruary 7, 2025, 3:00 P.M. PST \\nAny questions concerning the RFP will be due by the \\ndate/time above and all answers will be posted by February \\n14, 2025 on the RFP page of the LAFPP Website, \\nhttps://lafpp.lacity.gov/about/request-proposals  \\nRFP Administrator: Jennifer Van \\nInternal Audit Section \\nEmail: internalaudit@lafpp.com \\nPhone: (213) 279-3175 \\nOfficial RFP \\nNotices/Addendums: \\nTo ensure that no firm is provided advantage over another, \\nall requ\", \"full_content\": \"\"}, {\"filename\": \"OCERS__custodian_rfp_2022-2023.pdf\", \"extension\": \".pdf\", \"title\": \"Custodian RFP\", \"author\": \"OCERS\", \"page_count\": 51, \"keywords\": [\"OCERS\", \"RFP\", \"Investments\"], \"preview\": \"Custody Services \\nRequest for Proposal \\n \\nOctober 2022 \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nOrange County Employees Retirement System (OCERS) \\nP.O. Box 1229 \\nSanta Ana, CA 92702 \\n(714)-558-6200 \\nhttp://www.ocers.org\", \"full_content\": \"\"}, {\"filename\": \"SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Kristina Richter\", \"page_count\": 97, \"keywords\": [\"Kristina Richter\"], \"preview\": \"Santa Barbara County Employees’ Retirement System Global Custody and Related Services 1 \\n \\n \\nRequest for Proposal \\n \\n  \\nGlobal Custody and Related Services \\nSanta Barbara County Employees’ Retirement System \\n(“SBCERS”) \\n \\n  \\nIssue Date:       January 8, 2024 \\nQuestions Due:      January 12, 2024  \\nQ&A Responses Delivered:    January 22, 2024  \\nSubmission Deadline:      February 2, 2024  \\n \\n  \\nDesignated Contact: \\nJonathan Kowolik    Lindsey Longwell \\nSenior Consultant, Principal  Consultant \\nRVK, Inc.     RVK, Inc.  \\nOne Penn Plaza, Suite 2131  1211 SW 5th Avenue, Suite 900 \\nNew York, NY 10119   Portland, OR 97204 \\nJonathan.Kowolik@rvkinc.com  Lindsey.Longwell@rvkinc.com  \\nIOSG@rvkinc.com\", \"full_content\": \"\"}, {\"filename\": \"SBCERS__2020-Private-Equity-RFP.pdf\", \"extension\": \".pdf\", \"title\": \"Microsoft Word - 2020 Private Equity RFP\", \"author\": \"lthompson\", \"page_count\": 34, \"keywords\": [\"lthompson\"], \"preview\": \"1 \\n \\nSANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM \\n \\nREQUEST FOR PROPOSALS (RFP) \\nFOR \\nDISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES \\n \\n \\n \\n \\nTIMELINE \\nDate of RFP issuance July 27, 2020 \\nDeadline for written questions to SBCERS August 10, 2020 \\nDeadline for submission of Proposals August 21, 2020 \\nTentative interview dates October 28, 2020 \\n \\n \\n \\nDelivery of Proposals \\n \\nProposals are to be delivered as follows:  \\n \\nThree (3) printed copies, one (1) electronic version to be delivered to:  \\n  \\nMs. Lauren Thompson \\nSanta Barbara County Employees’ Retirement System \\n130 Robin Hill Road, Suite 100 \\nGoleta, CA 93117 \\ninvestments@sbcers.org \\n \\nNote that both the electronic copy and the paper copy shall include signatures as required \\nby this RFP.  The electronic copy shall be emailed to\", \"full_content\": \"\"}]}",
+  "keyword_files": [
+    "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+    "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf",
+    "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+    "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "/mnt/docs/S/AVFPD__RFP-Actuatial-Services-2024.pdf",
+    "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+    "/mnt/docs/S/Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "/mnt/docs/S/Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+    "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+    "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "/mnt/docs/S/DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "/mnt/docs/S/Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+    "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "/mnt/docs/S/York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf",
+    "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf",
+    "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf",
+    "/mnt/docs/S/Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+    "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf",
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "/mnt/docs/S/Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf",
+    "/mnt/docs/S/Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+    "/mnt/docs/S/Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+    "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+    "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+    "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf",
+    "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+    "/mnt/docs/S/Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf",
+    "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+    "/mnt/docs/S/OCERS__custodian_services_rfp_questions_and_answers.pdf",
+    "/mnt/docs/S/CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+    "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf",
+    "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+    "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+    "/mnt/docs/S/AVFPD__RFP-Actuatial-Services-2024.pdf"
+  ],
+  "status": "ok",
+  "elapsed_s": 5.781,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 2677,
+    "completion_tokens": 464,
+    "total_tokens": 3141
+  },
+  "attempt": 1
+}

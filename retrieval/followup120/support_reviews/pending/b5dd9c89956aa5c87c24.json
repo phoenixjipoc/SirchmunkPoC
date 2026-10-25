@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "b5dd9c89956aa5c87c24",
+    "query_id": "OTH-15",
+    "question": "In the Los Angeles City Employees' Retirement System (LACERS) actuarial RFP, how many years of experience must the lead actuary have?",
+    "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "expected_facts": "At least 15 years of experience with major public employee retirement systems, including at least 3 years with California public pension fund clients similar to LACERS.",
+    "acceptance": "Accept 15 total and three California years. Do not require credential details unrelated to the years asked.",
+    "text_hash": "2e5c9ac10ac2943a19269fe0ceeab6dc6cca5c9b732ec461770764bed168feeb",
+    "source_text_sha256": "698b71034e03dda497378807f02ef9875cc985ad2aafde5d24accec7bdff2d4b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a South Carolina RSIC investment consulting RFP, not a LACERS actuarial RFP. Its experience requirement concerns lead investment consultants and does not support the specified lead-actuary requirement.",
+      "quotes": [
+        "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+        "The individual(s) assigned to RSIC as lead consultant(s) must have a minimum of ten (10) years of experience (each) with a public defined benefit plan and at least five (5) years’ experience (each) as a primary consultant for a public defined benefit plan."
+      ],
+      "quote_matches": [
+        {
+          "quote": "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+          "start": 106,
+          "end": 203
+        },
+        {
+          "quote": "The individual(s) assigned to RSIC as lead consultant(s) must have a minimum of ten (10) years of experience (each) with a public defined benefit plan and at least five (5) years’ experience (each) as a primary consultant for a public defined benefit plan.",
+          "start": 32376,
+          "end": 32632
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

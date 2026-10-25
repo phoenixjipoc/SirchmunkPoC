@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "28b68390047c0f7f7755",
+    "query_id": "CONS-09",
+    "question": "Which retirement system's investment consultant RFP requires firms to certify that they currently provide investment consulting services to clients whose combined assets total at least $50 billion?",
+    "file": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "expected_facts": "Teachers' Retirement System of the State of Illinois (TRS Illinois), in its FY23 investment consultant RFP (Appendix B, Statement of Minimum Qualifications).",
+    "acceptance": "TRS Illinois / Teachers’ Retirement System of the State of Illinois is sufficient; FY23 and appendix identifier are optional.",
+    "text_hash": "9442e2b4c086526d3a2fdbcfd889eca2ceeb00c6b9e5d09ba8003815529b2dfc",
+    "source_text_sha256": "a03af1cb5588edbe010abae942bbd4d97b649d15b5280a5db6c40f3e111a54fd",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Boston Retirement System RFP, not a TRS Illinois RFP. Its stated minimum qualifications concern years of experience, not a certification that firms currently advise clients with combined assets of at least $50 billion.",
+      "quotes": [
+        "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+        "Does the Prospective Consultant firm have at least three (3) years of experience performing substantially similar services for institutional clients?",
+        "Does the prospective “lead Consultant” on the BRS account have at least five (5) years of experience advising systems of similar size and scope to BRS"
+      ],
+      "quote_matches": [
+        {
+          "quote": "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+          "start": 13,
+          "end": 106
+        },
+        {
+          "quote": "Does the Prospective Consultant firm have at least three (3) years of experience performing substantially similar services for institutional clients?",
+          "start": 13701,
+          "end": 13850
+        },
+        {
+          "quote": "Does the prospective “lead Consultant” on the BRS account have at least five (5) years of experience advising systems of similar size and scope to BRS",
+          "start": 13851,
+          "end": 14001
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

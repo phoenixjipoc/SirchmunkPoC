@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "87382025ae618ebbdd2b",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "dc7770ddf2eb0d0a22374752c7dc6794b8fb383b84a6cf93e4a10d4cf606f4a6",
+    "source_text_sha256": "e9d832947c5555fd08fbad4762996d02f44908b19826f8ed06865b1ee0a20b33",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Hawaii ERS private equity consultant RFP, not the SBCERS global custody RFP. Its evaluation criteria and point allocations are for a different issuer and procurement, so they cannot support the requested categories and weights.",
+      "quotes": [
+        "Employees’ Retirement System of the State of Hawaii Request for Proposals Private Equity Consultant Services RFP 2022-04",
+        "The order, priority and points to be applied to each evaluation criteria as follows:",
+        "Fees 5 Client references 5"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Employees’ Retirement System of the State of Hawaii Request for Proposals Private Equity Consultant Services RFP 2022-04",
+          "start": 13,
+          "end": 133
+        },
+        {
+          "quote": "The order, priority and points to be applied to each evaluation criteria as follows:",
+          "start": 40024,
+          "end": 40108
+        },
+        {
+          "quote": "Fees 5 Client references 5",
+          "start": 40527,
+          "end": 40553
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

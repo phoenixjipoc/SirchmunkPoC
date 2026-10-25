@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "d8876bb7cb77e8c7f373",
+    "query_id": "INV-20",
+    "question": "Which meetings must the investment consultant attend under the IMRF sample RFP for investment consulting, real estate consulting and performance measurement services, and how many days of meetings per year does IMRF estimate?",
+    "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+    "expected_facts": "(1) Monthly IMRF Board meetings; (2) Investment Committee meetings; (3) the Annual IMRF Roundtable; (4) regional meetings with investment managers; (5) related investment meetings and discussions; (6) formal interviews with existing and potential investment managers; (7) ad hoc due diligence meetings with investment managers and staff. IMRF estimates about sixty days of meetings per year with the Board and/or staff, plus frequent telephone discussions with staff.",
+    "acceptance": "All seven meeting categories and about 60 days/year. Frequent telephone calls and principal-attendance details are optional.",
+    "text_hash": "70ba69fa78a5262a5a903e6c962a7ed533f83b2f39cbeaae0d6efcae5122f669",
+    "source_text_sha256": "c0d34ab691e3323f8b02fd000d177f6559326d07370721a1d326e71475259a58",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Boston Retirement System proposal questionnaire, not the IMRF sample RFP. It does not state the seven required meeting categories or IMRF’s estimate of about 60 meeting days per year.",
+      "quotes": [
+        "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+        "This questionnaire is intended to provide BRS with specific information concerning your ability to provide General, Public and Private Markets Investment Consulting services",
+        "Do you attend partnership meetings on behalf of your clients? If not, will you participate at a specific client’s request and will there be an additional charge for this service?"
+      ],
+      "quote_matches": [
+        {
+          "quote": "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+          "start": 86,
+          "end": 163
+        },
+        {
+          "quote": "This questionnaire is intended to provide BRS with specific information concerning your ability to provide General, Public and Private Markets Investment Consulting services",
+          "start": 971,
+          "end": 1144
+        },
+        {
+          "quote": "Do you attend partnership meetings on behalf of your clients? If not, will you participate at a specific client’s request and will there be an additional charge for this service?",
+          "start": 26276,
+          "end": 26454
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "b95c9695fb916662eb17",
+    "query_id": "OTH-16",
+    "question": "In the Police Retirement System of St. Louis (PRS-STL) actuarial RFP, how many years of experience must the principal actuary have?",
+    "file": "SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+    "expected_facts": "A minimum of five years of professional actuarial experience, plus a minimum of five years of experience testifying before legislative and administrative bodies.",
+    "acceptance": "Five years professional actuarial experience is the core number. A complete description may state the separate five-year testimony requirement; these are not additive ten years and may overlap. Credentials are optional for this question.",
+    "text_hash": "74059d0858a2db0c8f58f5c826a4294c6484eb59297243278164fed6a06be3bd",
+    "source_text_sha256": "59ab22e6fcedca8392d9d5d47b28976ca7b9c0f646d18aac11ba6979231c5d9d",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a fixed-income investment management RFP, not the PRS-STL actuarial RFP. It gives no experience requirement for a principal actuary.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL FIXED INCOME INVESTMENT MANAGEMENT SERVICES",
+        "List Key Investment Professionals: Title, Areas of Responsibility, Professional Designations, Years of Experience with your firm, Years of Experience overall, etc."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL FIXED INCOME INVESTMENT MANAGEMENT SERVICES",
+          "start": 20,
+          "end": 84
+        },
+        {
+          "quote": "List Key Investment Professionals: Title, Areas of Responsibility, Professional Designations, Years of Experience with your firm, Years of Experience overall, etc.",
+          "start": 640,
+          "end": 803
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

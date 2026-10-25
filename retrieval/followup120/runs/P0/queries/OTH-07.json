@@ -1,0 +1,81 @@
+{
+  "query_id": "OTH-07",
+  "question": "One RFP for investment manager services, issued by an education foundation, limits proposals to five single-spaced typewritten pages. How many copies must be submitted and by what deadline?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+    "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+    "/mnt/docs/S/NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+    "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+    "/mnt/docs/S/NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf",
+    "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf"
+  ],
+  "keyword_terms": [
+    "investment manager services",
+    "education foundation",
+    "five single-spaced typewritten pages",
+    "投资经理服务",
+    "教育基金会",
+    "征求建议书"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 241,
+      "timestamp": "2026-10-25 16:18:00.448240",
+      "metadata": {
+        "keywords": [
+          "investment manager services",
+          "education foundation",
+          "five single-spaced typewritten pages",
+          "投资经理服务",
+          "教育基金会",
+          "征求建议书"
+        ],
+        "files_found": 3,
+        "files_discovered": [
+          "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+          "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+          "/mnt/docs/S/NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+      "path": "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "MA_PRIM__PDF-Version-of-RFP.pdf",
+      "path": "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf",
+      "path": "/mnt/docs/S/NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "IMRF__sample_investment_manager_rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf"
+    }
+  ],
+  "elapsed_s": 5.308,
+  "calls": 0,
+  "usage": {}
+}

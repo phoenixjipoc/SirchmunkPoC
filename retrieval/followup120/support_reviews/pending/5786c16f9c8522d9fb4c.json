@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "5786c16f9c8522d9fb4c",
+    "query_id": "INV-16",
+    "question": "In the Santa Barbara County Employees' Retirement System (SBCERS) 2020 RFP for a discretionary private equity consultant, how many years must the proposing firm have been in business?",
+    "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "expected_facts": "At least five (5) years providing services similar to those in the Scope of Services, measured as of December 31, 2020. (Separately, the organization must have provided investment management services for private equity transactions for five or more years.)",
+    "acceptance": "At least five years providing similar services suffices. The as-of date and separate five-year investment-management-services condition are optional for this question.",
+    "text_hash": "d4a7ad33208d859c75d991a4bdd6d723d6061e0ed085744f8f70ab7d38ea9348",
+    "source_text_sha256": "13affe2ff2ccbd6aa2f31fc6b4abcaaac5703248b468311f148d40d5686f5ade",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 Illinois State Retirement Systems RFP for actuarial consulting, not the SBCERS 2020 RFP for a discretionary private equity consultant. It does not state the required years in business for a proposing firm in the SBCERS RFP; its five-year qualification applies to supporting actuaries, not firms.",
+      "quotes": [
+        "State Retirement Systems Request for Proposal for Actuarial Consulting Services (System Reference # 24100) Issued on February 2, 2024",
+        "Vendor shall provide a description of the firm, location of the firm’s home office, location of each branch office, location of the office that will service the SRS accounts, number of years in business, and scope of experience with private and public entities.",
+        "Each supporting actuary to be employed on the project is a Fellow of the Society of Actuaries (FSA), an Enrolled Actuary, or has at least five years of public pension consulting service."
+      ],
+      "quote_matches": [
+        {
+          "quote": "State Retirement Systems Request for Proposal for Actuarial Consulting Services (System Reference # 24100) Issued on February 2, 2024",
+          "start": 13,
+          "end": 146
+        },
+        {
+          "quote": "Vendor shall provide a description of the firm, location of the firm’s home office, location of each branch office, location of the office that will service the SRS accounts, number of years in business, and scope of experience with private and public entities.",
+          "start": 13989,
+          "end": 14250
+        },
+        {
+          "quote": "Each supporting actuary to be employed on the project is a Fellow of the Society of Actuaries (FSA), an Enrolled Actuary, or has at least five years of public pension consulting service.",
+          "start": 43216,
+          "end": 43402
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

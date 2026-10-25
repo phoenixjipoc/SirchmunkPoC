@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "25a9822f38ddfc7ea61f",
+    "query_id": "CONS-09",
+    "question": "Which retirement system's investment consultant RFP requires firms to certify that they currently provide investment consulting services to clients whose combined assets total at least $50 billion?",
+    "file": "Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf",
+    "expected_facts": "Teachers' Retirement System of the State of Illinois (TRS Illinois), in its FY23 investment consultant RFP (Appendix B, Statement of Minimum Qualifications).",
+    "acceptance": "TRS Illinois / Teachers’ Retirement System of the State of Illinois is sufficient; FY23 and appendix identifier are optional.",
+    "text_hash": "4c1ac1f6b5f878b37f4fec3114f2882c2f0847603f6d9fb8da76937e70bc66aa",
+    "source_text_sha256": "1bfa7813851972f7d2c870ba83c9f84ef6249f16a84b7a9d8e04de870f8b8042",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an Oklahoma Public Employees Retirement System Q&A for an external audit RFP, not the identified retirement system’s investment consultant RFP. It contains no certification requirement concerning investment consulting clients with combined assets of at least $50 billion.",
+      "quotes": [
+        "OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM Question and Answer Document External Audit DB Plans RFP 515-22-300",
+        "QUESTION: What are some things you would like to see improved in the financial audit process compared to previous years?"
+      ],
+      "quote_matches": [
+        {
+          "quote": "OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM Question and Answer Document External Audit DB Plans RFP 515-22-300",
+          "start": 13,
+          "end": 124
+        },
+        {
+          "quote": "QUESTION: What are some things you would like to see improved in the financial audit process compared to previous years?",
+          "start": 128,
+          "end": 248
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

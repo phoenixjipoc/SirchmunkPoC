@@ -1,0 +1,12 @@
+{
+  "id": "ceded919f94a6bed865c",
+  "query_id": "OTH-10",
+  "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+  "file": "OCERS__custodian_services_rfp_questions_and_answers.pdf",
+  "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+  "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+  "text_hash": "c2cd1ea39b4681195bfc15005be9f6982a0c6aa23fb1626dd5615b15f4e0d9b1",
+  "source_text_sha256": "a182eb705c5dc23e1b3ed20cf50b538c45e06c95d85392b4444daaf2a4fc66ac",
+  "second_check_required": false,
+  "prior_reviews": []
+}

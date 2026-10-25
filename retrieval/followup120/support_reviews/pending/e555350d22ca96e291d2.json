@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "e555350d22ca96e291d2",
+    "query_id": "CONS-10",
+    "question": "What is the proposal submission deadline in the Oklahoma Public Employees Retirement System (OPERS) investment consulting services RFP?",
+    "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "expected_facts": "4:30 p.m. Central Time on March 25, 2022.",
+    "acceptance": "Accept Central Time/CT; explicit equivalent timezone conversion acceptable.",
+    "text_hash": "671c411958eb874cfc800e9ef62f40b39ce0a3618032e31c58dc0911d1ac78ca",
+    "source_text_sha256": "a59653c4763af085dd01d7961474b0d3e4d1e15ac1d4029f77327171d4183a79",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2024 Missouri LAGERS private market consulting RFP, not the Oklahoma OPERS investment consulting services RFP. Its proposal deadline does not support the requested deadline.",
+      "quotes": [
+        "Missouri Local Government Employees Retirement System (LAGERS) is issuing this Request for Proposal (RFP) for the purpose of soliciting qualified firms to provide private market consulting services.",
+        "The response deadline for this RFP is 5pm Central time on July 26, 2024."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Missouri Local Government Employees Retirement System (LAGERS) is issuing this Request for Proposal (RFP) for the purpose of soliciting qualified firms to provide private market consulting services.",
+          "start": 9735,
+          "end": 9933
+        },
+        {
+          "quote": "The response deadline for this RFP is 5pm Central time on July 26, 2024.",
+          "start": 51932,
+          "end": 52004
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

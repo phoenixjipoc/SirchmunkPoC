@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "578aea8397c545ea651d",
+    "query_id": "CONS-01",
+    "question": "In the Grand Rapids General Retirement System investment consultant RFP, what was the total market value of the General Retirement System and as of what date?",
+    "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+    "expected_facts": "Approximately $437 million as of June 30, 2023 (the separate Grand Rapids Police and Fire Retirement System covered by the same RFP was approximately $479 million).",
+    "acceptance": "Require $437m approximately and June 30, 2023. Separate Police and Fire amount is optional.",
+    "text_hash": "bbc5aa974f33a642622995234835e9395ec434792cd34aee6fa6e2448cb34a49",
+    "source_text_sha256": "ef809dc88bd158929af52565b0c35337429a448aa163f0f9466c3d4c5f44b3bd",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the Anchorage Police and Fire Retirement System’s 2025 RFP, not the Grand Rapids General Retirement System investment consultant RFP. Its market values are for a different system and date; it does not support the required approximately $437 million as of June 30, 2023.",
+      "quotes": [
+        "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+        "As of December 31, 2024, the pension plans had a total market value as follows:",
+        "Defined Benefit Plans I, II, III $ 333.7 million"
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+          "start": 743,
+          "end": 836
+        },
+        {
+          "quote": "As of December 31, 2024, the pension plans had a total market value as follows:",
+          "start": 2505,
+          "end": 2584
+        },
+        {
+          "quote": "Defined Benefit Plans I, II, III $ 333.7 million",
+          "start": 2585,
+          "end": 2633
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "41d24bcca10c3e93f9f4",
+    "query_id": "CONS-06",
+    "question": "Which retirement system's general investment consultant RFP requires respondents to currently provide non-discretionary general investment advice to at least 5 public pension plans larger than $5 billion and at least 2 public plans over $20 billion?",
+    "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "expected_facts": "Texas Municipal Retirement System (TMRS).",
+    "acceptance": "TMRS or the full system name is sufficient; repeating thresholds is optional.",
+    "text_hash": "2e5c9ac10ac2943a19269fe0ceeab6dc6cca5c9b732ec461770764bed168feeb",
+    "source_text_sha256": "698b71034e03dda497378807f02ef9875cc985ad2aafde5d24accec7bdff2d4b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a South Carolina Retirement System Investment Commission RFP, not a TMRS RFP. Its stated minimum client qualification is different, and it does not state the specified five-plan and two-plan thresholds.",
+      "quotes": [
+        "The South Carolina Retirement System Investment Commission (“RSIC”, or “Client”) is requesting competitive proposals",
+        "The firm selected must have at least one (1) defined benefit general consulting client with a minimum of $10 billion in assets."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The South Carolina Retirement System Investment Commission (“RSIC”, or “Client”) is requesting competitive proposals",
+          "start": 304,
+          "end": 420
+        },
+        {
+          "quote": "The firm selected must have at least one (1) defined benefit general consulting client with a minimum of $10 billion in assets.",
+          "start": 32245,
+          "end": 32372
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

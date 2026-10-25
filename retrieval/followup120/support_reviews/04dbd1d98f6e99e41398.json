@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "04dbd1d98f6e99e41398",
+    "query_id": "INV-04",
+    "question": "In the Illinois Firefighters' Pension Investment Fund (FPIF) February 2023 RFP for private markets investment consulting and discretionary OCIO advisory services, what long-term target allocation to private markets is FPIF building, and how is it split across asset classes?",
+    "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+    "expected_facts": "A long-term target of 31% to private market asset classes: 10% private equity, 7% private debt, 10% real estate and 4% infrastructure. (FPIF seeks one non-discretionary consultant and approximately three discretionary OCIO advisors for this portfolio.)",
+    "acceptance": "Require total 31% and 10% PE / 7% private debt / 10% real estate / 4% infrastructure. Consultant/advisor counts and core/non-core splits are optional.",
+    "text_hash": "70ba69fa78a5262a5a903e6c962a7ed533f83b2f39cbeaae0d6efcae5122f669",
+    "source_text_sha256": "c0d34ab691e3323f8b02fd000d177f6559326d07370721a1d326e71475259a58",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Boston Retirement System investment-consulting questionnaire, not the Illinois FPIF February 2023 RFP. It does not state FPIF’s 31% private-markets target or the required asset-class allocations.",
+      "quotes": [
+        "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+        "This questionnaire is intended to provide BRS with specific information concerning your ability to provide General, Public and Private Markets Investment Consulting services",
+        "What is the range of private equity target allocations which you are currently recommending to your clients?"
+      ],
+      "quote_matches": [
+        {
+          "quote": "BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+          "start": 86,
+          "end": 163
+        },
+        {
+          "quote": "This questionnaire is intended to provide BRS with specific information concerning your ability to provide General, Public and Private Markets Investment Consulting services",
+          "start": 971,
+          "end": 1144
+        },
+        {
+          "quote": "What is the range of private equity target allocations which you are currently recommending to your clients?",
+          "start": 20175,
+          "end": 20283
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

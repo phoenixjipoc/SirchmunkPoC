@@ -1,0 +1,48 @@
+{
+  "id": "19e3f9260c8adaf4bb46",
+  "query_id": "DDQ-01",
+  "question": "Which due diligence questionnaire in the corpus asks the manager 'What kills a deal for your team?', and who published it?",
+  "file": "NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+  "expected_facts": "The Private Markets Due Diligence Questionnaire ('Your Resource for Evaluating Private Market Partners') published by Calamos Investments with Aksia (file AC_Private_Markets). The question appears under General Questions > Investment Strategy and asks the manager to describe a recent example.",
+  "acceptance": "AC Private Markets / Calamos with Aksia accepted. Subtitle, copyright year and recent-example follow-up are optional.",
+  "text_hash": "3516f06942296a13790d5250dd3dc95e16beeedcedf43881e04dbdadcf57a737",
+  "source_text_sha256": "08f79c49a998e8248f8328721eb10847c01f41d0d431e9afc498a5d3f2e09555",
+  "second_check_required": true,
+  "prior_reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a questionnaire for respondents to a New Jersey life-science fund notice. It does not contain the quoted deal question or identify the Calamos Investments–Aksia questionnaire or its publishers.",
+      "quotes": [
+        "APPENDIX A DUE DILIGENCE QUESTIONNAIRE",
+        "Respondents to this notice are required to submit detailed responses to these questions as applicable",
+        "4.0 Proposed Fund Investment Strategy",
+        "4.6. Describe respondent’s proposal for how the Fund will invest the capital in NJ-based, Life Science/ Healthcare companies."
+      ],
+      "quote_matches": [
+        {
+          "quote": "APPENDIX A DUE DILIGENCE QUESTIONNAIRE",
+          "start": 13,
+          "end": 51
+        },
+        {
+          "quote": "Respondents to this notice are required to submit detailed responses to these questions as applicable",
+          "start": 52,
+          "end": 153
+        },
+        {
+          "quote": "4.0 Proposed Fund Investment Strategy",
+          "start": 5788,
+          "end": 5825
+        },
+        {
+          "quote": "4.6. Describe respondent’s proposal for how the Fund will invest the capital in NJ-based, Life Science/ Healthcare companies.",
+          "start": 6935,
+          "end": 7060
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ]
+}

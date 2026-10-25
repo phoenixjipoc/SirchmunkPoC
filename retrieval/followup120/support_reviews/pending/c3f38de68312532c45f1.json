@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "c3f38de68312532c45f1",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "0666a4752a3ae0a7910c24a7c285ffaaa10083f60e8c67b4342d3518c8062d73",
+    "source_text_sha256": "0b9aca72670eb972abc23eff3632645fe86fee9eaf9c4e0c3c722bd89a4d4b77",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is KCERA’s 2024 actuarial audit services RFP, not the ILPA Due Diligence Questionnaire 2.0. Its table of contents does not list the requested eight appendices or their titles.",
+      "quotes": [
+        "Kern County Employees’ Retirement Association Request for Proposal ACTUARIAL AUDIT SERVICES March 29, 2024",
+        "EXHIBIT A – BOARD OF TRUSTEES & STAFF 22 EXHIBIT B – SCOPE OF SERVICES 23 EXHIBIT C – QUESTIONNAIRE 25"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Kern County Employees’ Retirement Association Request for Proposal ACTUARIAL AUDIT SERVICES March 29, 2024",
+          "start": 13,
+          "end": 119
+        },
+        {
+          "quote": "EXHIBIT A – BOARD OF TRUSTEES & STAFF 22 EXHIBIT B – SCOPE OF SERVICES 23 EXHIBIT C – QUESTIONNAIRE 25",
+          "start": 1174,
+          "end": 1276
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

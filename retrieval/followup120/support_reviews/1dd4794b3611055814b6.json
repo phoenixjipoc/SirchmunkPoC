@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "1dd4794b3611055814b6",
+    "query_id": "INV-11",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for investment consulting, real estate consulting and performance measurement services, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "expected_facts": "Three factors: (1) Organization - stability, ownership, documented experience of key professionals; (2) Consulting Skill - investment philosophy, investment manager information collection and monitoring systems, risk management tools, performance measurement systems, and breadth of consulting expertise and experience; (3) Fees - consulting fees for services requested and associated costs.",
+    "acceptance": "Three factors with substantively equivalent descriptions suffice; exact wording and order are unnecessary.",
+    "text_hash": "ba38eb84b9e6630e06869a17bd0a8d39bbd7f3fbf79cf38deccbc05584512bde",
+    "source_text_sha256": "71f7dc2105be0914ed5549193987a3d5f6eda22588e7c5e025dd27c5e41ee8a0",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Teachers’ Retirement System RFP for private equity investment consulting, not the IMRF sample RFP. Its evaluation criteria do not establish the three factors specified for the IMRF selection process.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES",
+        "All proposals received by TRS on or before the deadline listed above will be reviewed to determine whether they meet the minimum requirements of this RFP.",
+        "Proposals will be evaluated based on criteria including:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES",
+          "start": 13,
+          "end": 137
+        },
+        {
+          "quote": "All proposals received by TRS on or before the deadline listed above will be reviewed to determine whether they meet the minimum requirements of this RFP.",
+          "start": 19617,
+          "end": 19771
+        },
+        {
+          "quote": "Proposals will be evaluated based on criteria including:",
+          "start": 20208,
+          "end": 20264
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "8939fb31e60c470ccefb",
+    "query_id": "CONS-02",
+    "question": "In the NYC Board of Education Retirement System (BERS) RFP 2024-003 for investment consulting services, how many maximum evaluation points are assigned to the annual fee proposal?",
+    "file": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "expected_facts": "28 points (out of 100). Full breakdown: Program Plan/Narrative 18, Organizational Capacity/Knowledge and Experience 23, Demonstrated Effectiveness 22, Fee Proposal - Annual Fee 28, Fee Proposal - Hourly Rate 9.",
+    "acceptance": "28 points alone is sufficient. Other scoring categories and fee formula are optional.",
+    "text_hash": "3ecf7188afbf06d1992a2e369435746a5f1872698632985399a9e054bf75b408",
+    "source_text_sha256": "245be5bf903c98e9c43a03f3b620302180f76969b88872c25a7e2f9026336a20",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2023 investment-consulting RFP for the City of Grand Rapids retirement systems, not NYC BERS RFP 2024-003. It does not state the maximum evaluation points for an annual fee proposal.",
+      "quotes": [
+        "JULY 27, 2023 CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM INVESTMENT CONSULTANT SERVICES REQUEST FOR PROPOSAL (“RFP”)",
+        "G. FEES 1. Please indicate in detail your fee schedule"
+      ],
+      "quote_matches": [
+        {
+          "quote": "JULY 27, 2023 CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM INVESTMENT CONSULTANT SERVICES REQUEST FOR PROPOSAL (“RFP”)",
+          "start": 13,
+          "end": 188
+        },
+        {
+          "quote": "G. FEES 1. Please indicate in detail your fee schedule",
+          "start": 17708,
+          "end": 17762
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

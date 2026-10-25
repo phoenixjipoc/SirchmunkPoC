@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "9022d2a0c917412b7832",
+    "query_id": "INV-11",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for investment consulting, real estate consulting and performance measurement services, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+    "expected_facts": "Three factors: (1) Organization - stability, ownership, documented experience of key professionals; (2) Consulting Skill - investment philosophy, investment manager information collection and monitoring systems, risk management tools, performance measurement systems, and breadth of consulting expertise and experience; (3) Fees - consulting fees for services requested and associated costs.",
+    "acceptance": "Three factors with substantively equivalent descriptions suffice; exact wording and order are unnecessary.",
+    "text_hash": "7ca1e14444ead93c558b519eddbe0502bb5f080ce8678e247801de0ecb9652b8",
+    "source_text_sha256": "ff5ef248d4411638a865914ce676b07109767b5888006ef4708fd3c12c06a986",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2024 New York City Board of Education Retirement System RFP, not the IMRF sample RFP. Its evaluation criteria cannot establish how respondents are evaluated and ranked under the IMRF sample.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES RFP # 2024-003",
+        "This Request for Proposals (“RFP”) is issued by the NYC Board of Education Retirement System (“BERS” or the “Agency”).",
+        "The scoring table below will be used to evaluate each submitted proposal."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES RFP # 2024-003",
+          "start": 13,
+          "end": 84
+        },
+        {
+          "quote": "This Request for Proposals (“RFP”) is issued by the NYC Board of Education Retirement System (“BERS” or the “Agency”).",
+          "start": 5004,
+          "end": 5122
+        },
+        {
+          "quote": "The scoring table below will be used to evaluate each submitted proposal.",
+          "start": 57548,
+          "end": 57621
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

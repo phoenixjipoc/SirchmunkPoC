@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "47cce08a2a89f10ce5cf",
+    "query_id": "INV-12",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for domestic equity small cap growth investment management, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+    "expected_facts": "Four primary factors: (a) People - stability of the organization, ownership structure and documented experience of key professionals; (b) Process - clearly defined, reasonable and repeatable investment strategy; (c) Performance - documented ability to meet investment performance benchmarks; (d) Pricing - fee schedule and associated costs.",
+    "acceptance": "Accept People, Process, Performance, Pricing and faithful descriptions; exact labels are not mandatory.",
+    "text_hash": "4f7b225da38ba2910c55f1ea4315e95ab8e744efe8938a4f9bf7e044a4cb4ef3",
+    "source_text_sha256": "98e8f8f7a68546605480b8e76d3f362a5feebe06263622702fa575595bb98128",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an ILPA private-equity due diligence questionnaire, not the IMRF sample RFP for domestic equity small cap growth investment management. It does not state the factors used to evaluate and rank respondents in that RFP.",
+      "quotes": [
+        "The ILPA Due Diligence Questionnaire (DDQ) reflects the view of the participants involved in the creation thereof as to best practices with respect to fund diligence.",
+        "The ILPA DDQ covers many topics related to fund diligence"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The ILPA Due Diligence Questionnaire (DDQ) reflects the view of the participants involved in the creation thereof as to best practices with respect to fund diligence.",
+          "start": 1962,
+          "end": 2128
+        },
+        {
+          "quote": "The ILPA DDQ covers many topics related to fund diligence",
+          "start": 4747,
+          "end": 4804
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "750dd1a917a5ba4ed877",
+    "query_id": "INV-20",
+    "question": "Which meetings must the investment consultant attend under the IMRF sample RFP for investment consulting, real estate consulting and performance measurement services, and how many days of meetings per year does IMRF estimate?",
+    "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "expected_facts": "(1) Monthly IMRF Board meetings; (2) Investment Committee meetings; (3) the Annual IMRF Roundtable; (4) regional meetings with investment managers; (5) related investment meetings and discussions; (6) formal interviews with existing and potential investment managers; (7) ad hoc due diligence meetings with investment managers and staff. IMRF estimates about sixty days of meetings per year with the Board and/or staff, plus frequent telephone discussions with staff.",
+    "acceptance": "All seven meeting categories and about 60 days/year. Frequent telephone calls and principal-attendance details are optional.",
+    "text_hash": "afed2142cd9b5f90246d59a5737b84e7449b0c4dc717232226f57461b45a9b9e",
+    "source_text_sha256": "4e6f311f7c398d5daed9e60599d032ec43a08c449bc5eec7b5f5fb388433a80b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an SFERS RFP, not the IMRF sample RFP. Its monthly Board-meeting requirement concerns SFERS; it does not support the seven IMRF meeting categories or IMRF’s estimate of about 60 meeting days per year.",
+      "quotes": [
+        "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System",
+        "Attend regular monthly Board meetings and other special meetings as requested by the Board or SFERS staff."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System",
+          "start": 13,
+          "end": 147
+        },
+        {
+          "quote": "Attend regular monthly Board meetings and other special meetings as requested by the Board or SFERS staff.",
+          "start": 5765,
+          "end": 5871
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

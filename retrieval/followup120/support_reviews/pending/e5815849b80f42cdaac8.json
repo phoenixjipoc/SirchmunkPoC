@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "e5815849b80f42cdaac8",
+    "query_id": "INV-11",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for investment consulting, real estate consulting and performance measurement services, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+    "expected_facts": "Three factors: (1) Organization - stability, ownership, documented experience of key professionals; (2) Consulting Skill - investment philosophy, investment manager information collection and monitoring systems, risk management tools, performance measurement systems, and breadth of consulting expertise and experience; (3) Fees - consulting fees for services requested and associated costs.",
+    "acceptance": "Three factors with substantively equivalent descriptions suffice; exact wording and order are unnecessary.",
+    "text_hash": "1e3dc8db2f90933455b7c59967386b76eea64636a15cef3b8eab8a745b55231f",
+    "source_text_sha256": "06485a707e23d6959251e5fd04214a5b46701f4130bbf13f2073c46e88f74e02",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Baltimore BCERS RFP for an alternatives consultant, not the IMRF sample RFP for investment consulting, real estate consulting and performance measurement services. Its evaluation criteria cannot establish how respondents are evaluated and ranked under the IMRF RFP.",
+      "quotes": [
+        "THE EMPLOYEES’ RETIREMENT SYSTEM and OPEB TRUST – CITY OF BALTIMORE REQUEST FOR PROPOSALS (RFP) for ALTERNATIVES CONSULTANT",
+        "A summary of the proposals will be presented to the BCERS Board of Trustees. The Board will select the finalists for subsequent oral presentation of their proposals."
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE EMPLOYEES’ RETIREMENT SYSTEM and OPEB TRUST – CITY OF BALTIMORE REQUEST FOR PROPOSALS (RFP) for ALTERNATIVES CONSULTANT",
+          "start": 13,
+          "end": 136
+        },
+        {
+          "quote": "A summary of the proposals will be presented to the BCERS Board of Trustees. The Board will select the finalists for subsequent oral presentation of their proposals.",
+          "start": 15371,
+          "end": 15536
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

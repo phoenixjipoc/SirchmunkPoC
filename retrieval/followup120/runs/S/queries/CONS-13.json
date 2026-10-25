@@ -1,0 +1,54 @@
+{
+  "query_id": "CONS-13",
+  "question": "How many printed copies of the proposal must be submitted in the San Francisco Employees' Retirement System (SFERS) general investment consultant RFP?",
+  "type": "pair_b",
+  "pair_id": "P2",
+  "group": "S",
+  "references": [
+    {
+      "rank": 1,
+      "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+      "path": "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    }
+  ],
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "baseline_sha256": "293f74d93a32ea1505605a421de73015c9e597edb74c401193d2b3952c72b194",
+  "original_files": [
+    "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+  ],
+  "ranking_prompt": "{\"question\": \"How many printed copies of the proposal must be submitted in the San Francisco Employees' Retirement System (SFERS) general investment consultant RFP?\", \"candidates\": [{\"filename\": \"SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf\", \"extension\": \".pdf\", \"title\": \"August 11, 2008\", \"author\": \"dpcadmin\", \"page_count\": 21, \"keywords\": [\"dpcadmin\"], \"preview\": \"SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM \\nREQUEST FOR PROPOSAL (RFP) FOR \\nGENERAL INVESTMENT CONSULTANT\", \"full_content\": \"\"}, {\"filename\": \"SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf\", \"extension\": \".pdf\", \"title\": \"Model RFP\", \"author\": \"Barbara Peters\", \"page_count\": 72, \"keywords\": [\"Barbara Peters\"], \"preview\": \"Request for Proposals for \\nGeneral Investment Consulting Services \\nfor the City and County of San Francisco \\nEmployees’ Retirement System \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nDate Issued:  November 1, 2022 \\nDeadline for Submission: December 15, 2022 at 5:00 PM Pacific Time\", \"full_content\": \"\"}, {\"filename\": \"TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf\", \"extension\": \".pdf\", \"title\": \" TMRS RFP General Investment Consulting Services\", \"author\": \"TMRS\", \"page_count\": 39, \"keywords\": [\"TMRS\"], \"preview\": \"1 \\n \\n \\n \\n \\nRequest for Proposal (RFP) \\nNON-DISCRETIONARY  \\nGENERAL INVESTMENT CONSULTING SERVICES \\n \\n \\nNotice to Prospective Respondents \\nFebruary 3, 2022 \\n \\nYou are invited to review and respond to this Texas Municipal Reti rement System (TMRS) Request \\nfor Proposal ( RFP) e ntitled Non-Discretionary General Investment  Consulting Services . In \\nsubmitting your proposal, you must comply with the instructions found herein.   \\n \\nResponses must be received  no later than 5:00 p.m. Central Standard Time (CST) on March 3, \\n2022.  Pro posals received after this  date and time will not be considered.  Please see Section -VII – \\nTransmittal instructions for detailed information on how to respond. \\n                            \\nRespondents requiring clarification of the content of this RFP may r\", \"full_content\": \"\"}]}",
+  "keyword_files": [
+    "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+  ],
+  "status": "ok",
+  "elapsed_s": 2.657,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 714,
+    "completion_tokens": 115,
+    "total_tokens": 829
+  },
+  "attempt": 1
+}

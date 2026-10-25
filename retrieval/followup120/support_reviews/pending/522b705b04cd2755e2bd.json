@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "522b705b04cd2755e2bd",
+    "query_id": "XD-13",
+    "question": "What does the ILPA Due Diligence Questionnaire 2.0 ask about GP-led secondaries and continuation funds in Section 6?",
+    "file": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "expected_facts": "Section 6.0 opens with two Yes/No screening questions. 6.1 asks whether the Firm has done a GP-led secondary in the last five years, and 6.2 asks the same for a continuation fund transaction. Each has four follow-ups: did the LPAC review conflicts in every transaction; was a status quo option available to existing LPs in every transaction; was GP carry rolled over at 100% in every transaction; and were portfolio companies in an IPO or pre-IPO process excluded. Narrative questions 6.3-6.11 then cover: how conflicts of interest are reviewed with the LPAC and LPs (timing, information, Firm benefits not accruing to LPs, transparency on LPAC members or affiliates acting as acquirers); the information given to the LPAC/LPs and its timing; how new fund documents and side letters are structured; the options offered to LPs, including status quo, and differences for new or 'rolling' LPs; the impact on GP economics, alignment of interests and Key Person provisions; the rationale for this route rather than a fund extension or traditional exit; how the bidding universe and valuations are set (secondary managers, third-party advisers, valuation providers); fee structuring (broken deal/termination fees, sharing of transaction costs, management fee, carry); and disclosure of related deals between the GP and acquirers (e.g. stapled transactions or side deals).",
+    "acceptance": "Accept a concise summary covering transaction history, four screening follow-ups, conflicts/disclosure and information, legal/economic/LP options, rationale, bidding/valuation, fees/carry and related deals. Exact subquestion numbering and every illustrative detail are optional.",
+    "text_hash": "013acad3f1f8520c2684a10f9b3d8fe0a1e3b30393ebcfaf64bc1f9156b80e3a",
+    "source_text_sha256": "2ad75cdaeecab9651d3f225547abe579638bbba888408fcd731110baaa9f8322",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a Los Angeles Fire and Police Pensions RFP for financial statement audit services, not the ILPA Due Diligence Questionnaire 2.0. Its Section 6 is an appendix and does not address GP-led secondaries or continuation funds.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FINANCIAL STATEMENT AUDIT SERVICES",
+        "Los Angeles Fire and Police Pensions",
+        "6. Appendix",
+        "6.1 General Terms and Conditions"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FINANCIAL STATEMENT AUDIT SERVICES",
+          "start": 13,
+          "end": 69
+        },
+        {
+          "quote": "Los Angeles Fire and Police Pensions",
+          "start": 171,
+          "end": 207
+        },
+        {
+          "quote": "6. Appendix",
+          "start": 4467,
+          "end": 4478
+        },
+        {
+          "quote": "6.1 General Terms and Conditions",
+          "start": 4591,
+          "end": 4623
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

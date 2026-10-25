@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "6ddd01eb51cc61c1aeba",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "81e913c98df37dcfd35af28d88b1b03c1dc82eb7e2f99c9c19de8d06866fc421",
+    "source_text_sha256": "2d54872fc00a587921e9e76823bb49d685f32d834a6c8320657ad95eb8fd8f87",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an Indiana Public Retirement System RFP for alternative investment consulting, not the SBCERS global custody RFP. Its evaluation criteria have no percentage weights and do not support the four required weighted categories.",
+      "quotes": [
+        "Request for Proposals (“RFP”) for Alternative Investment Consulting Services for the Indiana Public Retirement System (“INPRS” or the “System”).",
+        "1.4 Issuer INPRS is issuing this RFP in accordance with Indiana statutes governing the procurement of services and certain administrative policies of INPRS.",
+        "Specific criteria include: • Fulfilling the requirements set forth in the RFP • Financial Strength • Technical knowledge, skills, and other competencies of the vendor"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals (“RFP”) for Alternative Investment Consulting Services for the Indiana Public Retirement System (“INPRS” or the “System”).",
+          "start": 2274,
+          "end": 2418
+        },
+        {
+          "quote": "1.4 Issuer INPRS is issuing this RFP in accordance with Indiana statutes governing the procurement of services and certain administrative policies of INPRS.",
+          "start": 8358,
+          "end": 8514
+        },
+        {
+          "quote": "Specific criteria include: • Fulfilling the requirements set forth in the RFP • Financial Strength • Technical knowledge, skills, and other competencies of the vendor",
+          "start": 36319,
+          "end": 36485
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

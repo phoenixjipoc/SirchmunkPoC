@@ -1,0 +1,507 @@
+{
+  "query_id": "DDQ-08",
+  "question": "In the 2021 version of ILPA's ESG Assessment Framework FAQ, how many resources are listed in answer to 'Where can I find additional resources pertaining to ESG?', and what are they?",
+  "type": "pair_a",
+  "pair_id": "P7",
+  "seed": 2562191129,
+  "references": [
+    {
+      "rank": 1,
+      "file": "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+      "path": "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+      "path": "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "ILPA__ILPA-ESG-Assessment-Framework.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf"
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "keywords": {
+    "2021 ILPA ESG Assessment Framework FAQ": 9.0,
+    "additional resources pertaining to ESG": 7.0,
+    "ILPA ESG Assessment Framework": 9.0,
+    "ESG评估框架": 8.0,
+    "ESG补充资源": 7.0
+  },
+  "keyword_terms": [
+    "2021 ILPA ESG Assessment Framework FAQ",
+    "additional resources pertaining to ESG",
+    "ILPA ESG Assessment Framework",
+    "ESG评估框架",
+    "ESG补充资源"
+  ],
+  "directory_prompt": "You are a document triage specialist. Analyze the scanned files below and rank them by relevance to the user's query.\n\n## Directory Structure\nRoot: /mnt/docs/S\n```\n  ./ (20 files)\n```\n\n## User Query\nIn the 2021 version of ILPA's ESG Assessment Framework FAQ, how many resources are listed in answer to 'Where can I find additional resources pertaining to ESG?', and what are they?\n\n## Scanned Files\n- **Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf** (.pdf, 426.2KB)\n  Title: Request for Proposal\n  Author: Cummings, Meg\n  Pages/Sheets: 24\n  Keywords: Cummings, Meg\n  Modified: 2026-10-07\n  Preview: 3    Request for Proposal  Actuarial and Consulting  Services for Pension Benefits                                                B o s t o n  R e t i r e m e n t  S y s t e m   B o s t o n  C i t y\n\n- **Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf** (.pdf, 298.1KB)\n  Title: Madison PF RFP for Investment Manager 3.9.2020 (01259332).DOCX\n  Author: Byron Poore\n  Pages/Sheets: 17\n  Keywords: Byron Poore\n  Modified: 2026-10-07\n  Preview: 01259332-1  RFP No. 2025-__ - Investment Consulting and Management Services Page 1    4898-5945-2974, v. 1                    Police Officers’ and Firefighters’   Retirement System  Board of Trustees\n\n- **INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc** (.doc, 1.2MB)\n  Modified: 2026-10-07\n\n- **SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf** (.pdf, 1.5MB)\n  Author: Kristina Richter\n  Pages/Sheets: 97\n  Keywords: Kristina Richter\n  Modified: 2026-10-07\n  Preview: Santa Barbara County Employees’ Retirement System Global Custody and Related Services 1      Request for Proposal       Global Custody and Related Services  Santa Barbara County Employees’ Retirement\n\n- **Rice_University__2021_Benefit_Plan_RFP_-_final.pdf** (.pdf, 167.9KB)\n  Title: Request for Proposal To Provide Audit Services for the\n  Author: Evelyn Stewart\n  Pages/Sheets: 6\n  Keywords: Evelyn Stewart\n  Modified: 2026-10-07\n  Preview: 1 | Page     Request for Proposal to Provide Audit Services for the   William Marsh Rice University Defined Contribution Retirement Plan    INTRODUCTION   Rice University (“the University”) requests a\n\n- **Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf** (.pdf, 197.1KB)\n  Title: ATTACHMENT 3C – FOR BOTH GENERAL AND PUBLIC MARKET CONSULTANT AND ALTERNATIVE CONSULTANT—SERVICE LEVEL THREE\n  Author: DanielGr\n  Pages/Sheets: 12\n  Keywords: DanielGr\n  Modified: 2026-10-07\n  Preview: Attachment 3-1          ATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES  PROPOSAL QUESTIONNAIRE    BOSTON RETIREMENT SYSTEM    Investment Consulting Services   Request for Proposals  INSTRUCTIONS\n\n- **Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf** (.pdf, 217.9KB)\n  Author: John Kelly\n  Pages/Sheets: 15\n  Keywords: John Kelly\n  Modified: 2026-10-07\n  Preview: BOSTON  RETIREMENT SYSTEM  (“BRS”)    INVESTMENT CONSULTING SERVICES  REQUEST FOR PROPOSALS  (“RFP”)\n\n- **AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf** (.pdf, 185.4KB)\n  Title: Private Markets Due Diligence Questionnaire\n  Pages/Sheets: 4\n  Modified: 2026-10-07\n  Preview: As you explore potential partnerships in private markets, it’s important to recognize that these investments work differently  than traditional public market investments held in daily liquid vehicles,\n\n- **ILPA__240901-ESG-Assessment-Framework-FAQ.pdf** (.pdf, 117.2KB)\n  Author: Microsoft Office User\n  Pages/Sheets: 3\n  Keywords: Microsoft Office User\n  Modified: 2026-10-07\n  Preview: Institutional Limited Partners Association                              1776 I St. NW Suite 525 Washington, D.C. 20006    ESG Assessment Framework – Key Considerations & FAQ    Overview   ILPA release\n\n- **Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf** (.pdf, 330.0KB)\n  Author: Melissa Rackers\n  Pages/Sheets: 21\n  Keywords: Melissa Rackers\n  Modified: 2026-10-07\n  Preview: Page | 1          REQUEST FOR PROPOSAL  PRIVATE MARKET CONSULTING SERVICES  Prepared: July 1, 2024                Missouri Local Government Employees   Retirement System (LAGERS)  701 W. Main Street,\n\n- **NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf** (.pdf, 197.3KB)\n  Author: Emmanuel Esochaghi\n  Pages/Sheets: 7\n  Keywords: Emmanuel Esochaghi\n  Modified: 2026-10-07\n  Preview: 15    APPENDIX A  DUE DILIGENCE QUESTIONNAIRE  Respondents to this notice are required to submit detailed responses to these questions as applicable,  which give insight into the prospective managers’\n\n- **CAJPA__28._Appendix_Z-Sample_Invest.pdf** (.pdf, 48.1KB)\n  Title: Microsoft Word - 2009-2010 Accreditation Manual.doc\n  Author: JMcDonald\n  Pages/Sheets: 9\n  Keywords: JMcDonald\n  Modified: 2026-10-07\n  Preview: Z. SAMPLE INVESTMENT MANAGEMENT  REQUEST FOR PROPOSAL (RFP)  REQUEST FOR PROPOSAL FOR INVESTMENT MANAGEMENT SERVICES FOR [Name of JPA] RETURN PROPOSALS TO: John Doe Pool Administrator [Name of JPA] 123 Main Street City, CA XXXXX DEADLINE FOR FILING: [DATE] [TIME] Approved for inclusion in the Accreditation Manual  As revised November 2, 2010\n\n- **OCERS__custodian_services_rfp_questions_and_answers.pdf** (.pdf, 300.4KB)\n  Title: Custodian Services RFP Questions and Answers\n  Author: OCERS\n  Pages/Sheets: 12\n  Keywords: OCERS, OCERS Custodian Services RFP Questions and Answers\n  Modified: 2026-10-07\n  Preview: Custody Services  Request for Proposal  Questions & Answers    October 2022                                  Orange County Employees Retirement System (OCERS)  P.O. Box 1229  Santa Ana, CA 927021-(714\n\n- **Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf** (.pdf, 351.7KB)\n  Title: Microsoft Word - Private Markets RFP V3 2023.02.13\n  Author: mgreen\n  Pages/Sheets: 33\n  Keywords: mgreen\n  Modified: 2026-10-07\n  Preview: Firefighters’ Pension Investment Fund  Request for Proposals  for  Private Markets Investment Consulting and Discretionary OCIO Advisory Services      February 13, 2023\n\n- **Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf** (.pdf, 285.5KB)\n  Author: Brad Tillberg\n  Pages/Sheets: 17\n  Keywords: Brad Tillberg\n  Modified: 2026-10-07\n  Preview: OPERS RFP – Investment Management Services – Issued July 20, 2023  Page 1 of 17  THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM    REQUEST FOR PROPOSAL  #515-24-001    U.S. EQUITY, Non-U.S. EQUITY, A\n\n- **Temple_City_CA__Recordkeeping-RFP.pdf** (.pdf, 925.0KB)\n  Title: REQUEST FOR PROPOSAL\n  Author: kwelch\n  Pages/Sheets: 57\n  Keywords: kwelch\n  Modified: 2026-10-07\n  Preview: City of Temple City, California  457 Deferred Compensation Plan    Request for Proposals for  Plan Administration and Record Keeping Services                        RFP DISTRIBUTION DATE: June 17, 202\n\n- **OCERS__ocers_pas_consultant_rfp.pdf** (.pdf, 602.1KB)\n  Title: Pension Administration Project Oversight and Consultation Services RFP\n  Author: OCERS\n  Pages/Sheets: 39\n  Keywords: OCERS, Pension Administration Project Oversight and Consultation Services OCERS RFP\n  Modified: 2026-10-07\n  Preview: Pension Administration System Consulting RFP Page 1    Pension Administration Project  Oversight and Consultation  Services  Request for Proposal    September 2023                                  Ora\n\n- **TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf** (.pdf, 752.5KB)\n  Title: TMRS • Request for Proposal • Global Custody and Related Services\n  Author: TMRS\n  Pages/Sheets: 79\n  Keywords: TMRS\n  Modified: 2026-10-07\n  Preview: 1 Request for Proposal  Global Custody  and Related Services   Texas Municipal Retirement System (TMRS)  Is s u e  D a t e :  De c e m b e r  1 1 ,  2 0 2 0   Q u e s t i o n s  D u e :  De c e m b e\n\n- **INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf** (.pdf, 998.5KB)\n  Title:  \n  Author: Constantin Sorlescu\n  Pages/Sheets: 41\n  Keywords: Constantin Sorlescu\n  Modified: 2026-10-07\n  Preview: 1\n\n- **INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf** (.pdf, 1.0MB)\n  Author: Jeffrey Hutson\n  Pages/Sheets: 58\n  Keywords: Jeffrey Hutson\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS (“RFP”) for  ALTERNATIVE INVESTMENT CONSULTING SERVICES    RFP NUMBER 23-09      RELEASE DATE:  October 23, 2023  DEADLINE FOR INQUIRIES: November 13, 2023, 3:00 P.M. (EST)  DEAD\n\n## Instructions\n1. Evaluate EVERY file listed above. Consider directory names, filenames, titles, keywords, and preview content as relevance signals.\n2. Assign \"high\" (directly relevant), \"medium\" (possibly relevant), or \"low\" (unlikely relevant) to each file.\n3. For the \"path\" field, copy the **exact relative path** shown in bold (e.g. `subdir/file.pdf`) from the scan results above.\n4. Return ONLY a JSON array — no other text.\n\n## Output Format (use the EXACT path shown in the file listing)\n```json\n[\n  {\"path\": \"exact/relative/path/from/listing\", \"relevance\": \"high\", \"reason\": \"brief reason\"}\n]\n```",
+  "keyword_files": [
+    "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+    "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+    "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+    "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+    "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf"
+  ],
+  "directory_ranking": [
+    {
+      "path": "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+      "filename": "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+      "extension": ".pdf",
+      "size_bytes": 120000,
+      "modified_at": "2026-10-07T07:12:03",
+      "created_at": "2026-10-07T07:19:56.936045",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Microsoft Office User",
+      "page_count": 3,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Microsoft Office User"
+      ],
+      "preview": "Institutional Limited Partners Association                              1776 I St. NW Suite 525 Washington, D.C. 20006 \n \nESG Assessment Framework – Key Considerations & FAQ \n \nOverview  \nILPA released this ESG Assessment Framework as a resource for limited partners looking to build a \ntool to evalu",
+      "content_loaded": false,
+      "relevance": "high",
+      "reason": "ILPA ESG Assessment Framework FAQ; directly matches the document in the query."
+    },
+    {
+      "path": "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+      "filename": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+      "extension": ".pdf",
+      "size_bytes": 436410,
+      "modified_at": "2026-10-07T07:07:11",
+      "created_at": "2026-10-07T07:19:56.324056",
+      "mime_type": "application/pdf",
+      "title": "Request for Proposal",
+      "author": "Cummings, Meg",
+      "page_count": 24,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Cummings, Meg"
+      ],
+      "preview": "3 \n \nRequest for Proposal \nActuarial and Consulting \nServices for Pension Benefits  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \nB o s t o n  R e t i r e m e n t  S y s t e m  \nB o s t o n  C i t y  H a l l ,  R o o m  8 1 6  \nO n e  C i t y  H a l l  S q u a r e  \nB o s t o n ,  M A   0 2 2 0 1  \n",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Pension benefits consulting RFP, not the ILPA FAQ."
+    },
+    {
+      "path": "/mnt/docs/S/Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+      "filename": "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+      "extension": ".pdf",
+      "size_bytes": 305260,
+      "modified_at": "2026-10-07T07:05:33",
+      "created_at": "2026-10-07T07:19:57.972027",
+      "mime_type": "application/pdf",
+      "title": "Madison PF RFP for Investment Manager 3.9.2020 (01259332).DOCX",
+      "author": "Byron Poore",
+      "page_count": 17,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Byron Poore"
+      ],
+      "preview": "01259332-1  RFP No. 2025-__ - Investment Consulting and Management Services Page 1 \n \n4898-5945-2974, v. 1 \n \n \n \n \n \n \n \n \n \nPolice Officers’ and Firefighters’  \nRetirement System \nBoard of Trustees  \n \n************************************************************************** \n \nRFP No. 2025-0901 ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment consulting RFP, not the ILPA FAQ."
+    },
+    {
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+      "filename": "INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+      "extension": ".doc",
+      "size_bytes": 1211392,
+      "modified_at": "2026-10-07T07:12:11",
+      "created_at": "2026-10-07T07:19:57.328038",
+      "mime_type": "application/msword",
+      "title": "",
+      "author": "",
+      "page_count": 0,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "INREV due diligence questionnaire, not the ILPA FAQ."
+    },
+    {
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "filename": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1598389,
+      "modified_at": "2026-10-07T07:07:42",
+      "created_at": "2026-10-07T07:19:58.636015",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Kristina Richter",
+      "page_count": 97,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Kristina Richter"
+      ],
+      "preview": "Santa Barbara County Employees’ Retirement System Global Custody and Related Services 1 \n \n \nRequest for Proposal \n \n  \nGlobal Custody and Related Services \nSanta Barbara County Employees’ Retirement System \n(“SBCERS”) \n \n  \nIssue Date:       January 8, 2024 \nQuestions Due:      January 12, 2024  \nQ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Custody services RFP, not the ILPA FAQ."
+    },
+    {
+      "path": "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+      "filename": "Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 171917,
+      "modified_at": "2026-10-07T07:14:54",
+      "created_at": "2026-10-07T07:19:58.420019",
+      "mime_type": "application/pdf",
+      "title": "Request for Proposal To Provide Audit Services for the",
+      "author": "Evelyn Stewart",
+      "page_count": 6,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Evelyn Stewart"
+      ],
+      "preview": "1 | Page  \n \nRequest for Proposal to Provide Audit Services for the  \nWilliam Marsh Rice University Defined Contribution Retirement Plan \n \nINTRODUCTION  \nRice University (“the University”) requests a proposal to provide external audit services for the \nWilliam Marsh Rice University Defined Contribu",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Benefit plan audit RFP; the matching year does not make it the ILPA FAQ."
+    },
+    {
+      "path": "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "filename": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "extension": ".pdf",
+      "size_bytes": 201881,
+      "modified_at": "2026-10-07T07:05:47",
+      "created_at": "2026-10-07T07:19:56.272057",
+      "mime_type": "application/pdf",
+      "title": "ATTACHMENT 3C – FOR BOTH GENERAL AND PUBLIC MARKET CONSULTANT AND ALTERNATIVE CONSULTANT—SERVICE LEVEL THREE",
+      "author": "DanielGr",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "DanielGr"
+      ],
+      "preview": "Attachment 3-1 \n \n \n \n \nATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES \nPROPOSAL QUESTIONNAIRE \n \nBOSTON RETIREMENT SYSTEM \n \nInvestment Consulting Services  \nRequest for Proposals \nINSTRUCTIONS \n \nBRS is considering Proposals for a General Investment Services Consultant, which encompasses Public",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment consulting proposal questionnaire, not the ILPA FAQ."
+    },
+    {
+      "path": "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+      "filename": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+      "extension": ".pdf",
+      "size_bytes": 223136,
+      "modified_at": "2026-10-07T07:05:45",
+      "created_at": "2026-10-07T07:19:56.288056",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "John Kelly",
+      "page_count": 15,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "John Kelly"
+      ],
+      "preview": "BOSTON \nRETIREMENT SYSTEM \n(“BRS”) \n \nINVESTMENT CONSULTING SERVICES \nREQUEST FOR PROPOSALS \n(“RFP”)",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment consulting RFP, not the ILPA FAQ."
+    },
+    {
+      "path": "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "filename": "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "extension": ".pdf",
+      "size_bytes": 189839,
+      "modified_at": "2026-10-07T07:15:10",
+      "created_at": "2026-10-07T07:19:56.012061",
+      "mime_type": "application/pdf",
+      "title": "Private Markets Due Diligence Questionnaire",
+      "author": "",
+      "page_count": 4,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "As you explore potential partnerships in private markets, it’s important to recognize that these investments work differently \nthan traditional public market investments held in daily liquid vehicles, such as mutual funds and ETFs. This questionnaire is \ndesigned to help you navigate those differenc",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Private markets questionnaire, not the ILPA FAQ."
+    },
+    {
+      "path": "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+      "filename": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 337910,
+      "modified_at": "2026-10-07T07:08:01",
+      "created_at": "2026-10-07T07:19:57.996027",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Melissa Rackers",
+      "page_count": 21,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Melissa Rackers"
+      ],
+      "preview": "Page | 1 \n \n \n \n \nREQUEST FOR PROPOSAL \nPRIVATE MARKET CONSULTING SERVICES \nPrepared: July 1, 2024 \n \n \n \n \n \n \n \nMissouri Local Government Employees  \nRetirement System (LAGERS) \n701 W. Main Street, Jefferson City, MO  65101 \nRFP Contact: Scott Day \nEmail:  sday@molagers.org \nPhone:  573-632-6353",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Private markets consulting RFP, not the ILPA FAQ."
+    },
+    {
+      "path": "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+      "filename": "NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+      "extension": ".pdf",
+      "size_bytes": 201996,
+      "modified_at": "2026-10-07T07:09:29",
+      "created_at": "2026-10-07T07:19:58.052026",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Emmanuel Esochaghi",
+      "page_count": 7,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Emmanuel Esochaghi"
+      ],
+      "preview": "15 \n \nAPPENDIX A \nDUE DILIGENCE QUESTIONNAIRE \nRespondents to this notice are required to submit detailed responses to these questions as applicable, \nwhich give insight into the prospective managers’ structure and policies. If not applicable, mark it “N/A” \n1.0 Respondent Firm: General Information ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment opportunity notice and questionnaire, not the ILPA FAQ."
+    },
+    {
+      "path": "/mnt/docs/S/CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+      "filename": "CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+      "extension": ".pdf",
+      "size_bytes": 49230,
+      "modified_at": "2026-10-07T07:11:18",
+      "created_at": "2026-10-07T07:19:56.336056",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - 2009-2010 Accreditation Manual.doc",
+      "author": "JMcDonald",
+      "page_count": 9,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "JMcDonald"
+      ],
+      "preview": "Z. SAMPLE INVESTMENT MANAGEMENT \nREQUEST FOR PROPOSAL (RFP) \nREQUEST FOR PROPOSAL\nFOR\nINVESTMENT MANAGEMENT SERVICES\nFOR\n[Name of JPA]\nRETURN PROPOSALS TO:\nJohn Doe\nPool Administrator\n[Name of JPA]\n123 Main Street\nCity, CA XXXXX\nDEADLINE FOR FILING:\n[DATE]\n[TIME]\nApproved for inclusion in the Accred",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "Sample investment management RFP, not the ILPA FAQ."
+    },
+    {
+      "path": "/mnt/docs/S/OCERS__custodian_services_rfp_questions_and_answers.pdf",
+      "filename": "OCERS__custodian_services_rfp_questions_and_answers.pdf",
+      "extension": ".pdf",
+      "size_bytes": 307624,
+      "modified_at": "2026-10-07T07:07:16",
+      "created_at": "2026-10-07T07:19:58.176023",
+      "mime_type": "application/pdf",
+      "title": "Custodian Services RFP Questions and Answers",
+      "author": "OCERS",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "OCERS",
+        "OCERS Custodian Services RFP Questions and Answers"
+      ],
+      "preview": "Custody Services \nRequest for Proposal \nQuestions & Answers \n \nOctober 2022 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nOrange County Employees Retirement System (OCERS) \nP.O. Box 1229 \nSanta Ana, CA 927021-(714)-558-6200 \nhttp://www.ocers.org",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Custodian services RFP questions and answers, not the ILPA FAQ."
+    },
+    {
+      "path": "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+      "filename": "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+      "extension": ".pdf",
+      "size_bytes": 360176,
+      "modified_at": "2026-10-07T07:06:38",
+      "created_at": "2026-10-07T07:19:57.420037",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - Private Markets RFP V3 2023.02.13",
+      "author": "mgreen",
+      "page_count": 33,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "mgreen"
+      ],
+      "preview": "Firefighters’ Pension Investment Fund \nRequest for Proposals \nfor \nPrivate Markets Investment Consulting and Discretionary OCIO Advisory Services \n \n \nFebruary 13, 2023",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Private markets consulting RFP, not the ILPA FAQ."
+    },
+    {
+      "path": "/mnt/docs/S/Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+      "filename": "Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 292309,
+      "modified_at": "2026-10-07T07:06:35",
+      "created_at": "2026-10-07T07:19:58.324021",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Brad Tillberg",
+      "page_count": 17,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Brad Tillberg"
+      ],
+      "preview": "OPERS RFP – Investment Management Services – Issued July 20, 2023 \nPage 1 of 17 \nTHE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM \n \nREQUEST FOR PROPOSAL \n#515-24-001 \n \nU.S. EQUITY, Non-U.S. EQUITY, AND FIXED INCOME (TIPS) INDEX \nINVESTMENT MANAGEMENT SERVICES \n \nThe Board of Trustees of the Oklahom",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment management RFP, not the ILPA FAQ."
+    },
+    {
+      "path": "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf",
+      "filename": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "extension": ".pdf",
+      "size_bytes": 947221,
+      "modified_at": "2026-10-07T07:08:46",
+      "created_at": "2026-10-07T07:19:59.212006",
+      "mime_type": "application/pdf",
+      "title": "REQUEST FOR PROPOSAL",
+      "author": "kwelch",
+      "page_count": 57,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "kwelch"
+      ],
+      "preview": "City of Temple City, California \n457 Deferred Compensation Plan \n \nRequest for Proposals for \nPlan Administration and Record Keeping Services \n \n \n \n \n \n \n \n \n \n \n \nRFP DISTRIBUTION DATE: June 17, 2020 at 4:00 PM (Pacific Time) \nDUE DATE FOR QUESTIONS: June 29, 2020 at 4:00 PM (Pacific Time) \nDUE DA",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Retirement plan recordkeeping RFP, not the ILPA FAQ."
+    },
+    {
+      "path": "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf",
+      "filename": "OCERS__ocers_pas_consultant_rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 616526,
+      "modified_at": "2026-10-07T07:09:11",
+      "created_at": "2026-10-07T07:19:58.264022",
+      "mime_type": "application/pdf",
+      "title": "Pension Administration Project Oversight and Consultation Services RFP",
+      "author": "OCERS",
+      "page_count": 39,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "OCERS",
+        "Pension Administration Project Oversight and Consultation Services OCERS RFP"
+      ],
+      "preview": "Pension Administration System Consulting RFP Page 1 \n \nPension Administration Project \nOversight and Consultation \nServices \nRequest for Proposal \n \nSeptember 2023 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nOrange County Employees Retirement System (OCERS) \n2223 E Wellington Avenue Suite 100 \nSanta Ana, CA 92",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Pension administration consulting RFP, not the ILPA FAQ."
+    },
+    {
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+      "filename": "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+      "extension": ".pdf",
+      "size_bytes": 770536,
+      "modified_at": "2026-10-07T07:07:47",
+      "created_at": "2026-10-07T07:19:59.048008",
+      "mime_type": "application/pdf",
+      "title": "TMRS • Request for Proposal • Global Custody and Related Services",
+      "author": "TMRS",
+      "page_count": 79,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "TMRS"
+      ],
+      "preview": "1\nRequest for Proposal \nGlobal Custody\n and Related Services  \nTexas Municipal Retirement System (TMRS) \nIs\ns u e  D a t e :  De c e m b e r  1 1 ,  2 0 2 0  \nQ u e s t i o n s  D u e :  De c e m b e r  2 8 ,  2 0 2 0  \nQ&A Responses Delivered: January 8, 2021 \nSubmission Deadline:   January 27, 202",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Global custody services RFP, not the ILPA FAQ."
+    },
+    {
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "filename": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1022513,
+      "modified_at": "2026-10-07T07:12:08",
+      "created_at": "2026-10-07T07:19:57.396037",
+      "mime_type": "application/pdf",
+      "title": " ",
+      "author": "Constantin Sorlescu",
+      "page_count": 41,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Constantin Sorlescu"
+      ],
+      "preview": "1",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "INREV real estate due diligence questionnaire, not the ILPA FAQ."
+    },
+    {
+      "path": "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "filename": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1063300,
+      "modified_at": "2026-10-07T07:15:02",
+      "created_at": "2026-10-07T07:19:57.136042",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Jeffrey Hutson",
+      "page_count": 58,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Jeffrey Hutson"
+      ],
+      "preview": "REQUEST FOR PROPOSALS (“RFP”) for \nALTERNATIVE INVESTMENT CONSULTING SERVICES \n \nRFP NUMBER 23-09 \n \n \nRELEASE DATE:  October 23, 2023 \nDEADLINE FOR INQUIRIES: November 13, 2023, 3:00 P.M. (EST) \nDEADLINE FOR SUBMISSION:  December 15, 2023, 3:00 P.M. (EST)",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Alternative investment consulting RFP, not the ILPA FAQ."
+    }
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 176,
+      "timestamp": "2026-10-23 08:25:03.045546",
+      "metadata": {
+        "keywords": [
+          "2021 ILPA ESG Assessment Framework FAQ",
+          "additional resources pertaining to ESG",
+          "ILPA ESG Assessment Framework",
+          "ESG评估框架",
+          "ESG补充资源"
+        ],
+        "files_found": 3,
+        "files_discovered": [
+          "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+          "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf",
+          "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf"
+        ]
+      }
+    }
+  ],
+  "elapsed_s": 15.769,
+  "calls": 2,
+  "usage": {
+    "prompt_tokens": 3285,
+    "completion_tokens": 1408,
+    "total_tokens": 4693
+  },
+  "group": "R3",
+  "attempt": 1
+}

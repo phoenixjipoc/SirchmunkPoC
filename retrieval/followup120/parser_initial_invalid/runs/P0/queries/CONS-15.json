@@ -1,0 +1,61 @@
+{
+  "query_id": "CONS-15",
+  "question": "List the core functions that the City of Creve Coeur Employee Pension Plan expects from its pension fund consultant in its May 2020 RFP.",
+  "type": "medium",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf"
+  ],
+  "keyword_terms": [
+    "City of Creve Coeur Employee Pension Plan",
+    "pension fund consultant",
+    "May 2020 RFP",
+    "consultant core functions",
+    "雇员养老金计划",
+    "养老基金顾问",
+    "征求建议书"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 34,
+      "timestamp": "2026-10-25 15:42:43.869053",
+      "metadata": {
+        "keywords": [
+          "City of Creve Coeur Employee Pension Plan",
+          "pension fund consultant",
+          "May 2020 RFP",
+          "consultant core functions",
+          "雇员养老金计划",
+          "养老基金顾问",
+          "征求建议书"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf",
+      "path": "/mnt/docs/S/Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf"
+    }
+  ],
+  "elapsed_s": 3.726,
+  "calls": 0,
+  "usage": {}
+}

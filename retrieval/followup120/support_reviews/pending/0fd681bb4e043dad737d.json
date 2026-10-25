@@ -1,0 +1,71 @@
+{
+  "job": {
+    "id": "0fd681bb4e043dad737d",
+    "query_id": "OTH-14",
+    "question": "What was the proposal deadline in the Hawaii ERS 2022 RFP for real assets investment consultant services?",
+    "file": "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "expected_facts": "November 30, 2022 by 4:30 p.m. (H.S.T.) (RFP 2022-06, issued October 3, 2022).",
+    "acceptance": "November30,2022 at 4:30pm HST; issue date and RFP number optional.",
+    "text_hash": "bb72821830d3b79720e84bd7d293578b1b367fc714f7a0632d7937278f6fccd7",
+    "source_text_sha256": "c942d0c8eb27f166bc67c995927bcd0e03513c3bbbfb1318905a941cab877fac",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2023 investment consulting RFP from the Teachers’ Retirement System of Illinois, not the Hawaii ERS 2022 real assets investment consultant RFP. Its proposal deadline is for the Illinois solicitation and does not support the requested deadline.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES Issued January 13, 2023 Responses due February 9, 2023, by 2:00 pm CST",
+        "All proposals must be received at the address designated below no later than 2:00 P.M. CST on February 9, 2023."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES Issued January 13, 2023 Responses due February 9, 2023, by 2:00 pm CST",
+          "start": 13,
+          "end": 193
+        },
+        {
+          "quote": "All proposals must be received at the address designated below no later than 2:00 P.M. CST on February 9, 2023.",
+          "start": 17622,
+          "end": 17733
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is a 2023 RFP from the Teachers’ Retirement System of the State of Illinois, not the Hawaii ERS 2022 RFP for real assets investment consultant services. Its proposal deadline does not establish the deadline asked about.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES",
+        "Issued January 13, 2023 Responses due February 9, 2023, by 2:00 pm CST",
+        "All proposals must be received at the address designated below no later than 2:00 P.M. CST on February 9, 2023."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 122
+        },
+        {
+          "quote": "Issued January 13, 2023 Responses due February 9, 2023, by 2:00 pm CST",
+          "start": 123,
+          "end": 193
+        },
+        {
+          "quote": "All proposals must be received at the address designated below no later than 2:00 P.M. CST on February 9, 2023.",
+          "start": 17622,
+          "end": 17733
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

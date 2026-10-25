@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "424de7c75ef61e350218",
+    "query_id": "CONS-08",
+    "question": "Which retirement plan's investment consulting RFP requires that, as of December 31, 2024, the firm have at least three public fund clients each with at least $1B in assets and have been in business at least ten years?",
+    "file": "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+    "expected_facts": "The Retirement Plan for CTA Employees (Chicago Transit Authority), in its April 29, 2025 investment consulting RFP.",
+    "acceptance": "Retirement Plan for CTA/Chicago Transit Authority Employees; publication date is optional.",
+    "text_hash": "576995e0f46f8d1ed568b3f11213a208a0e1dfe327b1dd5c1306846cd5741c1d",
+    "source_text_sha256": "2c50ab98d10c03c9aebdf033c0bf6a011506f6e8d75bc72ac45971559818570c",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a February 2023 private-markets RFP issued by the Firefighters’ Pension Investment Fund, not the retirement plan’s investment consulting RFP. Its ten-year requirement is measured as of December 31, 2022, and it does not require three public-fund clients each with at least $1 billion in assets as of December 31, 2024.",
+      "quotes": [
+        "Firefighters’ Pension Investment Fund Request for Proposals for Private Markets Investment Consulting and Discretionary OCIO Advisory Services February 13, 2023",
+        "The Respondent has been in operation for at least ten years as of December 31, 2022 as an investment management organization.",
+        "Please provide three client references and include their name, title, email, phone number, and organization. References should include at least one public defined benefit plan client."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Firefighters’ Pension Investment Fund Request for Proposals for Private Markets Investment Consulting and Discretionary OCIO Advisory Services February 13, 2023",
+          "start": 13,
+          "end": 173
+        },
+        {
+          "quote": "The Respondent has been in operation for at least ten years as of December 31, 2022 as an investment management organization.",
+          "start": 79899,
+          "end": 80024
+        },
+        {
+          "quote": "Please provide three client references and include their name, title, email, phone number, and organization. References should include at least one public defined benefit plan client.",
+          "start": 14947,
+          "end": 15130
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

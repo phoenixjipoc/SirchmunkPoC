@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "ba40b160798553b2ae8c",
+    "query_id": "CONS-10",
+    "question": "What is the proposal submission deadline in the Oklahoma Public Employees Retirement System (OPERS) investment consulting services RFP?",
+    "file": "IMRF__sample-investment-consulting-rfp.pdf",
+    "expected_facts": "4:30 p.m. Central Time on March 25, 2022.",
+    "acceptance": "Accept Central Time/CT; explicit equivalent timezone conversion acceptable.",
+    "text_hash": "ea9d2789dbf2664c70adf4312c00b0ec81c54cf1741478e3e2757e93a2e66025",
+    "source_text_sha256": "9c1ec794ed5ca3d42e6eb1fbcbbbb339195c2c9b872a54f9d0d1536d9a860ec5",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an Illinois Municipal Retirement Fund (IMRF) sample RFP, not the Oklahoma Public Employees Retirement System (OPERS) RFP. Its submission deadline is a placeholder and does not support the requested date or time.",
+      "quotes": [
+        "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms",
+        "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms",
+          "start": 202,
+          "end": 304
+        },
+        {
+          "quote": "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX.",
+          "start": 21154,
+          "end": 21250
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

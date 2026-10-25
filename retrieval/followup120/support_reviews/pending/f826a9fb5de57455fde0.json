@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "f826a9fb5de57455fde0",
+    "query_id": "XD-09",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+    "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+    "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+    "text_hash": "81e913c98df37dcfd35af28d88b1b03c1dc82eb7e2f99c9c19de8d06866fc421",
+    "source_text_sha256": "2d54872fc00a587921e9e76823bb49d685f32d834a6c8320657ad95eb8fd8f87",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an INPRS request for proposals, not the ILPA Due Diligence Questionnaire v1.2. Its table of contents lists different appendices and does not explicitly describe the ILPA questionnaire’s appendices.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS (“RFP”) for ALTERNATIVE INVESTMENT CONSULTING SERVICES RFP NUMBER 23-09",
+        "APPENDIX A – SAMPLE INVESTMENT CONSULTING AGREEMENT",
+        "APPENDIX B – MANDATORY RESPONDENT FORMS",
+        "APPENDIX C – QUESTIONNAIRE"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) for ALTERNATIVE INVESTMENT CONSULTING SERVICES RFP NUMBER 23-09",
+          "start": 13,
+          "end": 106
+        },
+        {
+          "quote": "APPENDIX A – SAMPLE INVESTMENT CONSULTING AGREEMENT",
+          "start": 1801,
+          "end": 1852
+        },
+        {
+          "quote": "APPENDIX B – MANDATORY RESPONDENT FORMS",
+          "start": 1978,
+          "end": 2017
+        },
+        {
+          "quote": "APPENDIX C – QUESTIONNAIRE",
+          "start": 2167,
+          "end": 2193
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

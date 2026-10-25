@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "02187f9bf273765379b8",
+    "query_id": "INV-12",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for domestic equity small cap growth investment management, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+    "expected_facts": "Four primary factors: (a) People - stability of the organization, ownership structure and documented experience of key professionals; (b) Process - clearly defined, reasonable and repeatable investment strategy; (c) Performance - documented ability to meet investment performance benchmarks; (d) Pricing - fee schedule and associated costs.",
+    "acceptance": "Accept People, Process, Performance, Pricing and faithful descriptions; exact labels are not mandatory.",
+    "text_hash": "1e3dc8db2f90933455b7c59967386b76eea64636a15cef3b8eab8a745b55231f",
+    "source_text_sha256": "06485a707e23d6959251e5fd04214a5b46701f4130bbf13f2073c46e88f74e02",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Baltimore City Employees’ Retirement Systems RFP for an alternatives consultant, not the IMRF sample RFP for domestic equity small cap growth investment management. Its evaluation criteria therefore do not establish how respondents to the IMRF RFP are evaluated and ranked.",
+      "quotes": [
+        "THE EMPLOYEES’ RETIREMENT SYSTEM and OPEB TRUST – CITY OF BALTIMORE REQUEST FOR PROPOSALS (RFP) for ALTERNATIVES CONSULTANT",
+        "A summary of the proposals will be presented to the BCERS Board of Trustees.",
+        "The following is a summary of the general considerations that will be used to determine the firms that will be selected as finalists:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE EMPLOYEES’ RETIREMENT SYSTEM and OPEB TRUST – CITY OF BALTIMORE REQUEST FOR PROPOSALS (RFP) for ALTERNATIVES CONSULTANT",
+          "start": 13,
+          "end": 136
+        },
+        {
+          "quote": "A summary of the proposals will be presented to the BCERS Board of Trustees.",
+          "start": 15371,
+          "end": 15447
+        },
+        {
+          "quote": "The following is a summary of the general considerations that will be used to determine the firms that will be selected as finalists:",
+          "start": 15537,
+          "end": 15670
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

@@ -1,0 +1,130 @@
+{
+  "job": {
+    "id": "be99d71a5085328c87f3",
+    "query_id": "DDQ-09",
+    "question": "In the 2024 version of ILPA's ESG Assessment Framework FAQ, how many resources are listed in answer to 'Where can I find additional resources pertaining to ESG?', and what are they?",
+    "file": "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+    "expected_facts": "8 resources: ILPA's ESG and Sustainable Investing Hub; ILPA's Diversity, Equity, and Inclusion Hub; UNPRI's Private Equity Page; The ESG Data Convergence Initiative; The Private Markets Decarbonization Roadmap; IFRS's International Sustainability Standards Board (ISSB), noting SASB is now part of the IFRS Foundation; Task Force on Climate-Related Financial Disclosures, noting TCFD has disbanded after its 2023 status report; The Institutional Investors Group on Climate Change (IIGCC).",
+    "acceptance": "Require count eight and eight resource names, allowing acronyms PRI/ISSB/TCFD/IIGCC. SASB/TCFD explanatory notes are optional and must not be counted as extra resources.",
+    "text_hash": "bf06193ea4019fcbd1ae84a0bba61dcc905e26bfac7cb0ff1a2bdc83f506f1e1",
+    "source_text_sha256": "a6d4bde46614526253a524d5598013e5ee0a04400f2081e84fda380963b98d63",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "partial",
+        "identity": "wrong",
+        "reason": "The supplied ILPA FAQ contains the question, but its answer lists six resources, not the eight required for the 2024 version. It also names different ILPA resources and lists SASB separately rather than identifying ISSB. The document text does not establish that this is the 2024 version.",
+        "quotes": [
+          "Where can I find additional resources pertaining to ESG?",
+          "• ILPA’s ESG Roadmap • ILPA’s Diversity in Action Initiative • UNPRI's Private Equity Page",
+          "• Sustainability Accounting Standards Board (SASB) • Task Force on Climate Related Financial Disclosures (TCFD) • The Institutional Investors Group on Climate Change (IIGCC)"
+        ],
+        "quote_matches": [
+          {
+            "quote": "Where can I find additional resources pertaining to ESG?",
+            "start": 6798,
+            "end": 6854
+          },
+          {
+            "quote": "• ILPA’s ESG Roadmap • ILPA’s Diversity in Action Initiative • UNPRI's Private Equity Page",
+            "start": 7075,
+            "end": 7165
+          },
+          {
+            "quote": "• Sustainability Accounting Standards Board (SASB) • Task Force on Climate Related Financial Disclosures (TCFD) • The Institutional Investors Group on Climate Change (IIGCC)",
+            "start": 7166,
+            "end": 7339
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "partial",
+      "identity": "wrong",
+      "reason": "The supplied ILPA FAQ contains the question, but its answer lists six resources, not the eight required for the 2024 version. It also names different ILPA resources and lists SASB separately rather than identifying ISSB. The document text does not establish that this is the 2024 version.",
+      "quotes": [
+        "Where can I find additional resources pertaining to ESG?",
+        "• ILPA’s ESG Roadmap • ILPA’s Diversity in Action Initiative • UNPRI's Private Equity Page",
+        "• Sustainability Accounting Standards Board (SASB) • Task Force on Climate Related Financial Disclosures (TCFD) • The Institutional Investors Group on Climate Change (IIGCC)"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Where can I find additional resources pertaining to ESG?",
+          "start": 6798,
+          "end": 6854
+        },
+        {
+          "quote": "• ILPA’s ESG Roadmap • ILPA’s Diversity in Action Initiative • UNPRI's Private Equity Page",
+          "start": 7075,
+          "end": 7165
+        },
+        {
+          "quote": "• Sustainability Accounting Standards Board (SASB) • Task Force on Climate Related Financial Disclosures (TCFD) • The Institutional Investors Group on Climate Change (IIGCC)",
+          "start": 7166,
+          "end": 7339
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "partial",
+      "identity": "wrong",
+      "reason": "The supplied ILPA FAQ answers the requested question, but its answer lists six resources, not eight. It does not evidence the specified 2024 version’s eight-resource list.",
+      "quotes": [
+        "Where can I find additional resources pertaining to ESG?",
+        "• ILPA’s ESG Roadmap",
+        "• ILPA’s Diversity in Action Initiative",
+        "• UNPRI's Private Equity Page",
+        "• Sustainability Accounting Standards Board (SASB)",
+        "• Task Force on Climate Related Financial Disclosures (TCFD)",
+        "• The Institutional Investors Group on Climate Change (IIGCC)"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Where can I find additional resources pertaining to ESG?",
+          "start": 6798,
+          "end": 6854
+        },
+        {
+          "quote": "• ILPA’s ESG Roadmap",
+          "start": 7075,
+          "end": 7095
+        },
+        {
+          "quote": "• ILPA’s Diversity in Action Initiative",
+          "start": 7096,
+          "end": 7135
+        },
+        {
+          "quote": "• UNPRI's Private Equity Page",
+          "start": 7136,
+          "end": 7165
+        },
+        {
+          "quote": "• Sustainability Accounting Standards Board (SASB)",
+          "start": 7166,
+          "end": 7216
+        },
+        {
+          "quote": "• Task Force on Climate Related Financial Disclosures (TCFD)",
+          "start": 7217,
+          "end": 7277
+        },
+        {
+          "quote": "• The Institutional Investors Group on Climate Change (IIGCC)",
+          "start": 7278,
+          "end": 7339
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

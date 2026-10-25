@@ -1,0 +1,93 @@
+{
+  "query_id": "SVC-10",
+  "question": "In the minimum-qualifications insurance list of the RFP for oversight of the pension administration system replacing V3, what umbrella-liability and professional-liability limits are specified?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P",
+  "keyword_files": [
+    "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "/mnt/docs/S/Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf",
+    "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf",
+    "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "/mnt/docs/S/Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf",
+    "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf",
+    "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf"
+  ],
+  "keyword_terms": [
+    "minimum-qualifications insurance list",
+    "pension administration system",
+    "umbrella-liability limits",
+    "professional-liability limits",
+    "养老金管理系统",
+    "伞式责任保险",
+    "职业责任保险"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 269,
+      "timestamp": "2026-10-25 15:37:18.273129",
+      "metadata": {
+        "keywords": [
+          "minimum-qualifications insurance list",
+          "pension administration system",
+          "umbrella-liability limits",
+          "professional-liability limits",
+          "养老金管理系统",
+          "伞式责任保险",
+          "职业责任保险"
+        ],
+        "files_found": 5,
+        "files_discovered": [
+          "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+          "/mnt/docs/S/Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf",
+          "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+          "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf",
+          "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+      "path": "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf",
+      "path": "/mnt/docs/S/Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+      "path": "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "LACERS__2025_actuarial_consulting_services_rfp.pdf",
+      "path": "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "OCERS__ocers_pas_consultant_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf"
+    }
+  ],
+  "elapsed_s": 2.502,
+  "calls": 0,
+  "usage": {}
+}

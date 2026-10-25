@@ -1,0 +1,42 @@
+{
+  "id": "c6af2a2f1f8b47c9174c",
+  "query_id": "INV-08",
+  "question": "A sample investment management RFP for a domestic equity small cap growth mandate sets portfolio guidelines. What are the limits on single-issuer holdings, foreign issuers and cash, and which index must the portfolio outperform?",
+  "file": "MA_PRIM__PDF-Version-of-RFP.pdf",
+  "expected_facts": "No more than 5% of the portfolio (at time of purchase) in any single issuer other than the Federal Government/Agencies or the designated cash reserve fund; no more than 20% in foreign issuers, which must trade on the NYSE, ASE or NASDAQ; cash and equivalents no more than 10% except during cash withdrawals or contributions; the portfolio is expected to outperform the Russell 2000 Growth Index, net of fees. Issuer: Illinois Municipal Retirement Fund (IMRF) sample RFP.",
+  "acceptance": "Accept equivalent 5% single-issuer at purchase, 20% foreign listed on specified US exchanges, 10% cash, and Russell 2000 Growth net-of-fee target. Preserve material exceptions; issuer identification is optional.",
+  "text_hash": "c92320682456b11eb70addd3a356a98edfd3f865f21e453c8906eefe68b8b772",
+  "source_text_sha256": "e3fe5e9a4d6babe97bf46e2649b5484f28a2237abb15634af7dc30e35b1c2a49",
+  "second_check_required": true,
+  "prior_reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Massachusetts PRIM multi-asset credit RFP, not the domestic small-cap growth sample RFP. Its guidelines are to be customized and it does not state the requested issuer, foreign-issuer, or cash limits or the Russell 2000 Growth net-of-fees target.",
+      "quotes": [
+        "The Massachusetts Pension Reserves Investment Management Board (“PRIM”) is soliciting responses from firms interested in providing Multi-Asset Credit Investment Management Services.",
+        "[Specific guidelines will be customized with managers]",
+        "Success in achieving this objective will be measured by comparing the risk and after-fee return of the Account to the ________________ (the “Benchmark”)."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Massachusetts Pension Reserves Investment Management Board (“PRIM”) is soliciting responses from firms interested in providing Multi-Asset Credit Investment Management Services.",
+          "start": 2562,
+          "end": 2743
+        },
+        {
+          "quote": "[Specific guidelines will be customized with managers]",
+          "start": 119053,
+          "end": 119107
+        },
+        {
+          "quote": "Success in achieving this objective will be measured by comparing the risk and after-fee return of the Account to the ________________ (the “Benchmark”).",
+          "start": 120174,
+          "end": 120327
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "4921e3ca68402d5dd90e",
+    "query_id": "INV-15",
+    "question": "In the Baltimore City Employees' Retirement Systems (BCERS) RFP for an alternatives consultant, how many years must the proposing firm have been in business?",
+    "file": "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+    "expected_facts": "At least seven (7) years providing general consulting services plus private equity consulting services, or alternatives consulting services only (all minimum qualifications must be met as of November 8, 2024, 3:00 p.m. EDT).",
+    "acceptance": "Seven years is sufficient for the narrow question. Service type and qualification deadline are optional; five-year staff experience is not the firm threshold.",
+    "text_hash": "d9a2a163aae9999ec622d7aec59ce7e611db4184b600f4da1278390d065e044b",
+    "source_text_sha256": "160e96bb79418d07ec2fbcbd06fadf5a029ef68dec4598be1d24fd91b7188964",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Police Retirement System of St. Louis RFP for actuarial auditing services, not the BCERS alternatives-consultant RFP. Its five-year firm requirement does not support the question.",
+      "quotes": [
+        "THE POLICE RETIREMENT SYSTEM OF ST. LOUIS",
+        "RFP Actuarial Auditing Services",
+        "The firm must be a professional actuarial firm that has within its business framework the providing of actuarial valuations, experience studies, actuarial audits, and pension consulting services for public pension plans for a minimum of five (5) years;"
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE POLICE RETIREMENT SYSTEM OF ST. LOUIS",
+          "start": 13,
+          "end": 54
+        },
+        {
+          "quote": "RFP Actuarial Auditing Services",
+          "start": 102,
+          "end": 133
+        },
+        {
+          "quote": "The firm must be a professional actuarial firm that has within its business framework the providing of actuarial valuations, experience studies, actuarial audits, and pension consulting services for public pension plans for a minimum of five (5) years;",
+          "start": 12206,
+          "end": 12458
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

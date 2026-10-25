@@ -1,0 +1,59 @@
+{
+  "query_id": "XD-22",
+  "question": "According to the Calamos/Aksia Private Markets Due Diligence Questionnaire, what maximum single-position size, as a percentage of fund assets, should a private credit interval fund hold?",
+  "type": "unanswerable",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+  ],
+  "keyword_terms": [
+    "Calamos/Aksia Private Markets Due Diligence Questionnaire",
+    "private credit interval fund",
+    "maximum single-position size",
+    "percentage of fund assets",
+    "私募信贷区间基金",
+    "单一持仓上限",
+    "基金资产占比"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 59,
+      "timestamp": "2026-10-25 16:10:21.602433",
+      "metadata": {
+        "keywords": [
+          "Calamos/Aksia Private Markets Due Diligence Questionnaire",
+          "private credit interval fund",
+          "maximum single-position size",
+          "percentage of fund assets",
+          "私募信贷区间基金",
+          "单一持仓上限",
+          "基金资产占比"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "path": "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+    }
+  ],
+  "elapsed_s": 5.183,
+  "calls": 0,
+  "usage": {}
+}

@@ -1,0 +1,65 @@
+{
+  "query_id": "DDQ-06",
+  "question": "How many fund diligence topics does the ILPA Due Diligence Questionnaire v1.2 (2018) list in its Overview, and what is the last one?",
+  "type": "pair_a",
+  "pair_id": "P6",
+  "group": "P",
+  "keyword_files": [
+    "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+    "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+    "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "keyword_terms": [
+    "ILPA Due Diligence Questionnaire",
+    "fund diligence topics",
+    "Due Diligence Questionnaire v1.2 (2018)",
+    "ILPA尽职调查问卷",
+    "基金尽职调查主题",
+    "概览"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 90,
+      "timestamp": "2026-10-25 15:43:37.053820",
+      "metadata": {
+        "keywords": [
+          "ILPA Due Diligence Questionnaire",
+          "fund diligence topics",
+          "Due Diligence Questionnaire v1.2 (2018)",
+          "ILPA尽职调查问卷",
+          "基金尽职调查主题",
+          "概览"
+        ],
+        "files_found": 2,
+        "files_discovered": [
+          "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+          "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "ILPA__ILPA-DDQ-2.0.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+    }
+  ],
+  "elapsed_s": 3.039,
+  "calls": 0,
+  "usage": {}
+}

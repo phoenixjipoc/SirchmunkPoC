@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "7eef59d03169e5ff91b3",
+    "query_id": "INV-12",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for domestic equity small cap growth investment management, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf",
+    "expected_facts": "Four primary factors: (a) People - stability of the organization, ownership structure and documented experience of key professionals; (b) Process - clearly defined, reasonable and repeatable investment strategy; (c) Performance - documented ability to meet investment performance benchmarks; (d) Pricing - fee schedule and associated costs.",
+    "acceptance": "Accept People, Process, Performance, Pricing and faithful descriptions; exact labels are not mandatory.",
+    "text_hash": "4da0bb99d1bc9a99cb85e4152156515d63d280e9d6481930b4991ca9b694e89e",
+    "source_text_sha256": "e84ddfad92c2fc79e711f13416c118cdf2db28ca57c55b838d0f29c6c8dbced8",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an American Academy of Actuaries RFP for retirement-plan services, not the IMRF sample RFP for domestic equity small-cap growth investment management. It does not state the requested evaluation and ranking factors.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL (RFP) Retirement Plan and Related Consulting Services May 12, 2011 American Academy of Actuaries",
+        "The Academy is soliciting proposals for services related to its employee retirement plans.",
+        "Academy Review and Selection"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL (RFP) Retirement Plan and Related Consulting Services May 12, 2011 American Academy of Actuaries",
+          "start": 13,
+          "end": 130
+        },
+        {
+          "quote": "The Academy is soliciting proposals for services related to its employee retirement plans.",
+          "start": 6828,
+          "end": 6918
+        },
+        {
+          "quote": "Academy Review and Selection",
+          "start": 14084,
+          "end": 14112
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

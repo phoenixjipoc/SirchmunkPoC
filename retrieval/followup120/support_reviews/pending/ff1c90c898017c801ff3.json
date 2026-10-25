@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "ff1c90c898017c801ff3",
+    "query_id": "DDQ-03",
+    "question": "In the SAA investment manager questionnaire for fixed income investment management services, which services is the firm asked to indicate whether it offers, along with any additional fee?",
+    "file": "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+    "expected_facts": "Five services: Schedule D investment accounting; asset/liability management (dynamic financial analysis); performance attribution; daily internet access of portfolio information; and SVO filing. For each, the firm marks Yes/No and gives an approximate fee.",
+    "acceptance": "Require all five services; Yes/No and approximate fee wording are useful context, not additional services.",
+    "text_hash": "576995e0f46f8d1ed568b3f11213a208a0e1dfe327b1dd5c1306846cd5741c1d",
+    "source_text_sha256": "2c50ab98d10c03c9aebdf033c0bf6a011506f6e8d75bc72ac45971559818570c",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is FPIF’s 2023 private-markets consulting and OCIO RFP, not the SAA fixed-income investment-manager questionnaire. It does not list the five specified services or ask firms to indicate whether they offer each for an additional fee.",
+      "quotes": [
+        "Firefighters’ Pension Investment Fund Request for Proposals for Private Markets Investment Consulting and Discretionary OCIO Advisory Services February 13, 2023",
+        "FPIF is seeking proposals from qualified and eligible vendors (“Respondents”) for Private Markets Investment Consulting and Discretionary OCIO Advisory Services"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Firefighters’ Pension Investment Fund Request for Proposals for Private Markets Investment Consulting and Discretionary OCIO Advisory Services February 13, 2023",
+          "start": 13,
+          "end": 173
+        },
+        {
+          "quote": "FPIF is seeking proposals from qualified and eligible vendors (“Respondents”) for Private Markets Investment Consulting and Discretionary OCIO Advisory Services",
+          "start": -1,
+          "end": 159
+        }
+      ],
+      "all_quotes_grounded": false,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

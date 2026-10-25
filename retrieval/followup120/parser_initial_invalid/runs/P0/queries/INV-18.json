@@ -1,0 +1,59 @@
+{
+  "query_id": "INV-18",
+  "question": "What is the full timetable in the City of York (Pennsylvania) Pension Funds' November 2016 RFP for an investment manager, adviser or consultant?",
+  "type": "medium",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf"
+  ],
+  "keyword_terms": [
+    "City of York Pennsylvania Pension Funds",
+    "November 2016 RFP",
+    "investment manager adviser or consultant",
+    "RFP timetable",
+    "约克市养老基金",
+    "征求建议书",
+    "招标时间表"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 40,
+      "timestamp": "2026-10-25 15:34:59.988640",
+      "metadata": {
+        "keywords": [
+          "City of York Pennsylvania Pension Funds",
+          "November 2016 RFP",
+          "investment manager adviser or consultant",
+          "RFP timetable",
+          "约克市养老基金",
+          "征求建议书",
+          "招标时间表"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+      "path": "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf"
+    }
+  ],
+  "elapsed_s": 3.239,
+  "calls": 0,
+  "usage": {}
+}

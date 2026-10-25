@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "b9f32905f0c58875c38e",
+    "query_id": "INV-11",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for investment consulting, real estate consulting and performance measurement services, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+    "expected_facts": "Three factors: (1) Organization - stability, ownership, documented experience of key professionals; (2) Consulting Skill - investment philosophy, investment manager information collection and monitoring systems, risk management tools, performance measurement systems, and breadth of consulting expertise and experience; (3) Fees - consulting fees for services requested and associated costs.",
+    "acceptance": "Three factors with substantively equivalent descriptions suffice; exact wording and order are unnecessary.",
+    "text_hash": "b1b58831638092aa2c4058820d103b7fbdbca636b18c44a0d4120044ca4b814b",
+    "source_text_sha256": "9f5bdf4dd9b56cf14ad12c68d7eac6a3122ac753ad93b2296c4763b688071979",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is SBCERS’s 2020 RFP for discretionary private equity consulting, not the IMRF sample RFP for investment consulting, real estate consulting, and performance measurement. Its evaluation criteria concern a different issuer and procurement; it does not explicitly restate IMRF’s criteria.",
+      "quotes": [
+        "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+        "SBCERS intends to evaluate the proposals relative to each other generally in accordance with the criteria and weighting percentages itemized below.",
+        "1. Organization, Personnel and Clients 2. Investment Selection and Due Diligence Practice 3. Strategic and Tactical Investment Planning 4. Monitoring, Performance Measurement and Reporting 5. Fee Proposal"
+      ],
+      "quote_matches": [
+        {
+          "quote": "SANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSALS (RFP) FOR DISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES",
+          "start": 13,
+          "end": 143
+        },
+        {
+          "quote": "SBCERS intends to evaluate the proposals relative to each other generally in accordance with the criteria and weighting percentages itemized below.",
+          "start": 18480,
+          "end": 18627
+        },
+        {
+          "quote": "1. Organization, Personnel and Clients 2. Investment Selection and Due Diligence Practice 3. Strategic and Tactical Investment Planning 4. Monitoring, Performance Measurement and Reporting 5. Fee Proposal",
+          "start": 18653,
+          "end": 18857
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

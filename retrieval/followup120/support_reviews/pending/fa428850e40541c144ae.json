@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "fa428850e40541c144ae",
+    "query_id": "CONS-09",
+    "question": "Which retirement system's investment consultant RFP requires firms to certify that they currently provide investment consulting services to clients whose combined assets total at least $50 billion?",
+    "file": "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+    "expected_facts": "Teachers' Retirement System of the State of Illinois (TRS Illinois), in its FY23 investment consultant RFP (Appendix B, Statement of Minimum Qualifications).",
+    "acceptance": "TRS Illinois / Teachers’ Retirement System of the State of Illinois is sufficient; FY23 and appendix identifier are optional.",
+    "text_hash": "a73f8098a99029a40e97e080d66cdb97fc9c585944212d49c8006ef52d55da0f",
+    "source_text_sha256": "9a236643d7b4204fbdc4d7e63cf40d28896fa6aca7d4dca0b56d53d6261f1016",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This RFP was issued by Arizona’s Public Safety Personnel Retirement System, not TRS Illinois. Its minimum qualification concerns experience serving public pension trusts with at least $10 billion in assets, not a certification of current consulting clients with combined assets of at least $50 billion.",
+      "quotes": [
+        "This Request for Proposal (“RFP”) is issued by the Board of Trustees (“Board”) of the Public Safety Personnel Retirement System (“System”)",
+        "Proposers must have experience with providing all service requirements identified in this solicitation to public pension trusts with assets under management of at least $10 billion;"
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (“RFP”) is issued by the Board of Trustees (“Board”) of the Public Safety Personnel Retirement System (“System”)",
+          "start": 1142,
+          "end": 1280
+        },
+        {
+          "quote": "Proposers must have experience with providing all service requirements identified in this solicitation to public pension trusts with assets under management of at least $10 billion;",
+          "start": 12250,
+          "end": 12431
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "5866bcff2eb4505a74cf",
+    "query_id": "OTH-15",
+    "question": "In the Los Angeles City Employees' Retirement System (LACERS) actuarial RFP, how many years of experience must the lead actuary have?",
+    "file": "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+    "expected_facts": "At least 15 years of experience with major public employee retirement systems, including at least 3 years with California public pension fund clients similar to LACERS.",
+    "acceptance": "Accept 15 total and three California years. Do not require credential details unrelated to the years asked.",
+    "text_hash": "dc7770ddf2eb0d0a22374752c7dc6794b8fb383b84a6cf93e4a10d4cf606f4a6",
+    "source_text_sha256": "e9d832947c5555fd08fbad4762996d02f44908b19826f8ed06865b1ee0a20b33",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Hawaii ERS private equity consultant RFP, not the LACERS actuarial RFP. Its experience requirements concern an offeror and a primary investment consultant, not a lead actuary; it does not support the required LACERS experience thresholds.",
+      "quotes": [
+        "Employees’ Retirement System of the State of Hawaii Request for Proposals Private Equity Consultant Services RFP 2022-04 Issued AUGUST 29, 2022",
+        "The primary consultant assigned to the ERS account shall have a minimum of seven (7) years experience providing domestic and international private equity/debt consulting services to public pension plans."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Employees’ Retirement System of the State of Hawaii Request for Proposals Private Equity Consultant Services RFP 2022-04 Issued AUGUST 29, 2022",
+          "start": 13,
+          "end": 156
+        },
+        {
+          "quote": "The primary consultant assigned to the ERS account shall have a minimum of seven (7) years experience providing domestic and international private equity/debt consulting services to public pension plans.",
+          "start": 38776,
+          "end": 38979
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

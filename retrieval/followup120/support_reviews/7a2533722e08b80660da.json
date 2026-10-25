@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "7a2533722e08b80660da",
+    "query_id": "INV-01",
+    "question": "In the CAJPA sample investment management RFP (Appendix Z, 'Sample Investment Management Request for Proposal'), how many copies of the proposal must be sent?",
+    "file": "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+    "expected_facts": "Ten (10) copies of the proposal and correspondence, sent to the pool administrator (shown as 'John Doe, 123 Main Street' in the template).",
+    "acceptance": "Ten/10 copies suffices; template addressee and correspondence wording are optional.",
+    "text_hash": "b5feb817817e35edbb5bc0aa0af7c6df24842b1fc6b23f62b19531a928524887",
+    "source_text_sha256": "33e6d0f3b03cb97414ead33bc97801d7ca7b3799f628c39bac87276153cef3fe",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a City of Madison RFP, not the CAJPA sample RFP in Appendix Z. Its requirement of an original and five copies does not support the requested requirement for the CAJPA template.",
+      "quotes": [
+        "RFP No. 2025-0901 Investment Consulting Services",
+        "City of Madison",
+        "1-3 Number of Copies: Proposers shall submit an original and five (5) copies."
+      ],
+      "quote_matches": [
+        {
+          "quote": "RFP No. 2025-0901 Investment Consulting Services",
+          "start": 159,
+          "end": 207
+        },
+        {
+          "quote": "City of Madison",
+          "start": 281,
+          "end": 296
+        },
+        {
+          "quote": "1-3 Number of Copies: Proposers shall submit an original and five (5) copies.",
+          "start": 3683,
+          "end": 3760
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

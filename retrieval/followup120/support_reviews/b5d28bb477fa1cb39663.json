@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "b5d28bb477fa1cb39663",
+    "query_id": "CONS-10",
+    "question": "What is the proposal submission deadline in the Oklahoma Public Employees Retirement System (OPERS) investment consulting services RFP?",
+    "file": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "expected_facts": "4:30 p.m. Central Time on March 25, 2022.",
+    "acceptance": "Accept Central Time/CT; explicit equivalent timezone conversion acceptable.",
+    "text_hash": "9442e2b4c086526d3a2fdbcfd889eca2ceeb00c6b9e5d09ba8003815529b2dfc",
+    "source_text_sha256": "a03af1cb5588edbe010abae942bbd4d97b649d15b5280a5db6c40f3e111a54fd",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the Boston Retirement System RFP, not the Oklahoma Public Employees Retirement System RFP. Its stated proposal deadline cannot establish OPERS’s deadline.",
+      "quotes": [
+        "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+        "Responses must be received no later than 4:00 p.m. EST, March 1, 2022."
+      ],
+      "quote_matches": [
+        {
+          "quote": "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+          "start": 13,
+          "end": 106
+        },
+        {
+          "quote": "Responses must be received no later than 4:00 p.m. EST, March 1, 2022.",
+          "start": 647,
+          "end": 717
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

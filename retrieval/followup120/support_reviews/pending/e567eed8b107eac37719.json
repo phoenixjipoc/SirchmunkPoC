@@ -1,0 +1,88 @@
+{
+  "job": {
+    "id": "e567eed8b107eac37719",
+    "query_id": "CONS-12",
+    "question": "How many printed copies of the proposal must be submitted in the Boston Retirement System 2022 investment consulting services RFP?",
+    "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+    "expected_facts": "Seven (7) printed copies plus one (1) electronic version.",
+    "acceptance": "Seven printed copies alone answers the question; electronic copy is optional context.",
+    "text_hash": "70ba69fa78a5262a5a903e6c962a7ed533f83b2f39cbeaae0d6efcae5122f669",
+    "source_text_sha256": "c0d34ab691e3323f8b02fd000d177f6559326d07370721a1d326e71475259a58",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "partial",
+        "identity": "correct",
+        "reason": "This is an attachment to the Boston Retirement System investment consulting services RFP, but it does not state how many printed copies of the proposal must be submitted.",
+        "quotes": [
+          "ATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES PROPOSAL QUESTIONNAIRE BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+          "All Prospective Consultants shall complete all sections of this questionnaire."
+        ],
+        "quote_matches": [
+          {
+            "quote": "ATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES PROPOSAL QUESTIONNAIRE BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+            "start": 13,
+            "end": 163
+          },
+          {
+            "quote": "All Prospective Consultants shall complete all sections of this questionnaire.",
+            "start": 405,
+            "end": 483
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "partial",
+      "identity": "correct",
+      "reason": "This is an attachment to the Boston Retirement System investment consulting services RFP, but it does not state how many printed copies of the proposal must be submitted.",
+      "quotes": [
+        "ATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES PROPOSAL QUESTIONNAIRE BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+        "All Prospective Consultants shall complete all sections of this questionnaire."
+      ],
+      "quote_matches": [
+        {
+          "quote": "ATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES PROPOSAL QUESTIONNAIRE BOSTON RETIREMENT SYSTEM Investment Consulting Services Request for Proposals",
+          "start": 13,
+          "end": 163
+        },
+        {
+          "quote": "All Prospective Consultants shall complete all sections of this questionnaire.",
+          "start": 405,
+          "end": 483
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "correct",
+      "reason": "This is the Boston Retirement System investment consulting services proposal questionnaire, but it does not state how many printed copies of the proposal must be submitted. The copy requirement cannot be verified from this attachment.",
+      "quotes": [
+        "ATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES PROPOSAL QUESTIONNAIRE BOSTON RETIREMENT SYSTEM",
+        "Investment Consulting Services Request for Proposals"
+      ],
+      "quote_matches": [
+        {
+          "quote": "ATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES PROPOSAL QUESTIONNAIRE BOSTON RETIREMENT SYSTEM",
+          "start": 13,
+          "end": 110
+        },
+        {
+          "quote": "Investment Consulting Services Request for Proposals",
+          "start": 111,
+          "end": 163
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

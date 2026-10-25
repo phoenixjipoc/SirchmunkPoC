@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "4be5859842717f1543e2",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "b066c2f588fdc3c917223f3f99636d5edc4485826776cf8efe8e709fec2fbfcb",
+    "source_text_sha256": "69c3cfa2e74b080d80807eab99367c459dea9641b8eec134fc3ce5ed273a91bc",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the Stoneham Retirement System’s actuarial-services RFP, not SBCERS’s global-custody RFP. Its evaluation criteria do not provide the four requested categories or their percentage weights.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS – ACTUARIAL SERVICES",
+        "The Stoneham Retirement System (“System”) is governed by the Stoneham Retirement Board (“Board”)",
+        "1. Experience of the Proposer in providing actuarial services to other public pension funds"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS – ACTUARIAL SERVICES",
+          "start": 13,
+          "end": 55
+        },
+        {
+          "quote": "The Stoneham Retirement System (“System”) is governed by the Stoneham Retirement Board (“Board”)",
+          "start": 67,
+          "end": 163
+        },
+        {
+          "quote": "1. Experience of the Proposer in providing actuarial services to other public pension funds",
+          "start": 15413,
+          "end": 15504
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

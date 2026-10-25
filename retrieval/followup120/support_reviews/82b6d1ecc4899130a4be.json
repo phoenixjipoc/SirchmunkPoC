@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "82b6d1ecc4899130a4be",
+    "query_id": "INV-12",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for domestic equity small cap growth investment management, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "expected_facts": "Four primary factors: (a) People - stability of the organization, ownership structure and documented experience of key professionals; (b) Process - clearly defined, reasonable and repeatable investment strategy; (c) Performance - documented ability to meet investment performance benchmarks; (d) Pricing - fee schedule and associated costs.",
+    "acceptance": "Accept People, Process, Performance, Pricing and faithful descriptions; exact labels are not mandatory.",
+    "text_hash": "bb72821830d3b79720e84bd7d293578b1b367fc714f7a0632d7937278f6fccd7",
+    "source_text_sha256": "c942d0c8eb27f166bc67c995927bcd0e03513c3bbbfb1318905a941cab877fac",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Teachers’ Retirement System RFP for investment consulting services, not the IMRF sample RFP for domestic equity small cap growth management. Its evaluation criteria concern that different procurement and do not establish the four requested IMRF factors.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES",
+        "Proposals that pass the pre-evaluation review will undergo an evaluation process conducted by TRS staff.",
+        "Proposals will be evaluated based on criteria including:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 122
+        },
+        {
+          "quote": "Proposals that pass the pre-evaluation review will undergo an evaluation process conducted by TRS staff.",
+          "start": 19366,
+          "end": 19470
+        },
+        {
+          "quote": "Proposals will be evaluated based on criteria including:",
+          "start": 19759,
+          "end": 19815
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

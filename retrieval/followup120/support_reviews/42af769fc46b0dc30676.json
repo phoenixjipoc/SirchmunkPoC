@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "42af769fc46b0dc30676",
+    "query_id": "CONS-08",
+    "question": "Which retirement plan's investment consulting RFP requires that, as of December 31, 2024, the firm have at least three public fund clients each with at least $1B in assets and have been in business at least ten years?",
+    "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "expected_facts": "The Retirement Plan for CTA Employees (Chicago Transit Authority), in its April 29, 2025 investment consulting RFP.",
+    "acceptance": "Retirement Plan for CTA/Chicago Transit Authority Employees; publication date is optional.",
+    "text_hash": "5afc5adec694c195f2977417c376c45b4856a88e72d30c0e1953e2403af08eac",
+    "source_text_sha256": "add3ba83b3e17f098f096c1bf8b5d5000ad39375300bba2e2b398c7d805cf7a6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is Contra Costa County Employees’ Retirement Association’s April 2018 master-custodian RFP, not the CTA Employees retirement plan’s investment-consulting RFP. Its minimum qualifications concern custodial clients and years providing custody services; they do not establish the specified requirements as of December 31, 2024.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+        "The Proposer must have a total number of at least 30 custodial defined benefit clients, including at least 10 public funds, with $1 billion each in tax-exempt assets or greater.",
+        "The Proposer must have been providing custody services for a minimum of ten (10) years."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+          "start": 13,
+          "end": 141
+        },
+        {
+          "quote": "The Proposer must have a total number of at least 30 custodial defined benefit clients, including at least 10 public funds, with $1 billion each in tax-exempt assets or greater.",
+          "start": 17329,
+          "end": 17506
+        },
+        {
+          "quote": "The Proposer must have been providing custody services for a minimum of ten (10) years.",
+          "start": 17510,
+          "end": 17597
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

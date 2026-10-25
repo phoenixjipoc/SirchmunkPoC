@@ -1,0 +1,83 @@
+{
+  "job": {
+    "id": "1eae3fe1c1b7fe6637e4",
+    "query_id": "SVC-20",
+    "question": "What scope of services does the Kern County Employees' Retirement Association (KCERA) 2024 actuarial audit services RFP require?",
+    "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "expected_facts": "A full actuarial audit of the assumptions, methods, calculations and experience used in KCERA's valuation, in two parts: (1) a peer review audit of the Actuarial Experience Study for July 1, 2019 - June 30, 2022 and the Review of Economic Actuarial Assumptions as of June 30, 2022 - evaluating the data (including comparison of census data), reconciling discrepancies with the consulting actuary, and evaluating the recommended economic and non-economic assumptions; and (2) a parallel valuation (independent reproduction) of the June 30, 2023 valuation, including the SRBR valuation and GASB 67 valuation, using the consulting actuary's assumptions and methods and reproducing all work without relying on the consulting actuary, with reconciliation of discrepancies. Results of both are to be communicated to the consulting actuary before completion of the June 30, 2024 valuation.",
+    "acceptance": "Require both experience-study peer review and independent June 30, 2023 parallel valuation, including SRBR/GASB67 and discrepancy reconciliation. A concise account may group data and assumption checks; sample-agreement delivery details are optional.",
+    "text_hash": "e529592be16077691cd54aac3c1a9e7ed524ba5b471c34ebf5ebe0296f8ab615",
+    "source_text_sha256": "40f6e66cda735b5ac3e65bb52c7627bc76b11a8e7017ca73d4ed3e9b2360ca3a",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the City of Austin Employees’ Retirement System’s 2024 general investment consultant RFP, not KCERA’s actuarial audit services RFP. It does not require an experience-study peer review or an independent June 30, 2023 parallel valuation, including SRBR and GASB 67 valuations and discrepancy reconciliation.",
+      "quotes": [
+        "Request for Proposal General Investment Consultant",
+        "City of Austin Employees’ Retirement System",
+        "Note that this RFP is for non-discretionary full-service general investment consulting services, including private markets strategic planning and analysis."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal General Investment Consultant",
+          "start": 13,
+          "end": 63
+        },
+        {
+          "quote": "City of Austin Employees’ Retirement System",
+          "start": 154,
+          "end": 197
+        },
+        {
+          "quote": "Note that this RFP is for non-discretionary full-service general investment consulting services, including private markets strategic planning and analysis.",
+          "start": 16451,
+          "end": 16606
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is a City of Austin Employees’ Retirement System (COAERS) RFP for general investment consulting, not KCERA’s 2024 actuarial audit services RFP. It does not require an experience-study peer review or an independent June 30, 2023 parallel valuation, including SRBR and GASB 67 valuations and discrepancy reconciliation.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL GENERAL INVESTMENT CONSULTANT",
+        "The City of Austin Employees’ Retirement System (COAERS) seeks general investment consultant services",
+        "this RFP is for non-discretionary full-service general investment consulting services, including private markets strategic planning and analysis.",
+        "COAERS will consider only Proposals for the services described below."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL GENERAL INVESTMENT CONSULTANT",
+          "start": 7550,
+          "end": 7600
+        },
+        {
+          "quote": "The City of Austin Employees’ Retirement System (COAERS) seeks general investment consultant services",
+          "start": 14252,
+          "end": 14353
+        },
+        {
+          "quote": "this RFP is for non-discretionary full-service general investment consulting services, including private markets strategic planning and analysis.",
+          "start": 16461,
+          "end": 16606
+        },
+        {
+          "quote": "COAERS will consider only Proposals for the services described below.",
+          "start": 16607,
+          "end": 16676
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

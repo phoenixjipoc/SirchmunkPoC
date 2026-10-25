@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "1097335632a6f3e49ab2",
+    "query_id": "SVC-15",
+    "question": "What contract term, including any extension options, does the Kern County Employees' Retirement Association (KCERA) RFP for audit services contemplate?",
+    "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "expected_facts": "A three-year agreement (audits of fiscal year ending June 30, 2023 and the two subsequent fiscal years), subject to annual Board review; the original term may be extended for up to an additional three years by mutual agreement of KCERA and the firm.",
+    "acceptance": "Accept 3+up to3 years, mutual extension. Audit fiscal years and annual-review/negotiation detail need not all be volunteered.",
+    "text_hash": "81e913c98df37dcfd35af28d88b1b03c1dc82eb7e2f99c9c19de8d06866fc421",
+    "source_text_sha256": "2d54872fc00a587921e9e76823bb49d685f32d834a6c8320657ad95eb8fd8f87",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an Indiana Public Retirement System RFP for alternative investment consulting, not a KCERA RFP for audit services. Its five-year initial term and renewal provisions do not support the requested KCERA contract term.",
+      "quotes": [
+        "Request for Proposals (“RFP”) for Alternative Investment Consulting Services for the Indiana Public Retirement System (“INPRS” or the “System”).",
+        "The term of the contract entered under this RFP shall be for an initial period of five (5) years",
+        "Total contract period shall not exceed ten (10) years."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals (“RFP”) for Alternative Investment Consulting Services for the Indiana Public Retirement System (“INPRS” or the “System”).",
+          "start": 2274,
+          "end": 2418
+        },
+        {
+          "quote": "The term of the contract entered under this RFP shall be for an initial period of five (5) years",
+          "start": 35313,
+          "end": 35409
+        },
+        {
+          "quote": "Total contract period shall not exceed ten (10) years.",
+          "start": 35598,
+          "end": 35652
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

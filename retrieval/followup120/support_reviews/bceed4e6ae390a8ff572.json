@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "bceed4e6ae390a8ff572",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "56be5441fdd85ac47a49e37550d57c48739c5445aef51a98d520f434f602b28d",
+    "source_text_sha256": "aa909464e1f8f0ad516109f7878c1c568c013d4c589def159d7c84f696da480b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a PRI private equity due diligence questionnaire covering note, not the retirement system’s external audit RFP Q&A. It provides no FY2021 audit fee information.",
+      "quotes": [
+        "PRINCIPLES FOR RESPONSIBLE INVESTMENT (PRI) LIMITED PARTNERS PRIVATE EQUITY RESPONSIBLE INVESTMENT DUE DILIGENCE QUESTIONNAIRE (DDQ) – 2021 UPDATE PROCESS OVERVIEW",
+        "In early 2021, the PRI established a working group comprised of PRI signatories"
+      ],
+      "quote_matches": [
+        {
+          "quote": "PRINCIPLES FOR RESPONSIBLE INVESTMENT (PRI) LIMITED PARTNERS PRIVATE EQUITY RESPONSIBLE INVESTMENT DUE DILIGENCE QUESTIONNAIRE (DDQ) – 2021 UPDATE PROCESS OVERVIEW",
+          "start": 13,
+          "end": 176
+        },
+        {
+          "quote": "In early 2021, the PRI established a working group comprised of PRI signatories",
+          "start": 758,
+          "end": 837
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

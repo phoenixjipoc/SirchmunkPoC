@@ -1,0 +1,506 @@
+{
+  "query_id": "DDQ-12",
+  "question": "Which bucket (Not Present, Developing, Intermediate or Advanced) did ILPA assign to KKR under the ILPA ESG Assessment Framework, and what numerical score did KKR receive?",
+  "type": "unanswerable",
+  "pair_id": "",
+  "seed": 3316088468,
+  "references": [
+    {
+      "rank": 1,
+      "file": "ILPA__ILPA-ESG-Assessment-Framework.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+      "path": "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+      "path": "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf"
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "keywords": {
+    "ILPA ESG Assessment Framework": 9.0,
+    "KKR assessment bucket": 8.0,
+    "KKR numerical score": 8.0,
+    "ESG评估框架": 8.0,
+    "评估等级": 6.0,
+    "数值评分": 5.0
+  },
+  "keyword_terms": [
+    "ILPA ESG Assessment Framework",
+    "KKR assessment bucket",
+    "KKR numerical score",
+    "ESG评估框架",
+    "评估等级",
+    "数值评分"
+  ],
+  "directory_prompt": "You are a document triage specialist. Analyze the scanned files below and rank them by relevance to the user's query.\n\n## Directory Structure\nRoot: /mnt/docs/S\n```\n  ./ (20 files)\n```\n\n## User Query\nWhich bucket (Not Present, Developing, Intermediate or Advanced) did ILPA assign to KKR under the ILPA ESG Assessment Framework, and what numerical score did KKR receive?\n\n## Scanned Files\n- **Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf** (.pdf, 285.5KB)\n  Author: Brad Tillberg\n  Pages/Sheets: 17\n  Keywords: Brad Tillberg\n  Modified: 2026-10-07\n  Preview: OPERS RFP – Investment Management Services – Issued July 20, 2023  Page 1 of 17  THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM    REQUEST FOR PROPOSAL  #515-24-001    U.S. EQUITY, Non-U.S. EQUITY, A\n\n- **COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf** (.pdf, 1.1MB)\n  Author: Russell Nash\n  Pages/Sheets: 39\n  Keywords: Russell Nash\n  Modified: 2026-10-07\n  Preview: 1    CITY OF AUSTIN   EMPLOYEES’ RETIREMENT SYSTEM  Request for Proposal (RFP)  ______________________________________________________________________________    Actuarial Services  for an Actuarial D\n\n- **Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf** (.pdf, 667.3KB)\n  Author: James Stivers\n  Pages/Sheets: 48\n  Keywords: James Stivers\n  Modified: 2026-10-07\n  Preview: State Retirement Systems            Request for Proposal  for  Actuarial Consulting Services  (System Reference # 24100)        Issued on February 2, 2024  Responses Due by 2:00 P.M. CST on March 4, 2\n\n- **PRI__PRI-DDQ-ILPA-Covering-Note.pdf** (.pdf, 155.2KB)\n  Author: Marco Longhini\n  Pages/Sheets: 2\n  Keywords: Marco Longhini\n  Modified: 2026-10-07\n  Preview: PRINCIPLES FOR RESPONSIBLE INVESTMENT (PRI) LIMITED  PARTNERS PRIVATE EQUITY RESPONSIBLE INVESTMENT DUE  DILIGENCE QUESTIONNAIRE (DDQ) – 2021 UPDATE    PROCESS OVERVIEW    The first version of the PRI\n\n- **SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf** (.pdf, 775.2KB)\n  Title: SURS Sample Investment Manager RFP\n  Author: SURS\n  Pages/Sheets: 44\n  Keywords: SURS\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSAL  Emerging  Markets Equity  ID: RFP-##-##-##  Issued February 14, 2022  Respon ses due via email  by 4:30pm CT on March 31, 2022  Please include RFP ID on all correspondence Sample\n\n- **Temple_City_CA__Recordkeeping-RFP.pdf** (.pdf, 925.0KB)\n  Title: REQUEST FOR PROPOSAL\n  Author: kwelch\n  Pages/Sheets: 57\n  Keywords: kwelch\n  Modified: 2026-10-07\n  Preview: City of Temple City, California  457 Deferred Compensation Plan    Request for Proposals for  Plan Administration and Record Keeping Services                        RFP DISTRIBUTION DATE: June 17, 202\n\n- **KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf** (.pdf, 2.7MB)\n  Title: Microsoft Word - KCERA RFP for Audit Services\n  Author: matt.henry\n  Pages/Sheets: 55\n  Keywords: matt.henry\n  Modified: 2026-10-07\n  Preview: Kern County Employees’ Retirement Association  REQUEST FOR PROPOSAL – AUDIT SERVICES                              Kern County Employees’ Retirement Association  11125 River Run Boulevard Bakersfield C\n\n- **MA_PRIM__PDF-Version-of-RFP.pdf** (.pdf, 1.2MB)\n  Title: Pension reserves\n  Author: Abouhala, Andre\n  Pages/Sheets: 66\n  Keywords: Abouhala, Andre\n  Modified: 2026-10-07\n  Preview: P ension Reserves Investment Management Board  Deborah B. Goldberg, Treasurer and Receiver General, Chair  Michael G. Trotsky, CFA, Executive Director and Chief Investment Officer  mapension.com | 53\n\n- **Hawaii_ERS__ERS-Private-Equity-AD.pdf** (.pdf, 12.5KB)\n  Title: Microsoft Word - ERS Private Equity AD (website.spo).docx\n  Author: misakil\n  Pages/Sheets: 2\n  Keywords: misakil\n  Modified: 2026-10-07\n  Preview: STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM  REQUEST FOR PROPOSAL (RFP)  FOR PRIVATE EQUITY CONSULTING   AND INVESTMENT SERVICES      The Employees’ Retirement System of the State of Hawaii (ERS) is soliciting  proposals for qualified firm(s) to provide private equity investment consulting and  investment management services to the ERS.  The consulting firm(s) must be  United States based, registered under the Investment Advisors Act of 1940, been  in business for a minimum of five years and h\n\n- **Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf** (.pdf, 311.8KB)\n  Pages/Sheets: 10\n  Modified: 2026-10-07\n  Preview: SHREWSBURYCONTRIBUTORYRETIREMENTSYSTEM RequestforProposalsforInvestmentConsultantServices TheSHREWSBURYRETIREMENTBOARD,overseersoftheShrewsburyRetirementSystem,a Massachusettsmunicipalpublicpensionfin\n\n- **Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf** (.pdf, 54.5KB)\n  Title: Request for Proposal (RFP) for Outsourced Chief Investment Officer (OCIO) Services\n  Pages/Sheets: 5\n  Modified: 2026-10-07\n  Preview: Request for Proposal (RFP) for Outsourced Chief Investment Officer  (OCIO) Services   Issued By: Samuel Fels Fund  Contact: Uma Viswanathan uma@samfels.org; Nimrit  Kang kangnkgo@gmail.com   1. Introduction and Overview  The Samuel S. Fels Fund’s [Fels Fund] mission is to improve conditions and  opportunities for communities that are and have been historically excluded and  marginalized in Philadelphia, and to move us towards a more socially, racially, and  economically just society.  The organi\n\n- **LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf** (.pdf, 1.6MB)\n  Author: Jennifer Van\n  Pages/Sheets: 67\n  Keywords: Jennifer Van\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS  FINANCIAL STATEMENT AUDIT SERVICES  Release Date: January 31, 2025  RFP Number: DCFS25-01  Proposal Due Date: March 5, 2025, 3:00 P.M. PST  Los Angeles Fire and Police Pensions\n\n- **Monroe_County_NY__10406.pdf** (.pdf, 656.0KB)\n  Title: Deferred Comp RFP\n  Author: Monroe County\n  Pages/Sheets: 18\n  Keywords: Monroe County\n  Modified: 2026-10-07\n  Preview: Deferred Compensation Services:    Administrative/Recordkeeping Services,  Marketing/Enrollment/Education Services,  Investment Management, and  Custodial Trustee Services    August 4, 2023  Request f\n\n- **Delaware__TRE21101-RECDKEEPR-rfp.pdf** (.pdf, 1.0MB)\n  Author: Davis, Liza D (OST)\n  Pages/Sheets: 109\n  Keywords: Davis, Liza D (OST)\n  Modified: 2026-10-07\n  Preview: 1    REQUEST FOR PROPOSAL FOR DEFERRED COMPENSATION PLAN  RECORDKEEPING AND ADMINISTRATION SERVICES ISSUED BY THE  OFFICE OF THE STATE TREASURER    CONTRACT NUMBER:  TRE-CPM-21101- DEFERRED COMPENSATI\n\n- **INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf** (.pdf, 1.0MB)\n  Author: Jeffrey Hutson\n  Pages/Sheets: 58\n  Keywords: Jeffrey Hutson\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSALS (“RFP”) for  ALTERNATIVE INVESTMENT CONSULTING SERVICES    RFP NUMBER 23-09      RELEASE DATE:  October 23, 2023  DEADLINE FOR INQUIRIES: November 13, 2023, 3:00 P.M. (EST)  DEAD\n\n- **INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf** (.pdf, 771.3KB)\n  Author: KPMG\n  Pages/Sheets: 55\n  Keywords: KPMG\n  Modified: 2026-10-07\n  Preview: - 1 -                                                                           REQUEST FOR PROPOSALS (“RFP”) for    CORE PLUS FIXED INCOME INVESTMENT MANAGEMENT      RFP NUMBER 22-04    RELEASE DATE:\n\n- **NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf** (.pdf, 197.3KB)\n  Author: Emmanuel Esochaghi\n  Pages/Sheets: 7\n  Keywords: Emmanuel Esochaghi\n  Modified: 2026-10-07\n  Preview: 15    APPENDIX A  DUE DILIGENCE QUESTIONNAIRE  Respondents to this notice are required to submit detailed responses to these questions as applicable,  which give insight into the prospective managers’\n\n- **Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf** (.pdf, 197.1KB)\n  Title: ATTACHMENT 3C – FOR BOTH GENERAL AND PUBLIC MARKET CONSULTANT AND ALTERNATIVE CONSULTANT—SERVICE LEVEL THREE\n  Author: DanielGr\n  Pages/Sheets: 12\n  Keywords: DanielGr\n  Modified: 2026-10-07\n  Preview: Attachment 3-1          ATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES  PROPOSAL QUESTIONNAIRE    BOSTON RETIREMENT SYSTEM    Investment Consulting Services   Request for Proposals  INSTRUCTIONS\n\n- **IMRF__sample-investment-consulting-rfp.pdf** (.pdf, 187.0KB)\n  Title: 4/20/98 DRAFT\n  Author: Carmen Heredia\n  Pages/Sheets: 31\n  Keywords: Carmen Heredia\n  Modified: 2026-10-07\n  Preview: Request for Proposals - Investment Consulting, Real Estate Consulting and Performance  Measurement Services    PART 1 -- Introduction and Goal of the RFP  1.1 INTRODUCTION - General Information  The I\n\n- **KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf** (.pdf, 469.5KB)\n  Title: Microsoft Word - Audit Actuary RFP 2024 Final\n  Author: matt.henry\n  Pages/Sheets: 50\n  Keywords: matt.henry\n  Modified: 2026-10-07\n  Preview: Kern County Employees’ Retirement Association             Request for Proposal     ACTUARIAL AUDIT SERVICES            March 29, 2024\n\n## Instructions\n1. Evaluate EVERY file listed above. Consider directory names, filenames, titles, keywords, and preview content as relevance signals.\n2. Assign \"high\" (directly relevant), \"medium\" (possibly relevant), or \"low\" (unlikely relevant) to each file.\n3. For the \"path\" field, copy the **exact relative path** shown in bold (e.g. `subdir/file.pdf`) from the scan results above.\n4. Return ONLY a JSON array — no other text.\n\n## Output Format (use the EXACT path shown in the file listing)\n```json\n[\n  {\"path\": \"exact/relative/path/from/listing\", \"relevance\": \"high\", \"reason\": \"brief reason\"}\n]\n```",
+  "keyword_files": [
+    "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+    "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+    "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+    "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+    "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf"
+  ],
+  "directory_ranking": [
+    {
+      "path": "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+      "filename": "PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+      "extension": ".pdf",
+      "size_bytes": 158934,
+      "modified_at": "2026-10-07T07:12:05",
+      "created_at": "2026-10-07T07:19:58.404020",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Marco Longhini",
+      "page_count": 2,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Marco Longhini"
+      ],
+      "preview": "PRINCIPLES FOR RESPONSIBLE INVESTMENT (PRI) LIMITED \nPARTNERS PRIVATE EQUITY RESPONSIBLE INVESTMENT DUE \nDILIGENCE QUESTIONNAIRE (DDQ) – 2021 UPDATE \n \nPROCESS OVERVIEW \n \nThe first version of the PRI Limited Partners Private Equity Responsible Investment Due Diligence \nQuestionnaire (DDQ) was launc",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Mentions ILPA and private-equity responsible-investment due diligence, but the preview does not indicate a KKR assessment or score."
+    },
+    {
+      "path": "/mnt/docs/S/Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+      "filename": "Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+      "extension": ".pdf",
+      "size_bytes": 12825,
+      "modified_at": "2026-10-07T07:07:52",
+      "created_at": "2026-10-07T07:19:56.864046",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - ERS Private Equity AD (website.spo).docx",
+      "author": "misakil",
+      "page_count": 2,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "misakil"
+      ],
+      "preview": "STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM \nREQUEST FOR PROPOSAL (RFP) \nFOR PRIVATE EQUITY CONSULTING  \nAND INVESTMENT SERVICES \n \n \nThe Employees’ Retirement System of the State of Hawaii (ERS) is soliciting \nproposals for qualified firm(s) to provide private equity investment consulting and \nin",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "Private-equity services RFP; no indication of an ILPA ESG assessment or KKR score."
+    },
+    {
+      "path": "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "filename": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1063300,
+      "modified_at": "2026-10-07T07:15:02",
+      "created_at": "2026-10-07T07:19:57.136042",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Jeffrey Hutson",
+      "page_count": 58,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Jeffrey Hutson"
+      ],
+      "preview": "REQUEST FOR PROPOSALS (“RFP”) for \nALTERNATIVE INVESTMENT CONSULTING SERVICES \n \nRFP NUMBER 23-09 \n \n \nRELEASE DATE:  October 23, 2023 \nDEADLINE FOR INQUIRIES: November 13, 2023, 3:00 P.M. (EST) \nDEADLINE FOR SUBMISSION:  December 15, 2023, 3:00 P.M. (EST)",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Alternative-investment consulting RFP, not an apparent manager assessment."
+    },
+    {
+      "path": "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+      "filename": "NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+      "extension": ".pdf",
+      "size_bytes": 201996,
+      "modified_at": "2026-10-07T07:09:29",
+      "created_at": "2026-10-07T07:19:58.052026",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Emmanuel Esochaghi",
+      "page_count": 7,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Emmanuel Esochaghi"
+      ],
+      "preview": "15 \n \nAPPENDIX A \nDUE DILIGENCE QUESTIONNAIRE \nRespondents to this notice are required to submit detailed responses to these questions as applicable, \nwhich give insight into the prospective managers’ structure and policies. If not applicable, mark it “N/A” \n1.0 Respondent Firm: General Information ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Includes a prospective-manager questionnaire, but no indication of KKR or an ILPA score."
+    },
+    {
+      "path": "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+      "filename": "MA_PRIM__PDF-Version-of-RFP.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1309036,
+      "modified_at": "2026-10-07T07:06:12",
+      "created_at": "2026-10-07T07:19:57.960027",
+      "mime_type": "application/pdf",
+      "title": "Pension reserves",
+      "author": "Abouhala, Andre",
+      "page_count": 66,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Abouhala, Andre"
+      ],
+      "preview": "P\nension Reserves Investment Management Board \nDeborah B. Goldberg, Treasurer and Receiver General, Chair \nMichael G. Trotsky, CFA, Executive Director and Chief Investment Officer \nmapension.com | 53 State Street, Suite 600, Boston, MA 02109 | (617) 946-8401 \nOctober 31, 2023 \nD\near Potential Provid",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment-related RFP with no visible link to the requested assessment."
+    },
+    {
+      "path": "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "filename": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "extension": ".pdf",
+      "size_bytes": 201881,
+      "modified_at": "2026-10-07T07:05:47",
+      "created_at": "2026-10-07T07:19:56.272057",
+      "mime_type": "application/pdf",
+      "title": "ATTACHMENT 3C – FOR BOTH GENERAL AND PUBLIC MARKET CONSULTANT AND ALTERNATIVE CONSULTANT—SERVICE LEVEL THREE",
+      "author": "DanielGr",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "DanielGr"
+      ],
+      "preview": "Attachment 3-1 \n \n \n \n \nATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES \nPROPOSAL QUESTIONNAIRE \n \nBOSTON RETIREMENT SYSTEM \n \nInvestment Consulting Services  \nRequest for Proposals \nINSTRUCTIONS \n \nBRS is considering Proposals for a General Investment Services Consultant, which encompasses Public",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment-consultant proposal questionnaire, not a KKR ESG assessment."
+    },
+    {
+      "path": "/mnt/docs/S/Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+      "filename": "Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 292309,
+      "modified_at": "2026-10-07T07:06:35",
+      "created_at": "2026-10-07T07:19:58.324021",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Brad Tillberg",
+      "page_count": 17,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Brad Tillberg"
+      ],
+      "preview": "OPERS RFP – Investment Management Services – Issued July 20, 2023 \nPage 1 of 17 \nTHE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM \n \nREQUEST FOR PROPOSAL \n#515-24-001 \n \nU.S. EQUITY, Non-U.S. EQUITY, AND FIXED INCOME (TIPS) INDEX \nINVESTMENT MANAGEMENT SERVICES \n \nThe Board of Trustees of the Oklahom",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Index investment-management RFP; no apparent ILPA or KKR assessment content."
+    },
+    {
+      "path": "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+      "filename": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+      "extension": ".pdf",
+      "size_bytes": 793776,
+      "modified_at": "2026-10-07T07:14:27",
+      "created_at": "2026-10-07T07:19:58.852012",
+      "mime_type": "application/pdf",
+      "title": "SURS Sample Investment Manager RFP",
+      "author": "SURS",
+      "page_count": 44,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "SURS"
+      ],
+      "preview": "REQUEST FOR PROPOSAL \nEmerging \nMarkets Equity \nID: RFP-##-##-## \nIssued February 14, 2022 \nRespon\nses due via email \nby 4:30pm CT on March 31, 2022 \nPlease include RFP ID on all correspondence\nSample",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Generic investment-manager RFP template, unlikely to report a KKR score."
+    },
+    {
+      "path": "/mnt/docs/S/Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf",
+      "filename": "Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf",
+      "extension": ".pdf",
+      "size_bytes": 319279,
+      "modified_at": "2026-10-07T07:17:44",
+      "created_at": "2026-10-07T07:19:58.880011",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "",
+      "page_count": 10,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "SHREWSBURYCONTRIBUTORYRETIREMENTSYSTEM\nRequestforProposalsforInvestmentConsultantServices\nTheSHREWSBURYRETIREMENTBOARD,overseersoftheShrewsburyRetirementSystem,a\nMassachusettsmunicipalpublicpensionfindwithassetsofapproximately$125million,invitesqualified\nentitiestosubmitproposalsforInvestmentConsult",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Investment-consultant RFP with no apparent connection to the requested score."
+    },
+    {
+      "path": "/mnt/docs/S/Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf",
+      "filename": "Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf",
+      "extension": ".pdf",
+      "size_bytes": 55822,
+      "modified_at": "2026-10-07T07:17:59",
+      "created_at": "2026-10-07T07:19:58.856012",
+      "mime_type": "application/pdf",
+      "title": "Request for Proposal (RFP) for Outsourced Chief Investment Officer (OCIO) Services",
+      "author": "",
+      "page_count": 5,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "Request for Proposal (RFP) for Outsourced Chief Investment Officer \n(OCIO) Services  \nIssued By: Samuel Fels Fund \nContact: Uma Viswanathan uma@samfels.org; Nimrit \nKang kangnkgo@gmail.com  \n1. Introduction and Overview \nThe Samuel S. Fels Fund’s [Fels Fund] mission is to improve conditions and \nopp",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "OCIO services RFP, not an ILPA assessment."
+    },
+    {
+      "path": "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+      "filename": "INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 789805,
+      "modified_at": "2026-10-07T07:06:32",
+      "created_at": "2026-10-07T07:19:57.184041",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "KPMG",
+      "page_count": 55,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "KPMG"
+      ],
+      "preview": "- 1 -  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nREQUEST FOR PROPOSALS (“RFP”) for \n \nCORE PLUS FIXED INCOME INVESTMENT MANAGEMENT \n \n \nRFP NUMBER 22-04 \n \nRELEASE DATE: OCTOBER 31 , 2022 \n \nDEADLINE FOR INQUIRIES: NOVEMBER 18, 2022 BY 3:00 PM EST \n \nDEADLINE FOR SUBMI",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Fixed-income manager RFP unrelated to the specified private-equity ESG assessment."
+    },
+    {
+      "path": "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf",
+      "filename": "IMRF__sample-investment-consulting-rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 191530,
+      "modified_at": "2026-10-07T07:05:26",
+      "created_at": "2026-10-07T07:19:57.056043",
+      "mime_type": "application/pdf",
+      "title": "4/20/98 DRAFT",
+      "author": "Carmen Heredia",
+      "page_count": 31,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Carmen Heredia"
+      ],
+      "preview": "Request for Proposals - Investment Consulting, Real Estate Consulting and Performance \nMeasurement Services \n \nPART 1 -- Introduction and Goal of the RFP \n1.1 INTRODUCTION - General Information \nThe Illinois Municipal Retirement Fund (IMRF) is requesting pro posals from investment \nconsulting firms ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Sample investment-consulting RFP, not a firm-specific assessment."
+    },
+    {
+      "path": "/mnt/docs/S/Monroe_County_NY__10406.pdf",
+      "filename": "Monroe_County_NY__10406.pdf",
+      "extension": ".pdf",
+      "size_bytes": 671723,
+      "modified_at": "2026-10-07T07:08:58",
+      "created_at": "2026-10-07T07:19:58.032026",
+      "mime_type": "application/pdf",
+      "title": "Deferred Comp RFP",
+      "author": "Monroe County",
+      "page_count": 18,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Monroe County"
+      ],
+      "preview": "Deferred Compensation Services: \n \nAdministrative/Recordkeeping Services, \nMarketing/Enrollment/Education Services, \nInvestment Management, and \nCustodial Trustee Services \n \nAugust 4, 2023 \nRequest for Proposals",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Deferred-compensation services RFP with no apparent ILPA or KKR content."
+    },
+    {
+      "path": "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf",
+      "filename": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "extension": ".pdf",
+      "size_bytes": 947221,
+      "modified_at": "2026-10-07T07:08:46",
+      "created_at": "2026-10-07T07:19:59.212006",
+      "mime_type": "application/pdf",
+      "title": "REQUEST FOR PROPOSAL",
+      "author": "kwelch",
+      "page_count": 57,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "kwelch"
+      ],
+      "preview": "City of Temple City, California \n457 Deferred Compensation Plan \n \nRequest for Proposals for \nPlan Administration and Record Keeping Services \n \n \n \n \n \n \n \n \n \n \n \nRFP DISTRIBUTION DATE: June 17, 2020 at 4:00 PM (Pacific Time) \nDUE DATE FOR QUESTIONS: June 29, 2020 at 4:00 PM (Pacific Time) \nDUE DA",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Plan recordkeeping RFP, unrelated to the requested assessment."
+    },
+    {
+      "path": "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "filename": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1089597,
+      "modified_at": "2026-10-07T07:09:07",
+      "created_at": "2026-10-07T07:19:56.800047",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Davis, Liza D (OST)",
+      "page_count": 109,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Davis, Liza D (OST)"
+      ],
+      "preview": "1 \n \nREQUEST FOR PROPOSAL FOR DEFERRED COMPENSATION PLAN \nRECORDKEEPING AND ADMINISTRATION SERVICES ISSUED BY THE \nOFFICE OF THE STATE TREASURER   \nCONTRACT NUMBER:  TRE-CPM-21101- DEFERRED COMPENSATION PLAN \nRECORDKEEPING AND ADMINISTRATION SERVICES \n \n \nI. OVERVIEW \n \nBy this request for proposal ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Deferred-compensation recordkeeping RFP, unrelated to the requested assessment."
+    },
+    {
+      "path": "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+      "filename": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1182628,
+      "modified_at": "2026-10-07T07:06:57",
+      "created_at": "2026-10-07T07:19:56.456053",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Russell Nash",
+      "page_count": 39,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Russell Nash"
+      ],
+      "preview": "1 \n \nCITY OF AUSTIN  \nEMPLOYEES’ RETIREMENT SYSTEM \nRequest for Proposal (RFP) \n______________________________________________________________________________ \n \nActuarial Services \nfor an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan \nJune 26, 2025 \n \n___________________________",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Actuarial-services RFP, unrelated to the requested assessment."
+    },
+    {
+      "path": "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+      "filename": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+      "extension": ".pdf",
+      "size_bytes": 683303,
+      "modified_at": "2026-10-07T07:06:48",
+      "created_at": "2026-10-07T07:19:57.472036",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "James Stivers",
+      "page_count": 48,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "James Stivers"
+      ],
+      "preview": "State Retirement Systems \n \n \n \n \n \nRequest for Proposal \nfor \nActuarial Consulting Services \n(System Reference # 24100) \n \n \n \nIssued on February 2, 2024 \nResponses Due by 2:00 P.M. CST on March 4, 2024",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Actuarial-consulting RFP, unrelated to the requested assessment."
+    },
+    {
+      "path": "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+      "filename": "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+      "extension": ".pdf",
+      "size_bytes": 2825104,
+      "modified_at": "2026-10-07T07:14:36",
+      "created_at": "2026-10-07T07:19:57.660033",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - KCERA RFP for Audit Services",
+      "author": "matt.henry",
+      "page_count": 55,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "matt.henry"
+      ],
+      "preview": "Kern County Employees’ Retirement Association \nREQUEST FOR PROPOSAL – AUDIT SERVICES \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nKern County Employees’ Retirement Association \n11125 River Run Boulevard Bakersfield CA 93311 \n661‐381‐7700 Fax: 661‐381‐7799 \nwww.kcera.org",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Audit-services RFP, unrelated to the requested assessment."
+    },
+    {
+      "path": "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+      "filename": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1645690,
+      "modified_at": "2026-10-07T07:14:52",
+      "created_at": "2026-10-07T07:19:57.828030",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Jennifer Van",
+      "page_count": 67,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Jennifer Van"
+      ],
+      "preview": "REQUEST FOR PROPOSALS \nFINANCIAL STATEMENT AUDIT SERVICES \nRelease Date: January 31, 2025 \nRFP Number: DCFS25-01 \nProposal Due Date: March 5, 2025, 3:00 P.M. PST \nLos Angeles Fire and Police Pensions  \nInternal Audit Section \nEmail to: internalaudit@lafpp.com \nAll questions must be e-\nmailed to the ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Financial-statement audit RFP, unrelated to the requested assessment."
+    },
+    {
+      "path": "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+      "filename": "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+      "extension": ".pdf",
+      "size_bytes": 480771,
+      "modified_at": "2026-10-07T07:11:26",
+      "created_at": "2026-10-07T07:19:57.692032",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - Audit Actuary RFP 2024 Final",
+      "author": "matt.henry",
+      "page_count": 50,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "matt.henry"
+      ],
+      "preview": "Kern County Employees’ Retirement Association \n \n  \n \n \n \nRequest for Proposal \n  \nACTUARIAL AUDIT SERVICES \n \n \n \n \n \nMarch 29, 2024",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Actuarial-audit RFP, unrelated to the requested assessment."
+    }
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 143,
+      "timestamp": "2026-10-23 08:26:12.090686",
+      "metadata": {
+        "keywords": [
+          "ILPA ESG Assessment Framework",
+          "KKR assessment bucket",
+          "KKR numerical score",
+          "ESG评估框架",
+          "评估等级",
+          "数值评分"
+        ],
+        "files_found": 3,
+        "files_discovered": [
+          "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf",
+          "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+          "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf"
+        ]
+      }
+    }
+  ],
+  "elapsed_s": 17.295,
+  "calls": 2,
+  "usage": {
+    "prompt_tokens": 3502,
+    "completion_tokens": 1529,
+    "total_tokens": 5031
+  },
+  "group": "R3",
+  "attempt": 1
+}

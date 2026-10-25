@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "0d115f75a1db1d762e02",
+    "query_id": "INV-02",
+    "question": "What is the proposal deadline, and how many copies must be submitted, for the City of Madison (Florida) Police Officers' and Firefighters' Retirement System RFP No. 2025-0901 for investment consulting services?",
+    "file": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "expected_facts": "Proposals must be received by 2:00 p.m. on September 1, 2025 at the City Clerk's office in Madison, FL (late proposals returned unopened); an original and five (5) copies must be submitted in a sealed envelope/package.",
+    "acceptance": "Accept 2pm September 1, 2025 and original plus five copies/six total. Address, sealing and late-return treatment are optional.",
+    "text_hash": "73a211d25704cd40542a3505df46faf10d19379d806cf48206f01f9d9cb8fe3c",
+    "source_text_sha256": "84c0516b95d11d6444cd8b9463d95a6569acd34bb54cbc16e1b70c586ad78095",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2021 investment consulting RFP issued by the San Bernardino County Employees’ Retirement Association, not the City of Madison (Florida) RFP No. 2025-0901. Its deadline and email-only submission instructions do not support the requested deadline or copy count.",
+      "quotes": [
+        "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
+        "RFP Responses Due: April 16, 2021 by 4:00 p.m. PDT",
+        "Via email only to InvestmentsRFP@sbcera.org",
+        "Proposals must be submitted electronically to the RFP Administrator, InvestmentsRFP@sbcera.org by the due date stated above in the Key Dates and Other Information section."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 130
+        },
+        {
+          "quote": "RFP Responses Due: April 16, 2021 by 4:00 p.m. PDT",
+          "start": 4362,
+          "end": 4412
+        },
+        {
+          "quote": "Via email only to InvestmentsRFP@sbcera.org",
+          "start": 4413,
+          "end": 4456
+        },
+        {
+          "quote": "Proposals must be submitted electronically to the RFP Administrator, InvestmentsRFP@sbcera.org by the due date stated above in the Key Dates and Other Information section.",
+          "start": 13422,
+          "end": 13593
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "d08452444c08337ce596",
+    "query_id": "SVC-17",
+    "question": "What evaluation criteria and point values are used to score proposals in the Delaware Office of the State Treasurer's 2021 RFP for deferred compensation plan recordkeeping and administration services?",
+    "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "expected_facts": "Total 100 points: (I) Vendor History and Depth of Public Defined Contribution Plan Experience - 10; (II) Scope of Vendor Operations and Ability to Meet Full Range of Requested Services - 20; (III) Plan Sponsor Experience: Website Access & Quality, Administrative and Compliance Support, Relationship Management, Performance Reporting and Industry/Trend Evaluation and Communication - 30; (IV) Participant Communication & Education: Custom Website, Voice Response System and Participant Call Center; Commitment to Customer Service/Issue Resolution; Custom Communication and Education Capabilities, Branding, Onsite Representatives and Guidance/Advice Tools - 30; (V) Overall Cost to Plans and Plan Participants - 10.",
+    "acceptance": "Five categories with 10/20/30/30/10 points, correctly distinguishing plan-sponsor from participant services. Exhaustive examples within categories are optional.",
+    "text_hash": "e529592be16077691cd54aac3c1a9e7ed524ba5b471c34ebf5ebe0296f8ab615",
+    "source_text_sha256": "40f6e66cda735b5ac3e65bb52c7627bc76b11a8e7017ca73d4ed3e9b2360ca3a",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a 2024 City of Austin Employees’ Retirement System RFP for general investment consulting, not the Delaware Office of the State Treasurer’s 2021 deferred compensation recordkeeping and administration RFP. It does not provide the requested five scored categories or point values.",
+      "quotes": [
+        "Request for Proposal General Investment Consultant",
+        "City of Austin Employees’ Retirement System",
+        "Issuance January 2, 2024",
+        "there is no predetermined mechanical formula contemplated for weighing fees against other criteria."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal General Investment Consultant",
+          "start": 13,
+          "end": 63
+        },
+        {
+          "quote": "City of Austin Employees’ Retirement System",
+          "start": 154,
+          "end": 197
+        },
+        {
+          "quote": "Issuance January 2, 2024",
+          "start": 38713,
+          "end": 38737
+        },
+        {
+          "quote": "there is no predetermined mechanical formula contemplated for weighing fees against other criteria.",
+          "start": 53115,
+          "end": 53214
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

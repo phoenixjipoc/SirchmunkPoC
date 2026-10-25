@@ -1,0 +1,4 @@
+{
+  "valid_parser_comparison": false,
+  "reason": "Only the unused synchronous executor was patched; live retrieval uses _run_rga_async. Both arms used the default parser."
+}

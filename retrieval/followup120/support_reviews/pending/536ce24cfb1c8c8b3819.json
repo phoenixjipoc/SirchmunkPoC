@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "536ce24cfb1c8c8b3819",
+    "query_id": "INV-01",
+    "question": "In the CAJPA sample investment management RFP (Appendix Z, 'Sample Investment Management Request for Proposal'), how many copies of the proposal must be sent?",
+    "file": "Hartford_MERF__file.pdf",
+    "expected_facts": "Ten (10) copies of the proposal and correspondence, sent to the pool administrator (shown as 'John Doe, 123 Main Street' in the template).",
+    "acceptance": "Ten/10 copies suffices; template addressee and correspondence wording are optional.",
+    "text_hash": "612ac769f6b20e395be5d2aa2b38b7e34b8ea2f3e26f8e98d474dcd3da97e895",
+    "source_text_sha256": "44a1836a1354f4ce795c9252d5b103625a8ebfa77400d6ce5e341b7d38a7561e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Hartford general investment consultant RFP, not CAJPA’s Appendix Z sample investment management RFP. Its proposal-copy requirement applies to a different document and does not support the requested fact.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+        "Four original paper copies of the proposal, and one electronic copy, all fully signed and sealed, shall be submitted to:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+          "start": 235,
+          "end": 294
+        },
+        {
+          "quote": "Four original paper copies of the proposal, and one electronic copy, all fully signed and sealed, shall be submitted to:",
+          "start": 16353,
+          "end": 16473
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

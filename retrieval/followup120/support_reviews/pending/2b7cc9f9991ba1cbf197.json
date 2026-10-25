@@ -1,0 +1,35 @@
+{
+  "job": {
+    "id": "2b7cc9f9991ba1cbf197",
+    "query_id": "SVC-09",
+    "question": "A county retirement system's custody RFP requires custody respondents to have at least $500 billion in total assets under custody as of December 31, 2021. How much of that must be in international equity and fixed income, and what minimum liability/professional errors and omissions insurance must respondents provide?",
+    "file": "OCERS__custodian_services_rfp_questions_and_answers.pdf",
+    "expected_facts": "At least $100 billion in international equity and fixed income; liability/professional errors and omissions insurance of at least $75 million. Issuer: Orange County Employees Retirement System (OCERS), October 2022 custody services RFP.",
+    "acceptance": "Accept $100bn international equity/fixed income and $75m liability/professional E&O coverage. Issuer/date are optional.",
+    "text_hash": "c2cd1ea39b4681195bfc15005be9f6982a0c6aa23fb1626dd5615b15f4e0d9b1",
+    "source_text_sha256": "a182eb705c5dc23e1b3ed20cf50b538c45e06c95d85392b4444daaf2a4fc66ac",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "correct",
+      "reason": "This is OCERS’s October 2022 custody RFP questions-and-answers document, but it does not state the required international equity and fixed-income assets under custody or the minimum liability/professional errors and omissions insurance coverage.",
+      "quotes": [
+        "Custody Services Request for Proposal Questions & Answers October 2022 Orange County Employees Retirement System (OCERS)"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Custody Services Request for Proposal Questions & Answers October 2022 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 133
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

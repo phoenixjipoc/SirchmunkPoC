@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "ed274bdd30a8085ab10c",
+    "query_id": "SVC-16",
+    "question": "What contract term, including any extension options, does the Los Angeles Fire and Police Pensions (LAFPP) RFP for financial statement audit services contemplate?",
+    "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "expected_facts": "A three-year contract (fiscal years ending June 30, 2025, 2026 and 2027) with a maximum fee proposal for each fiscal year; the Board may extend beyond the three-year term through two one-year renewals.",
+    "acceptance": "Three years plus two optional one-year renewals, up to five years, suffices. Fiscal-year dates and fee-proposal details are optional.",
+    "text_hash": "2e5c9ac10ac2943a19269fe0ceeab6dc6cca5c9b732ec461770764bed168feeb",
+    "source_text_sha256": "698b71034e03dda497378807f02ef9875cc985ad2aafde5d24accec7bdff2d4b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2016 South Carolina Retirement System Investment Commission RFP for investment consulting, not the LAFPP financial statement audit services RFP. Its five-year term and unspecified extensions cannot support the requested three-year term with two optional one-year renewals.",
+      "quotes": [
+        "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+        "The contract term is expected to be five (5) years.",
+        "The Agreement may be extended for additional periods as appropriate and agreed to by the parties."
+      ],
+      "quote_matches": [
+        {
+          "quote": "South Carolina Retirement System Investment Commission General Investment Consulting Services RFP",
+          "start": 106,
+          "end": 203
+        },
+        {
+          "quote": "The contract term is expected to be five (5) years.",
+          "start": 106997,
+          "end": 107048
+        },
+        {
+          "quote": "The Agreement may be extended for additional periods as appropriate and agreed to by the parties.",
+          "start": 60470,
+          "end": 60567
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

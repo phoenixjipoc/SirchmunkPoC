@@ -1,0 +1,144 @@
+{
+  "query_id": "XD-09",
+  "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+  "type": "pair_a",
+  "pair_id": "P17",
+  "group": "S",
+  "references": [
+    {
+      "rank": 1,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+      "path": "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "path": "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "Monroe_County_NY__10406.pdf",
+      "path": "/mnt/docs/S/Monroe_County_NY__10406.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+      "path": "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "INPRS__RFP24-05_AuditServices.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+      "path": "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf"
+    }
+  ],
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "baseline_sha256": "882d465da99ed6f634725bbbb1cdc2061efce23a7a1fb4aa251fc103d7c59be7",
+  "original_files": [
+    "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "INPRS__RFP24-05_AuditServices.pdf",
+    "Monroe_County_NY__10406.pdf",
+    "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+    "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+    "OCERS__investment_consultant_services_rfp.pdf",
+    "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+  ],
+  "ranking_prompt": "{\"question\": \"How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?\", \"candidates\": [{\"filename\": \"COAERS__COAERS_General_Investment_Consultant_RFP.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Russell Nash\", \"page_count\": 30, \"keywords\": [\"Russell Nash\"], \"preview\": \"1 \\n \\n \\n \\nRequest for Proposal \\nGeneral Investment Consultant \\n \\n \\n \\n \\n \\n \\nProposals must be submitted on or before  \\n5:00 p.m. Central Standard Time  \\nFebruary 9, 2024 \\n \\n \\n \\n \\n \\n \\nCity of Austin Employees’ Retirement System \\n6850 Austin Center Blvd. \\nSuite 320 \\nAustin, TX  78731 \\n(512) 458-2551 \\nwww.coaers.org/gic-rfp\", \"full_content\": \"\"}, {\"filename\": \"INPRS__RFP24-05_AuditServices.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Danny Sullivan\", \"page_count\": 33, \"keywords\": [\"Danny Sullivan\"], \"preview\": \"1  \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nREQUEST FOR PROPOSALS (“RFP”) for \\n \\nAUDIT SERVICES \\n \\n \\nRFP NUMBER 24-05 \\n \\n \\n \\nRELEASE DATE: OCTOBER 2, 2024 \\n \\nDEADLINE FOR INQUIRIES: OCTOBER 11, 2024 BY 3:00 PM EDT \\n \\nDEADLINE FOR SUBMISSION: NOVEMBER 1, 2024 BY 3:00 PM EDT\", \"full_content\": \"\"}, {\"filename\": \"Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"James Stivers\", \"page_count\": 48, \"keywords\": [\"James Stivers\"], \"preview\": \"State Retirement Systems \\n \\n \\n \\n \\n \\nRequest for Proposal \\nfor \\nActuarial Consulting Services \\n(System Reference # 24100) \\n \\n \\n \\nIssued on February 2, 2024 \\nResponses Due by 2:00 P.M. CST on March 4, 2024\", \"full_content\": \"\"}, {\"filename\": \"Monroe_County_NY__10406.pdf\", \"extension\": \".pdf\", \"title\": \"Deferred Comp RFP\", \"author\": \"Monroe County\", \"page_count\": 18, \"keywords\": [\"Monroe County\"], \"preview\": \"Deferred Compensation Services: \\n \\nAdministrative/Recordkeeping Services, \\nMarketing/Enrollment/Education Services, \\nInvestment Management, and \\nCustodial Trustee Services \\n \\nAugust 4, 2023 \\nRequest for Proposals\", \"full_content\": \"\"}, {\"filename\": \"NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf\", \"extension\": \".pdf\", \"title\": \"BOARD OF EDUCATION OF THE CITY OF NEW YORK\", \"author\": \"ARodriguez\", \"page_count\": 64, \"keywords\": [\"ARodriguez\"], \"preview\": \"REQUEST FOR PROPOSALS \\n \\nFOR \\n \\nINVESTMENT CONSULTING SERVICES \\n \\nRFP # 2024-003 \\n \\n \\nProposals will be received  \\nvia email to: BERSProcurement@bers.nyc.gov \\n \\n \\nUntil:  5:00 PM    On:  July 12, 2024 \\n \\n \\n. \\nNO LATE PROPOSALS WILL BE ACCEPTED \\n \\nEACH PAGE OF THE SUBMISSION MUST \\nBE LABELED WITH RFP # 2024-003: \\nINVESTMENT CONSULTING SERVICES\", \"full_content\": \"\"}, {\"filename\": \"OCERS__investment_consultant_services_rfp.pdf\", \"extension\": \".pdf\", \"title\": \"OCERS Investment Consultant Services RFP\", \"author\": \"OCERS\", \"page_count\": 37, \"keywords\": [\"OCERS\", \"OCERS Investment Consultant Services RFP\"], \"preview\": \"Investment Consultant Services \\nfor:  \\nGeneral Investments and Risk \\nPrivate Equity \\nReal Assets \\nReal Estate \\nRequests for Proposal \\n \\nIssued August 2021 \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nOrange County Employees Retirement System (OCERS) \\n2223 E Wellington Avenue Suite 100 \\nSanta Ana, CA 92701 USA \\n1-(714)-558-6200 \\nhttp://www.ocers.org\", \"full_content\": \"\"}, {\"filename\": \"SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Kristina Richter\", \"page_count\": 97, \"keywords\": [\"Kristina Richter\"], \"preview\": \"Santa Barbara County Employees’ Retirement System Global Custody and Related Services 1 \\n \\n \\nRequest for Proposal \\n \\n  \\nGlobal Custody and Related Services \\nSanta Barbara County Employees’ Retirement System \\n(“SBCERS”) \\n \\n  \\nIssue Date:       January 8, 2024 \\nQuestions Due:      January 12, 2024  \\nQ&A Responses Delivered:    January 22, 2024  \\nSubmission Deadline:      February 2, 2024  \\n \\n  \\nDesignated Contact: \\nJonathan Kowolik    Lindsey Longwell \\nSenior Consultant, Principal  Consultant \\nRVK, Inc.     RVK, Inc.  \\nOne Penn Plaza, Suite 2131  1211 SW 5th Avenue, Suite 900 \\nNew York, NY 10119   Portland, OR 97204 \\nJonathan.Kowolik@rvkinc.com  Lindsey.Longwell@rvkinc.com  \\nIOSG@rvkinc.com\", \"full_content\": \"\"}, {\"filename\": \"SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Ashleigh Hollins\", \"page_count\": 47, \"keywords\": [\"Ashleigh Hollins\"], \"preview\": \"General Investment Consulting Services \\n \\nRequest for Proposals \\n \\n \\nSeptember 30, 2016\", \"full_content\": \"\"}, {\"filename\": \"St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf\", \"extension\": \".pdf\", \"title\": \"Microsoft Word - PRS Actuarial Auditor Services RFP+Questionnaire\", \"author\": \"MLawson\", \"page_count\": 19, \"keywords\": [\"MLawson\"], \"preview\": \"1\\n THE POLICE RETIREMENT SYSTEM \\nOF ST. LOUIS \\n2020 MARKET STREET \\nSAINT LOUIS, MISSOURI  63103 \\n \\n   RFP Actuarial Auditing Services \\n   Date Issued – February 2, 2024 \\n \\n \\n \\n \\n \\n \\n \\n \\n  \\n________________________________________________________________________ \\nRequest for Proposal \\nIssued: February 2, 2024 \\nActuarial Auditing Services \\n \\nProposal Closing Date/Time: Friday, March 8, 2024 at 4:00 PM CDT \\nAwarded/ Purchase Order Let: Within 60 days of Bid Closing \\n \\nRESPONDENT’S COMPANY NAME________________________________________ \\n \\nREPRESENTATIVE______________________________________________________ \\n \\nTELEPHONE NUMBER___________________________________________________ \\n \\nE-MAIL ADDRESS_______________________________________________________ \\n \\n*If you intend to submit a proposal, please\", \"full_content\": \"\"}, {\"filename\": \"TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf\", \"extension\": \".pdf\", \"title\": \" TMRS RFP General Investment Consulting Services\", \"author\": \"TMRS\", \"page_count\": 39, \"keywords\": [\"TMRS\"], \"preview\": \"1 \\n \\n \\n \\n \\nRequest for Proposal (RFP) \\nNON-DISCRETIONARY  \\nGENERAL INVESTMENT CONSULTING SERVICES \\n \\n \\nNotice to Prospective Respondents \\nFebruary 3, 2022 \\n \\nYou are invited to review and respond to this Texas Municipal Reti rement System (TMRS) Request \\nfor Proposal ( RFP) e ntitled Non-Discretionary General Investment  Consulting Services . In \\nsubmitting your proposal, you must comply with the instructions found herein.   \\n \\nResponses must be received  no later than 5:00 p.m. Central Standard Time (CST) on March 3, \\n2022.  Pro posals received after this  date and time will not be considered.  Please see Section -VII – \\nTransmittal instructions for detailed information on how to respond. \\n                            \\nRespondents requiring clarification of the content of this RFP may r\", \"full_content\": \"\"}]}",
+  "keyword_files": [
+    "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf",
+    "/mnt/docs/S/Monroe_County_NY__10406.pdf",
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+    "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+    "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+    "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "/mnt/docs/S/DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "/mnt/docs/S/CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+    "/mnt/docs/S/CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+    "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+    "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+    "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "/mnt/docs/S/Hartford_MERF__file.pdf",
+    "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+    "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf",
+    "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf",
+    "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+    "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "/mnt/docs/S/Monroe_County_NY__10406.pdf",
+    "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+    "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf",
+    "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf"
+  ],
+  "status": "ok",
+  "elapsed_s": 5.525,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 2236,
+    "completion_tokens": 387,
+    "total_tokens": 2623
+  },
+  "attempt": 1
+}

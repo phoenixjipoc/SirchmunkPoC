@@ -1,0 +1,106 @@
+{
+  "job": {
+    "id": "df99ccdd649436208a4f",
+    "query_id": "XD-04",
+    "question": "Which due diligence questionnaire in the corpus asks the manager whether it requires its underlying investments to submit data to sustainability performance evaluation organisations, and which organisation does it give as an example?",
+    "file": "OCERS__investment_consultant_services_rfp.pdf",
+    "expected_facts": "The INREV DDQ 2022 for Funds of Funds and Multi Manager, question 3.8.1 (Supplementary Stage, section 3.8 Environmental, Social and Governance). The example given is the Global Real Estate Sustainability Benchmark (GRESB), and the manager is asked for its scores/results if it does require this.",
+    "acceptance": "Identify 2022 FoF/MM DDQ and Global Real Estate Sustainability Benchmark/GRESB. Question number and scores/results follow-up are optional.",
+    "text_hash": "5b64c217e92c2749a5177225f6fda52ea0dd775fcbdd0d850a456eb5dfcd1a1f",
+    "source_text_sha256": "31ba78f454a82dc69e8946299253c94f905a157c0bee42fe28fb33f65c2dcfa1",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "The supplied document is OCERS’s 2021 investment consultant services RFP, not the 2022 INREV Funds of Funds and Multi Manager DDQ. Its questionnaire does not ask about requiring underlying investments to submit sustainability performance data or name GRESB as an example.",
+        "quotes": [
+          "Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+          "Appendix G: Questionnaire",
+          "Section 3. Questionnaire for Alternative Investments Consultants"
+        ],
+        "quote_matches": [
+          {
+            "quote": "Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+            "start": 117,
+            "end": 207
+          },
+          {
+            "quote": "Appendix G: Questionnaire",
+            "start": 3131,
+            "end": 3156
+          },
+          {
+            "quote": "Section 3. Questionnaire for Alternative Investments Consultants",
+            "start": 3649,
+            "end": 3713
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is OCERS’s 2021 investment consultant services RFP, not the 2022 INREV Funds of Funds and Multi Manager DDQ. Its questionnaire does not ask about requiring underlying investments to submit sustainability performance data or name GRESB as an example.",
+      "quotes": [
+        "Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+        "Appendix G: Questionnaire",
+        "Section 3. Questionnaire for Alternative Investments Consultants"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+          "start": 117,
+          "end": 207
+        },
+        {
+          "quote": "Appendix G: Questionnaire",
+          "start": 3131,
+          "end": 3156
+        },
+        {
+          "quote": "Section 3. Questionnaire for Alternative Investments Consultants",
+          "start": 3649,
+          "end": 3713
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied file is OCERS’s August 2021 investment consultant services RFP, not the 2022 INREV Funds of Funds and Multi Manager due diligence questionnaire. It does not evidence the question about requiring underlying investments to submit sustainability performance data or name GRESB as an example.",
+      "quotes": [
+        "Investment Consultant Services for: General Investments and Risk Private Equity Real Assets Real Estate Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+        "Appendix G: Questionnaire",
+        "Section 3. Questionnaire for Alternative Investments Consultants"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Investment Consultant Services for: General Investments and Risk Private Equity Real Assets Real Estate Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 207
+        },
+        {
+          "quote": "Appendix G: Questionnaire",
+          "start": 3131,
+          "end": 3156
+        },
+        {
+          "quote": "Section 3. Questionnaire for Alternative Investments Consultants",
+          "start": 3649,
+          "end": 3713
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

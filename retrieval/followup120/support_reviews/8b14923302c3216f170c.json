@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "8b14923302c3216f170c",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "24d5965850bb731d1f236f3c09eb9e9855009b90c82899fd35fc123fe3525d93",
+    "source_text_sha256": "206385c6cbc8b887e46333ea2f56fa3be1d68c7f94e466f08c17043704dfdec6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2026 San Diego City Employees’ Retirement System RFP for a general investment consultant, not the external-audit RFP Q&A. It provides no FY2021 audit contractual fees.",
+      "quotes": [
+        "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+        "SDCERS General Investment Consultant RFP – August 2026 Page 2",
+        "Please indicate a full retainer annual dollar cost for performing all of these services."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+          "start": 13,
+          "end": 117
+        },
+        {
+          "quote": "SDCERS General Investment Consultant RFP – August 2026 Page 2",
+          "start": 2036,
+          "end": 2097
+        },
+        {
+          "quote": "Please indicate a full retainer annual dollar cost for performing all of these services.",
+          "start": -1,
+          "end": 87
+        }
+      ],
+      "all_quotes_grounded": false,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

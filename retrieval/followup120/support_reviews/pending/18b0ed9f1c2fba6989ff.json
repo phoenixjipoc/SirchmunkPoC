@@ -1,0 +1,100 @@
+{
+  "job": {
+    "id": "18b0ed9f1c2fba6989ff",
+    "query_id": "DDQ-01",
+    "question": "Which due diligence questionnaire in the corpus asks the manager 'What kills a deal for your team?', and who published it?",
+    "file": "ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+    "expected_facts": "The Private Markets Due Diligence Questionnaire ('Your Resource for Evaluating Private Market Partners') published by Calamos Investments with Aksia (file AC_Private_Markets). The question appears under General Questions > Investment Strategy and asks the manager to describe a recent example.",
+    "acceptance": "AC Private Markets / Calamos with Aksia accepted. Subtitle, copyright year and recent-example follow-up are optional.",
+    "text_hash": "4f7b225da38ba2910c55f1ea4315e95ab8e744efe8938a4f9bf7e044a4cb4ef3",
+    "source_text_sha256": "98e8f8f7a68546605480b8e76d3f362a5feebe06263622702fa575595bb98128",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is the ILPA Due Diligence Questionnaire, not the Calamos Investments questionnaire published with Aksia. It asks a related question about factors that would end a deal, but does not contain the quoted question or identify the requested publisher.",
+        "quotes": [
+          "The ILPA Due Diligence Questionnaire (“ILPA DDQ”) was compiled from over a dozen sample questionnaires provided by LPs, GPs and third parties.",
+          "3.9. Describe any investments that will not be considered. Are there any factors that would automatically end a potential a deal? If so, explain."
+        ],
+        "quote_matches": [
+          {
+            "quote": "The ILPA Due Diligence Questionnaire (“ILPA DDQ”) was compiled from over a dozen sample questionnaires provided by LPs, GPs and third parties.",
+            "start": 4100,
+            "end": 4242
+          },
+          {
+            "quote": "3.9. Describe any investments that will not be considered. Are there any factors that would automatically end a potential a deal? If so, explain.",
+            "start": 30751,
+            "end": 30896
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the ILPA Due Diligence Questionnaire, not the Calamos Investments questionnaire published with Aksia. It asks a related question about factors that would end a deal, but does not contain the quoted question or identify the requested publisher.",
+      "quotes": [
+        "The ILPA Due Diligence Questionnaire (“ILPA DDQ”) was compiled from over a dozen sample questionnaires provided by LPs, GPs and third parties.",
+        "3.9. Describe any investments that will not be considered. Are there any factors that would automatically end a potential a deal? If so, explain."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The ILPA Due Diligence Questionnaire (“ILPA DDQ”) was compiled from over a dozen sample questionnaires provided by LPs, GPs and third parties.",
+          "start": 4100,
+          "end": 4242
+        },
+        {
+          "quote": "3.9. Describe any investments that will not be considered. Are there any factors that would automatically end a potential a deal? If so, explain.",
+          "start": 30751,
+          "end": 30896
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied source is the ILPA Due Diligence Questionnaire v1.2, not the AC Private Markets questionnaire published by Calamos Investments with Aksia. It contains a related question about factors that would end a deal, but not the quoted question attributed to the requested questionnaire.",
+      "quotes": [
+        "The ILPA Due Diligence Questionnaire (DDQ) reflects the view of the participants involved in the creation thereof",
+        "New in Version 1.2 (released in September 2018)",
+        "Institutional Limited Partners Association",
+        "3.9. Describe any investments that will not be considered. Are there any factors that would automatically end a potential a deal? If so, explain."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The ILPA Due Diligence Questionnaire (DDQ) reflects the view of the participants involved in the creation thereof",
+          "start": 1962,
+          "end": 2075
+        },
+        {
+          "quote": "New in Version 1.2 (released in September 2018)",
+          "start": 1199,
+          "end": 1246
+        },
+        {
+          "quote": "Institutional Limited Partners Association",
+          "start": 1622,
+          "end": 1664
+        },
+        {
+          "quote": "3.9. Describe any investments that will not be considered. Are there any factors that would automatically end a potential a deal? If so, explain.",
+          "start": 30751,
+          "end": 30896
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

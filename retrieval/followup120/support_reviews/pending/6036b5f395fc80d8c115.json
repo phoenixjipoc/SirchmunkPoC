@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "6036b5f395fc80d8c115",
+    "query_id": "OTH-15",
+    "question": "In the Los Angeles City Employees' Retirement System (LACERS) actuarial RFP, how many years of experience must the lead actuary have?",
+    "file": "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "expected_facts": "At least 15 years of experience with major public employee retirement systems, including at least 3 years with California public pension fund clients similar to LACERS.",
+    "acceptance": "Accept 15 total and three California years. Do not require credential details unrelated to the years asked.",
+    "text_hash": "4d17b63a1511a6035e3a2c08797dc7e2c193555a97c765a553008ba340318074",
+    "source_text_sha256": "9ba8b34157c475227b613d2f9c05b6397a2e14952507ce6c1cae052ff9d4e2e8",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is KCERA’s audit-services RFP, not LACERS’s actuarial RFP. Its experience requirements concern audit personnel and do not support either required experience period for the LACERS lead actuary.",
+      "quotes": [
+        "Kern County Employees’ Retirement Association REQUEST FOR PROPOSAL – AUDIT SERVICES",
+        "The Principal/Partner (Engagement Partner) responsible for the KCERA account, and the partner who signs the audit opinion (if different), must be located in the United States and have at least ten (10) years of experience in public accounting."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Kern County Employees’ Retirement Association REQUEST FOR PROPOSAL – AUDIT SERVICES",
+          "start": 13,
+          "end": 96
+        },
+        {
+          "quote": "The Principal/Partner (Engagement Partner) responsible for the KCERA account, and the partner who signs the audit opinion (if different), must be located in the United States and have at least ten (10) years of experience in public accounting.",
+          "start": 51743,
+          "end": 51986
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "552a54f76eee9238fda0",
+    "query_id": "OTH-09",
+    "question": "A county pension fund is searching for a single manager of managers covering domestic equity, international equity and fixed income. What is the maximum mandate size, and what is the firm-level AUM limit for responders?",
+    "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "expected_facts": "A mandate of up to $350 million; responders must have less than $30 billion in firm-level assets under management (Cook County Fund, RFP 25-0004).",
+    "acceptance": "Accept up to $350m and firm AUM strictly below $30bn. Cook County identification is optional.",
+    "text_hash": "6c44b43272ac16f4bd8efdebfb5b71a666753ca71b3f0242c213453c6a30a56a",
+    "source_text_sha256": "a171986940a15f77f516b2eed48ea13f5e49967c592369ad8f87250248f2b907",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Delaware deferred-compensation recordkeeping RFP, not the county pension fund’s manager-of-managers solicitation. It states neither a maximum mandate size nor a firm-level AUM ceiling; its $20 billion threshold is a minimum for defined-contribution assets under administration.",
+      "quotes": [
+        "ISSUED BY THE OFFICE OF THE STATE TREASURER",
+        "CONTRACT NUMBER: TRE-CPM-21101- DEFERRED COMPENSATION PLAN RECORDKEEPING AND ADMINISTRATION SERVICES",
+        "The Vendor must have a minimum $20 billion in defined contribution assets under administration."
+      ],
+      "quote_matches": [
+        {
+          "quote": "ISSUED BY THE OFFICE OF THE STATE TREASURER",
+          "start": 107,
+          "end": 150
+        },
+        {
+          "quote": "CONTRACT NUMBER: TRE-CPM-21101- DEFERRED COMPENSATION PLAN RECORDKEEPING AND ADMINISTRATION SERVICES",
+          "start": 151,
+          "end": 251
+        },
+        {
+          "quote": "The Vendor must have a minimum $20 billion in defined contribution assets under administration.",
+          "start": 16922,
+          "end": 17017
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

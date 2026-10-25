@@ -1,0 +1,76 @@
+{
+  "query_id": "CONS-06",
+  "question": "Which retirement system's general investment consultant RFP requires respondents to currently provide non-discretionary general investment advice to at least 5 public pension plans larger than $5 billion and at least 2 public plans over $20 billion?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P",
+  "keyword_files": [
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+  ],
+  "keyword_terms": [
+    "general investment consultant RFP",
+    "non-discretionary general investment advice",
+    "public pension plans larger than $5 billion",
+    "public plans over $20 billion",
+    "一般投资顾问征求建议书",
+    "非全权投资建议",
+    "公共养老金计划"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 243,
+      "timestamp": "2026-10-25 16:11:57.962667",
+      "metadata": {
+        "keywords": [
+          "general investment consultant RFP",
+          "non-discretionary general investment advice",
+          "public pension plans larger than $5 billion",
+          "public plans over $20 billion",
+          "一般投资顾问征求建议书",
+          "非全权投资建议",
+          "公共养老金计划"
+        ],
+        "files_found": 2,
+        "files_discovered": [
+          "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+          "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+    }
+  ],
+  "elapsed_s": 6.139,
+  "calls": 0,
+  "usage": {}
+}

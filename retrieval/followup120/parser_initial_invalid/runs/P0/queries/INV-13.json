@@ -1,0 +1,59 @@
+{
+  "query_id": "INV-13",
+  "question": "In the Massachusetts PRIM Board's October 2023 RFP for Multi-Asset Credit investment management services, what minimum total firm assets under management must a respondent have?",
+  "type": "pair_a",
+  "pair_id": "P11",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf"
+  ],
+  "keyword_terms": [
+    "Massachusetts PRIM Board",
+    "October 2023 RFP",
+    "Multi-Asset Credit investment management services",
+    "minimum total firm assets under management",
+    "多资产信贷",
+    "投资管理服务",
+    "管理资产总额"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 128,
+      "timestamp": "2026-10-25 15:34:27.679308",
+      "metadata": {
+        "keywords": [
+          "Massachusetts PRIM Board",
+          "October 2023 RFP",
+          "Multi-Asset Credit investment management services",
+          "minimum total firm assets under management",
+          "多资产信贷",
+          "投资管理服务",
+          "管理资产总额"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "MA_PRIM__PDF-Version-of-RFP.pdf",
+      "path": "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf"
+    }
+  ],
+  "elapsed_s": 2.551,
+  "calls": 0,
+  "usage": {}
+}

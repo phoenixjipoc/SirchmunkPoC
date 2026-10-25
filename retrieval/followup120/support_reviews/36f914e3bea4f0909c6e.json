@@ -1,0 +1,100 @@
+{
+  "job": {
+    "id": "36f914e3bea4f0909c6e",
+    "query_id": "OTH-15",
+    "question": "In the Los Angeles City Employees' Retirement System (LACERS) actuarial RFP, how many years of experience must the lead actuary have?",
+    "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "expected_facts": "At least 15 years of experience with major public employee retirement systems, including at least 3 years with California public pension fund clients similar to LACERS.",
+    "acceptance": "Accept 15 total and three California years. Do not require credential details unrelated to the years asked.",
+    "text_hash": "d4a7ad33208d859c75d991a4bdd6d723d6061e0ed085744f8f70ab7d38ea9348",
+    "source_text_sha256": "13affe2ff2ccbd6aa2f31fc6b4abcaaac5703248b468311f148d40d5686f5ade",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is an Illinois State Retirement Systems RFP, not the LACERS actuarial RFP. Its lead-actuary requirements do not state the required 15 years of public-system experience or 3 years with comparable California pension clients.",
+        "quotes": [
+          "The State Retirement Systems (“SRS” or “Systems”) are requesting proposals for actuarial consulting services and actuarial advice for the Boards of Trustees and SRS staff.",
+          "The lead actuary must meet the American Academy of Actuaries Qualification Standards for an Enrolled Pension Actuary for the duration of the contract."
+        ],
+        "quote_matches": [
+          {
+            "quote": "The State Retirement Systems (“SRS” or “Systems”) are requesting proposals for actuarial consulting services and actuarial advice for the Boards of Trustees and SRS staff.",
+            "start": 1580,
+            "end": 1751
+          },
+          {
+            "quote": "The lead actuary must meet the American Academy of Actuaries Qualification Standards for an Enrolled Pension Actuary for the duration of the contract.",
+            "start": 14460,
+            "end": 14610
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Illinois State Retirement Systems RFP, not the LACERS actuarial RFP. Its lead-actuary requirements do not state the required 15 years of public-system experience or 3 years with comparable California pension clients.",
+      "quotes": [
+        "The State Retirement Systems (“SRS” or “Systems”) are requesting proposals for actuarial consulting services and actuarial advice for the Boards of Trustees and SRS staff.",
+        "The lead actuary must meet the American Academy of Actuaries Qualification Standards for an Enrolled Pension Actuary for the duration of the contract."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The State Retirement Systems (“SRS” or “Systems”) are requesting proposals for actuarial consulting services and actuarial advice for the Boards of Trustees and SRS staff.",
+          "start": 1580,
+          "end": 1751
+        },
+        {
+          "quote": "The lead actuary must meet the American Academy of Actuaries Qualification Standards for an Enrolled Pension Actuary for the duration of the contract.",
+          "start": 14460,
+          "end": 14610
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is an Illinois State Retirement Systems RFP, not the LACERS RFP. It does not state the requested lead-actuary experience requirements of at least 15 years overall and at least three years with comparable California public pension clients. Its five-year experience provision applies to supporting actuaries, not the lead actuary.",
+      "quotes": [
+        "State Retirement Systems Request for Proposal for Actuarial Consulting Services",
+        "The State Retirement Systems are comprised of 3 retirement systems, the State Employees’ Retirement System (SERS), the Judges’ Retirement System (JRS), and the General Assembly Retirement System (GARS).",
+        "The lead actuary must meet the American Academy of Actuaries Qualification Standards for an Enrolled Pension Actuary for the duration of the contract.",
+        "Each supporting actuary to be employed on the project is a Fellow of the Society of Actuaries (FSA), an Enrolled Actuary, or has at least five years of public pension consulting service."
+      ],
+      "quote_matches": [
+        {
+          "quote": "State Retirement Systems Request for Proposal for Actuarial Consulting Services",
+          "start": 13,
+          "end": 92
+        },
+        {
+          "quote": "The State Retirement Systems are comprised of 3 retirement systems, the State Employees’ Retirement System (SERS), the Judges’ Retirement System (JRS), and the General Assembly Retirement System (GARS).",
+          "start": 2024,
+          "end": 2226
+        },
+        {
+          "quote": "The lead actuary must meet the American Academy of Actuaries Qualification Standards for an Enrolled Pension Actuary for the duration of the contract.",
+          "start": 14460,
+          "end": 14610
+        },
+        {
+          "quote": "Each supporting actuary to be employed on the project is a Fellow of the Society of Actuaries (FSA), an Enrolled Actuary, or has at least five years of public pension consulting service.",
+          "start": 43216,
+          "end": 43402
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

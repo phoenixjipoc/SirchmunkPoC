@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "33bb8704092ebe2d78cc",
+    "query_id": "XD-09",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+    "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+    "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+    "text_hash": "3b4fb541c2d35b7de747c8f6c26cc3a40bee097d58737ad466dbef56acdfa755",
+    "source_text_sha256": "a7628e3fc4e0a9323e896059440a5b708d424232eec8242be9362eb818e6b682",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is Clark County’s 2026 RFP for a deferred compensation plan administrator, not the ILPA Due Diligence Questionnaire v1.2. Its table of contents lists attachments and exhibits, but provides no evidence of the ILPA questionnaire’s lettered appendices.",
+      "quotes": [
+        "REQUEST for PROPOSAL # 955 PROFESSIONAL, TECHNICAL AND EXPERT SERVICES Clark County Washington",
+        "Request for Proposal for: DEFERRED COMPENSATION 457 PLAN ADMINISTRATOR",
+        "ATTACHMENTS A: Proposal Cover Sheet B: Letter of Interest C: Certification Regarding Debarment, Suspension and Other Responsibility Matters Form",
+        "EXHIBITS A. Total Plan Assets and Loans"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST for PROPOSAL # 955 PROFESSIONAL, TECHNICAL AND EXPERT SERVICES Clark County Washington",
+          "start": 13,
+          "end": 107
+        },
+        {
+          "quote": "Request for Proposal for: DEFERRED COMPENSATION 457 PLAN ADMINISTRATOR",
+          "start": 244,
+          "end": 314
+        },
+        {
+          "quote": "ATTACHMENTS A: Proposal Cover Sheet B: Letter of Interest C: Certification Regarding Debarment, Suspension and Other Responsibility Matters Form",
+          "start": 11347,
+          "end": 11491
+        },
+        {
+          "quote": "EXHIBITS A. Total Plan Assets and Loans",
+          "start": 11492,
+          "end": 11531
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

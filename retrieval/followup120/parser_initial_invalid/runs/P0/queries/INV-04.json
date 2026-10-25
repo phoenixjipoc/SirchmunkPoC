@@ -1,0 +1,61 @@
+{
+  "query_id": "INV-04",
+  "question": "In the Illinois Firefighters' Pension Investment Fund (FPIF) February 2023 RFP for private markets investment consulting and discretionary OCIO advisory services, what long-term target allocation to private markets is FPIF building, and how is it split across asset classes?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf"
+  ],
+  "keyword_terms": [
+    "Illinois Firefighters' Pension Investment Fund",
+    "February 2023 RFP",
+    "private markets target allocation",
+    "discretionary OCIO advisory services",
+    "asset class split",
+    "私人市场",
+    "目标配置",
+    "资产类别"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 63,
+      "timestamp": "2026-10-25 15:33:24.307375",
+      "metadata": {
+        "keywords": [
+          "Illinois Firefighters' Pension Investment Fund",
+          "February 2023 RFP",
+          "private markets target allocation",
+          "discretionary OCIO advisory services",
+          "asset class split",
+          "私人市场",
+          "目标配置",
+          "资产类别"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+      "path": "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf"
+    }
+  ],
+  "elapsed_s": 2.969,
+  "calls": 0,
+  "usage": {}
+}

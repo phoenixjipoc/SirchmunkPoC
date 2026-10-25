@@ -1,0 +1,13 @@
+{
+  "files": {
+    "prepare_support.py": "01163ad9d6e4a841aadba32708fbd336a5fac3a8902560b908fda287a471a819",
+    "check_support.py": "2d6d4f38a47bc5d43aaa5fd22ad2709b229f5e5b20d216cf095db3b66d3e7d45",
+    "analyze.py": "9c6a0bf70fa022767c72cdef24c5f65271d1303876aa42dde6604f33a0cf82cf",
+    "test_followup.py": "5c2228c8885cd5263a893390938733cfb140d24546a88435e8cc44b4181d7e34",
+    "validate.py": "588c2309b0db52cf657c5931abf13af8d16495cbcb0f4e8df8b29fa68aba34da",
+    "write_report.py": "1cf4eae6a865eee6bfeacea7a4db90c87efadfd5bf10050c3cfe6f596e6a7912",
+    "diagnostics.py": "64ab32d98716fa5b4a3b539aabfefe03f34fd98db1d23d0e427646e57fbe438d",
+    "../review_support.py": "ca76d016d8bb9ab92a675e1febbc2a3562d03d72d8de8057f075ea65646b2466"
+  },
+  "note": "Initial scoring freeze retained in parser_initial_invalid. Validation and reporting now check the asynchronous parser correction, the current pool second-check requirement, and source-grounded quotation adjudication. Metric formulas, denominators and support criteria remain unchanged."
+}

@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "83173eaf54116ab1dffe",
+    "query_id": "OTH-09",
+    "question": "A county pension fund is searching for a single manager of managers covering domestic equity, international equity and fixed income. What is the maximum mandate size, and what is the firm-level AUM limit for responders?",
+    "file": "Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "expected_facts": "A mandate of up to $350 million; responders must have less than $30 billion in firm-level assets under management (Cook County Fund, RFP 25-0004).",
+    "acceptance": "Accept up to $350m and firm AUM strictly below $30bn. Cook County identification is optional.",
+    "text_hash": "78e9f93c919309a5d2fa10dd95a99a9aa10570f812813a72ac38438337250997",
+    "source_text_sha256": "9509203a806d2bcdf58a836ebe10e970d4ddb42b4cd79e65aeab8cd010579820",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Hawaii ERS RFP for a non-discretionary real assets investment consultant, not the county fund’s manager-of-managers search. It provides neither the maximum mandate size nor a firm-level AUM eligibility limit for responders.",
+      "quotes": [
+        "Employees’ Retirement System of the State of Hawaii (ERS) Request for Proposals Real Assets Investment Consultant RFP 2022-06 Issued October 3, 2022",
+        "ERS is seeking proposals for a dedicated Non-Discretionary Real Assets Investment Consultant (real estate and other real assets)"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Employees’ Retirement System of the State of Hawaii (ERS) Request for Proposals Real Assets Investment Consultant RFP 2022-06 Issued October 3, 2022",
+          "start": 13,
+          "end": 161
+        },
+        {
+          "quote": "ERS is seeking proposals for a dedicated Non-Discretionary Real Assets Investment Consultant (real estate and other real assets)",
+          "start": 10705,
+          "end": 10833
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "4357c74aec5d0532965c",
+    "query_id": "OTH-16",
+    "question": "In the Police Retirement System of St. Louis (PRS-STL) actuarial RFP, how many years of experience must the principal actuary have?",
+    "file": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "expected_facts": "A minimum of five years of professional actuarial experience, plus a minimum of five years of experience testifying before legislative and administrative bodies.",
+    "acceptance": "Five years professional actuarial experience is the core number. A complete description may state the separate five-year testimony requirement; these are not additive ten years and may overlap. Credentials are optional for this question.",
+    "text_hash": "9442e2b4c086526d3a2fdbcfd889eca2ceeb00c6b9e5d09ba8003815529b2dfc",
+    "source_text_sha256": "a03af1cb5588edbe010abae942bbd4d97b649d15b5280a5db6c40f3e111a54fd",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Boston Retirement System investment-consulting RFP, not the Police Retirement System of St. Louis actuarial RFP. Its five-year requirement applies to a lead investment consultant advising similar systems, not to a principal actuary’s professional actuarial or testimony experience.",
+      "quotes": [
+        "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+        "Does the prospective “lead Consultant” on the BRS account have at least five (5) years of experience advising systems of similar size and scope to BRS"
+      ],
+      "quote_matches": [
+        {
+          "quote": "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+          "start": 13,
+          "end": 106
+        },
+        {
+          "quote": "Does the prospective “lead Consultant” on the BRS account have at least five (5) years of experience advising systems of similar size and scope to BRS",
+          "start": 13851,
+          "end": 14001
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

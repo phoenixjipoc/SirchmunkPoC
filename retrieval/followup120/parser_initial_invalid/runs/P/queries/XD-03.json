@@ -1,0 +1,69 @@
+{
+  "query_id": "XD-03",
+  "question": "How many working-group participant entries are listed in the appendix of the PRI covering note on the 2021 update of its private equity responsible investment DDQ (counting the joint TPG & Y Analytics entry once), and who represented CalPERS and CalSTRS?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P",
+  "keyword_files": [
+    "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+    "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+    "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "keyword_terms": [
+    "PRI covering note",
+    "2021 update",
+    "private equity responsible investment DDQ",
+    "working-group participant entries",
+    "joint TPG & Y Analytics entry",
+    "私募股权",
+    "负责任投资",
+    "尽职调查问卷"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 97,
+      "timestamp": "2026-10-25 15:38:55.675276",
+      "metadata": {
+        "keywords": [
+          "PRI covering note",
+          "2021 update",
+          "private equity responsible investment DDQ",
+          "working-group participant entries",
+          "joint TPG & Y Analytics entry",
+          "私募股权",
+          "负责任投资",
+          "尽职调查问卷"
+        ],
+        "files_found": 2,
+        "files_discovered": [
+          "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+          "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+      "path": "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "ILPA__ILPA-DDQ-2.0.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+    }
+  ],
+  "elapsed_s": 3.695,
+  "calls": 0,
+  "usage": {}
+}

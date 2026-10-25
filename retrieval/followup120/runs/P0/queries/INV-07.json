@@ -1,0 +1,67 @@
+{
+  "query_id": "INV-07",
+  "question": "In the published questions and answers for a city's pension fund consulting RFP, the city says it sent the RFP to 21 firms and last ran such a search in 2013. What does the plan currently pay for advisory services on its equities and for management of its fixed income?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "/mnt/docs/S/Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf"
+  ],
+  "keyword_terms": [
+    "pension fund consulting RFP",
+    "published questions and answers",
+    "equities advisory services",
+    "fixed income management",
+    "养老金咨询招标书",
+    "股票顾问服务",
+    "固定收益管理"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 39,
+      "timestamp": "2026-10-25 15:58:03.224694",
+      "metadata": {
+        "keywords": [
+          "pension fund consulting RFP",
+          "published questions and answers",
+          "equities advisory services",
+          "fixed income management",
+          "养老金咨询招标书",
+          "股票顾问服务",
+          "固定收益管理"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf",
+      "path": "/mnt/docs/S/Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf"
+    }
+  ],
+  "elapsed_s": 5.053,
+  "calls": 0,
+  "usage": {}
+}

@@ -1,0 +1,71 @@
+{
+  "job": {
+    "id": "e5f715f0d65c970b35db",
+    "query_id": "XD-09",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+    "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+    "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+    "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+    "text_hash": "bbc5aa974f33a642622995234835e9395ec434792cd34aee6fa6e2448cb34a49",
+    "source_text_sha256": "ef809dc88bd158929af52565b0c35337429a448aa163f0f9466c3d4c5f44b3bd",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Anchorage Police and Fire Retirement System RFP, not the ILPA Due Diligence Questionnaire v1.2. It does not provide that questionnaire’s table of contents or its lettered appendices; its Appendix A belongs to the RFP’s sample contract.",
+      "quotes": [
+        "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+        "Appendix A Fees"
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+          "start": 743,
+          "end": 836
+        },
+        {
+          "quote": "Appendix A Fees",
+          "start": 32129,
+          "end": 32144
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied PDF is an Anchorage Police and Fire Retirement System investment-consultant RFP, not the ILPA Due Diligence Questionnaire v1.2. It does not evidence that questionnaire’s table of contents or its five appendices.",
+      "quotes": [
+        "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+        "SECTION 3 INFORMATION REQUIRED FROM ALL PROPOSAL SUBMITTERS",
+        "Appendix A Fees"
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+          "start": 743,
+          "end": 836
+        },
+        {
+          "quote": "SECTION 3 INFORMATION REQUIRED FROM ALL PROPOSAL SUBMITTERS",
+          "start": 11241,
+          "end": 11300
+        },
+        {
+          "quote": "Appendix A Fees",
+          "start": 32129,
+          "end": 32144
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

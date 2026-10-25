@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "13e09160f4280d8c3805",
+    "query_id": "CONS-07",
+    "question": "Which pension system's investment consultant RFP requires respondents to have at least five defined benefit pension plan clients, two of which are public pension plans with total plan assets of at least $15 billion each?",
+    "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "expected_facts": "Orange County Employees Retirement System (OCERS), in its 2021 investment consultant services RFP (Appendix E, Minimum Qualifications Certification).",
+    "acceptance": "OCERS/Orange County Employees Retirement System suffices. Appendix designation, year and restatement of qualification are optional.",
+    "text_hash": "e529592be16077691cd54aac3c1a9e7ed524ba5b471c34ebf5ebe0296f8ab615",
+    "source_text_sha256": "40f6e66cda735b5ac3e65bb52c7627bc76b11a8e7017ca73d4ed3e9b2360ca3a",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the City of Austin Employees’ Retirement System’s 2024 RFP, not an OCERS RFP. Its client qualification requires two U.S. public pension fund clients with assets over $1 billion each, not the qualification described in the question.",
+      "quotes": [
+        "Request for Proposal General Investment Consultant Proposals must be submitted on or before 5:00 p.m. Central Standard Time February 9, 2024 City of Austin Employees’ Retirement System",
+        "The firm must have at least two U.S. public pension fund clients, each with assets in excess of one billion U.S. dollars as of December 31, 2023."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal General Investment Consultant Proposals must be submitted on or before 5:00 p.m. Central Standard Time February 9, 2024 City of Austin Employees’ Retirement System",
+          "start": 13,
+          "end": 197
+        },
+        {
+          "quote": "The firm must have at least two U.S. public pension fund clients, each with assets in excess of one billion U.S. dollars as of December 31, 2023.",
+          "start": 60701,
+          "end": 60846
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

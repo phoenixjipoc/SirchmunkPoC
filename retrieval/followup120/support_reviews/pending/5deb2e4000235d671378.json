@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "5deb2e4000235d671378",
+    "query_id": "CONS-06",
+    "question": "Which retirement system's general investment consultant RFP requires respondents to currently provide non-discretionary general investment advice to at least 5 public pension plans larger than $5 billion and at least 2 public plans over $20 billion?",
+    "file": "OCERS__investment_consultant_services_rfp.pdf",
+    "expected_facts": "Texas Municipal Retirement System (TMRS).",
+    "acceptance": "TMRS or the full system name is sufficient; repeating thresholds is optional.",
+    "text_hash": "5b64c217e92c2749a5177225f6fda52ea0dd775fcbdd0d850a456eb5dfcd1a1f",
+    "source_text_sha256": "31ba78f454a82dc69e8946299253c94f905a157c0bee42fe28fb33f65c2dcfa1",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an OCERS RFP, not an RFP for the retirement system in the question. Its minimum qualifications differ: five defined-benefit pension clients, including two public plans with at least $15 billion in assets. It does not require five public plans over $5 billion and two over $20 billion.",
+      "quotes": [
+        "Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+        "Respondent must have at least five (5) defined benefit pension plan clients, of which two (2) are public pension plans with total plan assets of at least $15 billion each."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
+          "start": 117,
+          "end": 207
+        },
+        {
+          "quote": "Respondent must have at least five (5) defined benefit pension plan clients, of which two (2) are public pension plans with total plan assets of at least $15 billion each.",
+          "start": 51484,
+          "end": 51655
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

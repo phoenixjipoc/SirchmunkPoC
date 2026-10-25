@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "17666a4d89ba05c16338",
+    "query_id": "INV-14",
+    "question": "In the Massachusetts PRIM Board's September 2026 RFP for Active Global Core Equity investment management services, what minimum total firm assets under management must a respondent have?",
+    "file": "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+    "expected_facts": "At least $5 billion in total firm assets under management as of June 30, 2026.",
+    "acceptance": "At least $5bn total firm AUM as of June 30, 2026. Do not confuse firm AUM with product assets.",
+    "text_hash": "3ceed69320130ef8b05d9121485e497c339c98312b01995788aaadc713b0e13e",
+    "source_text_sha256": "1592894378410e0e43afb1370a16e301ba0b8187e206d48f7c0eccbe1356784e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Texas Municipal Retirement System RFP issued in 2020 for global custody services, not the Massachusetts PRIM Board’s September 2026 Active Global Core Equity RFP. It does not state the required minimum total firm assets under management as of June 30, 2026.",
+      "quotes": [
+        "Request for Proposal Global Custody and Related Services Texas Municipal Retirement System (TMRS) Issue Date: December 11, 2020",
+        "The primary purpose of this RFP is to identify the most qualified firm to provide global custodial services, recordkeeping / accounting services, performance measurement / analytics, support for an unbundled securities lending program and other services to TMRS as defined in this RFP."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Global Custody and Related Services Texas Municipal Retirement System (TMRS) Issue Date: December 11, 2020",
+          "start": 13,
+          "end": 140
+        },
+        {
+          "quote": "The primary purpose of this RFP is to identify the most qualified firm to provide global custodial services, recordkeeping / accounting services, performance measurement / analytics, support for an unbundled securities lending program and other services to TMRS as defined in this RFP.",
+          "start": 3064,
+          "end": 3349
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "dfd984bc99450bf51cfb",
+    "query_id": "SVC-16",
+    "question": "What contract term, including any extension options, does the Los Angeles Fire and Police Pensions (LAFPP) RFP for financial statement audit services contemplate?",
+    "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+    "expected_facts": "A three-year contract (fiscal years ending June 30, 2025, 2026 and 2027) with a maximum fee proposal for each fiscal year; the Board may extend beyond the three-year term through two one-year renewals.",
+    "acceptance": "Three years plus two optional one-year renewals, up to five years, suffices. Fiscal-year dates and fee-proposal details are optional.",
+    "text_hash": "aa32d205efb4a8f5c43054ea38fe8bb413e446bbe6440d32846410e99aba3560",
+    "source_text_sha256": "ba46410ea5b8731139363c20c23c9e0ed7804d7854e543119bc174f6333ad4d1",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is Temple City’s RFP for deferred-compensation plan administration and record keeping, not LAFPP’s RFP for financial statement audit services. Its contract term is to be negotiated; the five-year pricing reference does not establish LAFPP’s term or renewal options.",
+      "quotes": [
+        "City of Temple City, California 457 Deferred Compensation Plan Request for Proposals for Plan Administration and Record Keeping Services",
+        "The contract term will be negotiated at the conclusion of this RFP process.",
+        "purchasing requirements may stipulate that the maximum term available is limited to five years."
+      ],
+      "quote_matches": [
+        {
+          "quote": "City of Temple City, California 457 Deferred Compensation Plan Request for Proposals for Plan Administration and Record Keeping Services",
+          "start": 13,
+          "end": 149
+        },
+        {
+          "quote": "The contract term will be negotiated at the conclusion of this RFP process.",
+          "start": 7098,
+          "end": 7173
+        },
+        {
+          "quote": "purchasing requirements may stipulate that the maximum term available is limited to five years.",
+          "start": 69624,
+          "end": 69719
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

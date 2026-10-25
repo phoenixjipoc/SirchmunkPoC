@@ -1,0 +1,59 @@
+{
+  "job": {
+    "id": "b2abe78bc8fab8061df6",
+    "query_id": "CONS-15",
+    "question": "List the core functions that the City of Creve Coeur Employee Pension Plan expects from its pension fund consultant in its May 2020 RFP.",
+    "file": "Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf",
+    "expected_facts": "(1) Help develop and maintain the investment policy statement; (2) plan asset allocations annually and monitor regularly; (3) recommend changes when markets change significantly and flag concerns; (4) provide research and recommendations for investments in each asset class; (5) follow recommended investments closely and meet the Pension Board quarterly in person, and monthly or as needed by phone; (6) provide monthly reporting of portfolio performance and statements; (7) work with City staff on sourcing funds, opening new accounts and tracking liquidity for pension payments; (8) work with investment managers, funds and custodians to ensure timely year-end and quarterly reporting.",
+    "acceptance": "Accept all eight functions summarized. Quarterly in-person meetings plus monthly/as-needed phone contact is correct; exact punctuation is not required.",
+    "text_hash": "b67ae018e8a084e7532781c80f071047948039a234bb996541c7fa16800e7c99",
+    "source_text_sha256": "e3d88b1a8e24fbd5465a11e7816768d20da79ad3277d1ca4d4603daf3524d3fc",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "partial",
+      "identity": "correct",
+      "reason": "The document is a City of Creve Coeur pension consulting RFP questions-and-answers sheet. It describes the Board’s interest in advice on allocation and plan management, but it does not set out all eight required consultant functions. Its reference to quarterly reporting describes the current provider’s practice, not a requirement for the new consultant.",
+      "quotes": [
+        "RFP for Pension Fund Consulting Services Questions and Answers",
+        "what items may be most critical to the City of Creve Coeur going forward",
+        "Some board members have questioned the allocation structure, the percentage in fixed vs equities, what performance benchmarks should be used",
+        "they are really looking for some consulting advice on how to best structure and manage the Plan.",
+        "Fiduciary Advisors combines both in overall quarterly reporting, but Creve Coeur reconciles both separately every month."
+      ],
+      "quote_matches": [
+        {
+          "quote": "RFP for Pension Fund Consulting Services Questions and Answers",
+          "start": 13,
+          "end": 75
+        },
+        {
+          "quote": "what items may be most critical to the City of Creve Coeur going forward",
+          "start": 185,
+          "end": 257
+        },
+        {
+          "quote": "Some board members have questioned the allocation structure, the percentage in fixed vs equities, what performance benchmarks should be used",
+          "start": 451,
+          "end": 591
+        },
+        {
+          "quote": "they are really looking for some consulting advice on how to best structure and manage the Plan.",
+          "start": 842,
+          "end": 938
+        },
+        {
+          "quote": "Fiduciary Advisors combines both in overall quarterly reporting, but Creve Coeur reconciles both separately every month.",
+          "start": 3264,
+          "end": 3384
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

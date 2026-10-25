@@ -1,0 +1,61 @@
+{
+  "query_id": "SVC-03",
+  "question": "According to the questions and answers for OCERS' October 2022 custody services RFP, what flat fee does OCERS currently pay its custodian, and what is the current securities lending fee split?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/OCERS__custodian_services_rfp_questions_and_answers.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/OCERS__custodian_services_rfp_questions_and_answers.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/OCERS__custodian_services_rfp_questions_and_answers.pdf"
+  ],
+  "keyword_terms": [
+    "October 2022 custody services RFP",
+    "RFP questions and answers",
+    "current custodian flat fee",
+    "securities lending fee split",
+    "托管服务征求建议书",
+    "托管人固定费用",
+    "证券借贷费用分成"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 48,
+      "timestamp": "2026-10-25 15:36:34.782246",
+      "metadata": {
+        "keywords": [
+          "October 2022 custody services RFP",
+          "RFP questions and answers",
+          "current custodian flat fee",
+          "securities lending fee split",
+          "托管服务征求建议书",
+          "托管人固定费用",
+          "证券借贷费用分成"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/OCERS__custodian_services_rfp_questions_and_answers.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "OCERS__custodian_services_rfp_questions_and_answers.pdf",
+      "path": "/mnt/docs/S/OCERS__custodian_services_rfp_questions_and_answers.pdf"
+    }
+  ],
+  "elapsed_s": 2.809,
+  "calls": 0,
+  "usage": {}
+}

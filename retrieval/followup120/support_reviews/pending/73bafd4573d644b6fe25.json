@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "73bafd4573d644b6fe25",
+    "query_id": "INV-02",
+    "question": "What is the proposal deadline, and how many copies must be submitted, for the City of Madison (Florida) Police Officers' and Firefighters' Retirement System RFP No. 2025-0901 for investment consulting services?",
+    "file": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "expected_facts": "Proposals must be received by 2:00 p.m. on September 1, 2025 at the City Clerk's office in Madison, FL (late proposals returned unopened); an original and five (5) copies must be submitted in a sealed envelope/package.",
+    "acceptance": "Accept 2pm September 1, 2025 and original plus five copies/six total. Address, sealing and late-return treatment are optional.",
+    "text_hash": "e208b396d807c84110e10df7ec74d980a1905d8e99839a26651b44e9927a80ca",
+    "source_text_sha256": "48df375d7d5f4c68eef011c530a1b8e2446893a55aa03aa4e9c6a423a07b3e4c",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2011 District of Columbia Retirement Board solicitation, not the City of Madison (Florida) RFP No. 2025-0901. Its proposal deadline and copy requirement are different.",
+      "quotes": [
+        "District of Columbia Retirement Board",
+        "Solicitation DCRB-2011-001",
+        "The completed proposal, which is to include all attachments, must be received no later than 5:00 p.m. on February 25, 2011.",
+        "The original and eight copies of the Proposal (one copy must be unbound and ready to photocopy) are to be sent to the attention of:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "District of Columbia Retirement Board",
+          "start": 13,
+          "end": 50
+        },
+        {
+          "quote": "Solicitation DCRB-2011-001",
+          "start": 169,
+          "end": 195
+        },
+        {
+          "quote": "The completed proposal, which is to include all attachments, must be received no later than 5:00 p.m. on February 25, 2011.",
+          "start": 15499,
+          "end": 15622
+        },
+        {
+          "quote": "The original and eight copies of the Proposal (one copy must be unbound and ready to photocopy) are to be sent to the attention of:",
+          "start": 15750,
+          "end": 15881
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

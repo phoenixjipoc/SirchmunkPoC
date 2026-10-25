@@ -1,0 +1,111 @@
+{
+  "query_id": "XD-17",
+  "question": "Which RFPs in the corpus contain Iran-related certification, disclosure or compliance requirements for respondents?",
+  "type": "broad",
+  "pair_id": "",
+  "group": "S",
+  "references": [
+    {
+      "rank": 1,
+      "file": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+      "path": "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "path": "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+      "path": "/mnt/docs/S/Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+      "path": "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+      "path": "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf",
+      "path": "/mnt/docs/S/Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "OCERS__ocers_pas_consultant_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "path": "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+    }
+  ],
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "baseline_sha256": "17510b87128ab47f8fbeb431b5436e6da629608ef2dd9811af1f9d705bd5ab5a",
+  "original_files": [
+    "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "Temple_City_CA__Recordkeeping-RFP.pdf",
+    "Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf",
+    "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+    "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+    "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "OCERS__ocers_pas_consultant_rfp.pdf"
+  ],
+  "ranking_prompt": "{\"question\": \"Which RFPs in the corpus contain Iran-related certification, disclosure or compliance requirements for respondents?\", \"candidates\": [{\"filename\": \"Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"John Kelly\", \"page_count\": 15, \"keywords\": [\"John Kelly\"], \"preview\": \"BOSTON \\nRETIREMENT SYSTEM \\n(“BRS”) \\n \\nINVESTMENT CONSULTING SERVICES \\nREQUEST FOR PROPOSALS \\n(“RFP”)\", \"full_content\": \"\"}, {\"filename\": \"Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf\", \"extension\": \".pdf\", \"title\": \"Microsoft Word - Investment Consultant RFP 2023.docx\", \"author\": \"pkorzen\", \"page_count\": 12, \"keywords\": [\"pkorzen\"], \"preview\": \"JULY 27, 2023 \\n \\nCITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM \\n \\nCITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM \\n \\nINVESTMENT CONSULTANT SERVICES \\n \\nREQUEST FOR PROPOSAL (“RFP”) \\n \\nRE: INVESTMENT CONSULTING SERVICES \\n \\nThe City of Grand General Retirement System and the City of Gra nd Rapids Police and Fire \\nRetirement System (collectively the “Plan”) are requesting prop osals for Investment Consulting \\nServices by 4:00 P.M. on Thursday, August 31, 2023. \\n \\nI. OVERVIEW  \\n \\nThe Boards of Trustees of the City of Grand Rapids General Reti rement System and City \\nof Grand Rapids Police and Fire Retirement System (collectively  the “Board”) are in the \\nprocess of reviewing their investment consultant services.  The  purpose of this RFP is to \\ngain adequate information from which the B\", \"full_content\": \"\"}, {\"filename\": \"Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf\", \"extension\": \".pdf\", \"title\": \"Microsoft Word - Private Markets RFP V3 2023.02.13\", \"author\": \"mgreen\", \"page_count\": 33, \"keywords\": [\"mgreen\"], \"preview\": \"Firefighters’ Pension Investment Fund \\nRequest for Proposals \\nfor \\nPrivate Markets Investment Consulting and Discretionary OCIO Advisory Services \\n \\n \\nFebruary 13, 2023\", \"full_content\": \"\"}, {\"filename\": \"Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf\", \"extension\": \".pdf\", \"title\": \"Madison PF RFP for Investment Manager 3.9.2020 (01259332).DOCX\", \"author\": \"Byron Poore\", \"page_count\": 17, \"keywords\": [\"Byron Poore\"], \"preview\": \"01259332-1  RFP No. 2025-__ - Investment Consulting and Management Services Page 1 \\n \\n4898-5945-2974, v. 1 \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nPolice Officers’ and Firefighters’  \\nRetirement System \\nBoard of Trustees  \\n \\n************************************************************************** \\n \\nRFP No. 2025-0901 \\nInvestment Consulting Services  \\n \\n************************************************************************ \\n \\n \\n \\n \\nCity of Madison * 321 SW Rutledge St. * Madison, FL 32340\", \"full_content\": \"\"}, {\"filename\": \"OCERS__ocers_pas_consultant_rfp.pdf\", \"extension\": \".pdf\", \"title\": \"Pension Administration Project Oversight and Consultation Services RFP\", \"author\": \"OCERS\", \"page_count\": 39, \"keywords\": [\"OCERS\", \"Pension Administration Project Oversight and Consultation Services OCERS RFP\"], \"preview\": \"Pension Administration System Consulting RFP Page 1 \\n \\nPension Administration Project \\nOversight and Consultation \\nServices \\nRequest for Proposal \\n \\nSeptember 2023 \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nOrange County Employees Retirement System (OCERS) \\n2223 E Wellington Avenue Suite 100 \\nSanta Ana, CA 92701 USA \\n1-(714)-558-6200 \\nhttp://www.ocers.org\", \"full_content\": \"\"}, {\"filename\": \"SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Kristina Richter\", \"page_count\": 97, \"keywords\": [\"Kristina Richter\"], \"preview\": \"Santa Barbara County Employees’ Retirement System Global Custody and Related Services 1 \\n \\n \\nRequest for Proposal \\n \\n  \\nGlobal Custody and Related Services \\nSanta Barbara County Employees’ Retirement System \\n(“SBCERS”) \\n \\n  \\nIssue Date:       January 8, 2024 \\nQuestions Due:      January 12, 2024  \\nQ&A Responses Delivered:    January 22, 2024  \\nSubmission Deadline:      February 2, 2024  \\n \\n  \\nDesignated Contact: \\nJonathan Kowolik    Lindsey Longwell \\nSenior Consultant, Principal  Consultant \\nRVK, Inc.     RVK, Inc.  \\nOne Penn Plaza, Suite 2131  1211 SW 5th Avenue, Suite 900 \\nNew York, NY 10119   Portland, OR 97204 \\nJonathan.Kowolik@rvkinc.com  Lindsey.Longwell@rvkinc.com  \\nIOSG@rvkinc.com\", \"full_content\": \"\"}, {\"filename\": \"SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Ashleigh Hollins\", \"page_count\": 47, \"keywords\": [\"Ashleigh Hollins\"], \"preview\": \"General Investment Consulting Services \\n \\nRequest for Proposals \\n \\n \\nSeptember 30, 2016\", \"full_content\": \"\"}, {\"filename\": \"SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf\", \"extension\": \".pdf\", \"title\": \"August 11, 2008\", \"author\": \"dpcadmin\", \"page_count\": 21, \"keywords\": [\"dpcadmin\"], \"preview\": \"SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM \\nREQUEST FOR PROPOSAL (RFP) FOR \\nGENERAL INVESTMENT CONSULTANT\", \"full_content\": \"\"}, {\"filename\": \"Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"\", \"page_count\": 10, \"keywords\": [], \"preview\": \"SHREWSBURYCONTRIBUTORYRETIREMENTSYSTEM\\nRequestforProposalsforInvestmentConsultantServices\\nTheSHREWSBURYRETIREMENTBOARD,overseersoftheShrewsburyRetirementSystem,a\\nMassachusettsmunicipalpublicpensionfindwithassetsofapproximately$125million,invitesqualified\\nentitiestosubmitproposalsforInvestmentConsultantServices.TheBoardissubjecttotheoversightand\\nregulationsofthePublicEmploymentRetirementAdministrationCommission(“commission”or\\n“PERAC”.)andgovernedbyChapter32ofMassachusettsGeneralLaws(“Chapter32”).TheBoardis\\ncurrentlyfullyinvestedinthePensionReservesInvestmentTrust(“PRIP’)Fund.\\nTheBoardisgovernedbyafivememberBoardandiscomprisedoftwounits,namelytheTownof\\nShrewsburyandtheShrewsburyHousingAuthority.TheBoardemploysastaffofonepersonitsoffice,\\nlocatedinShrewsburyMassachusetts.\\nTheSystemcurrentlyhas\", \"full_content\": \"\"}, {\"filename\": \"Temple_City_CA__Recordkeeping-RFP.pdf\", \"extension\": \".pdf\", \"title\": \"REQUEST FOR PROPOSAL\", \"author\": \"kwelch\", \"page_count\": 57, \"keywords\": [\"kwelch\"], \"preview\": \"City of Temple City, California \\n457 Deferred Compensation Plan \\n \\nRequest for Proposals for \\nPlan Administration and Record Keeping Services \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nRFP DISTRIBUTION DATE: June 17, 2020 at 4:00 PM (Pacific Time) \\nDUE DATE FOR QUESTIONS: June 29, 2020 at 4:00 PM (Pacific Time) \\nDUE DATE FOR RESPONSE SUBMISSION: July 13, 2020, 2020 at 4:00 PM (Pacific Time) \\n \\nImportant Notice: If y ou received this solicitation from any source other than the Plan Sponsor’s Consultant, you must request a copy \\ndirectly from Hyas Group in order to receive answers as well as subsequent updates, amendments and/or other documents. Failur e to \\ncontact the Consultant may result in the rejection of your offer.\", \"full_content\": \"\"}]}",
+  "keyword_files": [],
+  "directory_files": [
+    "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf",
+    "/mnt/docs/S/Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf",
+    "/mnt/docs/S/Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+    "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf",
+    "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "/mnt/docs/S/Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+    "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+    "/mnt/docs/S/Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf",
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+  ],
+  "status": "ok",
+  "elapsed_s": 10.913,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 2159,
+    "completion_tokens": 710,
+    "total_tokens": 2869
+  },
+  "attempt": 1
+}

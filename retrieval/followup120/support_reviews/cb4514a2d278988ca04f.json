@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "cb4514a2d278988ca04f",
+    "query_id": "XD-14",
+    "question": "What questions are asked under section 10.0 'ESG (Environmental, Social, Governance)' of the NJEDA Life Science Seed Fund due diligence questionnaire (Appendix A)?",
+    "file": "INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+    "expected_facts": "Eight questions: 10.1 the role of the respondent's internal advisory board(s), all matters referred to them (including unresolved ones) and any other governing/advisory bodies; 10.2 conflicts of interest (potential, current, historic) and how they are identified, managed, disclosed (e.g. to the LPAC) and resolved, including any conflict committees; 10.3 the policy on personal investments by employees or affiliates in deals the respondent reviewed; 10.4 whether the respondent is a registered investment advisor (RIA); 10.5 the respondent's ESG-related policies and how ESG factors influence its investment beliefs; 10.6 the implementation status of its responsible investment policy and any plans to develop its approach to ESG; 10.7 how it contributes to portfolio companies' management of ESG risks and opportunities; 10.8 the monitoring processes it would use to assess the proposed Fund's portfolio companies' management of ESG factors.",
+    "acceptance": "Eight topics 10.1–10.8 required in substance, including portfolio-company ESG assistance and monitoring. Exact question wording and numbering are optional.",
+    "text_hash": "4aa67eec4c20c31dd5bea026745ad60e494f4d41055e5282f36a63f51ac53b63",
+    "source_text_sha256": "872c9becc80ae87c8e0cc07ecfc15202e13fdf184eceaffab26855b50b7cfb9e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an INREV questionnaire for real estate fund-of-funds and multi-manager mandates, not the NJEDA Life Science Seed Fund due diligence questionnaire. Its ESG questions appear in section 2.3, and it does not identify or reproduce NJEDA Appendix A section 10.0.",
+      "quotes": [
+        "The Due Diligence Questionnaire for Fund of Funds and Multi-Managers is part of the due diligence protocol which was first launched in April 2007.",
+        "2.3 Environmental, social and governance issues (ESG)",
+        "2.3.1 Please explain how you incorporate policies on the following issues in your investment process at the time of selection of underlying funds:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Due Diligence Questionnaire for Fund of Funds and Multi-Managers is part of the due diligence protocol which was first launched in April 2007.",
+          "start": 4266,
+          "end": 4412
+        },
+        {
+          "quote": "2.3 Environmental, social and governance issues (ESG)",
+          "start": 746,
+          "end": 799
+        },
+        {
+          "quote": "2.3.1 Please explain how you incorporate policies on the following issues in your investment process at the time of selection of underlying funds:",
+          "start": 13572,
+          "end": 13718
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

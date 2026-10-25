@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "67570e637894f8ef901a",
+    "query_id": "SVC-15",
+    "question": "What contract term, including any extension options, does the Kern County Employees' Retirement Association (KCERA) RFP for audit services contemplate?",
+    "file": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+    "expected_facts": "A three-year agreement (audits of fiscal year ending June 30, 2023 and the two subsequent fiscal years), subject to annual Board review; the original term may be extended for up to an additional three years by mutual agreement of KCERA and the firm.",
+    "acceptance": "Accept 3+up to3 years, mutual extension. Audit fiscal years and annual-review/negotiation detail need not all be volunteered.",
+    "text_hash": "6b179eedd0acf11d4033b486705b8677fb78308e47584950c128cde739d4f025",
+    "source_text_sha256": "81bbcbe9365fdc601c3f939281acb26f90195cb62f71e9af6d67ff79a5c33f94",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Boston Retirement System RFP for actuarial and consulting services, not KCERA’s audit-services RFP. Its five-year term and optional one- or two-year extension do not support the requested KCERA contract terms.",
+      "quotes": [
+        "Request for Proposal Actuarial and Consulting Services for Pension Benefits Boston Retirement System",
+        "The term of the contract shall be for five (5) years. The Board reserves the right to extend this contract for an additional one (1) or two (2) years without further advertising."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Actuarial and Consulting Services for Pension Benefits Boston Retirement System",
+          "start": 13,
+          "end": 113
+        },
+        {
+          "quote": "The term of the contract shall be for five (5) years. The Board reserves the right to extend this contract for an additional one (1) or two (2) years without further advertising.",
+          "start": 13255,
+          "end": 13433
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

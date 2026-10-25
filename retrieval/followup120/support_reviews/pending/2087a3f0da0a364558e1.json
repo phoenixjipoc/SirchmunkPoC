@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "2087a3f0da0a364558e1",
+    "query_id": "SVC-19",
+    "question": "What minimum qualifications must a proposing firm certify in the City of Temple City's 2020 RFP for 457 plan administration and recordkeeping services?",
+    "file": "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+    "expected_facts": "(1) At least 5 years of experience administering governmental 457 plans and currently providing sole-provider administration to at least five 457 plans with assets under $25 million; (2) no front-end or back-end charges and no restrictions/penalties on plan- or participant-initiated transfers or withdrawals (except capital preservation equity wash/put provisions and fund short-term trading fees); (3) full disclosure of all fund expense and revenue sharing arrangements, including fixed/general account products; (4) full disclosure of expenses and revenue for any service (platform fees, managed accounts, advice, financial planning, brokerage); (5) agree not to sell/promote products not affiliated with the Plan without written City authorization; (6) be qualified to do business in California and Temple City upon award; (7) offer a self-directed brokerage option; (8) be able to transition and continue administration of existing loans; (9) representatives attend City meetings in person as requested (no more than once per year); (10) knowledge of and compliance with applicable County, California and federal regulations; (11) RFP terms remain in place through negotiations and the final contract unless waived in writing.",
+    "acceptance": "Accept concise grouping of the eleven requirements; the five-year/five-plan/$25m threshold alone is incomplete for this broad list question. Examples of service fees are illustrative, not separate mandatory list items.",
+    "text_hash": "53d9721d2e2c3d6a51e0fc4bfb31c9316f7e85c40c0e7f0d49e078816ff62d05",
+    "source_text_sha256": "c2664794e00ae7c2cedc789c6096ac5a57a34278a2e7017af86c3eed125ae7ab",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Cook County pension fund RFP issued in 2025 for manager-of-managers investment services, not Temple City’s 2020 RFP for governmental 457 plan administration and recordkeeping. It does not support the requested certification requirements.",
+      "quotes": [
+        "THE RETIREMENT BOARD OF THE COUNTY EMPLOYEES’ AND OFFICERS’ ANNUITY AND BENEFIT FUND OF COOK COUNTY",
+        "REQUEST FOR PROPOSALS (RFP) TO PROVIDE MANAGER OF MANAGERS INVESTMENT SERVICES",
+        "ISSUED ON: DECEMBER 4, 2025",
+        "Title: Manager of Managers Search RFP No: 25-0004"
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE RETIREMENT BOARD OF THE COUNTY EMPLOYEES’ AND OFFICERS’ ANNUITY AND BENEFIT FUND OF COOK COUNTY",
+          "start": 13,
+          "end": 112
+        },
+        {
+          "quote": "REQUEST FOR PROPOSALS (RFP) TO PROVIDE MANAGER OF MANAGERS INVESTMENT SERVICES",
+          "start": 212,
+          "end": 290
+        },
+        {
+          "quote": "ISSUED ON: DECEMBER 4, 2025",
+          "start": 291,
+          "end": 318
+        },
+        {
+          "quote": "Title: Manager of Managers Search RFP No: 25-0004",
+          "start": 1001,
+          "end": 1050
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

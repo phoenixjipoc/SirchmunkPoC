@@ -1,0 +1,142 @@
+{
+  "job": {
+    "id": "10441785c8646243d5b5",
+    "query_id": "SVC-04",
+    "question": "In the Contra Costa County Employees' Retirement Association (CCCERA) April 2018 master custodian RFP, how many copies of the proposal must be submitted, and for how long must the proposal remain a firm and irrevocable offer?",
+    "file": "Hartford_MERF__file.pdf",
+    "expected_facts": "One (1) original proposal, four (4) hard copies and one (1) copy in electronic form; the proposal must be a firm and irrevocable offer good for one year from the proposal due date (due 5:00 p.m. PT, Friday, May 25, 2018).",
+    "acceptance": "Accept five paper sets total if the original is clearly included, plus one electronic copy; validity one year from due date. Actual proposal deadline is optional.",
+    "text_hash": "612ac769f6b20e395be5d2aa2b38b7e34b8ea2f3e26f8e98d474dcd3da97e895",
+    "source_text_sha256": "44a1836a1354f4ce795c9252d5b103625a8ebfa77400d6ce5e341b7d38a7561e",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is a City of Hartford 2024 general investment consultant RFP, not CCCERA’s April 2018 master custodian RFP. Its proposal-copy and offer-duration requirements therefore do not support the requested facts.",
+        "quotes": [
+          "MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+          "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+          "Four original paper copies of the proposal, and one electronic copy, all fully signed and sealed, shall be submitted to:",
+          "A statement to the effect that the proposal is a firm and irrevocable offer, good for five years with two one-year extension options;",
+          "Proposals shall be received no later than March 15, 2024 at 5 p.m. Eastern Time (subject to change)"
+        ],
+        "quote_matches": [
+          {
+            "quote": "MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+            "start": 49,
+            "end": 141
+          },
+          {
+            "quote": "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+            "start": 235,
+            "end": 294
+          },
+          {
+            "quote": "Four original paper copies of the proposal, and one electronic copy, all fully signed and sealed, shall be submitted to:",
+            "start": 16353,
+            "end": 16473
+          },
+          {
+            "quote": "A statement to the effect that the proposal is a firm and irrevocable offer, good for five years with two one-year extension options;",
+            "start": 13380,
+            "end": 13513
+          },
+          {
+            "quote": "Proposals shall be received no later than March 15, 2024 at 5 p.m. Eastern Time (subject to change)",
+            "start": 15959,
+            "end": 16058
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Hartford 2024 general investment consultant RFP, not CCCERA’s April 2018 master custodian RFP. Its proposal-copy and offer-duration requirements therefore do not support the requested facts.",
+      "quotes": [
+        "MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+        "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+        "Four original paper copies of the proposal, and one electronic copy, all fully signed and sealed, shall be submitted to:",
+        "A statement to the effect that the proposal is a firm and irrevocable offer, good for five years with two one-year extension options;",
+        "Proposals shall be received no later than March 15, 2024 at 5 p.m. Eastern Time (subject to change)"
+      ],
+      "quote_matches": [
+        {
+          "quote": "MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+          "start": 49,
+          "end": 141
+        },
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+          "start": 235,
+          "end": 294
+        },
+        {
+          "quote": "Four original paper copies of the proposal, and one electronic copy, all fully signed and sealed, shall be submitted to:",
+          "start": 16353,
+          "end": 16473
+        },
+        {
+          "quote": "A statement to the effect that the proposal is a firm and irrevocable offer, good for five years with two one-year extension options;",
+          "start": 13380,
+          "end": 13513
+        },
+        {
+          "quote": "Proposals shall be received no later than March 15, 2024 at 5 p.m. Eastern Time (subject to change)",
+          "start": 15959,
+          "end": 16058
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a City of Hartford 2024 general investment consultant RFP, not CCCERA’s April 2018 master custodian RFP. Its copy and offer-validity requirements therefore do not establish the requested facts.",
+      "quotes": [
+        "CITY OF HARTFORD TREASURER’S OFFICE MUNICIPAL EMPLOYEES’ RETIREMENT FUND",
+        "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+        "Four original paper copies of the proposal, and one electronic copy, all fully signed and sealed, shall be submitted to:",
+        "A statement to the effect that the proposal is a firm and irrevocable offer, good for five years with two one-year extension options;",
+        "Proposals shall be received no later than March 15, 2024 at 5 p.m. Eastern Time (subject to change)"
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF HARTFORD TREASURER’S OFFICE MUNICIPAL EMPLOYEES’ RETIREMENT FUND",
+          "start": 13,
+          "end": 85
+        },
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+          "start": 235,
+          "end": 294
+        },
+        {
+          "quote": "Four original paper copies of the proposal, and one electronic copy, all fully signed and sealed, shall be submitted to:",
+          "start": 16353,
+          "end": 16473
+        },
+        {
+          "quote": "A statement to the effect that the proposal is a firm and irrevocable offer, good for five years with two one-year extension options;",
+          "start": 13380,
+          "end": 13513
+        },
+        {
+          "quote": "Proposals shall be received no later than March 15, 2024 at 5 p.m. Eastern Time (subject to change)",
+          "start": 15959,
+          "end": 16058
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

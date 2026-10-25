@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "d4780dbcaa3716eadca2",
+    "query_id": "INV-10",
+    "question": "An alternative investment consulting RFP describes a private equity portfolio of 225 holdings across 105 general partners. What are the approximate net asset values of the system's absolute return, private credit, private equity and real assets portfolios?",
+    "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "expected_facts": "Absolute Return about $2.6 billion (11 funds across 10 managers); Private Credit about $1.8 billion (26 holdings, 16 GPs); Private Equity about $4.5 billion (225 holdings, 105 GPs); Real Assets about $3.1 billion (87 holdings, 58 GPs). Issuer: Indiana Public Retirement System (INPRS), RFP 23-09.",
+    "acceptance": "Require correct asset-class mapping to $2.6bn/$1.8bn/$4.5bn/$3.1bn; holdings/GP counts and issuer identification are optional.",
+    "text_hash": "784bcfad5dec8c8cdc14ddc71afe9edac27cb190eaa8c0971bfb4139e6ce83d9",
+    "source_text_sha256": "75b693482e948ff921b1cec45e9ab6fae2d982d6719b2a34a7971859f300978e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a January 2024 global custody RFP issued by Santa Barbara County Employees’ Retirement System, not the specified INPRS alternative investment consulting RFP. Its private credit and private equity values are different, and it does not provide the four required portfolio NAVs.",
+      "quotes": [
+        "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”) Issue Date: January 8, 2024",
+        "As of September 30, 2023, SBCERS had approx. $4.06 billion in assets.",
+        "Private Equity 570,548,172.01",
+        "Private Credit 137,781,982.56"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”) Issue Date: January 8, 2024",
+          "start": 13,
+          "end": 158
+        },
+        {
+          "quote": "As of September 30, 2023, SBCERS had approx. $4.06 billion in assets.",
+          "start": 3191,
+          "end": 3260
+        },
+        {
+          "quote": "Private Equity 570,548,172.01",
+          "start": 63496,
+          "end": 63525
+        },
+        {
+          "quote": "Private Credit 137,781,982.56",
+          "start": 75085,
+          "end": 75114
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,12 @@
+{
+  "id": "f718ff817bb402f028e4",
+  "query_id": "INV-07",
+  "question": "In the published questions and answers for a city's pension fund consulting RFP, the city says it sent the RFP to 21 firms and last ran such a search in 2013. What does the plan currently pay for advisory services on its equities and for management of its fixed income?",
+  "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+  "expected_facts": "$20K per year for advisory of the equity investments (about 70% of plan funds, held by Fiduciary Advisors); for the fixed income investments (about 30% of plan funds, held by Commerce Bank, the custodian and paying agent) 0.30% on the first $10M, 0.20% on the next $40M and 0.15% on the remaining balance. Issuer: City of Creve Coeur, MO.",
+  "acceptance": "$20,000 annually plus 0.30% first $10m, 0.20% next $40m and 0.15% remainder. Basis-point equivalents 30/20/15 are acceptable. Provider names and 70/30 allocation are optional.",
+  "text_hash": "e529592be16077691cd54aac3c1a9e7ed524ba5b471c34ebf5ebe0296f8ab615",
+  "source_text_sha256": "40f6e66cda735b5ac3e65bb52c7627bc76b11a8e7017ca73d4ed3e9b2360ca3a",
+  "second_check_required": false,
+  "prior_reviews": []
+}

@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "d46544f933c344467aa8",
+    "query_id": "INV-17",
+    "question": "What evaluation criteria and weights does the Arizona Public Safety Personnel Retirement System (PSPRS) use in its RFP for non-discretionary investment consultant services?",
+    "file": "Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+    "expected_facts": "25% - relevant knowledge and experience in similar consulting engagements and current organizational capacity to provide experienced staff; 30% - quality and extent of the firm's capabilities in strategic advice, new investment identification and evaluation, operational due diligence, investment due diligence, manager performance reporting and monitoring, and back office support; 25% - demonstrated ability to meet service requirements (communicating with the CIO, investment team, Trustees and the Board's consultant, the operational plan, quality of assigned staff); 20% - overall cost of the proposed services.",
+    "acceptance": "Accept concise synonymous descriptions of all four criteria at 25/30/25/20; sublists need not reproduce every phrase verbatim.",
+    "text_hash": "7180429187038236fd14f0752492190d2d289b0c31609f0f0a2bf130924e85ac",
+    "source_text_sha256": "18abed4435894e587e3d010b5d205b6cafee38f9c9ad7a8505c1a10b5ee2150d",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Hawaii ERS RFP notice, not the Arizona PSPRS RFP. It provides no evaluation criteria or weights.",
+      "quotes": [
+        "EMPLOYEES’ RETIREMENT SYSTEM OF THE STATE OF HAWAII REQUEST FOR PROPOSALS (RFP) REAL ESTATE INVESTMENT CONSULTANT SERVICES",
+        "The Employees’ Retirement System of the State of Hawaii (ERS) is soliciting proposals for a qualified firm to provide non-discretionary real estate investment consulting services to the ERS."
+      ],
+      "quote_matches": [
+        {
+          "quote": "EMPLOYEES’ RETIREMENT SYSTEM OF THE STATE OF HAWAII REQUEST FOR PROPOSALS (RFP) REAL ESTATE INVESTMENT CONSULTANT SERVICES",
+          "start": 13,
+          "end": 135
+        },
+        {
+          "quote": "The Employees’ Retirement System of the State of Hawaii (ERS) is soliciting proposals for a qualified firm to provide non-discretionary real estate investment consulting services to the ERS.",
+          "start": 136,
+          "end": 326
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

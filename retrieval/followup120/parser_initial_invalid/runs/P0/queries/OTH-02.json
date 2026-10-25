@@ -1,0 +1,59 @@
+{
+  "query_id": "OTH-02",
+  "question": "How many Core Plus Fixed Income managers does INPRS anticipate hiring under RFP 22-04, what is the combined mandate size, and what benchmark will be used?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf"
+  ],
+  "keyword_terms": [
+    "Core Plus Fixed Income managers",
+    "RFP 22-04",
+    "combined mandate size",
+    "核心增强型固定收益",
+    "委托规模",
+    "业绩基准"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 47,
+      "timestamp": "2026-10-25 15:44:36.531081",
+      "metadata": {
+        "keywords": [
+          "Core Plus Fixed Income managers",
+          "RFP 22-04",
+          "combined mandate size",
+          "核心增强型固定收益",
+          "委托规模",
+          "业绩基准"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf"
+    }
+  ],
+  "elapsed_s": 2.957,
+  "calls": 0,
+  "usage": {}
+}

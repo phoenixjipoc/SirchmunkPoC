@@ -1,0 +1,568 @@
+{
+  "query_id": "XD-16",
+  "question": "Which documents in the corpus directly ask whether the responding firm is a signatory to the (UN) Principles for Responsible Investment?",
+  "type": "broad",
+  "pair_id": "",
+  "seed": 4043824716,
+  "references": [
+    {
+      "rank": 1,
+      "file": "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+      "path": "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "MA_PRIM__PDF-Version-of-RFP.pdf",
+      "path": "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "IMRF__sample_investment_manager_rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "IMRF__sample-investment-consulting-rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+      "path": "/mnt/docs/S/CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "AVFPD__RFP-Actuatial-Services-2024.pdf",
+      "path": "/mnt/docs/S/AVFPD__RFP-Actuatial-Services-2024.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+      "path": "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf"
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "keywords": {
+    "(UN) Principles for Responsible Investment": 9.0,
+    "responding firm": 5.0,
+    "documents in the corpus": 4.0,
+    "负责任投资原则": 9.0,
+    "签署方": 7.0,
+    "答复公司": 5.0
+  },
+  "keyword_terms": [
+    "(UN) Principles for Responsible Investment",
+    "responding firm",
+    "documents in the corpus",
+    "负责任投资原则",
+    "签署方",
+    "答复公司"
+  ],
+  "directory_prompt": "You are a document triage specialist. Analyze the scanned files below and rank them by relevance to the user's query.\n\n## Directory Structure\nRoot: /mnt/docs/S\n```\n  ./ (20 files)\n```\n\n## User Query\nWhich documents in the corpus directly ask whether the responding firm is a signatory to the (UN) Principles for Responsible Investment?\n\n## Scanned Files\n- **Hartford_MERF__file.pdf** (.pdf, 940.5KB)\n  Title: RFP INVESTMENT CONSULTANT ASSISTANCE\n  Author: Patricia Stokes\n  Pages/Sheets: 76\n  Keywords: Patricia Stokes\n  Modified: 2026-10-07\n  Preview: CITY OF HARTFORD TREASURER’S OFFICE  MUNICIPAL EMPLOYEES’ RETIREMENT  FUND of the CITY of HARTFORD and CITY of  HARTFORD OPEB TRUST   250 Constitution Plaza - 2nd Floor  HARTFORD, CONNECTICUT 06103  w\n\n- **TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf** (.pdf, 1022.7KB)\n  Title: RFP for Private Equity Investment Consultant\n  Author: TRS\n  Pages/Sheets: 95\n  Keywords: TRS\n  Modified: 2026-10-07\n  Preview: 1   T eachers’ Retirement System  of the State of Illinois  REQUEST FOR PROPOSALS FOR  PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES  Issued August 7, 2024  Re sponses due 2:00 CDT, Wednesday, Septemb\n\n- **Temple_City_CA__Recordkeeping-RFP.pdf** (.pdf, 925.0KB)\n  Title: REQUEST FOR PROPOSAL\n  Author: kwelch\n  Pages/Sheets: 57\n  Keywords: kwelch\n  Modified: 2026-10-07\n  Preview: City of Temple City, California  457 Deferred Compensation Plan    Request for Proposals for  Plan Administration and Record Keeping Services                        RFP DISTRIBUTION DATE: June 17, 202\n\n- **Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf** (.pdf, 285.5KB)\n  Author: Brad Tillberg\n  Pages/Sheets: 17\n  Keywords: Brad Tillberg\n  Modified: 2026-10-07\n  Preview: OPERS RFP – Investment Management Services – Issued July 20, 2023  Page 1 of 17  THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM    REQUEST FOR PROPOSAL  #515-24-001    U.S. EQUITY, Non-U.S. EQUITY, A\n\n- **NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf** (.pdf, 197.3KB)\n  Author: Emmanuel Esochaghi\n  Pages/Sheets: 7\n  Keywords: Emmanuel Esochaghi\n  Modified: 2026-10-07\n  Preview: 15    APPENDIX A  DUE DILIGENCE QUESTIONNAIRE  Respondents to this notice are required to submit detailed responses to these questions as applicable,  which give insight into the prospective managers’\n\n- **ILPA__ILPA-DDQ-2.0.pdf** (.pdf, 827.3KB)\n  Title: Due Diligence Questionnaire\n  Author: ILPA\n  Pages/Sheets: 58\n  Keywords: ILPA\n  Modified: 2026-10-07\n  Preview: Due Diligence   Questionnaire 2.0  Updated November 2021\n\n- **Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf** (.pdf, 311.8KB)\n  Pages/Sheets: 10\n  Modified: 2026-10-07\n  Preview: SHREWSBURYCONTRIBUTORYRETIREMENTSYSTEM RequestforProposalsforInvestmentConsultantServices TheSHREWSBURYRETIREMENTBOARD,overseersoftheShrewsburyRetirementSystem,a Massachusettsmunicipalpublicpensionfin\n\n- **LACERS__2025_actuarial_consulting_services_rfp.pdf** (.pdf, 305.0KB)\n  Author: Wong-Nguyen, Dale\n  Pages/Sheets: 16\n  Keywords: Wong-Nguyen, Dale\n  Modified: 2026-10-07\n  Preview: REQUEST FOR PROPOSAL (RFP)  FOR  ACTUARIAL CONSULTING SERVICES   RFP NO. 4282    Release Date: Friday, January 24, 2025  Proposal Due Date:  February 21, 2025    Electronic (link here)  RFP Administra\n\n- **KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf** (.pdf, 2.7MB)\n  Title: Microsoft Word - KCERA RFP for Audit Services\n  Author: matt.henry\n  Pages/Sheets: 55\n  Keywords: matt.henry\n  Modified: 2026-10-07\n  Preview: Kern County Employees’ Retirement Association  REQUEST FOR PROPOSAL – AUDIT SERVICES                              Kern County Employees’ Retirement Association  11125 River Run Boulevard Bakersfield C\n\n- **ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf** (.pdf, 624.4KB)\n  Title: Standardized Due Diligence Questionnaire\n  Author: ILPA\n  Pages/Sheets: 29\n  Keywords: ILPA\n  Modified: 2026-10-07\n\n- **CAJPA__28._Appendix_Z-Sample_Invest.pdf** (.pdf, 48.1KB)\n  Title: Microsoft Word - 2009-2010 Accreditation Manual.doc\n  Author: JMcDonald\n  Pages/Sheets: 9\n  Keywords: JMcDonald\n  Modified: 2026-10-07\n  Preview: Z. SAMPLE INVESTMENT MANAGEMENT  REQUEST FOR PROPOSAL (RFP)  REQUEST FOR PROPOSAL FOR INVESTMENT MANAGEMENT SERVICES FOR [Name of JPA] RETURN PROPOSALS TO: John Doe Pool Administrator [Name of JPA] 123 Main Street City, CA XXXXX DEADLINE FOR FILING: [DATE] [TIME] Approved for inclusion in the Accreditation Manual  As revised November 2, 2010\n\n- **SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf** (.pdf, 827.6KB)\n  Title: Model RFP\n  Author: Barbara Peters\n  Pages/Sheets: 72\n  Keywords: Barbara Peters\n  Modified: 2026-10-07\n  Preview: Request for Proposals for  General Investment Consulting Services  for the City and County of San Francisco  Employees’ Retirement System                                  Date Issued:  November 1, 202\n\n- **Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf** (.pdf, 330.0KB)\n  Author: Melissa Rackers\n  Pages/Sheets: 21\n  Keywords: Melissa Rackers\n  Modified: 2026-10-07\n  Preview: Page | 1          REQUEST FOR PROPOSAL  PRIVATE MARKET CONSULTING SERVICES  Prepared: July 1, 2024                Missouri Local Government Employees   Retirement System (LAGERS)  701 W. Main Street,\n\n- **Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf** (.pdf, 318.1KB)\n  Title: THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM\n  Author: VIRGINIA LAWRENZ\n  Pages/Sheets: 16\n  Keywords: VIRGINIA LAWRENZ\n  Modified: 2026-10-07\n  Preview: OPERS RFP – Investment Consulting Services – Issued February 18, 2022  Page 1 of 16  THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM    REQUEST FOR PROPOSAL  #515-22-200    INVESTMENT CONSULTING SERVI\n\n- **SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf** (.pdf, 1.5MB)\n  Author: Kristina Richter\n  Pages/Sheets: 97\n  Keywords: Kristina Richter\n  Modified: 2026-10-07\n  Preview: Santa Barbara County Employees’ Retirement System Global Custody and Related Services 1      Request for Proposal       Global Custody and Related Services  Santa Barbara County Employees’ Retirement\n\n- **AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf** (.pdf, 185.4KB)\n  Title: Private Markets Due Diligence Questionnaire\n  Pages/Sheets: 4\n  Modified: 2026-10-07\n  Preview: As you explore potential partnerships in private markets, it’s important to recognize that these investments work differently  than traditional public market investments held in daily liquid vehicles,\n\n- **INPRS__RFP24-05_AuditServices.pdf** (.pdf, 477.8KB)\n  Author: Danny Sullivan\n  Pages/Sheets: 33\n  Keywords: Danny Sullivan\n  Modified: 2026-10-07\n  Preview: 1                                                                       REQUEST FOR PROPOSALS (“RFP”) for    AUDIT SERVICES      RFP NUMBER 24-05        RELEASE DATE: OCTOBER 2, 2024    DEADLINE FOR I\n\n- **Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf** (.pdf, 145.4KB)\n  Title: Microsoft Word - Investment Consultant RFP 2023.docx\n  Author: pkorzen\n  Pages/Sheets: 12\n  Keywords: pkorzen\n  Modified: 2026-10-07\n  Preview: JULY 27, 2023    CITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM    CITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM    INVESTMENT CONSULTANT SERVICES    REQUEST FOR PROPOSAL (“RFP”)    RE: INVES\n\n- **St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf** (.pdf, 437.2KB)\n  Title: Microsoft Word - PRS Actuarial Auditor Services RFP+Questionnaire\n  Author: MLawson\n  Pages/Sheets: 19\n  Keywords: MLawson\n  Modified: 2026-10-07\n  Preview: 1  THE POLICE RETIREMENT SYSTEM  OF ST. LOUIS  2020 MARKET STREET  SAINT LOUIS, MISSOURI  63103       RFP Actuarial Auditing Services     Date Issued – February 2, 2024                     ___________\n\n- **DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf** (.pdf, 439.7KB)\n  Title: Microsoft Word - Real Assets Consultant RFP - 2011 v3.docx\n  Author: Katie Schultz\n  Pages/Sheets: 25\n  Modified: 2026-10-07\n\n## Instructions\n1. Evaluate EVERY file listed above. Consider directory names, filenames, titles, keywords, and preview content as relevance signals.\n2. Assign \"high\" (directly relevant), \"medium\" (possibly relevant), or \"low\" (unlikely relevant) to each file.\n3. For the \"path\" field, copy the **exact relative path** shown in bold (e.g. `subdir/file.pdf`) from the scan results above.\n4. Return ONLY a JSON array — no other text.\n\n## Output Format (use the EXACT path shown in the file listing)\n```json\n[\n  {\"path\": \"exact/relative/path/from/listing\", \"relevance\": \"high\", \"reason\": \"brief reason\"}\n]\n```",
+  "keyword_files": [
+    "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+    "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf",
+    "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf",
+    "/mnt/docs/S/CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+    "/mnt/docs/S/AVFPD__RFP-Actuatial-Services-2024.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+    "/mnt/docs/S/Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+    "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+    "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf",
+    "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf",
+    "/mnt/docs/S/CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+    "/mnt/docs/S/AVFPD__RFP-Actuatial-Services-2024.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+    "/mnt/docs/S/Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf",
+    "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+    "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf"
+  ],
+  "directory_ranking": [
+    {
+      "path": "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf",
+      "filename": "ILPA__ILPA-DDQ-2.0.pdf",
+      "extension": ".pdf",
+      "size_bytes": 847190,
+      "modified_at": "2026-10-07T07:11:58",
+      "created_at": "2026-10-07T07:19:56.992044",
+      "mime_type": "application/pdf",
+      "title": "Due Diligence Questionnaire",
+      "author": "ILPA",
+      "page_count": 58,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "ILPA"
+      ],
+      "preview": "Due Diligence  \nQuestionnaire 2.0 \nUpdated November 2021",
+      "content_loaded": false,
+      "relevance": "high",
+      "reason": "Private-equity due diligence questionnaire; a strong candidate for a direct PRI-signatory question."
+    },
+    {
+      "path": "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+      "filename": "ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+      "extension": ".pdf",
+      "size_bytes": 639339,
+      "modified_at": "2026-10-07T07:11:55",
+      "created_at": "2026-10-07T07:19:57.040043",
+      "mime_type": "application/pdf",
+      "title": "Standardized Due Diligence Questionnaire",
+      "author": "ILPA",
+      "page_count": 29,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "ILPA"
+      ],
+      "preview": "",
+      "content_loaded": false,
+      "relevance": "high",
+      "reason": "Standardized investment-manager due diligence questionnaire; a strong candidate for a direct PRI-signatory question."
+    },
+    {
+      "path": "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "filename": "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "extension": ".pdf",
+      "size_bytes": 189839,
+      "modified_at": "2026-10-07T07:15:10",
+      "created_at": "2026-10-07T07:19:56.012061",
+      "mime_type": "application/pdf",
+      "title": "Private Markets Due Diligence Questionnaire",
+      "author": "",
+      "page_count": 4,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "As you explore potential partnerships in private markets, it’s important to recognize that these investments work differently \nthan traditional public market investments held in daily liquid vehicles, such as mutual funds and ETFs. This questionnaire is \ndesigned to help you navigate those differenc",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Private-markets questionnaire may ask about PRI membership, but the preview does not confirm it."
+    },
+    {
+      "path": "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+      "filename": "NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+      "extension": ".pdf",
+      "size_bytes": 201996,
+      "modified_at": "2026-10-07T07:09:29",
+      "created_at": "2026-10-07T07:19:58.052026",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Emmanuel Esochaghi",
+      "page_count": 7,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Emmanuel Esochaghi"
+      ],
+      "preview": "15 \n \nAPPENDIX A \nDUE DILIGENCE QUESTIONNAIRE \nRespondents to this notice are required to submit detailed responses to these questions as applicable, \nwhich give insight into the prospective managers’ structure and policies. If not applicable, mark it “N/A” \n1.0 Respondent Firm: General Information ",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Includes a prospective-manager due diligence questionnaire; the specific question is not visible."
+    },
+    {
+      "path": "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+      "filename": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1047277,
+      "modified_at": "2026-10-07T07:08:04",
+      "created_at": "2026-10-07T07:19:59.152007",
+      "mime_type": "application/pdf",
+      "title": "RFP for Private Equity Investment Consultant",
+      "author": "TRS",
+      "page_count": 95,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "TRS"
+      ],
+      "preview": "1\n \nT\neachers’ Retirement System \nof the State of Illinois \nREQUEST FOR PROPOSALS FOR \nPRIVATE EQUITY INVESTMENT CONSULTANT SERVICES \nIssued August 7, 2024 \nRe\nsponses due 2:00 CDT, Wednesday, September 4, 2024",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Private-equity consultant RFP may ask about responsible-investment commitments."
+    },
+    {
+      "path": "/mnt/docs/S/Hartford_MERF__file.pdf",
+      "filename": "Hartford_MERF__file.pdf",
+      "extension": ".pdf",
+      "size_bytes": 963084,
+      "modified_at": "2026-10-07T07:17:51",
+      "created_at": "2026-10-07T07:19:56.864046",
+      "mime_type": "application/pdf",
+      "title": "RFP INVESTMENT CONSULTANT ASSISTANCE",
+      "author": "Patricia Stokes",
+      "page_count": 76,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Patricia Stokes"
+      ],
+      "preview": "CITY OF HARTFORD TREASURER’S OFFICE \nMUNICIPAL EMPLOYEES’ RETIREMENT \nFUND of the CITY of HARTFORD and CITY of \nHARTFORD OPEB TRUST  \n250 Constitution Plaza - 2nd Floor \nHARTFORD, CONNECTICUT 06103 \nwww.hartfordcitytreasurer.org \n \n \n REQUEST FOR PROPOSALS (“RFP”) \nGENERAL INVESTMENT CONSULTANT \n \nT",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Investment-consultant RFP could include a PRI-signatory question."
+    },
+    {
+      "path": "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+      "filename": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+      "extension": ".pdf",
+      "size_bytes": 847487,
+      "modified_at": "2026-10-07T07:17:56",
+      "created_at": "2026-10-07T07:19:58.796013",
+      "mime_type": "application/pdf",
+      "title": "Model RFP",
+      "author": "Barbara Peters",
+      "page_count": 72,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Barbara Peters"
+      ],
+      "preview": "Request for Proposals for \nGeneral Investment Consulting Services \nfor the City and County of San Francisco \nEmployees’ Retirement System \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nDate Issued:  November 1, 2022 \nDeadline for Submission: December 15, 2022 at 5:00 PM Pacific Time",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Investment-consultant RFP could ask whether the respondent is a PRI signatory."
+    },
+    {
+      "path": "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+      "filename": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 337910,
+      "modified_at": "2026-10-07T07:08:01",
+      "created_at": "2026-10-07T07:19:57.996027",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Melissa Rackers",
+      "page_count": 21,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Melissa Rackers"
+      ],
+      "preview": "Page | 1 \n \n \n \n \nREQUEST FOR PROPOSAL \nPRIVATE MARKET CONSULTING SERVICES \nPrepared: July 1, 2024 \n \n \n \n \n \n \n \nMissouri Local Government Employees  \nRetirement System (LAGERS) \n701 W. Main Street, Jefferson City, MO  65101 \nRFP Contact: Scott Day \nEmail:  sday@molagers.org \nPhone:  573-632-6353",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Private-market consulting RFP may include a PRI-signatory question."
+    },
+    {
+      "path": "/mnt/docs/S/Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+      "filename": "Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+      "extension": ".pdf",
+      "size_bytes": 292309,
+      "modified_at": "2026-10-07T07:06:35",
+      "created_at": "2026-10-07T07:19:58.324021",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Brad Tillberg",
+      "page_count": 17,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Brad Tillberg"
+      ],
+      "preview": "OPERS RFP – Investment Management Services – Issued July 20, 2023 \nPage 1 of 17 \nTHE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM \n \nREQUEST FOR PROPOSAL \n#515-24-001 \n \nU.S. EQUITY, Non-U.S. EQUITY, AND FIXED INCOME (TIPS) INDEX \nINVESTMENT MANAGEMENT SERVICES \n \nThe Board of Trustees of the Oklahom",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Investment-management RFP may ask about the firm's PRI status."
+    },
+    {
+      "path": "/mnt/docs/S/Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+      "filename": "Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+      "extension": ".pdf",
+      "size_bytes": 325685,
+      "modified_at": "2026-10-07T07:02:53",
+      "created_at": "2026-10-07T07:19:58.288022",
+      "mime_type": "application/pdf",
+      "title": "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM",
+      "author": "VIRGINIA LAWRENZ",
+      "page_count": 16,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "VIRGINIA LAWRENZ"
+      ],
+      "preview": "OPERS RFP – Investment Consulting Services – Issued February 18, 2022 \nPage 1 of 16 \nTHE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM \n \nREQUEST FOR PROPOSAL \n#515-22-200 \n \nINVESTMENT CONSULTING SERVICES \n \nThe Board of Trustees of the Oklahoma Public Employees Retirement System (“OPERS” or “System”",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Investment-consulting RFP may ask about PRI membership."
+    },
+    {
+      "path": "/mnt/docs/S/Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf",
+      "filename": "Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf",
+      "extension": ".pdf",
+      "size_bytes": 319279,
+      "modified_at": "2026-10-07T07:17:44",
+      "created_at": "2026-10-07T07:19:58.880011",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "",
+      "page_count": 10,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "SHREWSBURYCONTRIBUTORYRETIREMENTSYSTEM\nRequestforProposalsforInvestmentConsultantServices\nTheSHREWSBURYRETIREMENTBOARD,overseersoftheShrewsburyRetirementSystem,a\nMassachusettsmunicipalpublicpensionfindwithassetsofapproximately$125million,invitesqualified\nentitiestosubmitproposalsforInvestmentConsult",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Investment-consultant RFP could contain the question."
+    },
+    {
+      "path": "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+      "filename": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+      "extension": ".pdf",
+      "size_bytes": 148912,
+      "modified_at": "2026-10-07T07:05:50",
+      "created_at": "2026-10-07T07:19:56.808047",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - Investment Consultant RFP 2023.docx",
+      "author": "pkorzen",
+      "page_count": 12,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "pkorzen"
+      ],
+      "preview": "JULY 27, 2023 \n \nCITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM \n \nCITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM \n \nINVESTMENT CONSULTANT SERVICES \n \nREQUEST FOR PROPOSAL (“RFP”) \n \nRE: INVESTMENT CONSULTING SERVICES \n \nThe City of Grand General Retirement System and the City of Gra nd Rapi",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Investment-consultant RFP could contain the question."
+    },
+    {
+      "path": "/mnt/docs/S/DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+      "filename": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+      "extension": ".pdf",
+      "size_bytes": 450240,
+      "modified_at": "2026-10-07T07:08:17",
+      "created_at": "2026-10-07T07:19:56.732049",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - Real Assets Consultant RFP - 2011 v3.docx",
+      "author": "Katie Schultz",
+      "page_count": 25,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [],
+      "preview": "",
+      "content_loaded": false,
+      "relevance": "medium",
+      "reason": "Real-assets investment-consulting RFP could ask about PRI status."
+    },
+    {
+      "path": "/mnt/docs/S/CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+      "filename": "CAJPA__28._Appendix_Z-Sample_Invest.pdf",
+      "extension": ".pdf",
+      "size_bytes": 49230,
+      "modified_at": "2026-10-07T07:11:18",
+      "created_at": "2026-10-07T07:19:56.336056",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - 2009-2010 Accreditation Manual.doc",
+      "author": "JMcDonald",
+      "page_count": 9,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "JMcDonald"
+      ],
+      "preview": "Z. SAMPLE INVESTMENT MANAGEMENT \nREQUEST FOR PROPOSAL (RFP) \nREQUEST FOR PROPOSAL\nFOR\nINVESTMENT MANAGEMENT SERVICES\nFOR\n[Name of JPA]\nRETURN PROPOSALS TO:\nJohn Doe\nPool Administrator\n[Name of JPA]\n123 Main Street\nCity, CA XXXXX\nDEADLINE FOR FILING:\n[DATE]\n[TIME]\nApproved for inclusion in the Accred",
+      "content_loaded": true,
+      "relevance": "low",
+      "reason": "Sample investment-management RFP; its preview provides no sign of a PRI question."
+    },
+    {
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "filename": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "extension": ".pdf",
+      "size_bytes": 1598389,
+      "modified_at": "2026-10-07T07:07:42",
+      "created_at": "2026-10-07T07:19:58.636015",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Kristina Richter",
+      "page_count": 97,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Kristina Richter"
+      ],
+      "preview": "Santa Barbara County Employees’ Retirement System Global Custody and Related Services 1 \n \n \nRequest for Proposal \n \n  \nGlobal Custody and Related Services \nSanta Barbara County Employees’ Retirement System \n(“SBCERS”) \n \n  \nIssue Date:       January 8, 2024 \nQuestions Due:      January 12, 2024  \nQ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Custody-services RFP is less likely to ask about investment-firm PRI membership."
+    },
+    {
+      "path": "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf",
+      "filename": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "extension": ".pdf",
+      "size_bytes": 947221,
+      "modified_at": "2026-10-07T07:08:46",
+      "created_at": "2026-10-07T07:19:59.212006",
+      "mime_type": "application/pdf",
+      "title": "REQUEST FOR PROPOSAL",
+      "author": "kwelch",
+      "page_count": 57,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "kwelch"
+      ],
+      "preview": "City of Temple City, California \n457 Deferred Compensation Plan \n \nRequest for Proposals for \nPlan Administration and Record Keeping Services \n \n \n \n \n \n \n \n \n \n \n \nRFP DISTRIBUTION DATE: June 17, 2020 at 4:00 PM (Pacific Time) \nDUE DATE FOR QUESTIONS: June 29, 2020 at 4:00 PM (Pacific Time) \nDUE DA",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Plan administration and recordkeeping RFP, not investment-manager due diligence."
+    },
+    {
+      "path": "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf",
+      "filename": "LACERS__2025_actuarial_consulting_services_rfp.pdf",
+      "extension": ".pdf",
+      "size_bytes": 312317,
+      "modified_at": "2026-10-07T07:07:02",
+      "created_at": "2026-10-07T07:19:57.712032",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Wong-Nguyen, Dale",
+      "page_count": 16,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Wong-Nguyen, Dale"
+      ],
+      "preview": "REQUEST FOR PROPOSAL (RFP) \nFOR \nACTUARIAL CONSULTING SERVICES \n RFP NO. 4282 \n \nRelease Date: Friday, January 24, 2025 \nProposal Due Date: \nFebruary 21, 2025 \n \nElectronic (link here) \nRFP Administrator: \n \nJulie Guan \nLos Angeles City Employees’ \nRetirement System \nE-mail: julie.guan@lacers.org \n ",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Actuarial consulting RFP, not investment-firm due diligence."
+    },
+    {
+      "path": "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+      "filename": "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+      "extension": ".pdf",
+      "size_bytes": 2825104,
+      "modified_at": "2026-10-07T07:14:36",
+      "created_at": "2026-10-07T07:19:57.660033",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - KCERA RFP for Audit Services",
+      "author": "matt.henry",
+      "page_count": 55,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "matt.henry"
+      ],
+      "preview": "Kern County Employees’ Retirement Association \nREQUEST FOR PROPOSAL – AUDIT SERVICES \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nKern County Employees’ Retirement Association \n11125 River Run Boulevard Bakersfield CA 93311 \n661‐381‐7700 Fax: 661‐381‐7799 \nwww.kcera.org",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Audit-services RFP, not investment-firm due diligence."
+    },
+    {
+      "path": "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf",
+      "filename": "INPRS__RFP24-05_AuditServices.pdf",
+      "extension": ".pdf",
+      "size_bytes": 489278,
+      "modified_at": "2026-10-07T07:14:45",
+      "created_at": "2026-10-07T07:19:57.216040",
+      "mime_type": "application/pdf",
+      "title": "",
+      "author": "Danny Sullivan",
+      "page_count": 33,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "Danny Sullivan"
+      ],
+      "preview": "1  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nREQUEST FOR PROPOSALS (“RFP”) for \n \nAUDIT SERVICES \n \n \nRFP NUMBER 24-05 \n \n \n \nRELEASE DATE: OCTOBER 2, 2024 \n \nDEADLINE FOR INQUIRIES: OCTOBER 11, 2024 BY 3:00 PM EDT \n \nDEADLINE FOR SUBMISSION: NOVEMBER 1, 2024 BY 3:00 PM ED",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Audit-services RFP, not investment-firm due diligence."
+    },
+    {
+      "path": "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+      "filename": "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+      "extension": ".pdf",
+      "size_bytes": 447673,
+      "modified_at": "2026-10-07T07:07:06",
+      "created_at": "2026-10-07T07:19:58.916011",
+      "mime_type": "application/pdf",
+      "title": "Microsoft Word - PRS Actuarial Auditor Services RFP+Questionnaire",
+      "author": "MLawson",
+      "page_count": 19,
+      "encoding": "",
+      "line_count": 0,
+      "keywords": [
+        "MLawson"
+      ],
+      "preview": "1\n THE POLICE RETIREMENT SYSTEM \nOF ST. LOUIS \n2020 MARKET STREET \nSAINT LOUIS, MISSOURI  63103 \n \n   RFP Actuarial Auditing Services \n   Date Issued – February 2, 2024 \n \n \n \n \n \n \n \n \n  \n________________________________________________________________________ \nRequest for Proposal \nIssued: Februar",
+      "content_loaded": false,
+      "relevance": "low",
+      "reason": "Actuarial-auditor questionnaire is unlikely to ask about PRI signatory status."
+    }
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 846,
+      "timestamp": "2026-10-23 08:03:45.061447",
+      "metadata": {
+        "keywords": [
+          "(UN) Principles for Responsible Investment",
+          "responding firm",
+          "documents in the corpus",
+          "负责任投资原则",
+          "签署方",
+          "答复公司"
+        ],
+        "files_found": 11,
+        "files_discovered": [
+          "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+          "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf",
+          "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+          "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+          "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf",
+          "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf",
+          "/mnt/docs/S/CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+          "/mnt/docs/S/AVFPD__RFP-Actuatial-Services-2024.pdf",
+          "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+          "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+          "/mnt/docs/S/Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf"
+        ]
+      }
+    }
+  ],
+  "elapsed_s": 19.038,
+  "calls": 2,
+  "usage": {
+    "prompt_tokens": 3270,
+    "completion_tokens": 1818,
+    "total_tokens": 5088
+  },
+  "group": "R3",
+  "attempt": 1
+}

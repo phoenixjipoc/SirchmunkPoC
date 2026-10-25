@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "e1fe6262160b3cd5b7bc",
+    "query_id": "INV-02",
+    "question": "What is the proposal deadline, and how many copies must be submitted, for the City of Madison (Florida) Police Officers' and Firefighters' Retirement System RFP No. 2025-0901 for investment consulting services?",
+    "file": "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "expected_facts": "Proposals must be received by 2:00 p.m. on September 1, 2025 at the City Clerk's office in Madison, FL (late proposals returned unopened); an original and five (5) copies must be submitted in a sealed envelope/package.",
+    "acceptance": "Accept 2pm September 1, 2025 and original plus five copies/six total. Address, sealing and late-return treatment are optional.",
+    "text_hash": "bb72821830d3b79720e84bd7d293578b1b367fc714f7a0632d7937278f6fccd7",
+    "source_text_sha256": "c942d0c8eb27f166bc67c995927bcd0e03513c3bbbfb1318905a941cab877fac",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2023 investment-consulting RFP from the Teachers’ Retirement System of the State of Illinois, not the City of Madison, Florida RFP No. 2025-0901. Its deadline applies to the Illinois RFP, and it requires email-only submission rather than specifying an original and five copies.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES Issued January 13, 2023 Responses due February 9, 2023, by 2:00 pm CST",
+        "Only email submissions will be accepted."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR INVESTMENT CONSULTING SERVICES Issued January 13, 2023 Responses due February 9, 2023, by 2:00 pm CST",
+          "start": 13,
+          "end": 193
+        },
+        {
+          "quote": "Only email submissions will be accepted.",
+          "start": 18081,
+          "end": 18121
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

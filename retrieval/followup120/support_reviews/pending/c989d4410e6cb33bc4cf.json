@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "c989d4410e6cb33bc4cf",
+    "query_id": "INV-03",
+    "question": "In the Boston Retirement System's investment consulting services proposal questionnaire (Attachment 3), how many current public fund client references must be listed, and what minimum asset size must those clients have?",
+    "file": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "expected_facts": "Up to 10 current public fund clients with assets greater than $1 billion for whom similar work was performed, giving name, contact, telephone number, asset values, number of years the client has retained the firm and the service used.",
+    "acceptance": "Accept up to ten / no more than ten and >$1bn. Contact-detail fields and similar-work context are supplementary; exactly ten or at least $1bn is not equivalent.",
+    "text_hash": "e208b396d807c84110e10df7ec74d980a1905d8e99839a26651b44e9927a80ca",
+    "source_text_sha256": "48df375d7d5f4c68eef011c530a1b8e2446893a55aa03aa4e9c6a423a07b3e4c",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a District of Columbia Retirement Board RFP, not the Boston Retirement System’s Attachment 3. Its questionnaire is Attachment B and does not state the requested limit of up to ten current public fund references with assets greater than $1 billion.",
+      "quotes": [
+        "District of Columbia Retirement Board",
+        "Solicitation DCRB-2011-001",
+        "Attachment B District of Columbia Retirement Board Request for Proposal Real Assets Investment Consulting Services Proposal Questionnaire",
+        "The firm has provided for at least five (5) years, real assets investment consulting services to at least three U.S. public pension funds, each of which has at least $5 billion in current total assets."
+      ],
+      "quote_matches": [
+        {
+          "quote": "District of Columbia Retirement Board",
+          "start": 13,
+          "end": 50
+        },
+        {
+          "quote": "Solicitation DCRB-2011-001",
+          "start": 169,
+          "end": 195
+        },
+        {
+          "quote": "Attachment B District of Columbia Retirement Board Request for Proposal Real Assets Investment Consulting Services Proposal Questionnaire",
+          "start": 25140,
+          "end": 25277
+        },
+        {
+          "quote": "The firm has provided for at least five (5) years, real assets investment consulting services to at least three U.S. public pension funds, each of which has at least $5 billion in current total assets.",
+          "start": 21620,
+          "end": 21821
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

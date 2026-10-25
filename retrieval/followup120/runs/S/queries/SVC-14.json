@@ -1,0 +1,139 @@
+{
+  "query_id": "SVC-14",
+  "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+  "type": "pair_b",
+  "pair_id": "P14",
+  "group": "S",
+  "references": [
+    {
+      "rank": 1,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+      "path": "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+      "path": "/mnt/docs/S/DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "path": "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+      "path": "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "LACERS__2025_actuarial_consulting_services_rfp.pdf",
+      "path": "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+      "path": "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "INPRS__RFP24-05_AuditServices.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf"
+    }
+  ],
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "baseline_sha256": "214e30fdcfd5dd8ff350445477c805eb35e538260e0261f4291b0a33dfbe8c7a",
+  "original_files": [
+    "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "SBCERS__2020-Private-Equity-RFP.pdf",
+    "INPRS__RFP24-05_AuditServices.pdf",
+    "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+    "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "LACERS__2025_actuarial_consulting_services_rfp.pdf"
+  ],
+  "ranking_prompt": "{\"question\": \"What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?\", \"candidates\": [{\"filename\": \"Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf\", \"extension\": \".pdf\", \"title\": \"Request for Proposal\", \"author\": \"Cummings, Meg\", \"page_count\": 24, \"keywords\": [\"Cummings, Meg\"], \"preview\": \"3 \\n \\nRequest for Proposal \\nActuarial and Consulting \\nServices for Pension Benefits  \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n  \\nB o s t o n  R e t i r e m e n t  S y s t e m  \\nB o s t o n  C i t y  H a l l ,  R o o m  8 1 6  \\nO n e  C i t y  H a l l  S q u a r e  \\nB o s t o n ,  M A   0 2 2 0 1  \\n      \\nBoston Retirement System \\nSeptember 12, 2022\", \"full_content\": \"\"}, {\"filename\": \"COAERS__COAERS_General_Investment_Consultant_RFP.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Russell Nash\", \"page_count\": 30, \"keywords\": [\"Russell Nash\"], \"preview\": \"1 \\n \\n \\n \\nRequest for Proposal \\nGeneral Investment Consultant \\n \\n \\n \\n \\n \\n \\nProposals must be submitted on or before  \\n5:00 p.m. Central Standard Time  \\nFebruary 9, 2024 \\n \\n \\n \\n \\n \\n \\nCity of Austin Employees’ Retirement System \\n6850 Austin Center Blvd. \\nSuite 320 \\nAustin, TX  78731 \\n(512) 458-2551 \\nwww.coaers.org/gic-rfp\", \"full_content\": \"\"}, {\"filename\": \"DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf\", \"extension\": \".pdf\", \"title\": \"Microsoft Word - Real Assets Consultant RFP - 2011 v3.docx\", \"author\": \"Katie Schultz\", \"page_count\": 25, \"keywords\": [], \"preview\": \"\", \"full_content\": \"\"}, {\"filename\": \"Delaware__TRE21101-RECDKEEPR-rfp.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Davis, Liza D (OST)\", \"page_count\": 109, \"keywords\": [\"Davis, Liza D (OST)\"], \"preview\": \"1 \\n \\nREQUEST FOR PROPOSAL FOR DEFERRED COMPENSATION PLAN \\nRECORDKEEPING AND ADMINISTRATION SERVICES ISSUED BY THE \\nOFFICE OF THE STATE TREASURER   \\nCONTRACT NUMBER:  TRE-CPM-21101- DEFERRED COMPENSATION PLAN \\nRECORDKEEPING AND ADMINISTRATION SERVICES \\n \\n \\nI. OVERVIEW \\n \\nBy this request for proposal (“RFP”), the Office of the State Treasurer (“OST”), on behalf of the Plans \\nManagement Board (“Board”), is seeking proposals from qualified vendors ( “Vendors”) to provide \\nrecordkeeping and administrative services for the three plans (collectively, the “Plans”) within the State’s \\nDeferred Compensation Program authorized under Chapter 60A of Title 29 of the Delaware Code (the \\n“DC Program ”) and applicable provisions of the Internal Revenue Code (“IRC”) . This request for \\nproposals (“R\", \"full_content\": \"\"}, {\"filename\": \"INPRS__RFP24-05_AuditServices.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Danny Sullivan\", \"page_count\": 33, \"keywords\": [\"Danny Sullivan\"], \"preview\": \"1  \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nREQUEST FOR PROPOSALS (“RFP”) for \\n \\nAUDIT SERVICES \\n \\n \\nRFP NUMBER 24-05 \\n \\n \\n \\nRELEASE DATE: OCTOBER 2, 2024 \\n \\nDEADLINE FOR INQUIRIES: OCTOBER 11, 2024 BY 3:00 PM EDT \\n \\nDEADLINE FOR SUBMISSION: NOVEMBER 1, 2024 BY 3:00 PM EDT\", \"full_content\": \"\"}, {\"filename\": \"KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf\", \"extension\": \".pdf\", \"title\": \"Microsoft Word - Audit Actuary RFP 2024 Final\", \"author\": \"matt.henry\", \"page_count\": 50, \"keywords\": [\"matt.henry\"], \"preview\": \"Kern County Employees’ Retirement Association \\n \\n  \\n \\n \\n \\nRequest for Proposal \\n  \\nACTUARIAL AUDIT SERVICES \\n \\n \\n \\n \\n \\nMarch 29, 2024\", \"full_content\": \"\"}, {\"filename\": \"LACERS__2025_actuarial_consulting_services_rfp.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Wong-Nguyen, Dale\", \"page_count\": 16, \"keywords\": [\"Wong-Nguyen, Dale\"], \"preview\": \"REQUEST FOR PROPOSAL (RFP) \\nFOR \\nACTUARIAL CONSULTING SERVICES \\n RFP NO. 4282 \\n \\nRelease Date: Friday, January 24, 2025 \\nProposal Due Date: \\nFebruary 21, 2025 \\n \\nElectronic (link here) \\nRFP Administrator: \\n \\nJulie Guan \\nLos Angeles City Employees’ \\nRetirement System \\nE-mail: julie.guan@lacers.org \\n \\nAll questions must be \\nsubmitted in writing no \\nlater than: \\nFebruary 7, 2025 \\nSubmit questions to the RFP Administrator. Any questions and all \\nanswers will be posted on the LACERS website: \\nhttps://www.lacers.org/rfps-contracting-opportunities  \\nOfficial RFP \\nNotices/Addendums: \\nTo ensure that no firm is provided an advantage over another, all \\nrequirements are specified in this RFP. Any changes to the requirements \\nwill be posted as an addendum to the RFP on the LACERS website: \\nhttps://ww\", \"full_content\": \"\"}, {\"filename\": \"SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Kristina Richter\", \"page_count\": 97, \"keywords\": [\"Kristina Richter\"], \"preview\": \"Santa Barbara County Employees’ Retirement System Global Custody and Related Services 1 \\n \\n \\nRequest for Proposal \\n \\n  \\nGlobal Custody and Related Services \\nSanta Barbara County Employees’ Retirement System \\n(“SBCERS”) \\n \\n  \\nIssue Date:       January 8, 2024 \\nQuestions Due:      January 12, 2024  \\nQ&A Responses Delivered:    January 22, 2024  \\nSubmission Deadline:      February 2, 2024  \\n \\n  \\nDesignated Contact: \\nJonathan Kowolik    Lindsey Longwell \\nSenior Consultant, Principal  Consultant \\nRVK, Inc.     RVK, Inc.  \\nOne Penn Plaza, Suite 2131  1211 SW 5th Avenue, Suite 900 \\nNew York, NY 10119   Portland, OR 97204 \\nJonathan.Kowolik@rvkinc.com  Lindsey.Longwell@rvkinc.com  \\nIOSG@rvkinc.com\", \"full_content\": \"\"}, {\"filename\": \"SBCERS__2020-Private-Equity-RFP.pdf\", \"extension\": \".pdf\", \"title\": \"Microsoft Word - 2020 Private Equity RFP\", \"author\": \"lthompson\", \"page_count\": 34, \"keywords\": [\"lthompson\"], \"preview\": \"1 \\n \\nSANTA BARBARA COUNTY EMPLOYEES’ RETIREMENT SYSTEM \\n \\nREQUEST FOR PROPOSALS (RFP) \\nFOR \\nDISCRETIONARY PRIVATE EQUITY CONSULTANT SERVICES \\n \\n \\n \\n \\nTIMELINE \\nDate of RFP issuance July 27, 2020 \\nDeadline for written questions to SBCERS August 10, 2020 \\nDeadline for submission of Proposals August 21, 2020 \\nTentative interview dates October 28, 2020 \\n \\n \\n \\nDelivery of Proposals \\n \\nProposals are to be delivered as follows:  \\n \\nThree (3) printed copies, one (1) electronic version to be delivered to:  \\n  \\nMs. Lauren Thompson \\nSanta Barbara County Employees’ Retirement System \\n130 Robin Hill Road, Suite 100 \\nGoleta, CA 93117 \\ninvestments@sbcers.org \\n \\nNote that both the electronic copy and the paper copy shall include signatures as required \\nby this RFP.  The electronic copy shall be emailed to\", \"full_content\": \"\"}, {\"filename\": \"TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf\", \"extension\": \".pdf\", \"title\": \"RFP for Private Equity Investment Consultant\", \"author\": \"TRS\", \"page_count\": 95, \"keywords\": [\"TRS\"], \"preview\": \"1\\n \\nT\\neachers’ Retirement System \\nof the State of Illinois \\nREQUEST FOR PROPOSALS FOR \\nPRIVATE EQUITY INVESTMENT CONSULTANT SERVICES \\nIssued August 7, 2024 \\nRe\\nsponses due 2:00 CDT, Wednesday, September 4, 2024\", \"full_content\": \"\"}]}",
+  "keyword_files": [
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "/mnt/docs/S/DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+    "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf",
+    "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+    "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf",
+    "/mnt/docs/S/Monroe_County_NY__10406.pdf",
+    "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+    "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf",
+    "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+    "/mnt/docs/S/Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf",
+    "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "/mnt/docs/S/Hartford_MERF__file.pdf",
+    "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+    "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+    "/mnt/docs/S/CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+    "/mnt/docs/S/CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "/mnt/docs/S/Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf",
+    "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+    "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+    "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf",
+    "/mnt/docs/S/Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+    "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+    "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+    "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+    "/mnt/docs/S/AVFPD__RFP-Actuatial-Services-2024.pdf",
+    "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf",
+    "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "/mnt/docs/S/DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf",
+    "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+    "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf"
+  ],
+  "status": "ok",
+  "elapsed_s": 4.28,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 2453,
+    "completion_tokens": 326,
+    "total_tokens": 2779
+  },
+  "attempt": 1
+}

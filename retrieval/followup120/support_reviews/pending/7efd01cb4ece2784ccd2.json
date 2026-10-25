@@ -1,0 +1,100 @@
+{
+  "job": {
+    "id": "7efd01cb4ece2784ccd2",
+    "query_id": "DDQ-04",
+    "question": "Under the ILPA ESG Assessment Framework, how often does a GP review its ESG policy at the 'Intermediate' and at the 'Advanced' level of the 'Approach to Policy Review' component?",
+    "file": "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+    "expected_facts": "Intermediate: the GP reviews its ESG policy periodically, i.e. every 2-3 years, and can share recent findings and updates. Advanced: the GP reviews its ESG policy annually and can comment on its evolution.",
+    "acceptance": "Intermediate every 2–3 years; Advanced annually. Sharing findings and explaining evolution are optional because question asks frequency.",
+    "text_hash": "ac6b0e905afe63d321b93322365c44bd32fcacb84541a4f193cc55bfb02de248",
+    "source_text_sha256": "d3cdf2eaaca64cc0351c56cbf51120b2c7f76276c9cf4af290c8dbdd368f2733",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "correct",
+        "reason": "This ILPA FAQ identifies and discusses the ESG Assessment Framework, but it does not state how often a GP reviews its ESG policy at either the Intermediate or Advanced level. Its references to periodic updates concern ILPA updating the Framework, not a GP reviewing its policy.",
+        "quotes": [
+          "ILPA released this ESG Assessment Framework as a resource for limited partners",
+          "The Framework was first released in 2021 and most recently revised in September of 2024.",
+          "ILPA will continue to update the framework periodically as practices evolve and to address feedback and questions received."
+        ],
+        "quote_matches": [
+          {
+            "quote": "ILPA released this ESG Assessment Framework as a resource for limited partners",
+            "start": 74,
+            "end": 152
+          },
+          {
+            "quote": "The Framework was first released in 2021 and most recently revised in September of 2024.",
+            "start": 906,
+            "end": 994
+          },
+          {
+            "quote": "ILPA will continue to update the framework periodically as practices evolve and to address feedback and questions received.",
+            "start": 995,
+            "end": 1118
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "correct",
+      "reason": "This ILPA FAQ identifies and discusses the ESG Assessment Framework, but it does not state how often a GP reviews its ESG policy at either the Intermediate or Advanced level. Its references to periodic updates concern ILPA updating the Framework, not a GP reviewing its policy.",
+      "quotes": [
+        "ILPA released this ESG Assessment Framework as a resource for limited partners",
+        "The Framework was first released in 2021 and most recently revised in September of 2024.",
+        "ILPA will continue to update the framework periodically as practices evolve and to address feedback and questions received."
+      ],
+      "quote_matches": [
+        {
+          "quote": "ILPA released this ESG Assessment Framework as a resource for limited partners",
+          "start": 74,
+          "end": 152
+        },
+        {
+          "quote": "The Framework was first released in 2021 and most recently revised in September of 2024.",
+          "start": 906,
+          "end": 994
+        },
+        {
+          "quote": "ILPA will continue to update the framework periodically as practices evolve and to address feedback and questions received.",
+          "start": 995,
+          "end": 1118
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "partial",
+      "identity": "correct",
+      "reason": "This is an ILPA ESG Assessment Framework FAQ and identifies the Intermediate and Advanced levels, but it does not state how often a GP reviews its ESG policy at either level. Its reference to periodic updates concerns ILPA’s framework, not a GP’s policy.",
+      "quotes": [
+        "The Framework categorizes activities and processes across four buckets: Not Present, Developing, Intermediate and Advanced.",
+        "ILPA will continue to update the framework periodically as practices evolve and to address feedback and questions received."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Framework categorizes activities and processes across four buckets: Not Present, Developing, Intermediate and Advanced.",
+          "start": 491,
+          "end": 614
+        },
+        {
+          "quote": "ILPA will continue to update the framework periodically as practices evolve and to address feedback and questions received.",
+          "start": 995,
+          "end": 1118
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

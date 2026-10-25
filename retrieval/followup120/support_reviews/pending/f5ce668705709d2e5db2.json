@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "f5ce668705709d2e5db2",
+    "query_id": "XD-09",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+    "file": "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+    "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+    "text_hash": "4d17b63a1511a6035e3a2c08797dc7e2c193555a97c765a553008ba340318074",
+    "source_text_sha256": "9ba8b34157c475227b613d2f9c05b6397a2e14952507ce6c1cae052ff9d4e2e8",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a KCERA audit-services RFP, not the ILPA Due Diligence Questionnaire v1.2. It does not list that questionnaire’s lettered appendices or their titles.",
+      "quotes": [
+        "Kern County Employees’ Retirement Association REQUEST FOR PROPOSAL – AUDIT SERVICES",
+        "Exhibits A. “Minimum Audit Requirements and Reporting Guidelines for California Retirement Systems,” issued by the State Controller B. Sample Agreement for Audit Services"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Kern County Employees’ Retirement Association REQUEST FOR PROPOSAL – AUDIT SERVICES",
+          "start": 13,
+          "end": 96
+        },
+        {
+          "quote": "Exhibits A. “Minimum Audit Requirements and Reporting Guidelines for California Retirement Systems,” issued by the State Controller B. Sample Agreement for Audit Services",
+          "start": 2106,
+          "end": 2276
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

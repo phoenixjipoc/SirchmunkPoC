@@ -1,0 +1,42 @@
+{
+  "id": "c45ff427e5d55f4ebcb1",
+  "query_id": "DDQ-05",
+  "question": "According to the INREV Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles, when was the questionnaire first launched and in which years was it updated?",
+  "file": "INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+  "expected_facts": "It was first launched in April 2007 and updated in 2010, 2014 and most recently in 2018. The 2018 version introduced a phased approach with Preliminary, Advanced and Supplementary stages.",
+  "acceptance": "Accept April 2007 and 2010/2014/2018. Phased approach and stage labels are not required.",
+  "text_hash": "4aa67eec4c20c31dd5bea026745ad60e494f4d41055e5282f36a63f51ac53b63",
+  "source_text_sha256": "872c9becc80ae87c8e0cc07ecfc15202e13fdf184eceaffab26855b50b7cfb9e",
+  "second_check_required": true,
+  "prior_reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the questionnaire for Fund of Funds and Multi-Managers, not the questionnaire for Non-Listed Real Estate Investment Vehicles. Its April 2007 date refers to the due diligence protocol, and it provides no update years for the questionnaire asked about.",
+      "quotes": [
+        "The Due Diligence Questionnaire for Fund of Funds and Multi-Managers is part of the due diligence protocol which was first launched in April 2007.",
+        "This is the first version of the questionnaire.",
+        "INREV has developed separate due diligence questionnaires for non listed real estate vehicles and debt funds."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Due Diligence Questionnaire for Fund of Funds and Multi-Managers is part of the due diligence protocol which was first launched in April 2007.",
+          "start": 4266,
+          "end": 4412
+        },
+        {
+          "quote": "This is the first version of the questionnaire.",
+          "start": 4413,
+          "end": 4460
+        },
+        {
+          "quote": "INREV has developed separate due diligence questionnaires for non listed real estate vehicles and debt funds.",
+          "start": 6357,
+          "end": 6466
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ]
+}

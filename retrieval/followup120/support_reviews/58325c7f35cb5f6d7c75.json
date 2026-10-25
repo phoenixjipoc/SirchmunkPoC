@@ -1,0 +1,59 @@
+{
+  "job": {
+    "id": "58325c7f35cb5f6d7c75",
+    "query_id": "INV-09",
+    "question": "An investment manager RFP template for an emerging markets equity strategy (issued February 14, 2022, responses due March 31, 2022) lists required minimum qualifications and 'preferred criteria'. What live track record does it require, and what public pension client base does it prefer?",
+    "file": "Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+    "expected_facts": "Required: an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy (qualified women-, minority- or disabled-owned businesses are exempt). Preferred: at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan client with over $10 billion in total plan assets (plus no material litigation in the past five years). Issuer: State Universities Retirement System of Illinois (SURS).",
+    "acceptance": "Accept five-year live strategy record and the alternative client tests (two >$1bn U.S. public pensions OR one >$10bn public plan). Ownership exemption is a relevant qualification. Issuer, litigation criterion and placeholder date need not be volunteered.",
+    "text_hash": "99dfb2e29a476692e5a1c4068d93257297301148b093cad540ee7efb375b7ad6",
+    "source_text_sha256": "4d16256427fde508295fb4e71f62f53f894c4425b7d8bb636c1f23e43bd33253",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2025 Oklahoma Teachers’ Retirement System RFP for investment consulting, not the specified 2022 emerging-markets equity manager template. Its five-client minimum concerns consultants and does not support the required live strategy track record or the preferred alternative pension-client tests.",
+      "quotes": [
+        "The Teachers’ Retirement System of Oklahoma (TRS) is seeking proposals from qualified firms to provide investment consultant services.",
+        "RFP Date: November 19, 2025",
+        "RESPONSE DUE DATE: January 14, 2026",
+        "D.3. Minimum Qualifications – General Investment Consultant",
+        "The investment consultant must currently serve as a full-service consultant to at least five (5) U.S.- based public pension plans, each having at least $10 billion in assets as of June 30, 2025."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Teachers’ Retirement System of Oklahoma (TRS) is seeking proposals from qualified firms to provide investment consultant services.",
+          "start": 341,
+          "end": 475
+        },
+        {
+          "quote": "RFP Date: November 19, 2025",
+          "start": 222,
+          "end": 249
+        },
+        {
+          "quote": "RESPONSE DUE DATE: January 14, 2026",
+          "start": 2006,
+          "end": 2041
+        },
+        {
+          "quote": "D.3. Minimum Qualifications – General Investment Consultant",
+          "start": 34883,
+          "end": 34942
+        },
+        {
+          "quote": "The investment consultant must currently serve as a full-service consultant to at least five (5) U.S.- based public pension plans, each having at least $10 billion in assets as of June 30, 2025.",
+          "start": 35043,
+          "end": 35237
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

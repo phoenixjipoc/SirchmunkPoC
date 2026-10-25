@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "2075af3bd0a74d1db445",
+    "query_id": "XD-08",
+    "question": "In the INREV Due Diligence Questionnaire 2022 for Funds of Funds and Multi Manager, which expense ratio must the manager provide under Fees and Expenses, and on what bases?",
+    "file": "OCERS__ocers_pas_consultant_rfp.pdf",
+    "expected_facts": "Question 1.6.2 asks for the INREV expense ratio (TGER): a forward-looking estimate (with the calculation method) if the vehicle has not been launched, or the historical INREV expense ratio (TGER) if it is an existing vehicle. It must be given on both NAV and GAV, with and without performance fees. If the INREV expense ratio is not used, a calculation in line with the INREV Fee and Expense Metrics module is required.",
+    "acceptance": "TGER; forward estimate for unlaunched versus historical for existing; NAV/GAV and with/without performance fees. Equivalent description of INREV-compatible fallback accepted.",
+    "text_hash": "af1747fe366b6ece99095ff8194fc5b4085ff2909aa45282d0359249c94d81f4",
+    "source_text_sha256": "ff418f121d48959c4fddc69dbf01669d218269a5b873ad0f1daf40bc3ed37b33",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a September 2023 OCERS pension administration consulting RFP, not the INREV Due Diligence Questionnaire 2022. Its fees section does not specify an INREV expense ratio or the requested calculation bases.",
+      "quotes": [
+        "Pension Administration Project Oversight and Consultation Services Request for Proposal September 2023 Orange County Employees Retirement System (OCERS)",
+        "EXHIBIT B FEE SCHEDULE",
+        "Contractor agrees to accept the compensation set forth in this Exhibit B as full payment for performing all Services"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Pension Administration Project Oversight and Consultation Services Request for Proposal September 2023 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 165
+        },
+        {
+          "quote": "EXHIBIT B FEE SCHEDULE",
+          "start": 69434,
+          "end": 69456
+        },
+        {
+          "quote": "Contractor agrees to accept the compensation set forth in this Exhibit B as full payment for performing all Services",
+          "start": 69478,
+          "end": 69594
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

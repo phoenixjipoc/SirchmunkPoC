@@ -1,0 +1,42 @@
+{
+  "id": "eb2f0f3f61c73abd3a2a",
+  "query_id": "CONS-12",
+  "question": "How many printed copies of the proposal must be submitted in the Boston Retirement System 2022 investment consulting services RFP?",
+  "file": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+  "expected_facts": "Seven (7) printed copies plus one (1) electronic version.",
+  "acceptance": "Seven printed copies alone answers the question; electronic copy is optional context.",
+  "text_hash": "73a211d25704cd40542a3505df46faf10d19379d806cf48206f01f9d9cb8fe3c",
+  "source_text_sha256": "84c0516b95d11d6444cd8b9463d95a6569acd34bb54cbc16e1b70c586ad78095",
+  "second_check_required": true,
+  "prior_reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a March 2021 San Bernardino County Employees’ Retirement Association RFP, not the Boston Retirement System 2022 RFP. It requires electronic submission and provides no printed-copy requirement for the Boston RFP.",
+      "quotes": [
+        "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
+        "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION INVESTMENT CONSULTING SERVICES RFP March | 2021",
+        "Proposals must be submitted electronically to the RFP Administrator, InvestmentsRFP@sbcera.org by the due date stated above in the Key Dates and Other Information section."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 130
+        },
+        {
+          "quote": "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION INVESTMENT CONSULTING SERVICES RFP March | 2021",
+          "start": 144,
+          "end": 247
+        },
+        {
+          "quote": "Proposals must be submitted electronically to the RFP Administrator, InvestmentsRFP@sbcera.org by the due date stated above in the Key Dates and Other Information section.",
+          "start": 13422,
+          "end": 13593
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ]
+}

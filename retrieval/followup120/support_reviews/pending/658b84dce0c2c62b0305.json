@@ -1,0 +1,88 @@
+{
+  "job": {
+    "id": "658b84dce0c2c62b0305",
+    "query_id": "OTH-14",
+    "question": "What was the proposal deadline in the Hawaii ERS 2022 RFP for real assets investment consultant services?",
+    "file": "Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+    "expected_facts": "November 30, 2022 by 4:30 p.m. (H.S.T.) (RFP 2022-06, issued October 3, 2022).",
+    "acceptance": "November30,2022 at 4:30pm HST; issue date and RFP number optional.",
+    "text_hash": "7974cf3ced5ece0c3df4520edc4dd6247ec6bbbc3297db171ad7ec83dd1f5ab2",
+    "source_text_sha256": "d065a0843dfa54da64a294e172b508cf8e712eb413bc4f30e72f609c24012fce",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "The document is an Oklahoma OPERS RFP for general investment consulting, not the Hawaii ERS RFP for real assets investment consultant services. Its March 25, 2022 deadline does not support the requested deadline.",
+        "quotes": [
+          "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+          "The deadline for receipt of proposals is 4:30 p.m. Central Time, on March 25, 2022."
+        ],
+        "quote_matches": [
+          {
+            "quote": "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+            "start": 13,
+            "end": 124
+          },
+          {
+            "quote": "The deadline for receipt of proposals is 4:30 p.m. Central Time, on March 25, 2022.",
+            "start": 6520,
+            "end": 6603
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an Oklahoma OPERS RFP for general investment consulting, not the Hawaii ERS RFP for real assets investment consultant services. Its March 25, 2022 deadline does not support the requested deadline.",
+      "quotes": [
+        "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+        "The deadline for receipt of proposals is 4:30 p.m. Central Time, on March 25, 2022."
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 124
+        },
+        {
+          "quote": "The deadline for receipt of proposals is 4:30 p.m. Central Time, on March 25, 2022.",
+          "start": 6520,
+          "end": 6603
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an Oklahoma OPERS RFP, not the Hawaii ERS RFP for real assets investment consultant services. Its proposal deadline is March 25, 2022 at 4:30 p.m. Central Time, so it does not evidence the requested deadline.",
+      "quotes": [
+        "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+        "The deadline for receipt of proposals is 4:30 p.m. Central Time, on March 25, 2022."
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 124
+        },
+        {
+          "quote": "The deadline for receipt of proposals is 4:30 p.m. Central Time, on March 25, 2022.",
+          "start": 6520,
+          "end": 6603
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

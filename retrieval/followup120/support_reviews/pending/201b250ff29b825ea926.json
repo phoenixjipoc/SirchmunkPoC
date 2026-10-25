@@ -1,0 +1,89 @@
+{
+  "job": {
+    "id": "201b250ff29b825ea926",
+    "query_id": "CONS-09",
+    "question": "Which retirement system's investment consultant RFP requires firms to certify that they currently provide investment consulting services to clients whose combined assets total at least $50 billion?",
+    "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "expected_facts": "Teachers' Retirement System of the State of Illinois (TRS Illinois), in its FY23 investment consultant RFP (Appendix B, Statement of Minimum Qualifications).",
+    "acceptance": "TRS Illinois / Teachers’ Retirement System of the State of Illinois is sufficient; FY23 and appendix identifier are optional.",
+    "text_hash": "7bf0434135598b4379264b9228ec0ae5d514d2497cf998a89da96d5f3d55878f",
+    "source_text_sha256": "1620734055a07375d68aca7dc5b3529168cc1928cf355fcdb11e514e6b786b4c",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2025 actuarial-services RFP issued by the City of Austin Employees’ Retirement System, not an investment-consultant RFP from TRS Illinois. It does not state the required certification concerning clients with at least $50 billion in combined assets.",
+      "quotes": [
+        "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM Request for Proposal (RFP)",
+        "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan June 26, 2025",
+        "The objective of this solicitation is to evaluate the services and pricing for full scope actuarial services provided by qualified firms"
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM Request for Proposal (RFP)",
+          "start": 13,
+          "end": 83
+        },
+        {
+          "quote": "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan June 26, 2025",
+          "start": 163,
+          "end": 268
+        },
+        {
+          "quote": "The objective of this solicitation is to evaluate the services and pricing for full scope actuarial services provided by qualified firms",
+          "start": 10249,
+          "end": 10385
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is a 2025 actuarial-services RFP issued by the City of Austin Employees’ Retirement System, not an investment-consultant RFP from TRS Illinois. It does not state the $50 billion client-assets qualification.",
+      "quotes": [
+        "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM",
+        "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+        "June 26, 2025",
+        "The objective of this solicitation is to evaluate the services and pricing for full scope actuarial services",
+        "Investment consulting services are provided by the Meketa Investment Group"
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM",
+          "start": 13,
+          "end": 56
+        },
+        {
+          "quote": "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+          "start": 163,
+          "end": 254
+        },
+        {
+          "quote": "June 26, 2025",
+          "start": 255,
+          "end": 268
+        },
+        {
+          "quote": "The objective of this solicitation is to evaluate the services and pricing for full scope actuarial services",
+          "start": 10249,
+          "end": 10357
+        },
+        {
+          "quote": "Investment consulting services are provided by the Meketa Investment Group",
+          "start": 26727,
+          "end": 26801
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

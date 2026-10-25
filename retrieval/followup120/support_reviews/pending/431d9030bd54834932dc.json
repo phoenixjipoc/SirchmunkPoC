@@ -1,0 +1,100 @@
+{
+  "job": {
+    "id": "431d9030bd54834932dc",
+    "query_id": "SVC-05",
+    "question": "In the Indiana Public Retirement System (INPRS) RFP 24-05 for audit services, which firm has provided INPRS's external audit services and since when, and what limit does INPRS's procurement policy place on contract length?",
+    "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "expected_facts": "RSM has provided external audit services since 2014. The procurement policy in the INPRS Board Governance Manual limits contract length to 10 years and requires new bids at least every 10 years. (Before 2014 the Indiana State Board of Accounts performed the audits.)",
+    "acceptance": "RSM, since 2014, ten-year maximum and rebidding at least every ten years. Prior SBOA history is optional.",
+    "text_hash": "81e913c98df37dcfd35af28d88b1b03c1dc82eb7e2f99c9c19de8d06866fc421",
+    "source_text_sha256": "2d54872fc00a587921e9e76823bb49d685f32d834a6c8320657ad95eb8fd8f87",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is INPRS RFP 23-09 for alternative investment consulting, not RFP 24-05 for audit services. Its ten-year limit applies to the consulting contract under this RFP; it does not establish the Board Governance Manual procurement policy or a rebidding requirement. It also does not identify an external audit firm or when that firm began serving INPRS.",
+        "quotes": [
+          "REQUEST FOR PROPOSALS (“RFP”) for ALTERNATIVE INVESTMENT CONSULTING SERVICES RFP NUMBER 23-09",
+          "The term of the contract entered under this RFP shall be for an initial period of five (5) years, beginning from the date of final execution of contract.",
+          "Total contract period shall not exceed ten (10) years."
+        ],
+        "quote_matches": [
+          {
+            "quote": "REQUEST FOR PROPOSALS (“RFP”) for ALTERNATIVE INVESTMENT CONSULTING SERVICES RFP NUMBER 23-09",
+            "start": 13,
+            "end": 106
+          },
+          {
+            "quote": "The term of the contract entered under this RFP shall be for an initial period of five (5) years, beginning from the date of final execution of contract.",
+            "start": 35313,
+            "end": 35466
+          },
+          {
+            "quote": "Total contract period shall not exceed ten (10) years.",
+            "start": 35598,
+            "end": 35652
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is INPRS RFP 23-09 for alternative investment consulting, not RFP 24-05 for audit services. Its ten-year limit applies to the consulting contract under this RFP; it does not establish the Board Governance Manual procurement policy or a rebidding requirement. It also does not identify an external audit firm or when that firm began serving INPRS.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS (“RFP”) for ALTERNATIVE INVESTMENT CONSULTING SERVICES RFP NUMBER 23-09",
+        "The term of the contract entered under this RFP shall be for an initial period of five (5) years, beginning from the date of final execution of contract.",
+        "Total contract period shall not exceed ten (10) years."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) for ALTERNATIVE INVESTMENT CONSULTING SERVICES RFP NUMBER 23-09",
+          "start": 13,
+          "end": 106
+        },
+        {
+          "quote": "The term of the contract entered under this RFP shall be for an initial period of five (5) years, beginning from the date of final execution of contract.",
+          "start": 35313,
+          "end": 35466
+        },
+        {
+          "quote": "Total contract period shall not exceed ten (10) years.",
+          "start": 35598,
+          "end": 35652
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "partial",
+      "identity": "wrong",
+      "reason": "This is INPRS RFP 23-09 for alternative investment consulting services, not RFP 24-05 for audit services. It states a ten-year maximum for the consulting contract, but does not identify RSM, say when external audit services began, or establish the procurement policy’s rebidding requirement.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS (“RFP”) for ALTERNATIVE INVESTMENT CONSULTING SERVICES RFP NUMBER 23-09",
+        "Total contract period shall not exceed ten (10) years."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) for ALTERNATIVE INVESTMENT CONSULTING SERVICES RFP NUMBER 23-09",
+          "start": 13,
+          "end": 106
+        },
+        {
+          "quote": "Total contract period shall not exceed ten (10) years.",
+          "start": 35598,
+          "end": 35652
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

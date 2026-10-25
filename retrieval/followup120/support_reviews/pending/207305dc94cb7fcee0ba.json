@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "207305dc94cb7fcee0ba",
+    "query_id": "INV-03",
+    "question": "In the Boston Retirement System's investment consulting services proposal questionnaire (Attachment 3), how many current public fund client references must be listed, and what minimum asset size must those clients have?",
+    "file": "CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+    "expected_facts": "Up to 10 current public fund clients with assets greater than $1 billion for whom similar work was performed, giving name, contact, telephone number, asset values, number of years the client has retained the firm and the service used.",
+    "acceptance": "Accept up to ten / no more than ten and >$1bn. Contact-detail fields and similar-work context are supplementary; exactly ten or at least $1bn is not equivalent.",
+    "text_hash": "5c98835d17ae19e74a1c69b0fc86fce32b5dedf1d99ddfe45a7e49317a1c8bd3",
+    "source_text_sha256": "60169ae3746f75165ace8effc688309245b22923d9ef350fc55e0ee0a593895b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the Retirement Plan for CTA Employees’ RFP, not the Boston Retirement System’s Attachment 3. Its requirement for at least three public fund references and its separate $1B client qualification do not support the requested reference limit or asset threshold.",
+      "quotes": [
+        "Retirement Plan for CTA Employees Investment Consulting Request for Proposals",
+        "Please provide at least three public fund references.",
+        "As of December 31, 2024, the firm must have at least three public fund clients, each with at least $1B in assets."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Retirement Plan for CTA Employees Investment Consulting Request for Proposals",
+          "start": 13,
+          "end": 90
+        },
+        {
+          "quote": "Please provide at least three public fund references.",
+          "start": 22904,
+          "end": 22957
+        },
+        {
+          "quote": "As of December 31, 2024, the firm must have at least three public fund clients, each with at least $1B in assets.",
+          "start": 3150,
+          "end": 3263
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

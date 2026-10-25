@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "2ef1d18e476c0d93e6d9",
+    "query_id": "INV-19",
+    "question": "Under the Baltimore City Employees' Retirement Systems (BCERS) alternatives consultant RFP, what must the consultant's quarterly performance report include at a minimum?",
+    "file": "Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+    "expected_facts": "(i) market overview and outlook; (ii) allocation breakdown by geography, strategy and industry; (iii) update on each fund; (iv) listing of each fund by strategy; (v) date of commitment to each fund; (vi) commitment amount to each fund; (vii) drawdown amounts by fund; (viii) outstanding commitment by fund; (ix) distribution amounts by fund; (x) fund net asset values; (xi) IRR and multiples of each fund; (xii) items vi-xi aggregated for the core private equity portfolio, the specialized portfolio and the total portfolio.",
+    "acceptance": "Accept compact grouping of per-fund cash-flow/commitment measures if each required type is represented, including IRR/multiples and aggregation. Do not import the separate monthly-report requirements.",
+    "text_hash": "7974cf3ced5ece0c3df4520edc4dd6247ec6bbbc3297db171ad7ec83dd1f5ab2",
+    "source_text_sha256": "d065a0843dfa54da64a294e172b508cf8e712eb413bc4f30e72f609c24012fce",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an Oklahoma OPERS general investment consulting RFP, not the Baltimore City Employees' Retirement Systems alternatives consultant RFP. Its references to quarterly reports do not specify the requested minimum contents.",
+      "quotes": [
+        "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+        "OPERS is seeking the services of a general investment consultant to provide consulting advice relating to all investment activities of the OPERS, URSJJ, SoonerSave and Pathfinder plans.",
+        "The Investment Consultant will be expected to use these performance results from the custodian to produce quarterly performance reports."
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 124
+        },
+        {
+          "quote": "OPERS is seeking the services of a general investment consultant to provide consulting advice relating to all investment activities of the OPERS, URSJJ, SoonerSave and Pathfinder plans.",
+          "start": 17497,
+          "end": 17682
+        },
+        {
+          "quote": "The Investment Consultant will be expected to use these performance results from the custodian to produce quarterly performance reports.",
+          "start": 18109,
+          "end": 18245
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

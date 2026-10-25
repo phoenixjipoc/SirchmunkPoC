@@ -1,0 +1,102 @@
+{
+  "query_id": "SVC-11",
+  "question": "According to the City of Temple City's 457 deferred compensation plan administration and recordkeeping RFP, how many participants did the plan have and what were its total assets?",
+  "type": "pair_a",
+  "pair_id": "P13",
+  "group": "S",
+  "references": [
+    {
+      "rank": 1,
+      "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "path": "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+      "path": "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "OCERS__custodian_rfp_2022-2023.pdf",
+      "path": "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+      "path": "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "Hartford_MERF__file.pdf",
+      "path": "/mnt/docs/S/Hartford_MERF__file.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+      "path": "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+      "path": "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+      "path": "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+    }
+  ],
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "baseline_sha256": "e3f1215c19f70f58550e66868bf3ae64027cbdfee2fba43cf8658414d419a538",
+  "original_files": [
+    "Temple_City_CA__Recordkeeping-RFP.pdf",
+    "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "OCERS__investment_consultant_services_rfp.pdf",
+    "Hartford_MERF__file.pdf",
+    "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "OCERS__custodian_rfp_2022-2023.pdf",
+    "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf"
+  ],
+  "ranking_prompt": "{\"question\": \"According to the City of Temple City's 457 deferred compensation plan administration and recordkeeping RFP, how many participants did the plan have and what were its total assets?\", \"candidates\": [{\"filename\": \"Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf\", \"extension\": \".pdf\", \"title\": \"`REQUEST FOR PROPOSALS\", \"author\": \"Clark County\", \"page_count\": 63, \"keywords\": [\"Clark County\"], \"preview\": \"REQUEST for PROPOSAL # 955 \\nPROFESSIONAL, TECHNICAL AND EXPERT SERVICES \\n \\nClark County Washington \\n \\n          RELEASE DATE: WEDNESDAY, MAY 6, 2026  \\n                DUE DATE: WEDNESDAY, JUNE 10, 2026 by 11:00 am \\n \\nLATE PROPOSALS WILL NOT BE ACCEPTED – NO EXCEPTIONS \\n \\nRequest for Proposal for: \\n \\nDEFERRED COMPENSATION 457 PLAN ADMINISTRATOR \\n \\nSUBMIT:   \\nOne (1) Original \\nTwo (2) Complete Copies \\nOne (1) Electronic Copy on a USB drive \\nof the Proposal to:  \\n \\nUnited Parcel Service / FedEx or Hand Delivery  \\n \\nClark County  \\nATTN: Office of Purchasing \\n1300 Franklin Street, 6th Floor, Suite 650 \\nVancouver WA 98660  \\n564-397-2323 \\nUnited States Postal Service \\n \\nNot Available \\n \\n \\n \\n \\nOffice Hours: 8:00 am – 3:00 pm, Monday – Friday, except Legal Holidays. \\nNo elect\", \"full_content\": \"\"}, {\"filename\": \"Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Fernando Vinzons\", \"page_count\": 14, \"keywords\": [\"Fernando Vinzons\"], \"preview\": \"1 \\n \\n \\n \\nTHE RETIREMENT BOARD  \\nOF THE COUNTY EMPLOYEES’ AND OFFICERS’ ANNUITY AND BENEFIT FUND  \\nOF COOK COUNTY AND EX OFFICIO FOR THE FOREST PRESERVE DISTRICT \\nEMPLOYEES’ ANNUITY AND BENEFIT FUND OF COOK COUNTY  \\n \\n \\n \\n \\nREQUEST FOR PROPOSALS (RFP) \\nTO PROVIDE \\nMANAGER OF MANAGERS INVESTMENT SERVICES \\n \\n \\n \\nISSUED ON:   DECEMBER 4, 2025 \\n \\n \\n \\n \\nELECTRONIC RESPONSES MUST BE RECEIVED  \\nON OR BEFORE 4:30 P.M. (CDT) ON JANUARY 9, 2026.\", \"full_content\": \"\"}, {\"filename\": \"Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf\", \"extension\": \".pdf\", \"title\": \"Microsoft Word - Investment Consultant RFP 2023.docx\", \"author\": \"pkorzen\", \"page_count\": 12, \"keywords\": [\"pkorzen\"], \"preview\": \"JULY 27, 2023 \\n \\nCITY OF GRAND RAPIDS GENERAL RETIREMENT SYSTEM \\n \\nCITY OF GRAND RAPIDS POLICE AND FIRE RETIREMENT SYSTEM \\n \\nINVESTMENT CONSULTANT SERVICES \\n \\nREQUEST FOR PROPOSAL (“RFP”) \\n \\nRE: INVESTMENT CONSULTING SERVICES \\n \\nThe City of Grand General Retirement System and the City of Gra nd Rapids Police and Fire \\nRetirement System (collectively the “Plan”) are requesting prop osals for Investment Consulting \\nServices by 4:00 P.M. on Thursday, August 31, 2023. \\n \\nI. OVERVIEW  \\n \\nThe Boards of Trustees of the City of Grand Rapids General Reti rement System and City \\nof Grand Rapids Police and Fire Retirement System (collectively  the “Board”) are in the \\nprocess of reviewing their investment consultant services.  The  purpose of this RFP is to \\ngain adequate information from which the B\", \"full_content\": \"\"}, {\"filename\": \"Hartford_MERF__file.pdf\", \"extension\": \".pdf\", \"title\": \"RFP INVESTMENT CONSULTANT ASSISTANCE\", \"author\": \"Patricia Stokes\", \"page_count\": 76, \"keywords\": [\"Patricia Stokes\"], \"preview\": \"CITY OF HARTFORD TREASURER’S OFFICE \\nMUNICIPAL EMPLOYEES’ RETIREMENT \\nFUND of the CITY of HARTFORD and CITY of \\nHARTFORD OPEB TRUST  \\n250 Constitution Plaza - 2nd Floor \\nHARTFORD, CONNECTICUT 06103 \\nwww.hartfordcitytreasurer.org \\n \\n \\n REQUEST FOR PROPOSALS (“RFP”) \\nGENERAL INVESTMENT CONSULTANT \\n \\nTable of Contents \\n \\nSection I: Introduction Section Page(s) \\n1.   Introduction and Background 2-3 \\n2. Minimum Requirements 4-5 \\n3. Scope of Services 6-9 \\n4. Proposal Contents and Processing 10-13 \\n5. Proposal Evaluation Criteria & Process 14 \\n \\nSection II: Contents of Proposal  \\n6. Part A: Requested Materials & Additional Information  15 \\n7. Part B: Questionnaire       16-23 \\n \\nAppendix \\nAppendix A: Minimum Qualifications Certification 24 \\nAppendix B: Representations and Warranties 25 \\nAppendix\", \"full_content\": \"\"}, {\"filename\": \"Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf\", \"extension\": \".pdf\", \"title\": \"Hawaii ERS\", \"author\": \"CAI\", \"page_count\": 37, \"keywords\": [\"CAI\"], \"preview\": \"Employees’ Retirement System of the State of Hawaii \\n(ERS) \\nRequest for Proposals \\nReal Assets Investment Consultant \\nRFP 2022-06 \\nIssued  \\n  October 3, 2022 \\nPOTENTIAL OFFERORS WHO WISH TO RECEIVE ADDENDA TO THIS \\nREQUEST FOR PROPOSALS MUST REGISTER WITH THE ERS AS \\nPOTENTIAL OFFERORS.\", \"full_content\": \"\"}, {\"filename\": \"OCERS__custodian_rfp_2022-2023.pdf\", \"extension\": \".pdf\", \"title\": \"Custodian RFP\", \"author\": \"OCERS\", \"page_count\": 51, \"keywords\": [\"OCERS\", \"RFP\", \"Investments\"], \"preview\": \"Custody Services \\nRequest for Proposal \\n \\nOctober 2022 \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nOrange County Employees Retirement System (OCERS) \\nP.O. Box 1229 \\nSanta Ana, CA 92702 \\n(714)-558-6200 \\nhttp://www.ocers.org\", \"full_content\": \"\"}, {\"filename\": \"OCERS__investment_consultant_services_rfp.pdf\", \"extension\": \".pdf\", \"title\": \"OCERS Investment Consultant Services RFP\", \"author\": \"OCERS\", \"page_count\": 37, \"keywords\": [\"OCERS\", \"OCERS Investment Consultant Services RFP\"], \"preview\": \"Investment Consultant Services \\nfor:  \\nGeneral Investments and Risk \\nPrivate Equity \\nReal Assets \\nReal Estate \\nRequests for Proposal \\n \\nIssued August 2021 \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nOrange County Employees Retirement System (OCERS) \\n2223 E Wellington Avenue Suite 100 \\nSanta Ana, CA 92701 USA \\n1-(714)-558-6200 \\nhttp://www.ocers.org\", \"full_content\": \"\"}, {\"filename\": \"SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf\", \"extension\": \".pdf\", \"title\": \"SURS Sample Investment Manager RFP\", \"author\": \"SURS\", \"page_count\": 44, \"keywords\": [\"SURS\"], \"preview\": \"REQUEST FOR PROPOSAL \\nEmerging \\nMarkets Equity \\nID: RFP-##-##-## \\nIssued February 14, 2022 \\nRespon\\nses due via email \\nby 4:30pm CT on March 31, 2022 \\nPlease include RFP ID on all correspondence\\nSample\", \"full_content\": \"\"}, {\"filename\": \"Temple_City_CA__Recordkeeping-RFP.pdf\", \"extension\": \".pdf\", \"title\": \"REQUEST FOR PROPOSAL\", \"author\": \"kwelch\", \"page_count\": 57, \"keywords\": [\"kwelch\"], \"preview\": \"City of Temple City, California \\n457 Deferred Compensation Plan \\n \\nRequest for Proposals for \\nPlan Administration and Record Keeping Services \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\nRFP DISTRIBUTION DATE: June 17, 2020 at 4:00 PM (Pacific Time) \\nDUE DATE FOR QUESTIONS: June 29, 2020 at 4:00 PM (Pacific Time) \\nDUE DATE FOR RESPONSE SUBMISSION: July 13, 2020, 2020 at 4:00 PM (Pacific Time) \\n \\nImportant Notice: If y ou received this solicitation from any source other than the Plan Sponsor’s Consultant, you must request a copy \\ndirectly from Hyas Group in order to receive answers as well as subsequent updates, amendments and/or other documents. Failur e to \\ncontact the Consultant may result in the rejection of your offer.\", \"full_content\": \"\"}]}",
+  "keyword_files": [
+    "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf",
+    "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/Hartford_MERF__file.pdf",
+    "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+    "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf",
+    "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf",
+    "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "/mnt/docs/S/Hartford_MERF__file.pdf",
+    "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf",
+    "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+    "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+  ],
+  "status": "ok",
+  "elapsed_s": 4.711,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 2307,
+    "completion_tokens": 323,
+    "total_tokens": 2630
+  },
+  "attempt": 1
+}

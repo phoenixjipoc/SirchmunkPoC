@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "31612f02aaa13af59b53",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "aa32d205efb4a8f5c43054ea38fe8bb413e446bbe6440d32846410e99aba3560",
+    "source_text_sha256": "ba46410ea5b8731139363c20c23c9e0ed7804d7854e543119bc174f6333ad4d1",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is Temple City’s 457 plan administration and recordkeeping RFP, not SBCERS’s global custody RFP. Its evaluation section does not provide the four requested criteria or their percentage weights.",
+      "quotes": [
+        "City of Temple City, California 457 Deferred Compensation Plan Request for Proposals for Plan Administration and Record Keeping Services",
+        "A selection may be made based on these RFP evaluation criteria alone or any combination of the Questionnaire evaluation criteria, references, and/or interviews."
+      ],
+      "quote_matches": [
+        {
+          "quote": "City of Temple City, California 457 Deferred Compensation Plan Request for Proposals for Plan Administration and Record Keeping Services",
+          "start": 13,
+          "end": 149
+        },
+        {
+          "quote": "A selection may be made based on these RFP evaluation criteria alone or any combination of the Questionnaire evaluation criteria, references, and/or interviews.",
+          "start": 19134,
+          "end": 19294
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

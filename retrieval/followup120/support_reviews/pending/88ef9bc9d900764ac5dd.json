@@ -1,0 +1,124 @@
+{
+  "job": {
+    "id": "88ef9bc9d900764ac5dd",
+    "query_id": "XD-04",
+    "question": "Which due diligence questionnaire in the corpus asks the manager whether it requires its underlying investments to submit data to sustainability performance evaluation organisations, and which organisation does it give as an example?",
+    "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+    "expected_facts": "The INREV DDQ 2022 for Funds of Funds and Multi Manager, question 3.8.1 (Supplementary Stage, section 3.8 Environmental, Social and Governance). The example given is the Global Real Estate Sustainability Benchmark (GRESB), and the manager is asked for its scores/results if it does require this.",
+    "acceptance": "Identify 2022 FoF/MM DDQ and Global Real Estate Sustainability Benchmark/GRESB. Question number and scores/results follow-up are optional.",
+    "text_hash": "331a4f3a76ae4b017955d456e0d0109f9c5a8c6234151c5a77fc5602b03f12da",
+    "source_text_sha256": "62db2ddc08b6705150414332e929f3917945d4016cb8f2e1cd2436463593a880",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "partial",
+        "identity": "wrong",
+        "reason": "The document names GRESB, but it is the 2018 DDQ for Non-Listed Real Estate Investment Vehicles, not the 2022 Funds of Funds and Multi Manager DDQ. Its question asks whether the respondent submits data, not whether the manager requires underlying investments to submit data.",
+        "quotes": [
+          "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007",
+          "the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+          "INREV will enhance its separate due diligence questionnaires for fund of funds and multi-manager mandates",
+          "3.8.1 Do you submit data to the Global Real Estate Sustainability Benchmark (GRESB) report?"
+        ],
+        "quote_matches": [
+          {
+            "quote": "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007",
+            "start": 1446,
+            "end": 1565
+          },
+          {
+            "quote": "the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+            "start": 2048,
+            "end": 2135
+          },
+          {
+            "quote": "INREV will enhance its separate due diligence questionnaires for fund of funds and multi-manager mandates",
+            "start": 6246,
+            "end": 6351
+          },
+          {
+            "quote": "3.8.1 Do you submit data to the Global Real Estate Sustainability Benchmark (GRESB) report?",
+            "start": 46434,
+            "end": 46525
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "partial",
+      "identity": "wrong",
+      "reason": "The document names GRESB, but it is the 2018 DDQ for Non-Listed Real Estate Investment Vehicles, not the 2022 Funds of Funds and Multi Manager DDQ. Its question asks whether the respondent submits data, not whether the manager requires underlying investments to submit data.",
+      "quotes": [
+        "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007",
+        "the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+        "INREV will enhance its separate due diligence questionnaires for fund of funds and multi-manager mandates",
+        "3.8.1 Do you submit data to the Global Real Estate Sustainability Benchmark (GRESB) report?"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007",
+          "start": 1446,
+          "end": 1565
+        },
+        {
+          "quote": "the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+          "start": 2048,
+          "end": 2135
+        },
+        {
+          "quote": "INREV will enhance its separate due diligence questionnaires for fund of funds and multi-manager mandates",
+          "start": 6246,
+          "end": 6351
+        },
+        {
+          "quote": "3.8.1 Do you submit data to the Global Real Estate Sustainability Benchmark (GRESB) report?",
+          "start": 46434,
+          "end": 46525
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "partial",
+      "identity": "wrong",
+      "reason": "The source names GRESB, but it is the 2018 DDQ for Non-Listed Real Estate Investment Vehicles, not the 2022 Funds of Funds and Multi Manager DDQ. Its question 3.8.1 asks whether the manager submits data itself, not whether it requires underlying investments to submit data.",
+      "quotes": [
+        "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007",
+        "the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+        "INREV will enhance its separate due diligence questionnaires for fund of funds and multi-manager mandates",
+        "3.8.1 Do you submit data to the Global Real Estate Sustainability Benchmark (GRESB) report? If so, what is the score?"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Due Diligence Questionnaire (DDQ) for Non-Listed Real Estate Investment Vehicles, originally launched in April 2007",
+          "start": 1446,
+          "end": 1565
+        },
+        {
+          "quote": "the questionnaire has been regularly updated – in 2010, 2014 and most recently in 2018.",
+          "start": 2048,
+          "end": 2135
+        },
+        {
+          "quote": "INREV will enhance its separate due diligence questionnaires for fund of funds and multi-manager mandates",
+          "start": 6246,
+          "end": 6351
+        },
+        {
+          "quote": "3.8.1 Do you submit data to the Global Real Estate Sustainability Benchmark (GRESB) report? If so, what is the score?",
+          "start": 46434,
+          "end": 46551
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

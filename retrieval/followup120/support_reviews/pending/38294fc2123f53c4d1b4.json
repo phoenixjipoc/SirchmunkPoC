@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "38294fc2123f53c4d1b4",
+    "query_id": "OTH-05",
+    "question": "Under Missouri LAGERS' private markets consultant RFP, how many public fund clients of what minimum size must a respondent provide non-discretionary private market investment consulting to?",
+    "file": "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+    "expected_facts": "At least three public fund clients with assets of at least $10 billion (as of March 31, 2024).",
+    "acceptance": "At least three public-fund clients with at least $10bn each. March31,2024 is a useful qualifier, not a separately asked fact.",
+    "text_hash": "576995e0f46f8d1ed568b3f11213a208a0e1dfe327b1dd5c1306846cd5741c1d",
+    "source_text_sha256": "2c50ab98d10c03c9aebdf033c0bf6a011506f6e8d75bc72ac45971559818570c",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Illinois Firefighters’ Pension Investment Fund RFP, not Missouri LAGERS’ RFP. Its three-client-reference request does not require three public-fund consulting clients of any specified size, and the document does not explicitly restate a LAGERS requirement.",
+      "quotes": [
+        "Firefighters’ Pension Investment Fund Request for Proposals for Private Markets Investment Consulting and Discretionary OCIO Advisory Services February 13, 2023",
+        "Please provide three client references and include their name, title, email, phone number, and organization.",
+        "References should include at least one public defined benefit plan client."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Firefighters’ Pension Investment Fund Request for Proposals for Private Markets Investment Consulting and Discretionary OCIO Advisory Services February 13, 2023",
+          "start": 13,
+          "end": 173
+        },
+        {
+          "quote": "Please provide three client references and include their name, title, email, phone number, and organization.",
+          "start": 14947,
+          "end": 15055
+        },
+        {
+          "quote": "References should include at least one public defined benefit plan client.",
+          "start": 15056,
+          "end": 15130
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

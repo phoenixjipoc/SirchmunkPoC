@@ -1,0 +1,12 @@
+{
+  "id": "5deb2e4000235d671378",
+  "query_id": "CONS-06",
+  "question": "Which retirement system's general investment consultant RFP requires respondents to currently provide non-discretionary general investment advice to at least 5 public pension plans larger than $5 billion and at least 2 public plans over $20 billion?",
+  "file": "OCERS__investment_consultant_services_rfp.pdf",
+  "expected_facts": "Texas Municipal Retirement System (TMRS).",
+  "acceptance": "TMRS or the full system name is sufficient; repeating thresholds is optional.",
+  "text_hash": "5b64c217e92c2749a5177225f6fda52ea0dd775fcbdd0d850a456eb5dfcd1a1f",
+  "source_text_sha256": "31ba78f454a82dc69e8946299253c94f905a157c0bee42fe28fb33f65c2dcfa1",
+  "second_check_required": false,
+  "prior_reviews": []
+}

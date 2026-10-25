@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "d70f721fc3cac14733ec",
+    "query_id": "SVC-19",
+    "question": "What minimum qualifications must a proposing firm certify in the City of Temple City's 2020 RFP for 457 plan administration and recordkeeping services?",
+    "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "expected_facts": "(1) At least 5 years of experience administering governmental 457 plans and currently providing sole-provider administration to at least five 457 plans with assets under $25 million; (2) no front-end or back-end charges and no restrictions/penalties on plan- or participant-initiated transfers or withdrawals (except capital preservation equity wash/put provisions and fund short-term trading fees); (3) full disclosure of all fund expense and revenue sharing arrangements, including fixed/general account products; (4) full disclosure of expenses and revenue for any service (platform fees, managed accounts, advice, financial planning, brokerage); (5) agree not to sell/promote products not affiliated with the Plan without written City authorization; (6) be qualified to do business in California and Temple City upon award; (7) offer a self-directed brokerage option; (8) be able to transition and continue administration of existing loans; (9) representatives attend City meetings in person as requested (no more than once per year); (10) knowledge of and compliance with applicable County, California and federal regulations; (11) RFP terms remain in place through negotiations and the final contract unless waived in writing.",
+    "acceptance": "Accept concise grouping of the eleven requirements; the five-year/five-plan/$25m threshold alone is incomplete for this broad list question. Examples of service fees are illustrative, not separate mandatory list items.",
+    "text_hash": "afed2142cd9b5f90246d59a5737b84e7449b0c4dc717232226f57461b45a9b9e",
+    "source_text_sha256": "4e6f311f7c398d5daed9e60599d032ec43a08c449bc5eec7b5f5fb388433a80b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2022 San Francisco Employees’ Retirement System RFP for general investment consulting, not Temple City’s 2020 RFP for 457 plan administration and recordkeeping. Its minimum qualification concerns an investment professional’s institutional-client experience; it does not provide the requested certification requirements.",
+      "quotes": [
+        "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System Date Issued: November 1, 2022",
+        "A Proposer must meet the following minimum qualification to SFERS’ satisfaction:",
+        "At least one key professional member of the Firm proposed for the SFERS account must have a minimum of ten (10) years of experience working with institutional clients."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals for General Investment Consulting Services for the City and County of San Francisco Employees’ Retirement System Date Issued: November 1, 2022",
+          "start": 13,
+          "end": 177
+        },
+        {
+          "quote": "A Proposer must meet the following minimum qualification to SFERS’ satisfaction:",
+          "start": 13360,
+          "end": 13440
+        },
+        {
+          "quote": "At least one key professional member of the Firm proposed for the SFERS account must have a minimum of ten (10) years of experience working with institutional clients.",
+          "start": 13444,
+          "end": 13611
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

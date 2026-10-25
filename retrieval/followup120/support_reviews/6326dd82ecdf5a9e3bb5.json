@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "6326dd82ecdf5a9e3bb5",
+    "query_id": "OTH-16",
+    "question": "In the Police Retirement System of St. Louis (PRS-STL) actuarial RFP, how many years of experience must the principal actuary have?",
+    "file": "Hartford_MERF__file.pdf",
+    "expected_facts": "A minimum of five years of professional actuarial experience, plus a minimum of five years of experience testifying before legislative and administrative bodies.",
+    "acceptance": "Five years professional actuarial experience is the core number. A complete description may state the separate five-year testimony requirement; these are not additive ten years and may overlap. Credentials are optional for this question.",
+    "text_hash": "612ac769f6b20e395be5d2aa2b38b7e34b8ea2f3e26f8e98d474dcd3da97e895",
+    "source_text_sha256": "44a1836a1354f4ce795c9252d5b103625a8ebfa77400d6ce5e341b7d38a7561e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Hartford RFP for a general investment consultant, not the PRS-STL actuarial RFP. Its five-year requirement applies to a primary investment consultant and does not establish the principal actuary’s qualifications.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+        "The primary consultant assigned to the MERF and OPEB relationship shall have a minimum of five (5) years of consulting experience with defined benefit public pension plans"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+          "start": 235,
+          "end": 294
+        },
+        {
+          "quote": "The primary consultant assigned to the MERF and OPEB relationship shall have a minimum of five (5) years of consulting experience with defined benefit public pension plans",
+          "start": 4330,
+          "end": 4501
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

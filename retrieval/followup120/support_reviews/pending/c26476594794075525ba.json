@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "c26476594794075525ba",
+    "query_id": "INV-03",
+    "question": "In the Boston Retirement System's investment consulting services proposal questionnaire (Attachment 3), how many current public fund client references must be listed, and what minimum asset size must those clients have?",
+    "file": "MA_PRIM__PDF-Version-of-RFP.pdf",
+    "expected_facts": "Up to 10 current public fund clients with assets greater than $1 billion for whom similar work was performed, giving name, contact, telephone number, asset values, number of years the client has retained the firm and the service used.",
+    "acceptance": "Accept up to ten / no more than ten and >$1bn. Contact-detail fields and similar-work context are supplementary; exactly ten or at least $1bn is not equivalent.",
+    "text_hash": "c92320682456b11eb70addd3a356a98edfd3f865f21e453c8906eefe68b8b772",
+    "source_text_sha256": "e3fe5e9a4d6babe97bf46e2649b5484f28a2237abb15634af7dc30e35b1c2a49",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is PRIM’s investment management RFP, not the Boston Retirement System’s investment consulting questionnaire. Its reference request is for three accounts, and its Attachment 3 concerns methodology differences; it does not support the requested client count or asset threshold.",
+      "quotes": [
+        "The Massachusetts Pension Reserves Investment Management Board (“PRIM”) is requesting responses from firms interested in providing Multi-Asset Credit Investment Management Services.",
+        "Provide the client’s name, address, phone number, contact name, email, title, and account type (e.g., defined benefit, defined contribution, endowment, foundation, etc.) of three current reference accounts invested in the subject product.",
+        "ATTACHMENT 3 METHODOLOGY DIFFERENCES"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Massachusetts Pension Reserves Investment Management Board (“PRIM”) is requesting responses from firms interested in providing Multi-Asset Credit Investment Management Services.",
+          "start": 100,
+          "end": 281
+        },
+        {
+          "quote": "Provide the client’s name, address, phone number, contact name, email, title, and account type (e.g., defined benefit, defined contribution, endowment, foundation, etc.) of three current reference accounts invested in the subject product.",
+          "start": 31811,
+          "end": 32049
+        },
+        {
+          "quote": "ATTACHMENT 3 METHODOLOGY DIFFERENCES",
+          "start": 134877,
+          "end": 134913
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "40b785426ee27109620a",
+    "query_id": "INV-11",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for investment consulting, real estate consulting and performance measurement services, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "expected_facts": "Three factors: (1) Organization - stability, ownership, documented experience of key professionals; (2) Consulting Skill - investment philosophy, investment manager information collection and monitoring systems, risk management tools, performance measurement systems, and breadth of consulting expertise and experience; (3) Fees - consulting fees for services requested and associated costs.",
+    "acceptance": "Three factors with substantively equivalent descriptions suffice; exact wording and order are unnecessary.",
+    "text_hash": "671c411958eb874cfc800e9ef62f40b39ce0a3618032e31c58dc0911d1ac78ca",
+    "source_text_sha256": "a59653c4763af085dd01d7961474b0d3e4d1e15ac1d4029f77327171d4183a79",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Missouri LAGERS RFP for private market consulting, not the IMRF sample RFP. Its evaluation criteria concern LAGERS providers and do not establish the three factors used to evaluate and rank respondents in the IMRF selection process.",
+      "quotes": [
+        "Missouri Local Government Employees Retirement System (LAGERS)",
+        "REQUEST FOR PROPOSAL PRIVATE MARKET CONSULTING SERVICES",
+        "Providers will be evaluated based on their written responses to this Proposal."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Missouri Local Government Employees Retirement System (LAGERS)",
+          "start": 92,
+          "end": 154
+        },
+        {
+          "quote": "REQUEST FOR PROPOSAL PRIVATE MARKET CONSULTING SERVICES",
+          "start": 13,
+          "end": 68
+        },
+        {
+          "quote": "Providers will be evaluated based on their written responses to this Proposal.",
+          "start": 14884,
+          "end": 14962
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

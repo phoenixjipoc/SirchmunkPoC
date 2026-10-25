@@ -1,0 +1,36 @@
+{
+  "id": "e1415336cccb07112e24",
+  "query_id": "XD-02",
+  "question": "A 2021 covering note describes an update to a responsible-investment due diligence questionnaire for private equity limited partners. When was the first version of that questionnaire launched, who adopted it, when was the working group for the update set up, and over how long had LPs and GPs been giving comments?",
+  "file": "ILPA__ILPA-DDQ-2.0.pdf",
+  "expected_facts": "The PRI Limited Partners Private Equity Responsible Investment DDQ was first launched in 2015 and adopted by ILPA as part of the broader ILPA DDQ. The PRI set up a working group of PRI signatories in early 2021. LPs and GPs had given comments, written and verbal, over the past four months. The updated ESG DDQ is Section 19 of the ILPA DDQ.",
+  "acceptance": "2015, ILPA, early 2021 and preceding four months. Signatory composition, written/verbal distinction and section19 identifier are optional.",
+  "text_hash": "8907145b1f077ef656f1eedcccb1c6e6cf91c5a42ababaeed03deb50236309d2",
+  "source_text_sha256": "acc7566c61a7afaabbe215a9f1337c86e1dd116ccf7ba67eeb84894f94ea4c98",
+  "second_check_required": true,
+  "prior_reviews": [
+    {
+      "coverage": "partial",
+      "identity": "wrong",
+      "reason": "This is the ILPA DDQ 2.0 questionnaire, not the 2021 covering note. It incorporates the PRI questionnaire as its ESG section, but does not state the first-launch year, when the update working group was set up, or how long LPs and GPs had been commenting.",
+      "quotes": [
+        "Due Diligence Questionnaire 2.0 Updated November 2021",
+        "19.0 Environmental, Social and Governance (per PRI’s Limited Partners Private Equity Responsible Investment DDQ)"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Due Diligence Questionnaire 2.0 Updated November 2021",
+          "start": 13,
+          "end": 66
+        },
+        {
+          "quote": "19.0 Environmental, Social and Governance (per PRI’s Limited Partners Private Equity Responsible Investment DDQ)",
+          "start": 102158,
+          "end": 102270
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ]
+}

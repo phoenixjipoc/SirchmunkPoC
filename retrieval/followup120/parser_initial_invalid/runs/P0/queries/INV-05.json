@@ -1,0 +1,69 @@
+{
+  "query_id": "INV-05",
+  "question": "In the Teachers' Retirement System of the State of Illinois (TRS) FY25 RFP for private equity investment consultant services, what minimum private equity client experience must a firm certify?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P0",
+  "keyword_files": [
+    "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf"
+  ],
+  "keyword_terms": [
+    "Teachers' Retirement System of the State of Illinois",
+    "FY25 RFP",
+    "private equity investment consultant services",
+    "minimum private equity client experience",
+    "伊利诺伊州教师退休系统",
+    "私募股权",
+    "投资顾问服务",
+    "私募股权客户经验"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 224,
+      "timestamp": "2026-10-25 15:33:30.602186",
+      "metadata": {
+        "keywords": [
+          "Teachers' Retirement System of the State of Illinois",
+          "FY25 RFP",
+          "private equity investment consultant services",
+          "minimum private equity client experience",
+          "伊利诺伊州教师退休系统",
+          "私募股权",
+          "投资顾问服务",
+          "私募股权客户经验"
+        ],
+        "files_found": 2,
+        "files_discovered": [
+          "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+          "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf"
+    }
+  ],
+  "elapsed_s": 3.036,
+  "calls": 0,
+  "usage": {}
+}

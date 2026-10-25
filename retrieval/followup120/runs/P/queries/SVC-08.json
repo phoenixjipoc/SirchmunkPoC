@@ -1,0 +1,59 @@
+{
+  "query_id": "SVC-08",
+  "question": "One deferred compensation recordkeeping RFP requires vendors to have at least 500,000 participant plan accounts on their defined contribution recordkeeping system. What minimum amount of defined contribution assets under administration does it require, and which consulting firm is named as the Board's consultant?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "P",
+  "keyword_files": [
+    "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+  ],
+  "directory_files": [],
+  "merged_files": [
+    "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+  ],
+  "keyword_terms": [
+    "deferred compensation recordkeeping RFP",
+    "500,000 participant plan accounts",
+    "defined contribution assets under administration",
+    "Board's consultant",
+    "递延薪酬",
+    "设定提存计划管理资产",
+    "记录保存"
+  ],
+  "keyword_logs": [
+    {
+      "tool_name": "keyword_search",
+      "tokens": 37,
+      "timestamp": "2026-10-25 16:03:16.526460",
+      "metadata": {
+        "keywords": [
+          "deferred compensation recordkeeping RFP",
+          "500,000 participant plan accounts",
+          "defined contribution assets under administration",
+          "Board's consultant",
+          "递延薪酬",
+          "设定提存计划管理资产",
+          "记录保存"
+        ],
+        "files_found": 1,
+        "files_discovered": [
+          "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+        ]
+      }
+    }
+  ],
+  "status": "ok",
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "references": [
+    {
+      "rank": 1,
+      "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "path": "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+    }
+  ],
+  "elapsed_s": 9.075,
+  "calls": 0,
+  "usage": {}
+}

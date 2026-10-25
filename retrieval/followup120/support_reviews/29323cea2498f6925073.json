@@ -1,0 +1,94 @@
+{
+  "job": {
+    "id": "29323cea2498f6925073",
+    "query_id": "SVC-18",
+    "question": "What minimum qualifications must an audit firm meet in the Kern County Employees' Retirement Association (KCERA) RFP for audit services?",
+    "file": "OCERS__custodian_services_rfp_questions_and_answers.pdf",
+    "expected_facts": "(1) Professional public accounting firm organized at least on a regional basis providing audit and attest services; (2) within the last five years, at least five audits of defined benefit pension plans with assets over $2 billion; (3) experience auditing equity securities (domestic and foreign), fixed income, real estate, alternative investments, commodities and securities lending; (4) an established office in the United States; (5) independent, licensed by and in good standing with California under the Accountancy Act; (6) Engagement Partner (and signing partner) located in the U.S. with at least 10 years of public accounting experience including DB pension plan audits, California-licensed CPA; (7) Engagement Manager located in the U.S. with at least 5 years of public accounting experience including DB plan audits, CPA licensed in a U.S. state; (8) On-Site Audit Supervisor located in the U.S. with at least 3 years of auditing experience including DB plan audits, CPA licensed in a U.S. state; (9) Engagement Manager and Supervisor available for consultations and in-person meetings throughout the year.",
+    "acceptance": "Accept a faithful summary of the nine requirements. Do not impose desirable two audits of >$3bn plans or a California license for manager/supervisor as minimums; a U.S.-state license suffices for those roles.",
+    "text_hash": "c2cd1ea39b4681195bfc15005be9f6982a0c6aa23fb1626dd5615b15f4e0d9b1",
+    "source_text_sha256": "a182eb705c5dc23e1b3ed20cf50b538c45e06c95d85392b4444daaf2a4fc66ac",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "The document is an OCERS custody-services RFP Q&A, not KCERA’s audit-services RFP. It does not state the audit-firm or audit-team minimum qualifications requested.",
+        "quotes": [
+          "Custody Services Request for Proposal Questions & Answers October 2022 Orange County Employees Retirement System (OCERS)",
+          "OCERS requires all services as described in Section 3 – Scope of Services."
+        ],
+        "quote_matches": [
+          {
+            "quote": "Custody Services Request for Proposal Questions & Answers October 2022 Orange County Employees Retirement System (OCERS)",
+            "start": 13,
+            "end": 133
+          },
+          {
+            "quote": "OCERS requires all services as described in Section 3 – Scope of Services.",
+            "start": 2969,
+            "end": 3043
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an OCERS custody-services RFP Q&A, not KCERA’s audit-services RFP. It does not state the audit-firm or audit-team minimum qualifications requested.",
+      "quotes": [
+        "Custody Services Request for Proposal Questions & Answers October 2022 Orange County Employees Retirement System (OCERS)",
+        "OCERS requires all services as described in Section 3 – Scope of Services."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Custody Services Request for Proposal Questions & Answers October 2022 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 133
+        },
+        {
+          "quote": "OCERS requires all services as described in Section 3 – Scope of Services.",
+          "start": 2969,
+          "end": 3043
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is an October 2022 OCERS custody-services RFP Q&A, not KCERA’s audit-services RFP. It does not evidence the audit-firm minimum qualifications asked about.",
+      "quotes": [
+        "Custody Services Request for Proposal Questions & Answers October 2022 Orange County Employees Retirement System (OCERS)",
+        "Custody Services RFP: Questions & Answers",
+        "Exhibit C: Minimum Qualifications Certification – Securities Lending Respondents"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Custody Services Request for Proposal Questions & Answers October 2022 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 133
+        },
+        {
+          "quote": "Custody Services RFP: Questions & Answers",
+          "start": 1909,
+          "end": 1950
+        },
+        {
+          "quote": "Exhibit C: Minimum Qualifications Certification – Securities Lending Respondents",
+          "start": 21477,
+          "end": 21557
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

@@ -1,0 +1,12 @@
+{
+  "id": "50256b0514986b595de5",
+  "query_id": "INV-09",
+  "question": "An investment manager RFP template for an emerging markets equity strategy (issued February 14, 2022, responses due March 31, 2022) lists required minimum qualifications and 'preferred criteria'. What live track record does it require, and what public pension client base does it prefer?",
+  "file": "IMRF__sample_investment_manager_rfp.pdf",
+  "expected_facts": "Required: an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy (qualified women-, minority- or disabled-owned businesses are exempt). Preferred: at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan client with over $10 billion in total plan assets (plus no material litigation in the past five years). Issuer: State Universities Retirement System of Illinois (SURS).",
+  "acceptance": "Accept five-year live strategy record and the alternative client tests (two >$1bn U.S. public pensions OR one >$10bn public plan). Ownership exemption is a relevant qualification. Issuer, litigation criterion and placeholder date need not be volunteered.",
+  "text_hash": "1d6500a43cb519702a3a7fba26b0e9ecd1b4b2bb1bb0ac004878183abcc2df76",
+  "source_text_sha256": "b904f613bceebade43840677e52ac82b24f5fe88526390405a0ab1d994b4049d",
+  "second_check_required": true,
+  "prior_reviews": []
+}

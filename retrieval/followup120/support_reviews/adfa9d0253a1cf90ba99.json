@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "adfa9d0253a1cf90ba99",
+    "query_id": "INV-14",
+    "question": "In the Massachusetts PRIM Board's September 2026 RFP for Active Global Core Equity investment management services, what minimum total firm assets under management must a respondent have?",
+    "file": "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+    "expected_facts": "At least $5 billion in total firm assets under management as of June 30, 2026.",
+    "acceptance": "At least $5bn total firm AUM as of June 30, 2026. Do not confuse firm AUM with product assets.",
+    "text_hash": "53d9721d2e2c3d6a51e0fc4bfb31c9316f7e85c40c0e7f0d49e078816ff62d05",
+    "source_text_sha256": "c2664794e00ae7c2cedc789c6096ac5a57a34278a2e7017af86c3eed125ae7ab",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Cook County Fund Manager of Managers RFP issued in December 2025, not the Massachusetts PRIM Board’s September 2026 Active Global Core Equity RFP. Its firm-level AUM requirement is a maximum, not the requested minimum, and it provides no support for the specified June 30, 2026 measurement date.",
+      "quotes": [
+        "THE RETIREMENT BOARD OF THE COUNTY EMPLOYEES’ AND OFFICERS’ ANNUITY AND BENEFIT FUND OF COOK COUNTY",
+        "TO PROVIDE MANAGER OF MANAGERS INVESTMENT SERVICES",
+        "ISSUED ON: DECEMBER 4, 2025",
+        "The Responder must have less than $30 Billion in assets under management at the firm level."
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE RETIREMENT BOARD OF THE COUNTY EMPLOYEES’ AND OFFICERS’ ANNUITY AND BENEFIT FUND OF COOK COUNTY",
+          "start": 13,
+          "end": 112
+        },
+        {
+          "quote": "TO PROVIDE MANAGER OF MANAGERS INVESTMENT SERVICES",
+          "start": 240,
+          "end": 290
+        },
+        {
+          "quote": "ISSUED ON: DECEMBER 4, 2025",
+          "start": 291,
+          "end": 318
+        },
+        {
+          "quote": "The Responder must have less than $30 Billion in assets under management at the firm level.",
+          "start": 9665,
+          "end": 9756
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

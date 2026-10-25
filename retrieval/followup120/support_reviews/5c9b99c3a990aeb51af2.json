@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "5c9b99c3a990aeb51af2",
+    "query_id": "CONS-01",
+    "question": "In the Grand Rapids General Retirement System investment consultant RFP, what was the total market value of the General Retirement System and as of what date?",
+    "file": "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+    "expected_facts": "Approximately $437 million as of June 30, 2023 (the separate Grand Rapids Police and Fire Retirement System covered by the same RFP was approximately $479 million).",
+    "acceptance": "Require $437m approximately and June 30, 2023. Separate Police and Fire amount is optional.",
+    "text_hash": "b5feb817817e35edbb5bc0aa0af7c6df24842b1fc6b23f62b19531a928524887",
+    "source_text_sha256": "33e6d0f3b03cb97414ead33bc97801d7ca7b3799f628c39bac87276153cef3fe",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Madison, Florida Police Officers’ and Firefighters’ Retirement System RFP, not the Grand Rapids General Retirement System RFP. Its fund value and valuation date concern a different plan and do not support either mandatory fact.",
+      "quotes": [
+        "City of Madison * 321 SW Rutledge St. * Madison, FL 32340",
+        "The Board seeks proposals from qualified Investment Consulting Firms to provide general investment advice and counsel to the Board for the investment and management of funds for the City of Madison Police Officers’ and Firefighters Retirement System.",
+        "The total market value of the fund balance as of September 30, 2024 is approximately $7.07 million."
+      ],
+      "quote_matches": [
+        {
+          "quote": "City of Madison * 321 SW Rutledge St. * Madison, FL 32340",
+          "start": 281,
+          "end": 338
+        },
+        {
+          "quote": "The Board seeks proposals from qualified Investment Consulting Firms to provide general investment advice and counsel to the Board for the investment and management of funds for the City of Madison Police Officers’ and Firefighters Retirement System.",
+          "start": 20928,
+          "end": 21178
+        },
+        {
+          "quote": "The total market value of the fund balance as of September 30, 2024 is approximately $7.07 million.",
+          "start": 21739,
+          "end": 21838
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

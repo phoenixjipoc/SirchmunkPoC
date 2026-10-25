@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "38645813fa389cefe76d",
+    "query_id": "SVC-18",
+    "question": "What minimum qualifications must an audit firm meet in the Kern County Employees' Retirement Association (KCERA) RFP for audit services?",
+    "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "expected_facts": "(1) Professional public accounting firm organized at least on a regional basis providing audit and attest services; (2) within the last five years, at least five audits of defined benefit pension plans with assets over $2 billion; (3) experience auditing equity securities (domestic and foreign), fixed income, real estate, alternative investments, commodities and securities lending; (4) an established office in the United States; (5) independent, licensed by and in good standing with California under the Accountancy Act; (6) Engagement Partner (and signing partner) located in the U.S. with at least 10 years of public accounting experience including DB pension plan audits, California-licensed CPA; (7) Engagement Manager located in the U.S. with at least 5 years of public accounting experience including DB plan audits, CPA licensed in a U.S. state; (8) On-Site Audit Supervisor located in the U.S. with at least 3 years of auditing experience including DB plan audits, CPA licensed in a U.S. state; (9) Engagement Manager and Supervisor available for consultations and in-person meetings throughout the year.",
+    "acceptance": "Accept a faithful summary of the nine requirements. Do not impose desirable two audits of >$3bn plans or a California license for manager/supervisor as minimums; a U.S.-state license suffices for those roles.",
+    "text_hash": "5afc5adec694c195f2977417c376c45b4856a88e72d30c0e1953e2403af08eac",
+    "source_text_sha256": "add3ba83b3e17f098f096c1bf8b5d5000ad39375300bba2e2b398c7d805cf7a6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is Contra Costa County Employees’ Retirement Association’s RFP for master custodial services, not KCERA’s RFP for audit services. Its minimum qualifications apply to custodial-service proposers and do not establish the audit-firm or audit-team requirements in the question.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+        "The Proposer responding to this RFP must meet the following minimum qualifications to be given further consideration:",
+        "Proposer shall be authorized to conduct a trust/custodian/institutional asset management business"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+          "start": 13,
+          "end": 141
+        },
+        {
+          "quote": "The Proposer responding to this RFP must meet the following minimum qualifications to be given further consideration:",
+          "start": 16989,
+          "end": 17106
+        },
+        {
+          "quote": "Proposer shall be authorized to conduct a trust/custodian/institutional asset management business",
+          "start": 17110,
+          "end": 17207
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

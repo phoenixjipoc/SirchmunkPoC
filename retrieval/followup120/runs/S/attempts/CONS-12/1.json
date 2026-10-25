@@ -1,0 +1,55 @@
+{
+  "query_id": "CONS-12",
+  "question": "How many printed copies of the proposal must be submitted in the Boston Retirement System 2022 investment consulting services RFP?",
+  "type": "pair_a",
+  "pair_id": "P2",
+  "group": "S",
+  "references": [
+    {
+      "rank": 1,
+      "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "path": "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+      "path": "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "path": "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf"
+    }
+  ],
+  "evidence_sampling": false,
+  "answer_generated": false,
+  "cluster_used": false,
+  "baseline_sha256": "710f7328fed2853c6b14ec2316d883cd99682b172573133c539bb8d45a70963b",
+  "original_files": [
+    "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf"
+  ],
+  "ranking_prompt": "{\"question\": \"How many printed copies of the proposal must be submitted in the Boston Retirement System 2022 investment consulting services RFP?\", \"candidates\": [{\"filename\": \"Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf\", \"extension\": \".pdf\", \"title\": \"ATTACHMENT 3C – FOR BOTH GENERAL AND PUBLIC MARKET CONSULTANT AND ALTERNATIVE CONSULTANT—SERVICE LEVEL THREE\", \"author\": \"DanielGr\", \"page_count\": 12, \"keywords\": [\"DanielGr\"], \"preview\": \"Attachment 3-1 \\n \\n \\n \\n \\nATTACHMENT 3 – FOR INVESTMENT CONSULTANT SERVICES \\nPROPOSAL QUESTIONNAIRE \\n \\nBOSTON RETIREMENT SYSTEM \\n \\nInvestment Consulting Services  \\nRequest for Proposals \\nINSTRUCTIONS \\n \\nBRS is considering Proposals for a General Investment Services Consultant, which encompasses Public \\nMarkets, Private Markets, Hedge Funds and Real Estate Investment Consulting Services as outlined in \\nthis Request for Proposals. All Prospective Consultants shall complete all sections of this questionnaire. \\n \\nResponses should be clear, concise and must be complete. Identify the organization responding on all \\npages submitted. \\n \\nFIRM NAME:  ___________________________________________ \\n \\n \\nMAIN ADDRESS: ___________________________________________ \\n \\n \\nCONTACT:   ______________________________\", \"full_content\": \"\"}, {\"filename\": \"SBCERA__investment_consultant_-_request_for_proposals.pdf\", \"extension\": \".pdf\", \"title\": \"Request for Proposal - Investment Consultant\", \"author\": \"emoreno\", \"page_count\": 40, \"keywords\": [\"emoreno\"], \"preview\": \"SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION \\nREQUEST FOR PROPOSAL (RFP) \\nFOR \\nINVESTMENT CONSULTING SERVICES\", \"full_content\": \"\"}, {\"filename\": \"SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf\", \"extension\": \".pdf\", \"title\": \"\", \"author\": \"Ashleigh Hollins\", \"page_count\": 47, \"keywords\": [\"Ashleigh Hollins\"], \"preview\": \"General Investment Consulting Services \\n \\nRequest for Proposals \\n \\n \\nSeptember 30, 2016\", \"full_content\": \"\"}]}",
+  "keyword_files": [
+    "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf"
+  ],
+  "directory_files": [
+    "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf"
+  ],
+  "merged_files": [
+    "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+    "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf"
+  ],
+  "status": "ok",
+  "elapsed_s": 2.034,
+  "calls": 1,
+  "usage": {
+    "prompt_tokens": 630,
+    "completion_tokens": 65,
+    "total_tokens": 695
+  },
+  "attempt": 1
+}

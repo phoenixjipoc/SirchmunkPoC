@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "9fd694a80331147f8bb7",
+    "query_id": "CONS-08",
+    "question": "Which retirement plan's investment consulting RFP requires that, as of December 31, 2024, the firm have at least three public fund clients each with at least $1B in assets and have been in business at least ten years?",
+    "file": "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+    "expected_facts": "The Retirement Plan for CTA Employees (Chicago Transit Authority), in its April 29, 2025 investment consulting RFP.",
+    "acceptance": "Retirement Plan for CTA/Chicago Transit Authority Employees; publication date is optional.",
+    "text_hash": "b5feb817817e35edbb5bc0aa0af7c6df24842b1fc6b23f62b19531a928524887",
+    "source_text_sha256": "33e6d0f3b03cb97414ead33bc97801d7ca7b3799f628c39bac87276153cef3fe",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is the City of Madison Police Officers’ and Firefighters’ Retirement System RFP, not the CTA Employees plan’s RFP. Its mandatory minimum specifies five years of public-pension management or advisory experience; the document does not establish the stated ten-year and three $1 billion public-fund-client requirements.",
+      "quotes": [
+        "The Board of Trustees for the City of Madison Police Officer’s & Firefighters’ Retirement System (the “Board”) is soliciting Requests for Proposals (RFP) for Investment Consulting firms",
+        "2-2 Minimum Requirements. Consultant must satisfy the following mandatory minimum requirements in order to have their Responses evaluated.",
+        "Minimum of five-year record of actual management/advisory of assets in the public pension fund sector."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Board of Trustees for the City of Madison Police Officer’s & Firefighters’ Retirement System (the “Board”) is soliciting Requests for Proposals (RFP) for Investment Consulting firms",
+          "start": 2306,
+          "end": 2491
+        },
+        {
+          "quote": "2-2 Minimum Requirements. Consultant must satisfy the following mandatory minimum requirements in order to have their Responses evaluated.",
+          "start": 22019,
+          "end": 22157
+        },
+        {
+          "quote": "Minimum of five-year record of actual management/advisory of assets in the public pension fund sector.",
+          "start": 22526,
+          "end": 22628
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "f4e8b68b11ec4056d718",
+    "query_id": "XD-06",
+    "question": "One private equity due diligence questionnaire asks whether the fund gives limited partners more than a certain number of business days' notice for capital calls. What is the threshold, and in which section of the questionnaire is this question?",
+    "file": "IMRF__sample-investment-consulting-rfp.pdf",
+    "expected_facts": "The threshold is more than 10 business days' notice for capital calls, either generally or in specific circumstances (e.g. when a single capital call is above an agreed and stated percentage of total unfunded commitment). It is question 7.14 in Section 7.0 Credit Facilities of the ILPA Due Diligence Questionnaire 2.0.",
+    "acceptance": "Accept more than ten business days and Credit Facilities. Question number, document version and illustrative circumstances are helpful but not all mandatory for the narrow threshold/section question.",
+    "text_hash": "ea9d2789dbf2664c70adf4312c00b0ec81c54cf1741478e3e2757e93a2e66025",
+    "source_text_sha256": "9c1ec794ed5ca3d42e6eb1fbcbbbb339195c2c9b872a54f9d0d1536d9a860ec5",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an IMRF investment-consulting RFP, not the ILPA private equity due diligence questionnaire. It contains neither a capital-call notice threshold nor a Credit Facilities section.",
+      "quotes": [
+        "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms",
+        "PART 7-- General Terms and Conditions of the Contract Including Criteria for the Evaluation of Performance"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms",
+          "start": 202,
+          "end": 304
+        },
+        {
+          "quote": "PART 7-- General Terms and Conditions of the Contract Including Criteria for the Evaluation of Performance",
+          "start": 24093,
+          "end": 24199
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

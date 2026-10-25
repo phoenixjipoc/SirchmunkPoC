@@ -1,0 +1,36 @@
+{
+  "id": "eb35afbfe0232db70803",
+  "query_id": "CONS-10",
+  "question": "What is the proposal submission deadline in the Oklahoma Public Employees Retirement System (OPERS) investment consulting services RFP?",
+  "file": "Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+  "expected_facts": "4:30 p.m. Central Time on March 25, 2022.",
+  "acceptance": "Accept Central Time/CT; explicit equivalent timezone conversion acceptable.",
+  "text_hash": "8fd38e162caf488a201e33490c21fd056c9a564499e2924af8e6061c596a2f16",
+  "source_text_sha256": "8b59ab7d10437cb899072f904aad9ef61f23fa42305e041c2ac89f370d96c76b",
+  "second_check_required": true,
+  "prior_reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is OPERS’ 2023 investment management services RFP, not the investment consulting services RFP. Its August 11, 2023 deadline does not support the requested deadline.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL #515-24-001 U.S. EQUITY, Non-U.S. EQUITY, AND FIXED INCOME (TIPS) INDEX INVESTMENT MANAGEMENT SERVICES",
+        "The deadline for receipt of proposals is 4:30 p.m. Central Time, on August 11, 2023."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL #515-24-001 U.S. EQUITY, Non-U.S. EQUITY, AND FIXED INCOME (TIPS) INDEX INVESTMENT MANAGEMENT SERVICES",
+          "start": 61,
+          "end": 184
+        },
+        {
+          "quote": "The deadline for receipt of proposals is 4:30 p.m. Central Time, on August 11, 2023.",
+          "start": 6524,
+          "end": 6608
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ]
+}

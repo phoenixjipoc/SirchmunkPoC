@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "a6dafe2878f031c11f5f",
+    "query_id": "CONS-14",
+    "question": "What are all the minimum requirements in Section 2 (pages 4–5) of the City of Hartford MERF general investment consultant RFP?",
+    "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+    "expected_facts": "Section2 requires: (1) at least ten years providing general consulting; (2) senior leadership together at least three years; (3) no subcontracting account management, and all responsible personnel are employees; (4) currently consulting for at least five public pension funds each over $1.5bn; (5) primary consultant has at least five years of defined-benefit public-pension consulting and at least three years employed by proposer; (6) fiduciary service to MERF/OPEB and written compliance with their investment policies/guidelines; (7) no existing or potential material conflicts with the City Treasurer/staff, Pension Commission, OPEB Committee, actuary, auditor, managers or other providers; (8) agree to execute a contract similar to AppendixE; (9) current SEC investment-adviser registration; (10) carry or have applied by submission for general liability $5m, E&O/professional liability $5m, fiduciary liability $1m, workers' compensation/employer liability $1m, and cybersecurity $1m. Section2 says all qualifications must be met by March15,2024 at 5pm ET and AppendixA certification must be completed. AppendixA separately uses different client-threshold/history and insurance-date wording; this answer follows Section2 as asked.",
+    "acceptance": "Require all ten Section2 bullet requirements and five insurance limits when asking 'all'. If the question retains whole-document scope, allow explanation of Section2 versus AppendixA differences rather than forcing a single contradictory date or >/$1.5bn threshold.",
+    "text_hash": "aa32d205efb4a8f5c43054ea38fe8bb413e446bbe6440d32846410e99aba3560",
+    "source_text_sha256": "ba46410ea5b8731139363c20c23c9e0ed7804d7854e543119bc174f6333ad4d1",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2020 City of Temple City RFP for 457 plan administration and recordkeeping, not the City of Hartford MERF general investment consultant RFP. Its minimum qualifications and insurance provisions do not support the requested Section 2 requirements.",
+      "quotes": [
+        "City of Temple City, California 457 Deferred Compensation Plan Request for Proposals for Plan Administration and Record Keeping Services",
+        "RFP DISTRIBUTION DATE: June 17, 2020 at 4:00 PM (Pacific Time)",
+        "The Proposing Firm must have a minimum of five (5) years of experience administering governmental Section 457 deferred compensation plans",
+        "INSURANCE: Proof of insurance is not required to be submitted with your proposal but will be required prior to the City award of the contract."
+      ],
+      "quote_matches": [
+        {
+          "quote": "City of Temple City, California 457 Deferred Compensation Plan Request for Proposals for Plan Administration and Record Keeping Services",
+          "start": 13,
+          "end": 149
+        },
+        {
+          "quote": "RFP DISTRIBUTION DATE: June 17, 2020 at 4:00 PM (Pacific Time)",
+          "start": 150,
+          "end": 212
+        },
+        {
+          "quote": "The Proposing Firm must have a minimum of five (5) years of experience administering governmental Section 457 deferred compensation plans",
+          "start": 7794,
+          "end": 7931
+        },
+        {
+          "quote": "INSURANCE: Proof of insurance is not required to be submitted with your proposal but will be required prior to the City award of the contract.",
+          "start": 13157,
+          "end": 13299
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

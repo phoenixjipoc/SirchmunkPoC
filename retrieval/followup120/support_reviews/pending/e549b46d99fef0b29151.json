@@ -1,0 +1,130 @@
+{
+  "job": {
+    "id": "e549b46d99fef0b29151",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "013acad3f1f8520c2684a10f9b3d8fe0a1e3b30393ebcfaf64bc1f9156b80e3a",
+    "source_text_sha256": "2ad75cdaeecab9651d3f225547abe579638bbba888408fcd731110baaa9f8322",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is a Los Angeles Fire and Police Pensions RFP, not the specified retirement system’s Q&A. It mentions FY2021 among prior audit years but gives no total contractual fees for those audits.",
+        "quotes": [
+          "Los Angeles Fire and Police Pensions",
+          "RFP Number: DCFS25-01",
+          "The accounting firm Simpson & Simpson, LLP performed the audits of the financial statements for the fiscal years ending June 30, 2021 - 2024.",
+          "Provide fees for the services outlined in RFP Section 1.5 for each year of the three-year contract using the format below."
+        ],
+        "quote_matches": [
+          {
+            "quote": "Los Angeles Fire and Police Pensions",
+            "start": 171,
+            "end": 207
+          },
+          {
+            "quote": "RFP Number: DCFS25-01",
+            "start": 101,
+            "end": 122
+          },
+          {
+            "quote": "The accounting firm Simpson & Simpson, LLP performed the audits of the financial statements for the fiscal years ending June 30, 2021 - 2024.",
+            "start": 8889,
+            "end": 9030
+          },
+          {
+            "quote": "Provide fees for the services outlined in RFP Section 1.5 for each year of the three-year contract using the format below.",
+            "start": 33152,
+            "end": 33274
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Los Angeles Fire and Police Pensions RFP, not the specified retirement system’s Q&A. It mentions FY2021 among prior audit years but gives no total contractual fees for those audits.",
+      "quotes": [
+        "Los Angeles Fire and Police Pensions",
+        "RFP Number: DCFS25-01",
+        "The accounting firm Simpson & Simpson, LLP performed the audits of the financial statements for the fiscal years ending June 30, 2021 - 2024.",
+        "Provide fees for the services outlined in RFP Section 1.5 for each year of the three-year contract using the format below."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Los Angeles Fire and Police Pensions",
+          "start": 171,
+          "end": 207
+        },
+        {
+          "quote": "RFP Number: DCFS25-01",
+          "start": 101,
+          "end": 122
+        },
+        {
+          "quote": "The accounting firm Simpson & Simpson, LLP performed the audits of the financial statements for the fiscal years ending June 30, 2021 - 2024.",
+          "start": 8889,
+          "end": 9030
+        },
+        {
+          "quote": "Provide fees for the services outlined in RFP Section 1.5 for each year of the three-year contract using the format below.",
+          "start": 33152,
+          "end": 33274
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a Los Angeles Fire and Police Pensions RFP, not the specified retirement system’s Q&A. It mentions FY2021 among prior audits but gives no contractual fee for those audits. Its fee schedule is a blank template for proposed future services.",
+      "quotes": [
+        "RFP Number: DCFS25-01",
+        "Los Angeles Fire and Police Pensions",
+        "The accounting firm Simpson & Simpson, LLP performed the audits of the financial statements for the fiscal years ending June 30, 2021 - 2024.",
+        "Provide fees for the services outlined in RFP Section 1.5 for each year of the three-year contract using the format below.",
+        "FEE PROPOSED ANNUAL AUDIT SERVICES YEAR 1 YEAR 2 YEAR 3"
+      ],
+      "quote_matches": [
+        {
+          "quote": "RFP Number: DCFS25-01",
+          "start": 101,
+          "end": 122
+        },
+        {
+          "quote": "Los Angeles Fire and Police Pensions",
+          "start": 171,
+          "end": 207
+        },
+        {
+          "quote": "The accounting firm Simpson & Simpson, LLP performed the audits of the financial statements for the fiscal years ending June 30, 2021 - 2024.",
+          "start": 8889,
+          "end": 9030
+        },
+        {
+          "quote": "Provide fees for the services outlined in RFP Section 1.5 for each year of the three-year contract using the format below.",
+          "start": 33152,
+          "end": 33274
+        },
+        {
+          "quote": "FEE PROPOSED ANNUAL AUDIT SERVICES YEAR 1 YEAR 2 YEAR 3",
+          "start": 33439,
+          "end": 33494
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "70d86c371b7121eb1fda",
+    "query_id": "SVC-07",
+    "question": "Which retirement system's global custody RFP states that the system does not currently participate in securities lending, and what is the planned start date for the custody contract?",
+    "file": "Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+    "expected_facts": "The Texas Municipal Retirement System (TMRS), in its December 2020 RFP for Global Custody and Related Services; the contract start date is January 3, 2022.",
+    "acceptance": "TMRS and January 3, 2022 suffice; issuance month and securities-lending support contingencies are optional.",
+    "text_hash": "4eb61147bf021f84f0cada43ff4b2b232286b7e1116578f906241e2567d3ddc2",
+    "source_text_sha256": "fbaa2e27e75163da5326b3c348163209510cae254f3439bcfc5184e58334c147",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Hawaii Employees’ Retirement System RFP for private equity services, not the specified global custody RFP. It does not support the securities-lending statement or the planned custody contract start date.",
+      "quotes": [
+        "STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM",
+        "REQUEST FOR PROPOSAL (RFP) FOR PRIVATE EQUITY CONSULTING AND INVESTMENT SERVICES"
+      ],
+      "quote_matches": [
+        {
+          "quote": "STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM",
+          "start": 13,
+          "end": 58
+        },
+        {
+          "quote": "REQUEST FOR PROPOSAL (RFP) FOR PRIVATE EQUITY CONSULTING AND INVESTMENT SERVICES",
+          "start": 59,
+          "end": 139
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

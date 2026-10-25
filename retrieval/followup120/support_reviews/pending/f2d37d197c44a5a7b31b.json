@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "f2d37d197c44a5a7b31b",
+    "query_id": "OTH-10",
+    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+    "file": "Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
+    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
+    "text_hash": "4eb61147bf021f84f0cada43ff4b2b232286b7e1116578f906241e2567d3ddc2",
+    "source_text_sha256": "fbaa2e27e75163da5326b3c348163209510cae254f3439bcfc5184e58334c147",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2017 Hawaii ERS private-equity consulting RFP, not a Q&A for an external audit RFP. It provides no FY2021 audit-fee information.",
+      "quotes": [
+        "STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR PRIVATE EQUITY CONSULTING AND INVESTMENT SERVICES",
+        "The deadline for proposals: November 27, 2017 by 4:30 p.m. (H.S.T.)."
+      ],
+      "quote_matches": [
+        {
+          "quote": "STATE OF HAWAII, EMPLOYEES’ RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR PRIVATE EQUITY CONSULTING AND INVESTMENT SERVICES",
+          "start": 13,
+          "end": 139
+        },
+        {
+          "quote": "The deadline for proposals: November 27, 2017 by 4:30 p.m. (H.S.T.).",
+          "start": 1426,
+          "end": 1494
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

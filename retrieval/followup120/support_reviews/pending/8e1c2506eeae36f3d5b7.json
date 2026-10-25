@@ -1,0 +1,137 @@
+{
+  "job": {
+    "id": "8e1c2506eeae36f3d5b7",
+    "query_id": "XD-09",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+    "file": "ILPA__ILPA-DDQ-2.0.pdf",
+    "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+    "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+    "text_hash": "8907145b1f077ef656f1eedcccb1c6e6cf91c5a42ababaeed03deb50236309d2",
+    "source_text_sha256": "acc7566c61a7afaabbe215a9f1337c86e1dd116ccf7ba67eeb84894f94ea4c98",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is ILPA DDQ 2.0, not v1.2. It mentions v1.2 as a previous version but does not reproduce its table of contents. The table of contents shown has eight appendices, with different titles for D and E.",
+      "quotes": [
+        "Due Diligence Questionnaire 2.0 Updated November 2021",
+        "ILPA DDQ 1.2 released in 2018",
+        "Appendix D - Templates: Third-Party(s) and Technology Tool(s)",
+        "Appendix E - Templates: Fund",
+        "Appendix F - Templates: Portfolio Investments",
+        "Appendix H - Templates: Credit Facilities"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Due Diligence Questionnaire 2.0 Updated November 2021",
+          "start": 13,
+          "end": 66
+        },
+        {
+          "quote": "ILPA DDQ 1.2 released in 2018",
+          "start": 5770,
+          "end": 5799
+        },
+        {
+          "quote": "Appendix D - Templates: Third-Party(s) and Technology Tool(s)",
+          "start": 949,
+          "end": 1010
+        },
+        {
+          "quote": "Appendix E - Templates: Fund",
+          "start": 1042,
+          "end": 1070
+        },
+        {
+          "quote": "Appendix F - Templates: Portfolio Investments",
+          "start": 1158,
+          "end": 1203
+        },
+        {
+          "quote": "Appendix H - Templates: Credit Facilities",
+          "start": 1352,
+          "end": 1393
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is ILPA DDQ 2.0, not v1.2. Its table of contents lists eight appendices (A–H), with different titles for D and E, so it does not evidence the requested v1.2 list.",
+      "quotes": [
+        "Due Diligence Questionnaire 2.0 Updated November 2021",
+        "Appendix A - Requested Documents",
+        "Appendix B - Templates: Team Members",
+        "Appendix C - Templates: References",
+        "Appendix D - Templates: Third-Party(s) and Technology Tool(s)",
+        "Appendix E - Templates: Fund",
+        "Appendix F - Templates: Portfolio Investments",
+        "Appendix G - Templates: GP-Led Secondaries / Continuation Funds",
+        "Appendix H - Templates: Credit Facilities",
+        "ILPA DDQ 1.2 released in 2018"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Due Diligence Questionnaire 2.0 Updated November 2021",
+          "start": 13,
+          "end": 66
+        },
+        {
+          "quote": "Appendix A - Requested Documents",
+          "start": 622,
+          "end": 654
+        },
+        {
+          "quote": "Appendix B - Templates: Team Members",
+          "start": 732,
+          "end": 768
+        },
+        {
+          "quote": "Appendix C - Templates: References",
+          "start": 838,
+          "end": 872
+        },
+        {
+          "quote": "Appendix D - Templates: Third-Party(s) and Technology Tool(s)",
+          "start": 949,
+          "end": 1010
+        },
+        {
+          "quote": "Appendix E - Templates: Fund",
+          "start": 1042,
+          "end": 1070
+        },
+        {
+          "quote": "Appendix F - Templates: Portfolio Investments",
+          "start": 1158,
+          "end": 1203
+        },
+        {
+          "quote": "Appendix G - Templates: GP-Led Secondaries / Continuation Funds",
+          "start": 1264,
+          "end": 1327
+        },
+        {
+          "quote": "Appendix H - Templates: Credit Facilities",
+          "start": 1352,
+          "end": 1393
+        },
+        {
+          "quote": "ILPA DDQ 1.2 released in 2018",
+          "start": 5770,
+          "end": 5799
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

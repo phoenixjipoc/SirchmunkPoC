@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "d9cd8ca36427fb431a96",
+    "query_id": "INV-09",
+    "question": "An investment manager RFP template for an emerging markets equity strategy (issued February 14, 2022, responses due March 31, 2022) lists required minimum qualifications and 'preferred criteria'. What live track record does it require, and what public pension client base does it prefer?",
+    "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "expected_facts": "Required: an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy (qualified women-, minority- or disabled-owned businesses are exempt). Preferred: at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan client with over $10 billion in total plan assets (plus no material litigation in the past five years). Issuer: State Universities Retirement System of Illinois (SURS).",
+    "acceptance": "Accept five-year live strategy record and the alternative client tests (two >$1bn U.S. public pensions OR one >$10bn public plan). Ownership exemption is a relevant qualification. Issuer, litigation criterion and placeholder date need not be volunteered.",
+    "text_hash": "671c411958eb874cfc800e9ef62f40b39ce0a3618032e31c58dc0911d1ac78ca",
+    "source_text_sha256": "a59653c4763af085dd01d7961474b0d3e4d1e15ac1d4029f77327171d4183a79",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 LAGERS RFP for private market consulting, not the specified 2022 SURS emerging markets equity investment-manager template. Its five-year requirement concerns the firm's business and advisory history, and its public-fund client threshold is different. It does not support the requested strategy track record or preferred alternative client tests.",
+      "quotes": [
+        "Missouri Local Government Employees Retirement System (LAGERS) is issuing this Request for Proposal (RFP) for the purpose of soliciting qualified firms to provide private market consulting services.",
+        "This RFP is being issued by LAGERS on July 5, 2024",
+        "As of March 31, 2024, must have been in business for a minimum of five (5) years and provided private market advisory services for a minimum of five (5) years.",
+        "As of March 31, 2024, must provide non-discretionary private market investment consulting to at least three public fund clients with assets of at least $10 billion."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Missouri Local Government Employees Retirement System (LAGERS) is issuing this Request for Proposal (RFP) for the purpose of soliciting qualified firms to provide private market consulting services.",
+          "start": 9735,
+          "end": 9933
+        },
+        {
+          "quote": "This RFP is being issued by LAGERS on July 5, 2024",
+          "start": 12517,
+          "end": 12567
+        },
+        {
+          "quote": "As of March 31, 2024, must have been in business for a minimum of five (5) years and provided private market advisory services for a minimum of five (5) years.",
+          "start": 18768,
+          "end": 18927
+        },
+        {
+          "quote": "As of March 31, 2024, must provide non-discretionary private market investment consulting to at least three public fund clients with assets of at least $10 billion.",
+          "start": 19362,
+          "end": 19526
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

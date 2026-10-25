@@ -1,0 +1,83 @@
+{
+  "job": {
+    "id": "4ea2a5929ebcfcc7b64f",
+    "query_id": "SVC-07",
+    "question": "Which retirement system's global custody RFP states that the system does not currently participate in securities lending, and what is the planned start date for the custody contract?",
+    "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "expected_facts": "The Texas Municipal Retirement System (TMRS), in its December 2020 RFP for Global Custody and Related Services; the contract start date is January 3, 2022.",
+    "acceptance": "TMRS and January 3, 2022 suffice; issuance month and securities-lending support contingencies are optional.",
+    "text_hash": "784bcfad5dec8c8cdc14ddc71afe9edac27cb190eaa8c0971bfb4139e6ce83d9",
+    "source_text_sha256": "75b693482e948ff921b1cec45e9ab6fae2d982d6719b2a34a7971859f300978e",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 RFP issued by a different retirement system. It says the system currently participates in securities lending, the opposite of the question’s premise, and does not state the requested custody-contract start date.",
+      "quotes": [
+        "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”) Issue Date: January 8, 2024",
+        "SBCERS currently participates in an agency securities lending program with its incumbent provider.",
+        "Final Selection May/June 2024 TBD"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”) Issue Date: January 8, 2024",
+          "start": 13,
+          "end": 158
+        },
+        {
+          "quote": "SBCERS currently participates in an agency securities lending program with its incumbent provider.",
+          "start": 3675,
+          "end": 3773
+        },
+        {
+          "quote": "Final Selection May/June 2024 TBD",
+          "start": 38930,
+          "end": 38963
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is SBCERS’s 2024 RFP, not TMRS’s RFP. It expressly says SBCERS currently participates in securities lending and does not state a January 3, 2022 custody-contract start date.",
+      "quotes": [
+        "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”)",
+        "Issue Date: January 8, 2024",
+        "SBCERS currently participates in an agency securities lending program with its incumbent provider.",
+        "Final Selection May/June 2024 TBD"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”)",
+          "start": 13,
+          "end": 130
+        },
+        {
+          "quote": "Issue Date: January 8, 2024",
+          "start": 131,
+          "end": 158
+        },
+        {
+          "quote": "SBCERS currently participates in an agency securities lending program with its incumbent provider.",
+          "start": 3675,
+          "end": 3773
+        },
+        {
+          "quote": "Final Selection May/June 2024 TBD",
+          "start": 38930,
+          "end": 38963
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

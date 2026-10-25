@@ -1,0 +1,12 @@
+{
+  "id": "5c9b99c3a990aeb51af2",
+  "query_id": "CONS-01",
+  "question": "In the Grand Rapids General Retirement System investment consultant RFP, what was the total market value of the General Retirement System and as of what date?",
+  "file": "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+  "expected_facts": "Approximately $437 million as of June 30, 2023 (the separate Grand Rapids Police and Fire Retirement System covered by the same RFP was approximately $479 million).",
+  "acceptance": "Require $437m approximately and June 30, 2023. Separate Police and Fire amount is optional.",
+  "text_hash": "b5feb817817e35edbb5bc0aa0af7c6df24842b1fc6b23f62b19531a928524887",
+  "source_text_sha256": "33e6d0f3b03cb97414ead33bc97801d7ca7b3799f628c39bac87276153cef3fe",
+  "second_check_required": false,
+  "prior_reviews": []
+}

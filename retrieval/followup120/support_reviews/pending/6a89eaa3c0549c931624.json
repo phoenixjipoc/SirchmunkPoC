@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "6a89eaa3c0549c931624",
+    "query_id": "SVC-16",
+    "question": "What contract term, including any extension options, does the Los Angeles Fire and Police Pensions (LAFPP) RFP for financial statement audit services contemplate?",
+    "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "expected_facts": "A three-year contract (fiscal years ending June 30, 2025, 2026 and 2027) with a maximum fee proposal for each fiscal year; the Board may extend beyond the three-year term through two one-year renewals.",
+    "acceptance": "Three years plus two optional one-year renewals, up to five years, suffices. Fiscal-year dates and fee-proposal details are optional.",
+    "text_hash": "81e913c98df37dcfd35af28d88b1b03c1dc82eb7e2f99c9c19de8d06866fc421",
+    "source_text_sha256": "2d54872fc00a587921e9e76823bb49d685f32d834a6c8320657ad95eb8fd8f87",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Indiana Public Retirement System RFP for alternative investment consulting services, not the LAFPP RFP for financial statement audit services. Its five-year initial term and renewal provisions concern a different issuer and service and do not support the requested contract term.",
+      "quotes": [
+        "Request for Proposals (“RFP”) for Alternative Investment Consulting Services for the Indiana Public Retirement System (“INPRS” or the “System”).",
+        "The term of the contract entered under this RFP shall be for an initial period of five (5) years, beginning from the date of final execution of contract.",
+        "There may be one (1) or more renewals under the same terms and conditions at INPRS’s option up to the length of the original term."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals (“RFP”) for Alternative Investment Consulting Services for the Indiana Public Retirement System (“INPRS” or the “System”).",
+          "start": 2274,
+          "end": 2418
+        },
+        {
+          "quote": "The term of the contract entered under this RFP shall be for an initial period of five (5) years, beginning from the date of final execution of contract.",
+          "start": 35313,
+          "end": 35466
+        },
+        {
+          "quote": "There may be one (1) or more renewals under the same terms and conditions at INPRS’s option up to the length of the original term.",
+          "start": 35467,
+          "end": 35597
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

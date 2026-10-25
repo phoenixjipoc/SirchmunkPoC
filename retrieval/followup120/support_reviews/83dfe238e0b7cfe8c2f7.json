@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "83dfe238e0b7cfe8c2f7",
+    "query_id": "INV-12",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for domestic equity small cap growth investment management, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "expected_facts": "Four primary factors: (a) People - stability of the organization, ownership structure and documented experience of key professionals; (b) Process - clearly defined, reasonable and repeatable investment strategy; (c) Performance - documented ability to meet investment performance benchmarks; (d) Pricing - fee schedule and associated costs.",
+    "acceptance": "Accept People, Process, Performance, Pricing and faithful descriptions; exact labels are not mandatory.",
+    "text_hash": "6c44b43272ac16f4bd8efdebfb5b71a666753ca71b3f0242c213453c6a30a56a",
+    "source_text_sha256": "a171986940a15f77f516b2eed48ea13f5e49967c592369ad8f87250248f2b907",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Delaware RFP for deferred compensation plan recordkeeping and administration, not the IMRF sample RFP for domestic equity small-cap growth investment management. Its evaluation criteria apply to a different procurement and do not support the requested factors.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL FOR DEFERRED COMPENSATION PLAN RECORDKEEPING AND ADMINISTRATION SERVICES ISSUED BY THE OFFICE OF THE STATE TREASURER",
+        "By this request for proposal (“RFP”), the Office of the State Treasurer (“OST”), on behalf of the Plans Management Board (“Board”), is seeking proposals from qualified vendors",
+        "Proposals that meet submission requirements of the RFP will be evaluated and scored based on the criteria and points system set forth in the table below."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL FOR DEFERRED COMPENSATION PLAN RECORDKEEPING AND ADMINISTRATION SERVICES ISSUED BY THE OFFICE OF THE STATE TREASURER",
+          "start": 13,
+          "end": 150
+        },
+        {
+          "quote": "By this request for proposal (“RFP”), the Office of the State Treasurer (“OST”), on behalf of the Plans Management Board (“Board”), is seeking proposals from qualified vendors",
+          "start": 264,
+          "end": 439
+        },
+        {
+          "quote": "Proposals that meet submission requirements of the RFP will be evaluated and scored based on the criteria and points system set forth in the table below.",
+          "start": 41181,
+          "end": 41334
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

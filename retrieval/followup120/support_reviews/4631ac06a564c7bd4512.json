@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "4631ac06a564c7bd4512",
+    "query_id": "CONS-09",
+    "question": "Which retirement system's investment consultant RFP requires firms to certify that they currently provide investment consulting services to clients whose combined assets total at least $50 billion?",
+    "file": "IMRF__sample-investment-consulting-rfp.pdf",
+    "expected_facts": "Teachers' Retirement System of the State of Illinois (TRS Illinois), in its FY23 investment consultant RFP (Appendix B, Statement of Minimum Qualifications).",
+    "acceptance": "TRS Illinois / Teachers’ Retirement System of the State of Illinois is sufficient; FY23 and appendix identifier are optional.",
+    "text_hash": "ea9d2789dbf2664c70adf4312c00b0ec81c54cf1741478e3e2757e93a2e66025",
+    "source_text_sha256": "9c1ec794ed5ca3d42e6eb1fbcbbbb339195c2c9b872a54f9d0d1536d9a860ec5",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Illinois Municipal Retirement Fund sample RFP, not a Teachers’ Retirement System of the State of Illinois RFP. Its stated qualification concerns one client with at least $10 billion in assets; it does not require certification of current consulting clients with combined assets of at least $50 billion.",
+      "quotes": [
+        "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms",
+        "Demonstrated experience in providing discretionary or non-discretionary investment advisory services to large public pension plan clients, at least one of which must have total plan assets of $10 billion."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms",
+          "start": 202,
+          "end": 304
+        },
+        {
+          "quote": "Demonstrated experience in providing discretionary or non-discretionary investment advisory services to large public pension plan clients, at least one of which must have total plan assets of $10 billion.",
+          "start": 11577,
+          "end": 11781
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}
