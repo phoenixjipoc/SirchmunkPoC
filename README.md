@@ -1,124 +1,66 @@
-# Sirchmunk PoC
+# Sirchmunk document retrieval
 
-This branch tests **document retrieval** using the same 120 questions and 81 raw documents. Comparisons cover repeated runs, candidate ordering, directory coverage and a separate parser diagnostic. No final answers or knowledge clusters are produced.
+This branch evaluates document retrieval using **120 verified questions and 81 raw documents**. Each query returns up to ten ordered files. The tests stop before evidence sampling, final answers or knowledge clusters.
 
-For the 98 single-document questions, baseline Top-1 is **52.04% (51/98)**. Across three runs, Top-1 ranges from **45.92% to 52.04%**, averaging **50.00%**; 38 questions change between a first-position hit and miss. Cross-document and negative questions are reported separately.
+The two objectives are:
 
-Reranking the original first ten candidates raises Top-1 to **80.61% (79/98)**, with Top-10 unchanged at **81.63% (80/98)**. Considering all 81 directory candidates raises Top-10 to **91.84% (90/98)**, while Top-1 reaches **55.10% (54/98)**. These changes were tested separately; their combined effect was not measured.
+1. Retrieve a document containing all required facts, preferably as the first result.
+2. Distinguish similar questions that require different issuers, versions or conditions.
 
-See the [follow-up results](retrieval/followup120/reports/REPORT.md), [plan](retrieval/followup120/PLAN.md), [execution guide](retrieval/followup120/README.md), and [original baseline](retrieval/reports/basic120/REPORT.md). The earlier answer and cluster-reuse experiments below remain separate.
+## Results
 
-This repository tests two questions:
+The primary measure uses **98 single-document questions**. The other 22 questions have separate measures.
 
-1. How accurately does Sirchmunk answer questions from raw RFP/DDQ documents?
-2. Can similar questions with different answers trigger incorrect cluster reuse?
+- Baseline: Top-1 **52.04% (51/98)**, Top-5 **75.51% (74/98)** and Top-10 **81.63% (80/98)**.
+- Three repeated runs: Top-1 **45.92%–52.04%**, averaging **50.00%**; 38 questions change between a first-position hit and miss.
+- Reranking the baseline's first ten candidates: Top-1 **80.61% (79/98)**; Top-10 stays **81.63% (80/98)**.
+- Considering all 81 directory candidates: Top-10 **91.84% (90/98)** and Top-1 **55.10% (54/98)**.
+- Legacy-document parser repair: readable text from **81/81** documents instead of 80/81; one additional required source found for XD-16, with no change to single-document Top-1 in the controlled comparison.
 
-**81 documents, 120 verified questions, three DEEP runs, 360 responses.** Sirchmunk version: 0.0.7.
+Ranking, directory coverage and parsing were tested separately. Their combined effect was not measured. These are results on an exposed benchmark, not an unseen test set.
 
-DEEP finds relevant files, reads evidence, builds a knowledge cluster, and returns an answer. With reuse enabled, a matching stored cluster can supply the answer directly. See [how DEEP works](docs/METHODOLOGY.md#how-deep-works) for the flow and limits.
+See the [full results](retrieval/followup120/reports/REPORT.md), [per-question scores](retrieval/followup120/reports/questions.csv), [ordered references](retrieval/followup120/reports/references.csv) and [original retrieval baseline](retrieval/reports/basic120/REPORT.md).
 
-## Original documents
+## Documents
 
-The [corpus](poc_docs/S/) mainly contains public pension-fund RFPs and industry DDQ/ESG materials. RFPs specify services, qualifications, deadlines, and contract terms. DDQ materials cover organization, strategy, risk, operations, and ESG; they include templates and supporting notes.
+The [81 originals](poc_docs/S/) are public pension-fund RFPs and industry DDQ/ESG materials: **78 PDF, two DOCX and one legacy DOC**, totaling **47,379,550 bytes (45.18 MiB)**. All have distinct hashes; every PDF has an extractable text layer.
 
-The [manifest](poc/corpus/manifest_S.csv) records 81 successful downloads, with source URLs, categories, sizes, and hashes.
+There are 34 investment-consultant RFPs, ten investment-manager or outsourced investment-office RFPs, twelve actuarial/audit RFPs, ten custody or retirement-plan service RFPs, four related question-and-answer documents or manager questionnaires, eight DDQ-related documents and three ESG frameworks/FAQs. DDQ materials include templates and supporting notes.
 
-| Corpus statistic | Value |
-|---|---|
-| Original files | 81, with 81 distinct SHA-256 hashes |
-| File formats | 78 PDF, 2 DOCX, 1 legacy DOC |
-| Total size | 47,379,550 bytes (45.18 MiB) |
-| PDF text availability | All 78 have extractable text; no scanned-only PDFs |
+Similar issuers, years and versions are intentional distractors. The [download manifest](poc/corpus/manifest_S.csv) records source URLs, categories, sizes and hashes. Original files are the search input; extracted text supports source verification.
 
-| Document group | Files |
-|---|---:|
-| General and specialist investment-consultant RFPs | 34 |
-| Investment-manager and outsourced chief investment officer (OCIO) RFPs | 10 |
-| Actuarial and audit RFPs | 12 |
-| Custody, deferred-compensation, and pension/retirement-plan service RFPs | 10 |
-| RFP questions and answers, and investment-manager questionnaires | 4 |
-| DDQ-related documents (manifest category `ddq_template`) | 8 |
-| ESG assessment framework and FAQs | 3 |
-| **Total** | **81** |
+## Questions and scoring
 
-Each file is counted once. The eight DDQ-related files include a PRI covering note and NJEDA notice. Similar issuers, years, and versions are intentional; 23 files share the investment-consultant category. Original files remain the search input.
+The [verified set](poc/questions/questions_verified.csv) contains 50 detail questions, 18 medium questions, 30 questions forming 15 similar-wording pairs, 13 broad questions and nine negative questions.
 
-## Questions
+The detail, medium and paired questions form the 98 single-document cases. The broad questions comprise twelve required-source combinations and one thematic question. Negatives report returned suggestions without a refusal score.
 
-The [verified set](poc/questions/questions_verified.csv) has 120 unique questions. A/B/C use the same [frozen input](poc/results/20261014_ABC_verified120/inputs/questions.csv) and order.
+For a single-document question, **Hit@k** is one when at least one of the first k files contains all mandatory facts for the correct issuer, version and conditions. **MRR@10** uses the reciprocal rank of the first qualifying file, or zero if none appears within ten. Similar pairs also track whether the opposite question's exclusive source ranks first. Combined-source questions measure required-source coverage.
 
-| Question type | Count | Purpose |
-|---|---:|---|
-| `detail` | 50 | Retrieve a specific fact or short set of requirements |
-| `pair_a` | 15 | First question of a similar-wording pair |
-| `pair_b` | 15 | Follow-up with a different required answer; detect inappropriate reuse |
-| `medium` | 18 | Summarize or combine multiple requirements within a document |
-| `broad` | 13 | Compare or synthesize evidence across documents |
-| `unanswerable` | 9 | Refuse unsupported or false-premise requests |
-| **Total** | **120** | **111 answerable and 9 negative questions** |
+Reference facts and acceptance criteria are used only for source assessment. Retrieval receives questions without expected answers or source labels. The [question audit](poc/questions/verification/verification_report.md) supported 109 references and corrected eleven. Unlisted returned sources receive separate support checks. See the [scoring rules](retrieval/PLAN.md#scoring) and [follow-up plan](retrieval/followup120/PLAN.md).
 
-The 30 paired questions form 15 adjacent pairs, included in the total. There are 98 single-file questions, 13 questions covering four to ten files, and nine negative questions without a gold-source file. References cover all 81 documents, but not every fact in them.
+## Workflow and files
 
-Each record contains the reference answer, sources, passages, and acceptance criteria. Search receives only IDs and questions. Three separate automated review sessions checked 40 questions each before comparing references: 109 were supported and 11 corrected, including six scope clarifications. See the [verification report](poc/questions/verification/verification_report.md).
+Queries use keyword discovery and directory selection, followed by an ordered, deduplicated file list. The baseline keeps keyword files first; the follow-up isolates repeatability, ranking, directory coverage and parsing. Source checks and scoring run separately from retrieval.
 
-## 1. Answer accuracy
+- `poc_docs/S/`: original search documents.
+- `poc/corpus/`: download records and corpus preparation.
+- `poc/questions/`: the 120-question dataset, its drafts and supporting source audit.
+- `retrieval/`: baseline scripts, frozen inputs, execution records, source checks and results.
+- `retrieval/followup120/`: repeated runs, controlled comparisons, raw records and final reports.
+- `retrieval/source_snapshot/`: unchanged installed-package snapshot used for source-hash verification; it is not a separate experiment.
 
-| Run | Evidence-file limit (`top_k`) | Cluster reuse | Fully correct, including correct refusals | Accuracy | Median search time | Search tokens |
-|---|---:|---|---:|---:|---:|---:|
-| A | 10 | Off | 74 / 120 | 61.67% | 38.75 s | 11,117,348 |
-| B | 5 | Off | 68 / 120 | 56.67% | 39.68 s | 6,194,941 |
-| C | 10 | On, similarity threshold 0.85 | 75 / 120 | 62.50% | 41.45 s | 9,267,393 |
+The dataset paths remain stable so the frozen input hashes and validation scripts remain reproducible.
 
-**Accuracy = (correct + correct_refusal) / 120.** Partial and unsuccessful answers stay in the denominator. All nine negative questions received accepted refusals in each run. Scoring is automated; see [grading rules](docs/EVALUATION.md).
+## Reproduction and validation
 
-B used 44.28% fewer search tokens than A, with six fewer correct answers and no median speed improvement. Detail-question scores were 40/34/40 out of 50. No cross-document question was fully correct in any run (13 questions).
+Install host dependencies from the single [requirements file](requirements.txt). Follow the [baseline execution guide](retrieval/README.md#reproduce) and [follow-up guide](retrieval/followup120/README.md#reproduction) for new runs. Runtime credentials stay outside the repository.
 
-These are one-pass results on a deliberately challenging dataset.
-
-## 2. Similar-question rigor
-
-Each run starts with an empty cluster store. C can reuse only earlier C clusters; it does not use A/B clusters or repeat identical questions.
-
-- C reused nine clusters; **all nine answers were wrong**.
-- Seven hits were second questions in predefined pairs; two were outside them.
-- A answered the same nine questions with four correct, four no-results, and one wrong.
-- Reuse hits averaged 1.72 seconds and 201 tokens.
-
-| Earlier question | Later question | Reused answer | Required answer |
-|---|---|---|---|
-| Number of ILPA v1.2 appendices | Number of ILPA 2.0 appendices | 5 | 8 |
-| Boston printed proposal copies | SFERS printed proposal copies | 7 | 3 |
-| 2021 ESG FAQ resources | 2024 ESG FAQ resources | 6 | 8 |
-| KCERA audit contract term | KCERA actuarial audit scope | One-year contract | Experience-study review, independent valuation, and related audit work |
-
-C's net gain of one correct answer does not establish a reuse benefit: the other 111 questions gained five, offsetting four lost correct answers in reuse cases. Several wrong-version matches exceeded 0.99 similarity, so a higher threshold alone would not fix every case.
-
-See [all reuse cases](reports/verified120/reuse_cases.csv) and the [matched comparison](reports/verified120/reuse_matched_comparison.csv).
-
-## Documentation and results
-
-- [Full report](reports/verified120/report.md), [execution record](poc/results/20261014_ABC_verified120/test_process.md), and [validation](poc/results/20261014_ABC_verified120/validation.json).
-- [All 360 answers](reports/verified120/all_results.csv), [A/B/C comparison](reports/verified120/question_comparison.csv), and [190 required reviews](reports/verified120/review_queue.csv).
-- [Workflow and grading](docs/EVALUATION.md), [methodology](docs/METHODOLOGY.md), [reproduction](docs/REPRODUCING.md), and [artifact guide](docs/ARTIFACTS.md).
-
-| Directory | Contents |
-|---|---|
-| `poc_docs/S/` | 81 original files |
-| `poc/corpus/` | Sources, download records, and extracted text |
-| `poc/questions/` | 120-question set, drafts, and source audit |
-| `poc/harness/`, `poc/*.py` | Evaluation, grading, review, and export scripts |
-| `poc/results/` | A/B/C answers, logs, clusters, and frozen inputs |
-| `reports/verified120/` | English result tables and report |
-| `docs/` | Workflow, methodology, reproduction, and file guide |
-
-The corpus and full question audit are separate repository directories. Drafts are retained for rebuilding the verified set.
-
-## Offline validation
-
-All narrative documents are English. Raw evidence retains its original bytes; English presentation tables label translations, including C/INV-04.
+The saved results can be validated without service requests:
 
 ```bash
-python poc/validate_campaign.py poc/results/20261014_ABC_verified120
+python retrieval/validate.py
+python retrieval/followup120/validate.py
 ```
 
-This checks source hashes, frozen inputs, answer records, scores, and review completion without making service requests.
+The [execution record](retrieval/followup120/EXECUTION.md) retains recovery details. The [parser correction record](retrieval/followup120/PARSER_CORRECTION.md) explains the excluded first attempt and corrected replay. All 74 follow-up checks passed.

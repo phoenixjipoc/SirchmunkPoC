@@ -4,7 +4,7 @@ Date: 23 October 2026. Times in raw records use UTC; the host displays UTC+8.
 
 ## Workspace and scope
 
-A separate checkout, `SirchmunkPoC_Retrieval`, was created from main at `4f50995fa28e800788579dce61c95ee29a860240`. Its branch is `retrieval-only-gpt-6-sol`, with the existing repository as origin. The original checkout was left intact.
+A separate checkout, `SirchmunkPoC_Retrieval`, was created from main at `4f50995fa28e800788579dce61c95ee29a860240`. It uses the current retrieval branch, with the existing repository as origin. The original checkout was left intact.
 
 The initial design used two file limits with three repetitions. Six simultaneous processes exhausted container memory before a query completed. A sequential restart completed sixteen queries before the design was replaced at the user's request. Those records are under `attempts/`; none is scored here.
 

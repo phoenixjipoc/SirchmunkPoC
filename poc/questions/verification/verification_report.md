@@ -1,8 +1,8 @@
 # Independent verification of 120 questions
 
 Completed October 14, 2026, against 81 original documents. This reference audit
-did not itself run a Sirchmunk evaluation; the subsequent A/B/C experiment is
-reported separately.
+establishes the facts, source files and acceptance criteria used by the retrieval
+tests. It does not measure retrieval performance.
 
 ## Outcome
 
@@ -80,5 +80,5 @@ the final reference; it is not a replacement gold answer. The workflow field
 - The original 120-question snapshot and six draft batches are retained so that
   approved corrections can be traced and the final dataset can be rebuilt.
 
-The later October 14 DEEP campaign used this corrected snapshot and its acceptance
-criteria. Automated agreement remains subject to error.
+The retrieval tests use this corrected snapshot and its acceptance criteria.
+Automated agreement remains subject to error.
