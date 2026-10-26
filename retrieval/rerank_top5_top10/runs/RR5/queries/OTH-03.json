@@ -1,0 +1,51 @@
+{
+  "query_id": "OTH-03",
+  "question": "In Rice University's 2021 RFP for audit services for its retirement plans, how many participants did the 401(a) plan and the 403(b) plan have as of December 31, 2020?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR5",
+  "status": "ok",
+  "candidate_limit": 5,
+  "candidate_count": 5,
+  "baseline_sha256": "c79fbe6c2d8581e749d375527273a74ef05e80d87f2baa14a3ae36901bb193fc",
+  "payload_sha256": "0539d567e43960dd93bb53fd15f19b28825bddea7da4967b36ab7c353bba817a",
+  "original_files": [
+    "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "OCERS__investment_consultant_services_rfp.pdf",
+    "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "SBCERS__2020-Private-Equity-RFP.pdf",
+    "Rice_University__2021_Benefit_Plan_RFP_-_final.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+      "path": "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "path": "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+      "path": "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+      "path": "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 3.034,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

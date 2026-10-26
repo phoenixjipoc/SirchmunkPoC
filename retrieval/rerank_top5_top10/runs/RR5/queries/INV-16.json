@@ -1,0 +1,33 @@
+{
+  "query_id": "INV-16",
+  "question": "In the Santa Barbara County Employees' Retirement System (SBCERS) 2020 RFP for a discretionary private equity consultant, how many years must the proposing firm have been in business?",
+  "type": "pair_b",
+  "pair_id": "P12",
+  "group": "RR5",
+  "status": "ok",
+  "candidate_limit": 5,
+  "candidate_count": 2,
+  "baseline_sha256": "308b9daddf2929d213c222ea57b3236e246fe809fad5b7b9f622737a9e2018d9",
+  "payload_sha256": "593745e43c605d7f872caa53d36e255905c6cda802f3fa864caae67a141794b3",
+  "original_files": [
+    "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "SBCERS__2020-Private-Equity-RFP.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+      "path": "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 1.555,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

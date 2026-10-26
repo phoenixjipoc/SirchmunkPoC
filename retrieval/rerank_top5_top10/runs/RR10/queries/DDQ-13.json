@@ -1,0 +1,39 @@
+{
+  "query_id": "DDQ-13",
+  "question": "Which venture capital manager did NJEDA select to run its Life Science Seed Fund, and how much capital did NJEDA commit to it?",
+  "type": "unanswerable",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 3,
+  "baseline_sha256": "2ef9000779b6fd5badff45cb43ca33d3b7ca429e3c5612c3bc4ac35ac803c59a",
+  "payload_sha256": "e60b66297104e4b1222ae54925dd58924b04c163a54d1038fb2655b73e3afdee",
+  "original_files": [
+    "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+    "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+    "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+      "path": "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+      "path": "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+      "path": "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 1.939,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

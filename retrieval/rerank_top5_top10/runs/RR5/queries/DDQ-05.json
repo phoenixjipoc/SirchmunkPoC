@@ -1,0 +1,39 @@
+{
+  "query_id": "DDQ-05",
+  "question": "According to the INREV Due Diligence Questionnaire for Non-Listed Real Estate Investment Vehicles, when was the questionnaire first launched and in which years was it updated?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR5",
+  "status": "ok",
+  "candidate_limit": 5,
+  "candidate_count": 3,
+  "baseline_sha256": "6db7b661a90be71867012e83c8263067fa55f2f952a02f11e6c3fe4c447d45d2",
+  "payload_sha256": "26312bb6b7c50e44f8692a1d0ad761dc69766abf658ab3fb5b72ba07a5007011",
+  "original_files": [
+    "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+    "INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+      "path": "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx"
+    },
+    {
+      "rank": 3,
+      "file": "INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 2.479,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

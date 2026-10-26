@@ -1,0 +1,33 @@
+{
+  "query_id": "DDQ-06",
+  "question": "How many fund diligence topics does the ILPA Due Diligence Questionnaire v1.2 (2018) list in its Overview, and what is the last one?",
+  "type": "pair_a",
+  "pair_id": "P6",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 2,
+  "baseline_sha256": "9de4259d5af942b547b5075c2d0077f4ecaf844e85577c65e33b4f75f10dd9e9",
+  "payload_sha256": "4c8aaf5978fc0f07ce294f25b30742400b60f5c97faf6915d702f7e04bcf04ef",
+  "original_files": [
+    "ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+    "ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "ILPA__ILPA-DDQ-2.0.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 1.413,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

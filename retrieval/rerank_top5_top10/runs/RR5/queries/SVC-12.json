@@ -1,0 +1,81 @@
+{
+  "query_id": "SVC-12",
+  "question": "According to the Monroe County deferred compensation services RFP, how many participants did the plan have and what were its total assets?",
+  "type": "pair_b",
+  "pair_id": "P13",
+  "group": "RR5",
+  "status": "ok",
+  "candidate_limit": 5,
+  "candidate_count": 5,
+  "baseline_sha256": "d5703756211c56ec2a5e42ce615890512ece3e33308bb2acc328d4f8904d2afd",
+  "payload_sha256": "830b9dc5cf54e6b9b353fa1ab5da5dc986ff180ee10a498cc5b78418b8570180",
+  "original_files": [
+    "Monroe_County_NY__10406.pdf",
+    "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "Temple_City_CA__Recordkeeping-RFP.pdf",
+    "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "OCERS__custodian_rfp_2022-2023.pdf",
+    "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Monroe_County_NY__10406.pdf",
+      "path": "/mnt/docs/S/Monroe_County_NY__10406.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+      "path": "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "path": "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "path": "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+      "path": "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "OCERS__custodian_rfp_2022-2023.pdf",
+      "path": "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 3.375,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

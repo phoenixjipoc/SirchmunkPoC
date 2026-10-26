@@ -1,0 +1,51 @@
+{
+  "query_id": "XD-11",
+  "question": "What questions does the INREV DDQ 2022 for Funds of Funds and Multi Manager ask under section 3.3 'IT, Cyber and Physical Security'?",
+  "type": "medium",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 5,
+  "baseline_sha256": "625c86d0f77eb9577bf1e4f65214189124828006182d63122b6df8a1a3cc39fd",
+  "payload_sha256": "5406acbc961220bd316f5522e4d61d23ee8deb03903664cb18d93f51eb8fd096",
+  "original_files": [
+    "OCERS__custodian_rfp_2022-2023.pdf",
+    "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "OCERS__investment_consultant_services_rfp.pdf",
+    "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+      "path": "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx"
+    },
+    {
+      "rank": 2,
+      "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "OCERS__custodian_rfp_2022-2023.pdf",
+      "path": "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 2.491,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

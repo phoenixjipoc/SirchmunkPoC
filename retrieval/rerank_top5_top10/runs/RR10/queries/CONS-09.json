@@ -1,0 +1,81 @@
+{
+  "query_id": "CONS-09",
+  "question": "Which retirement system's investment consultant RFP requires firms to certify that they currently provide investment consulting services to clients whose combined assets total at least $50 billion?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 10,
+  "baseline_sha256": "f1bd0cf48c70ba254aa599a8eeca507371428b605ee96b12c494fa24d624c84d",
+  "payload_sha256": "faf112ec28145fbffd8ba43ecb93e6a91fe8523fe8d574ca1295069230e845b0",
+  "original_files": [
+    "SBCERS__2020-Private-Equity-RFP.pdf",
+    "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+    "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "INPRS__RFP24-05_AuditServices.pdf",
+    "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+      "path": "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+      "path": "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+      "path": "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+      "path": "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+      "path": "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "INPRS__RFP24-05_AuditServices.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 5.356,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

@@ -1,0 +1,33 @@
+{
+  "query_id": "XD-01",
+  "question": "In the INREV Due Diligence Questionnaire 2022 for Funds of Funds and Multi Manager, when was the FoF / MM questionnaire originally launched, what two additions appear at the front of the DDQ, and how long may the manager's statement be?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 2,
+  "baseline_sha256": "fffad3d7c783a65e673af124832ce711f247316081e517592c4d51a2cd4631f1",
+  "payload_sha256": "f5b1544a64549eb3bc66c6df1d5c4f9a0e1a75cc3d017a814d7960f550d9a25e",
+  "original_files": [
+    "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+      "path": "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx"
+    },
+    {
+      "rank": 2,
+      "file": "INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc",
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 2.029,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

@@ -1,0 +1,90 @@
+{
+  "job": {
+    "id": "848b2e03c1c9332e4783",
+    "query_id": "CONS-11",
+    "question": "What is the proposal submission deadline in the Teachers' Retirement System of Oklahoma investment consultant RFP?",
+    "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "expected_facts": "4:00 p.m. Central Time on January 14, 2026.",
+    "acceptance": "January 14, 2026, 4pm Central Time. CT or CST acceptable for the January date.",
+    "text_hash": "24d5965850bb731d1f236f3c09eb9e9855009b90c82899fd35fc123fe3525d93",
+    "source_text_sha256": "206385c6cbc8b887e46333ea2f56fa3be1d68c7f94e466f08c17043704dfdec6",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "The document is an investment consultant RFP issued by the San Diego City Employees' Retirement System, not the Teachers' Retirement System of Oklahoma. Its proposal deadline is different, and it does not state the requested deadline for the Oklahoma RFP.",
+        "quotes": [
+          "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+          "The deadline for submission of the firm’s proposal is September 22, 2026 at 5:00 pm (PDT)."
+        ],
+        "quote_matches": [
+          {
+            "quote": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+            "start": 13,
+            "end": 117
+          },
+          {
+            "quote": "The deadline for submission of the firm’s proposal is September 22, 2026 at 5:00 pm (PDT).",
+            "start": 10684,
+            "end": 10774
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ],
+    "prior_source_path": "retrieval/support_reviews/848b2e03c1c9332e4783.json",
+    "prior_source_sha256": "37833ccfea2ea8846f33143598b3a2bef091a3d6e7ee7f76903ab1da8bc90eff"
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an investment consultant RFP issued by the San Diego City Employees' Retirement System, not the Teachers' Retirement System of Oklahoma. Its proposal deadline is different, and it does not state the requested deadline for the Oklahoma RFP.",
+      "quotes": [
+        "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+        "The deadline for submission of the firm’s proposal is September 22, 2026 at 5:00 pm (PDT)."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+          "start": 13,
+          "end": 117
+        },
+        {
+          "quote": "The deadline for submission of the firm’s proposal is September 22, 2026 at 5:00 pm (PDT).",
+          "start": 10684,
+          "end": 10774
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an investment consultant RFP from the San Diego City Employees' Retirement System, not the Teachers' Retirement System of Oklahoma. Its proposal deadline is different, so it does not evidence the requested deadline.",
+      "quotes": [
+        "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+        "The deadline for submission of the firm’s proposal is September 22, 2026 at 5:00 pm (PDT)."
+      ],
+      "quote_matches": [
+        {
+          "quote": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+          "start": 13,
+          "end": 117
+        },
+        {
+          "quote": "The deadline for submission of the firm’s proposal is September 22, 2026 at 5:00 pm (PDT).",
+          "start": 10684,
+          "end": 10774
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

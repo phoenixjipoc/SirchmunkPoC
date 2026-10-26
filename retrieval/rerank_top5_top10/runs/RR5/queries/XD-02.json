@@ -1,0 +1,33 @@
+{
+  "query_id": "XD-02",
+  "question": "A 2021 covering note describes an update to a responsible-investment due diligence questionnaire for private equity limited partners. When was the first version of that questionnaire launched, who adopted it, when was the working group for the update set up, and over how long had LPs and GPs been giving comments?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR5",
+  "status": "ok",
+  "candidate_limit": 5,
+  "candidate_count": 2,
+  "baseline_sha256": "86f8730a44b770173d2d253a67838c475e618f5ffee714f269cc117f1db1d295",
+  "payload_sha256": "1351cc68e3e09eb5ea15201ac3d4ef4945c997b1fc028fc93fd91748b42e6ea5",
+  "original_files": [
+    "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "ILPA__ILPA-DDQ-2.0.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 1.499,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

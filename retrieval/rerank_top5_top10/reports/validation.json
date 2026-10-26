@@ -1,0 +1,163 @@
+{
+  "checks": 39,
+  "passed": 39,
+  "all_passed": true,
+  "details": [
+    {
+      "name": "execution_inputs_and_code_unchanged",
+      "passed": true
+    },
+    {
+      "name": "scoring_inputs_unchanged",
+      "passed": true
+    },
+    {
+      "name": "reused_decision_provenance_unchanged",
+      "passed": true
+    },
+    {
+      "name": "environment_verified",
+      "passed": true
+    },
+    {
+      "name": "120_unique_queries",
+      "passed": true
+    },
+    {
+      "name": "original_queries_unchanged",
+      "passed": true
+    },
+    {
+      "name": "98_primary_questions",
+      "passed": true
+    },
+    {
+      "name": "81_original_documents_match",
+      "passed": true
+    },
+    {
+      "name": "baseline_byte_identical",
+      "passed": true
+    },
+    {
+      "name": "completed_results_unchanged_after_recovery",
+      "passed": true
+    },
+    {
+      "name": "RR5_all_tasks_completed",
+      "passed": true
+    },
+    {
+      "name": "RR5_all_calls_runtime_checked",
+      "passed": true
+    },
+    {
+      "name": "RR5_only_ranking_calls",
+      "passed": true
+    },
+    {
+      "name": "RR5_unchanged_candidate_set_and_tail",
+      "passed": true
+    },
+    {
+      "name": "RR5_frozen_metadata_only_payloads",
+      "passed": true
+    },
+    {
+      "name": "RR5_response_to_result_trace",
+      "passed": true
+    },
+    {
+      "name": "RR5_attempt_limits",
+      "passed": true
+    },
+    {
+      "name": "RR5_retrieval_only_and_hash_links",
+      "passed": true
+    },
+    {
+      "name": "RR10_all_tasks_completed",
+      "passed": true
+    },
+    {
+      "name": "RR10_all_calls_runtime_checked",
+      "passed": true
+    },
+    {
+      "name": "RR10_only_ranking_calls",
+      "passed": true
+    },
+    {
+      "name": "RR10_unchanged_candidate_set_and_tail",
+      "passed": true
+    },
+    {
+      "name": "RR10_frozen_metadata_only_payloads",
+      "passed": true
+    },
+    {
+      "name": "RR10_response_to_result_trace",
+      "passed": true
+    },
+    {
+      "name": "RR10_attempt_limits",
+      "passed": true
+    },
+    {
+      "name": "RR10_retrieval_only_and_hash_links",
+      "passed": true
+    },
+    {
+      "name": "shared_candidates_identical_between_arms",
+      "passed": true
+    },
+    {
+      "name": "360_scored_results",
+      "passed": true
+    },
+    {
+      "name": "per_question_top10_invariant",
+      "passed": true
+    },
+    {
+      "name": "rr5_per_question_top5_invariant",
+      "passed": true
+    },
+    {
+      "name": "no_unresolved_hit_metrics",
+      "passed": true
+    },
+    {
+      "name": "primary_denominators_98",
+      "passed": true
+    },
+    {
+      "name": "rr5_ceiling_respected",
+      "passed": true
+    },
+    {
+      "name": "rr10_ceiling_respected",
+      "passed": true
+    },
+    {
+      "name": "first_position_exceptions_sufficiently_checked",
+      "passed": true
+    },
+    {
+      "name": "all_required_new_source_jobs_completed",
+      "passed": true
+    },
+    {
+      "name": "new_positive_decisions_grounded",
+      "passed": true
+    },
+    {
+      "name": "source_check_runtime_verified",
+      "passed": true
+    },
+    {
+      "name": "preflight_runtime_verified",
+      "passed": true
+    }
+  ]
+}

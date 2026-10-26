@@ -1,0 +1,33 @@
+{
+  "query_id": "INV-10",
+  "question": "An alternative investment consulting RFP describes a private equity portfolio of 225 holdings across 105 general partners. What are the approximate net asset values of the system's absolute return, private credit, private equity and real assets portfolios?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR5",
+  "status": "ok",
+  "candidate_limit": 5,
+  "candidate_count": 2,
+  "baseline_sha256": "574b22cc9212c7de3fb959ca29e94dd52f4e22211c9f37d771ffa3e753f2196f",
+  "payload_sha256": "1ed0d5ceaf2ab7a2570d4df4ca06ef44a3c941150ca14957435624a7b0fc3aea",
+  "original_files": [
+    "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+      "path": "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 1.406,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

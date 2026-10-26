@@ -1,0 +1,33 @@
+{
+  "query_id": "XD-06",
+  "question": "One private equity due diligence questionnaire asks whether the fund gives limited partners more than a certain number of business days' notice for capital calls. What is the threshold, and in which section of the questionnaire is this question?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 2,
+  "baseline_sha256": "8e5364413700946eb73dac6386b98bd1267713cd38be92945cdd4113a24e5be4",
+  "payload_sha256": "348135511fba4008037d48c74e7890ad8501722118c887f2491f3783d556e0c4",
+  "original_files": [
+    "Temple_City_CA__Recordkeeping-RFP.pdf",
+    "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "path": "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "path": "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 1.455,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

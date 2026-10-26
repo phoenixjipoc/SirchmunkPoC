@@ -1,0 +1,33 @@
+{
+  "query_id": "INV-07",
+  "question": "In the published questions and answers for a city's pension fund consulting RFP, the city says it sent the RFP to 21 firms and last ran such a search in 2013. What does the plan currently pay for advisory services on its equities and for management of its fixed income?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 2,
+  "baseline_sha256": "ff28e03535add873ccce20a1d1d596e96496dff542ec406805559f1e316d8db0",
+  "payload_sha256": "20618da4ccb5d6109f73eb99781146e583e8702f6077fcdfd94fcd3d8f2557e5",
+  "original_files": [
+    "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf",
+      "path": "/mnt/docs/S/Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 1.38,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

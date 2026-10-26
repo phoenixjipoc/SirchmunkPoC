@@ -1,0 +1,51 @@
+{
+  "query_id": "SVC-02",
+  "question": "In the American Academy of Actuaries' 2011 RFP for retirement plan and related consulting services, what were the plan assets at 12/31/10 of each of its three retirement plans?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 5,
+  "baseline_sha256": "1d928f6c4346cd5ae540ba286cad435671f4f774cb48ec9e4bf9460409ea92c7",
+  "payload_sha256": "87e1dbd2a1c53a62098980b0f8c7d3eb96c61d6f7155f4992935412755e87b06",
+  "original_files": [
+    "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "LACERS__2025_actuarial_consulting_services_rfp.pdf",
+    "American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf",
+    "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+    "Anchorage_PFRS__RFP_2025_Final.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf",
+      "path": "/mnt/docs/S/American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+      "path": "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "LACERS__2025_actuarial_consulting_services_rfp.pdf",
+      "path": "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+      "path": "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 2.839,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

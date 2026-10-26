@@ -1,0 +1,45 @@
+{
+  "query_id": "INV-24",
+  "question": "Which of the private equity, alternatives and real assets consultant RFPs in the corpus identify the incumbent or existing consultants, who are they, and may the incumbent compete?",
+  "type": "broad",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 4,
+  "baseline_sha256": "348db154d4d148671d38c1e2538474b6d4e429ed542929f05e826963c10d2fad",
+  "payload_sha256": "426b12647c0c9aae1be99fd39c0580b82d5672a36bcf744e8ae056dff1c0fe58",
+  "original_files": [
+    "OCERS__investment_consultant_services_rfp.pdf",
+    "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+    "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+      "path": "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+      "path": "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "path": "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 4.404,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

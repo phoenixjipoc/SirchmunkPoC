@@ -1,0 +1,81 @@
+{
+  "query_id": "XD-17",
+  "question": "Which RFPs in the corpus contain Iran-related certification, disclosure or compliance requirements for respondents?",
+  "type": "broad",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 10,
+  "baseline_sha256": "17510b87128ab47f8fbeb431b5436e6da629608ef2dd9811af1f9d705bd5ab5a",
+  "payload_sha256": "d88e64a5fc46bc47d1371830b56783396a2b69afa9e243ce061876d68d63896b",
+  "original_files": [
+    "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "Temple_City_CA__Recordkeeping-RFP.pdf",
+    "Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf",
+    "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+    "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+    "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "OCERS__ocers_pas_consultant_rfp.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+      "path": "/mnt/docs/S/Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+      "path": "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "path": "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+      "path": "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "OCERS__ocers_pas_consultant_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "path": "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf",
+      "path": "/mnt/docs/S/Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+      "path": "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 7.546,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

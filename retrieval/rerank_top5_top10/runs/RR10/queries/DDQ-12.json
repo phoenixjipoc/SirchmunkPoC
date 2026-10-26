@@ -1,0 +1,39 @@
+{
+  "query_id": "DDQ-12",
+  "question": "Which bucket (Not Present, Developing, Intermediate or Advanced) did ILPA assign to KKR under the ILPA ESG Assessment Framework, and what numerical score did KKR receive?",
+  "type": "unanswerable",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 3,
+  "baseline_sha256": "12487c21d13bfd0391dd4e0ac5016b76d1bd0194189cde37f953916bc96d4df6",
+  "payload_sha256": "f72c468fa06b7ca12fa81e602a20bb87fa8c18e5bff0864fdae6d415e0404d35",
+  "original_files": [
+    "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+    "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+    "ILPA__ILPA-ESG-Assessment-Framework.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "ILPA__ILPA-ESG-Assessment-Framework.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+      "path": "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+      "path": "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 2.541,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

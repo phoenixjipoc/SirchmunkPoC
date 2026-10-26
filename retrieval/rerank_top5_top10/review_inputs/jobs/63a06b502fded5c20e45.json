@@ -1,0 +1,38 @@
+{
+  "id": "63a06b502fded5c20e45",
+  "query_id": "XD-09",
+  "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+  "file": "Monroe_County_NY__10406.pdf",
+  "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+  "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+  "text_hash": "5d6c1b9f9242df668205b792cbc1dea026ee8ef0e4aabeeeeac4e0c341a7f6f8",
+  "source_text_sha256": "7b3f27d9504ca7c7c594e455ea0695752566e185651ccdd3eb547409c2e9f252",
+  "second_check_required": true,
+  "prior_reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a Monroe County deferred compensation services RFP, not the ILPA Due Diligence Questionnaire v1.2. Its table of contents lists Exhibits A–C, not the five requested appendices.",
+      "quotes": [
+        "Request for Proposals Deferred Compensation Services: Administrative/Recordkeeping Services, Marketing/Enrollment/Education Services, Investment Management, and Custodial Trustee Services August 4, 2023",
+        "EXHIBIT A: INVESTMENT PERFORMANCE EXHIBIT B: FEE SCHEDULE EXHIBIT C: PLAN DATA"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposals Deferred Compensation Services: Administrative/Recordkeeping Services, Marketing/Enrollment/Education Services, Investment Management, and Custodial Trustee Services August 4, 2023",
+          "start": 13,
+          "end": 215
+        },
+        {
+          "quote": "EXHIBIT A: INVESTMENT PERFORMANCE EXHIBIT B: FEE SCHEDULE EXHIBIT C: PLAN DATA",
+          "start": 1693,
+          "end": 1771
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    }
+  ],
+  "prior_source_path": "retrieval/support_reviews/63a06b502fded5c20e45.json",
+  "prior_source_sha256": "e6bc3dc72aeac3736c5879a5af1c702e13b0be7c0658ea7225acf1ffcfca7ec5"
+}

@@ -1,0 +1,81 @@
+{
+  "query_id": "OTH-10",
+  "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR5",
+  "status": "ok",
+  "candidate_limit": 5,
+  "candidate_count": 5,
+  "baseline_sha256": "0d43af561debf254d173773cb7d971518a7f236b05da8b7cdfa720ca8d28aeab",
+  "payload_sha256": "ed45c16b54f6d728da8f73e43d4f9f33a91b793da7ed03c380d14005d7edcb7e",
+  "original_files": [
+    "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+    "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "INPRS__RFP24-05_AuditServices.pdf",
+    "OCERS__custodian_rfp_2022-2023.pdf",
+    "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "SBCERS__2020-Private-Equity-RFP.pdf",
+    "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "AVFPD__RFP-Actuatial-Services-2024.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "INPRS__RFP24-05_AuditServices.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+      "path": "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "OCERS__custodian_rfp_2022-2023.pdf",
+      "path": "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+      "path": "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+      "path": "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+      "path": "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+      "path": "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "AVFPD__RFP-Actuatial-Services-2024.pdf",
+      "path": "/mnt/docs/S/AVFPD__RFP-Actuatial-Services-2024.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 2.836,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

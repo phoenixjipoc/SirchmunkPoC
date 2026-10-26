@@ -1,0 +1,45 @@
+{
+  "query_id": "SVC-17",
+  "question": "What evaluation criteria and point values are used to score proposals in the Delaware Office of the State Treasurer's 2021 RFP for deferred compensation plan recordkeeping and administration services?",
+  "type": "medium",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 4,
+  "baseline_sha256": "1c4fe4f1ff50af22c4a596e8bbdc5f220a9893803601834e53c7e0b2ceb33179",
+  "payload_sha256": "a4096cf1423ab07e0d6a46692ee2572235e5bab44b3c3e73a1d1a49be4340d79",
+  "original_files": [
+    "Monroe_County_NY__10406.pdf",
+    "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "Temple_City_CA__Recordkeeping-RFP.pdf",
+    "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "path": "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "path": "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Monroe_County_NY__10406.pdf",
+      "path": "/mnt/docs/S/Monroe_County_NY__10406.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+      "path": "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 2.046,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

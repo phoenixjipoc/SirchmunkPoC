@@ -12,6 +12,7 @@ The two objectives are:
 The primary measure uses **98 single-document questions**. The other 22 questions have separate measures.
 
 - Baseline: Top-1 **52.04% (51/98)**, Top-5 **75.51% (74/98)** and Top-10 **81.63% (80/98)**.
+- Reranking the baseline's first five candidates: Top-1 **75.51% (74/98)**; reranking its first ten: **80.61% (79/98)**. Top-10 remains **81.63% (80/98)** in both arms. One task retained its original order after a connection failure.
 - Three repeated runs: Top-1 **45.92%–52.04%**, averaging **50.00%**; 38 questions change between a first-position hit and miss.
 - Considering all 81 directory candidates: Top-10 **91.84% (90/98)** and Top-1 **55.10% (54/98)**.
 - Legacy-document parser repair: readable text from **81/81** documents instead of 80/81; one additional required source found for XD-16, with no change to single-document Top-1 in the controlled comparison.
@@ -19,6 +20,8 @@ The primary measure uses **98 single-document questions**. The other 22 question
 Directory coverage and parsing were tested separately. Their combined effect was not measured. These are results on an exposed benchmark, not an unseen test set.
 
 See the [full results](retrieval/followup120/reports/REPORT.md), [per-question scores](retrieval/followup120/reports/questions.csv), [ordered references](retrieval/followup120/reports/references.csv) and [original retrieval baseline](retrieval/reports/basic120/REPORT.md).
+
+The [reranking comparison](retrieval/rerank_top5_top10/reports/REPORT.md) uses one pass per arm on frozen R1 candidates, with identical document metadata and previews capped at 800 characters. RR5 adds 23 first-position hits and RR10 adds 28, with no first-position losses against R1. [All three groups](retrieval/rerank_top5_top10/reports/questions.csv) and [paired changes](retrieval/rerank_top5_top10/reports/transitions.csv) are recorded separately from the original retrieval tests.
 
 ## Runtime and configuration
 
@@ -64,6 +67,7 @@ Queries use keyword discovery and directory selection, followed by an ordered, d
 - `poc/questions/`: the 120-question dataset, its drafts and supporting source audit.
 - `retrieval/`: baseline scripts, frozen inputs, execution records, source checks and results.
 - `retrieval/followup120/`: repeated runs, controlled comparisons, raw records and final reports.
+- `retrieval/rerank_top5_top10/`: fixed Top-5/Top-10 reranking, source checks and comparison results.
 - `retrieval/source_snapshot/`: unchanged installed-package snapshot used for source-hash verification; it is not a separate experiment.
 
 The dataset paths remain stable so the frozen input hashes and validation scripts remain reproducible.
@@ -77,6 +81,7 @@ The saved results can be validated without service requests:
 ```bash
 python retrieval/validate.py
 python retrieval/followup120/validate.py
+python retrieval/rerank_top5_top10/validate.py
 ```
 
 The [execution record](retrieval/followup120/EXECUTION.md) retains recovery details. The [parser correction record](retrieval/followup120/PARSER_CORRECTION.md) explains the excluded first attempt and corrected replay. See the saved validation report for the current checks.

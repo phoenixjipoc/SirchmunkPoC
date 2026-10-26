@@ -1,0 +1,39 @@
+{
+  "query_id": "CONS-12",
+  "question": "How many printed copies of the proposal must be submitted in the Boston Retirement System 2022 investment consulting services RFP?",
+  "type": "pair_a",
+  "pair_id": "P2",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 3,
+  "baseline_sha256": "710f7328fed2853c6b14ec2316d883cd99682b172573133c539bb8d45a70963b",
+  "payload_sha256": "a58ccb5c22ad1dcee373da48124d8ff12ffc2c3f54ff4f4a1fe20955523d07bc",
+  "original_files": [
+    "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+    "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "path": "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
+      "path": "/mnt/docs/S/SBCERA__investment_consultant_-_request_for_proposals.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "path": "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 2.329,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

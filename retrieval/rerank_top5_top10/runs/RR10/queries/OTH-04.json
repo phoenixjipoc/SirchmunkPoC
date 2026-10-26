@@ -1,0 +1,27 @@
+{
+  "query_id": "OTH-04",
+  "question": "According to the Santa Barbara County Employees' Retirement System (SBCERS) custody RFP, how much in assets did SBCERS have as of September 30, 2023?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "skipped_single",
+  "candidate_limit": 10,
+  "candidate_count": 1,
+  "baseline_sha256": "3ea2357c3ab0163d46cb0e8f5dea3c6ea716a3283aec92f92152b75aa19a7485",
+  "payload_sha256": "a9a0aa1b10c00eec6b69002171bff08312f98081d9611bc953d8abba7404bb79",
+  "original_files": [
+    "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    }
+  ],
+  "attempts": 0,
+  "elapsed_s": 0,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

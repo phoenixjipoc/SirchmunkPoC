@@ -1,0 +1,81 @@
+{
+  "query_id": "SVC-14",
+  "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+  "type": "pair_b",
+  "pair_id": "P14",
+  "group": "RR5",
+  "status": "ok",
+  "candidate_limit": 5,
+  "candidate_count": 5,
+  "baseline_sha256": "214e30fdcfd5dd8ff350445477c805eb35e538260e0261f4291b0a33dfbe8c7a",
+  "payload_sha256": "a682f6c01da684973f4c495de1f83dc0394da097a502be97cd769cb0812855e2",
+  "original_files": [
+    "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "SBCERS__2020-Private-Equity-RFP.pdf",
+    "INPRS__RFP24-05_AuditServices.pdf",
+    "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+    "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "LACERS__2025_actuarial_consulting_services_rfp.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+      "path": "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "path": "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+      "path": "/mnt/docs/S/DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "INPRS__RFP24-05_AuditServices.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+      "path": "/mnt/docs/S/KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+      "path": "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "LACERS__2025_actuarial_consulting_services_rfp.pdf",
+      "path": "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 3.851,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

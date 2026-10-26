@@ -1,0 +1,39 @@
+{
+  "query_id": "XD-18",
+  "question": "Apart from ILPA's own publications and the PRI covering note, which documents in the corpus refer to ILPA, and for what purpose?",
+  "type": "broad",
+  "pair_id": "",
+  "group": "RR5",
+  "status": "ok",
+  "candidate_limit": 5,
+  "candidate_count": 3,
+  "baseline_sha256": "7370f564ced6d77c2e51add9fbe894aa6e9e4d694e81e956bb69ef8fc9a43cf5",
+  "payload_sha256": "5cd24cf5741944f276a342a5e7d3029f4a5859ca002c0cf9fab9d54e83f31d54",
+  "original_files": [
+    "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+    "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+      "path": "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Hawaii_ERS__ERS-Private-Equity-AD.pdf",
+      "path": "/mnt/docs/S/Hawaii_ERS__ERS-Private-Equity-AD.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "path": "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 5.518,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

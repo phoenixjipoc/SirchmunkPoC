@@ -1,0 +1,90 @@
+{
+  "job": {
+    "id": "102e0c6670fb7243c0ee",
+    "query_id": "OTH-14",
+    "question": "What was the proposal deadline in the Hawaii ERS 2022 RFP for real assets investment consultant services?",
+    "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "expected_facts": "November 30, 2022 by 4:30 p.m. (H.S.T.) (RFP 2022-06, issued October 3, 2022).",
+    "acceptance": "November30,2022 at 4:30pm HST; issue date and RFP number optional.",
+    "text_hash": "ba38eb84b9e6630e06869a17bd0a8d39bbd7f3fbf79cf38deccbc05584512bde",
+    "source_text_sha256": "71f7dc2105be0914ed5549193987a3d5f6eda22588e7c5e025dd27c5e41ee8a0",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "The document is an Illinois TRS 2024 RFP, not the Hawaii ERS 2022 RFP. Its stated proposal deadline therefore does not support the requested deadline.",
+        "quotes": [
+          "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+          "All proposals must be received at the address designated below no later than 2:00 P.M. CDT on Wednesday, September 4, 2024."
+        ],
+        "quote_matches": [
+          {
+            "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+            "start": 13,
+            "end": 159
+          },
+          {
+            "quote": "All proposals must be received at the address designated below no later than 2:00 P.M. CDT on Wednesday, September 4, 2024.",
+            "start": 18190,
+            "end": 18313
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ],
+    "prior_source_path": "retrieval/support_reviews/102e0c6670fb7243c0ee.json",
+    "prior_source_sha256": "9426ffcd9c4d88c8931ea94aa615d02090690c79349e47b72c4d031bafdf7298"
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an Illinois TRS 2024 RFP, not the Hawaii ERS 2022 RFP. Its stated proposal deadline therefore does not support the requested deadline.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+        "All proposals must be received at the address designated below no later than 2:00 P.M. CDT on Wednesday, September 4, 2024."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+          "start": 13,
+          "end": 159
+        },
+        {
+          "quote": "All proposals must be received at the address designated below no later than 2:00 P.M. CDT on Wednesday, September 4, 2024.",
+          "start": 18190,
+          "end": 18313
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a 2024 RFP from the Teachers’ Retirement System of the State of Illinois for private equity investment consultant services, not the Hawaii ERS 2022 real assets RFP. Its September 4, 2024 deadline does not establish the requested deadline.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+        "All proposals must be received at the address designated below no later than 2:00 P.M. CDT on Wednesday, September 4, 2024."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+          "start": 13,
+          "end": 159
+        },
+        {
+          "quote": "All proposals must be received at the address designated below no later than 2:00 P.M. CDT on Wednesday, September 4, 2024.",
+          "start": 18190,
+          "end": 18313
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

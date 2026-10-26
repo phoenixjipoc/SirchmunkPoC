@@ -1,0 +1,81 @@
+{
+  "query_id": "DDQ-11",
+  "question": "What common areas do the due diligence questionnaires in the corpus cover?",
+  "type": "broad",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 10,
+  "baseline_sha256": "00dc2a3138065d7fbe748791342fb456c7d50276dd74add514d43f87d5238395",
+  "payload_sha256": "15906ce60e8a5b27705123cbb793dea844426654f90ac96253a2a9ae600feeb9",
+  "original_files": [
+    "ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+    "ILPA__ILPA-DDQ-2.0.pdf",
+    "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+    "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "OCERS__custodian_rfp_2022-2023.pdf",
+    "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+    "SBCERS__2020-Private-Equity-RFP.pdf",
+    "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "ILPA__ILPA-DDQ-2.0.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+      "path": "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+      "path": "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+      "path": "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "OCERS__custodian_rfp_2022-2023.pdf",
+      "path": "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+      "path": "/mnt/docs/S/CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "path": "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 4.032,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

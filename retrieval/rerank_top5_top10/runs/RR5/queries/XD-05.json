@@ -1,0 +1,33 @@
+{
+  "query_id": "XD-05",
+  "question": "According to the ILPA Due Diligence Questionnaire v1.2, when was version 1.1 released and what changes did it introduce?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR5",
+  "status": "ok",
+  "candidate_limit": 5,
+  "candidate_count": 2,
+  "baseline_sha256": "839e163033d4860bd031454875bad7a32e5ebfe96bf20a356aaa2992ed42cda0",
+  "payload_sha256": "2e25d104fc9143c7d10f3bd454b2cc0ab135f861db9d5d9c7e94a2db9ea7327a",
+  "original_files": [
+    "ILPA__ILPA-DDQ-2.0.pdf",
+    "ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "ILPA__ILPA-DDQ-2.0.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 2.013,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

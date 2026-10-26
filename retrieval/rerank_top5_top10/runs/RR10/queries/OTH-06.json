@@ -1,0 +1,27 @@
+{
+  "query_id": "OTH-06",
+  "question": "In Clark County, Washington's RFP 955 for a deferred compensation 457 plan administrator, how much was held in the 457 Plans as of December 31, 2025, and who is the current provider?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "skipped_single",
+  "candidate_limit": 10,
+  "candidate_count": 1,
+  "baseline_sha256": "51250e1e487d64dc23ef0dda73fc2cf3188a5174e29d09bd02c16a5a9823f569",
+  "payload_sha256": "2283dfdefe3daa819b6cadf7c065601ae57d9abdc15a662f14e06a1a3d8ef559",
+  "original_files": [
+    "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+      "path": "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf"
+    }
+  ],
+  "attempts": 0,
+  "elapsed_s": 0,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

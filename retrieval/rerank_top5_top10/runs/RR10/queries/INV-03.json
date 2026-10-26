@@ -1,0 +1,81 @@
+{
+  "query_id": "INV-03",
+  "question": "In the Boston Retirement System's investment consulting services proposal questionnaire (Attachment 3), how many current public fund client references must be listed, and what minimum asset size must those clients have?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 10,
+  "baseline_sha256": "d9cbe55084bfc4aef0e137c40bf2b88f3adcb47ec302a128bac9d4a550a97b72",
+  "payload_sha256": "b1f5c53ee1722a885eedf60c26d75cb0ebb58b39cda267d30be1cbad54cce311",
+  "original_files": [
+    "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+    "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+    "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "Anchorage_PFRS__RFP_2025_Final.pdf",
+    "Hartford_MERF__file.pdf",
+    "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+    "NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf",
+    "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "path": "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+      "path": "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+      "path": "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+      "path": "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "Hartford_MERF__file.pdf",
+      "path": "/mnt/docs/S/Hartford_MERF__file.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+      "path": "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+      "path": "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf",
+      "path": "/mnt/docs/S/NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 4.564,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

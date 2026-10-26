@@ -1,0 +1,39 @@
+{
+  "query_id": "CONS-08",
+  "question": "Which retirement plan's investment consulting RFP requires that, as of December 31, 2024, the firm have at least three public fund clients each with at least $1B in assets and have been in business at least ten years?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR5",
+  "status": "ok",
+  "candidate_limit": 5,
+  "candidate_count": 3,
+  "baseline_sha256": "efd3f7210073ac4c88fe6bf4df8e51d883513c9fa6bd2a1f60790115fa523a73",
+  "payload_sha256": "b44bee0cfe6509b9c3b9581c0e0ccf339bdfbb67174bb7866205e268b9d28340",
+  "original_files": [
+    "CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+    "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+      "path": "/mnt/docs/S/CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "path": "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+      "path": "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 1.833,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

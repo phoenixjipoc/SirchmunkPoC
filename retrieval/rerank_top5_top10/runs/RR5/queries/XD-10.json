@@ -1,0 +1,81 @@
+{
+  "query_id": "XD-10",
+  "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+  "type": "pair_b",
+  "pair_id": "P17",
+  "group": "RR5",
+  "status": "ok",
+  "candidate_limit": 5,
+  "candidate_count": 5,
+  "baseline_sha256": "8511803d5824ef28d7244f159686c03917b32fd676deed02f012111af1cc8dbb",
+  "payload_sha256": "37ce3bd2bf2a08a1f07a12b77f4ccb3b9eb5a6bfeb0011049636a62c2ef114db",
+  "original_files": [
+    "Anchorage_PFRS__RFP_2025_Final.pdf",
+    "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "Hartford_MERF__file.pdf",
+    "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+      "path": "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx"
+    },
+    {
+      "rank": 2,
+      "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+      "path": "/mnt/docs/S/SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+      "path": "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "path": "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+      "path": "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+      "path": "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+      "path": "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "Hartford_MERF__file.pdf",
+      "path": "/mnt/docs/S/Hartford_MERF__file.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 2.423,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

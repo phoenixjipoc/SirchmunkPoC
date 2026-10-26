@@ -1,0 +1,39 @@
+{
+  "query_id": "CONS-16",
+  "question": "Across these ten general investment consulting RFPs in the corpus—OCERS, COAERS, SDCERS, Grand Rapids, CTA Retirement Plan, SC RSIC, Hartford MERF, SBCERA, NYC BERS and Boston BRS—what is the most common stated minimum number of years in business or experience for the consulting firm?",
+  "type": "broad",
+  "pair_id": "",
+  "group": "RR5",
+  "status": "ok",
+  "candidate_limit": 5,
+  "candidate_count": 3,
+  "baseline_sha256": "eddfa1466529ea77d2a96a359b3ecd406a271c77ead3758a02b6b7659b10bef8",
+  "payload_sha256": "6b36cd0fd29d9de4a8d11f8082bb2ff50e69903caff128a0b541c33544f277ae",
+  "original_files": [
+    "CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+    "OCERS__investment_consultant_services_rfp.pdf",
+    "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+      "path": "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+      "path": "/mnt/docs/S/CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 3.169,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

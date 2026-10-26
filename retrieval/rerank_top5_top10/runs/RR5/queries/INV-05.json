@@ -1,0 +1,33 @@
+{
+  "query_id": "INV-05",
+  "question": "In the Teachers' Retirement System of the State of Illinois (TRS) FY25 RFP for private equity investment consultant services, what minimum private equity client experience must a firm certify?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR5",
+  "status": "ok",
+  "candidate_limit": 5,
+  "candidate_count": 2,
+  "baseline_sha256": "9c0550be0ac3af90065348e82f6c687a1f00bd77a3d3eaadf0d1ebc356c7e406",
+  "payload_sha256": "b10bfb34c3e19aceb02839a1015191ec7fbf61cdfdada2a03fe098080ad7c03d",
+  "original_files": [
+    "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+    "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 1.366,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

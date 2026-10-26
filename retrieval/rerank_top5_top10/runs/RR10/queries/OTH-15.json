@@ -1,0 +1,81 @@
+{
+  "query_id": "OTH-15",
+  "question": "In the Los Angeles City Employees' Retirement System (LACERS) actuarial RFP, how many years of experience must the lead actuary have?",
+  "type": "pair_a",
+  "pair_id": "P5",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 10,
+  "baseline_sha256": "c4d154ea673a4a3e514ad4b05a79489988ed1351138f7c7388b38e2e0690dcea",
+  "payload_sha256": "c5ab92189ffecafaca4b04478fb0c741794a28a3a950c56aa283eebecdb32b9b",
+  "original_files": [
+    "LACERS__2025_actuarial_consulting_services_rfp.pdf",
+    "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+    "Temple_City_CA__Recordkeeping-RFP.pdf",
+    "Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf",
+    "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+    "OCERS__ocers_pas_consultant_rfp.pdf",
+    "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "LACERS__2025_actuarial_consulting_services_rfp.pdf",
+      "path": "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+      "path": "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf",
+      "path": "/mnt/docs/S/Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+      "path": "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "OCERS__ocers_pas_consultant_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+      "path": "/mnt/docs/S/Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "path": "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+      "path": "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+      "path": "/mnt/docs/S/SAA__SAA-Investment-Manager-Database-Questionnaire.docx"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 3.195,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

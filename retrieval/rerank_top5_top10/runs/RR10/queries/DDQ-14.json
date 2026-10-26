@@ -1,0 +1,81 @@
+{
+  "query_id": "DDQ-14",
+  "question": "How many general partners had adopted the ILPA DDQ 2.0 by 2024?",
+  "type": "unanswerable",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 10,
+  "baseline_sha256": "0b8fd9ba0a15ed763011fc5e7e21757fcd7fa7fda75683ae9edffa331a0e48bb",
+  "payload_sha256": "5bc0d27e1f905631802b03c5033bec09294d872a8c90ad6099ac12174530b7fe",
+  "original_files": [
+    "ILPA__ILPA-ESG-Assessment-Framework.pdf",
+    "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "OCERS__custodian_rfp_2022-2023.pdf",
+    "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+    "OCERS__investment_consultant_services_rfp.pdf",
+    "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+    "ILPA__ILPA-DDQ-2.0.pdf",
+    "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "ILPA__ILPA-DDQ-2.0.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+      "path": "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "ILPA__ILPA-ESG-Assessment-Framework.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+      "path": "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+      "path": "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "OCERS__custodian_rfp_2022-2023.pdf",
+      "path": "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+      "path": "/mnt/docs/S/CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 3.683,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

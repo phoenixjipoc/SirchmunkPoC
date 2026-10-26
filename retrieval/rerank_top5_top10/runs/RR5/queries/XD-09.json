@@ -1,0 +1,81 @@
+{
+  "query_id": "XD-09",
+  "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+  "type": "pair_a",
+  "pair_id": "P17",
+  "group": "RR5",
+  "status": "ok",
+  "candidate_limit": 5,
+  "candidate_count": 5,
+  "baseline_sha256": "882d465da99ed6f634725bbbb1cdc2061efce23a7a1fb4aa251fc103d7c59be7",
+  "payload_sha256": "6e8d59d9f89679eac32be644d7d2cfa7fa267b600e09ca9d4459a1407805e457",
+  "original_files": [
+    "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "INPRS__RFP24-05_AuditServices.pdf",
+    "Monroe_County_NY__10406.pdf",
+    "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+    "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+    "OCERS__investment_consultant_services_rfp.pdf",
+    "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Monroe_County_NY__10406.pdf",
+      "path": "/mnt/docs/S/Monroe_County_NY__10406.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+      "path": "/mnt/docs/S/St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "INPRS__RFP24-05_AuditServices.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+      "path": "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "path": "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+      "path": "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 2.743,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

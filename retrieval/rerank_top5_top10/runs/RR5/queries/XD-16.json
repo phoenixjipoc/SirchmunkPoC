@@ -1,0 +1,81 @@
+{
+  "query_id": "XD-16",
+  "question": "Which documents in the corpus directly ask whether the responding firm is a signatory to the (UN) Principles for Responsible Investment?",
+  "type": "broad",
+  "pair_id": "",
+  "group": "RR5",
+  "status": "ok",
+  "candidate_limit": 5,
+  "candidate_count": 5,
+  "baseline_sha256": "b3dd3cf423b9101de76fc1b81bc62e0da6b72282b1e5bdf093877911b2cf6395",
+  "payload_sha256": "41476caaa441fee4661db3fef53eead08b6d2bb5aaa7f61774e0820a029721ab",
+  "original_files": [
+    "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+    "CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+    "IMRF__sample_investment_manager_rfp.pdf",
+    "IMRF__sample-investment-consulting-rfp.pdf",
+    "MA_PRIM__PDF-Version-of-RFP.pdf",
+    "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+    "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+      "path": "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx"
+    },
+    {
+      "rank": 2,
+      "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+      "path": "/mnt/docs/S/CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "IMRF__sample_investment_manager_rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "IMRF__sample-investment-consulting-rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "MA_PRIM__PDF-Version-of-RFP.pdf",
+      "path": "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+      "path": "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+      "path": "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 4.676,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

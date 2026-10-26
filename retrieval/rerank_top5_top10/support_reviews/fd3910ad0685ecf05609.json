@@ -1,0 +1,126 @@
+{
+  "job": {
+    "id": "fd3910ad0685ecf05609",
+    "query_id": "SVC-04",
+    "question": "In the Contra Costa County Employees' Retirement Association (CCCERA) April 2018 master custodian RFP, how many copies of the proposal must be submitted, and for how long must the proposal remain a firm and irrevocable offer?",
+    "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "expected_facts": "One (1) original proposal, four (4) hard copies and one (1) copy in electronic form; the proposal must be a firm and irrevocable offer good for one year from the proposal due date (due 5:00 p.m. PT, Friday, May 25, 2018).",
+    "acceptance": "Accept five paper sets total if the original is clearly included, plus one electronic copy; validity one year from due date. Actual proposal deadline is optional.",
+    "text_hash": "a98d524e6be406d219908f55d7669eccd66ebe00dac2da8fe751cb73c6c068e5",
+    "source_text_sha256": "f7992acf077bd43f56dcfe41af1dd3fdb115f4ea1c61bea284a8fb27b11a2ca2",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is a February 2022 Texas Municipal Retirement System RFP for general investment consulting services, not CCCERA’s April 2018 master custodian RFP. Its submission and offer-duration requirements differ, and it does not explicitly restate the CCCERA requirements.",
+        "quotes": [
+          "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+          "REQUEST FOR PROPOSAL NON-DISCRETIONARY GENERAL INVESTMENT CONSULTING SERVICES FEBRUARY 3, 2022",
+          "Please submit three (3) electronic Proposals, labeled as indicated below:",
+          "the Respondent's guarantee that the proposal as submitted shall remain in full force and effect as specified in this RFP for at least six (6) months after the closing date for responses or until a contract is approved, whichever comes first."
+        ],
+        "quote_matches": [
+          {
+            "quote": "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+            "start": 4270,
+            "end": 4370
+          },
+          {
+            "quote": "REQUEST FOR PROPOSAL NON-DISCRETIONARY GENERAL INVESTMENT CONSULTING SERVICES FEBRUARY 3, 2022",
+            "start": 1355,
+            "end": 1449
+          },
+          {
+            "quote": "Please submit three (3) electronic Proposals, labeled as indicated below:",
+            "start": 16593,
+            "end": 16666
+          },
+          {
+            "quote": "the Respondent's guarantee that the proposal as submitted shall remain in full force and effect as specified in this RFP for at least six (6) months after the closing date for responses or until a contract is approved, whichever comes first.",
+            "start": 18247,
+            "end": 18488
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ],
+    "prior_source_path": "retrieval/support_reviews/fd3910ad0685ecf05609.json",
+    "prior_source_sha256": "b1cd5af250e8e4173bc81498981ee6318d504d872306c340b5bf913c048543ff"
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a February 2022 Texas Municipal Retirement System RFP for general investment consulting services, not CCCERA’s April 2018 master custodian RFP. Its submission and offer-duration requirements differ, and it does not explicitly restate the CCCERA requirements.",
+      "quotes": [
+        "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+        "REQUEST FOR PROPOSAL NON-DISCRETIONARY GENERAL INVESTMENT CONSULTING SERVICES FEBRUARY 3, 2022",
+        "Please submit three (3) electronic Proposals, labeled as indicated below:",
+        "the Respondent's guarantee that the proposal as submitted shall remain in full force and effect as specified in this RFP for at least six (6) months after the closing date for responses or until a contract is approved, whichever comes first."
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+          "start": 4270,
+          "end": 4370
+        },
+        {
+          "quote": "REQUEST FOR PROPOSAL NON-DISCRETIONARY GENERAL INVESTMENT CONSULTING SERVICES FEBRUARY 3, 2022",
+          "start": 1355,
+          "end": 1449
+        },
+        {
+          "quote": "Please submit three (3) electronic Proposals, labeled as indicated below:",
+          "start": 16593,
+          "end": 16666
+        },
+        {
+          "quote": "the Respondent's guarantee that the proposal as submitted shall remain in full force and effect as specified in this RFP for at least six (6) months after the closing date for responses or until a contract is approved, whichever comes first.",
+          "start": 18247,
+          "end": 18488
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is a Texas Municipal Retirement System February 2022 RFP for general investment consulting services, not CCCERA’s April 2018 master custodian RFP. Its submission and offer-duration requirements therefore cannot establish the requested facts.",
+      "quotes": [
+        "You are invited to review and respond to this Texas Municipal Retirement System (TMRS) Request for Proposal (RFP) entitled Non-Discretionary General Investment Consulting Services.",
+        "February 3, 2022",
+        "Please submit three (3) electronic Proposals, labeled as indicated below:",
+        "for at least six (6) months after the closing date for responses or until a contract is approved, whichever comes first."
+      ],
+      "quote_matches": [
+        {
+          "quote": "You are invited to review and respond to this Texas Municipal Retirement System (TMRS) Request for Proposal (RFP) entitled Non-Discretionary General Investment Consulting Services.",
+          "start": 148,
+          "end": 328
+        },
+        {
+          "quote": "February 3, 2022",
+          "start": 131,
+          "end": 147
+        },
+        {
+          "quote": "Please submit three (3) electronic Proposals, labeled as indicated below:",
+          "start": 16593,
+          "end": 16666
+        },
+        {
+          "quote": "for at least six (6) months after the closing date for responses or until a contract is approved, whichever comes first.",
+          "start": 18368,
+          "end": 18488
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

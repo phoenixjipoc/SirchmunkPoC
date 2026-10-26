@@ -1,0 +1,33 @@
+{
+  "query_id": "XD-03",
+  "question": "How many working-group participant entries are listed in the appendix of the PRI covering note on the 2021 update of its private equity responsible investment DDQ (counting the joint TPG & Y Analytics entry once), and who represented CalPERS and CalSTRS?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 2,
+  "baseline_sha256": "87b3768184d80da69d4993ee76f4f1f2e3b59db0840dc037a7ebbd2192f5d43d",
+  "payload_sha256": "2f212aa83878f1823e60b96064f9bbd023fef0052ac1ccbc808c0d7d0a055464",
+  "original_files": [
+    "PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+    "ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+      "path": "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "ILPA__ILPA-DDQ-2.0.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 1.611,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

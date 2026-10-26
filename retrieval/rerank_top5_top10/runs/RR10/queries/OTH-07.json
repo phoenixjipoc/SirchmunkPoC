@@ -1,0 +1,45 @@
+{
+  "query_id": "OTH-07",
+  "question": "One RFP for investment manager services, issued by an education foundation, limits proposals to five single-spaced typewritten pages. How many copies must be submitted and by what deadline?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 4,
+  "baseline_sha256": "c9ca64abbeaa0a4ec489fef5050ffd0a00103741d36b59e09707f394d57f108b",
+  "payload_sha256": "59033a301e0b73e694c069dde2b3e6982bc223d5454eb8eb219c0fc26a6ded34",
+  "original_files": [
+    "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+    "MA_PRIM__PDF-Version-of-RFP.pdf",
+    "NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf",
+    "IMRF__sample_investment_manager_rfp.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf",
+      "path": "/mnt/docs/S/NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "IMRF__sample_investment_manager_rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "MA_PRIM__PDF-Version-of-RFP.pdf",
+      "path": "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+      "path": "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 2.55,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

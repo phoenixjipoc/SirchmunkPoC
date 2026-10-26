@@ -1,0 +1,39 @@
+{
+  "query_id": "CONS-13",
+  "question": "How many printed copies of the proposal must be submitted in the San Francisco Employees' Retirement System (SFERS) general investment consultant RFP?",
+  "type": "pair_b",
+  "pair_id": "P2",
+  "group": "RR5",
+  "status": "ok",
+  "candidate_limit": 5,
+  "candidate_count": 3,
+  "baseline_sha256": "293f74d93a32ea1505605a421de73015c9e597edb74c401193d2b3952c72b194",
+  "payload_sha256": "b3c5006ca06e3a1e3fe88446e44937ee432973085423a6f55ed78476be5db96e",
+  "original_files": [
+    "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+      "path": "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 2.311,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

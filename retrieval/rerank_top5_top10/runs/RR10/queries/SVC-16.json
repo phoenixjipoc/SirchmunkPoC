@@ -1,0 +1,81 @@
+{
+  "query_id": "SVC-16",
+  "question": "What contract term, including any extension options, does the Los Angeles Fire and Police Pensions (LAFPP) RFP for financial statement audit services contemplate?",
+  "type": "pair_b",
+  "pair_id": "P15",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 10,
+  "baseline_sha256": "22c1b7043522b3c88ee11480428114b3c7f14df13e777d5f5494d2f8681218cc",
+  "payload_sha256": "d5fc30a149fe260aedeff208b7030c80d799f90e705a8ab53eb71cf1c06f1cd5",
+  "original_files": [
+    "LACERS__2025_actuarial_consulting_services_rfp.pdf",
+    "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+    "INPRS__RFP24-05_AuditServices.pdf",
+    "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "OCERS__investment_consultant_services_rfp.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+      "path": "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "INPRS__RFP24-05_AuditServices.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "LACERS__2025_actuarial_consulting_services_rfp.pdf",
+      "path": "/mnt/docs/S/LACERS__2025_actuarial_consulting_services_rfp.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf",
+      "path": "/mnt/docs/S/Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "path": "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+      "path": "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 3.139,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

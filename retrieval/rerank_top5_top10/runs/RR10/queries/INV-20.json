@@ -1,0 +1,81 @@
+{
+  "query_id": "INV-20",
+  "question": "Which meetings must the investment consultant attend under the IMRF sample RFP for investment consulting, real estate consulting and performance measurement services, and how many days of meetings per year does IMRF estimate?",
+  "type": "medium",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 10,
+  "baseline_sha256": "8e8489d343447e58c97c865741ca62ddd04a3e77bd11f76beae06932dd50b464",
+  "payload_sha256": "3da9865ae19e5c641c0052e390e30b360f2a36fdec28aef90b1a234c44231c12",
+  "original_files": [
+    "IMRF__sample-investment-consulting-rfp.pdf",
+    "IMRF__sample_investment_manager_rfp.pdf",
+    "Anchorage_PFRS__RFP_2025_Final.pdf",
+    "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+    "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "Hartford_MERF__file.pdf",
+    "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+    "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "IMRF__sample-investment-consulting-rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "IMRF__sample_investment_manager_rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Hartford_MERF__file.pdf",
+      "path": "/mnt/docs/S/Hartford_MERF__file.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+      "path": "/mnt/docs/S/Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+      "path": "/mnt/docs/S/Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+      "path": "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+      "path": "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+      "path": "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+      "path": "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 3.782,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

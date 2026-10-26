@@ -1,0 +1,81 @@
+{
+  "query_id": "DDQ-01",
+  "question": "Which due diligence questionnaire in the corpus asks the manager 'What kills a deal for your team?', and who published it?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR5",
+  "status": "ok",
+  "candidate_limit": 5,
+  "candidate_count": 5,
+  "baseline_sha256": "47235e8e7de2fb999266b4a14798a9704163233ef5162c88520e963d2c7d5eba",
+  "payload_sha256": "570c23c667cbfd6b4da774dd86b6e45cb7aa39ba695774ee39510ecdcf2969e7",
+  "original_files": [
+    "OCERS__investment_consultant_services_rfp.pdf",
+    "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+    "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+    "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+    "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+    "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+    "ILPA__ILPA-DDQ-2.0.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf",
+      "path": "/mnt/docs/S/AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+      "path": "/mnt/docs/S/Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+      "path": "/mnt/docs/S/Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+      "path": "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx"
+    },
+    {
+      "rank": 9,
+      "file": "NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf",
+      "path": "/mnt/docs/S/NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "ILPA__ILPA-DDQ-2.0.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 3.031,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}
