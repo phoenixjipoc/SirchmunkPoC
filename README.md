@@ -20,9 +20,28 @@ Directory coverage and parsing were tested separately. Their combined effect was
 
 See the [full results](retrieval/followup120/reports/REPORT.md), [per-question scores](retrieval/followup120/reports/questions.csv), [ordered references](retrieval/followup120/reports/references.csv) and [original retrieval baseline](retrieval/reports/basic120/REPORT.md).
 
+## Runtime and configuration
+
+- **LLM:** `gpt-6-sol` for keyword extraction, directory selection and source-support checks. The requested model, outbound request body and response model are checked on every call; a mismatch stops execution. Hit rates and reciprocal ranks are calculated in Python.
+- **Runtime:** Sirchmunk `0.0.7` in the `sirchmunk` Docker container, using the [saved source snapshot](retrieval/source_snapshot/). Calls use `/chat/completions` and `stream=false`; the API key and endpoint come from `LLM_API_KEY` and `LLM_BASE_URL`.
+- **Generation settings:** temperature, top-p and API seed are not explicitly set. Retrieval calls have no explicit output-token limit. Source checks use JSON responses and `max_completion_tokens=5000`.
+- **Search input and output:** all 120 questions search the same 81 originals at `/mnt/docs/S`. Keyword files precede directory suggestions; duplicate paths are removed while preserving order, then the first ten files are returned. Hit@1/5/10 use prefixes of that one list.
+- **Keyword search:** two-level keyword extraction with alternative terms, followed by case-insensitive `rga` literal searches; escaped-regex search is the fallback when no matches are found. Search depth is 5 and each search has a 30-second timeout. The tool uses `max_results=20` and five snippet lines per displayed file; the harness reads all logged discovered paths, so 20 is not a cap on file candidates.
+- **Directory scan:** depth 8, at most 500 files and up to 800 extracted preview characters per file; the frozen scan contains all 81 originals. R1/R2/R3 randomly select 20 candidates per question for relevance assessment and retain only `high` relevance. D assesses all 81 candidates while keeping R1 keyword results fixed.
+- **Repeated runs:** R1, R2 and R3 each cover 120 questions once, with base seeds 17011, 17012 and 17013. Each question uses `base_seed + int(SHA256(question_id)[:8], 16)` for local sampling. These seeds do not make service responses or native file order deterministic.
+- **Timeouts and recovery:** 300 seconds per question, 120 seconds per service request, one retrieval worker and a limit of three service requests in flight per process. Client retries are disabled. Follow-up queries allow up to three recorded attempts for technical failures; completed and empty results are retained. Baseline recovery is recorded separately.
+- **Parsing and caches:** original PDF/Word files are searched through `rga`, with a local parsing cache. P0/P replay R1 keywords and directory results using fixed file-path order; P alone enables the legacy DOC adapter with `olefile==0.47`. Evidence sampling, knowledge-cluster reuse/construction and final-answer generation are disabled.
+- **Source checks:** known verified sources are matched directly. Other returned sources are checked against the required facts and acceptance criteria. New first-ranked sources and proposed positive or uncertain decisions receive a second check using a different prompt with the same model. Positive decisions require both checks to report full support with correct identity and quotations matched to source text, or a recorded source adjudication. Checks use two workers in the baseline and four in the follow-up, with up to twelve quotations per check. Prior decisions are reused only when their inputs and source hashes match.
+
+Exact settings and execution details are in the [baseline configuration](retrieval/inputs/config.json), [follow-up configuration](retrieval/followup120/settings.json), [request guard](retrieval/runtime.py), [source-check worker](retrieval/review_support.py) and [execution record](retrieval/followup120/EXECUTION.md).
+
 ## Documents
 
 The [81 originals](poc_docs/S/) are public pension-fund RFPs and industry DDQ/ESG materials: **78 PDF, two DOCX and one legacy DOC**, totaling **47,379,550 bytes (45.18 MiB)**. All have distinct hashes; every PDF has an extractable text layer.
+
+- **PDF length:** 2,546 pages across 78 files; 1-109 pages per file, with a median of 28.5 and a mean of 32.64 pages. Counts come from the original PDF page trees and match the [source inventory](poc/questions/verification/audit_20261014/source_inventory.json).
+- **Word length:** saved document properties report 45 pages for the INREV 2022 DOCX, seven for the SAA questionnaire DOCX and 44 for the legacy INREV DOC. These are stored metadata values; Word pagination depends on the rendering environment. All three Word files are excluded from the PDF page total.
+- **File sizes:** 12,825-2,825,104 bytes per original (12.52 KiB-2.69 MiB), with a median of 459,895 bytes (449.12 KiB). The 78 PDFs total 45,608,384 bytes, the two DOCX files 559,774 bytes and the legacy DOC 1,211,392 bytes. Sizes refer to the downloaded files, before text extraction; 1 KiB = 1,024 bytes and 1 MiB = 1,048,576 bytes.
 
 There are 34 investment-consultant RFPs, ten investment-manager or outsourced investment-office RFPs, twelve actuarial/audit RFPs, ten custody or retirement-plan service RFPs, four related question-and-answer documents or manager questionnaires, eight DDQ-related documents and three ESG frameworks/FAQs. DDQ materials include templates and supporting notes.
 
