@@ -1,0 +1,12 @@
+{
+  "id": "b533183241f3d01a482b",
+  "query_id": "XD-06",
+  "question": "One private equity due diligence questionnaire asks whether the fund gives limited partners more than a certain number of business days' notice for capital calls. What is the threshold, and in which section of the questionnaire is this question?",
+  "file": "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+  "expected_facts": "The threshold is more than 10 business days' notice for capital calls, either generally or in specific circumstances (e.g. when a single capital call is above an agreed and stated percentage of total unfunded commitment). It is question 7.14 in Section 7.0 Credit Facilities of the ILPA Due Diligence Questionnaire 2.0.",
+  "acceptance": "Accept more than ten business days and Credit Facilities. Question number, document version and illustrative circumstances are helpful but not all mandatory for the narrow threshold/section question.",
+  "text_hash": "3ceed69320130ef8b05d9121485e497c339c98312b01995788aaadc713b0e13e",
+  "source_text_sha256": "1592894378410e0e43afb1370a16e301ba0b8187e206d48f7c0eccbe1356784e",
+  "second_check_required": false,
+  "prior_reviews": []
+}

@@ -1,0 +1,77 @@
+{
+  "job": {
+    "id": "4a09770c0f8cfe5dcbad",
+    "query_id": "INV-07",
+    "question": "In the published questions and answers for a city's pension fund consulting RFP, the city says it sent the RFP to 21 firms and last ran such a search in 2013. What does the plan currently pay for advisory services on its equities and for management of its fixed income?",
+    "file": "SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+    "expected_facts": "$20K per year for advisory of the equity investments (about 70% of plan funds, held by Fiduciary Advisors); for the fixed income investments (about 30% of plan funds, held by Commerce Bank, the custodian and paying agent) 0.30% on the first $10M, 0.20% on the next $40M and 0.15% on the remaining balance. Issuer: City of Creve Coeur, MO.",
+    "acceptance": "$20,000 annually plus 0.30% first $10m, 0.20% next $40m and 0.15% remainder. Basis-point equivalents 30/20/15 are acceptable. Provider names and 70/30 allocation are optional.",
+    "text_hash": "74059d0858a2db0c8f58f5c826a4294c6484eb59297243278164fed6a06be3bd",
+    "source_text_sha256": "59ab22e6fcedca8392d9d5d47b28976ca7b9c0f646d18aac11ba6979231c5d9d",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a fixed-income investment management questionnaire for insurance-related accounts, not the City of Creve Coeur pension fund RFP questions and answers. It asks respondents for their fee schedules but does not state the plan’s current equity-advisory or fixed-income-management payments.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL FIXED INCOME INVESTMENT MANAGEMENT SERVICES",
+        "Please provide your standard fee schedule for insurance company general accounts.",
+        "Please describe the service team, including resumes for each, that XYZ would be assigned if we were to employ your firm"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL FIXED INCOME INVESTMENT MANAGEMENT SERVICES",
+          "start": 20,
+          "end": 84
+        },
+        {
+          "quote": "Please provide your standard fee schedule for insurance company general accounts.",
+          "start": 3793,
+          "end": 3874
+        },
+        {
+          "quote": "Please describe the service team, including resumes for each, that XYZ would be assigned if we were to employ your firm",
+          "start": 10964,
+          "end": 11083
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is a blank fixed-income investment management questionnaire for insurance accounts, not the City of Creve Coeur’s published pension consulting RFP questions and answers. It gives no current equity advisory payment or fixed-income management fee tiers.",
+      "quotes": [
+        "REQUEST FOR PROPOSAL FIXED INCOME INVESTMENT MANAGEMENT SERVICES",
+        "Please provide your standard fee schedule for insurance company general accounts.",
+        "Firm Name:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSAL FIXED INCOME INVESTMENT MANAGEMENT SERVICES",
+          "start": 20,
+          "end": 84
+        },
+        {
+          "quote": "Please provide your standard fee schedule for insurance company general accounts.",
+          "start": 3793,
+          "end": 3874
+        },
+        {
+          "quote": "Firm Name:",
+          "start": 111,
+          "end": 121
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

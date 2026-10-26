@@ -1,0 +1,71 @@
+{
+  "job": {
+    "id": "8f9825e7869c3b677dfe",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "013acad3f1f8520c2684a10f9b3d8fe0a1e3b30393ebcfaf64bc1f9156b80e3a",
+    "source_text_sha256": "2ad75cdaeecab9651d3f225547abe579638bbba888408fcd731110baaa9f8322",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is LAFPP’s financial-statement audit services RFP, not SBCERS’s global custody RFP. Its evaluation criteria do not provide the four requested categories or their percentage weights.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FINANCIAL STATEMENT AUDIT SERVICES",
+        "Los Angeles Fire and Police Pensions",
+        "LAFPP will select an external auditor based on the following criteria:",
+        "• Qualifications and experience of the firm",
+        "• Demonstrated understanding and ability to address LAFPP’s specific needs",
+        "• Reasonableness of costs and value",
+        "• Positive contracting history"
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FINANCIAL STATEMENT AUDIT SERVICES",
+          "start": 13,
+          "end": 69
+        },
+        {
+          "quote": "Los Angeles Fire and Police Pensions",
+          "start": 171,
+          "end": 207
+        },
+        {
+          "quote": "LAFPP will select an external auditor based on the following criteria:",
+          "start": 36136,
+          "end": 36206
+        },
+        {
+          "quote": "• Qualifications and experience of the firm",
+          "start": 36275,
+          "end": 36318
+        },
+        {
+          "quote": "• Demonstrated understanding and ability to address LAFPP’s specific needs",
+          "start": 36319,
+          "end": 36393
+        },
+        {
+          "quote": "• Reasonableness of costs and value",
+          "start": 36394,
+          "end": 36429
+        },
+        {
+          "quote": "• Positive contracting history",
+          "start": 36430,
+          "end": 36460
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

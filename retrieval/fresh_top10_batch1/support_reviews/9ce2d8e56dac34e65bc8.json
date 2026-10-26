@@ -1,0 +1,65 @@
+{
+  "job": {
+    "id": "9ce2d8e56dac34e65bc8",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "3ceed69320130ef8b05d9121485e497c339c98312b01995788aaadc713b0e13e",
+    "source_text_sha256": "1592894378410e0e43afb1370a16e301ba0b8187e206d48f7c0eccbe1356784e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2020 TMRS global-custody RFP, not the ILPA Due Diligence Questionnaire 2.0. Its contents list numbered appendices, not the required eight lettered appendices A–H and their titles.",
+      "quotes": [
+        "Request for Proposal Global Custody and Related Services Texas Municipal Retirement System (TMRS)",
+        "Issue Date: December 11, 2020",
+        "Appendix 1 – Scope Affirmation",
+        "Appendix 2 – Contractual Terms Affirmation",
+        "Appendix 3 – Custodial Bank Services Questionnaire (MS Word format) – Provided Separately",
+        "Appendix 4 – Price Proposal (MS Excel format) – Provided Separately"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Global Custody and Related Services Texas Municipal Retirement System (TMRS)",
+          "start": 13,
+          "end": 110
+        },
+        {
+          "quote": "Issue Date: December 11, 2020",
+          "start": 111,
+          "end": 140
+        },
+        {
+          "quote": "Appendix 1 – Scope Affirmation",
+          "start": 951,
+          "end": 981
+        },
+        {
+          "quote": "Appendix 2 – Contractual Terms Affirmation",
+          "start": -1,
+          "end": 41
+        },
+        {
+          "quote": "Appendix 3 – Custodial Bank Services Questionnaire (MS Word format) – Provided Separately",
+          "start": -1,
+          "end": 88
+        },
+        {
+          "quote": "Appendix 4 – Price Proposal (MS Excel format) – Provided Separately",
+          "start": 1862,
+          "end": 1929
+        }
+      ],
+      "all_quotes_grounded": false,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

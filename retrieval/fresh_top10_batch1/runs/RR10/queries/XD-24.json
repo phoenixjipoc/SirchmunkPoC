@@ -1,0 +1,81 @@
+{
+  "query_id": "XD-24",
+  "question": "What annual fee does the Texas Municipal Retirement System (TMRS) currently pay its incumbent general investment consultant?",
+  "type": "unanswerable",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 10,
+  "baseline_sha256": "c54d27d67f924c0ddbc384e1264937386931c85fdd2624f20b5a3d6d3eda2629",
+  "payload_sha256": "ed67cbe1c92c244eab3b73feb98c0224a66eeb64a2091d89a9bd72db929e4411",
+  "original_files": [
+    "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+    "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "Hartford_MERF__file.pdf",
+    "OCERS__investment_consultant_services_rfp.pdf",
+    "SBCERS__2020-Private-Equity-RFP.pdf",
+    "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+      "path": "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "Hartford_MERF__file.pdf",
+      "path": "/mnt/docs/S/Hartford_MERF__file.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+      "path": "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+      "path": "/mnt/docs/S/SBCERS__2020-Private-Equity-RFP.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+      "path": "/mnt/docs/S/DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+      "path": "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 4.297,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

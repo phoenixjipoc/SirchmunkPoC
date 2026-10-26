@@ -1,0 +1,27 @@
+{
+  "query_id": "SVC-07",
+  "question": "Which retirement system's global custody RFP states that the system does not currently participate in securities lending, and what is the planned start date for the custody contract?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "skipped_single",
+  "candidate_limit": 10,
+  "candidate_count": 1,
+  "baseline_sha256": "17e000f2a51ae594f1977b99233ba25b80368da007ede7e51ed952b89e7eda40",
+  "payload_sha256": "34a203a4a960dd119a6ca37afc1bef46c4e2ac23a81be5381191311a572e97fc",
+  "original_files": [
+    "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf"
+    }
+  ],
+  "attempts": 0,
+  "elapsed_s": 0,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

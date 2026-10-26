@@ -1,0 +1,51 @@
+{
+  "query_id": "CONS-13",
+  "question": "How many printed copies of the proposal must be submitted in the San Francisco Employees' Retirement System (SFERS) general investment consultant RFP?",
+  "type": "pair_b",
+  "pair_id": "P2",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 5,
+  "baseline_sha256": "7221d4401772391d222513ad5bb8ba7f687e0cdde2d11dc9a93e4e88d709e653",
+  "payload_sha256": "3aa2b684b3660310031d1e737a25841f1816cf5c8e3b9518dfcffff02d4a7139",
+  "original_files": [
+    "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+    "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+      "path": "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+      "path": "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+      "path": "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 2.043,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

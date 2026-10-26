@@ -1,0 +1,33 @@
+{
+  "query_id": "XD-11",
+  "question": "What questions does the INREV DDQ 2022 for Funds of Funds and Multi Manager ask under section 3.3 'IT, Cyber and Physical Security'?",
+  "type": "medium",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 2,
+  "baseline_sha256": "75511a4cc12ba758e1e7059cf594636e609a0a2a1b27109f19317109f159ae7d",
+  "payload_sha256": "d54568156d30b1d7086a44d2ac5f8b5588fa01d41ce1ced436ce1ab4a0828fd7",
+  "original_files": [
+    "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+      "path": "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx"
+    },
+    {
+      "rank": 2,
+      "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 1.733,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

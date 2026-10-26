@@ -1,0 +1,39 @@
+{
+  "query_id": "SVC-23",
+  "question": "Which audit-services RFP documents in the corpus cover audits of GASB Statement No. 68 schedules, and what does each say about that work?",
+  "type": "broad",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 3,
+  "baseline_sha256": "4e2433528984b67e3f074780c742f5b35d432566e38a1465dc8268567b1b098f",
+  "payload_sha256": "5a8fddccfed60ea42a07794b4363809ee8a89be2f88f8445ee3d2f9bfe265782",
+  "original_files": [
+    "INPRS__RFP24-05_AuditServices.pdf",
+    "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "INPRS__RFP24-05_AuditServices.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+      "path": "/mnt/docs/S/KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+      "path": "/mnt/docs/S/LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 3.886,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

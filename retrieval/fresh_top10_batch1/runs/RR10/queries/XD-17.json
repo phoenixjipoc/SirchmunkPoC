@@ -1,0 +1,57 @@
+{
+  "query_id": "XD-17",
+  "question": "Which RFPs in the corpus contain Iran-related certification, disclosure or compliance requirements for respondents?",
+  "type": "broad",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 6,
+  "baseline_sha256": "7f2838067ba18178cae17a40f5f406b25b2df872c88894e02716763b2a36e44f",
+  "payload_sha256": "d923a25b1e1c97d23c82dc9762d2664df13d2bc93c9a0cd5cb8febe9733fe815",
+  "original_files": [
+    "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+    "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+    "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+    "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+      "path": "/mnt/docs/S/Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "path": "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+      "path": "/mnt/docs/S/Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf",
+      "path": "/mnt/docs/S/Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+      "path": "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf",
+      "path": "/mnt/docs/S/Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 9.227,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

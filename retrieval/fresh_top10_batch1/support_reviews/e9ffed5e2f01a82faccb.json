@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "e9ffed5e2f01a82faccb",
+    "query_id": "SVC-09",
+    "question": "A county retirement system's custody RFP requires custody respondents to have at least $500 billion in total assets under custody as of December 31, 2021. How much of that must be in international equity and fixed income, and what minimum liability/professional errors and omissions insurance must respondents provide?",
+    "file": "Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "expected_facts": "At least $100 billion in international equity and fixed income; liability/professional errors and omissions insurance of at least $75 million. Issuer: Orange County Employees Retirement System (OCERS), October 2022 custody services RFP.",
+    "acceptance": "Accept $100bn international equity/fixed income and $75m liability/professional E&O coverage. Issuer/date are optional.",
+    "text_hash": "78e9f93c919309a5d2fa10dd95a99a9aa10570f812813a72ac38438337250997",
+    "source_text_sha256": "9509203a806d2bcdf58a836ebe10e970d4ddb42b4cd79e65aeab8cd010579820",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Hawaii ERS real-assets investment consultant RFP, not the Orange County retirement system custody services RFP. It provides neither the required international equity and fixed-income custody amount nor the minimum liability/professional errors and omissions insurance coverage.",
+      "quotes": [
+        "Employees’ Retirement System of the State of Hawaii (ERS) Request for Proposals Real Assets Investment Consultant RFP 2022-06 Issued October 3, 2022",
+        "ERS is seeking proposals for a dedicated Non-Discretionary Real Assets Investment Consultant (real estate and other real assets)"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Employees’ Retirement System of the State of Hawaii (ERS) Request for Proposals Real Assets Investment Consultant RFP 2022-06 Issued October 3, 2022",
+          "start": 13,
+          "end": 161
+        },
+        {
+          "quote": "ERS is seeking proposals for a dedicated Non-Discretionary Real Assets Investment Consultant (real estate and other real assets)",
+          "start": 10705,
+          "end": 10833
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

@@ -1,0 +1,39 @@
+{
+  "query_id": "CONS-06",
+  "question": "Which retirement system's general investment consultant RFP requires respondents to currently provide non-discretionary general investment advice to at least 5 public pension plans larger than $5 billion and at least 2 public plans over $20 billion?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 3,
+  "baseline_sha256": "1837efbc30046da22133c51ace9e8a1bd04d186d20189e18999436189c0452c6",
+  "payload_sha256": "17e5afb343889b71c5dcafc242c48fc275667d8f60de7cb4003c7a94b2c4c690",
+  "original_files": [
+    "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 4.293,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

@@ -1,0 +1,140 @@
+{
+  "job": {
+    "id": "4a1f65050e7ce75d22f6",
+    "query_id": "CONS-08",
+    "question": "Which retirement plan's investment consulting RFP requires that, as of December 31, 2024, the firm have at least three public fund clients each with at least $1B in assets and have been in business at least ten years?",
+    "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "expected_facts": "The Retirement Plan for CTA Employees (Chicago Transit Authority), in its April 29, 2025 investment consulting RFP.",
+    "acceptance": "Retirement Plan for CTA/Chicago Transit Authority Employees; publication date is optional.",
+    "text_hash": "1293d72cf747218c60a7c2a6d672307dfc4ed9a219b9d94748104754f6a40b02",
+    "source_text_sha256": "7ed4136b9f78094e292fd0483fe60026c36824af173945e88edf069fb23a58f7",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is a SURS emerging-markets equity RFP template issued in 2022, not the specified investment consulting RFP. Its public-fund client criterion is preferred, permits two clients rather than requiring three, and it does not establish the stated December 31, 2024 or ten-year requirements.",
+        "quotes": [
+          "Emerging Markets Equity Issued February 14, 2022",
+          "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+          "• Preferred Criteria (PC)",
+          "The firm has at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan as a client with over $10 billion in total plan assets.",
+          "The proposing firm must have an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy as of 12/31/20__."
+        ],
+        "quote_matches": [
+          {
+            "quote": "Emerging Markets Equity Issued February 14, 2022",
+            "start": 51,
+            "end": 99
+          },
+          {
+            "quote": "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+            "start": 7442,
+            "end": 7531
+          },
+          {
+            "quote": "• Preferred Criteria (PC)",
+            "start": 15352,
+            "end": 15377
+          },
+          {
+            "quote": "The firm has at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan as a client with over $10 billion in total plan assets.",
+            "start": 15527,
+            "end": 15730
+          },
+          {
+            "quote": "The proposing firm must have an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy as of 12/31/20__.",
+            "start": 14076,
+            "end": 14232
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A",
+        "attempt": 1
+      }
+    ],
+    "prior_source_path": "retrieval/followup120/support_reviews/4a1f65050e7ce75d22f6.json",
+    "prior_source_sha256": "06ed530c310fb0da8fb70532dd34b330b0f5ca312d8b1dcc0ecc8158d5997bff"
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a SURS emerging-markets equity RFP template issued in 2022, not the specified investment consulting RFP. Its public-fund client criterion is preferred, permits two clients rather than requiring three, and it does not establish the stated December 31, 2024 or ten-year requirements.",
+      "quotes": [
+        "Emerging Markets Equity Issued February 14, 2022",
+        "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+        "• Preferred Criteria (PC)",
+        "The firm has at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan as a client with over $10 billion in total plan assets.",
+        "The proposing firm must have an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy as of 12/31/20__."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Emerging Markets Equity Issued February 14, 2022",
+          "start": 51,
+          "end": 99
+        },
+        {
+          "quote": "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+          "start": 7442,
+          "end": 7531
+        },
+        {
+          "quote": "• Preferred Criteria (PC)",
+          "start": 15352,
+          "end": 15377
+        },
+        {
+          "quote": "The firm has at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan as a client with over $10 billion in total plan assets.",
+          "start": 15527,
+          "end": 15730
+        },
+        {
+          "quote": "The proposing firm must have an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy as of 12/31/20__.",
+          "start": 14076,
+          "end": 14232
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2022 SURS emerging-markets equity investment-manager RFP template, not an investment consulting RFP for the Retirement Plan for CTA Employees. Its public-fund client criterion is preferred, uses different thresholds, and does not establish the specified December 31, 2024 or ten-year requirements.",
+      "quotes": [
+        "Emerging Markets Equity Issued February 14, 2022",
+        "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+        "• Preferred Criteria (PC)",
+        "The firm has at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan as a client with over $10 billion in total plan assets."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Emerging Markets Equity Issued February 14, 2022",
+          "start": 51,
+          "end": 99
+        },
+        {
+          "quote": "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+          "start": 7442,
+          "end": 7531
+        },
+        {
+          "quote": "• Preferred Criteria (PC)",
+          "start": 15352,
+          "end": 15377
+        },
+        {
+          "quote": "The firm has at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan as a client with over $10 billion in total plan assets.",
+          "start": 15527,
+          "end": 15730
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

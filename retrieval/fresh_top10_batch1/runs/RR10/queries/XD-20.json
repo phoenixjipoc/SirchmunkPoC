@@ -1,0 +1,33 @@
+{
+  "query_id": "XD-20",
+  "question": "What minimum GRESB score does INREV require a non-listed real estate vehicle to achieve to pass its due diligence questionnaire?",
+  "type": "unanswerable",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 2,
+  "baseline_sha256": "e8552e24f888bab1811f3aa566b84a579316b0fb8fc351539d18eba9afb6e8ae",
+  "payload_sha256": "8ede10d626979cc2d17b849eca2461421660d9d177ae017ec33eeadbfaffa2b6",
+  "original_files": [
+    "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+    "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf",
+      "path": "/mnt/docs/S/INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
+      "path": "/mnt/docs/S/INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 1.638,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

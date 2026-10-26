@@ -1,0 +1,39 @@
+{
+  "query_id": "DDQ-08",
+  "question": "In the 2021 version of ILPA's ESG Assessment Framework FAQ, how many resources are listed in answer to 'Where can I find additional resources pertaining to ESG?', and what are they?",
+  "type": "pair_a",
+  "pair_id": "P7",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 3,
+  "baseline_sha256": "3e2fb07a9779b7708479af83975ebb3186288db16809f88f61210fb4ba91ac98",
+  "payload_sha256": "1337f7de98811d9eb42d5e2c30bee6b65ed63d0ea0dbf979f8873874a83a5280",
+  "original_files": [
+    "ILPA__ILPA-ESG-Assessment-Framework.pdf",
+    "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+    "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+      "path": "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+      "path": "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "ILPA__ILPA-ESG-Assessment-Framework.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 2.329,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

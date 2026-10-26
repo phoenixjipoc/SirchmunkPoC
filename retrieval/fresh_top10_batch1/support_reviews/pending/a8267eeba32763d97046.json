@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "a8267eeba32763d97046",
+    "query_id": "SVC-10",
+    "question": "In the minimum-qualifications insurance list of the RFP for oversight of the pension administration system replacing V3, what umbrella-liability and professional-liability limits are specified?",
+    "file": "OCERS__custodian_rfp_2022-2023.pdf",
+    "expected_facts": "The minimum-qualifications list specifies umbrella liability of $5 million per occurrence and $5 million aggregate, and professional liability of $2 million per occurrence and $3 million aggregate. The sample agreement separately contains a wording inconsistency ('one million dollars ($2,000,000)' per occurrence).",
+    "acceptance": "The listed $5m/$5m umbrella and $2m/$3m professional limits are materially correct. Also accept that answer with the p21 written/numeric discrepancy explicitly flagged. Other insurance types and issuer date are optional. Do not accept an unexplained $1m as the sole professional limit.",
+    "text_hash": "2f1b263969ef09f6d98b625298c7af0518d618d780be107703d3e797ceb8169a",
+    "source_text_sha256": "2160dab5b593e917103890305a919f136c0a0f9f1c86c7a4b6fb2c4eaaf14ec2",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an OCERS RFP for custody services, not oversight of the pension administration system replacing V3. Its minimum qualifications do not specify the requested umbrella-liability or professional-liability per-occurrence and aggregate limits.",
+      "quotes": [
+        "Custody Services Request for Proposal October 2022 Orange County Employees Retirement System (OCERS)",
+        "OCERS is requesting proposals from qualified firms with expertise in providing a comprehensive set of custody services.",
+        "Provide the liability, professional errors and omissions insurance in the minimum amount of $75 million U.S. dollars."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Custody Services Request for Proposal October 2022 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 113
+        },
+        {
+          "quote": "OCERS is requesting proposals from qualified firms with expertise in providing a comprehensive set of custody services.",
+          "start": -1,
+          "end": 118
+        },
+        {
+          "quote": "Provide the liability, professional errors and omissions insurance in the minimum amount of $75 million U.S. dollars.",
+          "start": 40195,
+          "end": 40312
+        }
+      ],
+      "all_quotes_grounded": false,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

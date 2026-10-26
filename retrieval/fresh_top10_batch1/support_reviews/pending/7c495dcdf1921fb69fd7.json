@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "7c495dcdf1921fb69fd7",
+    "query_id": "XD-06",
+    "question": "One private equity due diligence questionnaire asks whether the fund gives limited partners more than a certain number of business days' notice for capital calls. What is the threshold, and in which section of the questionnaire is this question?",
+    "file": "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+    "expected_facts": "The threshold is more than 10 business days' notice for capital calls, either generally or in specific circumstances (e.g. when a single capital call is above an agreed and stated percentage of total unfunded commitment). It is question 7.14 in Section 7.0 Credit Facilities of the ILPA Due Diligence Questionnaire 2.0.",
+    "acceptance": "Accept more than ten business days and Credit Facilities. Question number, document version and illustrative circumstances are helpful but not all mandatory for the narrow threshold/section question.",
+    "text_hash": "bf06193ea4019fcbd1ae84a0bba61dcc905e26bfac7cb0ff1a2bdc83f506f1e1",
+    "source_text_sha256": "a6d4bde46614526253a524d5598013e5ee0a04400f2081e84fda380963b98d63",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an ILPA ESG Assessment Framework FAQ, not the Due Diligence Questionnaire. It mentions the questionnaire but provides neither the capital-call notice threshold nor the Credit Facilities section.",
+      "quotes": [
+        "ESG Assessment Framework – Key Considerations and FAQ",
+        "The ESG Assessment Framework can help LPs evaluate GP responses to due diligence questionnaires and was created with the understanding that many LPs are already using ILPA’s Due Diligence Questionnaire as an initial point of reference."
+      ],
+      "quote_matches": [
+        {
+          "quote": "ESG Assessment Framework – Key Considerations and FAQ",
+          "start": 13,
+          "end": 66
+        },
+        {
+          "quote": "The ESG Assessment Framework can help LPs evaluate GP responses to due diligence questionnaires and was created with the understanding that many LPs are already using ILPA’s Due Diligence Questionnaire as an initial point of reference.",
+          "start": 5459,
+          "end": 5694
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

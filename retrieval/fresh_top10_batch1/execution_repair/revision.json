@@ -1,0 +1,19 @@
+{
+  "reason": "Serialize native retrieval-log datetime values with the same default=str rule used by the native adapter. No request, search, ranking or scoring parameters changed.",
+  "changes": {
+    "common.py": {
+      "before_sha256": "35c6eaac7230dd899444bd2a3dd2190be888e619dc26abd08e48cf82eb4f6cb7",
+      "after_sha256": "81055e284e32b36517d127e623ddd81363125e02ccedb0a13a94a5120b3362da",
+      "original_copy": "execution_repair/common_initial.py"
+    },
+    "run_batch.py": {
+      "before_sha256": "33e1cb6a1cfdee8391daf92feadd72604f71c71e43b36a71cf644532874af8e3",
+      "after_sha256": "2b1e45ff7b7705080737e040258d990371769bc75f9980060bd9959107981555",
+      "original_copy": "execution_repair/run_batch_initial.py"
+    }
+  },
+  "recovered_query": "INV-01",
+  "native_result_sha256": "c5de500da4369a0c69f142dda68675e475401580d467277c88c01642426b4a45",
+  "recovered_result_sha256": "aa6030d205b67f0c07f7fbc58cffe3cc1d682d4e5c5cf2784aea20db05bf6fb7",
+  "additional_requests": 0
+}

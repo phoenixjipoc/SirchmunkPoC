@@ -1,0 +1,51 @@
+{
+  "query_id": "SVC-05",
+  "question": "In the Indiana Public Retirement System (INPRS) RFP 24-05 for audit services, which firm has provided INPRS's external audit services and since when, and what limit does INPRS's procurement policy place on contract length?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 5,
+  "baseline_sha256": "1e059f42b9837a11416a92f5faa6a53c082525cd25c1995eb343e38f10b432f8",
+  "payload_sha256": "a003d840cf2051a2359b9ce324990d5ab96ec9b6a1a6122cae6d5d62de035fd2",
+  "original_files": [
+    "INPRS__RFP24-05_AuditServices.pdf",
+    "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+    "INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+    "Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+    "Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "INPRS__RFP24-05_AuditServices.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP24-05_AuditServices.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf",
+      "path": "/mnt/docs/S/INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+      "path": "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+      "path": "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 3.004,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

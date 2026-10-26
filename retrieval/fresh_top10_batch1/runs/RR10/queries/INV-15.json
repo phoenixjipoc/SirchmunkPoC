@@ -1,0 +1,27 @@
+{
+  "query_id": "INV-15",
+  "question": "In the Baltimore City Employees' Retirement Systems (BCERS) RFP for an alternatives consultant, how many years must the proposing firm have been in business?",
+  "type": "pair_a",
+  "pair_id": "P12",
+  "group": "RR10",
+  "status": "skipped_single",
+  "candidate_limit": 10,
+  "candidate_count": 1,
+  "baseline_sha256": "9763fa298332557fe19e8702672ee4f3441a5377f174f48ae45f06aea5a61f27",
+  "payload_sha256": "60fbf1f2adfc2de3b2def35f849fe9fe61f607b020da69dc50ad4b8f59db6165",
+  "original_files": [
+    "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf",
+      "path": "/mnt/docs/S/Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf"
+    }
+  ],
+  "attempts": 0,
+  "elapsed_s": 0,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

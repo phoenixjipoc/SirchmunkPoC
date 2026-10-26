@@ -1,0 +1,33 @@
+{
+  "query_id": "XD-21",
+  "question": "How many comments did the PRI receive from LPs and GPs during the 2021 update of its Limited Partners Private Equity Responsible Investment DDQ?",
+  "type": "unanswerable",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 2,
+  "baseline_sha256": "5abe725063ee6b6ab0888461792e3059a724c7fef165c232a05d17ea45cb1122",
+  "payload_sha256": "1bdb4ebebf1f09f44e598a36b0bfb1de43e533416839779cc6ec4d478adef0d7",
+  "original_files": [
+    "ILPA__ILPA-DDQ-2.0.pdf",
+    "PRI__PRI-DDQ-ILPA-Covering-Note.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "PRI__PRI-DDQ-ILPA-Covering-Note.pdf",
+      "path": "/mnt/docs/S/PRI__PRI-DDQ-ILPA-Covering-Note.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "ILPA__ILPA-DDQ-2.0.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 1.426,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

@@ -1,0 +1,33 @@
+{
+  "query_id": "SVC-19",
+  "question": "What minimum qualifications must a proposing firm certify in the City of Temple City's 2020 RFP for 457 plan administration and recordkeeping services?",
+  "type": "medium",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 2,
+  "baseline_sha256": "4dd9aaf6a0b35fb89b9e5ea033c05b293482d8949bd0414f4af3a6d46a5beb4d",
+  "payload_sha256": "8512a9782a6e27d311ce023795e91dd1e2f040c9d0938c338484cbea22ecdff0",
+  "original_files": [
+    "Monroe_County_NY__10406.pdf",
+    "Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+      "path": "/mnt/docs/S/Delaware__TRE21101-RECDKEEPR-rfp.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Monroe_County_NY__10406.pdf",
+      "path": "/mnt/docs/S/Monroe_County_NY__10406.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 2.245,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

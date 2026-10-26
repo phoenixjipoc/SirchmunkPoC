@@ -1,0 +1,146 @@
+{
+  "job": {
+    "id": "197e69acead21b1e2e4f",
+    "query_id": "SVC-20",
+    "question": "What scope of services does the Kern County Employees' Retirement Association (KCERA) 2024 actuarial audit services RFP require?",
+    "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "expected_facts": "A full actuarial audit of the assumptions, methods, calculations and experience used in KCERA's valuation, in two parts: (1) a peer review audit of the Actuarial Experience Study for July 1, 2019 - June 30, 2022 and the Review of Economic Actuarial Assumptions as of June 30, 2022 - evaluating the data (including comparison of census data), reconciling discrepancies with the consulting actuary, and evaluating the recommended economic and non-economic assumptions; and (2) a parallel valuation (independent reproduction) of the June 30, 2023 valuation, including the SRBR valuation and GASB 67 valuation, using the consulting actuary's assumptions and methods and reproducing all work without relying on the consulting actuary, with reconciliation of discrepancies. Results of both are to be communicated to the consulting actuary before completion of the June 30, 2024 valuation.",
+    "acceptance": "Require both experience-study peer review and independent June 30, 2023 parallel valuation, including SRBR/GASB67 and discrepancy reconciliation. A concise account may group data and assumption checks; sample-agreement delivery details are optional.",
+    "text_hash": "7bf0434135598b4379264b9228ec0ae5d514d2497cf998a89da96d5f3d55878f",
+    "source_text_sha256": "1620734055a07375d68aca7dc5b3529168cc1928cf355fcdb11e514e6b786b4c",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is a June 2025 RFP issued by the City of Austin Employees’ Retirement System for actuarial services, not KCERA’s 2024 actuarial audit services RFP. It does not require the specified experience-study peer review or independent June 30, 2023 parallel valuation.",
+        "quotes": [
+          "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM",
+          "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+          "June 26, 2025",
+          "Contractor shall participate in an actuarial audit conducted by the City of Austin Texas pursuant to Texas Government Code § 802.1012."
+        ],
+        "quote_matches": [
+          {
+            "quote": "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM",
+            "start": 13,
+            "end": 56
+          },
+          {
+            "quote": "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+            "start": 163,
+            "end": 254
+          },
+          {
+            "quote": "June 26, 2025",
+            "start": 255,
+            "end": 268
+          },
+          {
+            "quote": "Contractor shall participate in an actuarial audit conducted by the City of Austin Texas pursuant to Texas Government Code § 802.1012.",
+            "start": 49037,
+            "end": 49171
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A",
+        "attempt": 1
+      }
+    ],
+    "prior_source_path": "retrieval/followup120/support_reviews/197e69acead21b1e2e4f.json",
+    "prior_source_sha256": "6f02a2b56ec04b2847cffaef96fa4545ca0e55de8195dc42d00ac369b3731d9e"
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a June 2025 RFP issued by the City of Austin Employees’ Retirement System for actuarial services, not KCERA’s 2024 actuarial audit services RFP. It does not require the specified experience-study peer review or independent June 30, 2023 parallel valuation.",
+      "quotes": [
+        "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM",
+        "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+        "June 26, 2025",
+        "Contractor shall participate in an actuarial audit conducted by the City of Austin Texas pursuant to Texas Government Code § 802.1012."
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM",
+          "start": 13,
+          "end": 56
+        },
+        {
+          "quote": "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+          "start": 163,
+          "end": 254
+        },
+        {
+          "quote": "June 26, 2025",
+          "start": 255,
+          "end": 268
+        },
+        {
+          "quote": "Contractor shall participate in an actuarial audit conducted by the City of Austin Texas pursuant to Texas Government Code § 802.1012.",
+          "start": 49037,
+          "end": 49171
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied file is a June 2025 RFP from the City of Austin Employees’ Retirement System (COAERS) for ongoing actuarial services, not KCERA’s 2024 actuarial audit services RFP. It does not require the specified experience-study peer review or independent June 30, 2023 parallel valuation, including SRBR and GASB 67.",
+      "quotes": [
+        "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM",
+        "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+        "June 26, 2025",
+        "SECTION TWO – CORE SCOPE OF SERVICES",
+        "2.2 Annual Actuarial Valuation (Including a Risk Sharing Valuation Study)",
+        "2.8 Periodic Experience Studies",
+        "Contractor shall participate in an actuarial audit conducted by the City of Austin Texas pursuant to Texas Government Code § 802.1012."
+      ],
+      "quote_matches": [
+        {
+          "quote": "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM",
+          "start": 13,
+          "end": 56
+        },
+        {
+          "quote": "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+          "start": 163,
+          "end": 254
+        },
+        {
+          "quote": "June 26, 2025",
+          "start": 255,
+          "end": 268
+        },
+        {
+          "quote": "SECTION TWO – CORE SCOPE OF SERVICES",
+          "start": 2874,
+          "end": 2910
+        },
+        {
+          "quote": "2.2 Annual Actuarial Valuation (Including a Risk Sharing Valuation Study)",
+          "start": 3162,
+          "end": 3235
+        },
+        {
+          "quote": "2.8 Periodic Experience Studies",
+          "start": 3937,
+          "end": 3968
+        },
+        {
+          "quote": "Contractor shall participate in an actuarial audit conducted by the City of Austin Texas pursuant to Texas Government Code § 802.1012.",
+          "start": 49037,
+          "end": 49171
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

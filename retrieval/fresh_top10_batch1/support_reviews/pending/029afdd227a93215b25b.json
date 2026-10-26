@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "029afdd227a93215b25b",
+    "query_id": "SVC-10",
+    "question": "In the minimum-qualifications insurance list of the RFP for oversight of the pension administration system replacing V3, what umbrella-liability and professional-liability limits are specified?",
+    "file": "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+    "expected_facts": "The minimum-qualifications list specifies umbrella liability of $5 million per occurrence and $5 million aggregate, and professional liability of $2 million per occurrence and $3 million aggregate. The sample agreement separately contains a wording inconsistency ('one million dollars ($2,000,000)' per occurrence).",
+    "acceptance": "The listed $5m/$5m umbrella and $2m/$3m professional limits are materially correct. Also accept that answer with the p21 written/numeric discrepancy explicitly flagged. Other insurance types and issuer date are optional. Do not accept an unexplained $1m as the sole professional limit.",
+    "text_hash": "3ceed69320130ef8b05d9121485e497c339c98312b01995788aaadc713b0e13e",
+    "source_text_sha256": "1592894378410e0e43afb1370a16e301ba0b8187e206d48f7c0eccbe1356784e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an RFP for global custody services, not oversight of the pension administration system replacing V3. Its insurance terms differ: umbrella liability is $5 million per incident with no stated aggregate, and professional liability is $1 million per claim with a $2 million annual aggregate. It does not identify these as limits from the requested RFP.",
+      "quotes": [
+        "Request for Proposal Global Custody and Related Services Texas Municipal Retirement System (TMRS)",
+        "The primary purpose of this RFP is to identify the most qualified firm to provide global custodial services, recordkeeping / accounting services, performance measurement / analytics, support for an unbundled securities lending program and other services to TMRS as defined in this RFP.",
+        "Errors & Omissions (professional liability) insurance with a limit of no less than $1,000,000 per claim made and $2,000,000 annual aggregate;",
+        "Umbrella liability insurance with a minimum of $5,000,000 per incident which shall be excess of commercial general liability coverage required herein;"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Global Custody and Related Services Texas Municipal Retirement System (TMRS)",
+          "start": 13,
+          "end": 110
+        },
+        {
+          "quote": "The primary purpose of this RFP is to identify the most qualified firm to provide global custodial services, recordkeeping / accounting services, performance measurement / analytics, support for an unbundled securities lending program and other services to TMRS as defined in this RFP.",
+          "start": 3064,
+          "end": 3349
+        },
+        {
+          "quote": "Errors & Omissions (professional liability) insurance with a limit of no less than $1,000,000 per claim made and $2,000,000 annual aggregate;",
+          "start": 63323,
+          "end": 63464
+        },
+        {
+          "quote": "Umbrella liability insurance with a minimum of $5,000,000 per incident which shall be excess of commercial general liability coverage required herein;",
+          "start": 63792,
+          "end": 63942
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "dd256bb2fb03ac526a1a",
+    "query_id": "SVC-09",
+    "question": "A county retirement system's custody RFP requires custody respondents to have at least $500 billion in total assets under custody as of December 31, 2021. How much of that must be in international equity and fixed income, and what minimum liability/professional errors and omissions insurance must respondents provide?",
+    "file": "Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+    "expected_facts": "At least $100 billion in international equity and fixed income; liability/professional errors and omissions insurance of at least $75 million. Issuer: Orange County Employees Retirement System (OCERS), October 2022 custody services RFP.",
+    "acceptance": "Accept $100bn international equity/fixed income and $75m liability/professional E&O coverage. Issuer/date are optional.",
+    "text_hash": "7974cf3ced5ece0c3df4520edc4dd6247ec6bbbc3297db171ad7ec83dd1f5ab2",
+    "source_text_sha256": "d065a0843dfa54da64a294e172b508cf8e712eb413bc4f30e72f609c24012fce",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a February 2022 Oklahoma OPERS investment-consulting RFP, not the county retirement system’s custody RFP. It gives neither the required international-equity-and-fixed-income custody amount nor a minimum liability/professional errors-and-omissions insurance amount; it only asks whether consulting firms carry E&O insurance.",
+      "quotes": [
+        "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+        "OPERS RFP – Investment Consulting Services – Issued February 18, 2022 Page 1 of 16",
+        "Does the firm carry errors and omissions insurance? If so, what is the level of coverage?"
+      ],
+      "quote_matches": [
+        {
+          "quote": "THE OKLAHOMA PUBLIC EMPLOYEES RETIREMENT SYSTEM REQUEST FOR PROPOSAL #515-22-200 INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 124
+        },
+        {
+          "quote": "OPERS RFP – Investment Consulting Services – Issued February 18, 2022 Page 1 of 16",
+          "start": 2856,
+          "end": 2938
+        },
+        {
+          "quote": "Does the firm carry errors and omissions insurance? If so, what is the level of coverage?",
+          "start": 34420,
+          "end": 34509
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

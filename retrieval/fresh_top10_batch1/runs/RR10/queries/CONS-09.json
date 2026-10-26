@@ -1,0 +1,81 @@
+{
+  "query_id": "CONS-09",
+  "question": "Which retirement system's investment consultant RFP requires firms to certify that they currently provide investment consulting services to clients whose combined assets total at least $50 billion?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 10,
+  "baseline_sha256": "48f96de65674c3e26067796cf259d8e1cfbbaf547247db20f5215ede2aee97c3",
+  "payload_sha256": "050f30a1110fc5b329b17ea8ec81a88545e07d27dfefa0239f8119e53f25c526",
+  "original_files": [
+    "Anchorage_PFRS__RFP_2025_Final.pdf",
+    "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+    "CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+    "Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf",
+    "IMRF__sample-investment-consulting-rfp.pdf",
+    "Hartford_MERF__file.pdf",
+    "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+    "OCERS__investment_consultant_services_rfp.pdf",
+    "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Hartford_MERF__file.pdf",
+      "path": "/mnt/docs/S/Hartford_MERF__file.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+      "path": "/mnt/docs/S/Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf",
+      "path": "/mnt/docs/S/CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "path": "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+      "path": "/mnt/docs/S/Anchorage_PFRS__RFP_2025_Final.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "IMRF__sample-investment-consulting-rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+      "path": "/mnt/docs/S/Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf",
+      "path": "/mnt/docs/S/Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 3.201,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "d4c196da42160da473ca",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "78e9f93c919309a5d2fa10dd95a99a9aa10570f812813a72ac38438337250997",
+    "source_text_sha256": "9509203a806d2bcdf58a836ebe10e970d4ddb42b4cd79e65aeab8cd010579820",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Hawaii ERS real assets investment consultant RFP, not the SBCERS global custody RFP. Its evaluation criteria and point allocations differ and do not support the requested four categories and weights.",
+      "quotes": [
+        "Employees’ Retirement System of the State of Hawaii (ERS) Request for Proposals Real Assets Investment Consultant RFP 2022-06",
+        "During this phase, the ERS will conduct final evaluations of the priority-listed offerors' proposals in accordance with the following criteria:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Employees’ Retirement System of the State of Hawaii (ERS) Request for Proposals Real Assets Investment Consultant RFP 2022-06",
+          "start": 13,
+          "end": 138
+        },
+        {
+          "quote": "During this phase, the ERS will conduct final evaluations of the priority-listed offerors' proposals in accordance with the following criteria:",
+          "start": 41350,
+          "end": 41493
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

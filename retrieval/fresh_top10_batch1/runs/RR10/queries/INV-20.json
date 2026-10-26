@@ -1,0 +1,57 @@
+{
+  "query_id": "INV-20",
+  "question": "Which meetings must the investment consultant attend under the IMRF sample RFP for investment consulting, real estate consulting and performance measurement services, and how many days of meetings per year does IMRF estimate?",
+  "type": "medium",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 6,
+  "baseline_sha256": "37738353b315c717e54e8e4322664718808e87d3824dc9beffda8979526646d6",
+  "payload_sha256": "c3730cc870a62206c222479c032bb1eaa1d1031f1b5b10281f5a8762c4225628",
+  "original_files": [
+    "IMRF__sample-investment-consulting-rfp.pdf",
+    "IMRF__sample_investment_manager_rfp.pdf",
+    "Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+    "OCERS__custodian_rfp_2022-2023.pdf",
+    "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "IMRF__sample-investment-consulting-rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+      "path": "/mnt/docs/S/DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf",
+      "path": "/mnt/docs/S/Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "IMRF__sample_investment_manager_rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "OCERS__custodian_rfp_2022-2023.pdf",
+      "path": "/mnt/docs/S/OCERS__custodian_rfp_2022-2023.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+      "path": "/mnt/docs/S/CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 3.685,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

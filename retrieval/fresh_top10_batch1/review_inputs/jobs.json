@@ -1,0 +1,1340 @@
+[
+  {
+    "id": "76a7fd292ffef593fbb5",
+    "query_id": "CONS-02",
+    "question": "In the NYC Board of Education Retirement System (BERS) RFP 2024-003 for investment consulting services, how many maximum evaluation points are assigned to the annual fee proposal?",
+    "file": "Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "expected_facts": "28 points (out of 100). Full breakdown: Program Plan/Narrative 18, Organizational Capacity/Knowledge and Experience 23, Demonstrated Effectiveness 22, Fee Proposal - Annual Fee 28, Fee Proposal - Hourly Rate 9.",
+    "acceptance": "28 points alone is sufficient. Other scoring categories and fee formula are optional.",
+    "text_hash": "78e9f93c919309a5d2fa10dd95a99a9aa10570f812813a72ac38438337250997",
+    "source_text_sha256": "9509203a806d2bcdf58a836ebe10e970d4ddb42b4cd79e65aeab8cd010579820",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "d6bf2ddb7b5f809a14dd",
+    "query_id": "CONS-02",
+    "question": "In the NYC Board of Education Retirement System (BERS) RFP 2024-003 for investment consulting services, how many maximum evaluation points are assigned to the annual fee proposal?",
+    "file": "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+    "expected_facts": "28 points (out of 100). Full breakdown: Program Plan/Narrative 18, Organizational Capacity/Knowledge and Experience 23, Demonstrated Effectiveness 22, Fee Proposal - Annual Fee 28, Fee Proposal - Hourly Rate 9.",
+    "acceptance": "28 points alone is sufficient. Other scoring categories and fee formula are optional.",
+    "text_hash": "b5feb817817e35edbb5bc0aa0af7c6df24842b1fc6b23f62b19531a928524887",
+    "source_text_sha256": "33e6d0f3b03cb97414ead33bc97801d7ca7b3799f628c39bac87276153cef3fe",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "6cf8b13727f6655c106a",
+    "query_id": "CONS-02",
+    "question": "In the NYC Board of Education Retirement System (BERS) RFP 2024-003 for investment consulting services, how many maximum evaluation points are assigned to the annual fee proposal?",
+    "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+    "expected_facts": "28 points (out of 100). Full breakdown: Program Plan/Narrative 18, Organizational Capacity/Knowledge and Experience 23, Demonstrated Effectiveness 22, Fee Proposal - Annual Fee 28, Fee Proposal - Hourly Rate 9.",
+    "acceptance": "28 points alone is sufficient. Other scoring categories and fee formula are optional.",
+    "text_hash": "b1b58831638092aa2c4058820d103b7fbdbca636b18c44a0d4120044ca4b814b",
+    "source_text_sha256": "9f5bdf4dd9b56cf14ad12c68d7eac6a3122ac753ad93b2296c4763b688071979",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "4a1f65050e7ce75d22f6",
+    "query_id": "CONS-08",
+    "question": "Which retirement plan's investment consulting RFP requires that, as of December 31, 2024, the firm have at least three public fund clients each with at least $1B in assets and have been in business at least ten years?",
+    "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "expected_facts": "The Retirement Plan for CTA Employees (Chicago Transit Authority), in its April 29, 2025 investment consulting RFP.",
+    "acceptance": "Retirement Plan for CTA/Chicago Transit Authority Employees; publication date is optional.",
+    "text_hash": "1293d72cf747218c60a7c2a6d672307dfc4ed9a219b9d94748104754f6a40b02",
+    "source_text_sha256": "7ed4136b9f78094e292fd0483fe60026c36824af173945e88edf069fb23a58f7",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is a SURS emerging-markets equity RFP template issued in 2022, not the specified investment consulting RFP. Its public-fund client criterion is preferred, permits two clients rather than requiring three, and it does not establish the stated December 31, 2024 or ten-year requirements.",
+        "quotes": [
+          "Emerging Markets Equity Issued February 14, 2022",
+          "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+          "• Preferred Criteria (PC)",
+          "The firm has at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan as a client with over $10 billion in total plan assets.",
+          "The proposing firm must have an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy as of 12/31/20__."
+        ],
+        "quote_matches": [
+          {
+            "quote": "Emerging Markets Equity Issued February 14, 2022",
+            "start": 51,
+            "end": 99
+          },
+          {
+            "quote": "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals",
+            "start": 7442,
+            "end": 7531
+          },
+          {
+            "quote": "• Preferred Criteria (PC)",
+            "start": 15352,
+            "end": 15377
+          },
+          {
+            "quote": "The firm has at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan as a client with over $10 billion in total plan assets.",
+            "start": 15527,
+            "end": 15730
+          },
+          {
+            "quote": "The proposing firm must have an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy as of 12/31/20__.",
+            "start": 14076,
+            "end": 14232
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A",
+        "attempt": 1
+      }
+    ],
+    "prior_source_path": "retrieval/followup120/support_reviews/4a1f65050e7ce75d22f6.json",
+    "prior_source_sha256": "06ed530c310fb0da8fb70532dd34b330b0f5ca312d8b1dcc0ecc8158d5997bff"
+  },
+  {
+    "id": "7d48db19dfe10e06f0f7",
+    "query_id": "CONS-09",
+    "question": "Which retirement system's investment consultant RFP requires firms to certify that they currently provide investment consulting services to clients whose combined assets total at least $50 billion?",
+    "file": "Hartford_MERF__file.pdf",
+    "expected_facts": "Teachers' Retirement System of the State of Illinois (TRS Illinois), in its FY23 investment consultant RFP (Appendix B, Statement of Minimum Qualifications).",
+    "acceptance": "TRS Illinois / Teachers’ Retirement System of the State of Illinois is sufficient; FY23 and appendix identifier are optional.",
+    "text_hash": "612ac769f6b20e395be5d2aa2b38b7e34b8ea2f3e26f8e98d474dcd3da97e895",
+    "source_text_sha256": "44a1836a1354f4ce795c9252d5b103625a8ebfa77400d6ce5e341b7d38a7561e",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is a City of Hartford RFP for its Municipal Employees’ Retirement Fund and OPEB Trust, not the retirement system identified in the question. Its minimum qualification concerns five public pension funds with over $1.5 billion each; the $50 billion figure appears only in a questionnaire table, not as a certification requirement.",
+        "quotes": [
+          "MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+          "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+          "The Proposer shall currently serve as consultant for at least five public pension funds each with over $1.5 billion in assets.",
+          "Please list the number of full-retainer clients served by the firm (by asset size and by type) as of December 31, 2023:"
+        ],
+        "quote_matches": [
+          {
+            "quote": "MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+            "start": 49,
+            "end": 141
+          },
+          {
+            "quote": "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+            "start": 235,
+            "end": 294
+          },
+          {
+            "quote": "The Proposer shall currently serve as consultant for at least five public pension funds each with over $1.5 billion in assets.",
+            "start": 4201,
+            "end": 4327
+          },
+          {
+            "quote": "Please list the number of full-retainer clients served by the firm (by asset size and by type) as of December 31, 2023:",
+            "start": 30504,
+            "end": 30623
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A",
+        "attempt": 1
+      }
+    ],
+    "prior_source_path": "retrieval/followup120/support_reviews/7d48db19dfe10e06f0f7.json",
+    "prior_source_sha256": "7a1e8803f24cd840228b8acfa52f8512b22d99894fa0400690bf660f5c9eda10"
+  },
+  {
+    "id": "4c3a6a245f073f854fb9",
+    "query_id": "CONS-10",
+    "question": "What is the proposal submission deadline in the Oklahoma Public Employees Retirement System (OPERS) investment consulting services RFP?",
+    "file": "Hartford_MERF__file.pdf",
+    "expected_facts": "4:30 p.m. Central Time on March 25, 2022.",
+    "acceptance": "Accept Central Time/CT; explicit equivalent timezone conversion acceptable.",
+    "text_hash": "612ac769f6b20e395be5d2aa2b38b7e34b8ea2f3e26f8e98d474dcd3da97e895",
+    "source_text_sha256": "44a1836a1354f4ce795c9252d5b103625a8ebfa77400d6ce5e341b7d38a7561e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "48dd072c236e0fe037e6",
+    "query_id": "CONS-10",
+    "question": "What is the proposal submission deadline in the Oklahoma Public Employees Retirement System (OPERS) investment consulting services RFP?",
+    "file": "SBCERS__2020-Private-Equity-RFP.pdf",
+    "expected_facts": "4:30 p.m. Central Time on March 25, 2022.",
+    "acceptance": "Accept Central Time/CT; explicit equivalent timezone conversion acceptable.",
+    "text_hash": "b1b58831638092aa2c4058820d103b7fbdbca636b18c44a0d4120044ca4b814b",
+    "source_text_sha256": "9f5bdf4dd9b56cf14ad12c68d7eac6a3122ac753ad93b2296c4763b688071979",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "4e6289263f7cd56e879c",
+    "query_id": "CONS-10",
+    "question": "What is the proposal submission deadline in the Oklahoma Public Employees Retirement System (OPERS) investment consulting services RFP?",
+    "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "expected_facts": "4:30 p.m. Central Time on March 25, 2022.",
+    "acceptance": "Accept Central Time/CT; explicit equivalent timezone conversion acceptable.",
+    "text_hash": "ba38eb84b9e6630e06869a17bd0a8d39bbd7f3fbf79cf38deccbc05584512bde",
+    "source_text_sha256": "71f7dc2105be0914ed5549193987a3d5f6eda22588e7c5e025dd27c5e41ee8a0",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "6ccddf871aa6825e3dec",
+    "query_id": "INV-01",
+    "question": "In the CAJPA sample investment management RFP (Appendix Z, 'Sample Investment Management Request for Proposal'), how many copies of the proposal must be sent?",
+    "file": "IMRF__sample-investment-consulting-rfp.pdf",
+    "expected_facts": "Ten (10) copies of the proposal and correspondence, sent to the pool administrator (shown as 'John Doe, 123 Main Street' in the template).",
+    "acceptance": "Ten/10 copies suffices; template addressee and correspondence wording are optional.",
+    "text_hash": "ea9d2789dbf2664c70adf4312c00b0ec81c54cf1741478e3e2757e93a2e66025",
+    "source_text_sha256": "9c1ec794ed5ca3d42e6eb1fbcbbbb339195c2c9b872a54f9d0d1536d9a860ec5",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is an Illinois Municipal Retirement Fund investment consulting RFP, not the CAJPA Appendix Z sample investment management RFP. Its six-copy requirement applies to a different issuer and proposal, so it does not support the requested fact.",
+        "quotes": [
+          "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms to provide general investment consulting, real estate consulting and performance measurement services",
+          "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX."
+        ],
+        "quote_matches": [
+          {
+            "quote": "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms to provide general investment consulting, real estate consulting and performance measurement services",
+            "start": 202,
+            "end": 406
+          },
+          {
+            "quote": "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX.",
+            "start": 21154,
+            "end": 21250
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A",
+        "attempt": 1
+      }
+    ],
+    "prior_source_path": "retrieval/followup120/support_reviews/6ccddf871aa6825e3dec.json",
+    "prior_source_sha256": "d1a4a511a7376ca7a5d79d92df818a4ebc91b1bd4dbbf6838f6587b44bded1ad"
+  },
+  {
+    "id": "10325b8a1e9f9791d634",
+    "query_id": "INV-02",
+    "question": "What is the proposal deadline, and how many copies must be submitted, for the City of Madison (Florida) Police Officers' and Firefighters' Retirement System RFP No. 2025-0901 for investment consulting services?",
+    "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+    "expected_facts": "Proposals must be received by 2:00 p.m. on September 1, 2025 at the City Clerk's office in Madison, FL (late proposals returned unopened); an original and five (5) copies must be submitted in a sealed envelope/package.",
+    "acceptance": "Accept 2pm September 1, 2025 and original plus five copies/six total. Address, sealing and late-return treatment are optional.",
+    "text_hash": "bbc5aa974f33a642622995234835e9395ec434792cd34aee6fa6e2448cb34a49",
+    "source_text_sha256": "ef809dc88bd158929af52565b0c35337429a448aa163f0f9466c3d4c5f44b3bd",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "The document is an Anchorage, Alaska RFP, not the specified City of Madison, Florida RFP. Its proposal deadline and copy requirement differ, so it does not support the requested facts.",
+        "quotes": [
+          "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+          "Proposals must be received by the Anchorage Police and Fire Retirement System on or before 4:30 p.m. AKT, Friday, May 30, 2025.",
+          "Five (5) copies of the proposal shall be submitted."
+        ],
+        "quote_matches": [
+          {
+            "quote": "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+            "start": 743,
+            "end": 836
+          },
+          {
+            "quote": "Proposals must be received by the Anchorage Police and Fire Retirement System on or before 4:30 p.m. AKT, Friday, May 30, 2025.",
+            "start": 1192,
+            "end": 1319
+          },
+          {
+            "quote": "Five (5) copies of the proposal shall be submitted.",
+            "start": 3110,
+            "end": 3161
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ],
+    "prior_source_path": "retrieval/support_reviews/10325b8a1e9f9791d634.json",
+    "prior_source_sha256": "589177d47987b4793bc9ab382a2e5c203648905b19db9ce5787bc8920bb34e4b"
+  },
+  {
+    "id": "e473e13fdd409d91fffd",
+    "query_id": "INV-02",
+    "question": "What is the proposal deadline, and how many copies must be submitted, for the City of Madison (Florida) Police Officers' and Firefighters' Retirement System RFP No. 2025-0901 for investment consulting services?",
+    "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "expected_facts": "Proposals must be received by 2:00 p.m. on September 1, 2025 at the City Clerk's office in Madison, FL (late proposals returned unopened); an original and five (5) copies must be submitted in a sealed envelope/package.",
+    "acceptance": "Accept 2pm September 1, 2025 and original plus five copies/six total. Address, sealing and late-return treatment are optional.",
+    "text_hash": "24d5965850bb731d1f236f3c09eb9e9855009b90c82899fd35fc123fe3525d93",
+    "source_text_sha256": "206385c6cbc8b887e46333ea2f56fa3be1d68c7f94e466f08c17043704dfdec6",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "The document is an August 2026 RFP issued by the San Diego City Employees' Retirement System, not the City of Madison (Florida) RFP No. 2025-0901. Its proposal deadline differs, and it requests an electronic PDF rather than an original plus five copies.",
+        "quotes": [
+          "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+          "SDCERS General Investment Consultant RFP – August 2026 Page 2",
+          "The deadline for submission of the firm’s proposal is September 22, 2026 at 5:00 pm (PDT).",
+          "Please submit a complete electronic copy (in PDF format) via e-mail of the proposal to:"
+        ],
+        "quote_matches": [
+          {
+            "quote": "SAN DIEGO CITY EMPLOYEES' RETIREMENT SYSTEM REQUEST FOR PROPOSAL (RFP) FOR GENERAL INVESTMENT CONSULTANT",
+            "start": 13,
+            "end": 117
+          },
+          {
+            "quote": "SDCERS General Investment Consultant RFP – August 2026 Page 2",
+            "start": 2036,
+            "end": 2097
+          },
+          {
+            "quote": "The deadline for submission of the firm’s proposal is September 22, 2026 at 5:00 pm (PDT).",
+            "start": 10684,
+            "end": 10774
+          },
+          {
+            "quote": "Please submit a complete electronic copy (in PDF format) via e-mail of the proposal to:",
+            "start": 10186,
+            "end": 10273
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ],
+    "prior_source_path": "retrieval/support_reviews/e473e13fdd409d91fffd.json",
+    "prior_source_sha256": "c70f9093df38095cb984a5bca699fa098d7d6575d9d09bf6af02bc34f8af8090"
+  },
+  {
+    "id": "bb1eebffdc69065999da",
+    "query_id": "INV-02",
+    "question": "What is the proposal deadline, and how many copies must be submitted, for the City of Madison (Florida) Police Officers' and Firefighters' Retirement System RFP No. 2025-0901 for investment consulting services?",
+    "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "expected_facts": "Proposals must be received by 2:00 p.m. on September 1, 2025 at the City Clerk's office in Madison, FL (late proposals returned unopened); an original and five (5) copies must be submitted in a sealed envelope/package.",
+    "acceptance": "Accept 2pm September 1, 2025 and original plus five copies/six total. Address, sealing and late-return treatment are optional.",
+    "text_hash": "ba38eb84b9e6630e06869a17bd0a8d39bbd7f3fbf79cf38deccbc05584512bde",
+    "source_text_sha256": "71f7dc2105be0914ed5549193987a3d5f6eda22588e7c5e025dd27c5e41ee8a0",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "4a09770c0f8cfe5dcbad",
+    "query_id": "INV-07",
+    "question": "In the published questions and answers for a city's pension fund consulting RFP, the city says it sent the RFP to 21 firms and last ran such a search in 2013. What does the plan currently pay for advisory services on its equities and for management of its fixed income?",
+    "file": "SAA__SAA-Investment-Manager-Database-Questionnaire.docx",
+    "expected_facts": "$20K per year for advisory of the equity investments (about 70% of plan funds, held by Fiduciary Advisors); for the fixed income investments (about 30% of plan funds, held by Commerce Bank, the custodian and paying agent) 0.30% on the first $10M, 0.20% on the next $40M and 0.15% on the remaining balance. Issuer: City of Creve Coeur, MO.",
+    "acceptance": "$20,000 annually plus 0.30% first $10m, 0.20% next $40m and 0.15% remainder. Basis-point equivalents 30/20/15 are acceptable. Provider names and 70/30 allocation are optional.",
+    "text_hash": "74059d0858a2db0c8f58f5c826a4294c6484eb59297243278164fed6a06be3bd",
+    "source_text_sha256": "59ab22e6fcedca8392d9d5d47b28976ca7b9c0f646d18aac11ba6979231c5d9d",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  {
+    "id": "9a2c0847a86a5ab04734",
+    "query_id": "INV-09",
+    "question": "An investment manager RFP template for an emerging markets equity strategy (issued February 14, 2022, responses due March 31, 2022) lists required minimum qualifications and 'preferred criteria'. What live track record does it require, and what public pension client base does it prefer?",
+    "file": "KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf",
+    "expected_facts": "Required: an established (live) track record of at least 5 years managing the proposed emerging markets equity strategy (qualified women-, minority- or disabled-owned businesses are exempt). Preferred: at least two existing U.S. public pension fund clients with over $1 billion in total plan assets, or at least one existing public plan client with over $10 billion in total plan assets (plus no material litigation in the past five years). Issuer: State Universities Retirement System of Illinois (SURS).",
+    "acceptance": "Accept five-year live strategy record and the alternative client tests (two >$1bn U.S. public pensions OR one >$10bn public plan). Ownership exemption is a relevant qualification. Issuer, litigation criterion and placeholder date need not be volunteered.",
+    "text_hash": "4d17b63a1511a6035e3a2c08797dc7e2c193555a97c765a553008ba340318074",
+    "source_text_sha256": "9ba8b34157c475227b613d2f9c05b6397a2e14952507ce6c1cae052ff9d4e2e8",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "e6549754bb4b25a96b3a",
+    "query_id": "INV-10",
+    "question": "An alternative investment consulting RFP describes a private equity portfolio of 225 holdings across 105 general partners. What are the approximate net asset values of the system's absolute return, private credit, private equity and real assets portfolios?",
+    "file": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "expected_facts": "Absolute Return about $2.6 billion (11 funds across 10 managers); Private Credit about $1.8 billion (26 holdings, 16 GPs); Private Equity about $4.5 billion (225 holdings, 105 GPs); Real Assets about $3.1 billion (87 holdings, 58 GPs). Issuer: Indiana Public Retirement System (INPRS), RFP 23-09.",
+    "acceptance": "Require correct asset-class mapping to $2.6bn/$1.8bn/$4.5bn/$3.1bn; holdings/GP counts and issuer identification are optional.",
+    "text_hash": "e208b396d807c84110e10df7ec74d980a1905d8e99839a26651b44e9927a80ca",
+    "source_text_sha256": "48df375d7d5f4c68eef011c530a1b8e2446893a55aa03aa4e9c6a423a07b3e4c",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "484c12d6b9c969ba174d",
+    "query_id": "INV-11",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for investment consulting, real estate consulting and performance measurement services, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "expected_facts": "Three factors: (1) Organization - stability, ownership, documented experience of key professionals; (2) Consulting Skill - investment philosophy, investment manager information collection and monitoring systems, risk management tools, performance measurement systems, and breadth of consulting expertise and experience; (3) Fees - consulting fees for services requested and associated costs.",
+    "acceptance": "Three factors with substantively equivalent descriptions suffice; exact wording and order are unnecessary.",
+    "text_hash": "5afc5adec694c195f2977417c376c45b4856a88e72d30c0e1953e2403af08eac",
+    "source_text_sha256": "add3ba83b3e17f098f096c1bf8b5d5000ad39375300bba2e2b398c7d805cf7a6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "fdd5e83bc2147308ae0c",
+    "query_id": "INV-11",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for investment consulting, real estate consulting and performance measurement services, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf",
+    "expected_facts": "Three factors: (1) Organization - stability, ownership, documented experience of key professionals; (2) Consulting Skill - investment philosophy, investment manager information collection and monitoring systems, risk management tools, performance measurement systems, and breadth of consulting expertise and experience; (3) Fees - consulting fees for services requested and associated costs.",
+    "acceptance": "Three factors with substantively equivalent descriptions suffice; exact wording and order are unnecessary.",
+    "text_hash": "e208b396d807c84110e10df7ec74d980a1905d8e99839a26651b44e9927a80ca",
+    "source_text_sha256": "48df375d7d5f4c68eef011c530a1b8e2446893a55aa03aa4e9c6a423a07b3e4c",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "525a8163082a477f332b",
+    "query_id": "INV-11",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for investment consulting, real estate consulting and performance measurement services, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "OCERS__custodian_rfp_2022-2023.pdf",
+    "expected_facts": "Three factors: (1) Organization - stability, ownership, documented experience of key professionals; (2) Consulting Skill - investment philosophy, investment manager information collection and monitoring systems, risk management tools, performance measurement systems, and breadth of consulting expertise and experience; (3) Fees - consulting fees for services requested and associated costs.",
+    "acceptance": "Three factors with substantively equivalent descriptions suffice; exact wording and order are unnecessary.",
+    "text_hash": "2f1b263969ef09f6d98b625298c7af0518d618d780be107703d3e797ceb8169a",
+    "source_text_sha256": "2160dab5b593e917103890305a919f136c0a0f9f1c86c7a4b6fb2c4eaaf14ec2",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "40463f806fa0b34a9b67",
+    "query_id": "INV-17",
+    "question": "What evaluation criteria and weights does the Arizona Public Safety Personnel Retirement System (PSPRS) use in its RFP for non-discretionary investment consultant services?",
+    "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "expected_facts": "25% - relevant knowledge and experience in similar consulting engagements and current organizational capacity to provide experienced staff; 30% - quality and extent of the firm's capabilities in strategic advice, new investment identification and evaluation, operational due diligence, investment due diligence, manager performance reporting and monitoring, and back office support; 25% - demonstrated ability to meet service requirements (communicating with the CIO, investment team, Trustees and the Board's consultant, the operational plan, quality of assigned staff); 20% - overall cost of the proposed services.",
+    "acceptance": "Accept concise synonymous descriptions of all four criteria at 25/30/25/20; sublists need not reproduce every phrase verbatim.",
+    "text_hash": "3b4fb541c2d35b7de747c8f6c26cc3a40bee097d58737ad466dbef56acdfa755",
+    "source_text_sha256": "a7628e3fc4e0a9323e896059440a5b708d424232eec8242be9362eb818e6b682",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "7f5c589cef915bc736f5",
+    "query_id": "INV-17",
+    "question": "What evaluation criteria and weights does the Arizona Public Safety Personnel Retirement System (PSPRS) use in its RFP for non-discretionary investment consultant services?",
+    "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+    "expected_facts": "25% - relevant knowledge and experience in similar consulting engagements and current organizational capacity to provide experienced staff; 30% - quality and extent of the firm's capabilities in strategic advice, new investment identification and evaluation, operational due diligence, investment due diligence, manager performance reporting and monitoring, and back office support; 25% - demonstrated ability to meet service requirements (communicating with the CIO, investment team, Trustees and the Board's consultant, the operational plan, quality of assigned staff); 20% - overall cost of the proposed services.",
+    "acceptance": "Accept concise synonymous descriptions of all four criteria at 25/30/25/20; sublists need not reproduce every phrase verbatim.",
+    "text_hash": "aa32d205efb4a8f5c43054ea38fe8bb413e446bbe6440d32846410e99aba3560",
+    "source_text_sha256": "ba46410ea5b8731139363c20c23c9e0ed7804d7854e543119bc174f6333ad4d1",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "1479ad2a8e69b0f7b1e6",
+    "query_id": "OTH-06",
+    "question": "In Clark County, Washington's RFP 955 for a deferred compensation 457 plan administrator, how much was held in the 457 Plans as of December 31, 2025, and who is the current provider?",
+    "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+    "expected_facts": "Approximately $167 million; the current provider is Lincoln Financial.",
+    "acceptance": "Accept approximately $167m (or appropriately reconciled table total) and Lincoln Financial; not just County-only $162.85m.",
+    "text_hash": "aa32d205efb4a8f5c43054ea38fe8bb413e446bbe6440d32846410e99aba3560",
+    "source_text_sha256": "ba46410ea5b8731139363c20c23c9e0ed7804d7854e543119bc174f6333ad4d1",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "b72075cb81a55d939886",
+    "query_id": "OTH-09",
+    "question": "A county pension fund is searching for a single manager of managers covering domestic equity, international equity and fixed income. What is the maximum mandate size, and what is the firm-level AUM limit for responders?",
+    "file": "Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf",
+    "expected_facts": "A mandate of up to $350 million; responders must have less than $30 billion in firm-level assets under management (Cook County Fund, RFP 25-0004).",
+    "acceptance": "Accept up to $350m and firm AUM strictly below $30bn. Cook County identification is optional.",
+    "text_hash": "70ba69fa78a5262a5a903e6c962a7ed533f83b2f39cbeaae0d6efcae5122f669",
+    "source_text_sha256": "c0d34ab691e3323f8b02fd000d177f6559326d07370721a1d326e71475259a58",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "be7260f0dae9c9e2baf7",
+    "query_id": "OTH-09",
+    "question": "A county pension fund is searching for a single manager of managers covering domestic equity, international equity and fixed income. What is the maximum mandate size, and what is the firm-level AUM limit for responders?",
+    "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "expected_facts": "A mandate of up to $350 million; responders must have less than $30 billion in firm-level assets under management (Cook County Fund, RFP 25-0004).",
+    "acceptance": "Accept up to $350m and firm AUM strictly below $30bn. Cook County identification is optional.",
+    "text_hash": "2e5c9ac10ac2943a19269fe0ceeab6dc6cca5c9b732ec461770764bed168feeb",
+    "source_text_sha256": "698b71034e03dda497378807f02ef9875cc985ad2aafde5d24accec7bdff2d4b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "25aa33bfa1b05e301dad",
+    "query_id": "OTH-09",
+    "question": "A county pension fund is searching for a single manager of managers covering domestic equity, international equity and fixed income. What is the maximum mandate size, and what is the firm-level AUM limit for responders?",
+    "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "expected_facts": "A mandate of up to $350 million; responders must have less than $30 billion in firm-level assets under management (Cook County Fund, RFP 25-0004).",
+    "acceptance": "Accept up to $350m and firm AUM strictly below $30bn. Cook County identification is optional.",
+    "text_hash": "ba38eb84b9e6630e06869a17bd0a8d39bbd7f3fbf79cf38deccbc05584512bde",
+    "source_text_sha256": "71f7dc2105be0914ed5549193987a3d5f6eda22588e7c5e025dd27c5e41ee8a0",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "11b15435770e23c4bf7e",
+    "query_id": "OTH-15",
+    "question": "In the Los Angeles City Employees' Retirement System (LACERS) actuarial RFP, how many years of experience must the lead actuary have?",
+    "file": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "expected_facts": "At least 15 years of experience with major public employee retirement systems, including at least 3 years with California public pension fund clients similar to LACERS.",
+    "acceptance": "Accept 15 total and three California years. Do not require credential details unrelated to the years asked.",
+    "text_hash": "9442e2b4c086526d3a2fdbcfd889eca2ceeb00c6b9e5d09ba8003815529b2dfc",
+    "source_text_sha256": "a03af1cb5588edbe010abae942bbd4d97b649d15b5280a5db6c40f3e111a54fd",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is a Boston Retirement System investment consulting RFP, not the LACERS actuarial RFP. Its five-year requirement applies to a lead investment consultant on the BRS account, not a lead actuary, and it provides no LACERS experience requirement.",
+        "quotes": [
+          "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+          "Does the prospective “lead Consultant” on the BRS account have at least five (5) years of experience advising systems of similar size and scope to BRS"
+        ],
+        "quote_matches": [
+          {
+            "quote": "BOSTON RETIREMENT SYSTEM (“BRS”) INVESTMENT CONSULTING SERVICES REQUEST FOR PROPOSALS (“RFP”)",
+            "start": 13,
+            "end": 106
+          },
+          {
+            "quote": "Does the prospective “lead Consultant” on the BRS account have at least five (5) years of experience advising systems of similar size and scope to BRS",
+            "start": 13851,
+            "end": 14001
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A",
+        "attempt": 1
+      }
+    ],
+    "prior_source_path": "retrieval/followup120/support_reviews/11b15435770e23c4bf7e.json",
+    "prior_source_sha256": "0c6314c923a7ed32229d652a443b730e8bea94631b1a89c96dc993dcb6c9d2ca"
+  },
+  {
+    "id": "211e1f40a695398e0b17",
+    "query_id": "OTH-15",
+    "question": "In the Los Angeles City Employees' Retirement System (LACERS) actuarial RFP, how many years of experience must the lead actuary have?",
+    "file": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "expected_facts": "At least 15 years of experience with major public employee retirement systems, including at least 3 years with California public pension fund clients similar to LACERS.",
+    "acceptance": "Accept 15 total and three California years. Do not require credential details unrelated to the years asked.",
+    "text_hash": "013acad3f1f8520c2684a10f9b3d8fe0a1e3b30393ebcfaf64bc1f9156b80e3a",
+    "source_text_sha256": "2ad75cdaeecab9651d3f225547abe579638bbba888408fcd731110baaa9f8322",
+    "second_check_required": true,
+    "prior_reviews": []
+  },
+  {
+    "id": "04fbe6b00e392150d14e",
+    "query_id": "OTH-15",
+    "question": "In the Los Angeles City Employees' Retirement System (LACERS) actuarial RFP, how many years of experience must the lead actuary have?",
+    "file": "York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf",
+    "expected_facts": "At least 15 years of experience with major public employee retirement systems, including at least 3 years with California public pension fund clients similar to LACERS.",
+    "acceptance": "Accept 15 total and three California years. Do not require credential details unrelated to the years asked.",
+    "text_hash": "5891a32259564f9ac415f972a2fc2b35470c2879a7cd7b6e29f839b11820bf0e",
+    "source_text_sha256": "5e156c52da582a64548638b8df5e29eb5da1bbd97adae5e313d2840797c6ca4b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "cea315af51f4a26982e6",
+    "query_id": "OTH-16",
+    "question": "In the Police Retirement System of St. Louis (PRS-STL) actuarial RFP, how many years of experience must the principal actuary have?",
+    "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "expected_facts": "A minimum of five years of professional actuarial experience, plus a minimum of five years of experience testifying before legislative and administrative bodies.",
+    "acceptance": "Five years professional actuarial experience is the core number. A complete description may state the separate five-year testimony requirement; these are not additive ten years and may overlap. Credentials are optional for this question.",
+    "text_hash": "5afc5adec694c195f2977417c376c45b4856a88e72d30c0e1953e2403af08eac",
+    "source_text_sha256": "add3ba83b3e17f098f096c1bf8b5d5000ad39375300bba2e2b398c7d805cf7a6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "49a3ee19ccfbc39eed3e",
+    "query_id": "OTH-16",
+    "question": "In the Police Retirement System of St. Louis (PRS-STL) actuarial RFP, how many years of experience must the principal actuary have?",
+    "file": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "expected_facts": "A minimum of five years of professional actuarial experience, plus a minimum of five years of experience testifying before legislative and administrative bodies.",
+    "acceptance": "Five years professional actuarial experience is the core number. A complete description may state the separate five-year testimony requirement; these are not additive ten years and may overlap. Credentials are optional for this question.",
+    "text_hash": "013acad3f1f8520c2684a10f9b3d8fe0a1e3b30393ebcfaf64bc1f9156b80e3a",
+    "source_text_sha256": "2ad75cdaeecab9651d3f225547abe579638bbba888408fcd731110baaa9f8322",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "18816ac879409ddca8f9",
+    "query_id": "OTH-16",
+    "question": "In the Police Retirement System of St. Louis (PRS-STL) actuarial RFP, how many years of experience must the principal actuary have?",
+    "file": "OCERS__ocers_pas_consultant_rfp.pdf",
+    "expected_facts": "A minimum of five years of professional actuarial experience, plus a minimum of five years of experience testifying before legislative and administrative bodies.",
+    "acceptance": "Five years professional actuarial experience is the core number. A complete description may state the separate five-year testimony requirement; these are not additive ten years and may overlap. Credentials are optional for this question.",
+    "text_hash": "af1747fe366b6ece99095ff8194fc5b4085ff2909aa45282d0359249c94d81f4",
+    "source_text_sha256": "ff418f121d48959c4fddc69dbf01669d218269a5b873ad0f1daf40bc3ed37b33",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "161778f23c636ae376e1",
+    "query_id": "SVC-09",
+    "question": "A county retirement system's custody RFP requires custody respondents to have at least $500 billion in total assets under custody as of December 31, 2021. How much of that must be in international equity and fixed income, and what minimum liability/professional errors and omissions insurance must respondents provide?",
+    "file": "Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf",
+    "expected_facts": "At least $100 billion in international equity and fixed income; liability/professional errors and omissions insurance of at least $75 million. Issuer: Orange County Employees Retirement System (OCERS), October 2022 custody services RFP.",
+    "acceptance": "Accept $100bn international equity/fixed income and $75m liability/professional E&O coverage. Issuer/date are optional.",
+    "text_hash": "9442e2b4c086526d3a2fdbcfd889eca2ceeb00c6b9e5d09ba8003815529b2dfc",
+    "source_text_sha256": "a03af1cb5588edbe010abae942bbd4d97b649d15b5280a5db6c40f3e111a54fd",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "28d35d8d1ffafc1d324a",
+    "query_id": "SVC-09",
+    "question": "A county retirement system's custody RFP requires custody respondents to have at least $500 billion in total assets under custody as of December 31, 2021. How much of that must be in international equity and fixed income, and what minimum liability/professional errors and omissions insurance must respondents provide?",
+    "file": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+    "expected_facts": "At least $100 billion in international equity and fixed income; liability/professional errors and omissions insurance of at least $75 million. Issuer: Orange County Employees Retirement System (OCERS), October 2022 custody services RFP.",
+    "acceptance": "Accept $100bn international equity/fixed income and $75m liability/professional E&O coverage. Issuer/date are optional.",
+    "text_hash": "6b179eedd0acf11d4033b486705b8677fb78308e47584950c128cde739d4f025",
+    "source_text_sha256": "81bbcbe9365fdc601c3f939281acb26f90195cb62f71e9af6d67ff79a5c33f94",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "33fdc283dc83f9a9a90e",
+    "query_id": "SVC-09",
+    "question": "A county retirement system's custody RFP requires custody respondents to have at least $500 billion in total assets under custody as of December 31, 2021. How much of that must be in international equity and fixed income, and what minimum liability/professional errors and omissions insurance must respondents provide?",
+    "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "expected_facts": "At least $100 billion in international equity and fixed income; liability/professional errors and omissions insurance of at least $75 million. Issuer: Orange County Employees Retirement System (OCERS), October 2022 custody services RFP.",
+    "acceptance": "Accept $100bn international equity/fixed income and $75m liability/professional E&O coverage. Issuer/date are optional.",
+    "text_hash": "5afc5adec694c195f2977417c376c45b4856a88e72d30c0e1953e2403af08eac",
+    "source_text_sha256": "add3ba83b3e17f098f096c1bf8b5d5000ad39375300bba2e2b398c7d805cf7a6",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "partial",
+        "identity": "wrong",
+        "reason": "This is Contra Costa County Employees’ Retirement Association’s April 2018 RFP, not the identified October 2022 OCERS RFP. Its draft contract specifies $75 million in banker’s professional liability insurance, but the document does not support the required $500 billion custody threshold or the international equity and fixed-income minimum.",
+        "quotes": [
+          "April 2018 Contra Costa County Employees’ Retirement Association",
+          "15.3 Banker’s Professional Liability. A program of Banker’s Professional Liability Insurance with limits of $75,000,000."
+        ],
+        "quote_matches": [
+          {
+            "quote": "April 2018 Contra Costa County Employees’ Retirement Association",
+            "start": 77,
+            "end": 141
+          },
+          {
+            "quote": "15.3 Banker’s Professional Liability. A program of Banker’s Professional Liability Insurance with limits of $75,000,000.",
+            "start": 159994,
+            "end": 160114
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A",
+        "attempt": 1
+      }
+    ],
+    "prior_source_path": "retrieval/followup120/support_reviews/33fdc283dc83f9a9a90e.json",
+    "prior_source_sha256": "0ed357fc8564af4e3fed4dccffec64c4072cb57e48f336c13fd93a7f1cd24e71"
+  },
+  {
+    "id": "e9ffed5e2f01a82faccb",
+    "query_id": "SVC-09",
+    "question": "A county retirement system's custody RFP requires custody respondents to have at least $500 billion in total assets under custody as of December 31, 2021. How much of that must be in international equity and fixed income, and what minimum liability/professional errors and omissions insurance must respondents provide?",
+    "file": "Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "expected_facts": "At least $100 billion in international equity and fixed income; liability/professional errors and omissions insurance of at least $75 million. Issuer: Orange County Employees Retirement System (OCERS), October 2022 custody services RFP.",
+    "acceptance": "Accept $100bn international equity/fixed income and $75m liability/professional E&O coverage. Issuer/date are optional.",
+    "text_hash": "78e9f93c919309a5d2fa10dd95a99a9aa10570f812813a72ac38438337250997",
+    "source_text_sha256": "9509203a806d2bcdf58a836ebe10e970d4ddb42b4cd79e65aeab8cd010579820",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "bf0dfd88c481df581481",
+    "query_id": "SVC-09",
+    "question": "A county retirement system's custody RFP requires custody respondents to have at least $500 billion in total assets under custody as of December 31, 2021. How much of that must be in international equity and fixed income, and what minimum liability/professional errors and omissions insurance must respondents provide?",
+    "file": "Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf",
+    "expected_facts": "At least $100 billion in international equity and fixed income; liability/professional errors and omissions insurance of at least $75 million. Issuer: Orange County Employees Retirement System (OCERS), October 2022 custody services RFP.",
+    "acceptance": "Accept $100bn international equity/fixed income and $75m liability/professional E&O coverage. Issuer/date are optional.",
+    "text_hash": "dc7770ddf2eb0d0a22374752c7dc6794b8fb383b84a6cf93e4a10d4cf606f4a6",
+    "source_text_sha256": "e9d832947c5555fd08fbad4762996d02f44908b19826f8ed06865b1ee0a20b33",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "dd256bb2fb03ac526a1a",
+    "query_id": "SVC-09",
+    "question": "A county retirement system's custody RFP requires custody respondents to have at least $500 billion in total assets under custody as of December 31, 2021. How much of that must be in international equity and fixed income, and what minimum liability/professional errors and omissions insurance must respondents provide?",
+    "file": "Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+    "expected_facts": "At least $100 billion in international equity and fixed income; liability/professional errors and omissions insurance of at least $75 million. Issuer: Orange County Employees Retirement System (OCERS), October 2022 custody services RFP.",
+    "acceptance": "Accept $100bn international equity/fixed income and $75m liability/professional E&O coverage. Issuer/date are optional.",
+    "text_hash": "7974cf3ced5ece0c3df4520edc4dd6247ec6bbbc3297db171ad7ec83dd1f5ab2",
+    "source_text_sha256": "d065a0843dfa54da64a294e172b508cf8e712eb413bc4f30e72f609c24012fce",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "b08e7b5f351a077ff0e2",
+    "query_id": "SVC-10",
+    "question": "In the minimum-qualifications insurance list of the RFP for oversight of the pension administration system replacing V3, what umbrella-liability and professional-liability limits are specified?",
+    "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+    "expected_facts": "The minimum-qualifications list specifies umbrella liability of $5 million per occurrence and $5 million aggregate, and professional liability of $2 million per occurrence and $3 million aggregate. The sample agreement separately contains a wording inconsistency ('one million dollars ($2,000,000)' per occurrence).",
+    "acceptance": "The listed $5m/$5m umbrella and $2m/$3m professional limits are materially correct. Also accept that answer with the p21 written/numeric discrepancy explicitly flagged. Other insurance types and issuer date are optional. Do not accept an unexplained $1m as the sole professional limit.",
+    "text_hash": "3b4fb541c2d35b7de747c8f6c26cc3a40bee097d58737ad466dbef56acdfa755",
+    "source_text_sha256": "a7628e3fc4e0a9323e896059440a5b708d424232eec8242be9362eb818e6b682",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "97269ad1a54cd8836fad",
+    "query_id": "SVC-10",
+    "question": "In the minimum-qualifications insurance list of the RFP for oversight of the pension administration system replacing V3, what umbrella-liability and professional-liability limits are specified?",
+    "file": "Hartford_MERF__file.pdf",
+    "expected_facts": "The minimum-qualifications list specifies umbrella liability of $5 million per occurrence and $5 million aggregate, and professional liability of $2 million per occurrence and $3 million aggregate. The sample agreement separately contains a wording inconsistency ('one million dollars ($2,000,000)' per occurrence).",
+    "acceptance": "The listed $5m/$5m umbrella and $2m/$3m professional limits are materially correct. Also accept that answer with the p21 written/numeric discrepancy explicitly flagged. Other insurance types and issuer date are optional. Do not accept an unexplained $1m as the sole professional limit.",
+    "text_hash": "612ac769f6b20e395be5d2aa2b38b7e34b8ea2f3e26f8e98d474dcd3da97e895",
+    "source_text_sha256": "44a1836a1354f4ce795c9252d5b103625a8ebfa77400d6ce5e341b7d38a7561e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "c80635a3ca63d02d7663",
+    "query_id": "SVC-10",
+    "question": "In the minimum-qualifications insurance list of the RFP for oversight of the pension administration system replacing V3, what umbrella-liability and professional-liability limits are specified?",
+    "file": "LACERS__2025_actuarial_consulting_services_rfp.pdf",
+    "expected_facts": "The minimum-qualifications list specifies umbrella liability of $5 million per occurrence and $5 million aggregate, and professional liability of $2 million per occurrence and $3 million aggregate. The sample agreement separately contains a wording inconsistency ('one million dollars ($2,000,000)' per occurrence).",
+    "acceptance": "The listed $5m/$5m umbrella and $2m/$3m professional limits are materially correct. Also accept that answer with the p21 written/numeric discrepancy explicitly flagged. Other insurance types and issuer date are optional. Do not accept an unexplained $1m as the sole professional limit.",
+    "text_hash": "f4525122521ab7e76068ce1fd50910b77ebfe55cb8ff36e1b7c16f377703dabe",
+    "source_text_sha256": "7e096c8372e52f175e2aba48012fdffb7c5ee4851ee9ab1af4563bae28d35145",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is an RFP for actuarial consulting services, not oversight of the pension administration system replacing V3. Its minimum-qualifications list gives no umbrella- or professional-liability limits; it only refers generally to insurance requirements elsewhere.",
+        "quotes": [
+          "REQUEST FOR PROPOSAL (RFP) FOR ACTUARIAL CONSULTING SERVICES",
+          "II. MINIMUM QUALIFICATIONS",
+          "The firm must have at least five years of experience providing actuarial consulting services to other U.S. public pension fund clients similar to services requested in this RFP.",
+          "The General Conditions also indicate several standard contracting provisions and requirements of every LACERS and City of Los Angeles contract."
+        ],
+        "quote_matches": [
+          {
+            "quote": "REQUEST FOR PROPOSAL (RFP) FOR ACTUARIAL CONSULTING SERVICES",
+            "start": 13,
+            "end": 73
+          },
+          {
+            "quote": "II. MINIMUM QUALIFICATIONS",
+            "start": 1599,
+            "end": 1625
+          },
+          {
+            "quote": "The firm must have at least five years of experience providing actuarial consulting services to other U.S. public pension fund clients similar to services requested in this RFP.",
+            "start": 8392,
+            "end": 8569
+          },
+          {
+            "quote": "The General Conditions also indicate several standard contracting provisions and requirements of every LACERS and City of Los Angeles contract.",
+            "start": 37249,
+            "end": 37392
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ],
+    "prior_source_path": "retrieval/support_reviews/c80635a3ca63d02d7663.json",
+    "prior_source_sha256": "c38377f56df1d0fe6eb6bb72a34a96eae133c0e92b5c87c6941f860ea846e327"
+  },
+  {
+    "id": "a8267eeba32763d97046",
+    "query_id": "SVC-10",
+    "question": "In the minimum-qualifications insurance list of the RFP for oversight of the pension administration system replacing V3, what umbrella-liability and professional-liability limits are specified?",
+    "file": "OCERS__custodian_rfp_2022-2023.pdf",
+    "expected_facts": "The minimum-qualifications list specifies umbrella liability of $5 million per occurrence and $5 million aggregate, and professional liability of $2 million per occurrence and $3 million aggregate. The sample agreement separately contains a wording inconsistency ('one million dollars ($2,000,000)' per occurrence).",
+    "acceptance": "The listed $5m/$5m umbrella and $2m/$3m professional limits are materially correct. Also accept that answer with the p21 written/numeric discrepancy explicitly flagged. Other insurance types and issuer date are optional. Do not accept an unexplained $1m as the sole professional limit.",
+    "text_hash": "2f1b263969ef09f6d98b625298c7af0518d618d780be107703d3e797ceb8169a",
+    "source_text_sha256": "2160dab5b593e917103890305a919f136c0a0f9f1c86c7a4b6fb2c4eaaf14ec2",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "e20c6a4425918c9a57b1",
+    "query_id": "SVC-10",
+    "question": "In the minimum-qualifications insurance list of the RFP for oversight of the pension administration system replacing V3, what umbrella-liability and professional-liability limits are specified?",
+    "file": "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+    "expected_facts": "The minimum-qualifications list specifies umbrella liability of $5 million per occurrence and $5 million aggregate, and professional liability of $2 million per occurrence and $3 million aggregate. The sample agreement separately contains a wording inconsistency ('one million dollars ($2,000,000)' per occurrence).",
+    "acceptance": "The listed $5m/$5m umbrella and $2m/$3m professional limits are materially correct. Also accept that answer with the p21 written/numeric discrepancy explicitly flagged. Other insurance types and issuer date are optional. Do not accept an unexplained $1m as the sole professional limit.",
+    "text_hash": "d9a2a163aae9999ec622d7aec59ce7e611db4184b600f4da1278390d065e044b",
+    "source_text_sha256": "160e96bb79418d07ec2fbcbd06fadf5a029ef68dec4598be1d24fd91b7188964",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "029afdd227a93215b25b",
+    "query_id": "SVC-10",
+    "question": "In the minimum-qualifications insurance list of the RFP for oversight of the pension administration system replacing V3, what umbrella-liability and professional-liability limits are specified?",
+    "file": "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+    "expected_facts": "The minimum-qualifications list specifies umbrella liability of $5 million per occurrence and $5 million aggregate, and professional liability of $2 million per occurrence and $3 million aggregate. The sample agreement separately contains a wording inconsistency ('one million dollars ($2,000,000)' per occurrence).",
+    "acceptance": "The listed $5m/$5m umbrella and $2m/$3m professional limits are materially correct. Also accept that answer with the p21 written/numeric discrepancy explicitly flagged. Other insurance types and issuer date are optional. Do not accept an unexplained $1m as the sole professional limit.",
+    "text_hash": "3ceed69320130ef8b05d9121485e497c339c98312b01995788aaadc713b0e13e",
+    "source_text_sha256": "1592894378410e0e43afb1370a16e301ba0b8187e206d48f7c0eccbe1356784e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "9e747d0481ae0fb1f44b",
+    "query_id": "SVC-12",
+    "question": "According to the Monroe County deferred compensation services RFP, how many participants did the plan have and what were its total assets?",
+    "file": "Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf",
+    "expected_facts": "As of December 31, 2022: 4,398 plan participants and plan assets of $308,676,730. In addition, the OBRA part-time seasonal plan had 536 participants with assets of $926,785.",
+    "acceptance": "Main plan 4,398 participants / $308,676,730 is sufficient. OBRA 536 / $926,785 is supplementary and must not replace or be silently added to main-plan figures.",
+    "text_hash": "53d9721d2e2c3d6a51e0fc4bfb31c9316f7e85c40c0e7f0d49e078816ff62d05",
+    "source_text_sha256": "c2664794e00ae7c2cedc789c6096ac5a57a34278a2e7017af86c3eed125ae7ab",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "c0b7fbe74cc8d9816cac",
+    "query_id": "SVC-12",
+    "question": "According to the Monroe County deferred compensation services RFP, how many participants did the plan have and what were its total assets?",
+    "file": "Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf",
+    "expected_facts": "As of December 31, 2022: 4,398 plan participants and plan assets of $308,676,730. In addition, the OBRA part-time seasonal plan had 536 participants with assets of $926,785.",
+    "acceptance": "Main plan 4,398 participants / $308,676,730 is sufficient. OBRA 536 / $926,785 is supplementary and must not replace or be silently added to main-plan figures.",
+    "text_hash": "3ecf7188afbf06d1992a2e369435746a5f1872698632985399a9e054bf75b408",
+    "source_text_sha256": "245be5bf903c98e9c43a03f3b620302180f76969b88872c25a7e2f9026336a20",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "afc7318ac951fe3b2183",
+    "query_id": "SVC-12",
+    "question": "According to the Monroe County deferred compensation services RFP, how many participants did the plan have and what were its total assets?",
+    "file": "Hartford_MERF__file.pdf",
+    "expected_facts": "As of December 31, 2022: 4,398 plan participants and plan assets of $308,676,730. In addition, the OBRA part-time seasonal plan had 536 participants with assets of $926,785.",
+    "acceptance": "Main plan 4,398 participants / $308,676,730 is sufficient. OBRA 536 / $926,785 is supplementary and must not replace or be silently added to main-plan figures.",
+    "text_hash": "612ac769f6b20e395be5d2aa2b38b7e34b8ea2f3e26f8e98d474dcd3da97e895",
+    "source_text_sha256": "44a1836a1354f4ce795c9252d5b103625a8ebfa77400d6ce5e341b7d38a7561e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "3bce7dce6e9f9238d4fa",
+    "query_id": "SVC-12",
+    "question": "According to the Monroe County deferred compensation services RFP, how many participants did the plan have and what were its total assets?",
+    "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "expected_facts": "As of December 31, 2022: 4,398 plan participants and plan assets of $308,676,730. In addition, the OBRA part-time seasonal plan had 536 participants with assets of $926,785.",
+    "acceptance": "Main plan 4,398 participants / $308,676,730 is sufficient. OBRA 536 / $926,785 is supplementary and must not replace or be silently added to main-plan figures.",
+    "text_hash": "1293d72cf747218c60a7c2a6d672307dfc4ed9a219b9d94748104754f6a40b02",
+    "source_text_sha256": "7ed4136b9f78094e292fd0483fe60026c36824af173945e88edf069fb23a58f7",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "bb8f1f85f6563a055b89",
+    "query_id": "SVC-13",
+    "question": "What evaluation criteria and percentage weights does the Texas Municipal Retirement System (TMRS) global custody RFP use to evaluate respondents?",
+    "file": "Delaware__TRE21101-RECDKEEPR-rfp.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 25%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Response and Additional Evidence of Capability - 10%; 4. Competitiveness & Reasonableness of Economics - 25%.",
+    "acceptance": "Accept faithful shorter criterion names with correct mapping 25/40/10/25. Supporting subcriteria are optional.",
+    "text_hash": "6c44b43272ac16f4bd8efdebfb5b71a666753ca71b3f0242c213453c6a30a56a",
+    "source_text_sha256": "a171986940a15f77f516b2eed48ea13f5e49967c592369ad8f87250248f2b907",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "d4c196da42160da473ca",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "78e9f93c919309a5d2fa10dd95a99a9aa10570f812813a72ac38438337250997",
+    "source_text_sha256": "9509203a806d2bcdf58a836ebe10e970d4ddb42b4cd79e65aeab8cd010579820",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "8f9825e7869c3b677dfe",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "013acad3f1f8520c2684a10f9b3d8fe0a1e3b30393ebcfaf64bc1f9156b80e3a",
+    "source_text_sha256": "2ad75cdaeecab9651d3f225547abe579638bbba888408fcd731110baaa9f8322",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "900d426c13622cd16a10",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "671c411958eb874cfc800e9ef62f40b39ce0a3618032e31c58dc0911d1ac78ca",
+    "source_text_sha256": "a59653c4763af085dd01d7961474b0d3e4d1e15ac1d4029f77327171d4183a79",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "dc96d2260827b2185be5",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "OCERS__ocers_pas_consultant_rfp.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "af1747fe366b6ece99095ff8194fc5b4085ff2909aa45282d0359249c94d81f4",
+    "source_text_sha256": "ff418f121d48959c4fddc69dbf01669d218269a5b873ad0f1daf40bc3ed37b33",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "e6c27e0a9d5e98a5228b",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "24d5965850bb731d1f236f3c09eb9e9855009b90c82899fd35fc123fe3525d93",
+    "source_text_sha256": "206385c6cbc8b887e46333ea2f56fa3be1d68c7f94e466f08c17043704dfdec6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "7c701c075c0f194c7eba",
+    "query_id": "SVC-15",
+    "question": "What contract term, including any extension options, does the Kern County Employees' Retirement Association (KCERA) RFP for audit services contemplate?",
+    "file": "OCERS__investment_consultant_services_rfp.pdf",
+    "expected_facts": "A three-year agreement (audits of fiscal year ending June 30, 2023 and the two subsequent fiscal years), subject to annual Board review; the original term may be extended for up to an additional three years by mutual agreement of KCERA and the firm.",
+    "acceptance": "Accept 3+up to3 years, mutual extension. Audit fiscal years and annual-review/negotiation detail need not all be volunteered.",
+    "text_hash": "5b64c217e92c2749a5177225f6fda52ea0dd775fcbdd0d850a456eb5dfcd1a1f",
+    "source_text_sha256": "31ba78f454a82dc69e8946299253c94f905a157c0bee42fe28fb33f65c2dcfa1",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "816960e0c499334cdfa6",
+    "query_id": "SVC-16",
+    "question": "What contract term, including any extension options, does the Los Angeles Fire and Police Pensions (LAFPP) RFP for financial statement audit services contemplate?",
+    "file": "Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf",
+    "expected_facts": "A three-year contract (fiscal years ending June 30, 2025, 2026 and 2027) with a maximum fee proposal for each fiscal year; the Board may extend beyond the three-year term through two one-year renewals.",
+    "acceptance": "Three years plus two optional one-year renewals, up to five years, suffices. Fiscal-year dates and fee-proposal details are optional.",
+    "text_hash": "671c411958eb874cfc800e9ef62f40b39ce0a3618032e31c58dc0911d1ac78ca",
+    "source_text_sha256": "a59653c4763af085dd01d7961474b0d3e4d1e15ac1d4029f77327171d4183a79",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "f4a823c5e6992e605756",
+    "query_id": "SVC-16",
+    "question": "What contract term, including any extension options, does the Los Angeles Fire and Police Pensions (LAFPP) RFP for financial statement audit services contemplate?",
+    "file": "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+    "expected_facts": "A three-year contract (fiscal years ending June 30, 2025, 2026 and 2027) with a maximum fee proposal for each fiscal year; the Board may extend beyond the three-year term through two one-year renewals.",
+    "acceptance": "Three years plus two optional one-year renewals, up to five years, suffices. Fiscal-year dates and fee-proposal details are optional.",
+    "text_hash": "3ceed69320130ef8b05d9121485e497c339c98312b01995788aaadc713b0e13e",
+    "source_text_sha256": "1592894378410e0e43afb1370a16e301ba0b8187e206d48f7c0eccbe1356784e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "a2d38f55af037af5ae6f",
+    "query_id": "SVC-17",
+    "question": "What evaluation criteria and point values are used to score proposals in the Delaware Office of the State Treasurer's 2021 RFP for deferred compensation plan recordkeeping and administration services?",
+    "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+    "expected_facts": "Total 100 points: (I) Vendor History and Depth of Public Defined Contribution Plan Experience - 10; (II) Scope of Vendor Operations and Ability to Meet Full Range of Requested Services - 20; (III) Plan Sponsor Experience: Website Access & Quality, Administrative and Compliance Support, Relationship Management, Performance Reporting and Industry/Trend Evaluation and Communication - 30; (IV) Participant Communication & Education: Custom Website, Voice Response System and Participant Call Center; Commitment to Customer Service/Issue Resolution; Custom Communication and Education Capabilities, Branding, Onsite Representatives and Guidance/Advice Tools - 30; (V) Overall Cost to Plans and Plan Participants - 10.",
+    "acceptance": "Five categories with 10/20/30/30/10 points, correctly distinguishing plan-sponsor from participant services. Exhaustive examples within categories are optional.",
+    "text_hash": "aa32d205efb4a8f5c43054ea38fe8bb413e446bbe6440d32846410e99aba3560",
+    "source_text_sha256": "ba46410ea5b8731139363c20c23c9e0ed7804d7854e543119bc174f6333ad4d1",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is a 2020 City of Temple City, California RFP, not the Delaware Office of the State Treasurer’s 2021 RFP. Its evaluation section does not provide the requested five scoring categories or point values.",
+        "quotes": [
+          "City of Temple City, California 457 Deferred Compensation Plan Request for Proposals for Plan Administration and Record Keeping Services",
+          "RFP DISTRIBUTION DATE: June 17, 2020 at 4:00 PM (Pacific Time)",
+          "V. EVALUATION PROCEDURES AND CRITERIA",
+          "A selection may be made based on these RFP evaluation criteria alone or any combination of the Questionnaire evaluation criteria, references, and/or interviews."
+        ],
+        "quote_matches": [
+          {
+            "quote": "City of Temple City, California 457 Deferred Compensation Plan Request for Proposals for Plan Administration and Record Keeping Services",
+            "start": 13,
+            "end": 149
+          },
+          {
+            "quote": "RFP DISTRIBUTION DATE: June 17, 2020 at 4:00 PM (Pacific Time)",
+            "start": 150,
+            "end": 212
+          },
+          {
+            "quote": "V. EVALUATION PROCEDURES AND CRITERIA",
+            "start": 18848,
+            "end": 18885
+          },
+          {
+            "quote": "A selection may be made based on these RFP evaluation criteria alone or any combination of the Questionnaire evaluation criteria, references, and/or interviews.",
+            "start": 19134,
+            "end": 19294
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ],
+    "prior_source_path": "retrieval/support_reviews/a2d38f55af037af5ae6f.json",
+    "prior_source_sha256": "588f0b73a06846711934c6dffdaf0e8706da858f2f0495374f29a3fce76169c4"
+  },
+  {
+    "id": "66b8fcb8d460c35fa072",
+    "query_id": "SVC-18",
+    "question": "What minimum qualifications must an audit firm meet in the Kern County Employees' Retirement Association (KCERA) RFP for audit services?",
+    "file": "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+    "expected_facts": "(1) Professional public accounting firm organized at least on a regional basis providing audit and attest services; (2) within the last five years, at least five audits of defined benefit pension plans with assets over $2 billion; (3) experience auditing equity securities (domestic and foreign), fixed income, real estate, alternative investments, commodities and securities lending; (4) an established office in the United States; (5) independent, licensed by and in good standing with California under the Accountancy Act; (6) Engagement Partner (and signing partner) located in the U.S. with at least 10 years of public accounting experience including DB pension plan audits, California-licensed CPA; (7) Engagement Manager located in the U.S. with at least 5 years of public accounting experience including DB plan audits, CPA licensed in a U.S. state; (8) On-Site Audit Supervisor located in the U.S. with at least 3 years of auditing experience including DB plan audits, CPA licensed in a U.S. state; (9) Engagement Manager and Supervisor available for consultations and in-person meetings throughout the year.",
+    "acceptance": "Accept a faithful summary of the nine requirements. Do not impose desirable two audits of >$3bn plans or a California license for manager/supervisor as minimums; a U.S.-state license suffices for those roles.",
+    "text_hash": "7ca1e14444ead93c558b519eddbe0502bb5f080ce8678e247801de0ecb9652b8",
+    "source_text_sha256": "ff5ef248d4411638a865914ce676b07109767b5888006ef4708fd3c12c06a986",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "6a419740bdc5541e1fdd",
+    "query_id": "SVC-18",
+    "question": "What minimum qualifications must an audit firm meet in the Kern County Employees' Retirement Association (KCERA) RFP for audit services?",
+    "file": "St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf",
+    "expected_facts": "(1) Professional public accounting firm organized at least on a regional basis providing audit and attest services; (2) within the last five years, at least five audits of defined benefit pension plans with assets over $2 billion; (3) experience auditing equity securities (domestic and foreign), fixed income, real estate, alternative investments, commodities and securities lending; (4) an established office in the United States; (5) independent, licensed by and in good standing with California under the Accountancy Act; (6) Engagement Partner (and signing partner) located in the U.S. with at least 10 years of public accounting experience including DB pension plan audits, California-licensed CPA; (7) Engagement Manager located in the U.S. with at least 5 years of public accounting experience including DB plan audits, CPA licensed in a U.S. state; (8) On-Site Audit Supervisor located in the U.S. with at least 3 years of auditing experience including DB plan audits, CPA licensed in a U.S. state; (9) Engagement Manager and Supervisor available for consultations and in-person meetings throughout the year.",
+    "acceptance": "Accept a faithful summary of the nine requirements. Do not impose desirable two audits of >$3bn plans or a California license for manager/supervisor as minimums; a U.S.-state license suffices for those roles.",
+    "text_hash": "d9a2a163aae9999ec622d7aec59ce7e611db4184b600f4da1278390d065e044b",
+    "source_text_sha256": "160e96bb79418d07ec2fbcbd06fadf5a029ef68dec4598be1d24fd91b7188964",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "34c4871afb136951e2d6",
+    "query_id": "SVC-18",
+    "question": "What minimum qualifications must an audit firm meet in the Kern County Employees' Retirement Association (KCERA) RFP for audit services?",
+    "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+    "expected_facts": "(1) Professional public accounting firm organized at least on a regional basis providing audit and attest services; (2) within the last five years, at least five audits of defined benefit pension plans with assets over $2 billion; (3) experience auditing equity securities (domestic and foreign), fixed income, real estate, alternative investments, commodities and securities lending; (4) an established office in the United States; (5) independent, licensed by and in good standing with California under the Accountancy Act; (6) Engagement Partner (and signing partner) located in the U.S. with at least 10 years of public accounting experience including DB pension plan audits, California-licensed CPA; (7) Engagement Manager located in the U.S. with at least 5 years of public accounting experience including DB plan audits, CPA licensed in a U.S. state; (8) On-Site Audit Supervisor located in the U.S. with at least 3 years of auditing experience including DB plan audits, CPA licensed in a U.S. state; (9) Engagement Manager and Supervisor available for consultations and in-person meetings throughout the year.",
+    "acceptance": "Accept a faithful summary of the nine requirements. Do not impose desirable two audits of >$3bn plans or a California license for manager/supervisor as minimums; a U.S.-state license suffices for those roles.",
+    "text_hash": "aa32d205efb4a8f5c43054ea38fe8bb413e446bbe6440d32846410e99aba3560",
+    "source_text_sha256": "ba46410ea5b8731139363c20c23c9e0ed7804d7854e543119bc174f6333ad4d1",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "197e69acead21b1e2e4f",
+    "query_id": "SVC-20",
+    "question": "What scope of services does the Kern County Employees' Retirement Association (KCERA) 2024 actuarial audit services RFP require?",
+    "file": "COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf",
+    "expected_facts": "A full actuarial audit of the assumptions, methods, calculations and experience used in KCERA's valuation, in two parts: (1) a peer review audit of the Actuarial Experience Study for July 1, 2019 - June 30, 2022 and the Review of Economic Actuarial Assumptions as of June 30, 2022 - evaluating the data (including comparison of census data), reconciling discrepancies with the consulting actuary, and evaluating the recommended economic and non-economic assumptions; and (2) a parallel valuation (independent reproduction) of the June 30, 2023 valuation, including the SRBR valuation and GASB 67 valuation, using the consulting actuary's assumptions and methods and reproducing all work without relying on the consulting actuary, with reconciliation of discrepancies. Results of both are to be communicated to the consulting actuary before completion of the June 30, 2024 valuation.",
+    "acceptance": "Require both experience-study peer review and independent June 30, 2023 parallel valuation, including SRBR/GASB67 and discrepancy reconciliation. A concise account may group data and assumption checks; sample-agreement delivery details are optional.",
+    "text_hash": "7bf0434135598b4379264b9228ec0ae5d514d2497cf998a89da96d5f3d55878f",
+    "source_text_sha256": "1620734055a07375d68aca7dc5b3529168cc1928cf355fcdb11e514e6b786b4c",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is a June 2025 RFP issued by the City of Austin Employees’ Retirement System for actuarial services, not KCERA’s 2024 actuarial audit services RFP. It does not require the specified experience-study peer review or independent June 30, 2023 parallel valuation.",
+        "quotes": [
+          "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM",
+          "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+          "June 26, 2025",
+          "Contractor shall participate in an actuarial audit conducted by the City of Austin Texas pursuant to Texas Government Code § 802.1012."
+        ],
+        "quote_matches": [
+          {
+            "quote": "CITY OF AUSTIN EMPLOYEES’ RETIREMENT SYSTEM",
+            "start": 13,
+            "end": 56
+          },
+          {
+            "quote": "Actuarial Services for an Actuarial Determined Contribution (ADC) Rate Defined Benefit Plan",
+            "start": 163,
+            "end": 254
+          },
+          {
+            "quote": "June 26, 2025",
+            "start": 255,
+            "end": 268
+          },
+          {
+            "quote": "Contractor shall participate in an actuarial audit conducted by the City of Austin Texas pursuant to Texas Government Code § 802.1012.",
+            "start": 49037,
+            "end": 49171
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A",
+        "attempt": 1
+      }
+    ],
+    "prior_source_path": "retrieval/followup120/support_reviews/197e69acead21b1e2e4f.json",
+    "prior_source_sha256": "6f02a2b56ec04b2847cffaef96fa4545ca0e55de8195dc42d00ac369b3731d9e"
+  },
+  {
+    "id": "478cadf9c3e10f518f23",
+    "query_id": "XD-04",
+    "question": "Which due diligence questionnaire in the corpus asks the manager whether it requires its underlying investments to submit data to sustainability performance evaluation organisations, and which organisation does it give as an example?",
+    "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "expected_facts": "The INREV DDQ 2022 for Funds of Funds and Multi Manager, question 3.8.1 (Supplementary Stage, section 3.8 Environmental, Social and Governance). The example given is the Global Real Estate Sustainability Benchmark (GRESB), and the manager is asked for its scores/results if it does require this.",
+    "acceptance": "Identify 2022 FoF/MM DDQ and Global Real Estate Sustainability Benchmark/GRESB. Question number and scores/results follow-up are optional.",
+    "text_hash": "ba38eb84b9e6630e06869a17bd0a8d39bbd7f3fbf79cf38deccbc05584512bde",
+    "source_text_sha256": "71f7dc2105be0914ed5549193987a3d5f6eda22588e7c5e025dd27c5e41ee8a0",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is a 2024 Illinois TRS request for proposals with a questionnaire for prospective private-equity consultants, not the 2022 INREV Funds of Funds and Multi Manager due diligence questionnaire. It does not ask the specified question or name GRESB as an example.",
+        "quotes": [
+          "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+          "APPENDIX D: QUESTIONNAIRE",
+          "Provide an example of your firm’s due diligence questionnaire (Identify as Exhibit #5)."
+        ],
+        "quote_matches": [
+          {
+            "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+            "start": 13,
+            "end": 159
+          },
+          {
+            "quote": "APPENDIX D: QUESTIONNAIRE",
+            "start": 31570,
+            "end": 31595
+          },
+          {
+            "quote": "Provide an example of your firm’s due diligence questionnaire (Identify as Exhibit #5).",
+            "start": 43011,
+            "end": 43098
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ],
+    "prior_source_path": "retrieval/support_reviews/478cadf9c3e10f518f23.json",
+    "prior_source_sha256": "2d7a2423b579b593fc2b3a890bc6fc15a96a438bdce4fc0507190a929e4d4a3f"
+  },
+  {
+    "id": "7c495dcdf1921fb69fd7",
+    "query_id": "XD-06",
+    "question": "One private equity due diligence questionnaire asks whether the fund gives limited partners more than a certain number of business days' notice for capital calls. What is the threshold, and in which section of the questionnaire is this question?",
+    "file": "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+    "expected_facts": "The threshold is more than 10 business days' notice for capital calls, either generally or in specific circumstances (e.g. when a single capital call is above an agreed and stated percentage of total unfunded commitment). It is question 7.14 in Section 7.0 Credit Facilities of the ILPA Due Diligence Questionnaire 2.0.",
+    "acceptance": "Accept more than ten business days and Credit Facilities. Question number, document version and illustrative circumstances are helpful but not all mandatory for the narrow threshold/section question.",
+    "text_hash": "bf06193ea4019fcbd1ae84a0bba61dcc905e26bfac7cb0ff1a2bdc83f506f1e1",
+    "source_text_sha256": "a6d4bde46614526253a524d5598013e5ee0a04400f2081e84fda380963b98d63",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "d4d8f24186c2e3529224",
+    "query_id": "XD-06",
+    "question": "One private equity due diligence questionnaire asks whether the fund gives limited partners more than a certain number of business days' notice for capital calls. What is the threshold, and in which section of the questionnaire is this question?",
+    "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "expected_facts": "The threshold is more than 10 business days' notice for capital calls, either generally or in specific circumstances (e.g. when a single capital call is above an agreed and stated percentage of total unfunded commitment). It is question 7.14 in Section 7.0 Credit Facilities of the ILPA Due Diligence Questionnaire 2.0.",
+    "acceptance": "Accept more than ten business days and Credit Facilities. Question number, document version and illustrative circumstances are helpful but not all mandatory for the narrow threshold/section question.",
+    "text_hash": "784bcfad5dec8c8cdc14ddc71afe9edac27cb190eaa8c0971bfb4139e6ce83d9",
+    "source_text_sha256": "75b693482e948ff921b1cec45e9ab6fae2d982d6719b2a34a7971859f300978e",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is SBCERS’s global custody RFP, not the ILPA private equity due diligence questionnaire. Its ten-business-day requirement concerns delivery of securities-lending reports and earnings credits, not notice to limited partners of capital calls. It does not identify a Credit Facilities section containing the requested question.",
+        "quotes": [
+          "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”)",
+          "G. Custodial Securities Lending Services",
+          "SBCERS must receive securities lending reports and associated earnings credit no later than ten (10) business days after the end of the month."
+        ],
+        "quote_matches": [
+          {
+            "quote": "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”)",
+            "start": 13,
+            "end": 130
+          },
+          {
+            "quote": "G. Custodial Securities Lending Services",
+            "start": 31065,
+            "end": 31105
+          },
+          {
+            "quote": "SBCERS must receive securities lending reports and associated earnings credit no later than ten (10) business days after the end of the month.",
+            "start": 32797,
+            "end": 32939
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A",
+        "attempt": 1
+      }
+    ],
+    "prior_source_path": "retrieval/followup120/support_reviews/d4d8f24186c2e3529224.json",
+    "prior_source_sha256": "1a5de82c603737e691c9fcf0f3d721a932050733fe62c2b6d58e595bbd787704"
+  },
+  {
+    "id": "b533183241f3d01a482b",
+    "query_id": "XD-06",
+    "question": "One private equity due diligence questionnaire asks whether the fund gives limited partners more than a certain number of business days' notice for capital calls. What is the threshold, and in which section of the questionnaire is this question?",
+    "file": "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+    "expected_facts": "The threshold is more than 10 business days' notice for capital calls, either generally or in specific circumstances (e.g. when a single capital call is above an agreed and stated percentage of total unfunded commitment). It is question 7.14 in Section 7.0 Credit Facilities of the ILPA Due Diligence Questionnaire 2.0.",
+    "acceptance": "Accept more than ten business days and Credit Facilities. Question number, document version and illustrative circumstances are helpful but not all mandatory for the narrow threshold/section question.",
+    "text_hash": "3ceed69320130ef8b05d9121485e497c339c98312b01995788aaadc713b0e13e",
+    "source_text_sha256": "1592894378410e0e43afb1370a16e301ba0b8187e206d48f7c0eccbe1356784e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "65bcfc9bd8dc8f8ed386",
+    "query_id": "XD-06",
+    "question": "One private equity due diligence questionnaire asks whether the fund gives limited partners more than a certain number of business days' notice for capital calls. What is the threshold, and in which section of the questionnaire is this question?",
+    "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "expected_facts": "The threshold is more than 10 business days' notice for capital calls, either generally or in specific circumstances (e.g. when a single capital call is above an agreed and stated percentage of total unfunded commitment). It is question 7.14 in Section 7.0 Credit Facilities of the ILPA Due Diligence Questionnaire 2.0.",
+    "acceptance": "Accept more than ten business days and Credit Facilities. Question number, document version and illustrative circumstances are helpful but not all mandatory for the narrow threshold/section question.",
+    "text_hash": "ba38eb84b9e6630e06869a17bd0a8d39bbd7f3fbf79cf38deccbc05584512bde",
+    "source_text_sha256": "71f7dc2105be0914ed5549193987a3d5f6eda22588e7c5e025dd27c5e41ee8a0",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "8acbc2515d335511975b",
+    "query_id": "XD-09",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
+    "file": "KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf",
+    "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
+    "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
+    "text_hash": "0666a4752a3ae0a7910c24a7c285ffaaa10083f60e8c67b4342d3518c8062d73",
+    "source_text_sha256": "0b9aca72670eb972abc23eff3632645fe86fee9eaf9c4e0c3c722bd89a4d4b77",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "fa56be141de59cebd5b2",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "78e9f93c919309a5d2fa10dd95a99a9aa10570f812813a72ac38438337250997",
+    "source_text_sha256": "9509203a806d2bcdf58a836ebe10e970d4ddb42b4cd79e65aeab8cd010579820",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "The supplied document is a Hawaii ERS real-assets consultant RFP, not the ILPA Due Diligence Questionnaire 2.0. Its table of contents does not list the eight ILPA appendices or their titles.",
+        "quotes": [
+          "Employees’ Retirement System of the State of Hawaii (ERS) Request for Proposals Real Assets Investment Consultant RFP 2022-06 Issued October 3, 2022",
+          "ATTACHMENT A: SAMPLE CONTRACT"
+        ],
+        "quote_matches": [
+          {
+            "quote": "Employees’ Retirement System of the State of Hawaii (ERS) Request for Proposals Real Assets Investment Consultant RFP 2022-06 Issued October 3, 2022",
+            "start": 13,
+            "end": 161
+          },
+          {
+            "quote": "ATTACHMENT A: SAMPLE CONTRACT",
+            "start": 8344,
+            "end": 8373
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A",
+        "attempt": 1
+      }
+    ],
+    "prior_source_path": "retrieval/followup120/support_reviews/fa56be141de59cebd5b2.json",
+    "prior_source_sha256": "1369943de02bb9f9f132fd60d38da773593eff1fc30c21c09846a41548f1e278"
+  },
+  {
+    "id": "9919fda887a578c355b4",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "7ca1e14444ead93c558b519eddbe0502bb5f080ce8678e247801de0ecb9652b8",
+    "source_text_sha256": "ff5ef248d4411638a865914ce676b07109767b5888006ef4708fd3c12c06a986",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "b81d239615fd1741d963",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "afed2142cd9b5f90246d59a5737b84e7449b0c4dc717232226f57461b45a9b9e",
+    "source_text_sha256": "4e6f311f7c398d5daed9e60599d032ec43a08c449bc5eec7b5f5fb388433a80b",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "902b889ba6d3d3555a21",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "a98d524e6be406d219908f55d7669eccd66ebe00dac2da8fe751cb73c6c068e5",
+    "source_text_sha256": "f7992acf077bd43f56dcfe41af1dd3fdb115f4ea1c61bea284a8fb27b11a2ca2",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "The document is a TMRS request for proposals, not the ILPA Due Diligence Questionnaire 2.0. Its table of contents does not list eight lettered appendices or their titles.",
+        "quotes": [
+          "Request for Proposal (RFP) NON-DISCRETIONARY GENERAL INVESTMENT CONSULTING SERVICES",
+          "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+          "SECTION IX – APPENDIX ………...……………,……………………….……..…...…....27 Exhibit A (Draft Agreement of Investment Consulting Services & Exhibits)"
+        ],
+        "quote_matches": [
+          {
+            "quote": "Request for Proposal (RFP) NON-DISCRETIONARY GENERAL INVESTMENT CONSULTING SERVICES",
+            "start": 13,
+            "end": 96
+          },
+          {
+            "quote": "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+            "start": 4270,
+            "end": 4370
+          },
+          {
+            "quote": "SECTION IX – APPENDIX ………...……………,……………………….……..…...…....27 Exhibit A (Draft Agreement of Investment Consulting Services & Exhibits)",
+            "start": 2004,
+            "end": 2136
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ],
+    "prior_source_path": "retrieval/support_reviews/902b889ba6d3d3555a21.json",
+    "prior_source_sha256": "8d43aeaed529ae7d658d28aa6bf94ffd6ab1c3e64675c37b3238a3ff78cc0ade"
+  },
+  {
+    "id": "9ce2d8e56dac34e65bc8",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "3ceed69320130ef8b05d9121485e497c339c98312b01995788aaadc713b0e13e",
+    "source_text_sha256": "1592894378410e0e43afb1370a16e301ba0b8187e206d48f7c0eccbe1356784e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  {
+    "id": "f7192833eca602cf5309",
+    "query_id": "XD-13",
+    "question": "What does the ILPA Due Diligence Questionnaire 2.0 ask about GP-led secondaries and continuation funds in Section 6?",
+    "file": "Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+    "expected_facts": "Section 6.0 opens with two Yes/No screening questions. 6.1 asks whether the Firm has done a GP-led secondary in the last five years, and 6.2 asks the same for a continuation fund transaction. Each has four follow-ups: did the LPAC review conflicts in every transaction; was a status quo option available to existing LPs in every transaction; was GP carry rolled over at 100% in every transaction; and were portfolio companies in an IPO or pre-IPO process excluded. Narrative questions 6.3-6.11 then cover: how conflicts of interest are reviewed with the LPAC and LPs (timing, information, Firm benefits not accruing to LPs, transparency on LPAC members or affiliates acting as acquirers); the information given to the LPAC/LPs and its timing; how new fund documents and side letters are structured; the options offered to LPs, including status quo, and differences for new or 'rolling' LPs; the impact on GP economics, alignment of interests and Key Person provisions; the rationale for this route rather than a fund extension or traditional exit; how the bidding universe and valuations are set (secondary managers, third-party advisers, valuation providers); fee structuring (broken deal/termination fees, sharing of transaction costs, management fee, carry); and disclosure of related deals between the GP and acquirers (e.g. stapled transactions or side deals).",
+    "acceptance": "Accept a concise summary covering transaction history, four screening follow-ups, conflicts/disclosure and information, legal/economic/LP options, rationale, bidding/valuation, fees/carry and related deals. Exact subquestion numbering and every illustrative detail are optional.",
+    "text_hash": "99dfb2e29a476692e5a1c4068d93257297301148b093cad540ee7efb375b7ad6",
+    "source_text_sha256": "4d16256427fde508295fb4e71f62f53f894c4425b7d8bb636c1f23e43bd33253",
+    "second_check_required": false,
+    "prior_reviews": []
+  }
+]

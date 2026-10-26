@@ -1,0 +1,33 @@
+{
+  "query_id": "INV-12",
+  "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for domestic equity small cap growth investment management, on what factors are respondents evaluated and ranked during the selection process?",
+  "type": "pair_b",
+  "pair_id": "P10",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 2,
+  "baseline_sha256": "8de47f8b9f7ff5fc3aacfec34f210c3a3f025eb7fa6ebbfd2281266c8a59578f",
+  "payload_sha256": "490857e6b0dfbab80189db996914a284cb5890758f52d3ed080d6900ce9452ed",
+  "original_files": [
+    "IMRF__sample-investment-consulting-rfp.pdf",
+    "IMRF__sample_investment_manager_rfp.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "IMRF__sample_investment_manager_rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "IMRF__sample-investment-consulting-rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 1.531,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

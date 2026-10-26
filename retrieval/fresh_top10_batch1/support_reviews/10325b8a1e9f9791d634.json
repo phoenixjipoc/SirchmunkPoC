@@ -1,0 +1,108 @@
+{
+  "job": {
+    "id": "10325b8a1e9f9791d634",
+    "query_id": "INV-02",
+    "question": "What is the proposal deadline, and how many copies must be submitted, for the City of Madison (Florida) Police Officers' and Firefighters' Retirement System RFP No. 2025-0901 for investment consulting services?",
+    "file": "Anchorage_PFRS__RFP_2025_Final.pdf",
+    "expected_facts": "Proposals must be received by 2:00 p.m. on September 1, 2025 at the City Clerk's office in Madison, FL (late proposals returned unopened); an original and five (5) copies must be submitted in a sealed envelope/package.",
+    "acceptance": "Accept 2pm September 1, 2025 and original plus five copies/six total. Address, sealing and late-return treatment are optional.",
+    "text_hash": "bbc5aa974f33a642622995234835e9395ec434792cd34aee6fa6e2448cb34a49",
+    "source_text_sha256": "ef809dc88bd158929af52565b0c35337429a448aa163f0f9466c3d4c5f44b3bd",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "The document is an Anchorage, Alaska RFP, not the specified City of Madison, Florida RFP. Its proposal deadline and copy requirement differ, so it does not support the requested facts.",
+        "quotes": [
+          "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+          "Proposals must be received by the Anchorage Police and Fire Retirement System on or before 4:30 p.m. AKT, Friday, May 30, 2025.",
+          "Five (5) copies of the proposal shall be submitted."
+        ],
+        "quote_matches": [
+          {
+            "quote": "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+            "start": 743,
+            "end": 836
+          },
+          {
+            "quote": "Proposals must be received by the Anchorage Police and Fire Retirement System on or before 4:30 p.m. AKT, Friday, May 30, 2025.",
+            "start": 1192,
+            "end": 1319
+          },
+          {
+            "quote": "Five (5) copies of the proposal shall be submitted.",
+            "start": 3110,
+            "end": 3161
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ],
+    "prior_source_path": "retrieval/support_reviews/10325b8a1e9f9791d634.json",
+    "prior_source_sha256": "589177d47987b4793bc9ab382a2e5c203648905b19db9ce5787bc8920bb34e4b"
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an Anchorage, Alaska RFP, not the specified City of Madison, Florida RFP. Its proposal deadline and copy requirement differ, so it does not support the requested facts.",
+      "quotes": [
+        "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+        "Proposals must be received by the Anchorage Police and Fire Retirement System on or before 4:30 p.m. AKT, Friday, May 30, 2025.",
+        "Five (5) copies of the proposal shall be submitted."
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+          "start": 743,
+          "end": 836
+        },
+        {
+          "quote": "Proposals must be received by the Anchorage Police and Fire Retirement System on or before 4:30 p.m. AKT, Friday, May 30, 2025.",
+          "start": 1192,
+          "end": 1319
+        },
+        {
+          "quote": "Five (5) copies of the proposal shall be submitted.",
+          "start": 3110,
+          "end": 3161
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied RFP is issued by the Anchorage Police and Fire Retirement System in Alaska, not the City of Madison (Florida) system. Its proposal deadline and copy requirement differ from those requested.",
+      "quotes": [
+        "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+        "Proposals must be received by the Anchorage Police and Fire Retirement System on or before 4:30 p.m. AKT, Friday, May 30, 2025.",
+        "Five (5) copies of the proposal shall be submitted."
+      ],
+      "quote_matches": [
+        {
+          "quote": "This Request for Proposal (RFP) is issued by the Anchorage Police and Fire Retirement System.",
+          "start": 743,
+          "end": 836
+        },
+        {
+          "quote": "Proposals must be received by the Anchorage Police and Fire Retirement System on or before 4:30 p.m. AKT, Friday, May 30, 2025.",
+          "start": 1192,
+          "end": 1319
+        },
+        {
+          "quote": "Five (5) copies of the proposal shall be submitted.",
+          "start": 3110,
+          "end": 3161
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

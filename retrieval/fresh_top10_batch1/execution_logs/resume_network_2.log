@@ -1,0 +1,1097 @@
+2026-10-26 08:27:16.858 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:27:22.534 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"ILPA ESG Assessment Framework FAQ": 9, "2024 ESG Assessment Framework": 9, "additional resources pertaining to ESG": 7}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"ILPA": 8, "ESG": 6, "FAQ": 5, "resources": 3}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"ESG评估框架": 8, "ESG相关资源": 7, "常见问题解答": 5}
+</KEYWORDS_ALT>
+2026-10-26 08:27:22.535 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['ESG评估框架', 'ESG相关资源', '常见问题解答']
+2026-10-26 08:27:22.536 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['ILPA ESG Assessment Framework FAQ', '2024 ESG Assessment Framework', 'additional resources pertaining to ESG', 'ESG评估框架', 'ESG相关资源', '常见问题解答']
+2026-10-26 08:27:31.347 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf","relevance":"low","reason":"Investment consulting RFP, not the ILPA ESG Assessment Framework FAQ."},
+  {"path":"Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf","relevance":"low","reason":"Pension consulting RFP questions, not the ILPA FAQ."},
+  {"path":"KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf","relevance":"low","reason":"Audit services RFP, unrelated to the requested FAQ."},
+  {"path":"Anchorage_PFRS__RFP_2025_Final.pdf","relevance":"low","reason":"Retirement system RFP, not an ILPA publication."},
+  {"path":"Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf","relevance":"low","reason":"Private-markets consulting RFP, not the 2024 ILPA FAQ."},
+  {"path":"INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf","relevance":"low","reason":"INREV due diligence questionnaire from 2018, not the ILPA FAQ."},
+  {"path":"OCERS__investment_consultant_services_rfp.pdf","relevance":"low","reason":"Investment consultant RFP, unrelated to the requested FAQ."},
+  {"path":"Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf","relevance":"low","reason":"Actuarial services RFP, not an ESG resource FAQ."},
+  {"path":"SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf","relevance":"low","reason":"Investment consultant RFP, not the ILPA FAQ."},
+  {"path":"AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf","relevance":"low","reason":"Private-markets questionnaire, not identified as an ILPA ESG publication."},
+  {"path":"Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf","relevance":"low","reason":"Investment consulting proposal questionnaire, not the ILPA FAQ."},
+  {"path":"Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf","relevance":"low","reason":"Actuarial services RFP, unrelated to the requested FAQ."},
+  {"path":"ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf","relevance":"medium","reason":"An ILPA publication that may mention ESG resources, but its title does not identify it as the 2024 ESG Assessment Framework FAQ."},
+  {"path":"COAERS__COAERS_General_Investment_Consultant_RFP.pdf","relevance":"low","reason":"Investment consultant RFP, not the ILPA FAQ."},
+  {"path":"Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf","relevance":"low","reason":"Real-assets consultant RFP, unrelated to the requested FAQ."},
+  {"path":"Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf","relevance":"low","reason":"Private-market consulting RFP, not an ILPA FAQ."},
+  {"path":"Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf","relevance":"low","reason":"OCIO services RFP, not the requested ILPA publication."},
+  {"path":"SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf","relevance":"low","reason":"General consulting RFP from 2016, not the 2024 ILPA FAQ."},
+  {"path":"IMRF__sample-investment-consulting-rfp.pdf","relevance":"low","reason":"Sample investment consulting RFP, unrelated to the FAQ."},
+  {"path":"NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf","relevance":"low","reason":"Investment opportunity notice with a questionnaire, not the ILPA FAQ."}
+]
+2026-10-26 08:27:31.348 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 0 relevant files (accept={'high'})
+{"group": "Baseline", "index": 97, "total": 120, "id": "DDQ-09", "status": "ok", "references": 2}
+2026-10-26 08:27:31.357 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:27:35.957 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"ILPA DDQ 2.0": 9, "DDQ 2.0 ESG section": 9, "ESG section topics": 7}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"ILPA": 8, "DDQ": 8, "ESG": 7}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"尽职调查问卷": 7, "环境、社会与治理": 7}
+</KEYWORDS_ALT>
+2026-10-26 08:27:35.957 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['尽职调查问卷', '环境、社会与治理']
+2026-10-26 08:27:35.957 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['ILPA DDQ 2.0', 'DDQ 2.0 ESG section', 'ESG section topics', '尽职调查问卷', '环境、社会与治理']
+2026-10-26 08:27:47.832 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"Rice_University__2021_Benefit_Plan_RFP_-_final.pdf","relevance":"low","reason":"Audit-services RFP, not a private-fund due diligence questionnaire."},
+  {"path":"Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf","relevance":"medium","reason":"Private-markets consulting RFP could discuss fund due diligence, but the preview does not identify ILPA DDQ 2.0."},
+  {"path":"TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf","relevance":"low","reason":"General investment-consultant RFP with no visible ILPA DDQ reference."},
+  {"path":"Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf","relevance":"low","reason":"Actuarial-services RFP, unrelated to the ILPA DDQ."},
+  {"path":"York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf","relevance":"low","reason":"Investment-services RFP predating DDQ 2.0; no visible ILPA reference."},
+  {"path":"OCERS__custodian_rfp_2022-2023.pdf","relevance":"low","reason":"Custody-services RFP, not private-fund due diligence."},
+  {"path":"SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf","relevance":"low","reason":"General investment-consultant RFP with no visible ILPA DDQ reference."},
+  {"path":"Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf","relevance":"low","reason":"Index-investment management RFP, not a private-fund questionnaire."},
+  {"path":"SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf","relevance":"low","reason":"Global-custody RFP, unrelated to ILPA due diligence."},
+  {"path":"NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf","relevance":"low","reason":"Investment-manager RFP with no visible connection to ILPA DDQ 2.0."},
+  {"path":"MA_PRIM__PDF-Version-of-RFP.pdf","relevance":"low","reason":"Pension-investment RFP; the available metadata does not indicate ILPA DDQ content."},
+  {"path":"Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf","relevance":"low","reason":"Investment-consultant RFP with no visible ILPA DDQ reference."},
+  {"path":"OCERS__custodian_services_rfp_questions_and_answers.pdf","relevance":"low","reason":"Questions and answers about a custody-services RFP."},
+  {"path":"OCERS__investment_consultant_services_rfp.pdf","relevance":"medium","reason":"Includes private-equity consulting, where fund due diligence may arise; no direct DDQ 2.0 signal."},
+  {"path":"Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf","relevance":"low","reason":"General investment-consultant RFP with no visible ILPA reference."},
+  {"path":"SBCERS__2020-Private-Equity-RFP.pdf","relevance":"medium","reason":"Private-equity consulting RFP may address due diligence, though it predates DDQ 2.0."},
+  {"path":"Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf","relevance":"low","reason":"Deferred-compensation plan-administration RFP, not private-fund due diligence."},
+  {"path":"SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf","relevance":"low","reason":"General consulting RFP predating DDQ 2.0; no visible ILPA reference."},
+  {"path":"INPRS__RFP24-05_AuditServices.pdf","relevance":"low","reason":"Audit-services RFP, unrelated to the ILPA DDQ."},
+  {"path":"NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf","relevance":"medium","reason":"Contains a due diligence questionnaire for prospective managers, but no visible indication it is ILPA DDQ 2.0."}
+]
+2026-10-26 08:27:47.833 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 0 relevant files (accept={'high'})
+{"group": "Baseline", "index": 98, "total": 120, "id": "DDQ-10", "status": "ok", "references": 1}
+2026-10-26 08:27:47.847 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:27:52.852 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"due diligence questionnaires": 7, "common areas": 3, "questionnaires in the corpus": 5}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"diligence": 6, "questionnaires": 6, "corpus": 5, "areas": 3}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"尽职调查问卷": 7, "语料库": 5, "共同涵盖领域": 4}
+</KEYWORDS_ALT>
+2026-10-26 08:27:52.852 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['尽职调查问卷', '语料库', '共同涵盖领域']
+2026-10-26 08:27:52.852 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['due diligence questionnaires', 'common areas', 'questionnaires in the corpus', '尽职调查问卷', '语料库', '共同涵盖领域']
+2026-10-26 08:28:04.599 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"OCERS__ocers_pas_consultant_rfp.pdf","relevance":"medium","reason":"A detailed consulting RFP that may include vendor-qualification questions, but is not identified as a due diligence questionnaire."},
+  {"path":"Anchorage_PFRS__RFP_2025_Final.pdf","relevance":"medium","reason":"An investment-services RFP that may ask about provider qualifications and practices."},
+  {"path":"OCERS__custodian_services_rfp_questions_and_answers.pdf","relevance":"low","reason":"Questions and answers about an RFP, rather than a questionnaire for evaluating providers."},
+  {"path":"Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf","relevance":"medium","reason":"An investment-consultant RFP that may contain provider-evaluation questions."},
+  {"path":"American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf","relevance":"high","reason":"Its preview explicitly describes due diligence processes for evaluating service providers."},
+  {"path":"AVFPD__RFP-Actuatial-Services-2024.pdf","relevance":"medium","reason":"An actuarial-services RFP that may cover qualifications, approach, and fees."},
+  {"path":"SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf","relevance":"high","reason":"An extensive global-custody RFP likely to contain detailed provider-evaluation questions."},
+  {"path":"CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf","relevance":"high","reason":"An extensive master-custodian RFP likely to cover multiple due diligence topics."},
+  {"path":"Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf","relevance":"medium","reason":"A short pension-consulting RFP that may include basic provider-qualification questions."},
+  {"path":"Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf","relevance":"high","reason":"A substantial real-assets consultant RFP relevant to investment-provider due diligence."},
+  {"path":"SBCERS__2020-Private-Equity-RFP.pdf","relevance":"high","reason":"A private-equity consultant RFP relevant to common investment due diligence areas."},
+  {"path":"Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf","relevance":"high","reason":"An alternatives-consultant RFP relevant to investment-provider evaluation."},
+  {"path":"INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf","relevance":"high","reason":"Explicitly identified as a due diligence questionnaire for non-listed real estate investment vehicles."},
+  {"path":"Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf","relevance":"high","reason":"A private-markets consulting and OCIO RFP relevant to provider due diligence."},
+  {"path":"Hawaii_ERS__ERS-Private-Equity-AD.pdf","relevance":"low","reason":"A two-page advertisement for an RFP, unlikely to contain a substantive questionnaire."},
+  {"path":"Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf","relevance":"medium","reason":"A detailed actuarial-consulting RFP that may include vendor-evaluation questions."},
+  {"path":"TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf","relevance":"high","reason":"A substantial investment-consultant RFP relevant to recurring provider due diligence topics."},
+  {"path":"Delaware__TRE21101-RECDKEEPR-rfp.pdf","relevance":"high","reason":"An extensive recordkeeping and administration RFP likely to contain detailed provider questions."},
+  {"path":"OCERS__custodian_rfp_2022-2023.pdf","relevance":"high","reason":"A custody-services RFP relevant to operational and provider due diligence."},
+  {"path":"INPRS__RFP24-05_AuditServices.pdf","relevance":"medium","reason":"An audit-services RFP that may address qualifications and controls, though it is not labeled a due diligence questionnaire."}
+]
+2026-10-26 08:28:04.600 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 11 relevant files (accept={'high'})
+{"group": "Baseline", "index": 99, "total": 120, "id": "DDQ-11", "status": "ok", "references": 10}
+2026-10-26 08:28:04.617 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:28:10.156 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"ILPA ESG Assessment Framework": 9, "KKR assessment bucket": 8, "KKR numerical score": 7, "Not Present Developing Intermediate Advanced": 8}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"ILPA": 9, "KKR": 8, "ESG": 7, "bucket": 4, "score": 3}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"ILPA环境、社会及治理评估框架": 9, "评估等级": 5, "数值评分": 5}
+</KEYWORDS_ALT>
+2026-10-26 08:28:10.157 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['ILPA环境、社会及治理评估框架', '评估等级', '数值评分']
+2026-10-26 08:28:10.157 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['ILPA ESG Assessment Framework', 'KKR assessment bucket', 'KKR numerical score', 'Not Present Developing Intermediate Advanced', 'ILPA环境、社会及治理评估框架', '评估等级', '数值评分']
+2026-10-26 08:28:18.519 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"ILPA__240901-ESG-Assessment-Framework-FAQ.pdf","relevance":"high","reason":"Directly addresses the ILPA ESG Assessment Framework and its scoring."},
+  {"path":"PRI__PRI-DDQ-ILPA-Covering-Note.pdf","relevance":"medium","reason":"Discusses an ILPA-related responsible-investment questionnaire, but may not contain KKR’s assessment."},
+  {"path":"CAJPA__28._Appendix_Z-Sample_Invest.pdf","relevance":"low","reason":"Sample investment-management RFP; no apparent connection to KKR or ILPA scoring."},
+  {"path":"SBCERA__investment_consultant_-_request_for_proposals.pdf","relevance":"low","reason":"Investment-consultant RFP, not an ILPA assessment."},
+  {"path":"Monroe_County_NY__10406.pdf","relevance":"low","reason":"Deferred-compensation services RFP, unrelated to the requested score."},
+  {"path":"NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf","relevance":"low","reason":"Manager due-diligence questionnaire, with no apparent KKR or ILPA assessment."},
+  {"path":"TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf","relevance":"low","reason":"General investment-consulting RFP, not an ESG assessment of KKR."},
+  {"path":"Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf","relevance":"low","reason":"Investment-consultant RFP, unrelated to ILPA’s KKR score."},
+  {"path":"TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf","relevance":"low","reason":"Global-custody RFP, unrelated to the ILPA framework."},
+  {"path":"St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf","relevance":"low","reason":"Actuarial-auditing RFP, unrelated to KKR’s ESG assessment."},
+  {"path":"IMRF__sample_investment_manager_rfp.pdf","relevance":"low","reason":"Sample investment-manager RFP, not an ILPA scoring document."},
+  {"path":"CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf","relevance":"low","reason":"Master-custodian RFP, unrelated to KKR or ILPA scoring."},
+  {"path":"Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf","relevance":"low","reason":"Investment-consulting RFP, not an ILPA ESG assessment."},
+  {"path":"IMRF__sample-investment-consulting-rfp.pdf","relevance":"low","reason":"Sample investment-consulting RFP, unrelated to the requested rating."},
+  {"path":"Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf","relevance":"low","reason":"Manager-of-managers RFP, with no apparent ILPA assessment."},
+  {"path":"COAERS__COAERS_General_Investment_Consultant_RFP.pdf","relevance":"low","reason":"General investment-consultant RFP, unrelated to KKR’s ILPA score."},
+  {"path":"Hartford_MERF__file.pdf","relevance":"low","reason":"Investment-consultant assistance RFP, not an ESG scoring document."},
+  {"path":"Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf","relevance":"low","reason":"External-audit RFP questions, unrelated to the query."},
+  {"path":"Rice_University__2021_Benefit_Plan_RFP_-_final.pdf","relevance":"low","reason":"Benefit-plan audit RFP, unrelated to ILPA or KKR."},
+  {"path":"Delaware__TRE21101-RECDKEEPR-rfp.pdf","relevance":"low","reason":"Deferred-compensation recordkeeping RFP, unrelated to ILPA ESG scoring."}
+]
+2026-10-26 08:28:18.520 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 1 relevant files (accept={'high'})
+2026-10-26 08:28:18.535 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+{"group": "Baseline", "index": 100, "total": 120, "id": "DDQ-12", "status": "ok", "references": 3}
+2026-10-26 08:28:22.880 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"Life Science Seed Fund": 9, "venture capital manager": 7, "NJEDA capital commitment": 8}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"NJEDA": 9, "selected": 3, "manager": 4, "capital": 4}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"生命科学种子基金": 9, "风险投资经理": 7, "资本承诺": 6}
+</KEYWORDS_ALT>
+2026-10-26 08:28:22.880 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['生命科学种子基金', '风险投资经理', '资本承诺']
+2026-10-26 08:28:22.880 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['Life Science Seed Fund', 'venture capital manager', 'NJEDA capital commitment', '生命科学种子基金', '风险投资经理', '资本承诺']
+2026-10-26 08:28:30.338 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"ILPA__ILPA-DDQ-2.0.pdf","relevance":"low","reason":"General due diligence questionnaire; no NJEDA fund information indicated."},
+  {"path":"CAJPA__28._Appendix_Z-Sample_Invest.pdf","relevance":"low","reason":"Sample investment-management RFP for a different organization."},
+  {"path":"NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf","relevance":"low","reason":"Investment-manager RFP for the Broward Education Foundation."},
+  {"path":"Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf","relevance":"low","reason":"Pension actuarial-services RFP, unrelated to NJEDA."},
+  {"path":"SBCERA__investment_consultant_-_request_for_proposals.pdf","relevance":"low","reason":"Retirement association investment-consulting RFP."},
+  {"path":"SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf","relevance":"low","reason":"San Francisco retirement-system consulting RFP."},
+  {"path":"AVFPD__RFP-Actuatial-Services-2024.pdf","relevance":"low","reason":"Actuarial-services RFP, not a venture capital fund record."},
+  {"path":"Monroe_County_NY__10406.pdf","relevance":"low","reason":"Deferred-compensation services RFP for Monroe County."},
+  {"path":"Rice_University__2021_Benefit_Plan_RFP_-_final.pdf","relevance":"low","reason":"Retirement-plan audit-services RFP."},
+  {"path":"Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf","relevance":"low","reason":"Private-markets consulting RFP for an Illinois pension fund, not NJEDA."},
+  {"path":"OCERS__investment_consultant_services_rfp.pdf","relevance":"low","reason":"Orange County retirement-system consulting RFP."},
+  {"path":"Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf","relevance":"low","reason":"Arizona retirement-system investment-consultant RFP."},
+  {"path":"CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf","relevance":"low","reason":"CTA retirement-plan consulting RFP."},
+  {"path":"PRI__PRI-DDQ-ILPA-Covering-Note.pdf","relevance":"low","reason":"Cover note for a private-equity due diligence questionnaire."},
+  {"path":"ILPA__ILPA-ESG-Assessment-Framework.pdf","relevance":"low","reason":"General ESG assessment framework, not an NJEDA announcement."},
+  {"path":"INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf","relevance":"low","reason":"Indiana pension-system alternative-investment consulting RFP."},
+  {"path":"Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf","relevance":"low","reason":"Illinois retirement-system actuarial consulting RFP."},
+  {"path":"York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf","relevance":"low","reason":"City of York pension-fund investment-manager RFP."},
+  {"path":"COAERS__COAERS_General_Investment_Consultant_RFP.pdf","relevance":"low","reason":"Austin retirement-system investment-consultant RFP."},
+  {"path":"TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf","relevance":"low","reason":"Illinois teachers’ retirement-system consulting RFP."}
+]
+2026-10-26 08:28:30.339 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 0 relevant files (accept={'high'})
+{"group": "Baseline", "index": 101, "total": 120, "id": "DDQ-13", "status": "ok", "references": 1}
+2026-10-26 08:28:30.348 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:28:38.317 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"ILPA DDQ 2.0": 10, "general partners": 7, "adopted by 2024": 6}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"ILPA": 9, "DDQ": 9, "adopted": 5, "2024": 3}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"普通合伙人": 7, "ILPA尽职调查问卷2.0": 10}
+</KEYWORDS_ALT>
+2026-10-26 08:28:38.318 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['普通合伙人', 'ILPA尽职调查问卷2.0']
+2026-10-26 08:28:38.318 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['ILPA DDQ 2.0', 'general partners', 'adopted by 2024', '普通合伙人', 'ILPA尽职调查问卷2.0']
+2026-10-26 08:28:50.014 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"PRI__PRI-DDQ-ILPA-Covering-Note.pdf","relevance":"high","reason":"Directly concerns a private-equity DDQ and ILPA, though its 2021 date may limit its usefulness for a 2024 adoption count."},
+  {"path":"ILPA__ESG-Assessment-Framework-FAQ.pdf","relevance":"medium","reason":"Published by ILPA and may discuss its DDQ, but the preview focuses on an ESG framework."},
+  {"path":"TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf","relevance":"medium","reason":"A 2024 private-equity document that could reference ILPA DDQ use, but is unlikely to give an industry-wide adoption count."},
+  {"path":"Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf","relevance":"medium","reason":"Alternatives consulting may involve general-partner due diligence; no ILPA DDQ adoption figure is evident."},
+  {"path":"INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc","relevance":"low","reason":"A due-diligence questionnaire, but from INREV rather than ILPA."},
+  {"path":"INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf","relevance":"low","reason":"Fixed-income manager RFP, not about private-equity general partners or ILPA DDQ adoption."},
+  {"path":"NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf","relevance":"low","reason":"General investment-services RFP from 2016."},
+  {"path":"KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf","relevance":"low","reason":"Actuarial audit RFP, unrelated to ILPA DDQ adoption."},
+  {"path":"Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf","relevance":"low","reason":"General investment-consulting RFP with no apparent ILPA DDQ focus."},
+  {"path":"SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf","relevance":"low","reason":"General investment-consultant RFP, dated after the queried year."},
+  {"path":"Monroe_County_NY__10406.pdf","relevance":"low","reason":"Deferred-compensation services RFP, unrelated to general-partner DDQs."},
+  {"path":"OCERS__custodian_rfp_2022-2023.pdf","relevance":"low","reason":"Custody-services RFP, not about private-equity DDQ adoption."},
+  {"path":"Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf","relevance":"low","reason":"General investment-consulting RFP with no apparent adoption data."},
+  {"path":"OCERS__custodian_services_rfp_questions_and_answers.pdf","relevance":"low","reason":"Questions and answers for a custody-services RFP."},
+  {"path":"CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf","relevance":"low","reason":"General investment-consultant RFP issued in 2025."},
+  {"path":"MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf","relevance":"low","reason":"Public-equity manager RFP, not about private-equity DDQs."},
+  {"path":"Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf","relevance":"low","reason":"Actuarial-services RFP, unrelated to the query."},
+  {"path":"St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf","relevance":"low","reason":"Actuarial-auditor questionnaire, not an ILPA DDQ."},
+  {"path":"Rice_University__2021_Benefit_Plan_RFP_-_final.pdf","relevance":"low","reason":"Retirement-plan audit-services RFP, unrelated to ILPA."},
+  {"path":"INPRS__RFP24-05_AuditServices.pdf","relevance":"low","reason":"Audit-services RFP with no apparent connection to general-partner adoption."}
+]
+2026-10-26 08:28:50.015 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 1 relevant files (accept={'high'})
+{"group": "Baseline", "index": 102, "total": 120, "id": "DDQ-14", "status": "ok", "references": 10}
+2026-10-26 08:28:50.034 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:28:55.317 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"Oklahoma Public Employees Retirement System": 9, "July 2023 index investment management RFP": 8, "OPERS Russell 1000 Index mandate": 9, "May 31, 2023 market value": 7, "mandate policy weight": 7}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"OPERS": 8, "RFP": 6, "Russell": 6, "mandate": 5, "weight": 4}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"俄克拉荷马州公共雇员退休系统": 9, "罗素1000指数": 8, "指数投资管理": 7, "政策权重": 7}
+</KEYWORDS_ALT>
+2026-10-26 08:28:55.317 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['俄克拉荷马州公共雇员退休系统', '罗素1000指数', '指数投资管理', '政策权重']
+2026-10-26 08:28:55.318 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['Oklahoma Public Employees Retirement System', 'July 2023 index investment management RFP', 'OPERS Russell 1000 Index mandate', 'May 31, 2023 market value', 'mandate policy weight', '俄克拉荷马州公共雇员退休系统', '罗素1000指数', '指数投资管理', '政策权重']
+2026-10-26 08:29:04.020 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf","relevance":"low","reason":"Same retirement system, but a 2022 external-audit RFP, not the July 2023 index-management RFP."},
+  {"path":"IMRF__sample_investment_manager_rfp.pdf","relevance":"low","reason":"Investment-manager RFP for a different retirement system and mandate."},
+  {"path":"Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf","relevance":"low","reason":"Investment-management RFP for a different pension fund."},
+  {"path":"York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf","relevance":"low","reason":"Investment-manager RFP for York pension funds, issued in 2016."},
+  {"path":"SAA__SAA-Investment-Manager-Database-Questionnaire.docx","relevance":"low","reason":"Fixed-income investment-management questionnaire, not an OPERS index mandate."},
+{"group": "Baseline", "index": 103, "total": 120, "id": "OTH-01", "status": "ok", "references": 3}
+  {"path":"Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf","relevance":"low","reason":"2023 investment-consultant RFP for Grand Rapids retirement systems."},
+  {"path":"TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf","relevance":"low","reason":"Investment-consulting RFP for a different retirement system."},
+  {"path":"TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf","relevance":"low","reason":"2023 investment-consultant RFP for Illinois TRS."},
+  {"path":"SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf","relevance":"low","reason":"Investment-consultant RFP for San Francisco's retirement system."},
+  {"path":"Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf","relevance":"low","reason":"Investment-consultant RFP for an Arizona retirement system."},
+  {"path":"DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf","relevance":"low","reason":"Real-assets consulting RFP for the DC Retirement Board."},
+  {"path":"Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf","relevance":"low","reason":"Real-estate consulting RFP for Hawaii ERS."},
+  {"path":"Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf","relevance":"low","reason":"Private-equity consultant RFP for Hawaii ERS."},
+  {"path":"TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf","relevance":"low","reason":"Private-equity consultant RFP for Illinois TRS."},
+  {"path":"Monroe_County_NY__10406.pdf","relevance":"low","reason":"Deferred-compensation services RFP for Monroe County."},
+  {"path":"Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf","relevance":"low","reason":"Actuarial and pension-benefits consulting RFP, not investment management."},
+  {"path":"St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf","relevance":"low","reason":"Actuarial-auditing RFP for a different retirement system."},
+  {"path":"Rice_University__2021_Benefit_Plan_RFP_-_final.pdf","relevance":"low","reason":"Audit-services RFP for a university retirement plan."},
+  {"path":"ILPA__ILPA-ESG-Assessment-Framework.pdf","relevance":"low","reason":"General ESG assessment framework, not an OPERS RFP."},
+  {"path":"ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf","relevance":"low","reason":"General due-diligence questionnaire, not an OPERS mandate document."}
+]
+2026-10-26 08:29:04.021 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 0 relevant files (accept={'high'})
+2026-10-26 08:29:04.029 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:29:10.787 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"Core Plus Fixed Income managers": 8, "RFP 22-04": 9, "combined mandate size": 6, "anticipated manager hiring": 5}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"INPRS": 9, "22-04": 9, "managers": 4, "mandate": 6, "benchmark": 5}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"核心增强型固定收益": 8, "投资委托规模": 6, "业绩基准": 6}
+</KEYWORDS_ALT>
+2026-10-26 08:29:10.788 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['核心增强型固定收益', '投资委托规模', '业绩基准']
+2026-10-26 08:29:10.788 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['Core Plus Fixed Income managers', 'RFP 22-04', 'combined mandate size', 'anticipated manager hiring', '核心增强型固定收益', '投资委托规模', '业绩基准']
+2026-10-26 08:29:18.803 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf","relevance":"high","reason":"INPRS RFP 22-04 for Core Plus Fixed Income investment management; directly addresses the query."},
+  {"path":"COAERS__COAERS_General_Investment_Consultant_RFP.pdf","relevance":"low","reason":"General investment consultant RFP for a different retirement system."},
+  {"path":"SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf","relevance":"low","reason":"Sample investment-manager RFP for a different system and asset class."},
+  {"path":"ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf","relevance":"low","reason":"General due-diligence questionnaire, not the INPRS RFP."},
+  {"path":"IMRF__sample_investment_manager_rfp.pdf","relevance":"low","reason":"Sample domestic equity RFP for a different system."},
+  {"path":"Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf","relevance":"low","reason":"Alternatives consultant RFP for a different system."},
+  {"path":"KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf","relevance":"low","reason":"Actuarial audit RFP, unrelated to investment-manager hiring."},
+  {"path":"TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf","relevance":"low","reason":"Investment consulting RFP for a different system."},
+  {"path":"Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf","relevance":"low","reason":"Private-markets consulting RFP for a different fund."},
+  {"path":"Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf","relevance":"low","reason":"Investment-management RFP for Oklahoma OPERS index mandates, not INPRS Core Plus Fixed Income."},
+  {"path":"MA_PRIM__PDF-Version-of-RFP.pdf","relevance":"low","reason":"RFP from a different pension organization; no indication it concerns INPRS RFP 22-04."},
+  {"path":"INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc","relevance":"low","reason":"Real-estate fund-of-funds due-diligence document."},
+  {"path":"American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf","relevance":"low","reason":"Retirement-plan consulting RFP, not a fixed-income mandate."},
+  {"path":"ILPA__240901-ESG-Assessment-Framework-FAQ.pdf","relevance":"low","reason":"ESG assessment FAQ, unrelated to the INPRS RFP."},
+  {"path":"Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf","relevance":"low","reason":"Private-market consulting RFP for a different system."},
+  {"path":"SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf","relevance":"low","reason":"Custody-services RFP for a different system."},
+  {"path":"Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf","relevance":"low","reason":"Investment consultant RFP for a different system."},
+  {"path":"INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx","relevance":"low","reason":"Real-estate fund-of-funds due-diligence questionnaire."},
+  {"path":"DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf","relevance":"low","reason":"Real-assets consulting RFP for a different system."},
+  {"path":"Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf","relevance":"low","reason":"Investment consultant RFP for Grand Rapids retirement systems."}
+]
+2026-10-26 08:29:18.804 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 1 relevant files (accept={'high'})
+{"group": "Baseline", "index": 104, "total": 120, "id": "OTH-02", "status": "ok", "references": 1}
+2026-10-26 08:29:18.820 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:29:24.295 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"Rice University 2021 RFP": 8, "retirement plan audit services": 7, "401(a) plan participant count": 8, "403(b) plan participant count": 8}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"Rice": 5, "401(a)": 8, "403(b)": 8, "participants": 4, "2020": 3}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"莱斯大学": 7, "退休计划审计": 7, "401(a)计划": 8, "403(b)计划": 8}
+</KEYWORDS_ALT>
+2026-10-26 08:29:24.295 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['莱斯大学', '退休计划审计', '401(a)计划', '403(b)计划']
+2026-10-26 08:29:24.296 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['Rice University 2021 RFP', 'retirement plan audit services', '401(a) plan participant count', '403(b) plan participant count', '莱斯大学', '退休计划审计', '401(a)计划', '403(b)计划']
+2026-10-26 08:29:32.384 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"SAA__SAA-Investment-Manager-Database-Questionnaire.docx","relevance":"low","reason":"Fixed-income investment manager questionnaire, not Rice's audit RFP."},
+  {"path":"CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf","relevance":"low","reason":"Custodian RFP for a different retirement association."},
+  {"path":"Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf","relevance":"low","reason":"Investment consulting questionnaire for Boston Retirement System."},
+  {"path":"SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf","relevance":"low","reason":"Investment consulting RFP for a different organization."},
+  {"path":"SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf","relevance":"low","reason":"Sample investment manager RFP, not Rice's audit RFP."},
+  {"path":"NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf","relevance":"low","reason":"Investment opportunity questionnaire unrelated to Rice retirement plans."},
+  {"path":"TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf","relevance":"low","reason":"Investment consulting RFP for a different retirement system."},
+  {"path":"Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf","relevance":"low","reason":"Outsourced investment officer RFP for a different organization."},
+  {"path":"Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf","relevance":"low","reason":"Pension consulting RFP for a different organization."},
+  {"path":"CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf","relevance":"low","reason":"2025 investment consulting RFP for CTA."},
+  {"path":"Delaware__TRE21101-RECDKEEPR-rfp.pdf","relevance":"low","reason":"Deferred compensation recordkeeping RFP for Delaware."},
+  {"path":"INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx","relevance":"low","reason":"Real estate investment due diligence questionnaire."},
+  {"path":"KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf","relevance":"low","reason":"2024 actuarial audit RFP for a different retirement association."},
+  {"path":"NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf","relevance":"low","reason":"Investment consulting RFP for New York City's education retirement system."},
+  {"path":"Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf","relevance":"low","reason":"Alternatives consulting RFP for Baltimore retirement plans."},
+  {"path":"INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf","relevance":"low","reason":"Real estate investment due diligence questionnaire."},
+  {"path":"Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf","relevance":"low","reason":"Investment consulting RFP for Boston Retirement System."},
+  {"path":"Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf","relevance":"low","reason":"Investment management RFP for Cook County pension funds."},
+  {"path":"MA_PRIM__PDF-Version-of-RFP.pdf","relevance":"low","reason":"RFP from a different pension investment organization."},
+  {"path":"Rice_University__2021_Benefit_Plan_RFP_-_final.pdf","relevance":"high","reason":"Rice University's 2021 retirement plan audit services RFP; directly matches the query."}
+]
+2026-10-26 08:29:32.384 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 1 relevant files (accept={'high'})
+{"group": "Baseline", "index": 105, "total": 120, "id": "OTH-03", "status": "ok", "references": 1}
+2026-10-26 08:29:32.396 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:29:38.219 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"Santa Barbara County Employees' Retirement System": 9, "SBCERS custody RFP": 9, "assets as of September 30, 2023": 7}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"SBCERS": 9, "custody": 6, "assets": 4, "RFP": 7}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"圣巴巴拉县雇员退休系统": 9, "托管服务征求建议书": 8, "资产规模": 6}
+</KEYWORDS_ALT>
+2026-10-26 08:29:38.220 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['圣巴巴拉县雇员退休系统', '托管服务征求建议书', '资产规模']
+2026-10-26 08:29:38.220 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ["Santa Barbara County Employees' Retirement System", 'SBCERS custody RFP', 'assets as of September 30, 2023', '圣巴巴拉县雇员退休系统', '托管服务征求建议书', '资产规模']
+2026-10-26 08:29:45.697 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf","relevance":"high","reason":"The SBCERS custody RFP named in the query."},
+  {"path":"PRI__PRI-DDQ-ILPA-Covering-Note.pdf","relevance":"low","reason":"Private equity due diligence note, not the SBCERS custody RFP."},
+  {"path":"Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf","relevance":"low","reason":"Concerns a different pension plan."},
+  {"path":"COAERS__COAERS_General_Investment_Consultant_RFP.pdf","relevance":"low","reason":"Investment consultant RFP for a different retirement system."},
+  {"path":"American_Academy_of_Actuaries__RFP__AmericanAcademyofActuaries_RetirementPlanService_110512.pdf","relevance":"low","reason":"RFP for a different organization's retirement plan."},
+  {"path":"INPRS__RFP-23-09-Alternative-Investment-Consulting-Services-FINAL-10-23-23.pdf","relevance":"low","reason":"Alternative investment consulting RFP for a different system."},
+  {"path":"KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf","relevance":"low","reason":"Actuarial audit RFP for Kern County, not SBCERS."},
+  {"path":"Delaware__TRE21101-RECDKEEPR-rfp.pdf","relevance":"low","reason":"Delaware deferred compensation RFP."},
+  {"path":"Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf","relevance":"low","reason":"Investment consultant RFP for an Arizona retirement system."},
+  {"path":"Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf","relevance":"low","reason":"Boston retirement system consulting RFP."},
+  {"path":"Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf","relevance":"low","reason":"Missouri retirement system consulting RFP."},
+  {"path":"NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf","relevance":"low","reason":"New York retirement system consulting RFP."},
+  {"path":"NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf","relevance":"low","reason":"Investment services RFP for a different organization."},
+  {"path":"IMRF__sample-investment-consulting-rfp.pdf","relevance":"low","reason":"Sample investment consulting RFP, not the SBCERS document."},
+  {"path":"Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf","relevance":"low","reason":"Pension consulting RFP for a different city."},
+  {"path":"INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc","relevance":"low","reason":"Fund-of-funds due diligence questionnaire, unrelated to SBCERS custody."},
+  {"path":"Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf","relevance":"low","reason":"Deferred compensation RFP for Clark County, Washington."},
+  {"path":"TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf","relevance":"low","reason":"Illinois teachers' retirement system consulting RFP."},
+  {"path":"Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf","relevance":"low","reason":"Grand Rapids retirement system consulting RFP."},
+  {"path":"COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf","relevance":"low","reason":"Actuarial services RFP for a different retirement system."}
+]
+2026-10-26 08:29:45.698 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 1 relevant files (accept={'high'})
+{"group": "Baseline", "index": 106, "total": 120, "id": "OTH-04", "status": "ok", "references": 1}
+2026-10-26 08:29:45.707 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:29:51.337 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"Missouri LAGERS private markets consultant RFP": 9, "non-discretionary private market investment consulting": 8, "public fund client minimum size": 7}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"LAGERS": 9, "RFP": 7, "non-discretionary": 8, "respondent": 5, "clients": 4}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"私募市场投资咨询": 8, "公共基金客户": 7, "非全权委托": 8}
+</KEYWORDS_ALT>
+2026-10-26 08:29:51.337 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['私募市场投资咨询', '公共基金客户', '非全权委托']
+2026-10-26 08:29:51.337 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['Missouri LAGERS private markets consultant RFP', 'non-discretionary private market investment consulting', 'public fund client minimum size', '私募市场投资咨询', '公共基金客户', '非全权委托']
+2026-10-26 08:30:00.450 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf","relevance":"medium","reason":"Investment consulting questionnaire includes alternative consultant services, but is not the Missouri LAGERS RFP."},
+  {"path":"SBCERS__2020-Private-Equity-RFP.pdf","relevance":"medium","reason":"Private equity consultant RFP, but it seeks discretionary services for a different retirement system."},
+  {"path":"IMRF__sample-investment-consulting-rfp.pdf","relevance":"medium","reason":"Covers investment and real estate consulting, but is not the Missouri LAGERS RFP."},
+  {"path":"Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf","relevance":"medium","reason":"Mentions non-discretionary real estate investment consulting, but concerns Hawaii ERS."},
+  {"path":"SBCERA__investment_consultant_-_request_for_proposals.pdf","relevance":"low","reason":"Investment consulting RFP for a different retirement system."},
+  {"path":"COAERS__COAERS_General_Investment_Consultant_RFP.pdf","relevance":"low","reason":"General investment consultant RFP for a different retirement system."},
+  {"path":"SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf","relevance":"low","reason":"General investment consultant RFP for a different retirement system."},
+  {"path":"Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf","relevance":"low","reason":"Investment consultant RFP for a different retirement system."},
+  {"path":"Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf","relevance":"low","reason":"Investment consulting and management RFP for a different retirement system."},
+  {"path":"York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf","relevance":"low","reason":"Investment manager and consultant RFP for a different pension fund."},
+  {"path":"Anchorage_PFRS__RFP_2025_Final.pdf","relevance":"low","reason":"Retirement-system investment RFP, but not the specified Missouri LAGERS RFP."},
+  {"path":"CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf","relevance":"low","reason":"Seeks master custodian services rather than private markets consulting."},
+  {"path":"Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf","relevance":"low","reason":"External audit services Q&A."},
+  {"path":"ILPA__ESG-Assessment-Framework-FAQ.pdf","relevance":"low","reason":"ESG framework FAQ, not a consultant RFP."},
+  {"path":"Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf","relevance":"low","reason":"Actuarial services RFP."},
+  {"path":"AVFPD__RFP-Actuatial-Services-2024.pdf","relevance":"low","reason":"Actuarial services RFP."},
+  {"path":"Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf","relevance":"low","reason":"Index investment management RFP, not private markets consulting."},
+  {"path":"LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf","relevance":"low","reason":"Financial statement audit RFP."},
+  {"path":"OCERS__custodian_services_rfp_questions_and_answers.pdf","relevance":"low","reason":"Custodian services Q&A."},
+  {"path":"INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf","relevance":"low","reason":"Fixed-income investment management RFP."}
+]
+2026-10-26 08:30:00.451 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 0 relevant files (accept={'high'})
+{"group": "Baseline", "index": 107, "total": 120, "id": "OTH-05", "status": "ok", "references": 1}
+2026-10-26 08:30:00.468 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:30:06.482 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"Clark County Washington": 7, "deferred compensation 457 plan": 8, "457 Plans": 7, "December 31, 2025": 6}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"RFP 955": 9, "administrator": 5, "provider": 4, "held": 3}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"克拉克县": 7, "递延薪酬457计划": 8, "计划管理机构": 6}
+</KEYWORDS_ALT>
+2026-10-26 08:30:06.482 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['克拉克县', '递延薪酬457计划', '计划管理机构']
+2026-10-26 08:30:06.482 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['Clark County Washington', 'deferred compensation 457 plan', '457 Plans', 'December 31, 2025', '克拉克县', '递延薪酬457计划', '计划管理机构']
+2026-10-26 08:30:13.511 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf","relevance":"low","reason":"Illinois actuarial consulting RFP, not Clark County's 457 plan."},
+  {"path":"Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf","relevance":"low","reason":"Oklahoma investment consultant RFP, not Clark County's 457 plan."},
+  {"path":"Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf","relevance":"low","reason":"Arizona retirement system investment consultant RFP."},
+  {"path":"ILPA__ILPA-DDQ-2.0.pdf","relevance":"low","reason":"General due diligence questionnaire, not the requested RFP."},
+  {"path":"St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf","relevance":"low","reason":"St. Louis actuarial auditing RFP."},
+  {"path":"TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf","relevance":"low","reason":"Texas retirement system custody services RFP."},
+  {"path":"KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf","relevance":"low","reason":"Kern County retirement association audit RFP."},
+  {"path":"MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf","relevance":"low","reason":"Massachusetts equity investment management RFP."},
+  {"path":"ILPA__ILPA-ESG-Assessment-Framework.pdf","relevance":"low","reason":"ESG assessment framework, not a 457 plan RFP."},
+  {"path":"Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf","relevance":"low","reason":"Baltimore alternatives consultant RFP."},
+  {"path":"Temple_City_CA__Recordkeeping-RFP.pdf","relevance":"medium","reason":"Concerns 457 plan administration and recordkeeping, but for Temple City, California, not Clark County."},
+  {"path":"INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf","relevance":"low","reason":"Real estate investment due diligence questionnaire."},
+  {"path":"ILPA__ESG-Assessment-Framework-FAQ.pdf","relevance":"low","reason":"ESG framework FAQ, unrelated to the requested RFP."},
+  {"path":"SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf","relevance":"low","reason":"San Diego investment consultant RFP."},
+  {"path":"CAJPA__28._Appendix_Z-Sample_Invest.pdf","relevance":"low","reason":"Generic sample investment management RFP."},
+  {"path":"COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf","relevance":"low","reason":"Austin retirement system actuarial services RFP."},
+  {"path":"York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf","relevance":"low","reason":"York pension fund investment services RFP."},
+  {"path":"LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf","relevance":"low","reason":"Los Angeles pension financial audit RFP."},
+  {"path":"Hawaii_ERS__ERS-Private-Equity-AD.pdf","relevance":"low","reason":"Hawaii retirement system private equity services solicitation."},
+  {"path":"Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf","relevance":"low","reason":"Oklahoma retirement system investment management RFP."}
+]
+2026-10-26 08:30:13.512 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 0 relevant files (accept={'high'})
+{"group": "Baseline", "index": 108, "total": 120, "id": "OTH-06", "status": "ok", "references": 4}
+2026-10-26 08:30:13.522 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:30:18.659 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"investment manager services": 7, "education foundation": 6, "five single-spaced typewritten pages": 9, "proposal submission requirements": 5}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"RFP": 7, "copies": 4, "deadline": 4, "typewritten": 7}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"投资经理服务": 7, "教育基金会": 6, "征求建议书": 7}
+</KEYWORDS_ALT>
+2026-10-26 08:30:18.660 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['投资经理服务', '教育基金会', '征求建议书']
+2026-10-26 08:30:18.660 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['investment manager services', 'education foundation', 'five single-spaced typewritten pages', 'proposal submission requirements', '投资经理服务', '教育基金会', '征求建议书']
+2026-10-26 08:30:31.582 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"IMRF__sample_investment_manager_rfp.pdf","relevance":"high","reason":"An RFP for investment management; the most likely place to check for the proposal-length and submission requirements."},
+  {"path":"SAA__SAA-Investment-Manager-Database-Questionnaire.docx","relevance":"medium","reason":"Concerns investment management proposals, but appears to be a questionnaire rather than an education foundation RFP."},
+  {"path":"MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf","relevance":"medium","reason":"An investment management services RFP, but issued by a pension investment board."},
+  {"path":"INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf","relevance":"medium","reason":"An investment management RFP, but not apparently issued by an education foundation."},
+  {"path":"Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf","relevance":"medium","reason":"Covers investment management services, but the issuer is a retirement system."},
+  {"path":"Anchorage_PFRS__RFP_2025_Final.pdf","relevance":"medium","reason":"The preview indicates a retirement system seeking investment services."},
+  {"path":"SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf","relevance":"low","reason":"A retirement system RFP for consulting, not investment manager services."},
+  {"path":"ILPA__ILPA-ESG-Assessment-Framework.pdf","relevance":"low","reason":"An ESG assessment framework, not an RFP."},
+  {"path":"Cook_County_Pension__Manager_of_Managers_-_RFP_No_25-0004.pdf","relevance":"low","reason":"Issued by pension funds, not an education foundation."},
+  {"path":"OCERS__custodian_rfp_2022-2023.pdf","relevance":"low","reason":"An RFP for custody services."},
+  {"path":"INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf","relevance":"low","reason":"A real estate due-diligence questionnaire, not the described RFP."},
+  {"path":"Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf","relevance":"low","reason":"A retirement system RFP for consulting services."},
+  {"path":"Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf","relevance":"low","reason":"A pension fund RFP for consulting and advisory services."},
+  {"path":"SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf","relevance":"low","reason":"A retirement system RFP for investment consulting."},
+  {"path":"TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf","relevance":"low","reason":"A retirement system RFP for an investment consultant."},
+  {"path":"AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf","relevance":"low","reason":"A due-diligence questionnaire, not an RFP."},
+  {"path":"OCERS__investment_consultant_services_rfp.pdf","relevance":"low","reason":"A retirement system RFP for investment consulting."},
+  {"path":"COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf","relevance":"low","reason":"An RFP for actuarial services."},
+  {"path":"TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf","relevance":"low","reason":"A retirement system RFP for investment consulting."},
+  {"path":"ILPA__ILPA-DDQ-2.0.pdf","relevance":"low","reason":"A due-diligence questionnaire, not an RFP."}
+]
+2026-10-26 08:30:31.582 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 1 relevant files (accept={'high'})
+{"group": "Baseline", "index": 109, "total": 120, "id": "OTH-07", "status": "ok", "references": 7}
+2026-10-26 08:30:31.593 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:30:37.705 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"Outsourced Chief Investment Officer": 8, "place-based private investments": 9, "foundation investment management": 6, "response deadline": 5}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"Philadelphia": 6, "sleeve": 5, "endowment": 6, "foundation": 4}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"外包首席投资官": 8, "地方导向型私募投资": 9, "基金会捐赠基金": 7}
+</KEYWORDS_ALT>
+2026-10-26 08:30:37.706 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['外包首席投资官', '地方导向型私募投资', '基金会捐赠基金']
+2026-10-26 08:30:37.706 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['Outsourced Chief Investment Officer', 'place-based private investments', 'foundation investment management', 'response deadline', '外包首席投资官', '地方导向型私募投资', '基金会捐赠基金']
+2026-10-26 08:30:46.010 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf","relevance":"high","reason":"RFP from a Philadelphia foundation seeking OCIO services; likely contains the endowment size and response deadline."},
+  {"path":"Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf","relevance":"medium","reason":"Concerns private-markets OCIO services, but is issued by a different organization."},
+  {"path":"Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf","relevance":"low","reason":"Deferred-compensation plan administration RFP in Washington."},
+  {"path":"ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf","relevance":"low","reason":"Generic due-diligence questionnaire, not the foundation’s RFP."},
+  {"path":"MA_PRIM__PDF-Version-of-RFP.pdf","relevance":"low","reason":"Massachusetts pension investment document, not a Philadelphia foundation RFP."},
+  {"path":"SAA__SAA-Investment-Manager-Database-Questionnaire.docx","relevance":"low","reason":"Fixed-income investment manager questionnaire for another organization."},
+  {"path":"Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf","relevance":"low","reason":"Investment-services RFP for a Florida retirement system."},
+  {"path":"ILPA__240901-ESG-Assessment-Framework-FAQ.pdf","relevance":"low","reason":"ESG framework FAQ, not an OCIO solicitation."},
+  {"path":"OCERS__ocers_pas_consultant_rfp.pdf","relevance":"low","reason":"Pension administration system consulting RFP."},
+  {"path":"CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf","relevance":"low","reason":"Investment consulting RFP for a Chicago retirement plan."},
+  {"path":"IMRF__sample-investment-consulting-rfp.pdf","relevance":"low","reason":"Sample investment consulting RFP, not the foundation’s solicitation."},
+  {"path":"CAJPA__28._Appendix_Z-Sample_Invest.pdf","relevance":"low","reason":"Template investment-management RFP with placeholder details."},
+  {"path":"INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx","relevance":"low","reason":"Generic real-estate due-diligence questionnaire."},
+  {"path":"Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf","relevance":"low","reason":"Private-markets consulting RFP for a Missouri retirement system."},
+  {"path":"Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf","relevance":"low","reason":"Actuarial consulting RFP, unrelated to OCIO services."},
+  {"path":"KCERA__KCERA_RFP_for_Audit_Services_with_Attachments_Exhibits.pdf","relevance":"low","reason":"Audit-services RFP for a retirement association."},
+  {"path":"PRI__PRI-DDQ-ILPA-Covering-Note.pdf","relevance":"low","reason":"Covering note for a responsible-investment questionnaire."},
+  {"path":"INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf","relevance":"low","reason":"Generic real-estate investment due-diligence questionnaire."},
+  {"path":"Hartford_MERF__file.pdf","relevance":"low","reason":"Investment consultant RFP for Hartford retirement funds."},
+  {"path":"SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf","relevance":"low","reason":"General investment consulting RFP for San Francisco’s retirement system."}
+]
+2026-10-26 08:30:46.011 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 1 relevant files (accept={'high'})
+{"group": "Baseline", "index": 110, "total": 120, "id": "OTH-08", "status": "ok", "references": 5}
+2026-10-26 08:30:46.020 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:30:50.826 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"county pension fund": 7, "manager of managers": 8, "domestic equity": 6, "international equity": 6, "fixed income": 5}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"mandate": 6, "AUM": 7, "responders": 5, "maximum": 3}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"县级养老基金": 7, "管理人之管理人": 8, "资产管理规模": 7}
+</KEYWORDS_ALT>
+2026-10-26 08:30:50.826 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['县级养老基金', '管理人之管理人', '资产管理规模']
+2026-10-26 08:30:50.826 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['county pension fund', 'manager of managers', 'domestic equity', 'international equity', 'fixed income', '县级养老基金', '管理人之管理人', '资产管理规模']
+2026-10-26 08:31:02.653 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf","relevance":"high","reason":"Investment-management RFP explicitly covers U.S. equity, non-U.S. equity, and fixed income, though the fund is statewide rather than county-level."},
+  {"path":"SBCERA__investment_consultant_-_request_for_proposals.pdf","relevance":"medium","reason":"County retirement association RFP, but it seeks investment consulting rather than a manager of managers."},
+  {"path":"MA_PRIM__PDF-Version-of-RFP.pdf","relevance":"medium","reason":"Pension investment RFP; the preview does not identify its mandate or eligibility limits."},
+  {"path":"TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf","relevance":"low","reason":"Seeks non-discretionary investment consulting, not investment management."},
+  {"path":"Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf","relevance":"low","reason":"Questionnaire for investment consultants, not a manager-of-managers mandate."},
+  {"path":"Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf","relevance":"low","reason":"Investment consulting services RFP."},
+  {"path":"Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf","relevance":"low","reason":"Investment consultant RFP for a state teachers’ retirement system."},
+  {"path":"Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf","relevance":"low","reason":"Investment consultant RFP for a state retirement system."},
+  {"path":"INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf","relevance":"low","reason":"Investment-management RFP limited to core-plus fixed income."},
+  {"path":"SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf","relevance":"low","reason":"County retirement system RFP for custody, not investment management."},
+  {"path":"OCERS__ocers_pas_consultant_rfp.pdf","relevance":"low","reason":"County retirement system RFP for pension administration project oversight."},
+  {"path":"Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf","relevance":"low","reason":"Seeks private-equity consulting rather than management across the specified public-market asset classes."},
+  {"path":"Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf","relevance":"low","reason":"Questions and answers about municipal pension consulting."},
+  {"path":"AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf","relevance":"low","reason":"Private-markets questionnaire, not the described RFP."},
+  {"path":"ILPA__ESG-Assessment-Framework-FAQ.pdf","relevance":"low","reason":"ESG framework FAQ, not an investment-management solicitation."},
+  {"path":"Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf","relevance":"low","reason":"Actuarial consulting RFP."},
+  {"path":"LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf","relevance":"low","reason":"Financial-statement audit RFP."},
+  {"path":"Delaware__TRE21101-RECDKEEPR-rfp.pdf","relevance":"low","reason":"Deferred-compensation recordkeeping RFP."},
+  {"path":"COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf","relevance":"low","reason":"Actuarial services RFP."},
+  {"path":"Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf","relevance":"low","reason":"Actuarial services RFP."}
+]
+2026-10-26 08:31:02.654 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 1 relevant files (accept={'high'})
+{"group": "Baseline", "index": 111, "total": 120, "id": "OTH-09", "status": "ok", "references": 10}
+2026-10-26 08:31:02.671 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:31:07.514 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"external audit RFP": 7, "retirement system": 5, "Microsoft Dynamics SL": 8, "prior year audits": 6}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"FY2021": 7, "contractual": 5, "fees": 4, "Q&A": 5}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"外部审计": 6, "退休制度": 5, "合同费用": 6}
+</KEYWORDS_ALT>
+2026-10-26 08:31:07.514 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['外部审计', '退休制度', '合同费用']
+2026-10-26 08:31:07.514 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['external audit RFP', 'retirement system', 'Microsoft Dynamics SL', 'prior year audits', '外部审计', '退休制度', '合同费用']
+2026-10-26 08:31:16.834 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf","relevance":"high","reason":"Retirement system financial-statement audit RFP with attachments that may include the Q&A and prior-year fees."},
+  {"path":"Rice_University__2021_Benefit_Plan_RFP_-_final.pdf","relevance":"medium","reason":"Audit-services RFP for a retirement plan, but not clearly the retirement system or Q&A sought."},
+  {"path":"Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf","relevance":"low","reason":"Pension RFP Q&A, but it concerns consulting rather than external audits."},
+  {"path":"Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf","relevance":"low","reason":"Retirement system RFP for private-equity consulting, not audits."},
+  {"path":"ILPA__ESG-Assessment-Framework-FAQ.pdf","relevance":"low","reason":"ESG framework FAQ, unrelated to audit fees."},
+  {"path":"MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf","relevance":"low","reason":"Investment-management RFP, not an external audit RFP."},
+  {"path":"AC_Private_Markets__private-markets-due-diligence-questionnaire.pdf","relevance":"low","reason":"Private-markets questionnaire, unrelated to audits."},
+  {"path":"Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf","relevance":"low","reason":"Retirement system investment-consulting RFP, not an audit RFP."},
+  {"path":"Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf","relevance":"low","reason":"Retirement system investment-consulting questionnaire, not audit Q&A."},
+  {"path":"Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf","relevance":"low","reason":"Retirement system investment-consultant RFP, not an audit RFP."},
+  {"path":"CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf","relevance":"low","reason":"Retirement association custodian RFP, not external audit services."},
+  {"path":"Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf","relevance":"low","reason":"Retirement system investment-consultant RFP, not audits."},
+  {"path":"Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf","relevance":"low","reason":"Real-assets investment-consultant RFP, not audits."},
+  {"path":"NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf","relevance":"low","reason":"Retirement system investment-consulting RFP, not audits."},
+  {"path":"OCERS__investment_consultant_services_rfp.pdf","relevance":"low","reason":"Retirement system investment-consultant RFP, not audits."},
+  {"path":"ILPA__240901-ESG-Assessment-Framework-FAQ.pdf","relevance":"low","reason":"ESG framework FAQ, unrelated to audit fees."},
+  {"path":"TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf","relevance":"low","reason":"Retirement system custody-services RFP, not an audit RFP."},
+  {"path":"SBCERA__investment_consultant_-_request_for_proposals.pdf","relevance":"low","reason":"Retirement association investment-consultant RFP, not audits."},
+  {"path":"Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf","relevance":"low","reason":"Advertisement for real-estate consulting, not an audit Q&A."},
+  {"path":"Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf","relevance":"low","reason":"Retirement system investment-management RFP, not audits."}
+]
+2026-10-26 08:31:16.835 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 1 relevant files (accept={'high'})
+{"group": "Baseline", "index": 112, "total": 120, "id": "OTH-10", "status": "ok", "references": 10}
+2026-10-26 08:31:16.852 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:31:22.260 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"Hawaii ERS RFP": 9, "private equity consulting services": 9, "proposal deadline": 6}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"ERS": 7, "RFP": 6, "equity": 5, "2017": 4}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"夏威夷ERS": 9, "私募股权咨询服务": 9, "提案截止日期": 6}
+</KEYWORDS_ALT>
+2026-10-26 08:31:22.260 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['夏威夷ERS', '私募股权咨询服务', '提案截止日期']
+2026-10-26 08:31:22.260 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['Hawaii ERS RFP', 'private equity consulting services', 'proposal deadline', '夏威夷ERS', '私募股权咨询服务', '提案截止日期']
+2026-10-26 08:31:31.257 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf","relevance":"medium","reason":"Same retirement system, but a 2022 real-assets RFP rather than the 2017 private-equity RFP."},
+  {"path":"Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf","relevance":"medium","reason":"Private-market consulting RFP, but from Missouri in 2024."},
+  {"path":"COAERS__COAERS_General_Investment_Consultant_RFP.pdf","relevance":"low","reason":"Austin general investment consultant RFP from 2024."},
+  {"path":"Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf","relevance":"low","reason":"Baltimore alternatives consultant RFP, not Hawaii ERS."},
+  {"path":"Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf","relevance":"low","reason":"Arizona retirement system RFP, not Hawaii ERS."},
+  {"path":"Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf","relevance":"low","reason":"Boston actuarial consulting RFP from 2022."},
+  {"path":"DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf","relevance":"low","reason":"DC real-assets consulting RFP, not Hawaii private equity."},
+  {"path":"CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf","relevance":"low","reason":"California master custodian RFP from 2018."},
+  {"path":"Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf","relevance":"low","reason":"Grand Rapids investment consultant RFP from 2023."},
+  {"path":"York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf","relevance":"low","reason":"York pension RFP with a 2017 due date, but not Hawaii ERS."},
+  {"path":"Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf","relevance":"low","reason":"Oklahoma external audit RFP questions and answers."},
+  {"path":"Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf","relevance":"low","reason":"Boston investment consulting RFP from 2022."},
+  {"path":"Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf","relevance":"low","reason":"Oklahoma teachers’ retirement investment consultant RFP."},
+  {"path":"Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf","relevance":"low","reason":"Fund OCIO services RFP, not Hawaii ERS."},
+  {"path":"Delaware__TRE21101-RECDKEEPR-rfp.pdf","relevance":"low","reason":"Delaware deferred compensation recordkeeping RFP."},
+  {"path":"INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf","relevance":"low","reason":"Real-estate investment questionnaire, not the requested RFP."},
+  {"path":"CAJPA__28._Appendix_Z-Sample_Invest.pdf","relevance":"low","reason":"Generic sample investment-management RFP."},
+  {"path":"SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf","relevance":"low","reason":"San Francisco general investment consulting RFP."},
+  {"path":"Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf","relevance":"low","reason":"Missouri pension consulting RFP questions and answers."},
+  {"path":"TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf","relevance":"low","reason":"Illinois investment consulting RFP from 2023."}
+]
+2026-10-26 08:31:31.258 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 0 relevant files (accept={'high'})
+{"group": "Baseline", "index": 113, "total": 120, "id": "OTH-11", "status": "ok", "references": 10}
+2026-10-26 08:31:31.269 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:31:35.570 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"Hawaii ERS RFP": 8, "private equity consulting services": 8, "proposal deadline": 5, "2022 RFP": 6}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"ERS": 7, "Hawaii": 5, "equity": 5, "2022": 3}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"私募股权咨询服务": 8, "提案截止日期": 5, "夏威夷 ERS": 8}
+</KEYWORDS_ALT>
+2026-10-26 08:31:35.570 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['私募股权咨询服务', '提案截止日期', '夏威夷 ERS']
+2026-10-26 08:31:35.570 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['Hawaii ERS RFP', 'private equity consulting services', 'proposal deadline', '2022 RFP', '私募股权咨询服务', '提案截止日期', '夏威夷 ERS']
+2026-10-26 08:31:44.687 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf","relevance":"medium","reason":"Same retirement system and year, but this RFP is for real assets, not private equity."},
+  {"path":"TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf","relevance":"medium","reason":"Private equity consulting RFP, but issued by Illinois TRS in 2024."},
+  {"path":"Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf","relevance":"medium","reason":"Related private-markets consulting RFP, but from a different fund and year."},
+  {"path":"SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf","relevance":"low","reason":"2022 investment-manager sample from Illinois, not the Hawaii ERS private equity RFP."},
+  {"path":"IMRF__sample_investment_manager_rfp.pdf","relevance":"low","reason":"Sample investment-management RFP from a different organization."},
+  {"path":"St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf","relevance":"low","reason":"Actuarial auditing RFP from a different retirement system."},
+  {"path":"Monroe_County_NY__10406.pdf","relevance":"low","reason":"Deferred-compensation services RFP from Monroe County."},
+  {"path":"DC_Retirement_Board__dcrb-rfp-real-assets-investment-consulting-services.pdf","relevance":"low","reason":"Real-assets consulting RFP from a different retirement board."},
+  {"path":"PRI__PRI-DDQ-ILPA-Covering-Note.pdf","relevance":"low","reason":"Private equity due-diligence document, not a Hawaii ERS RFP."},
+  {"path":"ILPA__ESG-Assessment-Framework-FAQ.pdf","relevance":"low","reason":"ESG framework FAQ, not an RFP."},
+  {"path":"SAA__SAA-Investment-Manager-Database-Questionnaire.docx","relevance":"low","reason":"Fixed-income investment-management questionnaire."},
+  {"path":"Creve_Coeur_MO__RFP-for-Pension-Fund-Consulting-Svcs-May-2020-revised.pdf","relevance":"low","reason":"Pension consulting RFP from a different city and year."},
+  {"path":"LACERS__2025_actuarial_consulting_services_rfp.pdf","relevance":"low","reason":"2025 actuarial consulting RFP from a different system."},
+  {"path":"Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf","relevance":"low","reason":"2023 investment-management RFP from Oklahoma OPERS."},
+  {"path":"Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf","relevance":"low","reason":"Actuarial services RFP from a different retirement system."},
+  {"path":"CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf","relevance":"low","reason":"2025 investment-consulting RFP from the CTA retirement plan."},
+  {"path":"AVFPD__RFP-Actuatial-Services-2024.pdf","relevance":"low","reason":"2024 actuarial services RFP."},
+  {"path":"INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc","relevance":"low","reason":"Due-diligence questionnaire, not the requested RFP."},
+  {"path":"Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf","relevance":"low","reason":"2022 actuarial consulting RFP from Boston, not Hawaii ERS."},
+  {"path":"SBCERA__investment_consultant_-_request_for_proposals.pdf","relevance":"low","reason":"Investment-consulting RFP from a different retirement association."}
+]
+2026-10-26 08:31:44.688 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 0 relevant files (accept={'high'})
+{"group": "Baseline", "index": 114, "total": 120, "id": "OTH-12", "status": "ok", "references": 10}
+2026-10-26 08:31:44.705 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:31:49.606 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"Hawaii ERS 2017 RFP": 9, "real estate investment consultant services": 9, "proposal deadline": 6}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"ERS": 8, "RFP": 7, "consultant": 5, "deadline": 5}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"夏威夷ERS": 8, "房地产投资顾问服务": 9, "提案截止日期": 7}
+</KEYWORDS_ALT>
+2026-10-26 08:31:49.606 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['夏威夷ERS', '房地产投资顾问服务', '提案截止日期']
+2026-10-26 08:31:49.607 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['Hawaii ERS 2017 RFP', 'real estate investment consultant services', 'proposal deadline', '夏威夷ERS', '房地产投资顾问服务', '提案截止日期']
+2026-10-26 08:31:57.383 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"ILPA__ILPA-ESG-Assessment-Framework.pdf","relevance":"low","reason":"ESG framework, not the Hawaii ERS RFP."},
+  {"path":"MA_PRIM__PDF-Version-of-RFP.pdf","relevance":"low","reason":"Massachusetts pension RFP, not Hawaii ERS."},
+  {"path":"AVFPD__RFP-Actuatial-Services-2024.pdf","relevance":"low","reason":"2024 actuarial services RFP."},
+  {"path":"Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf","relevance":"low","reason":"Washington deferred-compensation administrator RFP."},
+  {"path":"Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf","relevance":"low","reason":"Missouri private-market consulting RFP from 2024."},
+  {"path":"Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf","relevance":"low","reason":"Investment consultant RFP for an Arizona retirement system."},
+  {"path":"SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf","relevance":"low","reason":"South Carolina general investment consulting RFP from 2016."},
+  {"path":"IMRF__sample_investment_manager_rfp.pdf","relevance":"low","reason":"Sample investment management RFP, not the requested solicitation."},
+  {"path":"IMRF__sample-investment-consulting-rfp.pdf","relevance":"medium","reason":"Mentions real estate consulting, but is an IMRF sample rather than the Hawaii ERS 2017 RFP."},
+  {"path":"KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf","relevance":"low","reason":"Kern County actuarial audit RFP from 2024."},
+  {"path":"Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf","relevance":"low","reason":"Missouri pension consulting Q&A, not Hawaii ERS."},
+  {"path":"Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf","relevance":"low","reason":"Boston investment consulting RFP from 2022."},
+  {"path":"Rice_University__2021_Benefit_Plan_RFP_-_final.pdf","relevance":"low","reason":"University benefit-plan audit services RFP."},
+  {"path":"Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf","relevance":"low","reason":"Oklahoma investment management RFP from 2023."},
+  {"path":"MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf","relevance":"low","reason":"Massachusetts equity investment management RFP."},
+  {"path":"Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf","relevance":"low","reason":"Florida investment consulting RFP from 2025."},
+  {"path":"INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf","relevance":"low","reason":"Real estate investment questionnaire, not an RFP for consultant services."},
+  {"path":"St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf","relevance":"low","reason":"St. Louis actuarial auditing RFP."},
+  {"path":"Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf","relevance":"low","reason":"Grand Rapids investment consultant RFP from 2023."},
+  {"path":"COAERS__COAERS_General_Investment_Consultant_RFP.pdf","relevance":"low","reason":"Austin general investment consultant RFP from 2024."}
+]
+2026-10-26 08:31:57.384 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 0 relevant files (accept={'high'})
+{"group": "Baseline", "index": 115, "total": 120, "id": "OTH-13", "status": "ok", "references": 10}
+2026-10-26 08:31:57.394 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:32:02.502 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"Hawaii ERS 2022 RFP": 8, "real assets investment consultant services": 8, "proposal deadline": 5}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"ERS": 7, "RFP": 6, "Hawaii": 5, "assets": 4, "consultant": 5}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"夏威夷ERS": 7, "实物资产投资顾问服务": 8, "提案截止日期": 5}
+</KEYWORDS_ALT>
+2026-10-26 08:32:02.502 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['夏威夷ERS', '实物资产投资顾问服务', '提案截止日期']
+2026-10-26 08:32:02.502 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['Hawaii ERS 2022 RFP', 'real assets investment consultant services', 'proposal deadline', '夏威夷ERS', '实物资产投资顾问服务', '提案截止日期']
+2026-10-26 08:32:10.989 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf","relevance":"medium","reason":"Same retirement system and year, but this RFP is for private equity consultant services, not real assets."},
+  {"path":"Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf","relevance":"medium","reason":"Same retirement system and a related asset class, but it concerns a 2017 RFP."},
+  {"path":"ILPA__ILPA-DDQ-2.0.pdf","relevance":"low","reason":"General due diligence questionnaire, not the Hawaii ERS RFP."},
+  {"path":"INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc","relevance":"low","reason":"Due diligence questionnaire, not the requested RFP."},
+  {"path":"SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf","relevance":"low","reason":"Investment consultant RFP for a different retirement system and year."},
+  {"path":"SBCERA__investment_consultant_-_request_for_proposals.pdf","relevance":"low","reason":"Investment consultant RFP for a different retirement system."},
+  {"path":"SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf","relevance":"low","reason":"General investment consultant RFP for a different retirement system."},
+  {"path":"SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf","relevance":"low","reason":"Custody-services RFP for a different retirement system."},
+  {"path":"Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf","relevance":"low","reason":"OCIO-services RFP from a different organization."},
+  {"path":"ILPA__ILPA-ESG-Assessment-Framework.pdf","relevance":"low","reason":"ESG assessment framework, not an RFP."},
+  {"path":"York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf","relevance":"low","reason":"Investment consultant RFP for a different pension fund and year."},
+  {"path":"Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf","relevance":"low","reason":"Same year, but an investment consulting RFP for Oklahoma OPERS."},
+  {"path":"MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf","relevance":"low","reason":"Equity investment management RFP from a different organization."},
+  {"path":"MA_PRIM__PDF-Version-of-RFP.pdf","relevance":"low","reason":"RFP from a different pension investment organization."},
+  {"path":"Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf","relevance":"low","reason":"Deferred-compensation administrator RFP for a different entity."},
+  {"path":"Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf","relevance":"low","reason":"Actuarial consulting RFP for a different retirement system."},
+  {"path":"Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf","relevance":"low","reason":"Investment consultant RFP for a different retirement system."},
+  {"path":"Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf","relevance":"low","reason":"Investment consultant RFP for a different retirement system."},
+  {"path":"NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf","relevance":"low","reason":"Investment consulting RFP for a different retirement system and year."},
+  {"path":"COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf","relevance":"low","reason":"Actuarial services RFP for a different retirement system and year."}
+]
+2026-10-26 08:32:10.990 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 0 relevant files (accept={'high'})
+{"group": "Baseline", "index": 116, "total": 120, "id": "OTH-14", "status": "ok", "references": 10}
+2026-10-26 08:32:11.006 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:32:14.703 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"Los Angeles City Employees' Retirement System": 10, "LACERS actuarial RFP": 10, "lead actuary experience": 8, "years of experience": 4}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"LACERS": 10, "actuary": 8, "RFP": 7, "experience": 4}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"洛杉矶市雇员退休系统": 10, "首席精算师": 8, "精算服务征求建议书": 9}
+</KEYWORDS_ALT>
+2026-10-26 08:32:14.703 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['洛杉矶市雇员退休系统', '首席精算师', '精算服务征求建议书']
+2026-10-26 08:32:14.703 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ["Los Angeles City Employees' Retirement System", 'LACERS actuarial RFP', 'lead actuary experience', 'years of experience', '洛杉矶市雇员退休系统', '首席精算师', '精算服务征求建议书']
+2026-10-26 08:32:22.382 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"Delaware__TRE21101-RECDKEEPR-rfp.pdf","relevance":"low","reason":"Delaware deferred compensation recordkeeping RFP, not LACERS actuarial services."},
+  {"path":"Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf","relevance":"low","reason":"Hawaii investment consultant RFP, not a LACERS actuarial RFP."},
+  {"path":"INPRS__RFP22-04CorePlusFixedIncomeInvestmentManagement_Final.pdf","relevance":"low","reason":"Indiana fixed-income investment management RFP."},
+  {"path":"Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf","relevance":"low","reason":"Massachusetts retirement investment consultant RFP."},
+  {"path":"Hawaii_ERS__PI-ad-ERS-Real-Estate-Investment-Consultant-RFP-2017-01.pdf","relevance":"low","reason":"Hawaii real estate investment consultant advertisement."},
+  {"path":"PRI__PRI-DDQ-ILPA-Covering-Note.pdf","relevance":"low","reason":"Private equity due-diligence questionnaire covering note."},
+  {"path":"KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf","relevance":"medium","reason":"Actuarial services RFP, but for Kern County rather than LACERS."},
+  {"path":"IMRF__sample-investment-consulting-rfp.pdf","relevance":"low","reason":"Sample investment consulting RFP, not an actuarial RFP."},
+  {"path":"ILPA__ESG-Assessment-Framework-FAQ.pdf","relevance":"low","reason":"ESG assessment FAQ, unrelated to actuarial qualifications."},
+  {"path":"Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf","relevance":"low","reason":"Illinois private markets consulting RFP."},
+  {"path":"CTA_Retirement_Plan__RP_Investment_Consultant_RFP_4_29_25.pdf","relevance":"low","reason":"CTA retirement investment consultant RFP."},
+  {"path":"INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx","relevance":"low","reason":"Real estate investment due-diligence questionnaire."},
+  {"path":"SBCERS__2020-Private-Equity-RFP.pdf","relevance":"low","reason":"Santa Barbara County private equity consultant RFP."},
+  {"path":"LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf","relevance":"low","reason":"Los Angeles Fire and Police Pensions financial audit RFP, not LACERS actuarial services."},
+  {"path":"Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf","relevance":"low","reason":"Baltimore retirement alternatives consultant RFP."},
+  {"path":"CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf","relevance":"low","reason":"Contra Costa County master custodian RFP."},
+  {"path":"Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf","relevance":"low","reason":"Missouri pension consulting Q&A, not the LACERS RFP."},
+  {"path":"MA_PRIM__PDF-Version-of-RFP.pdf","relevance":"low","reason":"Massachusetts pension reserves RFP, with no indication it concerns LACERS."},
+  {"path":"INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf","relevance":"low","reason":"Real estate investment due-diligence questionnaire."},
+  {"path":"ILPA__ILPA-ESG-Assessment-Framework.pdf","relevance":"low","reason":"ESG assessment framework, unrelated to actuarial qualifications."}
+]
+2026-10-26 08:32:22.383 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 0 relevant files (accept={'high'})
+{"group": "Baseline", "index": 117, "total": 120, "id": "OTH-15", "status": "ok", "references": 10}
+2026-10-26 08:32:22.400 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:32:26.547 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"Police Retirement System of St. Louis": 9, "actuarial RFP": 8, "principal actuary experience": 8, "years of experience": 4}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"PRS-STL": 10, "actuary": 7, "RFP": 6, "principal": 4}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"圣路易斯警察退休制度": 9, "首席精算师": 8, "精算服务征求建议书": 8}
+</KEYWORDS_ALT>
+2026-10-26 08:32:26.548 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['圣路易斯警察退休制度', '首席精算师', '精算服务征求建议书']
+2026-10-26 08:32:26.548 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['Police Retirement System of St. Louis', 'actuarial RFP', 'principal actuary experience', 'years of experience', '圣路易斯警察退休制度', '首席精算师', '精算服务征求建议书']
+2026-10-26 08:32:33.858 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"Stoneham_MA__Request-for-proposals---Actuarial-Services-PDF.pdf","relevance":"medium","reason":"Actuarial-services RFP for a retirement system, but not PRS-STL."},
+  {"path":"KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf","relevance":"medium","reason":"Retirement-system actuarial audit RFP, but not PRS-STL."},
+  {"path":"AVFPD__RFP-Actuatial-Services-2024.pdf","relevance":"medium","reason":"Actuarial-services RFP, but for a different entity and purpose."},
+  {"path":"Anchorage_PFRS__RFP_2025_Final.pdf","relevance":"low","reason":"Police and fire retirement-system RFP, but for investment services, not PRS-STL actuarial services."},
+  {"path":"Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf","relevance":"low","reason":"Includes a police and fire retirement system, but concerns investment consulting."},
+  {"path":"Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf","relevance":"low","reason":"OCIO services RFP for an unrelated fund."},
+  {"path":"OCERS__custodian_services_rfp_questions_and_answers.pdf","relevance":"low","reason":"Custodian-services questions and answers for another retirement system."},
+  {"path":"SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf","relevance":"low","reason":"Investment-consultant RFP for another retirement system."},
+  {"path":"TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf","relevance":"low","reason":"Private-equity investment-consultant RFP for another retirement system."},
+  {"path":"PRI__PRI-DDQ-ILPA-Covering-Note.pdf","relevance":"low","reason":"Private-equity due-diligence document, not an actuarial RFP."},
+  {"path":"Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf","relevance":"low","reason":"Investment-consultant RFP for another retirement system."},
+  {"path":"SBCERS__2020-Private-Equity-RFP.pdf","relevance":"low","reason":"Private-equity consultant RFP for another retirement system."},
+  {"path":"INREV__INREV_DDQ_Non-Listed_Real_Estate_Investment_Vehicles_2018.pdf","relevance":"low","reason":"Real-estate investment due-diligence questionnaire."},
+  {"path":"Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf","relevance":"low","reason":"Investment-consulting RFP for another retirement system."},
+  {"path":"CAJPA__28._Appendix_Z-Sample_Invest.pdf","relevance":"low","reason":"Sample investment-management RFP, not an actuarial RFP."},
+  {"path":"SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf","relevance":"low","reason":"Investment-consultant RFP for another retirement system."},
+  {"path":"Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf","relevance":"low","reason":"Private-equity consultant RFP for another retirement system."},
+  {"path":"NJEDA__NJEDA-LIFE-SCIENCE-SEED-FUND-NOTICE-OF-INVESTMENT-OPPORTUNITY-ISSUED-2023-02-09-.pdf","relevance":"low","reason":"Investment-opportunity questionnaire, not a retirement-system actuarial RFP."},
+  {"path":"Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf","relevance":"low","reason":"Investment-management RFP for another retirement system."},
+  {"path":"NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf","relevance":"low","reason":"Investment-manager RFP for an unrelated foundation."}
+]
+2026-10-26 08:32:33.858 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 0 relevant files (accept={'high'})
+{"group": "Baseline", "index": 118, "total": 120, "id": "OTH-16", "status": "ok", "references": 10}
+2026-10-26 08:32:33.870 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:32:37.914 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"LACERS 2025 actuarial consulting services RFP": 10, "Level IV evaluation criteria": 9, "evaluation criteria and weights": 7, "actuarial consulting services": 8}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"LACERS": 9, "actuarial": 7, "RFP": 7, "criteria": 4, "weights": 5}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"精算咨询服务": 8, "征求建议书": 7, "评估标准": 6, "权重": 5}
+</KEYWORDS_ALT>
+2026-10-26 08:32:37.915 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['精算咨询服务', '征求建议书', '评估标准', '权重']
+2026-10-26 08:32:37.915 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['LACERS 2025 actuarial consulting services RFP', 'Level IV evaluation criteria', 'evaluation criteria and weights', 'actuarial consulting services', '精算咨询服务', '征求建议书', '评估标准', '权重']
+2026-10-26 08:32:46.140 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf","relevance":"low","reason":"Investment consulting RFP for a different organization and year."},
+  {"path":"ILPA__ILPA-DDQ-2.0.pdf","relevance":"low","reason":"General due diligence questionnaire, not the LACERS RFP."},
+  {"path":"INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc","relevance":"low","reason":"Fund-of-funds due diligence document, not an actuarial consulting RFP."},
+  {"path":"Delaware__TRE21101-RECDKEEPR-rfp.pdf","relevance":"low","reason":"Delaware deferred compensation recordkeeping RFP."},
+  {"path":"ILPA__240901-ESG-Assessment-Framework-FAQ.pdf","relevance":"low","reason":"ESG assessment FAQ, unrelated to RFP evaluation weights."},
+  {"path":"St_Louis_PRS__PRS_Actuarial_Auditor_Services_RFP_and_Questionnaire.pdf","relevance":"medium","reason":"Actuarial services RFP, but for St. Louis rather than LACERS."},
+  {"path":"Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf","relevance":"low","reason":"Oklahoma investment consultant RFP, not LACERS actuarial consulting."},
+  {"path":"Hawaii_ERS__ERS-REAL-ASSETS-INVESTMENT-CONSULTANT-RFP-2022-06.pdf","relevance":"low","reason":"Hawaii real-assets investment consultant RFP."},
+  {"path":"Baltimore_BCERS__RFP-Alternatives-Consultant-rev.pdf","relevance":"low","reason":"Baltimore alternatives investment consultant RFP."},
+  {"path":"Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf","relevance":"low","reason":"Grand Rapids investment consultant RFP."},
+  {"path":"SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf","relevance":"low","reason":"Investment manager RFP template, not the LACERS solicitation."},
+  {"path":"Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf","relevance":"low","reason":"Oklahoma investment consulting RFP."},
+  {"path":"Hawaii_ERS__ERS-Private-Equity-AD.pdf","relevance":"low","reason":"Hawaii private equity consulting advertisement."},
+  {"path":"Boston_BRS__Attachment_3_BRS_Invest_Consulting_Services_RFP.pdf","relevance":"low","reason":"Boston investment consulting proposal questionnaire."},
+  {"path":"Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf","relevance":"low","reason":"Pension consulting RFP questions for a different city."},
+  {"path":"CAJPA__28._Appendix_Z-Sample_Invest.pdf","relevance":"low","reason":"Sample investment management RFP."},
+  {"path":"OCERS__custodian_services_rfp_questions_and_answers.pdf","relevance":"low","reason":"Custody services RFP questions, not actuarial consulting."},
+  {"path":"Samuel_Fels_Fund__Request-for-Proposal-RFP-for-Outsourced-Chief-Investment-Officer-OCIO-Services.pdf","relevance":"low","reason":"OCIO services RFP for an unrelated fund."},
+  {"path":"LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf","relevance":"low","reason":"2025 Los Angeles pension-system RFP, but for financial statement auditing rather than LACERS actuarial consulting."},
+  {"path":"Shrewsbury_MA__RFP-Consulting-Servicespdf.pdf","relevance":"low","reason":"Shrewsbury investment consultant RFP."}
+]
+2026-10-26 08:32:46.141 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 0 relevant files (accept={'high'})
+{"group": "Baseline", "index": 119, "total": 120, "id": "OTH-17", "status": "ok", "references": 6}
+2026-10-26 08:32:46.150 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 08:32:51.244 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"actuarial services RFPs": 8, "contract terms": 5, "initial length": 4, "renewal or extension options": 6}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"actuarial": 8, "RFPs": 7, "renewal": 5, "extension": 5}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"精算服务": 8, "征求建议书": 7, "续约选项": 6, "延期选项": 6}
+</KEYWORDS_ALT>
+2026-10-26 08:32:51.244 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['精算服务', '征求建议书', '续约选项', '延期选项']
+2026-10-26 08:32:51.244 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['actuarial services RFPs', 'contract terms', 'initial length', 'renewal or extension options', '精算服务', '征求建议书', '续约选项', '延期选项']
+2026-10-26 08:33:00.360 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"Hawaii_ERS__ERS-Private-Equity-AD.pdf","relevance":"low","reason":"Private equity consulting and investment services, not actuarial services."},
+  {"path":"ILPA__ILPA_Due_Diligence_Questionnaire_v1.2.pdf","relevance":"low","reason":"Due diligence questionnaire, not an actuarial services RFP."},
+  {"path":"OCERS__custodian_rfp_2022-2023.pdf","relevance":"low","reason":"RFP for custody services."},
+  {"path":"COAERS__COAERS_Actuarial_Services_RFP_June_26_2025.pdf","relevance":"high","reason":"Explicitly an actuarial services RFP; likely states the proposed contract term and options."},
+  {"path":"Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf","relevance":"low","reason":"RFP for a deferred compensation plan administrator."},
+  {"path":"MA_PRIM__PDF-Version-of-RFP.pdf","relevance":"medium","reason":"An RFP from a pension organization, but the filename and preview do not identify the services sought."},
+  {"path":"SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf","relevance":"low","reason":"General investment consulting RFP, not actuarial services."},
+  {"path":"Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf","relevance":"low","reason":"Investment consulting services RFP."},
+  {"path":"OCERS__investment_consultant_services_rfp.pdf","relevance":"low","reason":"Investment consultant services RFP."},
+  {"path":"Boston_BRS__BRS_Inv_Consult_Serv_RFP_2022.pdf","relevance":"low","reason":"Investment consulting services RFP."},
+  {"path":"Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf","relevance":"low","reason":"Investment consultant RFP."},
+  {"path":"SBCERS__2020-Private-Equity-RFP.pdf","relevance":"low","reason":"Private equity consultant services RFP."},
+  {"path":"SAA__SAA-Investment-Manager-Database-Questionnaire.docx","relevance":"low","reason":"Investment management questionnaire, not an actuarial services RFP."},
+  {"path":"Hawaii_ERS__Private-Equity-RFP-8.25.2022-final.pdf","relevance":"low","reason":"Private equity consultant services RFP."},
+  {"path":"Illinois_FPIF__Private-Markets-RFP-2023.02.13.pdf","relevance":"low","reason":"Private markets investment consulting and advisory RFP."},
+  {"path":"IMRF__sample_investment_manager_rfp.pdf","relevance":"low","reason":"Sample investment management RFP."},
+  {"path":"TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf","relevance":"low","reason":"Private equity investment consultant RFP."},
+  {"path":"SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf","relevance":"low","reason":"Investment manager RFP template."},
+  {"path":"INREV__INREV_DDQ_Fund_of_Funds_and_Multi-Managers.doc","relevance":"low","reason":"Fund-of-funds due diligence questionnaire, not an actuarial services RFP."},
+  {"path":"MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf","relevance":"low","reason":"Equity investment management services RFP."}
+]
+2026-10-26 08:33:00.361 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 1 relevant files (accept={'high'})
+{"group": "Baseline", "index": 120, "total": 120, "id": "OTH-18", "status": "ok", "references": 10}
+{"group": "RR10", "id": "INV-01", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "INV-02", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "INV-03", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "INV-04", "status": "skipped_single", "attempts": 0}
+{"group": "RR10", "id": "INV-05", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "INV-06", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "INV-07", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "INV-08", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "INV-09", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "INV-10", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "INV-11", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "INV-12", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "INV-13", "status": "skipped_single", "attempts": 0}
+{"group": "RR10", "id": "INV-14", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "INV-15", "status": "skipped_single", "attempts": 0}
+{"group": "RR10", "id": "INV-16", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "INV-17", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "INV-18", "status": "skipped_empty", "attempts": 0}
+{"group": "RR10", "id": "INV-19", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "INV-20", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "INV-21", "status": "skipped_single", "attempts": 0}
+{"group": "RR10", "id": "INV-22", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "INV-23", "status": "skipped_single", "attempts": 0}
+{"group": "RR10", "id": "INV-24", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "SVC-01", "status": "skipped_single", "attempts": 0}
+{"group": "RR10", "id": "SVC-02", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "SVC-03", "status": "skipped_single", "attempts": 0}
+{"group": "RR10", "id": "SVC-04", "status": "skipped_empty", "attempts": 0}
+{"group": "RR10", "id": "SVC-05", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "SVC-06", "status": "skipped_single", "attempts": 0}
+{"group": "RR10", "id": "SVC-07", "status": "skipped_single", "attempts": 0}
+{"group": "RR10", "id": "SVC-08", "status": "skipped_single", "attempts": 0}
+{"group": "RR10", "id": "SVC-09", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "SVC-10", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "SVC-11", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "SVC-12", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "SVC-13", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "SVC-14", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "SVC-15", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "SVC-16", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "SVC-17", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "SVC-18", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "SVC-19", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "SVC-20", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "SVC-21", "status": "skipped_empty", "attempts": 0}
+{"group": "RR10", "id": "SVC-22", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "SVC-23", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "SVC-24", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-01", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-02", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-03", "status": "skipped_empty", "attempts": 0}
+{"group": "RR10", "id": "XD-04", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-05", "status": "skipped_empty", "attempts": 0}
+{"group": "RR10", "id": "XD-06", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-07", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-08", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-09", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-10", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-11", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-12", "status": "skipped_single", "attempts": 0}
+{"group": "RR10", "id": "XD-13", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-14", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-15", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-16", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-17", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-18", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-19", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-20", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-21", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-22", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-23", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "XD-24", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "CONS-01", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "CONS-02", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "CONS-03", "status": "skipped_single", "attempts": 0}
+{"group": "RR10", "id": "CONS-04", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "CONS-05", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "CONS-06", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "CONS-07", "status": "ok", "attempts": 1}
+{"group": "RR10", "id": "CONS-08", "status": "fallback_original", "attempts": 3}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/usr/local/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1630, in request
+    response = await self._send_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_client.py", line 829, in _send_request
+    return await self._send_with_auth_retry(request, stream=stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_client.py", line 807, in _send_with_auth_retry
+    response = await super()._send_request(request, stream=stream, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1553, in _send_request
+    return await self._client.send(request, stream=stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/usr/local/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/retrieval_fresh_top10_batch1_20261026/run_batch.py", line 130, in <module>
+    args=p.parse_args();asyncio.run(main(args.root))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/retrieval_fresh_top10_batch1_20261026/run_batch.py", line 120, in main
+    for q in queries: await rerank(root,q,'RR10',settings,chat)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/retrieval_fresh_top10_batch1_20261026/rank_adapter.py", line 102, in one
+    await preflight(root, settings)
+  File "/retrieval_fresh_top10_batch1_20261026/rank_adapter.py", line 32, in preflight
+    response = await phase_call('preflight', chat._async_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/retrieval_fresh_top10_batch1_20261026/adapter/runtime.py", line 120, in phase_call
+    return await awaitable
+           ^^^^^^^^^^^^^^^
+  File "/retrieval_fresh_top10_batch1_20261026/adapter/runtime.py", line 74, in checked_create
+    response = await original(**kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 2714, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1913, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1665, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.

@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "49a3ee19ccfbc39eed3e",
+    "query_id": "OTH-16",
+    "question": "In the Police Retirement System of St. Louis (PRS-STL) actuarial RFP, how many years of experience must the principal actuary have?",
+    "file": "LAFPP__RFP-Financial-Statement-Audit-Services-DCFS25-01-with-attachments.pdf",
+    "expected_facts": "A minimum of five years of professional actuarial experience, plus a minimum of five years of experience testifying before legislative and administrative bodies.",
+    "acceptance": "Five years professional actuarial experience is the core number. A complete description may state the separate five-year testimony requirement; these are not additive ten years and may overlap. Credentials are optional for this question.",
+    "text_hash": "013acad3f1f8520c2684a10f9b3d8fe0a1e3b30393ebcfaf64bc1f9156b80e3a",
+    "source_text_sha256": "2ad75cdaeecab9651d3f225547abe579638bbba888408fcd731110baaa9f8322",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Los Angeles Fire and Police Pensions financial-statement audit RFP, not the Police Retirement System of St. Louis actuarial RFP. Its five-year requirement concerns auditing experience for a firm's key personnel, not professional actuarial experience for a principal actuary; it gives no testimony requirement.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FINANCIAL STATEMENT AUDIT SERVICES",
+        "Los Angeles Fire and Police Pensions",
+        "The firm must have key personnel with at least five years of experience auditing governmental agencies and/or public pension funds."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FINANCIAL STATEMENT AUDIT SERVICES",
+          "start": 13,
+          "end": 69
+        },
+        {
+          "quote": "Los Angeles Fire and Police Pensions",
+          "start": 171,
+          "end": 207
+        },
+        {
+          "quote": "The firm must have key personnel with at least five years of experience auditing governmental agencies and/or public pension funds.",
+          "start": 9550,
+          "end": 9681
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

@@ -1,0 +1,33 @@
+{
+  "query_id": "SVC-11",
+  "question": "According to the City of Temple City's 457 deferred compensation plan administration and recordkeeping RFP, how many participants did the plan have and what were its total assets?",
+  "type": "pair_a",
+  "pair_id": "P13",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 2,
+  "baseline_sha256": "f6db8199e3b4fd7dd2e7898d735a718917b264eff4dd158ba7cfb2d53e8218a5",
+  "payload_sha256": "837534013dfbb9fc1aa002b480ade383bdf125056fbcb2c77856541c4b881685",
+  "original_files": [
+    "Temple_City_CA__Recordkeeping-RFP.pdf",
+    "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "path": "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf",
+      "path": "/mnt/docs/S/Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 1.411,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

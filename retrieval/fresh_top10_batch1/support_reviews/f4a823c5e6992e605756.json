@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "f4a823c5e6992e605756",
+    "query_id": "SVC-16",
+    "question": "What contract term, including any extension options, does the Los Angeles Fire and Police Pensions (LAFPP) RFP for financial statement audit services contemplate?",
+    "file": "TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf",
+    "expected_facts": "A three-year contract (fiscal years ending June 30, 2025, 2026 and 2027) with a maximum fee proposal for each fiscal year; the Board may extend beyond the three-year term through two one-year renewals.",
+    "acceptance": "Three years plus two optional one-year renewals, up to five years, suffices. Fiscal-year dates and fee-proposal details are optional.",
+    "text_hash": "3ceed69320130ef8b05d9121485e497c339c98312b01995788aaadc713b0e13e",
+    "source_text_sha256": "1592894378410e0e43afb1370a16e301ba0b8187e206d48f7c0eccbe1356784e",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a TMRS RFP for global custody and related services, not the LAFPP financial statement audit services RFP. It does not establish the requested contract term or renewal options for LAFPP.",
+      "quotes": [
+        "Request for Proposal Global Custody and Related Services Texas Municipal Retirement System (TMRS)",
+        "The primary purpose of this RFP is to identify the most qualified firm to provide global custodial services, recordkeeping / accounting services, performance measurement / analytics, support for an unbundled securities lending program and other services to TMRS as defined in this RFP."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Global Custody and Related Services Texas Municipal Retirement System (TMRS)",
+          "start": 13,
+          "end": 110
+        },
+        {
+          "quote": "The primary purpose of this RFP is to identify the most qualified firm to provide global custodial services, recordkeeping / accounting services, performance measurement / analytics, support for an unbundled securities lending program and other services to TMRS as defined in this RFP.",
+          "start": 3064,
+          "end": 3349
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

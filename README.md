@@ -11,6 +11,16 @@ The two objectives are:
 
 The primary measure uses **98 single-document questions**. The other 22 questions have separate measures.
 
+The latest single batch ran all 120 queries from scratch and then reranked its own newly retrieved lists:
+
+- Fresh Top-10 retrieval: Top-1 **52.04% (51/98)**, Top-5 **75.51% (74/98)** and Top-10 **79.59% (78/98)**.
+- After reranking those ten candidates: Top-1 **77.55% (76/98)**, Top-5 **79.59% (78/98)** and Top-10 **79.59% (78/98)**. There are 25 first-position gains and no losses. One ranking task retained its original order after three connection errors.
+- Both questions rank correctly first in **9/15 similar-question pairs**, compared with **2/15** before reranking. Opposite-source first-position errors fall from **3/30 to 0/30**.
+
+See the [fresh batch report](retrieval/fresh_top10_batch1/reports/REPORT.md), [all 240 scores](retrieval/fresh_top10_batch1/reports/questions.csv), [paired changes](retrieval/fresh_top10_batch1/reports/transitions.csv) and [validation](retrieval/fresh_top10_batch1/reports/validation.json). The same candidate files are used on both sides; this batch uses the native twenty-file directory sample and unchanged parser.
+
+### Earlier experiments
+
 - Baseline: Top-1 **52.04% (51/98)**, Top-5 **75.51% (74/98)** and Top-10 **81.63% (80/98)**.
 - Reranking the baseline's first five candidates: Top-1 **75.51% (74/98)**; reranking its first ten: **80.61% (79/98)**. Top-10 remains **81.63% (80/98)** in both arms. One task retained its original order after a connection failure.
 - Three repeated runs: Top-1 **45.92%–52.04%**, averaging **50.00%**; 38 questions change between a first-position hit and miss.
@@ -68,6 +78,7 @@ Queries use keyword discovery and directory selection, followed by an ordered, d
 - `retrieval/`: baseline scripts, frozen inputs, execution records, source checks and results.
 - `retrieval/followup120/`: repeated runs, controlled comparisons, raw records and final reports.
 - `retrieval/rerank_top5_top10/`: fixed Top-5/Top-10 reranking, source checks and comparison results.
+- `retrieval/fresh_top10_batch1/`: one fresh 120-question retrieval pass and its paired Top-10 reranking results.
 - `retrieval/source_snapshot/`: unchanged installed-package snapshot used for source-hash verification; it is not a separate experiment.
 
 The dataset paths remain stable so the frozen input hashes and validation scripts remain reproducible.
@@ -82,6 +93,7 @@ The saved results can be validated without service requests:
 python retrieval/validate.py
 python retrieval/followup120/validate.py
 python retrieval/rerank_top5_top10/validate.py
+python retrieval/fresh_top10_batch1/validate.py
 ```
 
 The [execution record](retrieval/followup120/EXECUTION.md) retains recovery details. The [parser correction record](retrieval/followup120/PARSER_CORRECTION.md) explains the excluded first attempt and corrected replay. See the saved validation report for the current checks.

@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "1479ad2a8e69b0f7b1e6",
+    "query_id": "OTH-06",
+    "question": "In Clark County, Washington's RFP 955 for a deferred compensation 457 plan administrator, how much was held in the 457 Plans as of December 31, 2025, and who is the current provider?",
+    "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+    "expected_facts": "Approximately $167 million; the current provider is Lincoln Financial.",
+    "acceptance": "Accept approximately $167m (or appropriately reconciled table total) and Lincoln Financial; not just County-only $162.85m.",
+    "text_hash": "aa32d205efb4a8f5c43054ea38fe8bb413e446bbe6440d32846410e99aba3560",
+    "source_text_sha256": "ba46410ea5b8731139363c20c23c9e0ed7804d7854e543119bc174f6333ad4d1",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2020 RFP for the City of Temple City, California, not Clark County, Washington’s RFP 955. Its asset figure and current providers concern Temple City as of March 31, 2020; it does not support the requested December 31, 2025 facts.",
+      "quotes": [
+        "City of Temple City, California 457 Deferred Compensation Plan Request for Proposals for Plan Administration and Record Keeping Services",
+        "RFP DISTRIBUTION DATE: June 17, 2020 at 4:00 PM (Pacific Time)",
+        "The Plan is currently administered by two recordkeeping firms: ICMA-RC and Voya (CalPERS).",
+        "Total assets as of this time period were $1,894,729."
+      ],
+      "quote_matches": [
+        {
+          "quote": "City of Temple City, California 457 Deferred Compensation Plan Request for Proposals for Plan Administration and Record Keeping Services",
+          "start": 13,
+          "end": 149
+        },
+        {
+          "quote": "RFP DISTRIBUTION DATE: June 17, 2020 at 4:00 PM (Pacific Time)",
+          "start": 150,
+          "end": 212
+        },
+        {
+          "quote": "The Plan is currently administered by two recordkeeping firms: ICMA-RC and Voya (CalPERS).",
+          "start": 14089,
+          "end": 14179
+        },
+        {
+          "quote": "Total assets as of this time period were $1,894,729.",
+          "start": 14330,
+          "end": 14382
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

@@ -1,0 +1,108 @@
+{
+  "job": {
+    "id": "902b889ba6d3d3555a21",
+    "query_id": "XD-10",
+    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
+    "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
+    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
+    "text_hash": "a98d524e6be406d219908f55d7669eccd66ebe00dac2da8fe751cb73c6c068e5",
+    "source_text_sha256": "f7992acf077bd43f56dcfe41af1dd3fdb115f4ea1c61bea284a8fb27b11a2ca2",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "The document is a TMRS request for proposals, not the ILPA Due Diligence Questionnaire 2.0. Its table of contents does not list eight lettered appendices or their titles.",
+        "quotes": [
+          "Request for Proposal (RFP) NON-DISCRETIONARY GENERAL INVESTMENT CONSULTING SERVICES",
+          "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+          "SECTION IX – APPENDIX ………...……………,……………………….……..…...…....27 Exhibit A (Draft Agreement of Investment Consulting Services & Exhibits)"
+        ],
+        "quote_matches": [
+          {
+            "quote": "Request for Proposal (RFP) NON-DISCRETIONARY GENERAL INVESTMENT CONSULTING SERVICES",
+            "start": 13,
+            "end": 96
+          },
+          {
+            "quote": "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+            "start": 4270,
+            "end": 4370
+          },
+          {
+            "quote": "SECTION IX – APPENDIX ………...……………,……………………….……..…...…....27 Exhibit A (Draft Agreement of Investment Consulting Services & Exhibits)",
+            "start": 2004,
+            "end": 2136
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ],
+    "prior_source_path": "retrieval/support_reviews/902b889ba6d3d3555a21.json",
+    "prior_source_sha256": "8d43aeaed529ae7d658d28aa6bf94ffd6ab1c3e64675c37b3238a3ff78cc0ade"
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a TMRS request for proposals, not the ILPA Due Diligence Questionnaire 2.0. Its table of contents does not list eight lettered appendices or their titles.",
+      "quotes": [
+        "Request for Proposal (RFP) NON-DISCRETIONARY GENERAL INVESTMENT CONSULTING SERVICES",
+        "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+        "SECTION IX – APPENDIX ………...……………,……………………….……..…...…....27 Exhibit A (Draft Agreement of Investment Consulting Services & Exhibits)"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal (RFP) NON-DISCRETIONARY GENERAL INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 96
+        },
+        {
+          "quote": "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+          "start": 4270,
+          "end": 4370
+        },
+        {
+          "quote": "SECTION IX – APPENDIX ………...……………,……………………….……..…...…....27 Exhibit A (Draft Agreement of Investment Consulting Services & Exhibits)",
+          "start": 2004,
+          "end": 2136
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is a Texas Municipal Retirement System investment-consulting RFP, not the ILPA Due Diligence Questionnaire 2.0. Its table of contents does not list the eight requested appendices.",
+      "quotes": [
+        "Request for Proposal (RFP) NON-DISCRETIONARY GENERAL INVESTMENT CONSULTING SERVICES",
+        "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+        "SECTION IX – APPENDIX ………...……………,……………………….……..…...…....27 Exhibit A (Draft Agreement of Investment Consulting Services & Exhibits)"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal (RFP) NON-DISCRETIONARY GENERAL INVESTMENT CONSULTING SERVICES",
+          "start": 13,
+          "end": 96
+        },
+        {
+          "quote": "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
+          "start": 4270,
+          "end": 4370
+        },
+        {
+          "quote": "SECTION IX – APPENDIX ………...……………,……………………….……..…...…....27 Exhibit A (Draft Agreement of Investment Consulting Services & Exhibits)",
+          "start": 2004,
+          "end": 2136
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

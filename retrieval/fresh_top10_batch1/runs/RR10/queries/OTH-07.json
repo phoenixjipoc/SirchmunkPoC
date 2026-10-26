@@ -1,0 +1,63 @@
+{
+  "query_id": "OTH-07",
+  "question": "One RFP for investment manager services, issued by an education foundation, limits proposals to five single-spaced typewritten pages. How many copies must be submitted and by what deadline?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 7,
+  "baseline_sha256": "bfe78f1e7df69e028e6cf350d1ea39d4ca2e017f5cc7475553d400ad74910917",
+  "payload_sha256": "240878c4a822c07aef0180c593cda9a0d5394be6af479064b92ff0c6c2d5ea42",
+  "original_files": [
+    "NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf",
+    "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+    "MA_PRIM__PDF-Version-of-RFP.pdf",
+    "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+    "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+    "IMRF__sample_investment_manager_rfp.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf",
+      "path": "/mnt/docs/S/NCFP_BEF__RFP-for-Investment-Services-BEF-2016.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "IMRF__sample_investment_manager_rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample_investment_manager_rfp.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "MA_PRIM__PDF-Version-of-RFP.pdf",
+      "path": "/mnt/docs/S/MA_PRIM__PDF-Version-of-RFP.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf",
+      "path": "/mnt/docs/S/MA_PRIM__MassPRIM-Active-Global-Core-Equity-RFP-Final.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+      "path": "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf",
+      "path": "/mnt/docs/S/Boston__RFP_Actuarial_and_Consulting_Services_for_Pension_Benefits_08-30-2022.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 2.797,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

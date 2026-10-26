@@ -1,0 +1,34 @@
+{
+  "model": "gpt-6-sol",
+  "groups": {
+    "RR10": 10
+  },
+  "question_count": 120,
+  "repetitions": 1,
+  "preview_chars": 800,
+  "presentation_seed": 261026,
+  "max_attempts": 3,
+  "request_timeout_s": 120,
+  "workers": 1,
+  "interleave_groups": false,
+  "request_parameters": {
+    "response_format": {
+      "type": "json_object"
+    },
+    "max_completion_tokens": 4000
+  },
+  "temperature": null,
+  "top_p": null,
+  "api_seed": null,
+  "null_parameters": "Omitted from requests; service defaults apply",
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false,
+  "comparison_groups": [
+    "Baseline",
+    "RR10"
+  ],
+  "baseline": "Fresh native retrieval within this batch",
+  "parsing_cache": "New isolated cache",
+  "directory_candidates": 20
+}

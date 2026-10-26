@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "d6bf2ddb7b5f809a14dd",
+    "query_id": "CONS-02",
+    "question": "In the NYC Board of Education Retirement System (BERS) RFP 2024-003 for investment consulting services, how many maximum evaluation points are assigned to the annual fee proposal?",
+    "file": "Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf",
+    "expected_facts": "28 points (out of 100). Full breakdown: Program Plan/Narrative 18, Organizational Capacity/Knowledge and Experience 23, Demonstrated Effectiveness 22, Fee Proposal - Annual Fee 28, Fee Proposal - Hourly Rate 9.",
+    "acceptance": "28 points alone is sufficient. Other scoring categories and fee formula are optional.",
+    "text_hash": "b5feb817817e35edbb5bc0aa0af7c6df24842b1fc6b23f62b19531a928524887",
+    "source_text_sha256": "33e6d0f3b03cb97414ead33bc97801d7ca7b3799f628c39bac87276153cef3fe",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a 2025 City of Madison, Florida retirement-system RFP, not NYC BERS RFP 2024-003. It provides no maximum evaluation points for an annual fee proposal.",
+      "quotes": [
+        "RFP No. 2025-0901 Investment Consulting Services",
+        "The City of Madison Police Officer’s & Firefighters’ Retirement System (the “Plan”)",
+        "The fees and expenses are a significant factor."
+      ],
+      "quote_matches": [
+        {
+          "quote": "RFP No. 2025-0901 Investment Consulting Services",
+          "start": 159,
+          "end": 207
+        },
+        {
+          "quote": "The City of Madison Police Officer’s & Firefighters’ Retirement System (the “Plan”)",
+          "start": 534,
+          "end": 617
+        },
+        {
+          "quote": "The fees and expenses are a significant factor.",
+          "start": 27721,
+          "end": 27768
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

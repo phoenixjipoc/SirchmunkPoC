@@ -1,0 +1,79 @@
+2026-10-26 07:46:35.349 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] OK
+{"prepared": true, "files": 81, "rga_text": 81}
+2026-10-26 07:46:36.560 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracting keywords...
+2026-10-26 07:46:42.242 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] <KEYWORDS_LEVEL_1>
+{"CAJPA sample investment management RFP": 9, "Appendix Z": 7, "copies of the proposal": 5}
+</KEYWORDS_LEVEL_1>
+
+<KEYWORDS_LEVEL_2>
+{"CAJPA": 9, "RFP": 7, "copies": 4, "appendix": 5}
+</KEYWORDS_LEVEL_2>
+
+<KEYWORDS_ALT>
+{"投资管理征求建议书": 8, "附录Z": 7, "提案份数": 6}
+</KEYWORDS_ALT>
+2026-10-26 07:46:42.244 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Cross-lingual alt: ['投资管理征求建议书', '附录Z', '提案份数']
+2026-10-26 07:46:42.244 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Probe:Keywords] Extracted: ['CAJPA sample investment management RFP', 'Appendix Z', 'copies of the proposal', '投资管理征求建议书', '附录Z', '提案份数']
+2026-10-26 07:46:49.755 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [role=assistant] [
+  {"path":"Missouri_LAGERS__LAGERS-Private-Consultant-RFP-Final.pdf","relevance":"low","reason":"Different organization's private-market consulting RFP."},
+  {"path":"PRI__PRI-DDQ-ILPA-Covering-Note.pdf","relevance":"low","reason":"Private-equity due-diligence note, not the CAJPA appendix."},
+  {"path":"INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx","relevance":"low","reason":"Real-estate due-diligence questionnaire, not the CAJPA appendix."},
+  {"path":"TMRS__TMRS_RFP_Global_Custody_Related_Services.pdf","relevance":"low","reason":"Different organization's custody-services RFP."},
+  {"path":"SAA__SAA-Investment-Manager-Database-Questionnaire.docx","relevance":"low","reason":"Investment-management questionnaire, but not the specified CAJPA RFP."},
+  {"path":"KCERA__RFP_2024_Actuarial_Audit_Final_-_with_Sample_Agreement.pdf","relevance":"low","reason":"Actuarial-audit RFP from another organization."},
+  {"path":"OCERS__custodian_services_rfp_questions_and_answers.pdf","relevance":"low","reason":"Custody-services questions and answers, not the CAJPA appendix."},
+  {"path":"Grand_Rapids_GRS__Investment-Consultant-RFP-2023.pdf","relevance":"low","reason":"Different organization's investment-consultant RFP."},
+  {"path":"Monroe_County_NY__10406.pdf","relevance":"low","reason":"Different organization's deferred-compensation RFP."},
+  {"path":"SBCERA__investment_consultant_-_request_for_proposals.pdf","relevance":"low","reason":"Different organization's investment-consultant RFP."},
+  {"path":"CAJPA__28._Appendix_Z-Sample_Invest.pdf","relevance":"high","reason":"The requested CAJPA Appendix Z sample investment-management RFP."},
+  {"path":"Clark_County_WA__-rfp-955-deferred-compensation-457-plan-administrator.pdf","relevance":"low","reason":"Different organization's deferred-compensation administrator RFP."},
+  {"path":"Madison_FL__2025-RFP-for-Investment-Consulting-Management-Services.pdf","relevance":"low","reason":"Different organization's investment-services RFP."},
+  {"path":"Illinois_SRS__RFP--Actuarial_Consulting_Services--SRS.pdf","relevance":"low","reason":"Actuarial-consulting RFP from another organization."},
+  {"path":"SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf","relevance":"low","reason":"Different organization's investment-consultant RFP."},
+  {"path":"Creve_Coeur_MO__Questions-and-Answers-from-RFP-for-Pension-Consulting-Services.pdf","relevance":"low","reason":"Pension-consulting RFP questions and answers, not the CAJPA appendix."},
+  {"path":"SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf","relevance":"low","reason":"Different organization's investment-consultant RFP."},
+  {"path":"York_PA__RFP-Investment_Manager_Advisor_Consultant_-_November_2016.pdf","relevance":"low","reason":"Different organization's investment-manager RFP."},
+  {"path":"Arizona_PSPRS__PSPRS_Investment_Consultant_RFP.pdf","relevance":"low","reason":"Different organization's investment-consultant RFP."},
+  {"path":"ILPA__ILPA-ESG-Assessment-Framework.pdf","relevance":"low","reason":"ESG assessment framework, not the CAJPA appendix."}
+]
+2026-10-26 07:46:49.787 | INFO     | sirchmunk.utils.log_utils:log_with_callback_async:75 - [Retrieve:DirScan] 1 relevant files (accept={'high'})
+Traceback (most recent call last):
+  File "/retrieval_fresh_top10_batch1_20261026/run_batch.py", line 123, in <module>
+    args=p.parse_args();asyncio.run(main(args.root))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/retrieval_fresh_top10_batch1_20261026/run_batch.py", line 109, in main
+    await retrieval_stage(root,settings,config,queries)
+  File "/retrieval_fresh_top10_batch1_20261026/run_batch.py", line 52, in retrieval_stage
+    save(folder/f'{attempt}.json',result)
+  File "/retrieval_fresh_top10_batch1_20261026/common.py", line 18, in save
+    temp.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding='utf-8')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/local/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/local/lib/python3.12/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/usr/local/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/local/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable

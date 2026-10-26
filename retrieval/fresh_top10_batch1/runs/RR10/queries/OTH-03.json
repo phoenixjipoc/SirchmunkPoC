@@ -1,0 +1,27 @@
+{
+  "query_id": "OTH-03",
+  "question": "In Rice University's 2021 RFP for audit services for its retirement plans, how many participants did the 401(a) plan and the 403(b) plan have as of December 31, 2020?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "skipped_single",
+  "candidate_limit": 10,
+  "candidate_count": 1,
+  "baseline_sha256": "7d00bd1bc4c6c497ffc9f5789b7636d7233b2464f2e5114c9eec1fa529c0b028",
+  "payload_sha256": "b2d3fa543fa47da9a6c5b5bbf8776ccb8f75d77735c96fc5992d34de0e7e5587",
+  "original_files": [
+    "Rice_University__2021_Benefit_Plan_RFP_-_final.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Rice_University__2021_Benefit_Plan_RFP_-_final.pdf",
+      "path": "/mnt/docs/S/Rice_University__2021_Benefit_Plan_RFP_-_final.pdf"
+    }
+  ],
+  "attempts": 0,
+  "elapsed_s": 0,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

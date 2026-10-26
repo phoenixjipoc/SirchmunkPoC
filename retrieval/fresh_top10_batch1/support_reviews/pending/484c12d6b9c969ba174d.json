@@ -1,0 +1,53 @@
+{
+  "job": {
+    "id": "484c12d6b9c969ba174d",
+    "query_id": "INV-11",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for investment consulting, real estate consulting and performance measurement services, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "expected_facts": "Three factors: (1) Organization - stability, ownership, documented experience of key professionals; (2) Consulting Skill - investment philosophy, investment manager information collection and monitoring systems, risk management tools, performance measurement systems, and breadth of consulting expertise and experience; (3) Fees - consulting fees for services requested and associated costs.",
+    "acceptance": "Three factors with substantively equivalent descriptions suffice; exact wording and order are unnecessary.",
+    "text_hash": "5afc5adec694c195f2977417c376c45b4856a88e72d30c0e1953e2403af08eac",
+    "source_text_sha256": "add3ba83b3e17f098f096c1bf8b5d5000ad39375300bba2e2b398c7d805cf7a6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is CCCERA’s April 2018 RFP for master custodian services, not IMRF’s sample RFP for investment consulting, real estate consulting, and performance measurement services. Its evaluation criteria apply to a different issuer and procurement and do not support the requested three factors.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+        "After Minimum Qualifications have been satisfied, the evaluation criteria will be the following:",
+        "A. Ability. The Proposer's ability to provide the requested services including, but not limited to:",
+        "B. Related Experience. The Proposer's demonstrated, related experience in providing services comparable to CCCERA’s needs."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES April 2018 Contra Costa County Employees’ Retirement Association",
+          "start": 13,
+          "end": 141
+        },
+        {
+          "quote": "After Minimum Qualifications have been satisfied, the evaluation criteria will be the following:",
+          "start": 40814,
+          "end": 40910
+        },
+        {
+          "quote": "A. Ability. The Proposer's ability to provide the requested services including, but not limited to:",
+          "start": 40911,
+          "end": 41010
+        },
+        {
+          "quote": "B. Related Experience. The Proposer's demonstrated, related experience in providing services comparable to CCCERA’s needs.",
+          "start": 41453,
+          "end": 41575
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

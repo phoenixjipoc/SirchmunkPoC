@@ -1,0 +1,110 @@
+{
+  "job": {
+    "id": "d4d8f24186c2e3529224",
+    "query_id": "XD-06",
+    "question": "One private equity due diligence questionnaire asks whether the fund gives limited partners more than a certain number of business days' notice for capital calls. What is the threshold, and in which section of the questionnaire is this question?",
+    "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "expected_facts": "The threshold is more than 10 business days' notice for capital calls, either generally or in specific circumstances (e.g. when a single capital call is above an agreed and stated percentage of total unfunded commitment). It is question 7.14 in Section 7.0 Credit Facilities of the ILPA Due Diligence Questionnaire 2.0.",
+    "acceptance": "Accept more than ten business days and Credit Facilities. Question number, document version and illustrative circumstances are helpful but not all mandatory for the narrow threshold/section question.",
+    "text_hash": "784bcfad5dec8c8cdc14ddc71afe9edac27cb190eaa8c0971bfb4139e6ce83d9",
+    "source_text_sha256": "75b693482e948ff921b1cec45e9ab6fae2d982d6719b2a34a7971859f300978e",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is SBCERS’s global custody RFP, not the ILPA private equity due diligence questionnaire. Its ten-business-day requirement concerns delivery of securities-lending reports and earnings credits, not notice to limited partners of capital calls. It does not identify a Credit Facilities section containing the requested question.",
+        "quotes": [
+          "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”)",
+          "G. Custodial Securities Lending Services",
+          "SBCERS must receive securities lending reports and associated earnings credit no later than ten (10) business days after the end of the month."
+        ],
+        "quote_matches": [
+          {
+            "quote": "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”)",
+            "start": 13,
+            "end": 130
+          },
+          {
+            "quote": "G. Custodial Securities Lending Services",
+            "start": 31065,
+            "end": 31105
+          },
+          {
+            "quote": "SBCERS must receive securities lending reports and associated earnings credit no later than ten (10) business days after the end of the month.",
+            "start": 32797,
+            "end": 32939
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A",
+        "attempt": 1
+      }
+    ],
+    "prior_source_path": "retrieval/followup120/support_reviews/d4d8f24186c2e3529224.json",
+    "prior_source_sha256": "1a5de82c603737e691c9fcf0f3d721a932050733fe62c2b6d58e595bbd787704"
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is SBCERS’s global custody RFP, not the ILPA private equity due diligence questionnaire. Its ten-business-day requirement concerns delivery of securities-lending reports and earnings credits, not notice to limited partners of capital calls. It does not identify a Credit Facilities section containing the requested question.",
+      "quotes": [
+        "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”)",
+        "G. Custodial Securities Lending Services",
+        "SBCERS must receive securities lending reports and associated earnings credit no later than ten (10) business days after the end of the month."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”)",
+          "start": 13,
+          "end": 130
+        },
+        {
+          "quote": "G. Custodial Securities Lending Services",
+          "start": 31065,
+          "end": 31105
+        },
+        {
+          "quote": "SBCERS must receive securities lending reports and associated earnings credit no later than ten (10) business days after the end of the month.",
+          "start": 32797,
+          "end": 32939
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The source is SBCERS’s global custody RFP, not the ILPA Due Diligence Questionnaire 2.0. Its ten-business-day requirement concerns securities-lending reports and earnings credits, not limited partners’ notice of capital calls. It does not evidence the requested threshold or Credit Facilities section.",
+      "quotes": [
+        "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”)",
+        "Appendix 3 – TECHNICAL/SERVICES QUESTIONNAIRE",
+        "SBCERS must receive securities lending reports and associated earnings credit no later than ten (10) business days after the end of the month."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Request for Proposal Global Custody and Related Services Santa Barbara County Employees’ Retirement System (“SBCERS”)",
+          "start": 13,
+          "end": 130
+        },
+        {
+          "quote": "Appendix 3 – TECHNICAL/SERVICES QUESTIONNAIRE",
+          "start": 185766,
+          "end": 185811
+        },
+        {
+          "quote": "SBCERS must receive securities lending reports and associated earnings credit no later than ten (10) business days after the end of the month.",
+          "start": 32797,
+          "end": 32939
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

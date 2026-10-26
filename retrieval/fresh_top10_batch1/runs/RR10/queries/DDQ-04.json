@@ -1,0 +1,39 @@
+{
+  "query_id": "DDQ-04",
+  "question": "Under the ILPA ESG Assessment Framework, how often does a GP review its ESG policy at the 'Intermediate' and at the 'Advanced' level of the 'Approach to Policy Review' component?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 3,
+  "baseline_sha256": "e70e12a7226d5665d5a05799cf51f776f790926caefc283d025424ff06cfd298",
+  "payload_sha256": "17b6f2d01c7fbc3b9a4d54a3dd9295c08b23b56c939a0464012f7dc3e867b11c",
+  "original_files": [
+    "ILPA__ILPA-ESG-Assessment-Framework.pdf",
+    "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+    "ILPA__ESG-Assessment-Framework-FAQ.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "ILPA__ILPA-ESG-Assessment-Framework.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-ESG-Assessment-Framework.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+      "path": "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+      "path": "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 1.778,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

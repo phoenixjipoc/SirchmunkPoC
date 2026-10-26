@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "18816ac879409ddca8f9",
+    "query_id": "OTH-16",
+    "question": "In the Police Retirement System of St. Louis (PRS-STL) actuarial RFP, how many years of experience must the principal actuary have?",
+    "file": "OCERS__ocers_pas_consultant_rfp.pdf",
+    "expected_facts": "A minimum of five years of professional actuarial experience, plus a minimum of five years of experience testifying before legislative and administrative bodies.",
+    "acceptance": "Five years professional actuarial experience is the core number. A complete description may state the separate five-year testimony requirement; these are not additive ten years and may overlap. Credentials are optional for this question.",
+    "text_hash": "af1747fe366b6ece99095ff8194fc5b4085ff2909aa45282d0359249c94d81f4",
+    "source_text_sha256": "ff418f121d48959c4fddc69dbf01669d218269a5b873ad0f1daf40bc3ed37b33",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Orange County Employees Retirement System RFP for pension administration project oversight, not the Police Retirement System of St. Louis actuarial RFP. Its five-year requirement applies to a project consultant, not a principal actuary; it does not support the specified actuarial or testimony experience requirements.",
+      "quotes": [
+        "Pension Administration Project Oversight and Consultation Services Request for Proposal September 2023 Orange County Employees Retirement System (OCERS)",
+        "Primary consultant performing the work must have a minimum of five (5) years of similar project experience as a consultant with a public defined benefit pension system."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Pension Administration Project Oversight and Consultation Services Request for Proposal September 2023 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 165
+        },
+        {
+          "quote": "Primary consultant performing the work must have a minimum of five (5) years of similar project experience as a consultant with a public defined benefit pension system.",
+          "start": 28034,
+          "end": 28202
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

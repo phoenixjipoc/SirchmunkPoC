@@ -1,0 +1,33 @@
+{
+  "query_id": "CONS-14",
+  "question": "What are all the minimum requirements in Section 2 (pages 4–5) of the City of Hartford MERF general investment consultant RFP?",
+  "type": "medium",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 2,
+  "baseline_sha256": "b754fa18a56b7dba7c9723441c2eadf80552c189afdf50ae2eda7b88a79a371c",
+  "payload_sha256": "788ead04fee1cfd337557bcfc04b5400a2f846364448e735f9661472a699acbc",
+  "original_files": [
+    "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+    "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf",
+      "path": "/mnt/docs/S/SDCERS__sdcers-2026-general-investment-consultant-rfp.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 2.575,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

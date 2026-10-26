@@ -1,0 +1,360 @@
+{
+  "groups": {
+    "Baseline": {
+      "questions": 120,
+      "hits": {
+        "1": {
+          "n": 98,
+          "hits": 51,
+          "unknown": 0,
+          "lower_pct": 52.04,
+          "upper_pct": 52.04
+        },
+        "5": {
+          "n": 98,
+          "hits": 74,
+          "unknown": 0,
+          "lower_pct": 75.51,
+          "upper_pct": 75.51
+        },
+        "10": {
+          "n": 98,
+          "hits": 78,
+          "unknown": 0,
+          "lower_pct": 79.59,
+          "upper_pct": 79.59
+        }
+      },
+      "mrr10_lower": 0.6193877551020408,
+      "mrr10_upper": 0.6193877551020408,
+      "macro_document_top1_lower_pct": 53.17356164383562,
+      "by_type": {
+        "detail": {
+          "1": {
+            "n": 50,
+            "hits": 28,
+            "unknown": 0,
+            "lower_pct": 56.0,
+            "upper_pct": 56.0
+          },
+          "5": {
+            "n": 50,
+            "hits": 39,
+            "unknown": 0,
+            "lower_pct": 78.0,
+            "upper_pct": 78.0
+          },
+          "10": {
+            "n": 50,
+            "hits": 42,
+            "unknown": 0,
+            "lower_pct": 84.0,
+            "upper_pct": 84.0
+          }
+        },
+        "medium": {
+          "1": {
+            "n": 18,
+            "hits": 9,
+            "unknown": 0,
+            "lower_pct": 50.0,
+            "upper_pct": 50.0
+          },
+          "5": {
+            "n": 18,
+            "hits": 12,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          },
+          "10": {
+            "n": 18,
+            "hits": 13,
+            "unknown": 0,
+            "lower_pct": 72.22,
+            "upper_pct": 72.22
+          }
+        },
+        "pair_a": {
+          "1": {
+            "n": 15,
+            "hits": 7,
+            "unknown": 0,
+            "lower_pct": 46.67,
+            "upper_pct": 46.67
+          },
+          "5": {
+            "n": 15,
+            "hits": 13,
+            "unknown": 0,
+            "lower_pct": 86.67,
+            "upper_pct": 86.67
+          },
+          "10": {
+            "n": 15,
+            "hits": 13,
+            "unknown": 0,
+            "lower_pct": 86.67,
+            "upper_pct": 86.67
+          }
+        },
+        "pair_b": {
+          "1": {
+            "n": 15,
+            "hits": 7,
+            "unknown": 0,
+            "lower_pct": 46.67,
+            "upper_pct": 46.67
+          },
+          "5": {
+            "n": 15,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          },
+          "10": {
+            "n": 15,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          }
+        }
+      },
+      "statuses": {
+        "ok": 114,
+        "empty_retrieval": 6
+      },
+      "pairs_both": {
+        "1": 2,
+        "5": 9,
+        "10": 9
+      },
+      "opposite_first": 3,
+      "combinations": {
+        "1": {
+          "complete": 0,
+          "mean_coverage": 0.11736111111111111
+        },
+        "5": {
+          "complete": 1,
+          "mean_coverage": 0.3541666666666667
+        },
+        "10": {
+          "complete": 2,
+          "mean_coverage": 0.4458333333333333
+        }
+      },
+      "thematic": {
+        "1": 1,
+        "5": 3,
+        "10": 3
+      },
+      "calls": 244,
+      "call_errors": 2,
+      "tokens": 580908,
+      "prompt_tokens": 408459,
+      "completion_tokens": 172449,
+      "request_latency": {
+        "n": 244,
+        "median_s": 7.069,
+        "p95_s": 11.675
+      },
+      "task_latency": {
+        "n": 120,
+        "median_s": 14.147,
+        "p95_s": 19.989
+      }
+    },
+    "RR10": {
+      "questions": 120,
+      "hits": {
+        "1": {
+          "n": 98,
+          "hits": 76,
+          "unknown": 0,
+          "lower_pct": 77.55,
+          "upper_pct": 77.55
+        },
+        "5": {
+          "n": 98,
+          "hits": 78,
+          "unknown": 0,
+          "lower_pct": 79.59,
+          "upper_pct": 79.59
+        },
+        "10": {
+          "n": 98,
+          "hits": 78,
+          "unknown": 0,
+          "lower_pct": 79.59,
+          "upper_pct": 79.59
+        }
+      },
+      "mrr10_lower": 0.780952380952381,
+      "mrr10_upper": 0.780952380952381,
+      "macro_document_top1_lower_pct": 77.07767123287671,
+      "by_type": {
+        "detail": {
+          "1": {
+            "n": 50,
+            "hits": 40,
+            "unknown": 0,
+            "lower_pct": 80.0,
+            "upper_pct": 80.0
+          },
+          "5": {
+            "n": 50,
+            "hits": 42,
+            "unknown": 0,
+            "lower_pct": 84.0,
+            "upper_pct": 84.0
+          },
+          "10": {
+            "n": 50,
+            "hits": 42,
+            "unknown": 0,
+            "lower_pct": 84.0,
+            "upper_pct": 84.0
+          }
+        },
+        "medium": {
+          "1": {
+            "n": 18,
+            "hits": 13,
+            "unknown": 0,
+            "lower_pct": 72.22,
+            "upper_pct": 72.22
+          },
+          "5": {
+            "n": 18,
+            "hits": 13,
+            "unknown": 0,
+            "lower_pct": 72.22,
+            "upper_pct": 72.22
+          },
+          "10": {
+            "n": 18,
+            "hits": 13,
+            "unknown": 0,
+            "lower_pct": 72.22,
+            "upper_pct": 72.22
+          }
+        },
+        "pair_a": {
+          "1": {
+            "n": 15,
+            "hits": 13,
+            "unknown": 0,
+            "lower_pct": 86.67,
+            "upper_pct": 86.67
+          },
+          "5": {
+            "n": 15,
+            "hits": 13,
+            "unknown": 0,
+            "lower_pct": 86.67,
+            "upper_pct": 86.67
+          },
+          "10": {
+            "n": 15,
+            "hits": 13,
+            "unknown": 0,
+            "lower_pct": 86.67,
+            "upper_pct": 86.67
+          }
+        },
+        "pair_b": {
+          "1": {
+            "n": 15,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          },
+          "5": {
+            "n": 15,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          },
+          "10": {
+            "n": 15,
+            "hits": 10,
+            "unknown": 0,
+            "lower_pct": 66.67,
+            "upper_pct": 66.67
+          }
+        }
+      },
+      "statuses": {
+        "ok": 94,
+        "skipped_single": 19,
+        "skipped_empty": 6,
+        "fallback_original": 1
+      },
+      "pairs_both": {
+        "1": 9,
+        "5": 9,
+        "10": 9
+      },
+      "opposite_first": 0,
+      "combinations": {
+        "1": {
+          "complete": 0,
+          "mean_coverage": 0.11736111111111111
+        },
+        "5": {
+          "complete": 2,
+          "mean_coverage": 0.4458333333333333
+        },
+        "10": {
+          "complete": 2,
+          "mean_coverage": 0.4458333333333333
+        }
+      },
+      "thematic": {
+        "1": 1,
+        "5": 3,
+        "10": 3
+      },
+      "calls": 97,
+      "call_errors": 3,
+      "tokens": 160018,
+      "prompt_tokens": 143859,
+      "completion_tokens": 16159,
+      "request_latency": {
+        "n": 97,
+        "median_s": 3.304,
+        "p95_s": 5.33
+      },
+      "task_latency": {
+        "n": 120,
+        "median_s": 2.981,
+        "p95_s": 4.921
+      }
+    }
+  },
+  "matched": {
+    "Baseline->RR10": {
+      "gains": 25,
+      "losses": 0
+    }
+  },
+  "source_checks": {
+    "jobs": {
+      "associations": 474,
+      "reused": 402,
+      "jobs": 72,
+      "upgrades": 14
+    },
+    "calls": 74,
+    "tokens": 1633490
+  },
+  "preflight": {
+    "calls": 9,
+    "tokens": 101
+  }
+}

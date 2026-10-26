@@ -1,0 +1,191 @@
+{
+  "checks": 46,
+  "passed": 46,
+  "all_passed": true,
+  "details": [
+    {
+      "name": "repair_preserves_original_code_provenance",
+      "passed": true
+    },
+    {
+      "name": "frozen_execution_code_and_inputs",
+      "passed": true
+    },
+    {
+      "name": "scan_frozen_inputs_match",
+      "passed": true
+    },
+    {
+      "name": "rerank_frozen_inputs_match",
+      "passed": true
+    },
+    {
+      "name": "scoring_inputs_unchanged",
+      "passed": true
+    },
+    {
+      "name": "prior_source_checks_unchanged",
+      "passed": true
+    },
+    {
+      "name": "same_120_questions",
+      "passed": true
+    },
+    {
+      "name": "81_original_hashes_match",
+      "passed": true
+    },
+    {
+      "name": "one_batch_two_arms",
+      "passed": true
+    },
+    {
+      "name": "fresh_preparation_record",
+      "passed": true
+    },
+    {
+      "name": "installed_source_identity_record",
+      "passed": true
+    },
+    {
+      "name": "first_native_result_preserved",
+      "passed": true
+    },
+    {
+      "name": "completed_results_preserved_network_1",
+      "passed": true
+    },
+    {
+      "name": "completed_results_preserved_network_2",
+      "passed": true
+    },
+    {
+      "name": "completed_results_preserved_network_3",
+      "passed": true
+    },
+    {
+      "name": "Baseline_all_120_completed",
+      "passed": true
+    },
+    {
+      "name": "Baseline_runtime_identity",
+      "passed": true
+    },
+    {
+      "name": "Baseline_phases",
+      "passed": true
+    },
+    {
+      "name": "Baseline_no_answers_or_clusters",
+      "passed": true
+    },
+    {
+      "name": "Baseline_rank_and_unique_files",
+      "passed": true
+    },
+    {
+      "name": "Baseline_attempt_limit",
+      "passed": true
+    },
+    {
+      "name": "RR10_all_120_completed",
+      "passed": true
+    },
+    {
+      "name": "RR10_runtime_identity",
+      "passed": true
+    },
+    {
+      "name": "RR10_phases",
+      "passed": true
+    },
+    {
+      "name": "RR10_no_answers_or_clusters",
+      "passed": true
+    },
+    {
+      "name": "RR10_rank_and_unique_files",
+      "passed": true
+    },
+    {
+      "name": "RR10_attempt_limit",
+      "passed": true
+    },
+    {
+      "name": "fresh_keyword_requests_for_every_query",
+      "passed": true
+    },
+    {
+      "name": "fresh_directory_requests_for_every_query",
+      "passed": true
+    },
+    {
+      "name": "new_requests_not_historical_responses",
+      "passed": true
+    },
+    {
+      "name": "native_retrieval_order_and_same_batch_baseline",
+      "passed": true
+    },
+    {
+      "name": "reranking_preserves_exact_candidate_sets",
+      "passed": true
+    },
+    {
+      "name": "ranking_inputs_blinded_and_preview_limited",
+      "passed": true
+    },
+    {
+      "name": "ranking_response_trace_matches",
+      "passed": true
+    },
+    {
+      "name": "240_scored_results",
+      "passed": true
+    },
+    {
+      "name": "top10_invariant_per_query",
+      "passed": true
+    },
+    {
+      "name": "98_primary_denominator",
+      "passed": true
+    },
+    {
+      "name": "no_unresolved_primary_scores",
+      "passed": true
+    },
+    {
+      "name": "rerank_ceiling",
+      "passed": true
+    },
+    {
+      "name": "adjudication_evidence_matches_source",
+      "passed": true
+    },
+    {
+      "name": "first_position_exceptions_checked",
+      "passed": true
+    },
+    {
+      "name": "all_source_jobs_completed",
+      "passed": true
+    },
+    {
+      "name": "additional_positives_grounded",
+      "passed": true
+    },
+    {
+      "name": "ungrounded_or_uncertain_reviews_adjudicated",
+      "passed": true
+    },
+    {
+      "name": "source_runtime_matches",
+      "passed": true
+    },
+    {
+      "name": "preflight_runtime_matches",
+      "passed": true
+    }
+  ]
+}

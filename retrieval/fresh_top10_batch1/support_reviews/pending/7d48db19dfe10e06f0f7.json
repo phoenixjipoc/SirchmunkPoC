@@ -1,0 +1,128 @@
+{
+  "job": {
+    "id": "7d48db19dfe10e06f0f7",
+    "query_id": "CONS-09",
+    "question": "Which retirement system's investment consultant RFP requires firms to certify that they currently provide investment consulting services to clients whose combined assets total at least $50 billion?",
+    "file": "Hartford_MERF__file.pdf",
+    "expected_facts": "Teachers' Retirement System of the State of Illinois (TRS Illinois), in its FY23 investment consultant RFP (Appendix B, Statement of Minimum Qualifications).",
+    "acceptance": "TRS Illinois / Teachers’ Retirement System of the State of Illinois is sufficient; FY23 and appendix identifier are optional.",
+    "text_hash": "612ac769f6b20e395be5d2aa2b38b7e34b8ea2f3e26f8e98d474dcd3da97e895",
+    "source_text_sha256": "44a1836a1354f4ce795c9252d5b103625a8ebfa77400d6ce5e341b7d38a7561e",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is a City of Hartford RFP for its Municipal Employees’ Retirement Fund and OPEB Trust, not the retirement system identified in the question. Its minimum qualification concerns five public pension funds with over $1.5 billion each; the $50 billion figure appears only in a questionnaire table, not as a certification requirement.",
+        "quotes": [
+          "MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+          "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+          "The Proposer shall currently serve as consultant for at least five public pension funds each with over $1.5 billion in assets.",
+          "Please list the number of full-retainer clients served by the firm (by asset size and by type) as of December 31, 2023:"
+        ],
+        "quote_matches": [
+          {
+            "quote": "MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+            "start": 49,
+            "end": 141
+          },
+          {
+            "quote": "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+            "start": 235,
+            "end": 294
+          },
+          {
+            "quote": "The Proposer shall currently serve as consultant for at least five public pension funds each with over $1.5 billion in assets.",
+            "start": 4201,
+            "end": 4327
+          },
+          {
+            "quote": "Please list the number of full-retainer clients served by the firm (by asset size and by type) as of December 31, 2023:",
+            "start": 30504,
+            "end": 30623
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A",
+        "attempt": 1
+      }
+    ],
+    "prior_source_path": "retrieval/followup120/support_reviews/7d48db19dfe10e06f0f7.json",
+    "prior_source_sha256": "7a1e8803f24cd840228b8acfa52f8512b22d99894fa0400690bf660f5c9eda10"
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Hartford RFP for its Municipal Employees’ Retirement Fund and OPEB Trust, not the retirement system identified in the question. Its minimum qualification concerns five public pension funds with over $1.5 billion each; the $50 billion figure appears only in a questionnaire table, not as a certification requirement.",
+      "quotes": [
+        "MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+        "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+        "The Proposer shall currently serve as consultant for at least five public pension funds each with over $1.5 billion in assets.",
+        "Please list the number of full-retainer clients served by the firm (by asset size and by type) as of December 31, 2023:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+          "start": 49,
+          "end": 141
+        },
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+          "start": 235,
+          "end": 294
+        },
+        {
+          "quote": "The Proposer shall currently serve as consultant for at least five public pension funds each with over $1.5 billion in assets.",
+          "start": 4201,
+          "end": 4327
+        },
+        {
+          "quote": "Please list the number of full-retainer clients served by the firm (by asset size and by type) as of December 31, 2023:",
+          "start": 30504,
+          "end": 30623
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a City of Hartford RFP for its Municipal Employees’ Retirement Fund and OPEB Trust, not a Teachers’ Retirement System of the State of Illinois RFP. Its minimum qualification concerns five public pension funds each with over $1.5 billion in assets. The $50 billion figure appears only as a category in a client-count questionnaire, not as a required combined-assets certification.",
+      "quotes": [
+        "MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+        "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+        "The Proposer shall currently serve as consultant for at least five public pension funds each with over $1.5 billion in assets.",
+        "Please list the number of full-retainer clients served by the firm (by asset size and by type) as of December 31, 2023:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "MUNICIPAL EMPLOYEES’ RETIREMENT FUND of the CITY of HARTFORD and CITY of HARTFORD OPEB TRUST",
+          "start": 49,
+          "end": 141
+        },
+        {
+          "quote": "REQUEST FOR PROPOSALS (“RFP”) GENERAL INVESTMENT CONSULTANT",
+          "start": 235,
+          "end": 294
+        },
+        {
+          "quote": "The Proposer shall currently serve as consultant for at least five public pension funds each with over $1.5 billion in assets.",
+          "start": 4201,
+          "end": 4327
+        },
+        {
+          "quote": "Please list the number of full-retainer clients served by the firm (by asset size and by type) as of December 31, 2023:",
+          "start": 30504,
+          "end": 30623
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

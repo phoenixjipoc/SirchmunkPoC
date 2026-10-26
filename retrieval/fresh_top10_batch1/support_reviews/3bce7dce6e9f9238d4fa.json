@@ -1,0 +1,41 @@
+{
+  "job": {
+    "id": "3bce7dce6e9f9238d4fa",
+    "query_id": "SVC-12",
+    "question": "According to the Monroe County deferred compensation services RFP, how many participants did the plan have and what were its total assets?",
+    "file": "SURS_Illinois__SURS-Investment-Manager-RFP-Template.pdf",
+    "expected_facts": "As of December 31, 2022: 4,398 plan participants and plan assets of $308,676,730. In addition, the OBRA part-time seasonal plan had 536 participants with assets of $926,785.",
+    "acceptance": "Main plan 4,398 participants / $308,676,730 is sufficient. OBRA 536 / $926,785 is supplementary and must not replace or be silently added to main-plan figures.",
+    "text_hash": "1293d72cf747218c60a7c2a6d672307dfc4ed9a219b9d94748104754f6a40b02",
+    "source_text_sha256": "7ed4136b9f78094e292fd0483fe60026c36824af173945e88edf069fb23a58f7",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is a SURS Illinois investment-manager RFP template, not the Monroe County deferred compensation services RFP. It provides no Monroe County plan participant count or total assets.",
+      "quotes": [
+        "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals from",
+        "SURS is the administrator of a cost-sharing, multiple employer, public employee retirement system"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The State Universities Retirement System (“SURS” or the “System”) is soliciting proposals from",
+          "start": 7442,
+          "end": 7536
+        },
+        {
+          "quote": "SURS is the administrator of a cost-sharing, multiple employer, public employee retirement system",
+          "start": 8149,
+          "end": 8246
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

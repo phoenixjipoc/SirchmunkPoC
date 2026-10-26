@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "dc96d2260827b2185be5",
+    "query_id": "SVC-14",
+    "question": "What evaluation criteria and percentage weights does the Santa Barbara County Employees' Retirement System (SBCERS) global custody RFP use to evaluate respondents?",
+    "file": "OCERS__ocers_pas_consultant_rfp.pdf",
+    "expected_facts": "1. Scope Affirmation, Servicing Approach, and Institutional Credentials - 30%; 2. Core and Value Added Services and Technology Platforms - 40%; 3. Quality of Responses and Additional Evidence of Capability - 5%; 4. Competitiveness and Reasonableness of Economics - 25%.",
+    "acceptance": "All four categories and 30/40/5/25%; allow synonymous category descriptions.",
+    "text_hash": "af1747fe366b6ece99095ff8194fc5b4085ff2909aa45282d0359249c94d81f4",
+    "source_text_sha256": "ff418f121d48959c4fddc69dbf01669d218269a5b873ad0f1daf40bc3ed37b33",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Orange County Employees Retirement System pension administration consulting RFP, not SBCERS’s global custody RFP. Its evaluation factors have no specific weighting, and it does not provide the four requested categories or percentages.",
+      "quotes": [
+        "Orange County Employees Retirement System (OCERS)",
+        "Pension Administration Project Oversight and Consultation Services Request for Proposal September 2023",
+        "The factors will be considered as a whole, without a specific weighting."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Orange County Employees Retirement System (OCERS)",
+          "start": 116,
+          "end": 165
+        },
+        {
+          "quote": "Pension Administration Project Oversight and Consultation Services Request for Proposal September 2023",
+          "start": 13,
+          "end": 115
+        },
+        {
+          "quote": "The factors will be considered as a whole, without a specific weighting.",
+          "start": 14235,
+          "end": 14307
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

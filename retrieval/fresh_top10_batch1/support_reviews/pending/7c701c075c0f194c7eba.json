@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "7c701c075c0f194c7eba",
+    "query_id": "SVC-15",
+    "question": "What contract term, including any extension options, does the Kern County Employees' Retirement Association (KCERA) RFP for audit services contemplate?",
+    "file": "OCERS__investment_consultant_services_rfp.pdf",
+    "expected_facts": "A three-year agreement (audits of fiscal year ending June 30, 2023 and the two subsequent fiscal years), subject to annual Board review; the original term may be extended for up to an additional three years by mutual agreement of KCERA and the firm.",
+    "acceptance": "Accept 3+up to3 years, mutual extension. Audit fiscal years and annual-review/negotiation detail need not all be volunteered.",
+    "text_hash": "5b64c217e92c2749a5177225f6fda52ea0dd775fcbdd0d850a456eb5dfcd1a1f",
+    "source_text_sha256": "31ba78f454a82dc69e8946299253c94f905a157c0bee42fe28fb33f65c2dcfa1",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an OCERS investment-consulting RFP, not KCERA’s audit-services RFP. Its five-year term and optional one-year renewal do not support the requested KCERA contract terms.",
+      "quotes": [
+        "Orange County Employees Retirement System (OCERS)",
+        "Investment Consultant Services",
+        "The initial term of the contract awarded pursuant to this RFP will be for a five (5) year period, with OCERS retaining the option to renew the contract for up to an additional one (1) year."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Orange County Employees Retirement System (OCERS)",
+          "start": 158,
+          "end": 207
+        },
+        {
+          "quote": "Investment Consultant Services",
+          "start": 13,
+          "end": 43
+        },
+        {
+          "quote": "The initial term of the contract awarded pursuant to this RFP will be for a five (5) year period, with OCERS retaining the option to renew the contract for up to an additional one (1) year.",
+          "start": 12021,
+          "end": 12210
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

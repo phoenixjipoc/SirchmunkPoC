@@ -1,0 +1,45 @@
+{
+  "query_id": "XD-15",
+  "question": "Which documents in the corpus mention the ISO 27001 information security standard, and in what context does each one use it?",
+  "type": "broad",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 4,
+  "baseline_sha256": "0305c470ecbb81595471b5a4f571dd52d8d4d19491e30ede1a693867c3107c91",
+  "payload_sha256": "abba850ce89a1384a04b2167591b67b1825cb81fb0aeb656e6bf4559c039805b",
+  "original_files": [
+    "ILPA__ILPA-DDQ-2.0.pdf",
+    "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+    "OCERS__ocers_pas_consultant_rfp.pdf",
+    "Temple_City_CA__Recordkeeping-RFP.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "ILPA__ILPA-DDQ-2.0.pdf",
+      "path": "/mnt/docs/S/ILPA__ILPA-DDQ-2.0.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf",
+      "path": "/mnt/docs/S/SBCERS__01_2023-SBCERS-Custody-RFP-CONSOLIDATED-Final-Updated.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+      "path": "/mnt/docs/S/Temple_City_CA__Recordkeeping-RFP.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "OCERS__ocers_pas_consultant_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__ocers_pas_consultant_rfp.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 3.131,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

@@ -1,0 +1,33 @@
+{
+  "query_id": "DDQ-09",
+  "question": "In the 2024 version of ILPA's ESG Assessment Framework FAQ, how many resources are listed in answer to 'Where can I find additional resources pertaining to ESG?', and what are they?",
+  "type": "pair_b",
+  "pair_id": "P7",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 2,
+  "baseline_sha256": "eca20e923a0d662280101f5f9274719d470a9af155d0a1b9fc0bad65532393ef",
+  "payload_sha256": "f91514714aa3ec32c5e94061cda7134196025b7016f1ea758a2bf5cd502ce1fd",
+  "original_files": [
+    "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+    "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "ILPA__240901-ESG-Assessment-Framework-FAQ.pdf",
+      "path": "/mnt/docs/S/ILPA__240901-ESG-Assessment-Framework-FAQ.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "ILPA__ESG-Assessment-Framework-FAQ.pdf",
+      "path": "/mnt/docs/S/ILPA__ESG-Assessment-Framework-FAQ.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 1.369,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

@@ -1,0 +1,114 @@
+{
+  "job": {
+    "id": "478cadf9c3e10f518f23",
+    "query_id": "XD-04",
+    "question": "Which due diligence questionnaire in the corpus asks the manager whether it requires its underlying investments to submit data to sustainability performance evaluation organisations, and which organisation does it give as an example?",
+    "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
+    "expected_facts": "The INREV DDQ 2022 for Funds of Funds and Multi Manager, question 3.8.1 (Supplementary Stage, section 3.8 Environmental, Social and Governance). The example given is the Global Real Estate Sustainability Benchmark (GRESB), and the manager is asked for its scores/results if it does require this.",
+    "acceptance": "Identify 2022 FoF/MM DDQ and Global Real Estate Sustainability Benchmark/GRESB. Question number and scores/results follow-up are optional.",
+    "text_hash": "ba38eb84b9e6630e06869a17bd0a8d39bbd7f3fbf79cf38deccbc05584512bde",
+    "source_text_sha256": "71f7dc2105be0914ed5549193987a3d5f6eda22588e7c5e025dd27c5e41ee8a0",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is a 2024 Illinois TRS request for proposals with a questionnaire for prospective private-equity consultants, not the 2022 INREV Funds of Funds and Multi Manager due diligence questionnaire. It does not ask the specified question or name GRESB as an example.",
+        "quotes": [
+          "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+          "APPENDIX D: QUESTIONNAIRE",
+          "Provide an example of your firm’s due diligence questionnaire (Identify as Exhibit #5)."
+        ],
+        "quote_matches": [
+          {
+            "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+            "start": 13,
+            "end": 159
+          },
+          {
+            "quote": "APPENDIX D: QUESTIONNAIRE",
+            "start": 31570,
+            "end": 31595
+          },
+          {
+            "quote": "Provide an example of your firm’s due diligence questionnaire (Identify as Exhibit #5).",
+            "start": 43011,
+            "end": 43098
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A"
+      }
+    ],
+    "prior_source_path": "retrieval/support_reviews/478cadf9c3e10f518f23.json",
+    "prior_source_sha256": "2d7a2423b579b593fc2b3a890bc6fc15a96a438bdce4fc0507190a929e4d4a3f"
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 Illinois TRS request for proposals with a questionnaire for prospective private-equity consultants, not the 2022 INREV Funds of Funds and Multi Manager due diligence questionnaire. It does not ask the specified question or name GRESB as an example.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+        "APPENDIX D: QUESTIONNAIRE",
+        "Provide an example of your firm’s due diligence questionnaire (Identify as Exhibit #5)."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+          "start": 13,
+          "end": 159
+        },
+        {
+          "quote": "APPENDIX D: QUESTIONNAIRE",
+          "start": 31570,
+          "end": 31595
+        },
+        {
+          "quote": "Provide an example of your firm’s due diligence questionnaire (Identify as Exhibit #5).",
+          "start": 43011,
+          "end": 43098
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A"
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a 2024 Illinois Teachers’ Retirement System RFP with a questionnaire for prospective private equity investment consultants, not the 2022 INREV Funds of Funds and Multi Manager DDQ. It does not identify GRESB or ask whether underlying investments submit data to sustainability performance evaluation organisations.",
+      "quotes": [
+        "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+        "APPENDIX D: QUESTIONNAIRE",
+        "The following questionnaire must be completed and included with your response to this RFP.",
+        "Provide an example of your firm’s due diligence questionnaire (Identify as Exhibit #5)."
+      ],
+      "quote_matches": [
+        {
+          "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
+          "start": 13,
+          "end": 159
+        },
+        {
+          "quote": "APPENDIX D: QUESTIONNAIRE",
+          "start": 31570,
+          "end": 31595
+        },
+        {
+          "quote": "The following questionnaire must be completed and included with your response to this RFP.",
+          "start": 31596,
+          "end": 31686
+        },
+        {
+          "quote": "Provide an example of your firm’s due diligence questionnaire (Identify as Exhibit #5).",
+          "start": 43011,
+          "end": 43098
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

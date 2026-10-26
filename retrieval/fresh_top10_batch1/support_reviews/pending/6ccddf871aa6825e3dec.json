@@ -1,0 +1,92 @@
+{
+  "job": {
+    "id": "6ccddf871aa6825e3dec",
+    "query_id": "INV-01",
+    "question": "In the CAJPA sample investment management RFP (Appendix Z, 'Sample Investment Management Request for Proposal'), how many copies of the proposal must be sent?",
+    "file": "IMRF__sample-investment-consulting-rfp.pdf",
+    "expected_facts": "Ten (10) copies of the proposal and correspondence, sent to the pool administrator (shown as 'John Doe, 123 Main Street' in the template).",
+    "acceptance": "Ten/10 copies suffices; template addressee and correspondence wording are optional.",
+    "text_hash": "ea9d2789dbf2664c70adf4312c00b0ec81c54cf1741478e3e2757e93a2e66025",
+    "source_text_sha256": "9c1ec794ed5ca3d42e6eb1fbcbbbb339195c2c9b872a54f9d0d1536d9a860ec5",
+    "second_check_required": true,
+    "prior_reviews": [
+      {
+        "coverage": "none",
+        "identity": "wrong",
+        "reason": "This is an Illinois Municipal Retirement Fund investment consulting RFP, not the CAJPA Appendix Z sample investment management RFP. Its six-copy requirement applies to a different issuer and proposal, so it does not support the requested fact.",
+        "quotes": [
+          "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms to provide general investment consulting, real estate consulting and performance measurement services",
+          "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX."
+        ],
+        "quote_matches": [
+          {
+            "quote": "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms to provide general investment consulting, real estate consulting and performance measurement services",
+            "start": 202,
+            "end": 406
+          },
+          {
+            "quote": "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX.",
+            "start": 21154,
+            "end": 21250
+          }
+        ],
+        "all_quotes_grounded": true,
+        "reviewer": "A",
+        "attempt": 1
+      }
+    ],
+    "prior_source_path": "retrieval/followup120/support_reviews/6ccddf871aa6825e3dec.json",
+    "prior_source_sha256": "d1a4a511a7376ca7a5d79d92df818a4ebc91b1bd4dbbf6838f6587b44bded1ad"
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is an Illinois Municipal Retirement Fund investment consulting RFP, not the CAJPA Appendix Z sample investment management RFP. Its six-copy requirement applies to a different issuer and proposal, so it does not support the requested fact.",
+      "quotes": [
+        "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms to provide general investment consulting, real estate consulting and performance measurement services",
+        "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX."
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms to provide general investment consulting, real estate consulting and performance measurement services",
+          "start": 202,
+          "end": 406
+        },
+        {
+          "quote": "Six (6) copies of the proposal must be received by IMRF no later than 12:00 Noon, XXXX XX, 20XX.",
+          "start": 21154,
+          "end": 21250
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    },
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The supplied document is an Illinois Municipal Retirement Fund investment consulting RFP, not CAJPA Appendix Z’s sample investment management RFP. It requires six copies, so it does not evidence the requested ten-copy requirement.",
+      "quotes": [
+        "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms",
+        "6.2 RFP DUE DATE & DELIVERY Six (6) copies of the proposal must be received by IMRF"
+      ],
+      "quote_matches": [
+        {
+          "quote": "The Illinois Municipal Retirement Fund (IMRF) is requesting proposals from investment consulting firms",
+          "start": 202,
+          "end": 304
+        },
+        {
+          "quote": "6.2 RFP DUE DATE & DELIVERY Six (6) copies of the proposal must be received by IMRF",
+          "start": 21126,
+          "end": 21209
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "B",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}

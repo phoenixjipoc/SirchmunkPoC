@@ -1,0 +1,39 @@
+{
+  "query_id": "OTH-01",
+  "question": "In the Oklahoma Public Employees Retirement System (OPERS) July 2023 RFP for index investment management services, what was the market value of the OPERS Russell 1000 Index mandate as of May 31, 2023, and what is its policy weight?",
+  "type": "detail",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 3,
+  "baseline_sha256": "8ddddbe205a423183f0ab5071d7e68685e4c6047efa3e18bf932dc45a85c2afc",
+  "payload_sha256": "f9b24c4ed14499e34bc2aa4c14255a1a4c1ede147ce0d9c03d3bff6d21b0cc35",
+  "original_files": [
+    "Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf",
+    "Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+    "Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf",
+      "path": "/mnt/docs/S/Oklahoma_OPERS__RFP_Inv_Mgmt_Index_mandates_July-2023_Final.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf",
+      "path": "/mnt/docs/S/Oklahoma_OPERS__2022-02-RFP-Investment-Consulting-Services.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf",
+      "path": "/mnt/docs/S/Oklahoma_OPERS__2022-03-RFP-QA-External-Audit-Services.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 1.684,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

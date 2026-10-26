@@ -1,0 +1,81 @@
+{
+  "query_id": "CONS-16",
+  "question": "Across these ten general investment consulting RFPs in the corpus—OCERS, COAERS, SDCERS, Grand Rapids, CTA Retirement Plan, SC RSIC, Hartford MERF, SBCERA, NYC BERS and Boston BRS—what is the most common stated minimum number of years in business or experience for the consulting firm?",
+  "type": "broad",
+  "pair_id": "",
+  "group": "RR10",
+  "status": "ok",
+  "candidate_limit": 10,
+  "candidate_count": 10,
+  "baseline_sha256": "ee088cad88b2dbf7fd784162f57a79b7e973b103f675a53eb4aabb58afb2ac0d",
+  "payload_sha256": "bdee2173ad69b1cd5b40bd04abde78f0edb0c2a82ccbb004467425d4d89500c5",
+  "original_files": [
+    "OCERS__investment_consultant_services_rfp.pdf",
+    "Hartford_MERF__file.pdf",
+    "IMRF__sample-investment-consulting-rfp.pdf",
+    "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+    "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+    "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+    "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+    "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+    "Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+    "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf"
+  ],
+  "references": [
+    {
+      "rank": 1,
+      "file": "Hartford_MERF__file.pdf",
+      "path": "/mnt/docs/S/Hartford_MERF__file.pdf"
+    },
+    {
+      "rank": 2,
+      "file": "COAERS__COAERS_General_Investment_Consultant_RFP.pdf",
+      "path": "/mnt/docs/S/COAERS__COAERS_General_Investment_Consultant_RFP.pdf"
+    },
+    {
+      "rank": 3,
+      "file": "SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf",
+      "path": "/mnt/docs/S/SC_RSIC__2016_09_30_General_Consultant_FINAL.pdf"
+    },
+    {
+      "rank": 4,
+      "file": "OCERS__investment_consultant_services_rfp.pdf",
+      "path": "/mnt/docs/S/OCERS__investment_consultant_services_rfp.pdf"
+    },
+    {
+      "rank": 5,
+      "file": "NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf",
+      "path": "/mnt/docs/S/NYC_BERS__rfp_2024-003_investment_consulting_services_updated_06.18.24.pdf"
+    },
+    {
+      "rank": 6,
+      "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
+      "path": "/mnt/docs/S/TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf"
+    },
+    {
+      "rank": 7,
+      "file": "SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf",
+      "path": "/mnt/docs/S/SFERS__SFERS-General-Investment-Consultant-RFP_vFinal.pdf"
+    },
+    {
+      "rank": 8,
+      "file": "IMRF__sample-investment-consulting-rfp.pdf",
+      "path": "/mnt/docs/S/IMRF__sample-investment-consulting-rfp.pdf"
+    },
+    {
+      "rank": 9,
+      "file": "Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf",
+      "path": "/mnt/docs/S/Oklahoma_TRS__Investment.Consultant.RFP.adopted.by.Board.pdf"
+    },
+    {
+      "rank": 10,
+      "file": "TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf",
+      "path": "/mnt/docs/S/TRS_Illinois__FY23-RFP-Investment-Consultant-final_7.pdf"
+    }
+  ],
+  "attempts": 1,
+  "elapsed_s": 2.993,
+  "answer_generated": false,
+  "cluster_used": false,
+  "evidence_sampling": false
+}

@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "525a8163082a477f332b",
+    "query_id": "INV-11",
+    "question": "In the Illinois Municipal Retirement Fund (IMRF) sample RFP for investment consulting, real estate consulting and performance measurement services, on what factors are respondents evaluated and ranked during the selection process?",
+    "file": "OCERS__custodian_rfp_2022-2023.pdf",
+    "expected_facts": "Three factors: (1) Organization - stability, ownership, documented experience of key professionals; (2) Consulting Skill - investment philosophy, investment manager information collection and monitoring systems, risk management tools, performance measurement systems, and breadth of consulting expertise and experience; (3) Fees - consulting fees for services requested and associated costs.",
+    "acceptance": "Three factors with substantively equivalent descriptions suffice; exact wording and order are unnecessary.",
+    "text_hash": "2f1b263969ef09f6d98b625298c7af0518d618d780be107703d3e797ceb8169a",
+    "source_text_sha256": "2160dab5b593e917103890305a919f136c0a0f9f1c86c7a4b6fb2c4eaaf14ec2",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "The document is an OCERS request for proposals for custody services, not the IMRF sample RFP for investment consulting, real estate consulting, and performance measurement services. Its evaluation criteria cannot support the factors asked about.",
+      "quotes": [
+        "Custody Services Request for Proposal October 2022 Orange County Employees Retirement System (OCERS)",
+        "The Orange County Employees Retirement System (“OCERS”) is requesting proposals from qualified firms with expertise in providing a comprehensive set of custody services.",
+        "Section 8: Evaluation Criteria Responses will be evaluated based upon the following:"
+      ],
+      "quote_matches": [
+        {
+          "quote": "Custody Services Request for Proposal October 2022 Orange County Employees Retirement System (OCERS)",
+          "start": 13,
+          "end": 113
+        },
+        {
+          "quote": "The Orange County Employees Retirement System (“OCERS”) is requesting proposals from qualified firms with expertise in providing a comprehensive set of custody services.",
+          "start": 6072,
+          "end": 6241
+        },
+        {
+          "quote": "Section 8: Evaluation Criteria Responses will be evaluated based upon the following:",
+          "start": 26369,
+          "end": 26453
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": false
+}

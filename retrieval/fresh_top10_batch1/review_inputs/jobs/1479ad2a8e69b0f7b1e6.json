@@ -1,0 +1,12 @@
+{
+  "id": "1479ad2a8e69b0f7b1e6",
+  "query_id": "OTH-06",
+  "question": "In Clark County, Washington's RFP 955 for a deferred compensation 457 plan administrator, how much was held in the 457 Plans as of December 31, 2025, and who is the current provider?",
+  "file": "Temple_City_CA__Recordkeeping-RFP.pdf",
+  "expected_facts": "Approximately $167 million; the current provider is Lincoln Financial.",
+  "acceptance": "Accept approximately $167m (or appropriately reconciled table total) and Lincoln Financial; not just County-only $162.85m.",
+  "text_hash": "aa32d205efb4a8f5c43054ea38fe8bb413e446bbe6440d32846410e99aba3560",
+  "source_text_sha256": "ba46410ea5b8731139363c20c23c9e0ed7804d7854e543119bc174f6333ad4d1",
+  "second_check_required": false,
+  "prior_reviews": []
+}

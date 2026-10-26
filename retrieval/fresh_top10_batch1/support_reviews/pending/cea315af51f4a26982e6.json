@@ -1,0 +1,47 @@
+{
+  "job": {
+    "id": "cea315af51f4a26982e6",
+    "query_id": "OTH-16",
+    "question": "In the Police Retirement System of St. Louis (PRS-STL) actuarial RFP, how many years of experience must the principal actuary have?",
+    "file": "CCCERA__2018_cccera_master_custodian_rfp_april_2018.pdf",
+    "expected_facts": "A minimum of five years of professional actuarial experience, plus a minimum of five years of experience testifying before legislative and administrative bodies.",
+    "acceptance": "Five years professional actuarial experience is the core number. A complete description may state the separate five-year testimony requirement; these are not additive ten years and may overlap. Credentials are optional for this question.",
+    "text_hash": "5afc5adec694c195f2977417c376c45b4856a88e72d30c0e1953e2403af08eac",
+    "source_text_sha256": "add3ba83b3e17f098f096c1bf8b5d5000ad39375300bba2e2b398c7d805cf7a6",
+    "second_check_required": false,
+    "prior_reviews": []
+  },
+  "reviews": [
+    {
+      "coverage": "none",
+      "identity": "wrong",
+      "reason": "This is a Contra Costa County Employees’ Retirement Association RFP for master custodian services, not the Police Retirement System of St. Louis actuarial RFP. Its five-year requirement applies to a custody account administrator, not a principal actuary; it provides no principal-actuary experience requirement.",
+      "quotes": [
+        "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES",
+        "Contra Costa County Employees’ Retirement Association",
+        "The account administrator (the individual primarily assigned to CCCERA’s account and in charge of the day-to-day contact) proposed for this engagement must have a minimum of five (5) years of experience (three [3] years at the proposing company) in custody."
+      ],
+      "quote_matches": [
+        {
+          "quote": "REQUEST FOR PROPOSALS FOR MASTER CUSTODIAN AND RELATED SERVICES",
+          "start": 13,
+          "end": 76
+        },
+        {
+          "quote": "Contra Costa County Employees’ Retirement Association",
+          "start": 88,
+          "end": 141
+        },
+        {
+          "quote": "The account administrator (the individual primarily assigned to CCCERA’s account and in charge of the day-to-day contact) proposed for this engagement must have a minimum of five (5) years of experience (three [3] years at the proposing company) in custody.",
+          "start": 17601,
+          "end": 17858
+        }
+      ],
+      "all_quotes_grounded": true,
+      "reviewer": "A",
+      "attempt": 1
+    }
+  ],
+  "support": null
+}
