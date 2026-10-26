@@ -55,8 +55,6 @@ The detail, medium and paired questions form the 98 single-document cases. The b
 
 For a single-document question, **Hit@k** is one when at least one of the first k files contains all mandatory facts for the correct issuer, version and conditions. **MRR@10** uses the reciprocal rank of the first qualifying file, or zero if none appears within ten. Similar pairs also track whether the opposite question's exclusive source ranks first. Combined-source questions measure required-source coverage.
 
-Reference facts and acceptance criteria are used only for source assessment. Retrieval receives questions without expected answers or source labels. The [question audit](poc/questions/verification/verification_report.md) supported 109 references and corrected eleven. Unlisted returned sources receive separate support checks. See the [scoring rules](retrieval/PLAN.md#scoring) and [follow-up plan](retrieval/followup120/PLAN.md).
-
 ## Workflow and files
 
 Queries use keyword discovery and directory selection, followed by an ordered, deduplicated file list. The baseline keeps keyword files first; the follow-up isolates repeatability, directory coverage and parsing. Source checks and scoring run separately from retrieval.
