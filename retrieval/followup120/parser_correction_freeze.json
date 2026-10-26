@@ -1,8 +1,9 @@
 {
   "files": {
     "parser_replay_corrected.py": "e075c4022de856e70d21a3f63a3f10e0540beee8a14e6c1e61950c92f28d0cef",
-    "complete_parser_correction.py": "290c404f6015b669cfaf98089635e91e8357e6a3af0caa5fa0a9254f4fea844a",
+    "complete_parser_correction.py": "b644052c2f306cb848185c28386bb5d5535a1d416bb09b2bf2210af43f03547c",
     "PARSER_CORRECTION.md": "2ba5990c9fdb23c453c7183a22a5079cb878e0a30f16303a15bb61fee96bef76"
   },
-  "reason": "Correct unused synchronous hook; control native file order before corrected 120-question replay."
+  "reason": "Correct unused synchronous hook; control native file order before corrected 120-question replay.",
+  "publication_note": "The host coordinator collects only P0/P result folders. Parser implementation and raw replay outputs are unchanged."
 }

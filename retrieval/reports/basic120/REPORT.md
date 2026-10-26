@@ -45,7 +45,7 @@ For the thematic DDQ question, Top-10 found 3/6 verified example sources. Its ex
 
 INV-12 illustrates the distinction between document similarity and support. Its first result was `IMRF__sample-investment-consulting-rfp.pdf`; the verified source is `IMRF__sample_investment_manager_rfp.pdf`. The question asks about investment-manager evaluation, so consulting requirements are not interchangeable. Its Top-1/5/10 outcomes are miss / hit / hit.
 
-The installed merge places keyword hits before high-relevance directory suggestions. It does not globally rerank the combined list. Directory selection also samples twenty of the 81 files. These properties can explain poor first-position ordering or incomplete candidate discovery; this run does not isolate their individual causal effects.
+The installed merge places keyword hits before high-relevance directory suggestions. Directory selection also samples twenty of the 81 files. These properties can explain poor first-position ordering or incomplete candidate discovery; this run does not isolate their individual causal effects.
 
 ## Runtime and source checks
 

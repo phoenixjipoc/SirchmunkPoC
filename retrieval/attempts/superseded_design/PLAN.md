@@ -12,7 +12,7 @@ This campaign measures source retrieval, using the existing 81 original document
 
 ## Retrieval boundary
 
-The adapter calls the installed keyword extraction, keyword search and directory ranking methods. Directory ranking randomly samples twenty candidates when more are available; only high-relevance results are added. The native merge order is keyword hits first, then directory hits, with duplicates removed. This operational order defines rank; it is not a global semantic reranking.
+The adapter calls the installed keyword extraction, keyword search and directory ranking methods. Directory ranking randomly samples twenty candidates when more are available; only high-relevance results are added. The native merge order is keyword hits first, then directory hits, with duplicates removed. This operational order defines the returned ranks.
 
 The selected files use the installed parser and evidence sampler. Documents below 100,000 extracted characters return their complete text. Larger documents use the existing fuzzy/random probes, three rounds, score-eight early stopping and up to five accepted probes scoring at least four. Each accepted probe expands to the existing 2,000-character context window. The adapter returns those exact windows instead of generating a summary. Low-scoring fallback probes remain visible with their unsuccessful status.
 

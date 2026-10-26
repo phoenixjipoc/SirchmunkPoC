@@ -7,16 +7,19 @@ from prepare_support import HERE,BASE,read,save,results
 
 def digest(p): return hashlib.sha256(p.read_bytes()).hexdigest()
 
+def summary_groups(): return read(HERE/'reports/summary.json')['groups']
+
 
 def main():
     checks=[]
     def check(name,condition,detail=None):
         checks.append(dict(name=name,passed=bool(condition),detail=detail))
     freeze=read(HERE/'freeze.json')
-    check('retrieval_code_and_inputs_unchanged',all(digest(HERE/n)==v for n,v in freeze['files'].items()))
+    check('frozen_inputs_and_adapter_unchanged',all(digest(HERE/n)==v for n,v in freeze['files'].items()))
+    check('published_retrieval_files_match',all(digest(HERE/n)==v for n,v in freeze['publication_files'].items()))
     for part in ['parser','scoring','transport','parser_correction']:
         f=read(HERE/(part+'_freeze.json'))
-        check(part+'_code_unchanged',all(digest(HERE/n)==v for n,v in f['files'].items()))
+        check(part+'_published_files_match',all(digest(HERE/n)==v for n,v in f['files'].items()))
     questions=read(BASE/'inputs/queries.json'); ids={q['id'] for q in questions}
     check('same_120_question_inputs',len(ids)==120 and digest(BASE/'inputs/queries.json')==digest(HERE/'inputs/queries.json'))
     check('baseline_records_byte_identical',all(digest(p)==digest(BASE/'results/basic120/queries'/p.name) for p in (HERE/'baseline').glob('*.json')))
@@ -25,6 +28,16 @@ def main():
         check('completed_R2_results_unchanged_after_recovery',all(digest(HERE/'runs/R2/queries'/(qid+'.json'))==h for qid,h in read(recovery)['retained_query_hashes'].items()))
     allowed={r['file'] for r in read(BASE/'inputs/corpus.json')}
     groups=results()
+    publication=read(HERE/'publication_scope.json')
+    expected=set(publication['groups']+publication['derived_views'])
+    check('only_declared_retrieval_groups',set(groups)==expected and set(summary_groups())==expected)
+    check('runtime_groups_match_publication',set(read(HERE/'settings.json')['groups'])=={'R2','R3','D'} and {p.name for p in (HERE/'runs').iterdir() if p.is_dir()}==set(publication['groups'])-{'R1'})
+    kept=[]
+    for folder in [HERE/'baseline',*[HERE/'runs'/g for g in publication['groups'] if g!='R1']]:
+        kept.extend(p for p in folder.rglob('*') if p.is_file() and '__pycache__' not in p.parts)
+    entries=[dict(path=p.relative_to(HERE).as_posix(),sha256=digest(p)) for p in sorted(kept)]
+    aggregate=hashlib.sha256(json.dumps(entries,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+    check('retained_raw_results_unchanged',len(entries)==publication['retained_result_files'] and aggregate==publication['retained_result_digest'])
     for group,rows in groups.items():
         check(group+'_exact_120_ids',set(rows)==ids)
         check(group+'_ordered_unique_references',all(
@@ -32,22 +45,15 @@ def main():
             len({x['file'] for x in r['references']})==len(r['references'])<=10 and
             all(x['file'] in allowed for x in r['references']) for r in rows.values()))
         check(group+'_no_answer_sampling_cluster',all(r.get('answer_generated') is False and r.get('evidence_sampling') is False and r.get('cluster_used') is False for r in rows.values()))
-        if group in {'R2','R3','S','D'}:
+        if group in {'R2','R3','D'}:
             calls=[json.loads(line) for p in (HERE/'runs'/group).glob('calls*.jsonl') for line in p.read_text(encoding='utf-8').splitlines()]
             good=[c for c in calls if c.get('status')=='ok']
             check(group+'_model_identity',bool(good) and all(c['requested_model']==c['response_model']=='gpt-6-sol' and c.get('outbound_http_models')==['gpt-6-sol'] for c in good))
-            permitted={'preflight','keywords','directory'} if group in {'R2','R3'} else {'preflight','rerank' if group=='S' else 'directory'}
+            permitted={'preflight','keywords','directory'} if group in {'R2','R3'} else {'preflight','directory'}
             check(group+'_allowed_phases',all(c['phase'] in permitted for c in calls))
             check(group+'_valid_result_not_retried',all(
                 sum(read(p)['status'] in {'ok','empty_retrieval'} for p in (HERE/'runs'/group/'attempts'/qid).glob('*.json'))==1
                 for qid,r in rows.items() if r['status'] in {'ok','empty_retrieval'}))
-    check('S_exact_same_candidate_sets',all(
-        {r['file'] for r in groups['S'][qid]['references']}=={r['file'] for r in groups['R1'][qid]['references']}
-        for qid in ids if groups['S'][qid]['status'] in {'ok','empty_retrieval'}))
-    check('S_prompt_has_no_gold_fields',all(
-        set(json.loads(r['ranking_prompt']))=={'question','candidates'} and
-        [c['filename'] for c in json.loads(r['ranking_prompt'])['candidates']]==sorted(x['file'] for x in r['references'])
-        for r in groups['S'].values() if 'ranking_prompt' in r))
     check('D_keyword_results_frozen',all(groups['D'][qid].get('keyword_files')==groups['R1'][qid].get('keyword_files') for qid in ids if groups['D'][qid]['status']=='ok'))
     check('D_prompt_contains_all_81_files',all(all(name in r.get('directory_prompt','') for name in allowed) for r in groups['D'].values() if r['status']=='ok'))
     check('P_P0_same_terms_and_directory',all(
@@ -100,8 +106,6 @@ def main():
     summary=read(HERE/'reports/summary.json')
     check('hit_cutoffs_monotone',all(s['hits']['1']['hits']<=s['hits']['5']['hits']<=s['hits']['10']['hits'] for s in summary['groups'].values()))
     check('MRR_bounds_valid',all(0<=s['mrr10_lower']<=s['mrr10_upper']<=1 for s in summary['groups'].values()))
-    validS=all(r['status'] in {'ok','empty_retrieval'} for r in groups['S'].values())
-    check('S_top10_invariant_on_completed_permutations',not validS or summary['groups']['S']['hits']['10']==summary['groups']['R1']['hits']['10'])
     result=dict(passed=all(c['passed'] for c in checks),checks=checks)
     save(HERE/'reports/validation.json',result)
     print(json.dumps(dict(passed=result['passed'],checks=len(checks),failed=[r for r in checks if not r['passed']]),indent=2))

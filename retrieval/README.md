@@ -9,7 +9,7 @@ One pass over 120 verified questions and 81 raw documents. Each query returns up
 - [Similar-question pairs](reports/basic120/pairs.csv)
 - [Cross-document coverage](reports/basic120/cross_document.csv)
 - [Unanswerable cases](reports/basic120/unanswerable.csv)
-- [Follow-up using the same 120 questions](followup120/README.md): repeatability, ranking, directory coverage and parsing.
+- [Follow-up using the same 120 questions](followup120/README.md): repeatability, directory coverage and parsing.
 
 ## Files
 

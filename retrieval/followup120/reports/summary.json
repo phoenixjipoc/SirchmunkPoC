@@ -516,177 +516,6 @@
         "gpt-6-sol"
       ]
     },
-    "S": {
-      "questions": 120,
-      "single_document": 98,
-      "hits": {
-        "1": {
-          "n": 98,
-          "hits": 79,
-          "unknown": 0,
-          "lower_pct": 80.61,
-          "upper_pct": 80.61
-        },
-        "5": {
-          "n": 98,
-          "hits": 80,
-          "unknown": 0,
-          "lower_pct": 81.63,
-          "upper_pct": 81.63
-        },
-        "10": {
-          "n": 98,
-          "hits": 80,
-          "unknown": 0,
-          "lower_pct": 81.63,
-          "upper_pct": 81.63
-        }
-      },
-      "mrr10_lower": 0.8095238095238095,
-      "mrr10_upper": 0.8095238095238095,
-      "macro_document_top1_lower_pct": 80.22835616438356,
-      "by_type": {
-        "detail": {
-          "1": {
-            "n": 50,
-            "hits": 43,
-            "unknown": 0,
-            "lower_pct": 86.0,
-            "upper_pct": 86.0
-          },
-          "5": {
-            "n": 50,
-            "hits": 44,
-            "unknown": 0,
-            "lower_pct": 88.0,
-            "upper_pct": 88.0
-          },
-          "10": {
-            "n": 50,
-            "hits": 44,
-            "unknown": 0,
-            "lower_pct": 88.0,
-            "upper_pct": 88.0
-          }
-        },
-        "medium": {
-          "1": {
-            "n": 18,
-            "hits": 15,
-            "unknown": 0,
-            "lower_pct": 83.33,
-            "upper_pct": 83.33
-          },
-          "5": {
-            "n": 18,
-            "hits": 15,
-            "unknown": 0,
-            "lower_pct": 83.33,
-            "upper_pct": 83.33
-          },
-          "10": {
-            "n": 18,
-            "hits": 15,
-            "unknown": 0,
-            "lower_pct": 83.33,
-            "upper_pct": 83.33
-          }
-        },
-        "pair_a": {
-          "1": {
-            "n": 15,
-            "hits": 11,
-            "unknown": 0,
-            "lower_pct": 73.33,
-            "upper_pct": 73.33
-          },
-          "5": {
-            "n": 15,
-            "hits": 11,
-            "unknown": 0,
-            "lower_pct": 73.33,
-            "upper_pct": 73.33
-          },
-          "10": {
-            "n": 15,
-            "hits": 11,
-            "unknown": 0,
-            "lower_pct": 73.33,
-            "upper_pct": 73.33
-          }
-        },
-        "pair_b": {
-          "1": {
-            "n": 15,
-            "hits": 10,
-            "unknown": 0,
-            "lower_pct": 66.67,
-            "upper_pct": 66.67
-          },
-          "5": {
-            "n": 15,
-            "hits": 10,
-            "unknown": 0,
-            "lower_pct": 66.67,
-            "upper_pct": 66.67
-          },
-          "10": {
-            "n": 15,
-            "hits": 10,
-            "unknown": 0,
-            "lower_pct": 66.67,
-            "upper_pct": 66.67
-          }
-        }
-      },
-      "failures": {
-        "top1_hit": 79,
-        "absent_from_candidates": 11,
-        "outside_fixed_candidate_pool": 4,
-        "support_rank_2_5": 1,
-        "empty_retrieval": 3
-      },
-      "statuses": {
-        "ok": 117,
-        "empty_retrieval": 3
-      },
-      "pairs_both": {
-        "1": 8,
-        "5": 8,
-        "10": 8
-      },
-      "opposite_first": 0,
-      "required_combinations": {
-        "1": {
-          "n": 12,
-          "complete": 0,
-          "mean_coverage": 0.11736111111111111
-        },
-        "5": {
-          "n": 12,
-          "complete": 2,
-          "mean_coverage": 0.4083333333333333
-        },
-        "10": {
-          "n": 12,
-          "complete": 2,
-          "mean_coverage": 0.4083333333333333
-        }
-      },
-      "median_query_s": 3.708,
-      "completed_query_s": 389.104,
-      "calls": 95,
-      "call_errors": 2,
-      "incomplete_call_records": 0,
-      "technical_attempts": 2,
-      "technical_attempt_seconds": 1.052,
-      "preflight_calls": 5,
-      "preflight_tokens": 68,
-      "total_tokens": 208738,
-      "successful_models": [
-        "gpt-6-sol"
-      ]
-    },
     "D": {
       "questions": 120,
       "single_document": 98,
@@ -1555,10 +1384,6 @@
       "gains": 11,
       "losses": 17
     },
-    "S": {
-      "gains": 28,
-      "losses": 0
-    },
     "D": {
       "gains": 4,
       "losses": 1
@@ -1581,13 +1406,14 @@
     }
   },
   "source_check_usage": {
-    "calls": 707,
+    "calls": 700,
     "errors": 0,
-    "total_tokens": 12309020,
+    "total_tokens": 12142401,
     "completion": {
-      "jobs": 563,
+      "jobs": 554,
       "workers": 4,
-      "elapsed_s": 55.215
+      "elapsed_s": 55.215,
+      "scope": "Retained jobs; elapsed time records the original execution segment."
     }
   }
 }

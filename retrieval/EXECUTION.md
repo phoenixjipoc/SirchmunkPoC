@@ -24,7 +24,7 @@ The first basic-run start exposed a timestamp serialization error after one comp
 
 `launch.py` invokes `basic_run.py prepare` and `basic_run.py run` in `/retrieval_basic_20261023_v2`. Questions run sequentially. Keyword search and directory selection can run concurrently within a question.
 
-The adapter records keyword-discovered files and directory suggestions before merging them. Keyword files retain priority; duplicate paths are removed, and the first ten are returned. Directory selection retains the installed random twenty-candidate sample. No global reranking is introduced.
+The adapter records keyword-discovered files and directory suggestions before merging them. Keyword files retain priority; duplicate paths are removed, and the first ten are returned. Directory selection retains the installed random twenty-candidate sample.
 
 `results/basic120/queries/` stores each ordered result. `calls.jsonl` stores runtime identities, request identifiers, phase, usage and responses. `progress.jsonl` records completion and duration per question. `complete.json` records the terminal count and statuses.
 

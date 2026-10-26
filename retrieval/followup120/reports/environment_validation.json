@@ -14,6 +14,7 @@
   },
   "container_image_id": "sha256:d3a08d8cd3a738362ebf662ebf3dd261b63a12854c5fdb8c27fc58b95364927d",
   "same_container_image": true,
-  "deployed_code_matches_local": true,
-  "passed": true
+  "passed": true,
+  "scope": "Execution-time verification of the deployed container; published script hashes are checked separately.",
+  "deployed_code_matched_collection_time": true
 }

@@ -1,8 +1,5 @@
 {
   "files": {
-    "experiment.py": "268ce9592b042602078dae8806f6caa3d56f6365543fa5c1bf74d5a4dd3db497",
-    "settings.json": "56f5c93ae1200b7b2149b96ca0910562dc112acd2baa5cc8240ffd1f69ce12da",
-    "PLAN.md": "6446c9f279b2d0ce0c411f67abc90ab19ad6f78c19c8c8f8385dde7325099165",
     "inputs/corpus.json": "47cbf0ba0387b02643c69a4b90ad04fd7719e0d4d39f4c16923d840b54b16a88",
     "inputs/directory_scan.json": "cca1f2fcabe7aabd388199bb9413ebdcdef835e7a7cf78b150b972234cd9e47c",
     "inputs/original_config.json": "959807d413dcedc8917628ada1dfe9bc0fd6c9f598783f0e1ce203228e1a433b",
@@ -131,5 +128,17 @@
     "baseline/XD-22.json": "d51f0def3afc82de018d7680b00f6f59b4a69762f893136917cb06d26ee084a7",
     "baseline/XD-23.json": "ac08eaf0bc0ddb8d779ce083e44918b4a2104d302baf9bbc65dfe63d264fa1fa",
     "baseline/XD-24.json": "10e89db57d64f151871a3935076a4ad7ae27b05a481fe3ef11f89c50e87d0f3e"
-  }
+  },
+  "execution_code_hashes": {
+    "experiment.py": "268ce9592b042602078dae8806f6caa3d56f6365543fa5c1bf74d5a4dd3db497",
+    "settings.json": "56f5c93ae1200b7b2149b96ca0910562dc112acd2baa5cc8240ffd1f69ce12da",
+    "PLAN.md": "6446c9f279b2d0ce0c411f67abc90ab19ad6f78c19c8c8f8385dde7325099165"
+  },
+  "publication_files": {
+    "experiment.py": "62f4ae8f8dcbbdad83f89220f556c6c7f5807e0a1f2085487ef8fbadb3f73fea",
+    "settings.json": "728ade442aa0d4547eb6442be75fa98ef67cae56542b5e2da38903d9abfc4c46",
+    "PLAN.md": "53140c331bb34e644e8c68606a00012a728b4b75557a8094f2d2c3672af58c32",
+    "supervise.py": "4984695d4944bfbd091c865279ff04e9c14cf171e9de90f0900eb8432f07eea6"
+  },
+  "note": "Input and adapter hashes were frozen before execution. Execution code hashes describe the recorded deployment; publication hashes identify the current retrieval-only runner, settings and plan."
 }

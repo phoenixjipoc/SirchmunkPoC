@@ -1242,42 +1242,6 @@
     ]
   },
   {
-    "id": "ef3441c09824f4e73f2a",
-    "query_id": "CONS-11",
-    "question": "What is the proposal submission deadline in the Teachers' Retirement System of Oklahoma investment consultant RFP?",
-    "file": "TMRS__TMRS_RFP_General_Investment_Consulting_Services.pdf",
-    "expected_facts": "4:00 p.m. Central Time on January 14, 2026.",
-    "acceptance": "January 14, 2026, 4pm Central Time. CT or CST acceptable for the January date.",
-    "text_hash": "a98d524e6be406d219908f55d7669eccd66ebe00dac2da8fe751cb73c6c068e5",
-    "source_text_sha256": "f7992acf077bd43f56dcfe41af1dd3fdb115f4ea1c61bea284a8fb27b11a2ca2",
-    "second_check_required": true,
-    "prior_reviews": [
-      {
-        "coverage": "none",
-        "identity": "wrong",
-        "reason": "The document is a 2022 Texas Municipal Retirement System RFP, not the Teachers' Retirement System of Oklahoma investment consultant RFP. Its submission deadline is different, so it does not support the requested deadline.",
-        "quotes": [
-          "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
-          "Responses must be received no later than 5:00 p.m. Central Standard Time (CST) on March 3, 2022."
-        ],
-        "quote_matches": [
-          {
-            "quote": "This Request for Proposal (“RFP”) is being issued by the Texas Municipal Retirement System (“TMRS”).",
-            "start": 4270,
-            "end": 4370
-          },
-          {
-            "quote": "Responses must be received no later than 5:00 p.m. Central Standard Time (CST) on March 3, 2022.",
-            "start": 410,
-            "end": 506
-          }
-        ],
-        "all_quotes_grounded": true,
-        "reviewer": "A"
-      }
-    ]
-  },
-  {
     "id": "e567eed8b107eac37719",
     "query_id": "CONS-12",
     "question": "How many printed copies of the proposal must be submitted in the Boston Retirement System 2022 investment consulting services RFP?",
@@ -4824,48 +4788,6 @@
     "prior_reviews": []
   },
   {
-    "id": "71945e43aaf06f46f2aa",
-    "query_id": "OTH-10",
-    "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
-    "file": "INPRS__RFP24-05_AuditServices.pdf",
-    "expected_facts": "$73,000 (Oklahoma Public Employees Retirement System, RFP 515-22-300 Q&A).",
-    "acceptance": "$73,000 for FY2021 audits suffices; issuer/RFP number optional.",
-    "text_hash": "c91a90645d9659e59cf92c848073c9a4293275c8ab6c443e5ea6557a9cce6d3a",
-    "source_text_sha256": "cd68d7342246afa44a13ddc9cd569953afbc71f71001c6d34468336403cd1683",
-    "second_check_required": true,
-    "prior_reviews": [
-      {
-        "coverage": "none",
-        "identity": "wrong",
-        "reason": "This is an Indiana Public Retirement System RFP, not the retirement system’s Q&A described in the question. It requests proposed fees but gives no total contractual fees for FY2021 audits.",
-        "quotes": [
-          "Request for Proposals (“RFP”) for Audit Services for the Indiana Public Retirement System (“INPRS” or the “System”)",
-          "INPRS is issuing this RFP in accordance with Indiana statutes governing the procurement of services and certain administrative policies of INPRS.",
-          "Please provide details (including estimated hours and hourly rates) on your proposed fees for each of the Services described in Section 3- Scope of Services"
-        ],
-        "quote_matches": [
-          {
-            "quote": "Request for Proposals (“RFP”) for Audit Services for the Indiana Public Retirement System (“INPRS” or the “System”)",
-            "start": 2169,
-            "end": 2284
-          },
-          {
-            "quote": "INPRS is issuing this RFP in accordance with Indiana statutes governing the procurement of services and certain administrative policies of INPRS.",
-            "start": 5031,
-            "end": 5176
-          },
-          {
-            "quote": "Please provide details (including estimated hours and hourly rates) on your proposed fees for each of the Services described in Section 3- Scope of Services",
-            "start": 21185,
-            "end": 21341
-          }
-        ],
-        "all_quotes_grounded": true,
-        "reviewer": "A"
-      }
-    ]
-  },
-  {
     "id": "8c9c24c9345bf0081eb9",
     "query_id": "OTH-10",
     "question": "In the Q&A for an external audit RFP for a retirement system whose general ledger system is Microsoft Dynamics SL, what were the total contractual fees for the prior year (FY2021) audits?",
@@ -5082,36 +5004,6 @@
     "prior_reviews": []
   },
   {
-    "id": "c77aaa7c6b6f18f83929",
-    "query_id": "OTH-11",
-    "question": "What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2017?",
-    "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
-    "expected_facts": "November 27, 2017 by 4:30 p.m. (H.S.T.).",
-    "acceptance": "November27,2017 at 4:30pm HST; equivalent date/time format accepted.",
-    "text_hash": "ba38eb84b9e6630e06869a17bd0a8d39bbd7f3fbf79cf38deccbc05584512bde",
-    "source_text_sha256": "71f7dc2105be0914ed5549193987a3d5f6eda22588e7c5e025dd27c5e41ee8a0",
-    "second_check_required": true,
-    "prior_reviews": [
-      {
-        "coverage": "none",
-        "identity": "wrong",
-        "reason": "The document is a 2024 private equity consultant RFP from the Teachers’ Retirement System of Illinois, not the 2017 Hawaii ERS RFP. Its deadline does not support the requested deadline.",
-        "quotes": [
-          "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024 Responses due 2:00 CDT, Wednesday, September 4, 2024"
-        ],
-        "quote_matches": [
-          {
-            "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024 Responses due 2:00 CDT, Wednesday, September 4, 2024",
-            "start": 13,
-            "end": 212
-          }
-        ],
-        "all_quotes_grounded": true,
-        "reviewer": "A"
-      }
-    ]
-  },
-  {
     "id": "4d7a91c4569e61184158",
     "query_id": "OTH-12",
     "question": "What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2022?",
@@ -5158,42 +5050,6 @@
     "source_text_sha256": "698b71034e03dda497378807f02ef9875cc985ad2aafde5d24accec7bdff2d4b",
     "second_check_required": false,
     "prior_reviews": []
-  },
-  {
-    "id": "c7c19a100765adc2bed1",
-    "query_id": "OTH-12",
-    "question": "What was the proposal deadline in the Hawaii ERS RFP for private equity consulting services published in 2022?",
-    "file": "TRS_Illinois__FY25-RFP-Private-Equity-Investment-Consultant.pdf",
-    "expected_facts": "September 30, 2022 by 4:30 p.m. (H.S.T.) (RFP 2022-04, issued August 29, 2022).",
-    "acceptance": "Accept date/time/Hawaii Standard Time equivalents. Issue date, RFP number and later best-and-final deadline are optional context.",
-    "text_hash": "ba38eb84b9e6630e06869a17bd0a8d39bbd7f3fbf79cf38deccbc05584512bde",
-    "source_text_sha256": "71f7dc2105be0914ed5549193987a3d5f6eda22588e7c5e025dd27c5e41ee8a0",
-    "second_check_required": true,
-    "prior_reviews": [
-      {
-        "coverage": "none",
-        "identity": "wrong",
-        "reason": "The document is a 2024 RFP from the Teachers’ Retirement System of the State of Illinois, not the 2022 Hawaii ERS RFP. Its proposal deadline does not support the requested deadline.",
-        "quotes": [
-          "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
-          "All proposals must be received at the address designated below no later than 2:00 P.M. CDT on Wednesday, September 4, 2024."
-        ],
-        "quote_matches": [
-          {
-            "quote": "Teachers’ Retirement System of the State of Illinois REQUEST FOR PROPOSALS FOR PRIVATE EQUITY INVESTMENT CONSULTANT SERVICES Issued August 7, 2024",
-            "start": 13,
-            "end": 159
-          },
-          {
-            "quote": "All proposals must be received at the address designated below no later than 2:00 P.M. CDT on Wednesday, September 4, 2024.",
-            "start": 18190,
-            "end": 18313
-          }
-        ],
-        "all_quotes_grounded": true,
-        "reviewer": "A"
-      }
-    ]
   },
   {
     "id": "5c9723d9be5ede6903ff",
@@ -6028,54 +5884,6 @@
     "source_text_sha256": "33e6d0f3b03cb97414ead33bc97801d7ca7b3799f628c39bac87276153cef3fe",
     "second_check_required": false,
     "prior_reviews": []
-  },
-  {
-    "id": "56e5a1c41cd228d9503b",
-    "query_id": "SVC-04",
-    "question": "In the Contra Costa County Employees' Retirement Association (CCCERA) April 2018 master custodian RFP, how many copies of the proposal must be submitted, and for how long must the proposal remain a firm and irrevocable offer?",
-    "file": "SBCERA__investment_consultant_-_request_for_proposals.pdf",
-    "expected_facts": "One (1) original proposal, four (4) hard copies and one (1) copy in electronic form; the proposal must be a firm and irrevocable offer good for one year from the proposal due date (due 5:00 p.m. PT, Friday, May 25, 2018).",
-    "acceptance": "Accept five paper sets total if the original is clearly included, plus one electronic copy; validity one year from due date. Actual proposal deadline is optional.",
-    "text_hash": "73a211d25704cd40542a3505df46faf10d19379d806cf48206f01f9d9cb8fe3c",
-    "source_text_sha256": "84c0516b95d11d6444cd8b9463d95a6569acd34bb54cbc16e1b70c586ad78095",
-    "second_check_required": true,
-    "prior_reviews": [
-      {
-        "coverage": "none",
-        "identity": "wrong",
-        "reason": "The document is a March 2021 San Bernardino County investment consulting RFP, not CCCERA’s April 2018 master custodian RFP. Its email-only submission requirement and 240-day offer period do not support the requested copy count or one-year period.",
-        "quotes": [
-          "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
-          "March | 2021",
-          "Proposals must be submitted electronically to the RFP Administrator, InvestmentsRFP@sbcera.org by the due date stated above in the Key Dates and Other Information section.",
-          "A statement to the effect that the proposal is a firm and irrevocable offer good for 240 days from the proposal due date."
-        ],
-        "quote_matches": [
-          {
-            "quote": "SAN BERNARDINO COUNTY EMPLOYEES’ RETIREMENT ASSOCIATION REQUEST FOR PROPOSAL (RFP) FOR INVESTMENT CONSULTING SERVICES",
-            "start": 13,
-            "end": 130
-          },
-          {
-            "quote": "March | 2021",
-            "start": 235,
-            "end": 247
-          },
-          {
-            "quote": "Proposals must be submitted electronically to the RFP Administrator, InvestmentsRFP@sbcera.org by the due date stated above in the Key Dates and Other Information section.",
-            "start": 13422,
-            "end": 13593
-          },
-          {
-            "quote": "A statement to the effect that the proposal is a firm and irrevocable offer good for 240 days from the proposal due date.",
-            "start": 15122,
-            "end": 15243
-          }
-        ],
-        "all_quotes_grounded": true,
-        "reviewer": "A"
-      }
-    ]
   },
   {
     "id": "431d9030bd54834932dc",
@@ -8694,54 +8502,6 @@
     "prior_reviews": []
   },
   {
-    "id": "7ca0f4830a5678a8827a",
-    "query_id": "XD-09",
-    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
-    "file": "OCERS__investment_consultant_services_rfp.pdf",
-    "expected_facts": "Five appendices (A-E): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Fund; E - Templates: Portfolio Investments.",
-    "acceptance": "Accept five with the five titles; punctuation, Templates prefixes and order variations do not change meaning.",
-    "text_hash": "5b64c217e92c2749a5177225f6fda52ea0dd775fcbdd0d850a456eb5dfcd1a1f",
-    "source_text_sha256": "31ba78f454a82dc69e8946299253c94f905a157c0bee42fe28fb33f65c2dcfa1",
-    "second_check_required": true,
-    "prior_reviews": [
-      {
-        "coverage": "none",
-        "identity": "wrong",
-        "reason": "The document is an OCERS Investment Consultant Services RFP, not the ILPA Due Diligence Questionnaire v1.2. Its lettered appendices have different titles and run from A through G; it does not explicitly describe the ILPA questionnaire’s table of contents.",
-        "quotes": [
-          "Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
-          "Appendix A: Intent to Respond",
-          "Appendix B: Proposal Cover Page and Checklist",
-          "Appendix G: Questionnaire"
-        ],
-        "quote_matches": [
-          {
-            "quote": "Requests for Proposal Issued August 2021 Orange County Employees Retirement System (OCERS)",
-            "start": 117,
-            "end": 207
-          },
-          {
-            "quote": "Appendix A: Intent to Respond",
-            "start": 26605,
-            "end": 26634
-          },
-          {
-            "quote": "Appendix B: Proposal Cover Page and Checklist",
-            "start": 2338,
-            "end": 2383
-          },
-          {
-            "quote": "Appendix G: Questionnaire",
-            "start": 3131,
-            "end": 3156
-          }
-        ],
-        "all_quotes_grounded": true,
-        "reviewer": "A"
-      }
-    ]
-  },
-  {
     "id": "220f5246b1e297baca48",
     "query_id": "XD-09",
     "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire v1.2 list in its table of contents, and what are they?",
@@ -8896,54 +8656,6 @@
     "source_text_sha256": "cd68d7342246afa44a13ddc9cd569953afbc71f71001c6d34468336403cd1683",
     "second_check_required": false,
     "prior_reviews": []
-  },
-  {
-    "id": "f3309d3cb3a166183b0d",
-    "query_id": "XD-10",
-    "question": "How many lettered appendices does the ILPA Due Diligence Questionnaire 2.0 list in its table of contents, and what are they?",
-    "file": "INREV__INREV-DDQ-2022-Funds-of-Funds-and-Multi-Manager.docx",
-    "expected_facts": "Eight appendices (A-H): A - Requested Documents; B - Templates: Team Members; C - Templates: References; D - Templates: Third-Party(s) and Technology Tool(s); E - Templates: Fund; F - Templates: Portfolio Investments; G - Templates: GP-Led Secondaries / Continuation Funds; H - Templates: Credit Facilities. Compared with v1.2, the new ones are the Third-Party/Technology, GP-Led Secondaries / Continuation Funds and Credit Facilities templates, and the Fund and Portfolio Investments templates move to E and F.",
-    "acceptance": "Require count eight and all eight titles or unambiguous short equivalents. v1.2 comparison is optional.",
-    "text_hash": "8001c2935fd31d857e13d33885aca5873ce1465a74d1278f1e59f19d21fdfb34",
-    "source_text_sha256": "f8a7e1654c092344faef93294e84556e3d65ac1d18c78ee01b0fed8bc16b22fb",
-    "second_check_required": true,
-    "prior_reviews": [
-      {
-        "coverage": "none",
-        "identity": "wrong",
-        "reason": "The document is an INREV Funds of Funds / Multi Manager DDQ, not the ILPA Due Diligence Questionnaire 2.0. Its table of contents does not list the requested lettered appendices; the A–H entries elsewhere are Data Room information requests, not appendices.",
-        "quotes": [
-          "Funds of Funds / Multi Manager DDQ 2022",
-          "The Due Diligence Questionnaire (DDQ) for Funds of Funds and Multi Manager (INREV FoF / MM DDQ) is part of the due diligence protocol which was first launched in April 2007.",
-          "Data Room41 Appendix42",
-          "Information requested Question Information included or reference to PPM Advanced Stage A Breakdown of gross-to-net returns 2.1.1.4"
-        ],
-        "quote_matches": [
-          {
-            "quote": "Funds of Funds / Multi Manager DDQ 2022",
-            "start": 61797,
-            "end": 61836
-          },
-          {
-            "quote": "The Due Diligence Questionnaire (DDQ) for Funds of Funds and Multi Manager (INREV FoF / MM DDQ) is part of the due diligence protocol which was first launched in April 2007.",
-            "start": 1256,
-            "end": 1429
-          },
-          {
-            "quote": "Data Room41 Appendix42",
-            "start": 938,
-            "end": 960
-          },
-          {
-            "quote": "Information requested Question Information included or reference to PPM Advanced Stage A Breakdown of gross-to-net returns 2.1.1.4",
-            "start": 55289,
-            "end": 55419
-          }
-        ],
-        "all_quotes_grounded": true,
-        "reviewer": "A"
-      }
-    ]
   },
   {
     "id": "aab6895d03ff6864fc47",

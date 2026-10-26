@@ -19,7 +19,7 @@ def norm(t): return re.sub(r'\s+',' ',t).strip()
 
 def results():
     groups={'R1':{p.stem:read(p) for p in (HERE/'baseline').glob('*.json')}}
-    for group in ['R2','R3','S','D','P','P0']:
+    for group in ['R2','R3','D','P','P0']:
         folder=HERE/'runs'/group/'queries'
         if folder.exists(): groups[group]={p.stem:read(p) for p in folder.glob('*.json')}
     for group,key in [('K','keyword_files'),('T','directory_files')]:

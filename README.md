@@ -13,11 +13,10 @@ The primary measure uses **98 single-document questions**. The other 22 question
 
 - Baseline: Top-1 **52.04% (51/98)**, Top-5 **75.51% (74/98)** and Top-10 **81.63% (80/98)**.
 - Three repeated runs: Top-1 **45.92%–52.04%**, averaging **50.00%**; 38 questions change between a first-position hit and miss.
-- Reranking the baseline's first ten candidates: Top-1 **80.61% (79/98)**; Top-10 stays **81.63% (80/98)**.
 - Considering all 81 directory candidates: Top-10 **91.84% (90/98)** and Top-1 **55.10% (54/98)**.
 - Legacy-document parser repair: readable text from **81/81** documents instead of 80/81; one additional required source found for XD-16, with no change to single-document Top-1 in the controlled comparison.
 
-Ranking, directory coverage and parsing were tested separately. Their combined effect was not measured. These are results on an exposed benchmark, not an unseen test set.
+Directory coverage and parsing were tested separately. Their combined effect was not measured. These are results on an exposed benchmark, not an unseen test set.
 
 See the [full results](retrieval/followup120/reports/REPORT.md), [per-question scores](retrieval/followup120/reports/questions.csv), [ordered references](retrieval/followup120/reports/references.csv) and [original retrieval baseline](retrieval/reports/basic120/REPORT.md).
 
@@ -41,7 +40,7 @@ Reference facts and acceptance criteria are used only for source assessment. Ret
 
 ## Workflow and files
 
-Queries use keyword discovery and directory selection, followed by an ordered, deduplicated file list. The baseline keeps keyword files first; the follow-up isolates repeatability, ranking, directory coverage and parsing. Source checks and scoring run separately from retrieval.
+Queries use keyword discovery and directory selection, followed by an ordered, deduplicated file list. The baseline keeps keyword files first; the follow-up isolates repeatability, directory coverage and parsing. Source checks and scoring run separately from retrieval.
 
 - `poc_docs/S/`: original search documents.
 - `poc/corpus/`: download records and corpus preparation.
@@ -63,4 +62,4 @@ python retrieval/validate.py
 python retrieval/followup120/validate.py
 ```
 
-The [execution record](retrieval/followup120/EXECUTION.md) retains recovery details. The [parser correction record](retrieval/followup120/PARSER_CORRECTION.md) explains the excluded first attempt and corrected replay. All 74 follow-up checks passed.
+The [execution record](retrieval/followup120/EXECUTION.md) retains recovery details. The [parser correction record](retrieval/followup120/PARSER_CORRECTION.md) explains the excluded first attempt and corrected replay. See the saved validation report for the current checks.

@@ -47,7 +47,7 @@ def refresh_dns():
 
 
 def pending_groups():
-    code="from pathlib import Path; import json; r=Path('/retrieval_followup_20261023'); print(json.dumps([g for g in ['R2','R3','S','D'] if not (r/'runs'/g/'complete.json').exists()]))"
+    code="from pathlib import Path; import json; r=Path('/retrieval_followup_20261023'); print(json.dumps([g for g in ['R2','R3','D'] if not (r/'runs'/g/'complete.json').exists()]))"
     p=command(['docker','exec',CONTAINER,'python','-c',code],capture_output=True,text=True,encoding='utf-8')
     return json.loads(p.stdout)
 
@@ -85,23 +85,35 @@ def remote_stage(name,script,extra=(),transport=True):
     raise RuntimeError(f'{name}: recovery limit reached')
 
 
+def collect_runs(groups):
+    for group in groups:
+        if group not in {'R2','R3','D','P0','P'}:
+            raise ValueError('Unsupported retrieval group')
+        local=HERE/'runs'/group
+        local.mkdir(parents=True,exist_ok=True)
+        collect(REMOTE+'/runs/'+group+'/.',local)
+
+
 def collect_retrieval():
     (HERE/'runs').mkdir(exist_ok=True)
-    collect(REMOTE+'/runs/.',HERE/'runs')
+    collect_runs(['R2','R3','D'])
     for name in ['progress.jsonl','retrieval_complete.json','transport_events.jsonl']:
         collect(REMOTE+'/'+name,HERE/name)
+    progress=HERE/'progress.jsonl'
+    progress.write_bytes(b''.join(line for line in progress.read_bytes().splitlines(keepends=True)
+        if json.loads(line).get('group') in {'R2','R3','D'}))
 
 
 def main():
     remaining=pending_groups()
     if remaining: remote_stage('retrieval','experiment.py',['--groups',*remaining])
-    assert not pending_groups(), 'Not all four retrieval stages completed'
+    assert not pending_groups(), 'Not all three retrieval stages completed'
     collect_retrieval()
     event(action='all_retrieval_collected')
     for name in ['legacy_adapter.py','parser_replay.py','parser_freeze.json']:
         deploy(HERE/name,REMOTE+'/'+name)
     remote_stage('parser','parser_replay.py',transport=False)
-    collect(REMOTE+'/runs/.',HERE/'runs')
+    collect_runs(['P0','P'])
     for name in ['parser_validation.json','parser_progress.jsonl','parser_complete.json','legacy_rga.json']:
         collect(REMOTE+'/'+name,HERE/name)
     event(action='parser_collected')

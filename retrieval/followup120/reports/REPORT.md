@@ -12,11 +12,10 @@ Mean Hit@1 was 50.00%, with a 45.92%–52.04% range. 32/98 questions hit in all 
 
 ## Controlled comparisons
 
-- S, Fixed-candidate reranking: Hit@1 80.61% (79/98); Hit@5 81.63% (80/98); Hit@10 81.63% (80/98). MRR@10 0.8095. First-position changes against R1: gains 28, losses 0.
 - D, All 81 directory candidates: Hit@1 55.10% (54/98); Hit@5 84.69% (83/98); Hit@10 91.84% (90/98). MRR@10 0.6855. First-position changes against R1: gains 4, losses 1.
 - P, Fixed-order keyword replay with parser repair: Hit@1 51.02% (50/98); Hit@5 75.51% (74/98); Hit@10 79.59% (78/98). MRR@10 0.6188. First-position changes against P0: gains 0, losses 0.
 
-S permutes the original first ten candidates using the question and frozen directory snapshot. The snapshot contains metadata/previews and cached full text for eight short documents; those cached fields are also supplied. The candidate set stays fixed; valid permutations cannot change Hit@10. D reuses the original keyword results and changes only the directory-stage candidate budget from twenty to 81. Its result remains keyword-first. These are stage-level comparisons, not new complete search runs.
+D reuses the original keyword results and changes only the directory-stage candidate budget from twenty to 81. Its result remains keyword-first. This is a directory-stage comparison, not a new complete search run.
 
 P0: Hit@1 51.02% (50/98), Hit@10 79.59% (78/98). P and P0 replay identical frozen keyword terms and directory results on the original files. Both use fixed file-path order; P alone enables the corpus-specific legacy Word parser through the live asynchronous executor. This is a parsing diagnostic, not a proposed relevance-ranking method. Compare P with P0, not directly with R1.
 
@@ -24,8 +23,6 @@ The initial parser comparison patched an unused synchronous function. Those inva
 
 ## Examples
 
-- INV-12: reranking moves the IMRF investment-manager RFP ahead of the similarly named consulting RFP. [S result](../runs/S/queries/INV-12.json).
-- CONS-07: S still puts the TMRS consulting RFP first; the qualifying OCERS document remains third. Snapshot reranking does not resolve this numeric-qualification query. [S result](../runs/S/queries/CONS-07.json).
 - DDQ-08: the baseline returns no file; D returns the required ILPA FAQ first. [D result](../runs/D/queries/DDQ-08.json).
 - SVC-07: D puts the SBCERS custody RFP ahead of the required TMRS custody RFP, moving the correct file from first to second. [D result](../runs/D/queries/SVC-07.json).
 
@@ -34,14 +31,13 @@ The initial parser comparison patched an unused synchronous function. Those inva
 - R1: both questions hit first in 3/15 pairs; both hit within ten in 8/15. An opposite pair's exclusive source appeared incorrectly first on 2/30 paired queries. Required-source sets were complete within ten for 2/12 questions, with mean source coverage 40.83%.
 - R2: both questions hit first in 4/15 pairs; both hit within ten in 9/15. An opposite pair's exclusive source appeared incorrectly first on 3/30 paired queries. Required-source sets were complete within ten for 2/12 questions, with mean source coverage 38.33%.
 - R3: both questions hit first in 1/15 pairs; both hit within ten in 10/15. An opposite pair's exclusive source appeared incorrectly first on 6/30 paired queries. Required-source sets were complete within ten for 2/12 questions, with mean source coverage 39.65%.
-- S: both questions hit first in 8/15 pairs; both hit within ten in 8/15. An opposite pair's exclusive source appeared incorrectly first on 0/30 paired queries. Required-source sets were complete within ten for 2/12 questions, with mean source coverage 40.83%.
 - D: both questions hit first in 5/15 pairs; both hit within ten in 12/15. An opposite pair's exclusive source appeared incorrectly first on 2/30 paired queries. Required-source sets were complete within ten for 4/12 questions, with mean source coverage 58.89%.
 - P0: both questions hit first in 1/15 pairs; both hit within ten in 8/15. An opposite pair's exclusive source appeared incorrectly first on 3/30 paired queries. Required-source sets were complete within ten for 2/12 questions, with mean source coverage 40.83%.
 - P: both questions hit first in 1/15 pairs; both hit within ten in 8/15. An opposite pair's exclusive source appeared incorrectly first on 3/30 paired queries. Required-source sets were complete within ten for 2/12 questions, with mean source coverage 42.92%.
 
-Thematic question DDQ-11, listed example sources within ten: R1 3/6; R2 4/6; R3 3/6; S 3/6; D 6/6; P0 3/6; P 3/6.
+Thematic question DDQ-11, listed example sources within ten: R1 3/6; R2 4/6; R3 3/6; D 6/6; P0 3/6; P 3/6.
 
-Negative queries returning one or more suggestions: R1 9/9; R2 9/9; R3 9/9; S 9/9; D 9/9; P0 9/9; P 9/9.
+Negative queries returning one or more suggestions: R1 9/9; R2 9/9; R3 9/9; D 9/9; P0 9/9; P 9/9.
 
 The thematic question has a non-exhaustive example-source set and is reported separately. Negative queries produce document suggestions without an answerability decision; neither refusal accuracy nor a false-answer rate is inferred.
 
@@ -63,14 +59,11 @@ Keyword order changed on 71/120 queries between R1 and P0, and on 13/120 between
 - R1 first-position hits by type: detail: 28/50; medium: 9/18; pair_a: 8/15; pair_b: 6/15. Equal-weight document average: 52.72%.
 - R2 first-position hits by type: detail: 26/50; medium: 12/18; pair_a: 7/15; pair_b: 6/15. Equal-weight document average: 52.72%.
 - R3 first-position hits by type: detail: 23/50; medium: 10/18; pair_a: 5/15; pair_b: 7/15. Equal-weight document average: 46.78%.
-- S first-position hits by type: detail: 43/50; medium: 15/18; pair_a: 11/15; pair_b: 10/15. Equal-weight document average: 80.23%.
 - D first-position hits by type: detail: 28/50; medium: 10/18; pair_a: 9/15; pair_b: 7/15. Equal-weight document average: 55.73%.
 - P0 first-position hits by type: detail: 26/50; medium: 11/18; pair_a: 7/15; pair_b: 6/15. Equal-weight document average: 50.89%.
 - P first-position hits by type: detail: 26/50; medium: 11/18; pair_a: 7/15; pair_b: 6/15. Equal-weight document average: 50.89%.
 
 R1 outcome categories: top1_hit: 51; support_rank_2_5: 23; absent_from_candidates: 11; support_rank_6_10: 6; beyond_cutoff: 4; empty_retrieval: 3.
-
-S outcome categories: top1_hit: 79; absent_from_candidates: 11; outside_fixed_candidate_pool: 4; support_rank_2_5: 1; empty_retrieval: 3.
 
 D outcome categories: top1_hit: 54; support_rank_2_5: 29; beyond_cutoff: 8; support_rank_6_10: 7.
 
@@ -99,22 +92,21 @@ The repaired legacy text matches the independently audited 85,278-character text
 
 - R2: statuses {"empty_retrieval": 5, "ok": 115}; median completed-stage time 15.07s; retrieval requests 242, request errors 2, reported tokens 583,682. Failed query attempts: 2, taking 4.48s excluding endpoint checks and downtime.
 - R3: statuses {"empty_retrieval": 4, "ok": 116}; median completed-stage time 15.77s; retrieval requests 246, request errors 3, reported tokens 583,836. Failed query attempts: 3, taking 89.30s excluding endpoint checks and downtime.
-- S: statuses {"empty_retrieval": 3, "ok": 117}; median completed-stage time 3.71s; retrieval requests 95, request errors 2, reported tokens 208,738. Failed query attempts: 2, taking 1.05s excluding endpoint checks and downtime.
 - D: statuses {"empty_retrieval": 1, "ok": 119}; median completed-stage time 22.88s; retrieval requests 121, request errors 1, reported tokens 1,658,240. Failed query attempts: 1, taking 0.33s excluding endpoint checks and downtime.
 
-All successful requests have matching outbound and returned runtime identifiers. Only technical failures may be retried, with every attempt retained. Empty retrieval is a valid completed miss. Source checks run after retrieval. S/D costs are stage-only, while R1 timing included concurrent source checks; do not interpret these medians as an isolated speed comparison.
+All successful requests have matching outbound and returned runtime identifiers. Only technical failures may be retried, with every attempt retained. Empty retrieval is a valid completed miss. Source checks run after retrieval. D costs are stage-only, while R1 timing included concurrent source checks; do not interpret these medians as an isolated speed comparison.
 
 Execution spans October 23 and October 25, 2026 (UTC), with network interruptions and resumed process segments. Completed results were retained. Reported request usage excludes unavailable usage from interrupted requests; wall-clock downtime is not retrieval latency. See the execution record and supervisor events for recovery details.
 
-The source-check pool contains 974 distinct unlisted question/source associations: 411 compatible previous decisions and 563 new or upgraded jobs. New source checks used 707 requests and 12,309,020 reported tokens, separate from retrieval. The previously completed baseline source checks are not charged again in this total.
+The source-check pool contains 974 distinct unlisted question/source associations: 420 compatible previous decisions and 554 new or upgraded jobs. New source checks used 700 requests and 12,142,401 reported tokens, separate from retrieval. The previously completed baseline source checks are not charged again in this total.
 
-16 source associations received additional direct text or rendered-page review. The decisions and exact evidence are retained in [adjudications](../support_reviews/adjudications.jsonl); original check records remain intact. Usage includes the first source-check pool and the refresh after parser correction, including earlier checks that are no longer needed by the final pool. See the [pool refresh](../parser_correction_review_refresh.json).
+15 source associations received additional direct text or rendered-page review. The decisions and exact evidence are retained in [adjudications](../support_reviews/adjudications.jsonl); original check records remain intact. Usage includes the first source-check pool and the refresh after parser correction, including earlier checks that are no longer needed by the final pool. See the [pool refresh](../parser_correction_review_refresh.json).
 
 ## Limits
 
-All questions were already exposed in earlier work. This is descriptive regression testing, not an unseen holdout evaluation. No settings were tuned against these follow-up scores. Snapshot reranking includes cached text for eight documents, but does not test systematic full-text reranking of every candidate. Directory budget, ranking and parsing are isolated comparisons; their combined effect was not tested. No product acceptance threshold or production-scale claim is inferred.
+All questions were already exposed in earlier work. This is descriptive regression testing, not an unseen holdout evaluation. No settings were tuned against these follow-up scores. Directory budget and parsing are isolated comparisons; their combined effect was not tested. No product acceptance threshold or production-scale claim is inferred.
 
-Artifact validation: 74/74 checks passed.
+Artifact validation: 69/69 checks passed.
 
 ## Artifacts
 

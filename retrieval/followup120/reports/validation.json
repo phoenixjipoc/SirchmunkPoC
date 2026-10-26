@@ -2,27 +2,32 @@
   "passed": true,
   "checks": [
     {
-      "name": "retrieval_code_and_inputs_unchanged",
+      "name": "frozen_inputs_and_adapter_unchanged",
       "passed": true,
       "detail": null
     },
     {
-      "name": "parser_code_unchanged",
+      "name": "published_retrieval_files_match",
       "passed": true,
       "detail": null
     },
     {
-      "name": "scoring_code_unchanged",
+      "name": "parser_published_files_match",
       "passed": true,
       "detail": null
     },
     {
-      "name": "transport_code_unchanged",
+      "name": "scoring_published_files_match",
       "passed": true,
       "detail": null
     },
     {
-      "name": "parser_correction_code_unchanged",
+      "name": "transport_published_files_match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "parser_correction_published_files_match",
       "passed": true,
       "detail": null
     },
@@ -38,6 +43,21 @@
     },
     {
       "name": "completed_R2_results_unchanged_after_recovery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only_declared_retrieval_groups",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "runtime_groups_match_publication",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "retained_raw_results_unchanged",
       "passed": true,
       "detail": null
     },
@@ -113,36 +133,6 @@
     },
     {
       "name": "R3_valid_result_not_retried",
-      "passed": true,
-      "detail": null
-    },
-    {
-      "name": "S_exact_120_ids",
-      "passed": true,
-      "detail": null
-    },
-    {
-      "name": "S_ordered_unique_references",
-      "passed": true,
-      "detail": null
-    },
-    {
-      "name": "S_no_answer_sampling_cluster",
-      "passed": true,
-      "detail": null
-    },
-    {
-      "name": "S_model_identity",
-      "passed": true,
-      "detail": null
-    },
-    {
-      "name": "S_allowed_phases",
-      "passed": true,
-      "detail": null
-    },
-    {
-      "name": "S_valid_result_not_retried",
       "passed": true,
       "detail": null
     },
@@ -233,16 +223,6 @@
     },
     {
       "name": "T_no_answer_sampling_cluster",
-      "passed": true,
-      "detail": null
-    },
-    {
-      "name": "S_exact_same_candidate_sets",
-      "passed": true,
-      "detail": null
-    },
-    {
-      "name": "S_prompt_has_no_gold_fields",
       "passed": true,
       "detail": null
     },
@@ -363,11 +343,6 @@
     },
     {
       "name": "MRR_bounds_valid",
-      "passed": true,
-      "detail": null
-    },
-    {
-      "name": "S_top10_invariant_on_completed_permutations",
       "passed": true,
       "detail": null
     }

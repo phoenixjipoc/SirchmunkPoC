@@ -2,7 +2,7 @@
 import json
 import sys
 from pathlib import Path
-from supervise import HERE,BASE,REMOTE,CONTAINER,command,deploy,collect,remote_stage,event
+from supervise import HERE,BASE,REMOTE,CONTAINER,command,deploy,collect,collect_runs,remote_stage,event
 
 
 def main():
@@ -20,7 +20,7 @@ def main():
     deploy(HERE/'parser_correction_freeze.json',REMOTE+'/parser_correction_freeze.json')
     remote_stage('parser_corrected','parser_replay_corrected.py',['run'],transport=False)
     collect(REMOTE+'/parser_initial_invalid/.',archive)
-    collect(REMOTE+'/runs/.',HERE/'runs')
+    collect_runs(['P0','P'])
     for name in ['parser_validation.json','parser_progress.jsonl','parser_complete.json',
                  'parser_correction_smoke.json','parser_async_trace.jsonl']:
         collect(REMOTE+'/'+name,HERE/name)

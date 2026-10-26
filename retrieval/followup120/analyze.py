@@ -73,10 +73,6 @@ def main():
                 elif values[0] is None: cause='unresolved_top1_support'
                 elif first: cause='support_rank_2_5' if first<=5 else 'support_rank_6_10'
                 elif None in values: cause='unresolved_support'
-                elif group=='S':
-                    original=groups['R1'][qid]
-                    basefiles=[Path(p).name for p in original.get('merged_files',[])]
-                    cause='outside_fixed_candidate_pool' if set(basefiles)&set(s['known_supporting_sources']) else 'absent_from_candidates'
                 elif known_candidate>10: cause='beyond_cutoff'
                 else: cause='absent_from_candidates'
             row=dict(group=group,id=qid,type=s['type'],pair_id=s['pair_id'],scope=s['scope'],status=r['status'],

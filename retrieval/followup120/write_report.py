@@ -10,7 +10,7 @@ def main():
     thematic=next(q for q in all_standards if q['scope']=='thematic_examples')
     negative_ids=[q['id'] for q in all_standards if q['scope']=='negative']
     names={'R1':'Original baseline','R2':'Repeat, seed 17012','R3':'Repeat, seed 17013',
-           'S':'Fixed-candidate reranking','D':'All 81 directory candidates',
+           'D':'All 81 directory candidates',
            'P0':'Fixed-order keyword replay without parser repair','P':'Fixed-order keyword replay with parser repair',
            'K':'Keyword-only diagnostic','T':'Directory-only diagnostic'}
     def metric(g,k):
@@ -25,25 +25,23 @@ def main():
     st=s['stability']
     lines+=['',f"Mean Hit@1 was {st['mean_top1_pct']:.2f}%, with a {st['min_top1_pct']:.2f}%–{st['max_top1_pct']:.2f}% range. {st['all_three_hit']}/98 questions hit in all three runs; {st['all_three_miss']}/98 missed in all three; {st['correctness_changes']}/98 changed between hit and miss. The first filename changed on {st['top1_file_changes']}/98 questions. These are repeated observations of 98 questions, not 294 independent questions.",
         '', '## Controlled comparisons','']
-    for g in ['S','D','P']:
+    for g in ['D','P']:
         m=s['matched'][g]
         comparator='P0' if g=='P' else 'R1'
         lines.append(f"- {g}, {names[g]}: Hit@1 {metric(g,1)}; Hit@5 {metric(g,5)}; Hit@10 {metric(g,10)}. MRR@10 {groups[g]['mrr10_lower']:.4f}. First-position changes against {comparator}: gains {m['gains']}, losses {m['losses']}.")
     lines+=['',
-        'S permutes the original first ten candidates using the question and frozen directory snapshot. The snapshot contains metadata/previews and cached full text for eight short documents; those cached fields are also supplied. The candidate set stays fixed; valid permutations cannot change Hit@10. D reuses the original keyword results and changes only the directory-stage candidate budget from twenty to 81. Its result remains keyword-first. These are stage-level comparisons, not new complete search runs.',
+        'D reuses the original keyword results and changes only the directory-stage candidate budget from twenty to 81. Its result remains keyword-first. This is a directory-stage comparison, not a new complete search run.',
         '',f"P0: Hit@1 {metric('P0',1)}, Hit@10 {metric('P0',10)}. P and P0 replay identical frozen keyword terms and directory results on the original files. Both use fixed file-path order; P alone enables the corpus-specific legacy Word parser through the live asynchronous executor. This is a parsing diagnostic, not a proposed relevance-ranking method. Compare P with P0, not directly with R1.",
         '', 'The initial parser comparison patched an unused synchronous function. Those invalid comparison records are preserved separately. A real keyword-tool integration check passed before the corrected 120-question replay. See the [correction record](../PARSER_CORRECTION.md).',
         '', '## Examples','',
-        '- INV-12: reranking moves the IMRF investment-manager RFP ahead of the similarly named consulting RFP. [S result](../runs/S/queries/INV-12.json).',
-        '- CONS-07: S still puts the TMRS consulting RFP first; the qualifying OCERS document remains third. Snapshot reranking does not resolve this numeric-qualification query. [S result](../runs/S/queries/CONS-07.json).',
         '- DDQ-08: the baseline returns no file; D returns the required ILPA FAQ first. [D result](../runs/D/queries/DDQ-08.json).',
         '- SVC-07: D puts the SBCERS custody RFP ahead of the required TMRS custody RFP, moving the correct file from first to second. [D result](../runs/D/queries/SVC-07.json).',
         '', '## Similar questions and combined sources','']
-    for g in ['R1','R2','R3','S','D','P0','P']:
+    for g in ['R1','R2','R3','D','P0','P']:
         r=groups[g]
         lines.append(f"- {g}: both questions hit first in {r['pairs_both']['1']}/15 pairs; both hit within ten in {r['pairs_both']['10']}/15. An opposite pair's exclusive source appeared incorrectly first on {r['opposite_first']}/30 paired queries. Required-source sets were complete within ten for {r['required_combinations']['10']['complete']}/12 questions, with mean source coverage {100*r['required_combinations']['10']['mean_coverage']:.2f}%.")
     theme_counts=[]; negative_counts=[]
-    for g in ['R1','R2','R3','S','D','P0','P']:
+    for g in ['R1','R2','R3','D','P0','P']:
         found={r['file'] for r in all_records[g][thematic['id']]['references']} & set(thematic['required_sources'])
         theme_counts.append(f"{g} {len(found)}/{len(thematic['required_sources'])}")
         negative_counts.append(f"{g} {sum(bool(all_records[g][q]['references']) for q in negative_ids)}/9")
@@ -62,11 +60,11 @@ def main():
         '',f"D included and returned ranking records for all 81 filenames on every query. High-relevance files absent from the supplied candidates occurred on {dp['queries_with_high_file_not_in_prompt']} queries. All 98 verified single-document sources occurred in the merged candidate lists; eight fell beyond the ten-file cutoff.",
         '',f"Keyword order changed on {pp['original_vs_control_order_changes']}/120 queries between R1 and P0, and on {pp['control_vs_repaired_order_changes']}/120 between P0 and P. Excluding the legacy file, P0/P order changed on {pp['nonlegacy_order_changes']}/120 and membership changed on {pp['nonlegacy_set_changes']}/120. The legacy file appeared in keyword results on {pp['legacy_discovered_control']} control queries and {pp['legacy_discovered_repaired']} repaired queries. The fixed-order comparison isolates parser effects from native file-order variation.",
         '', '## Question types and failures','']
-    for g in ['R1','R2','R3','S','D','P0','P']:
+    for g in ['R1','R2','R3','D','P0','P']:
         types=groups[g]['by_type']
         breakdown='; '.join(f"{t}: {v['1']['hits']}/{v['1']['n']}" for t,v in types.items())
         lines.append(f"- {g} first-position hits by type: {breakdown}. Equal-weight document average: {groups[g]['macro_document_top1_lower_pct']:.2f}%.")
-    for g in ['R1','S','D','P']:
+    for g in ['R1','D','P']:
         breakdown='; '.join(f"{k}: {v}" for k,v in groups[g]['failures'].items())
         lines+=['',f"{g} outcome categories: {breakdown}."]
     lines+=['', 'Candidate absence and cutoff categories use the verified source list. Files outside the returned ten were not exhaustively assessed. A missed candidate alone does not establish a parsing or version-selection failure.',
@@ -96,19 +94,19 @@ def main():
     lines+=['',
         'The repaired legacy text matches the independently audited 85,278-character text after line-ending normalization. The adapter reads the original Word97 piece table, retains field codes and flattens table cells. It is limited to the single frozen legacy file. A readable text event is not proof of correct layout or complete extraction for every document.',
         '']
-    for g in ['R2','R3','S','D']:
+    for g in ['R2','R3','D']:
         r=groups[g]
         lines.append(f"- {g}: statuses {json.dumps(r['statuses'],sort_keys=True)}; median completed-stage time {r['median_query_s']:.2f}s; retrieval requests {r['calls']}, request errors {r['call_errors']}, reported tokens {r['total_tokens']:,}. Failed query attempts: {r['technical_attempts']}, taking {r['technical_attempt_seconds']:.2f}s excluding endpoint checks and downtime.")
     manifest=read(HERE/'review_inputs/manifest.json')
     adjfile=HERE/'support_reviews/adjudications.jsonl'
     adjudications=[json.loads(l) for l in adjfile.read_text(encoding='utf-8').splitlines()] if adjfile.exists() else []
     lines+=['',
-        'All successful requests have matching outbound and returned runtime identifiers. Only technical failures may be retried, with every attempt retained. Empty retrieval is a valid completed miss. Source checks run after retrieval. S/D costs are stage-only, while R1 timing included concurrent source checks; do not interpret these medians as an isolated speed comparison.',
+        'All successful requests have matching outbound and returned runtime identifiers. Only technical failures may be retried, with every attempt retained. Empty retrieval is a valid completed miss. Source checks run after retrieval. D costs are stage-only, while R1 timing included concurrent source checks; do not interpret these medians as an isolated speed comparison.',
         '', 'Execution spans October 23 and October 25, 2026 (UTC), with network interruptions and resumed process segments. Completed results were retained. Reported request usage excludes unavailable usage from interrupted requests; wall-clock downtime is not retrieval latency. See the execution record and supervisor events for recovery details.',
         '',f"The source-check pool contains {manifest['pooled_unlisted_associations']} distinct unlisted question/source associations: {manifest['reused']} compatible previous decisions and {manifest['new_or_upgraded_jobs']} new or upgraded jobs. New source checks used {s['source_check_usage']['calls']} requests and {s['source_check_usage']['total_tokens']:,} reported tokens, separate from retrieval. The previously completed baseline source checks are not charged again in this total.",
         '',f"{len(adjudications)} source associations received additional direct text or rendered-page review. The decisions and exact evidence are retained in [adjudications](../support_reviews/adjudications.jsonl); original check records remain intact. Usage includes the first source-check pool and the refresh after parser correction, including earlier checks that are no longer needed by the final pool. See the [pool refresh](../parser_correction_review_refresh.json).",
         '', '## Limits','',
-        'All questions were already exposed in earlier work. This is descriptive regression testing, not an unseen holdout evaluation. No settings were tuned against these follow-up scores. Snapshot reranking includes cached text for eight documents, but does not test systematic full-text reranking of every candidate. Directory budget, ranking and parsing are isolated comparisons; their combined effect was not tested. No product acceptance threshold or production-scale claim is inferred.',
+        'All questions were already exposed in earlier work. This is descriptive regression testing, not an unseen holdout evaluation. No settings were tuned against these follow-up scores. Directory budget and parsing are isolated comparisons; their combined effect was not tested. No product acceptance threshold or production-scale claim is inferred.',
         '',f"Artifact validation: {sum(c['passed'] for c in checks['checks'])}/{len(checks['checks'])} checks passed.",
         '', '## Artifacts','',
         '- [All question scores](questions.csv) and [ordered references](references.csv).',

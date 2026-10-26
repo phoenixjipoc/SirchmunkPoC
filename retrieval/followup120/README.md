@@ -1,10 +1,10 @@
 # Retrieval follow-up
 
-The same 120 questions and 81 raw documents are used throughout. The [plan](PLAN.md) defines repeated runs, fixed-candidate reranking, directory coverage and a separate legacy parser comparison. Original results are preserved in [the baseline report](../reports/basic120/REPORT.md).
+The same 120 questions and 81 raw documents are used throughout. The [plan](PLAN.md) defines repeated runs, directory coverage and a separate legacy parser comparison. Original results are preserved in [the baseline report](../reports/basic120/REPORT.md).
 
 ## Files
 
-- `experiment.py`: full repeats and controlled ranking/directory runs.
+- `experiment.py`: full repeats and controlled directory runs.
 - `legacy_adapter.py`, `parser_replay.py` and `parser_replay_corrected.py`: Word97 parser, retained replay routine and corrected asynchronous integration.
 - `prepare_support.py` and `check_support.py`: pool source checks, reuse unchanged evidence and check new associations after retrieval.
 - `analyze.py`: hit rates, reciprocal rank, repeated-run agreement, document averages and matched changes.
@@ -37,4 +37,5 @@ After that supervisor finishes, run `python retrieval/followup120/complete_parse
 
 On a resumed group, `complete.json` records the latest process segment. Use per-query records and request logs for complete usage; do not treat that segment duration as the full campaign duration.
 
-S uses the frozen directory snapshot, including cached full text for eight short documents. See the [snapshot clarification](EXECUTION.md#snapshot-clarification); it is not limited to filenames or previews.
+
+Published groups are R1, R2, R3, D, P0 and P; K/T are diagnostic views. The [publication scope](publication_scope.json) verifies retained raw result bytes. Frozen input hashes and installed-source hashes describe execution; publication hashes identify the current scripts and documentation.

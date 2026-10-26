@@ -14,7 +14,7 @@ The adapter uses DEEP keyword extraction, keyword search and directory selection
 - Pin the configured runtime and base seed. Compare the identifier in each outbound request with the raw response; stop on a mismatch. Non-streaming transport allows validation before wrapper fallback logic.
 - Freeze document hashes, questions, acceptance rules, source code hashes and directory metadata before execution. Benchmark input files contain no standard answers or source labels.
 - Share only document parsing caches and immutable directory metadata. Every query gets fresh keyword, ranking and search context. Parsing caches contain document text, not previous answers or rankings.
-- Preserve native candidate order: keyword-discovered files first, then high-relevance directory files, removing duplicates. Directory selection retains the installed random twenty-file sample. This is the actual operational order, not a newly added semantic reranker.
+- Preserve native candidate order: keyword-discovered files first, then high-relevance directory files, removing duplicates. Directory selection retains the installed random twenty-file sample. This native operational order defines the returned ranks.
 - Record all candidates before truncation, the returned ten, keyword logs, directory inputs, call records, errors and elapsed time. Latency excludes cache warmup and includes both discovery paths.
 
 ## Scoring

@@ -3,8 +3,6 @@
 {"time_utc": "2026-10-23T08:42:28Z", "action": "stage_exited", "stage": "retrieval", "attempt": 1, "exit_code": 1}
 {"time_utc": "2026-10-23T08:42:28Z", "action": "network_recovery_wait", "stage": "retrieval", "seconds": 30}
 {"time_utc": "2026-10-23T08:43:00Z", "action": "host_dns_refreshed", "addresses": ["162.159.140.245", "172.66.0.243"]}
-{"time_utc": "2026-10-23T08:43:02Z", "action": "stage_started", "stage": "retrieval", "attempt": 2, "log": "retrieval_1792744982_2.log"}
-{"time_utc": "2026-10-23T08:47:34Z", "action": "stage_exited", "stage": "retrieval", "attempt": 2, "exit_code": 1}
 {"time_utc": "2026-10-23T08:47:34Z", "action": "network_recovery_wait", "stage": "retrieval", "seconds": 30}
 {"time_utc": "2026-10-23T08:48:05Z", "action": "host_dns_refreshed", "addresses": ["162.159.140.245", "172.66.0.243"]}
 {"time_utc": "2026-10-23T08:48:05Z", "action": "stage_started", "stage": "retrieval", "attempt": 3, "log": "retrieval_1792745285_3.log"}
@@ -31,7 +29,7 @@
 {"time_utc": "2026-10-25T15:31:45Z", "action": "stage_started", "stage": "parser", "attempt": 1, "log": "parser_1792942305_1.log"}
 {"time_utc": "2026-10-25T15:46:16Z", "action": "stage_exited", "stage": "parser", "attempt": 1, "exit_code": 0}
 {"time_utc": "2026-10-25T15:46:52Z", "action": "parser_collected"}
-{"time_utc": "2026-10-25T15:47:21Z", "action": "source_check_jobs_prepared", "manifest": {"groups": ["R1", "R2", "R3", "S", "D", "P", "P0", "K", "T"], "pooled_unlisted_associations": 1001, "reused": 402, "new_or_upgraded_jobs": 599, "upgrades": 71}}
+{"time_utc": "2026-10-25T15:47:21Z", "action": "source_check_jobs_prepared", "manifest": {"groups": ["R1", "R2", "R3", "D", "P", "P0", "K", "T"], "pooled_unlisted_associations": 1001, "reused": 409, "new_or_upgraded_jobs": 592, "upgrades": 64}}
 {"time_utc": "2026-10-25T15:47:25Z", "action": "host_dns_refreshed", "addresses": ["162.159.140.245", "172.66.0.243"]}
 {"time_utc": "2026-10-25T15:47:25Z", "action": "stage_started", "stage": "source_checks", "attempt": 1, "log": "source_checks_1792943245_1.log"}
 {"time_utc": "2026-10-25T15:54:58Z", "action": "stage_exited", "stage": "source_checks", "attempt": 1, "exit_code": 0}
